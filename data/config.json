@@ -1,0 +1,15 @@
+{
+  "search_query": "((deep learning[Title/Abstract] OR \"neural network*\"[Title/Abstract] OR transformer[Title/Abstract]) AND (ECG[Title/Abstract] OR electrocardiogram[Title/Abstract] OR electrocardiography[Title/Abstract]) AND (\"signal processing\"[Title/Abstract] OR classification[Title/Abstract] OR diagnosis[Title/Abstract] OR denoising[Title/Abstract])) AND (\"journal article\"[Publication Type])",
+  "max_results": 15,
+  "lookback_days": 90,
+  "refresh_interval_hours": 24,
+  "tool_name": "ecg-paper-radar",
+  "contact_email": "",
+  "push_enabled": false,
+  "push_channel": "serverchan",
+  "push_time": "09:00",
+  "push_timezone": "Asia/Shanghai",
+  "push_max_papers": 5,
+  "serverchan_sendkey": "SCT328417TmmSkVipiBbMQ9omKhJOa8Em0",
+  "wecom_webhook_url": ""
+}

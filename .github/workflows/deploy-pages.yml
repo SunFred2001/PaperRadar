@@ -1,0 +1,81 @@
+name: Deploy Paper Radar
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'push' || github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Out Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set Up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build Static Site
+        env:
+          CONTACT_EMAIL: ${{ secrets.NCBI_CONTACT_EMAIL }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          FORCE_REFRESH: ${{ github.event_name == 'push' && '1' || github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          ENABLE_DAILY_PUSH: ${{ github.event_name == 'schedule' && '1' || '0' }}
+        run: |
+          args=(--site-dir site)
+          if [ "$FORCE_REFRESH" = "1" ]; then
+            args+=(--force-refresh)
+          fi
+          if [ "$ENABLE_DAILY_PUSH" = "1" ]; then
+            args+=(--send-daily-push)
+          fi
+          python scripts/build_static_site.py "${args[@]}"
+
+      - name: Commit Updated Feed Data
+        run: |
+          if [[ -n "$(git status --porcelain data)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/papers_cache.json data/dashboard.json
+            git commit -m "chore: update paper feed [skip ci]"
+            git push
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

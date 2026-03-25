@@ -1,0 +1,341 @@
+{
+  "config": {
+    "search_query": "((deep learning[Title/Abstract] OR \"neural network*\"[Title/Abstract] OR transformer[Title/Abstract]) AND (ECG[Title/Abstract] OR electrocardiogram[Title/Abstract] OR electrocardiography[Title/Abstract]) AND (\"signal processing\"[Title/Abstract] OR classification[Title/Abstract] OR diagnosis[Title/Abstract] OR denoising[Title/Abstract])) AND (\"journal article\"[Publication Type])",
+    "max_results": 15,
+    "lookback_days": 90,
+    "refresh_interval_hours": 24,
+    "tool_name": "ecg-paper-radar",
+    "contact_email": "",
+    "push_enabled": false,
+    "push_channel": "serverchan",
+    "push_time": "09:00",
+    "push_timezone": "Asia/Shanghai",
+    "push_max_papers": 5,
+    "serverchan_sendkey": "",
+    "wecom_webhook_url": ""
+  },
+  "cache": {
+    "source": "PubMed",
+    "status": "ready",
+    "message": "Refresh complete.",
+    "last_attempt_at": "2026-03-24T14:55:32.405855+00:00",
+    "last_success_at": "2026-03-24T14:55:39.380393+00:00",
+    "count": 15,
+    "papers": [
+      {
+        "pmid": "41631200",
+        "title": "Exploring the potential of large language models in healthcare: a focus on cardiovascular disease analysis.",
+        "journal": "Health information science and systems",
+        "abstract": "OBJECTIVE: With the rapid development of big data and artificial intelligence technologies, large language models (LLMs) are increasingly being applied across multiple fields. In the healthcare domain, efficient utilization of extensive patient data and medical records considerably enhances diagnostic accuracy and enables disease-risk prediction. This study aims to establish a research framework for evaluating the application of assessment models in structured and unstructured data, exploring the potential applications of LLMs in healthcare.\n\nMETHODS: This study proposes the HLLM-Potential Framework (Healthcare Large Language Model Potential Evaluation Framework), a comprehensive evaluation framework designed to assess the applicability and performance of LLMs in medical data analysis through comparative experiments with traditional models. Publicly available and standardized cardiovascular datasets were adopted, covering both structured and unstructured data. Existing LLMs were utilized through training and task-specific configuration on medical data to perform disease prediction and health-risk assessment. In addition, various LLMs were systematically compared with traditional machine-learning and deep-learning models to quantify the differences in their predictive performance.\n\nRESULTS: Existing LLMs can process structured and unstructured medical data and use them to predict diseases and evaluate health risks. For structured cardiovascular disease prediction tasks focusing on heart failure, all considered LLMs achieved accuracy and recall rates above 80%. Meanwhile, in unstructured cardiovascular data analysis for ECG image classification, the multimodal LLM Janus Pro 7B attained an overall accuracy rate of 85%.\n\nCONCLUSION: Compared with traditional machine learning and deep learning models, the considered LLMs exhibit stronger interactivity and generalization capabilities as well as less dependence on data quality and feature engineering. Overall, LLMs offer notable advantages, namely, high efficiency, high flexibility, and multimodal integration, for use in the healthcare field; thus, LLMs are expected to be widely applied in the medical and healthcare domains.\n\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13755-026-00432-3.",
+        "authors": [
+          "Aihua Li",
+          "Xinran Bi",
+          "Sifan Chen",
+          "Juxiang Hu",
+          "Yong Shi"
+        ],
+        "published_on": "2026-02-03",
+        "doi": "10.1007/s13755-026-00432-3",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41631200/",
+        "doi_url": "https://doi.org/10.1007/s13755-026-00432-3"
+      },
+      {
+        "pmid": "41690150",
+        "title": "A meta-heuristic aided arrhythmia classification model using advanced deep learning technique with multiple feature extraction mechanisms.",
+        "journal": "Computational biology and chemistry",
+        "abstract": "Cardiac arrhythmia poses an important threat to human life; hence it is an urge to diagnose properly. There are numerous mechanisms deployed for the identification of arrhythmias; yet, most of the techniques have been utilized sources such as Electrocardiogram (ECG). The ECG-based manual evaluation by the medical analysts is inaccurate. Some experiments have been concentrated on the accuracy and the speed of the learning method by utilizing Artificial Intelligence (AI), and pattern detection in the classification model. However, there are two primary limitations in the conventional mechanisms; the models demand large training time and demand feature selection on a manual basis. Hence, an intellectual arrhythmia classification model using deep learning is introduced to identify the irregular heartbeat. In the beginning, the required signals are accumulated from standard sources. Further, three different kinds of features are extracted for an efficient automatic classification process of arrhythmia. At first, the deep features are extracted by applying the Conditional Autoencoder, and these features are considered as feature set 1. Further, wave features and spectral features are retrieved from the input signal and these features are considered as feature set 2. Subsequently, the signals are converted into spectrogram images and the Graph Convolutional Neural Network (GCNN) technique is employed to retrieve the feature set 3 from those images. Further, the ensemble feature fusion process takes place to combine all three sets of features. Ensemble features are provided as input for the Optimal Dense Recurrent neural network with Attention Mechanism (ODR-AM) for classifying the arrhythmia. The classifier's performance is boosted by optimizing the parameters using the Augmented Random value of Giant Armadillo Optimization (ARGAO). This model is useful to know about the specific type of arrhythmia. Finally, the simulation findings of the presented model are analyzed with other conventional models.",
+        "authors": [
+          "Jay Raval",
+          "Kamalesh V N",
+          "Dr Raj Kumar Patra"
+        ],
+        "published_on": "2026-02-15",
+        "doi": "10.1016/j.compbiolchem.2026.108917",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41690150/",
+        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
+      },
+      {
+        "pmid": "41836589",
+        "title": "Signal or noise? Evaluating commonly used attribution methods for explaining deep neural networks in electrocardiogram classification.",
+        "journal": "European heart journal. Digital health",
+        "abstract": "AIMS: Attribution-based explainability methods are widely used in electrocardiogram (ECG) analysis to interpret predictions from 'black-box' deep neural networks (DNNs). To be useful in clinical applications, attribution methods must produce explanations that are both clear and reflective of the model's inner workings. This study evaluates 12 attribution methods in DNN-based ECG classification.\n\nMETHODS AND RESULTS: We analysed 12 attribution methods using a dataset of 873 710 median beat ECGs spanning nine diagnostic classes. Methods were applied to convolutional neural network-based models trained for ECG classification. Performance was evaluated across four experiments: inter-method similarity, self-consistency, dependence on model weights, and ability to identify features important for model inference. All task models achieved an area under the receiver operating curve above 0.95. Attribution methods demonstrated low correlation and high variability across inter-method comparisons. Self-consistency across random model initializations was moderate for most methods (mean correlation 0.41-0.65). Randomizing model weights led to rapid loss of correlation, although some methods did not converge to zero. Perturbation of input data revealed differences in how well attribution methods identified features relevant to model performance.\n\nCONCLUSION: Attribution methods demonstrated limited reliability, instability across model variants and incomplete dependence on learned parameters, constraining their utility in high-stakes settings such as healthcare. These findings suggest that attribution techniques should be used cautiously and supported by task-specific sanity checks. Approaches grounded in rigorous validation, inherently interpretable modelling or counterfactual explanations may better support clinically meaningful insight.",
+        "authors": [
+          "Bauke K O Arends",
+          "Wouter A C van Amsterdam",
+          "Pim van der Harst",
+          "Maarten van Smeden",
+          "René van Es",
+          "Rutger R van de Leur"
+        ],
+        "published_on": "2026-03-16",
+        "doi": "10.1093/ehjdh/ztag038",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41836589/",
+        "doi_url": "https://doi.org/10.1093/ehjdh/ztag038"
+      },
+      {
+        "pmid": "41534155",
+        "title": "Multi-scale heart simulation augments the explainability of artificial intelligence-enabled electrocardiogram through provision of an electrocardiogram database labelled with cellular pathologies.",
+        "journal": "Computer methods and programs in biomedicine",
+        "abstract": "BACKGROUND AND OBJECTIVES: Although artificial-intelligence-enhanced electrocardiograms (AI-ECGs) offer prediction and diagnosis capabilities superior to those of humans, they exhibit poor explainability and interpretability because of their complex-neural-network-derived black-box characteristics. To augment the explainability of artificial intelligence-enhanced electrocardiogram (AI-ECG) analysis, we proposed a method combining AI-ECG and synthetic ECG database created by a multi-scale heart simulator.\n\nMETHODS: Using the \"UT-Heart\" multi-scale heart simulator running on the supercomputer Fugaku, we simulated 30,720 12-lead ECG recordings. This dataset comprises an exhaustive combination of 12 cellular and subcellular pathologies reportedly associated with heart failure and was analysed using a previously developed AI-ECG system that accurately classifies ECGs into New York Heart Association (NYHA) functional classes. By analysing the relationship between HF severity and labelled pathology in each simulated ECG recording, we elucidated the origin of abnormalities detected using AI-ECG.\n\nRESULTS: AI-ECG classified 30,618 ECGs (excluding 102 arrhythmia cases) into 2234 control and 28,384 HF cases. A separate three-group classification identified 2234 control, 18,444 NYHA I/II, and 9940 NYHA III/IV cases. In the two-group classification, significant differences (p < 0.01) were observed in sodium (Na) and Na-calcium exchanger currents and the transmural distribution of distinct cell types. Although the three-group classification revealed a severity-dependent progression of the Na current abnormality, the cell distribution in NYHA III/IV was closer to that of normal cases than to that of NYHA I/II. These findings did not explain the changes in the ECG waveform that the AI-ECG identified as notable features of heart failure in the heatmap analysis.\n\nCONCLUSIONS: The ECG dataset generated using the multi-scale heart simulator can enhance the explainability of AI-ECGs by elucidating the mechanisms underlying HF-severity-specific changes in ECGs of heart failure.",
+        "authors": [
+          "Jun-Ichi Okada",
+          "Katsuhito Fujiu",
+          "Eriko Hasumi",
+          "Ying Chen",
+          "Takumi Washio",
+          "Toshiaki Hisada",
+          "Seiryo Sugiura"
+        ],
+        "published_on": "2026-01-15",
+        "doi": "10.1016/j.cmpb.2026.109247",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
+        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
+      },
+      {
+        "pmid": "41872525",
+        "title": "Comparative evaluation of multimodal large language models for diagnostic accuracy in pediatric electrocardiography: a prospective comparative diagnostic accuracy study.",
+        "journal": "European journal of pediatrics",
+        "abstract": "UNLABELLED: We evaluated three multimodal LLMs, ChatGPT (GPT-5.2), Gemini 3, and Microsoft Copilot, in pediatric ECG interpretation, focusing on clinically significant abnormalities and emergency arrhythmias with likelihood ratios as primary outcome measures. This prospective comparative diagnostic accuracy study (STARD/STARD-AI) included 264 pediatric patients with 12-lead ECGs (November 2024-November 2025). De-identified images were submitted via standardized zero-shot prompt. Three blinded pediatric cardiologists established the reference diagnosis by majority-vote consensus. Cases were classified as Tier 1 (normal), Tier 2 (abnormal, non-urgent), or Tier 3 (urgent). Two binary endpoints were assessed: clinically significant abnormality (Tier 2 + 3 vs Tier 1) and emergency abnormality (Tier 3 vs Tier 1 + 2). Clinically significant abnormalities were present in 54.5% of patients. AUC values ranged from 0.550 to 0.623, reflecting modest discrimination. For the clinically significant endpoint, + LR values were 2.05 (ChatGPT), 1.26 (Gemini), and 1.21 (Copilot); - LR values were 0.68, 0.55, and 0.81, indicating limited rule-in and insufficient rule-out utility. For the emergency endpoint, Gemini achieved 100% sensitivity (95% CI = 85.1-100.0) with - LR 0.07 (95% CI = 0.00-1.12) in a small subgroup (n = 22); however, specificity of 30.2% and + LR of 1.40 indicate overcalling rather than diagnostic precision. No model achieved clinically meaningful rule-in utility for either endpoint.\n\nCONCLUSIONS: Current multimodal LLMs showed limited diagnostic utility in pediatric ECG interpretation, with + LR values near 1.0 across both endpoints. Standalone deployment is not supported; these tools may at most serve as adjunctive screening aids under clinician oversight.\n\nWHAT IS KNOWN: • Deep learning algorithms trained on large ECG datasets perform well in adult populations, but evidence in pediatric ECG interpretation is limited. • General-purpose LLMs show variable accuracy in medical examinations; reliability in subspecialty domains such as pediatric cardiology remains unproven.\n\nWHAT IS NEW: • This is the[FCA1] first head-to-head comparative diagnostic accuracy study of multimodal LLMs in pediatric ECG evaluation, using likelihood ratios as primary outcome measures. • All three LLMs showed limited rule-in utility (+LR near 1.0); Gemini achieved potentially meaningful rule-out performance for emergency arrhythmias (-LR = 0.07), but with wide confidence intervals reflecting the small emergency subgroup (n = 22). • Gemini's 100% sensitivity in the emergency subgroup reflects overcalling (specificity 30.2%) consistent with a triage/screening behavior rather than diagnostic precision.",
+        "authors": [
+          "Uğur Saraç",
+          "Ayşe Büşra Paydaş",
+          "Mustafa Gençeli",
+          "Talha Üstüntaş",
+          "Mehtap Yücel",
+          "Abdülkerim Çokbiçer",
+          "Fatih Şap",
+          "Tamer Baysal",
+          "Mehmet Burhan Oflaz"
+        ],
+        "published_on": "2026-03-24",
+        "doi": "10.1007/s00431-026-06874-x",
+        "publication_types": [
+          "Journal Article",
+          "Comparative Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41872525/",
+        "doi_url": "https://doi.org/10.1007/s00431-026-06874-x"
+      },
+      {
+        "pmid": "41861395",
+        "title": "Long Short-Term Memory-GPT-4 Integration for Interpretable Biomedical Signal Classification: Proof-of-Concept Study.",
+        "journal": "JMIR formative research",
+        "abstract": "BACKGROUND: Approximately 3.8 billion people lack access to essential health services, and diagnostic interpretation remains a major bottleneck in remote and resource-constrained settings. Limited access to specialists and the complexity of biomedical signal interpretation (eg, electrocardiogram [ECG] and electroencephalogram) contribute to delays in recognizing cardiovascular and neurological conditions.\n\nOBJECTIVE: The study aimed to develop and evaluate a technical framework integrating long short-term memory (LSTM) networks with GPT-4 to provide automated biomedical signal classification and human-readable interpretations, suitable as a foundation for future deployment in resource-constrained environments.\n\nMETHODS: The 2-layer LSTM architecture (128→64 units) was selected based on preliminary experiments comparing configurations ranging from single-layer networks (64, 128 units) to deeper architectures (128→64→32 units). The chosen configuration balanced model capacity against overfitting risk and computational efficiency. The framework was evaluated using public PhysioNet datasets: Massachusetts Institute of Technology-Beth Israel Hospital (MIT-BIH) Arrhythmia, Physikalisch-Technische Bundesanstalt (PTB) Diagnostic ECG, Physikalisch-Technischen Bundesanstalt-extra large, Chapman-Shaoxing, Medical Information Mart for Intensive Care-III Waveforms, and Sleep-European data format. A patient-level split protocol (70/15/15) was used to reduce leakage risk. The LSTM architecture (128→64 units) performed temporal feature extraction with softmax-based classification for mutually exclusive classes. GPT-4 was integrated via an application programming interface with structured prompts to generate clinical interpretations from model outputs.\n\nRESULTS: For the expert evaluation, we randomly sampled 50 test cases per dataset (150 total: 30 from each class for MIT-BIH, 25 per class for PTB, and 20 per class for Children's Hospital Boston-Massachusetts Institute of Technology), ensuring balanced class representation. Three board-certified physicians (2 cardiologists for ECG datasets and 1 neurologist for the electroencephalogram dataset) independently reviewed GPT-4-generated interpretations. Reviewers were blinded to whether signals were correctly or incorrectly classified by the LSTM model. Each interpretation was rated on a 5-point Likert scale (1=clinically inappropriate and 5=highly accurate and clinically useful). Interrater reliability was assessed using Fleiss κ (0.78, substantial agreement). On held-out test sets, classification performance was as follows: MIT-BIH 92.3% accuracy (F1=0.91, AUC=0.95), PTB Diagnostic 94.7% (F1=0.94, AUC=0.97), Physikalisch-Technischen Bundesanstalt-extra large 88.9% (F1=0.88, AUC=0.93), Chapman-Shaoxing 91.2% (F1=0.90, AUC=0.94), Medical Information Mart for Intensive Care-III 89.5% (F1=0.89, AUC=0.92), and Sleep-European data format 87.3% (F1=0.86, AUC=0.91). Expert evaluation of generated interpretations (3 board-certified cardiologists) rated clinical accuracy 4.3 out of 5, clarity 4.6 out of 5, and actionability 4.2 out of 5, with strong interrater agreement (κ>0.85).\n\nCONCLUSIONS: This proof-of-concept demonstrates an explicit methodological integration of deep learning-based biomedical signal classification with GPT-4-based interpretation, provides a technical foundation for future prospective clinical validation, field studies, and regulatory review prior to clinical deployment in underserved settings.",
+        "authors": [
+          "Kapil Kumar Reddy Poreddy",
+          "Ajit Sahu",
+          "Sanjoy Mukherjee",
+          "Bhavan Kumar Basavaraju"
+        ],
+        "published_on": "2026-03-20",
+        "doi": "10.2196/87962",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41861395/",
+        "doi_url": "https://doi.org/10.2196/87962"
+      },
+      {
+        "pmid": "41849820",
+        "title": "Towards real-time sleep stage classification: A deep learning approach leveraging PPG and ECG.",
+        "journal": "Physiological measurement",
+        "abstract": "OBJECTIVE: This work aims to enable adaptive Consumer Sleep Technologies (CSTs) for sleep intervention by developing a deep learning model for sleep stage classification using wearable sensor data.\n\nAPPROACH: We propose an end-to-end deep learning approach&#xD;leveraging Photoplethysmography (PPG) signals, commonly available in CSTs. Model performance is improved by pretraining with Electrocardiography (ECG) from the large-scale Multi-Ethnic Study of Atherosclerosis dataset (MESA) datasets. Training and evaluation are conducted with the Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology (DREAMT) and an additional dataset comprising of 13 participants (aged 22-71 years) without prior known sleep disorders. The dataset contains combined synchronized polysomnography (PSG) and Empatica E4 wearable data, annotated with American Academy of Sleep Medicine (AASM) sleep stages.\n\nMAIN RESULTS: The proposed method demonstrates sleep stage classification from minimally processed PPG signals for real-time intervention. While ECG-trained models are not directly transferable to PPG, fine-tuning significantly improves performance, achieving up to a 29% increase in multi-stage classification accuracy.\n\nCONCLUSION: Pretraining with ECG and fine-tuning with PPG increases sleep stage classification for end-to-end deep learning models, exceeding previous efforts, particularly in 3-stage sleep classification.\n\nSIGNIFICANCE: This work contributes to sleep health by developing a sleep stage classification model for minimally processed PPG sensor data and takes a step further towards making adaptive CSTs feasible for use with wearable sensors.",
+        "authors": [
+          "Shagen Djanian",
+          "Thomas Dyhre Nielsen",
+          "Søren H Nielsen",
+          "Anders Bruun"
+        ],
+        "published_on": "2026-03-19",
+        "doi": "10.1088/1361-6579/ae5458",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41849820/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
+      },
+      {
+        "pmid": "41785513",
+        "title": "NeuroCardioSense (NCS): a time-aware fuzzy decision framework for multi-lead ECG classification and arrhythmia detection.",
+        "journal": "Biomedical physics & engineering express",
+        "abstract": "Accurate classification of electrocardiogram (ECG) signals is essential for automated arrhythmia detection and clinical decision support. Existing deep learning methods still struggle to jointly characterize morphological patterns, multi-lead interactions, and temporal dependencies, leading to limited representation of waveform details, rhythm dynamics, and class boundary separability. To address these challenges, we propose a NeuroCardioSense (NCS) framework, built upon a convolutional neural network (CNN) backbone, comprising a base model, NeuroCardioSenseNet (NCSN), and an enhanced variant,NeuroCardioSenseNet-Fusion (NCSNF). NCSN constructs a novel Time-Aware Gated Convolution (TAG-Conv) layer together with a Time-Aware Gating Mechanism (TAGM), which adaptively modulate convolutional filters and cross-lead feature contributions based on local temporal context and channel energy distributions. This design enables joint modeling of morphological features and short-range temporal dynamics while reinforcing inter-lead coherence. Building upon NCSN, NCSNF incorporates a Time-Fuzzy Integration Module (TFIM) that constructs a learnable fuzzy subspace by jointly encoding features and membership degrees, effectively mitigating class boundary ambiguity and improving discriminability in limited-sample conditions. Extensive experiments on the MIT-BIH Arrhythmia Database demonstrate the superiority of the NCS framework. NCSN achieves 98.77% intra-patient and 87.82% inter-patient accuracy, while NCSNF further improves performance to 99.16% and 90.85%, respectively, outperforming existing baseline methods.",
+        "authors": [
+          "Cheng-Hai He",
+          "Xiao-Li Wang",
+          "Ying Feng",
+          "Qi Feng"
+        ],
+        "published_on": "2026-03-06",
+        "doi": "10.1088/2057-1976/ae4df5",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41785513/",
+        "doi_url": "https://doi.org/10.1088/2057-1976/ae4df5"
+      },
+      {
+        "pmid": "41844761",
+        "title": "An attention-based multimodal deep learning framework integrating EEG and ECG for enhanced stress detection.",
+        "journal": "Scientific reports",
+        "abstract": "Chronic stress is an important threat in Public Health, as it negatively impacts both the Body and Mind. Current methods for measuring and identifying stress rely largely on individuals providing subjective assessments or measuring isolated physiological parameters, thereby limiting the accuracy and consistency of these approaches. This study proposes a novel approach to objectively measuring an individual's level of stress, by combining deep transfer learning methods for detecting psychological stress measured using Electroencephalogram (EEG) and Electrocardiogram (ECG) data. More specifically, this new method uses three pre-trained neural network backbones-VGG16, EfficientNetB0, and ResNeXt50-utilized together, to create a unified system capable of merging information from multiple streams of data in real-time. EEG data is converted to time-frequency maps using wavelet transformations and ECG data uses time-series variability (i.e. patterns of how the heart beats) combined with raw, unfiltered data. An advanced fusion layer uses attention weights to intelligently combine these two data sources, allowing for improved accuracy of stress assessment. Using the WESAD and CASE datasets, both of which were collected from 35 subjects while they were in a neutral (control), tense, and positive state, our method performs at 95.7% accuracy in identifying between these three conditions, which is significantly greater than the accuracy rates of either the EEG-only (82.3%) or ECG-only (85.6%) methods or individual networks. Furthermore, this system is highly flexible and has demonstrated the capability to successfully operate across numerous testing conditions, while additionally demonstrating that EEG signals enhance ECG stress assessment and vice versa. Therefore, this new approach provides a highly reliable way to support medical diagnosis, employee wellness programs, and personalized psychological support.",
+        "authors": [
+          "Rakesh Kumar",
+          "Sivanesan Bala Krishnan",
+          "Rakesh Kumar Yadav",
+          "Dilip Kumar Jangd Bahadur Saini",
+          "Prasun Chakrabarti",
+          "Arun Balodi",
+          "Shwetha V"
+        ],
+        "published_on": "2026-03-18",
+        "doi": "10.1038/s41598-026-44499-0",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41844761/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-44499-0"
+      },
+      {
+        "pmid": "41843891",
+        "title": "A lightweight and robust method for electrocardiogram anomaly detection and localization using multi-scale masked autoencoder.",
+        "journal": "PloS one",
+        "abstract": "Electrocardiogram (ECG) analysis is crucial for diagnosing cardiovascular conditions. While traditional classification models require large volumes of labeled data across multiple disease categories, anomaly detection offers a flexible alternative by identifying deviations from normal patterns-an approach particularly valuable given the rarity and diversity of cardiac conditions. However, existing anomaly detection methods often rely on R-peak detection or heartbeat segmentation, which increases preprocessing complexity and reduces robustness to signal variability. To address these limitations, we propose MMAE-ECG, a multi-scale masked autoencoder designed to capture both global and local dependencies without such preprocessing steps. MMAE-ECG integrates a multi-scale masking strategy and a multi-scale attention mechanism with distinct positional embeddings, enabling a lightweight Transformer encoder to efficiently model ECG signals. Additionally, an aggregation strategy is introduced to improve anomaly score estimation. Experiments demonstrate that MMAE-ECG achieves state-of-the-art performance in both anomaly detection and localization while significantly reducing computational costs. Specifically, it requires only approximately 1/78 of the inference FLOPs and 1/18 of the trainable parameters compared to the previous leading method. Ablation studies further validate the contributions of each component, demonstrating the potential of multi-scale masked autoencoders as an effective and efficient approach for ECG anomaly detection.",
+        "authors": [
+          "Ya Zhou",
+          "Yujie Yang",
+          "Jianhuang Gan",
+          "Xiangjie Li",
+          "Jing Yuan",
+          "Wei Zhao"
+        ],
+        "published_on": "2026-03-18",
+        "doi": "10.1371/journal.pone.0343571",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41843891/",
+        "doi_url": "https://doi.org/10.1371/journal.pone.0343571"
+      },
+      {
+        "pmid": "41838498",
+        "title": "Multi-Feature Fusion and Compressed Bi-LSTM for Memory-Efficient Heartbeat Classification on Wearable Devices.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "In this paper, we present a memory-efficient ECG based heartbeat classification for wearable devices enabled by multi-feature fusion and compressed bidirectional long short term memory (Bi-LSTM). A multi-feature fusion technique based on time intervals and under-the-curve areas is proposed to extract the main characteristic points of the ECG waveform with high accuracy and robustness against noise and artifacts. A Bi-LSTM network is developed to process the input sequence in both forward and backward directions, resulting in higher accuracy and a 28% smaller network size compared with a conventional LSTM. Multiple neural networks with varying sizes, including tiny (84k), small (150k), medium (478k), and large (1.25M) models, are developed to achieve high accuracy across all classes. The overall accuracy is 96.4% for the large model and 94.6% for the tiny model, while the F1 score across all classes exceeds 89.1% and 85.1%, respectively. The proposed models, compressed using post-training quantization techniques, achieve state-of-the art performance. The compressed large model with 8-bit integer quantization (INT8) achieves an accuracy of 88.4% with 1.3MB of memory, while the compressed tiny model with dynamic range quantization achieves 94.6% accuracy with only 139kB of memory.",
+        "authors": [
+          "Reza Nikandish",
+          "Jiayu He",
+          "Benyamin Haghi"
+        ],
+        "published_on": "2026-03-16",
+        "doi": "10.1109/JBHI.2026.3669719",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41838498/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3669719"
+      },
+      {
+        "pmid": "41740264",
+        "title": "Four-electrode ECG reconstruction using anatomically grounded synthetic leads: a physiological measurement framework with hybrid CNN-transformer mapping.",
+        "journal": "Physiological measurement",
+        "abstract": "Objective.The standard 12-lead electrocardiogram (ECG) remains essential for cardiac diagnosis but requires ten physical electrodes, limiting long-term and wearable monitoring applications. We developed an anatomically grounded and physiologically interpretable framework to reconstruct the complete 12-lead ECG from four synthetic chest-torso electrodes derived using geometric vector principles and cardiac territorial anatomy.Approach.The 12 standard leads were partitioned into four physiologically coherent clusters representing septal/anterior, apical-lateral, inferior, and high-lateral depolarization vectors. Synthetic electrodes were constructed as weighted linear combinations of standard leads guided by frontal- and horizontal-plane vector geometry. A hybrid convolutional neural network-Transformer architecture mapped these four synthetic inputs to full 12-lead waveforms. The model was trained on 21 786 recordings from the PTB-XL dataset and externally validated on 500 recordings from the Chapman-Shaoxing dataset. Performance was evaluated using coefficient of determination (R2), Pearson correlation, root mean square error (RMSE), diagnostic concordance analysis, ablation testing, and noise robustness assessment.Main results.On the internal test set, the model achieved meanR2= 0.878 ± 0.070, Pearson correlationρ= 0.939 ± 0.030, and RMSE = 0.071 ± 0.030 mV. External validation demonstrated only 5% performance degradation. Waveform component preservation exceeded 94%, ST-segment correlation reached 0.964, and overall diagnostic concordance was 0.883, indicating preservation of approximately 88% of clinically relevant information. Reconstruction errors were symmetrically distributed around zero with minimal bias (0.001 mV) and maintained robustness at signal-to-noise ratios ⩾ 10 dB.Significance.This anatomically explainable reconstruction framework demonstrates the algorithmic feasibility of compact four-electrode ECG systems while preserving high diagnostic fidelity. By grounding electrode design in cardiac vector anatomy and validating performance across datasets, the approach provides a physiologically interpretable foundation for future wearable and ambulatory ECG reconstruction systems, establishing a reconstruction ceiling prior to hardware implementation.",
+        "authors": [
+          "Rugved Parmar",
+          "Daoud Eldawud",
+          "M D Fahim",
+          "Adam Budzikowski"
+        ],
+        "published_on": "2026-02-26",
+        "doi": "10.1088/1361-6579/ae4a83",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41740264/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/ae4a83"
+      },
+      {
+        "pmid": "41791632",
+        "title": "EFFNet: Efficient feature fusion network for left ventricular hypertrophy identification based on 12-lead electrocardiogram signals.",
+        "journal": "Heart rhythm",
+        "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is a common cardiovascular disorder, yet its detection from electrocardiogram (ECG) signals remains challenging because of the low sensitivity of conventional criteria.\n\nOBJECTIVE: We aimed to explore a new deep learning method for effective LVH identification based on 12-lead ECG signals.\n\nMETHODS: We proposed a novel ECG-based efficient feature fusion network (EFFNet) for LVH classification, incorporating a novel feature fusion module that fuses morphological features extracted by a convolutional neural network with algorithm-derived amplitude features and a mixture of experts module. Experiments of 5-fold cross-validations were performed on the 12-lead ECG signals in the UK Biobank data set (n = 38,289), with cardiovascular magnetic resonance measurement serving as the reference standard. We also tested the model on an external cohort, the Qinghai database, using echocardiography as the standard (n = 142,777). Using the UK Biobank and Qinghai cohorts, we assessed associations between EFFNet-predicted LVH and cardiovascular rhythm abnormalities.\n\nRESULTS: Experimental results of cross-validations on the UK Biobank data set showed that, on average, EFFNet achieved an area under the receiver operating characteristic curve of 0.933, which outperformed conventional ECG-based diagnostic methods and comparative deep learning methods. On the external Qinghai validation set, EFFNet achieved an area under the receiver operating characteristic curve of 0.654. EFFNet-predicted LVH was associated with atrial fibrillation, ventricular premature beats, and atrial premature beats.\n\nCONCLUSION: EFFNet significantly improves ECG-based LVH detection and introduces a novel deep learning framework for LVH risk prediction, advancing intelligent ECG-based screening and early identification of LVH.",
+        "authors": [
+          "Rui Yu",
+          "Lei Jia",
+          "Yu Pu",
+          "Zhuhuang Zhou",
+          "Lan Lin",
+          "Xiaofeng Gao",
+          "Guangyu Bin"
+        ],
+        "published_on": "2026-03-07",
+        "doi": "10.1016/j.hrthm.2026.02.046",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41791632/",
+        "doi_url": "https://doi.org/10.1016/j.hrthm.2026.02.046"
+      },
+      {
+        "pmid": "41775878",
+        "title": "Toward robust automated cardiovascular arrhythmia detection using self-supervised learning and 1-dimensional vision transformers.",
+        "journal": "Scientific reports",
+        "abstract": "Cardiovascular diseases are the leading cause of death worldwide. With electrocardiogram (ECG) machines becoming more accessible, passive monitoring for arrhythmia detection is now possible. This work highlights the importance of self-supervised learning in detecting arrhythmias by leveraging large-scale unlabelled ECG data to improve performance and reduce overfitting to class imbalance and noise. We propose Masked Patch Modelling (MPM) and use 8.2 million unlabelled ECGs for self-supervised pre-training, introducing PatchECG, a 1D Transformer model that can be fine-tuned for various ECG tasks. PatchECG achieves state-of-the-art results on standard datasets, including PTB-XL multi-label classification, and sets new benchmarks on the largest and highest-quality multi-label dataset to date. Compared to existing methods, PatchECG is five times more computationally efficient while increasing model capacity by a factor of 14. We also compare the 1D PatchECG model to a state-of-the-art 2D vision Transformer, HeartBEiT, and observe significantly higher performance. Finally, ablation studies reveal a 2% performance improvement in handling class imbalance, label noise, and over-parameterization. These findings demonstrate the potential of self-supervised learning in advancing automated arrhythmia detection.",
+        "authors": [
+          "Mitchell Chatterjee",
+          "Adrian D C Chan",
+          "Majid Komeili"
+        ],
+        "published_on": "2026-03-04",
+        "doi": "10.1038/s41598-026-41549-5",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41775878/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-41549-5"
+      },
+      {
+        "pmid": "41774631",
+        "title": "Graph-Informed and FiLM-Enhanced Multimodal Fusion for Myocardial Infarction Prediction.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Accurate and timely diagnosis of cardiovascular diseases, particularly myocardial infarction (MI), remains a critical clinical challenge. Existing electrocardiogram (ECG) analysis methods often rely solely on a single data modality, such as raw signals or waveform images, which limits their ability to capture the broader physiological context. To address this limitation, we propose GFM-MIP, a Graph-informed and FiLM-enhanced Multimodal Fusion framework for myocardial infarction prediction. GFM-MIP integrates 12-lead ECG time-series signals, ECG images, and laboratory test results through a unified architecture. Specifically, it employs a Graphormer encoder to model inter-lead dependencies in ECG signals and a Vision Transformer to extract morphological patterns from ECG images, both modulated by patient-specific laboratory features using Feature-wise Linear Modulation (FiLM). A Transformer-based fusion module captures cross-modal interactions, while a contrastive learning objective encourages alignment between signal and image modalities. Experimental results on a real-world clinical dataset and three public benchmarks demonstrate that GFM-MIP consistently outperforms state-of-the-art baselines across multiple evaluation metrics. Ablation studies further validate the contribution of each modality and architectural component. The proposed framework offers a clinically meaningful and scalable solution for robust, multimodal cardiovascular diagnosis.",
+        "authors": [
+          "Xiantong Xiang",
+          "Longxiao Gao",
+          "Yuansheng Liu",
+          "Ningji Gong",
+          "Yongshun Gong"
+        ],
+        "published_on": "2026-03-03",
+        "doi": "10.1109/JBHI.2026.3669222",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41774631/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3669222"
+      }
+    ],
+    "error": null,
+    "last_push_at": null,
+    "last_push_attempt_at": null,
+    "last_push_attempt_day": null,
+    "last_push_status": "idle",
+    "last_push_message": "WeChat push is disabled.",
+    "last_push_error": null,
+    "last_push_count": 0,
+    "notified_paper_ids": []
+  },
+  "next_refresh_at": "2026-03-25T14:55:39.380393+00:00",
+  "next_push_at": null
+}

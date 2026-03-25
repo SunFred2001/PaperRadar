@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ECG Paper Radar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Daily Research Feed</p>
+          <h1>ECG Paper Radar</h1>
+          <p class="hero-text">
+            面向“深度学习 + 心电信号处理”方向的期刊论文追踪页。系统会从 PubMed 按天拉取最新结果，
+            并把最近一次检索缓存到本地，同时支持每天固定时间推送新增论文到微信。
+          </p>
+          <div class="hero-actions">
+            <button id="refreshButton" class="primary-button" type="button">立即刷新</button>
+            <span id="statusBadge" class="status-pill">准备中</span>
+          </div>
+        </div>
+        <div class="hero-panel">
+          <div class="metric-card">
+            <span class="metric-label">命中文献</span>
+            <strong id="paperCount">0</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">最近成功刷新</span>
+            <strong id="lastSuccess">尚未刷新</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">下次自动刷新</span>
+            <strong id="nextRefresh">等待计算</strong>
+          </div>
+          <div class="metric-card">
+            <span class="metric-label">下次微信推送</span>
+            <strong id="nextPush">未开启</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="control-panel">
+          <section class="panel-block">
+            <div class="panel-title-row">
+              <h2>检索与推送</h2>
+              <span class="panel-hint">保存后会自动重新抓取</span>
+            </div>
+            <form id="configForm">
+              <label class="field">
+                <span>PubMed 查询式</span>
+                <textarea id="searchQuery" name="search_query" rows="8"></textarea>
+              </label>
+              <div class="field-grid">
+                <label class="field">
+                  <span>最大返回数</span>
+                  <input id="maxResults" name="max_results" type="number" min="1" max="50" />
+                </label>
+                <label class="field">
+                  <span>回看天数</span>
+                  <input id="lookbackDays" name="lookback_days" type="number" min="1" max="365" />
+                </label>
+              </div>
+              <div class="field-grid">
+                <label class="field">
+                  <span>自动刷新间隔（小时）</span>
+                  <input id="refreshInterval" name="refresh_interval_hours" type="number" min="1" max="168" />
+                </label>
+                <label class="field">
+                  <span>联系邮箱（可选）</span>
+                  <input id="contactEmail" name="contact_email" type="email" />
+                </label>
+              </div>
+
+              <div class="form-divider">
+                <h3>微信推送</h3>
+                <p>支持 Server酱 推送到个人微信，或企业微信群机器人推送到群聊。</p>
+              </div>
+
+              <label class="switch-field">
+                <input id="pushEnabled" name="push_enabled" type="checkbox" />
+                <span>开启每日微信推送</span>
+              </label>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>推送渠道</span>
+                  <select id="pushChannel" name="push_channel">
+                    <option value="serverchan">Server酱（个人微信）</option>
+                    <option value="wecom_bot">企业微信群机器人</option>
+                  </select>
+                </label>
+                <label class="field">
+                  <span>每日推送时间</span>
+                  <input id="pushTime" name="push_time" type="time" />
+                </label>
+              </div>
+
+              <div class="field-grid">
+                <label class="field">
+                  <span>时区</span>
+                  <input id="pushTimezone" name="push_timezone" type="text" placeholder="Asia/Shanghai" />
+                </label>
+                <label class="field">
+                  <span>每次最多推送篇数</span>
+                  <input id="pushMaxPapers" name="push_max_papers" type="number" min="1" max="10" />
+                </label>
+              </div>
+
+              <label class="field channel-field" data-channel="serverchan">
+                <span>Server酱 SendKey</span>
+                <input
+                  id="serverchanSendkey"
+                  name="serverchan_sendkey"
+                  type="password"
+                  placeholder="SCTxxxxxxxxxxxxxxxxxxxxxxxxx"
+                />
+              </label>
+
+              <label class="field channel-field" data-channel="wecom_bot">
+                <span>企业微信群机器人 Webhook</span>
+                <input
+                  id="wecomWebhookUrl"
+                  name="wecom_webhook_url"
+                  type="password"
+                  placeholder="https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=..."
+                />
+              </label>
+
+              <div class="button-row">
+                <button class="secondary-button" type="submit">保存并更新</button>
+                <button id="pushTestButton" class="ghost-button" type="button">测试微信推送</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="panel-block">
+            <div class="panel-title-row">
+              <h2>推送状态</h2>
+              <span class="panel-hint">每天只推送未通知过的新论文</span>
+            </div>
+            <p id="pushMessage" class="feed-message">微信推送未开启。</p>
+            <p id="pushMeta" class="meta-text">保存配置后可在这里看到最近一次推送结果。</p>
+          </section>
+
+          <section class="panel-block">
+            <div class="panel-title-row">
+              <h2>列表过滤</h2>
+              <span class="panel-hint">只过滤当前缓存结果</span>
+            </div>
+            <label class="field">
+              <span>标题 / 摘要 / 期刊关键词</span>
+              <input id="keywordFilter" type="search" placeholder="例如：arrhythmia、denoising、transformer" />
+            </label>
+            <p id="feedMessage" class="feed-message">正在读取缓存数据...</p>
+          </section>
+        </aside>
+
+        <section class="feed-panel">
+          <div class="section-heading">
+            <h2>最新论文流</h2>
+            <p>点击标题可跳转 PubMed，若存在 DOI 会显示论文正式链接。</p>
+          </div>
+          <div id="papersGrid" class="papers-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <template id="paperCardTemplate">
+      <article class="paper-card">
+        <div class="paper-topline">
+          <span class="paper-date"></span>
+          <span class="paper-journal"></span>
+        </div>
+        <h3 class="paper-title"></h3>
+        <p class="paper-authors"></p>
+        <p class="paper-abstract"></p>
+        <div class="paper-tags"></div>
+        <div class="paper-links"></div>
+      </article>
+    </template>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
