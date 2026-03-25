@@ -63,12 +63,6 @@ def env_overrides() -> dict[str, Any]:
         if value:
             mapping[config_key] = value
 
-    if "PUSH_ENABLED" in os.environ:
-        mapping["push_enabled"] = app.coerce_bool(os.environ["PUSH_ENABLED"])
-
-    if "PUSH_MAX_PAPERS" in os.environ:
-        mapping["push_max_papers"] = app.safe_int(os.environ["PUSH_MAX_PAPERS"], 5, 1, 10)
-
     return mapping
 
 

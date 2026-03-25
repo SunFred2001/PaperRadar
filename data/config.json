@@ -10,6 +10,6 @@
   "push_time": "09:00",
   "push_timezone": "Asia/Shanghai",
   "push_max_papers": 5,
-  "serverchan_sendkey": "SCT328417TmmSkVipiBbMQ9omKhJOa8Em0",
+  "serverchan_sendkey": "",
   "wecom_webhook_url": ""
 }
