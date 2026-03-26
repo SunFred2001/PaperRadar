@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-03-25T01:55:43.507226+00:00",
-  "last_success_at": "2026-03-25T01:55:44.461908+00:00",
+  "last_attempt_at": "2026-03-26T02:48:16.394012+00:00",
+  "last_success_at": "2026-03-26T02:48:17.027653+00:00",
   "count": 15,
   "papers": [
     {
@@ -86,6 +86,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
+    },
+    {
+      "pmid": "41876433",
+      "title": "Fatigue Identification Models for Firefighters Based on Electrocardiogram Signals.",
+      "journal": "Journal of occupational and environmental medicine",
+      "abstract": "OBJECTIVE: To identify physiological indicators and develop effective models for recognizing training-induced physical fatigue in firefighters.\n\nMETHODS: Heart rate variability was analyzed in eighteen firefighters before and after physical training. Electrocardiogram signals were processed using linear and nonlinear methods. Feature dimensionality was reduced using two selection approaches, and fatigue recognition models were developed using multiple machine learning and deep learning algorithms.\n\nRESULTS: Physical fatigue increased mean heart rate and the low frequency to high frequency ratio, while eight indicators, including mean R-R interval, short and long term variability, and sample entropy showed significant decreases. The least absolute shrinkage and selection operator based one-dimensional convolutional neural network achieved the highest classification accuracy of 94.64%.\n\nCONCLUSIONS: Electrocardiogram-derived indicators provide a feasible and objective approach for identifying physical fatigue in firefighters, supporting occupational fatigue monitoring and safety management.",
+      "authors": [
+        "Xin Zheng",
+        "Rui Hao",
+        "Huan Wang",
+        "Tengteng Hao",
+        "Wenzhuo Fu"
+      ],
+      "published_on": "2026-03-25",
+      "doi": "10.1097/JOM.0000000000003718",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
+      "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
     },
     {
       "pmid": "41872525",
@@ -288,26 +308,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41775878/",
       "doi_url": "https://doi.org/10.1038/s41598-026-41549-5"
-    },
-    {
-      "pmid": "41774631",
-      "title": "Graph-Informed and FiLM-Enhanced Multimodal Fusion for Myocardial Infarction Prediction.",
-      "journal": "IEEE journal of biomedical and health informatics",
-      "abstract": "Accurate and timely diagnosis of cardiovascular diseases, particularly myocardial infarction (MI), remains a critical clinical challenge. Existing electrocardiogram (ECG) analysis methods often rely solely on a single data modality, such as raw signals or waveform images, which limits their ability to capture the broader physiological context. To address this limitation, we propose GFM-MIP, a Graph-informed and FiLM-enhanced Multimodal Fusion framework for myocardial infarction prediction. GFM-MIP integrates 12-lead ECG time-series signals, ECG images, and laboratory test results through a unified architecture. Specifically, it employs a Graphormer encoder to model inter-lead dependencies in ECG signals and a Vision Transformer to extract morphological patterns from ECG images, both modulated by patient-specific laboratory features using Feature-wise Linear Modulation (FiLM). A Transformer-based fusion module captures cross-modal interactions, while a contrastive learning objective encourages alignment between signal and image modalities. Experimental results on a real-world clinical dataset and three public benchmarks demonstrate that GFM-MIP consistently outperforms state-of-the-art baselines across multiple evaluation metrics. Ablation studies further validate the contribution of each modality and architectural component. The proposed framework offers a clinically meaningful and scalable solution for robust, multimodal cardiovascular diagnosis.",
-      "authors": [
-        "Xiantong Xiang",
-        "Longxiao Gao",
-        "Yuansheng Liu",
-        "Ningji Gong",
-        "Yongshun Gong"
-      ],
-      "published_on": "2026-03-03",
-      "doi": "10.1109/JBHI.2026.3669222",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41774631/",
-      "doi_url": "https://doi.org/10.1109/JBHI.2026.3669222"
     }
   ],
   "error": null,
