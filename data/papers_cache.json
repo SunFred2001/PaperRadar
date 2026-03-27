@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-03-26T02:48:16.394012+00:00",
-  "last_success_at": "2026-03-26T02:48:17.027653+00:00",
+  "last_attempt_at": "2026-03-27T02:50:37.538339+00:00",
+  "last_success_at": "2026-03-27T02:50:38.293810+00:00",
   "count": 15,
   "papers": [
     {
@@ -25,6 +25,33 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41631200/",
       "doi_url": "https://doi.org/10.1007/s13755-026-00432-3"
+    },
+    {
+      "pmid": "41884351",
+      "title": "Machine learning models enhance detection of arrhythmogenic right ventricular cardiomyopathy.",
+      "journal": "Machine learning. Health",
+      "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a heritable cardiac disorder associated with sudden cardiac death, yet its diagnosis remains slow, resource-intensive, and dependent on expert interpretation of multimodal tests. Machine learning approaches may enable earlier and more standardized detection. Here, we sought to identify an optimal machine learning strategy for ARVC detection, and to define its role within the diagnostic pathway. A composite dataset of 688 patients from the Johns Hopkins ARVC Registry was used to train and evaluate eight models based on 31 clinical, electrocardiogram (ECG), imaging, and genetic variables. Following an 80/20 train-test split, models were developed on the train set using five-fold stratified cross-validation and evaluated on the hold-out test cohort. Performance was assessed using area under the curve (AUC), accuracy, sensitivity, specificity, and 95% confidence intervals. Model comparison was performed using the Friedman test with Nemenyi post-hoc analysis. Gradient boosted trees (GBT) achieved the highest overall performance (AUC = 0.943, 95% CI: 0.902-0.99; accuracy = 0.847, 95% CI: 0.786-0.907). Nemenyi testing showed GBT significantly outperformed Decision Tree and TabNet (p < 0.05), while differences vs the remaining five models were not statistically significant. The next-best model (Random Forest) showed a minimal performance gap (ΔAUC = 0.008), whereas low-ranked models showed larger deficits (ΔAUC = 0.040-0.042). An ECG-only version of the GBT model achieved an AUC of 0.884, exceeding the previously reported ECG-deep learning waveform model (AUC = 0.87). GBT performs best among evaluated algorithms and offers clinically interpretable feature relevance consistent with task force criteria for ARVC diagnosis. An ECG-only deployment supports early triage, while the multimodal model functions as confirmatory decision support after advanced testing. These findings support a tiered ML-assisted diagnostic strategy for ARVC and justify prospective external validation in broader clinical settings.",
+      "authors": [
+        "Kwaku K Quansah",
+        "Sean A Murphy",
+        "Esther Kwon",
+        "Emma Anderson",
+        "Crystal Tichnell",
+        "Brittney Murray",
+        "Sean Gaines",
+        "Alessio Gasperetti",
+        "Cynthia A James",
+        "Hugh Calkins",
+        "Richard T Carrick",
+        "Chulan Kwon"
+      ],
+      "published_on": "2026-03-26",
+      "doi": "10.1088/3049-477X/ae451a",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41884351/",
+      "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
     },
     {
       "pmid": "41690150",
@@ -86,6 +113,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
+    },
+    {
+      "pmid": "41882308",
+      "title": "Emotion detection unveiled: A cognitive-computational synthesis of physiological models, machine learning, and datasets.",
+      "journal": "Cognitive, affective & behavioral neuroscience",
+      "abstract": "This comprehensive survey synthesizes state-of-the-art advancements in emotion recognition based on physiological signals, specifically focusing on the paradigm shift occurring between 2021 and 2025. Crucially, we move beyond a technical review by establishing a novel Cognitive-Computational Synthesis Framework (CCSF). This framework explicitly maps multimodal physiological manifestations (e.g., electroencephalogram (EEG), electrocardiogram (ECG), and galvanic skin response (GSR)) to underlying cognitive processes, such as attentional allocation, arousal regulation, and perceptual bias, providing a theoretical foundation for explainable AI (XAI) in affective computing. We meticulously examine the transition from traditional machine learning to advanced deep learning architectures, highlighting how recent innovations in Transformers, self-supervised learning, and diffusion models have shattered previous performance plateaus. While earlier dimensional models were often limited to 70-75% accuracy, this survey details how modern architectures now achieve benchmarks exceeding 95% on seminal datasets like SEED and DREAMER. Furthermore, the survey provides a rigorous analysis of 40 key studies (identified via PRISMA protocols), evaluating them based on their validation strategies, cross-subject generalizability, and adversarial robustness. By bridging the gap between raw physiological data and cognitive theory, this work offers a strategic roadmap for the next generation of robust, interpretable, and real-time emotion recognition systems.",
+      "authors": [
+        "Vilas Machhi",
+        "Apurva Shah"
+      ],
+      "published_on": "2026-03-26",
+      "doi": "10.3758/s13415-026-01418-0",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41882308/",
+      "doi_url": "https://doi.org/10.3758/s13415-026-01418-0"
     },
     {
       "pmid": "41876433",
@@ -268,46 +313,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41740264/",
       "doi_url": "https://doi.org/10.1088/1361-6579/ae4a83"
-    },
-    {
-      "pmid": "41791632",
-      "title": "EFFNet: Efficient feature fusion network for left ventricular hypertrophy identification based on 12-lead electrocardiogram signals.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is a common cardiovascular disorder, yet its detection from electrocardiogram (ECG) signals remains challenging because of the low sensitivity of conventional criteria.\n\nOBJECTIVE: We aimed to explore a new deep learning method for effective LVH identification based on 12-lead ECG signals.\n\nMETHODS: We proposed a novel ECG-based efficient feature fusion network (EFFNet) for LVH classification, incorporating a novel feature fusion module that fuses morphological features extracted by a convolutional neural network with algorithm-derived amplitude features and a mixture of experts module. Experiments of 5-fold cross-validations were performed on the 12-lead ECG signals in the UK Biobank data set (n = 38,289), with cardiovascular magnetic resonance measurement serving as the reference standard. We also tested the model on an external cohort, the Qinghai database, using echocardiography as the standard (n = 142,777). Using the UK Biobank and Qinghai cohorts, we assessed associations between EFFNet-predicted LVH and cardiovascular rhythm abnormalities.\n\nRESULTS: Experimental results of cross-validations on the UK Biobank data set showed that, on average, EFFNet achieved an area under the receiver operating characteristic curve of 0.933, which outperformed conventional ECG-based diagnostic methods and comparative deep learning methods. On the external Qinghai validation set, EFFNet achieved an area under the receiver operating characteristic curve of 0.654. EFFNet-predicted LVH was associated with atrial fibrillation, ventricular premature beats, and atrial premature beats.\n\nCONCLUSION: EFFNet significantly improves ECG-based LVH detection and introduces a novel deep learning framework for LVH risk prediction, advancing intelligent ECG-based screening and early identification of LVH.",
-      "authors": [
-        "Rui Yu",
-        "Lei Jia",
-        "Yu Pu",
-        "Zhuhuang Zhou",
-        "Lan Lin",
-        "Xiaofeng Gao",
-        "Guangyu Bin"
-      ],
-      "published_on": "2026-03-07",
-      "doi": "10.1016/j.hrthm.2026.02.046",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41791632/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.02.046"
-    },
-    {
-      "pmid": "41775878",
-      "title": "Toward robust automated cardiovascular arrhythmia detection using self-supervised learning and 1-dimensional vision transformers.",
-      "journal": "Scientific reports",
-      "abstract": "Cardiovascular diseases are the leading cause of death worldwide. With electrocardiogram (ECG) machines becoming more accessible, passive monitoring for arrhythmia detection is now possible. This work highlights the importance of self-supervised learning in detecting arrhythmias by leveraging large-scale unlabelled ECG data to improve performance and reduce overfitting to class imbalance and noise. We propose Masked Patch Modelling (MPM) and use 8.2 million unlabelled ECGs for self-supervised pre-training, introducing PatchECG, a 1D Transformer model that can be fine-tuned for various ECG tasks. PatchECG achieves state-of-the-art results on standard datasets, including PTB-XL multi-label classification, and sets new benchmarks on the largest and highest-quality multi-label dataset to date. Compared to existing methods, PatchECG is five times more computationally efficient while increasing model capacity by a factor of 14. We also compare the 1D PatchECG model to a state-of-the-art 2D vision Transformer, HeartBEiT, and observe significantly higher performance. Finally, ablation studies reveal a 2% performance improvement in handling class imbalance, label noise, and over-parameterization. These findings demonstrate the potential of self-supervised learning in advancing automated arrhythmia detection.",
-      "authors": [
-        "Mitchell Chatterjee",
-        "Adrian D C Chan",
-        "Majid Komeili"
-      ],
-      "published_on": "2026-03-04",
-      "doi": "10.1038/s41598-026-41549-5",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41775878/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-41549-5"
     }
   ],
   "error": null,
