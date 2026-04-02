@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-01T07:42:24.133522+00:00",
-  "last_success_at": "2026-04-01T07:42:25.662424+00:00",
+  "last_attempt_at": "2026-04-02T09:04:57.538082+00:00",
+  "last_success_at": "2026-04-02T09:04:58.525021+00:00",
   "count": 15,
   "papers": [
     {
@@ -70,6 +70,23 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41690150/",
       "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
+    },
+    {
+      "pmid": "41922385",
+      "title": "Advancing cardiovascular disease diagnosis with an interpretable and responsible AI framework.",
+      "journal": "Scientific reports",
+      "abstract": "Cardiovascular disease (CVD) remains a leading global health threat, responsible for one in five deaths worldwide. Early detection is critical to mitigate morbidity and mortality, yet traditional diagnostic methods often rely on reactive clinical assessments, missing opportunities for preventive intervention. In this study, a machine learning (ML) ecosystem is developed to enhance CVD diagnosis through two key approaches: (1) an early warning system using non-clinical, self-reported features for accessible risk stratification, and (2) specialized diagnostic models integrating clinical and non-clinical data. The framework leverages advanced ML techniques, including tabular neural networks (TabNet, TabPFN) and ensemble methods (XGBoost, Random Forest), validated on multi-regional datasets. Shapley Additive Explanations (SHAP) analysis identified ECG-related features as dominant predictors of CVD risk, with ST-segment slope (+0.93) and ST depression (+0.63) exhibiting the strongest effects. Counterfactual explanations from the non-clinical model further revealed actionable preventive measures: reducing exercise-induced angina and chest pain severity, alongside increasing exercise heart rate, could shift predictions from diseased to healthy, highlighting the model's utility for lifestyle interventions. To address ethical and clinical trustworthiness, interpretability tools (SHAP, counterfactuals), fairness mitigation (FairLearn), and uncertainty quantification (Bayesian Neural Networks) are incorporated. Causal inference identified key predictors and their Average Treatment Effects (ATEs) such as exercise-induced angina (ATE: 0.36) and ST slope (ATE: 0.33), informing a hybrid ensemble model that achieved 89% accuracy while reducing dimensionality. The system aligns with FDA Good ML Practices and EU Trustworthy AI guidelines, offering a scalable solution for early detection and equitable diagnosis.",
+      "authors": [
+        "Kazi Sakib Hasan",
+        "Irfan Sadi Dhrubo"
+      ],
+      "published_on": "2026-04-02",
+      "doi": "10.1038/s41598-026-35451-3",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41922385/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-35451-3"
     },
     {
       "pmid": "41836589",
@@ -294,25 +311,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41838498/",
       "doi_url": "https://doi.org/10.1109/JBHI.2026.3669719"
-    },
-    {
-      "pmid": "41740264",
-      "title": "Four-electrode ECG reconstruction using anatomically grounded synthetic leads: a physiological measurement framework with hybrid CNN-transformer mapping.",
-      "journal": "Physiological measurement",
-      "abstract": "Objective.The standard 12-lead electrocardiogram (ECG) remains essential for cardiac diagnosis but requires ten physical electrodes, limiting long-term and wearable monitoring applications. We developed an anatomically grounded and physiologically interpretable framework to reconstruct the complete 12-lead ECG from four synthetic chest-torso electrodes derived using geometric vector principles and cardiac territorial anatomy.Approach.The 12 standard leads were partitioned into four physiologically coherent clusters representing septal/anterior, apical-lateral, inferior, and high-lateral depolarization vectors. Synthetic electrodes were constructed as weighted linear combinations of standard leads guided by frontal- and horizontal-plane vector geometry. A hybrid convolutional neural network-Transformer architecture mapped these four synthetic inputs to full 12-lead waveforms. The model was trained on 21 786 recordings from the PTB-XL dataset and externally validated on 500 recordings from the Chapman-Shaoxing dataset. Performance was evaluated using coefficient of determination (R2), Pearson correlation, root mean square error (RMSE), diagnostic concordance analysis, ablation testing, and noise robustness assessment.Main results.On the internal test set, the model achieved meanR2= 0.878 ± 0.070, Pearson correlationρ= 0.939 ± 0.030, and RMSE = 0.071 ± 0.030 mV. External validation demonstrated only 5% performance degradation. Waveform component preservation exceeded 94%, ST-segment correlation reached 0.964, and overall diagnostic concordance was 0.883, indicating preservation of approximately 88% of clinically relevant information. Reconstruction errors were symmetrically distributed around zero with minimal bias (0.001 mV) and maintained robustness at signal-to-noise ratios ⩾ 10 dB.Significance.This anatomically explainable reconstruction framework demonstrates the algorithmic feasibility of compact four-electrode ECG systems while preserving high diagnostic fidelity. By grounding electrode design in cardiac vector anatomy and validating performance across datasets, the approach provides a physiologically interpretable foundation for future wearable and ambulatory ECG reconstruction systems, establishing a reconstruction ceiling prior to hardware implementation.",
-      "authors": [
-        "Rugved Parmar",
-        "Daoud Eldawud",
-        "M D Fahim",
-        "Adam Budzikowski"
-      ],
-      "published_on": "2026-02-26",
-      "doi": "10.1088/1361-6579/ae4a83",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41740264/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/ae4a83"
     }
   ],
   "error": null,
