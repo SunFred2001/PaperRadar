@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-04T10:39:19.155106+00:00",
-    "last_success_at": "2026-04-04T10:39:20.419617+00:00",
+    "last_attempt_at": "2026-04-05T10:40:34.272828+00:00",
+    "last_success_at": "2026-04-05T10:40:34.649541+00:00",
     "count": 15,
     "papers": [
       {
@@ -88,6 +88,27 @@
         "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
       },
       {
+        "pmid": "41664247",
+        "title": "Rosette Cardiac MR Fingerprinting for Simultaneous T1, T2, T 2 * , and Fat Fraction Mapping Using a Multi-Echo Deep Image Prior Reconstruction.",
+        "journal": "Magnetic resonance in medicine",
+        "abstract": "PURPOSE: Quantitative mapping of cardiac tissue properties is used clinically in diagnosis and monitoring of a wide variety of cardiac pathologies. Cardiac Magnetic Resonance Fingerprinting (cMRF) enables rapid and simultaneous quantification of multiple parameters in the myocardium from a single scan. In this work, a multi-echo cMRF acquisition is combined with a deep image prior framework to reconstruct cardiac T1, T2, T 2 * , and fat fraction maps.\n\nMETHODS: A 2D, single-breathhold, ECG-gated rosette trajectory cMRF sequence was deployed to sensitize the signal to T1, T2, T 2 * , and fat off-resonance effects. Data were processed using a deep image prior reconstruction trained with the cMRF encoding model to generate images consistent with the acquired k-space data. These images were used in curve fitting and pattern matching algorithms to generate T1, T2, T 2 * and fat fraction maps. The technique was validated using numerical simulations, standard phantoms, and 28 healthy subjects.\n\nRESULTS: In phantoms, good agreement was observed between the proposed technique and gold-standard reference measurements. In healthy subjects, measurements made with the deep image prior (DIP) reconstruction agreed with clinical cardiac measurements and demonstrated smaller voxel-level variance in a healthy population compared to iterative low-rank and direct matching reconstructions.\n\nCONCLUSION: The multi-echo cMRF acquisition coupled with a DIP reconstruction enables the simultaneous quantification of T1, T2, T 2 * , and fat in the heart and demonstrates good agreement with conventional mapping approaches in phantom and in vivo experiments. Additionally, the DIP reconstruction provides accurate measurements with a lower voxel-level variance compared with direct gridding and iterative low-rank reconstruction methods.",
+        "authors": [
+          "Evan Cummings",
+          "Gastao Cruz",
+          "Jacob Richardson",
+          "Sydney Kaplan",
+          "Jesse Hamilton",
+          "Nicole Seiberlich"
+        ],
+        "published_on": "2026-02-10",
+        "doi": "10.1002/mrm.70299",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
+        "doi_url": "https://doi.org/10.1002/mrm.70299"
+      },
+      {
         "pmid": "41922385",
         "title": "Advancing cardiovascular disease diagnosis with an interpretable and responsible AI framework.",
         "journal": "Scientific reports",
@@ -146,6 +167,61 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
+      },
+      {
+        "pmid": "41933676",
+        "title": "Anxiety detection using neural and physiological signals and artificial intelligence: A comprehensive review.",
+        "journal": "Neuroscience and biobehavioral reviews",
+        "abstract": "Anxiety disorders are a significant challenge to global health, yet current diagnostic methods rely mainly on subjective and episodic assessment. The application of artificial intelligence (AI) in combination with neural and physiological signals is a promising pathway toward objective and continuous monitoring. This review provides a comprehensive evaluation of machine learning (ML) and deep learning (DL) techniques applied to electroencephalography (EEG), electrocardiography (ECG), Photoplethysmography (PPG), and electrodermal activity (EDA) in the detection of anxiety. A systematic review of the literature covering the period 2015-2025 indicates that the field has evolved from traditional ML systems based on hand-crafted features to modern end-to-end deep learning schemes. Our review indicates that while classical models remain effective, hybrid models such as CNN-LSTM and more sophisticated architectures, like Transformers, consistently deliver state-of-the-art results, particularly in multimodal data integration scenarios. Despite the impressive accuracies reported, a critical examination identifies several key challenges including reliance on narrow, laboratory-trained datasets, a lack of standardized validation procedures, and limited transparency in complex models, collectively impeding clinical translation. Progress in this field requires the creation of large-scale, clinically-validated datasets; the development of fault-tolerant, generalizable, and interpretable schemes; and a transition from basic state classification towards longitudinal, personalised monitoring in support of just-in-time intervention. As a comprehensive and up-to-date narrative synthesis of AI-driven anxiety detection using neural and physiological signals, this review consolidates a fragmented literature, articulates the translational gaps limiting real-world deployment, and establishes a clear research agenda for the development of clinically impactful digital mental health technologies.",
+        "authors": [
+          "Hamidreza Ghonchi",
+          "Tom Foulsham",
+          "Saideh Ferdowsi"
+        ],
+        "published_on": "2026-04-04",
+        "doi": "10.1016/j.neubiorev.2026.106669",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
+        "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
+        "pmid": "41933633",
+        "title": "Improving Transthyretin cardiac amyloidosis detection from electrocardiograms through Willem AI platform.",
+        "journal": "Heart rhythm",
+        "abstract": "BACKGROUND: Transthyretin cardiac amyloidosis (ATTR-CM ) is a frequently underdiagnosed disease where delay in diagnosis limits the efficacy of treatments. Artificial Intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and can help improve ATTR-CM early recognition.\n\nOBJECTIVE: To extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: Single-center retrospective study of adults evaluated for ATTR-CM . Controls had negative DPD scintigraphy and clinical assessment excluding ATTR-CM . After quality control, 20,754 ECGs from 2,901 individuals (585 ATTR-CM , 2,316 controls) were used. Patients were split into training/validation and test sets with stratification by status, sex, and age. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an AUC of 0.88 (95% CI 0.85-0.91), sensitivity 80.7%, and specificity 78.5%. Performance was similar for ATTRv (AUC 0.91) and ATTRwt (AUC 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; NYHA class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC 0.92), lumbar spinal stenosis (AUC 0.92), polyneuropathy (AUC 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
+        "authors": [
+          "Esther González-López",
+          "Ruben Abbou",
+          "Rafael López-García",
+          "Mariana Brandão",
+          "Lucía Perard",
+          "Nerea Mora-Ayestaran",
+          "Cecilia Niro",
+          "Gabriela Uriarte",
+          "Maria de Miguel",
+          "Ewa Dziewiecka",
+          "Paola Settepassi",
+          "Clara Simón",
+          "Rafael Martín-Portugués",
+          "Ángel de la Linde Valdés",
+          "Víctor Valdés",
+          "Iñigo Sánchez-Rodríguez",
+          "Rubén Ruiz-Zamorano",
+          "François De Guio",
+          "José María Lillo-Castellano",
+          "Manuel Marina-Breysse",
+          "Pablo García-Pavía"
+        ],
+        "published_on": "2026-04-04",
+        "doi": "10.1016/j.hrthm.2026.03.1949",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
+        "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
       },
       {
         "pmid": "41882308",
@@ -266,67 +342,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41785513/",
         "doi_url": "https://doi.org/10.1088/2057-1976/ae4df5"
-      },
-      {
-        "pmid": "41844761",
-        "title": "An attention-based multimodal deep learning framework integrating EEG and ECG for enhanced stress detection.",
-        "journal": "Scientific reports",
-        "abstract": "Chronic stress is an important threat in Public Health, as it negatively impacts both the Body and Mind. Current methods for measuring and identifying stress rely largely on individuals providing subjective assessments or measuring isolated physiological parameters, thereby limiting the accuracy and consistency of these approaches. This study proposes a novel approach to objectively measuring an individual's level of stress, by combining deep transfer learning methods for detecting psychological stress measured using Electroencephalogram (EEG) and Electrocardiogram (ECG) data. More specifically, this new method uses three pre-trained neural network backbones-VGG16, EfficientNetB0, and ResNeXt50-utilized together, to create a unified system capable of merging information from multiple streams of data in real-time. EEG data is converted to time-frequency maps using wavelet transformations and ECG data uses time-series variability (i.e. patterns of how the heart beats) combined with raw, unfiltered data. An advanced fusion layer uses attention weights to intelligently combine these two data sources, allowing for improved accuracy of stress assessment. Using the WESAD and CASE datasets, both of which were collected from 35 subjects while they were in a neutral (control), tense, and positive state, our method performs at 95.7% accuracy in identifying between these three conditions, which is significantly greater than the accuracy rates of either the EEG-only (82.3%) or ECG-only (85.6%) methods or individual networks. Furthermore, this system is highly flexible and has demonstrated the capability to successfully operate across numerous testing conditions, while additionally demonstrating that EEG signals enhance ECG stress assessment and vice versa. Therefore, this new approach provides a highly reliable way to support medical diagnosis, employee wellness programs, and personalized psychological support.",
-        "authors": [
-          "Rakesh Kumar",
-          "Sivanesan Bala Krishnan",
-          "Rakesh Kumar Yadav",
-          "Dilip Kumar Jangd Bahadur Saini",
-          "Prasun Chakrabarti",
-          "Arun Balodi",
-          "Shwetha V"
-        ],
-        "published_on": "2026-03-18",
-        "doi": "10.1038/s41598-026-44499-0",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41844761/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-44499-0"
-      },
-      {
-        "pmid": "41843891",
-        "title": "A lightweight and robust method for electrocardiogram anomaly detection and localization using multi-scale masked autoencoder.",
-        "journal": "PloS one",
-        "abstract": "Electrocardiogram (ECG) analysis is crucial for diagnosing cardiovascular conditions. While traditional classification models require large volumes of labeled data across multiple disease categories, anomaly detection offers a flexible alternative by identifying deviations from normal patterns-an approach particularly valuable given the rarity and diversity of cardiac conditions. However, existing anomaly detection methods often rely on R-peak detection or heartbeat segmentation, which increases preprocessing complexity and reduces robustness to signal variability. To address these limitations, we propose MMAE-ECG, a multi-scale masked autoencoder designed to capture both global and local dependencies without such preprocessing steps. MMAE-ECG integrates a multi-scale masking strategy and a multi-scale attention mechanism with distinct positional embeddings, enabling a lightweight Transformer encoder to efficiently model ECG signals. Additionally, an aggregation strategy is introduced to improve anomaly score estimation. Experiments demonstrate that MMAE-ECG achieves state-of-the-art performance in both anomaly detection and localization while significantly reducing computational costs. Specifically, it requires only approximately 1/78 of the inference FLOPs and 1/18 of the trainable parameters compared to the previous leading method. Ablation studies further validate the contributions of each component, demonstrating the potential of multi-scale masked autoencoders as an effective and efficient approach for ECG anomaly detection.",
-        "authors": [
-          "Ya Zhou",
-          "Yujie Yang",
-          "Jianhuang Gan",
-          "Xiangjie Li",
-          "Jing Yuan",
-          "Wei Zhao"
-        ],
-        "published_on": "2026-03-18",
-        "doi": "10.1371/journal.pone.0343571",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41843891/",
-        "doi_url": "https://doi.org/10.1371/journal.pone.0343571"
-      },
-      {
-        "pmid": "41838498",
-        "title": "Multi-Feature Fusion and Compressed Bi-LSTM for Memory-Efficient Heartbeat Classification on Wearable Devices.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "In this paper, we present a memory-efficient ECG based heartbeat classification for wearable devices enabled by multi-feature fusion and compressed bidirectional long short term memory (Bi-LSTM). A multi-feature fusion technique based on time intervals and under-the-curve areas is proposed to extract the main characteristic points of the ECG waveform with high accuracy and robustness against noise and artifacts. A Bi-LSTM network is developed to process the input sequence in both forward and backward directions, resulting in higher accuracy and a 28% smaller network size compared with a conventional LSTM. Multiple neural networks with varying sizes, including tiny (84k), small (150k), medium (478k), and large (1.25M) models, are developed to achieve high accuracy across all classes. The overall accuracy is 96.4% for the large model and 94.6% for the tiny model, while the F1 score across all classes exceeds 89.1% and 85.1%, respectively. The proposed models, compressed using post-training quantization techniques, achieve state-of-the art performance. The compressed large model with 8-bit integer quantization (INT8) achieves an accuracy of 88.4% with 1.3MB of memory, while the compressed tiny model with dynamic range quantization achieves 94.6% accuracy with only 139kB of memory.",
-        "authors": [
-          "Reza Nikandish",
-          "Jiayu He",
-          "Benyamin Haghi"
-        ],
-        "published_on": "2026-03-16",
-        "doi": "10.1109/JBHI.2026.3669719",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41838498/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2026.3669719"
       }
     ],
     "error": null,
@@ -339,6 +354,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-05T10:39:20.419617+00:00",
+  "next_refresh_at": "2026-04-06T10:40:34.649541+00:00",
   "next_push_at": null
 }
