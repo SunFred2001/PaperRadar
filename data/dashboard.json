@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-06T11:02:41.414099+00:00",
-    "last_success_at": "2026-04-06T11:02:41.800829+00:00",
+    "last_attempt_at": "2026-04-07T11:57:52.907034+00:00",
+    "last_success_at": "2026-04-07T11:57:54.049633+00:00",
     "count": 15,
     "papers": [
       {
@@ -109,6 +109,26 @@
         "doi_url": "https://doi.org/10.1002/mrm.70299"
       },
       {
+        "pmid": "41942649",
+        "title": "AI based ECG data recovery and cardiovascular diseases classification (CEDRC-network).",
+        "journal": "Scientific reports",
+        "abstract": "Cardiovascular diseases (CVDs) are a significant and widespread cause of death in the world, continuing to increase mortality rates. Therefore, timely identification and diagnosis are essential for a patient's optimized recovery and longevity. In this regard, ECG is an effective tool for detecting anomalous heart conditions. However, interfering factors like noise, transient changes, and missing data could affect the accurate diagnosis of CVDs. The Cardiovascular ECG Data Recovery and Classification Network (CEDRC-Net) sorts and collates noisy data while also recovering missing data caused by equipment malfunction or human error, using a multistage machine-learning and deep-learning model. Moreover, CEDRC-Net is incorporated into the Transformer-based Convolutional Denoising Autoencoder (TCDAE) model to methodically mitigate noise, subsequently the Variational Autoencoder (VAE) or Temporal Fusion Transformer (TFT) are systematically employed as an alternative to accurately reconstruct and forecast ECG signals. Following this, the system classified heart diseases, including atrial fibrillation, sinus bradycardia, and tachycardia, using several machine-learning algorithms, based on data from a dataset comprising 2426 patients.TFT showcased better performance than VAE in ECG signal reconstruction, achieving up to 98% accuracy with Gradient Boosting, compared to 96% by VAE. Furthermore, in downstream classification, signals enhanced by TFT led to superior model results, with SVM and XGBoost both reaching 98.4% accuracy and F1-scores. The TFT achieved substantially lower reconstruction errors (MAE = 0.015, MSE = 0.00045, RMSE = 0.0132) compared to the VAE (MAE = 0.075, MSE = 0.011, RMSE = 0.107). These results highlight TFT's strong denoising capability for improving ECG diagnostic accuracy, while the suggested system ensures reliable measurements under noisy and non-ideal conditions. It is highly conducive for early and accurate diagnosis, better clinical decisions, and decreased patient load on the cardiologists. The research is performed on the MIMIC-IV-ECG 12-lead real-time dataset.",
+        "authors": [
+          "Muhammad Raheel Khan",
+          "Zunaib Maqsood Haider",
+          "Jawad Hussain",
+          "Masood Ahmad Khan",
+          "Saad Abdullah"
+        ],
+        "published_on": "2026-04-07",
+        "doi": "10.1038/s41598-026-46232-3",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41942649/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-46232-3"
+      },
+      {
         "pmid": "41922385",
         "title": "Advancing cardiovascular disease diagnosis with an interpretable and responsible AI framework.",
         "journal": "Scientific reports",
@@ -124,6 +144,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41922385/",
         "doi_url": "https://doi.org/10.1038/s41598-026-35451-3"
+      },
+      {
+        "pmid": "41939092",
+        "title": "The role of artificial intelligence in early detection and risk prediction of ischemic heart disease.",
+        "journal": "Annals of medicine and surgery (2012)",
+        "abstract": "Ischemic heart disease (IHD) remains a leading cause of global morbidity and mortality, underscoring the need for rapid and accurate diagnostic strategies. Conventional methods, including electrocardiography (ECG), imaging, and biomarkers, are effective but limited by factors such as delayed biomarker elevation, reliance on expert interpretation, and variability across settings. Artificial intelligence (AI) offers new opportunities to enhance early detection and risk prediction by applying machine learning and deep learning to large, complex datasets. In ECG analysis, AI models consistently identify subtle ischemic patterns, including occlusive myocardial infarction, with accuracy that often rivals or exceeds clinicians. In imaging, AI enhances echocardiography, CT, MRI, and nuclear modalities by automating segmentation, strain analysis, and plaque quantification while reducing interpretation time. In biomarkers, AI augments traditional tools like troponins and enables the discovery of novel predictors through multi-omics and wearable data integration, supporting dynamic and individualized risk assessment. Despite promising results, most studies remain retrospective or single-center, with limited validation across diverse populations and healthcare environments. Key barriers include algorithm bias, generalizability, regulatory uncertainty, and limited clinician familiarity. Future progress will depend on multicenter trials, federated learning, explainable AI, and integration into existing workflows. In conclusion, AI has the potential to transform cardiovascular care by enabling earlier and more precise diagnosis of IHD and more personalized risk prediction. However, realizing this potential will require careful validation, equitable implementation, and collaboration across disciplines to ensure safe and effective adoption in clinical practice.",
+        "authors": [
+          "Pouria Azami",
+          "Javad Kojuri",
+          "Iman Razeghian-Jahromi"
+        ],
+        "published_on": "2026-04-06",
+        "doi": "10.1097/MS9.0000000000004812",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41939092/",
+        "doi_url": "https://doi.org/10.1097/MS9.0000000000004812"
       },
       {
         "pmid": "41836589",
@@ -167,6 +206,28 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
+      },
+      {
+        "pmid": "40966134",
+        "title": "Generation and Selection: A Self-Iterative Two-Stage Data Augmentation Method for Automated ECG Classification.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Automated electrocardiogram (ECG) classification tasks play a crucial role in clinical but face challenges due to the scarcity of accessible and well-labeled data. ECG data augmentation is an effective way to address these challenges, either by altering the characteristics of real ECG data or using statistical and generative models to generate labeled data. However, the generated data often suffer from noise in both the data and label, which can reduce the performance of classification models. To address this, we propose a novel self-iterative two-stage data augmentation method for automated ECG classification, called SiTs-ECG. In the generation stage, an unconditional diffusion model, guided by a Transformer encoder, is trained to capture the complex characteristics of long-term ECG signals, generating high-quality ECG-like samples. In the selection stage, the generated samples are assigned pseudo-labels by a well-trained base classification model, and those generated samples for which the model can confidently predict the pseudo-labels are selected. We then integrate these stages into a self-iterative training process to continually improve the performance of base classification model. Extensive experiments on three real-world datasets demonstrate the effectiveness of our method. Notably, on the Apnea-ECG dataset, using ECG-Transformer as the downstream classification model, Precision, Recall, F1, and Accuracy are improved by 7.9, 9.1, 9.2, and 7.3 percentage points, respectively. Furthermore, our method is versatile and compatible with various generative and downstream classification models, showing promising applications in automated ECG classification in the clinical field.",
+        "authors": [
+          "Chaoying Jiang",
+          "Yujing Xin",
+          "Ning Liu",
+          "Yonghui Xu",
+          "Lei Liu",
+          "Lizhen Cui",
+          "Jianyong Wang"
+        ],
+        "published_on": "2025-09-18",
+        "doi": "10.1109/JBHI.2025.3611429",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40966134/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2025.3611429"
       },
       {
         "pmid": "41933676",
@@ -285,63 +346,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41872525/",
         "doi_url": "https://doi.org/10.1007/s00431-026-06874-x"
-      },
-      {
-        "pmid": "41861395",
-        "title": "Long Short-Term Memory-GPT-4 Integration for Interpretable Biomedical Signal Classification: Proof-of-Concept Study.",
-        "journal": "JMIR formative research",
-        "abstract": "BACKGROUND: Approximately 3.8 billion people lack access to essential health services, and diagnostic interpretation remains a major bottleneck in remote and resource-constrained settings. Limited access to specialists and the complexity of biomedical signal interpretation (eg, electrocardiogram [ECG] and electroencephalogram) contribute to delays in recognizing cardiovascular and neurological conditions.\n\nOBJECTIVE: The study aimed to develop and evaluate a technical framework integrating long short-term memory (LSTM) networks with GPT-4 to provide automated biomedical signal classification and human-readable interpretations, suitable as a foundation for future deployment in resource-constrained environments.\n\nMETHODS: The 2-layer LSTM architecture (128→64 units) was selected based on preliminary experiments comparing configurations ranging from single-layer networks (64, 128 units) to deeper architectures (128→64→32 units). The chosen configuration balanced model capacity against overfitting risk and computational efficiency. The framework was evaluated using public PhysioNet datasets: Massachusetts Institute of Technology-Beth Israel Hospital (MIT-BIH) Arrhythmia, Physikalisch-Technische Bundesanstalt (PTB) Diagnostic ECG, Physikalisch-Technischen Bundesanstalt-extra large, Chapman-Shaoxing, Medical Information Mart for Intensive Care-III Waveforms, and Sleep-European data format. A patient-level split protocol (70/15/15) was used to reduce leakage risk. The LSTM architecture (128→64 units) performed temporal feature extraction with softmax-based classification for mutually exclusive classes. GPT-4 was integrated via an application programming interface with structured prompts to generate clinical interpretations from model outputs.\n\nRESULTS: For the expert evaluation, we randomly sampled 50 test cases per dataset (150 total: 30 from each class for MIT-BIH, 25 per class for PTB, and 20 per class for Children's Hospital Boston-Massachusetts Institute of Technology), ensuring balanced class representation. Three board-certified physicians (2 cardiologists for ECG datasets and 1 neurologist for the electroencephalogram dataset) independently reviewed GPT-4-generated interpretations. Reviewers were blinded to whether signals were correctly or incorrectly classified by the LSTM model. Each interpretation was rated on a 5-point Likert scale (1=clinically inappropriate and 5=highly accurate and clinically useful). Interrater reliability was assessed using Fleiss κ (0.78, substantial agreement). On held-out test sets, classification performance was as follows: MIT-BIH 92.3% accuracy (F1=0.91, AUC=0.95), PTB Diagnostic 94.7% (F1=0.94, AUC=0.97), Physikalisch-Technischen Bundesanstalt-extra large 88.9% (F1=0.88, AUC=0.93), Chapman-Shaoxing 91.2% (F1=0.90, AUC=0.94), Medical Information Mart for Intensive Care-III 89.5% (F1=0.89, AUC=0.92), and Sleep-European data format 87.3% (F1=0.86, AUC=0.91). Expert evaluation of generated interpretations (3 board-certified cardiologists) rated clinical accuracy 4.3 out of 5, clarity 4.6 out of 5, and actionability 4.2 out of 5, with strong interrater agreement (κ>0.85).\n\nCONCLUSIONS: This proof-of-concept demonstrates an explicit methodological integration of deep learning-based biomedical signal classification with GPT-4-based interpretation, provides a technical foundation for future prospective clinical validation, field studies, and regulatory review prior to clinical deployment in underserved settings.",
-        "authors": [
-          "Kapil Kumar Reddy Poreddy",
-          "Ajit Sahu",
-          "Sanjoy Mukherjee",
-          "Bhavan Kumar Basavaraju"
-        ],
-        "published_on": "2026-03-20",
-        "doi": "10.2196/87962",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41861395/",
-        "doi_url": "https://doi.org/10.2196/87962"
-      },
-      {
-        "pmid": "41849820",
-        "title": "Towards real-time sleep stage classification: A deep learning approach leveraging PPG and ECG.",
-        "journal": "Physiological measurement",
-        "abstract": "OBJECTIVE: This work aims to enable adaptive Consumer Sleep Technologies (CSTs) for sleep intervention by developing a deep learning model for sleep stage classification using wearable sensor data.\n\nAPPROACH: We propose an end-to-end deep learning approach&#xD;leveraging Photoplethysmography (PPG) signals, commonly available in CSTs. Model performance is improved by pretraining with Electrocardiography (ECG) from the large-scale Multi-Ethnic Study of Atherosclerosis dataset (MESA) datasets. Training and evaluation are conducted with the Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology (DREAMT) and an additional dataset comprising of 13 participants (aged 22-71 years) without prior known sleep disorders. The dataset contains combined synchronized polysomnography (PSG) and Empatica E4 wearable data, annotated with American Academy of Sleep Medicine (AASM) sleep stages.\n\nMAIN RESULTS: The proposed method demonstrates sleep stage classification from minimally processed PPG signals for real-time intervention. While ECG-trained models are not directly transferable to PPG, fine-tuning significantly improves performance, achieving up to a 29% increase in multi-stage classification accuracy.\n\nCONCLUSION: Pretraining with ECG and fine-tuning with PPG increases sleep stage classification for end-to-end deep learning models, exceeding previous efforts, particularly in 3-stage sleep classification.\n\nSIGNIFICANCE: This work contributes to sleep health by developing a sleep stage classification model for minimally processed PPG sensor data and takes a step further towards making adaptive CSTs feasible for use with wearable sensors.",
-        "authors": [
-          "Shagen Djanian",
-          "Thomas Dyhre Nielsen",
-          "Søren H Nielsen",
-          "Anders Bruun"
-        ],
-        "published_on": "2026-03-19",
-        "doi": "10.1088/1361-6579/ae5458",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41849820/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
-      },
-      {
-        "pmid": "41785513",
-        "title": "NeuroCardioSense (NCS): a time-aware fuzzy decision framework for multi-lead ECG classification and arrhythmia detection.",
-        "journal": "Biomedical physics & engineering express",
-        "abstract": "Accurate classification of electrocardiogram (ECG) signals is essential for automated arrhythmia detection and clinical decision support. Existing deep learning methods still struggle to jointly characterize morphological patterns, multi-lead interactions, and temporal dependencies, leading to limited representation of waveform details, rhythm dynamics, and class boundary separability. To address these challenges, we propose a NeuroCardioSense (NCS) framework, built upon a convolutional neural network (CNN) backbone, comprising a base model, NeuroCardioSenseNet (NCSN), and an enhanced variant,NeuroCardioSenseNet-Fusion (NCSNF). NCSN constructs a novel Time-Aware Gated Convolution (TAG-Conv) layer together with a Time-Aware Gating Mechanism (TAGM), which adaptively modulate convolutional filters and cross-lead feature contributions based on local temporal context and channel energy distributions. This design enables joint modeling of morphological features and short-range temporal dynamics while reinforcing inter-lead coherence. Building upon NCSN, NCSNF incorporates a Time-Fuzzy Integration Module (TFIM) that constructs a learnable fuzzy subspace by jointly encoding features and membership degrees, effectively mitigating class boundary ambiguity and improving discriminability in limited-sample conditions. Extensive experiments on the MIT-BIH Arrhythmia Database demonstrate the superiority of the NCS framework. NCSN achieves 98.77% intra-patient and 87.82% inter-patient accuracy, while NCSNF further improves performance to 99.16% and 90.85%, respectively, outperforming existing baseline methods.",
-        "authors": [
-          "Cheng-Hai He",
-          "Xiao-Li Wang",
-          "Ying Feng",
-          "Qi Feng"
-        ],
-        "published_on": "2026-03-06",
-        "doi": "10.1088/2057-1976/ae4df5",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41785513/",
-        "doi_url": "https://doi.org/10.1088/2057-1976/ae4df5"
       }
     ],
     "error": null,
@@ -354,6 +358,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-07T11:02:41.800829+00:00",
+  "next_refresh_at": "2026-04-08T11:57:54.049633+00:00",
   "next_push_at": null
 }
