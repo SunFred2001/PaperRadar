@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-08T11:59:44.673132+00:00",
-  "last_success_at": "2026-04-08T11:59:45.046175+00:00",
+  "last_attempt_at": "2026-04-09T12:00:51.828022+00:00",
+  "last_success_at": "2026-04-09T12:00:52.809694+00:00",
   "count": 15,
   "papers": [
     {
@@ -192,6 +192,28 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
     },
     {
+      "pmid": "41419110",
+      "title": "Diagnostic Accuracy of Machine Learning Algorithms in Electrocardiogram-Based Heart Failure Detection: A Systematic Review and Meta-Analysis.",
+      "journal": "The Canadian journal of cardiology",
+      "abstract": "BACKGROUND: AI applied to the electrocardiogram shows promise for detecting heart failure (HF), but heterogeneous performance is reported. A key ambiguity is the conflation of 2 distinct diagnostic targets: the structural abnormality of left ventricular systolic dysfunction and the clinical syndrome of HF.\n\nMETHODS: Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses of Diagnostic Test Accuracy Studies (PRISMA-DTA) guidelines, in this systematic review and meta-analysis we analyzed 40 unique, nonoverlapping patient cohorts. Diagnostic accuracy was synthesized using a hierarchical bivariate model, which addressed ejection fraction (EF) threshold heterogeneity via stratification and multithreshold analysis. Prespecified bivariate meta-regressions were used to examine covariates including external validation status, lead configuration, and model architecture. In a secondary analysis we evaluated HF classification models.\n\nRESULTS: The primary analysis yielded a pooled sensitivity of 85.9% (95% confidence interval [CI], 82.8%-88.5%) and specificity of 80.9% (95% CI, 75.8%-85.1%), with a hierarchical summary receiver operating characteristic area under the curve of 0.902 (95% CI, 0.885-0.915). Performance varied significantly according to target definition (left ventricular systolic dysfunction vs clinical HF) and EF threshold used. Meta-regression revealed that 12-lead electrocardiograms (P = 0.003) and convolutional neural network architectures (P = 0.024) were associated with higher specificity values. The secondary analysis (7 studies) yielded pooled sensitivity of 96.2% and specificity of 92.1%.\n\nCONCLUSIONS: AI applied to the electrocardiogram shows substantial but variable diagnostic performance that depends critically on target condition definition, EF thresholds, and methodological factors. Implementation must account for these dependencies and use precise, standardized end points.\n\nREGISTRATION: PROSPERO CRD42024624082.",
+      "authors": [
+        "Mustafa Eray Kilic",
+        "Mehmet Emin Arayici",
+        "Oguz Akbilgic",
+        "Mehmet Birhan Yilmaz"
+      ],
+      "published_on": "2025-12-20",
+      "doi": "10.1016/j.cjca.2025.12.022",
+      "publication_types": [
+        "Journal Article",
+        "Systematic Review",
+        "Meta-Analysis",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41419110/",
+      "doi_url": "https://doi.org/10.1016/j.cjca.2025.12.022"
+    },
+    {
       "pmid": "40966134",
       "title": "Generation and Selection: A Self-Iterative Two-Stage Data Augmentation Method for Automated ECG Classification.",
       "journal": "IEEE journal of biomedical and health informatics",
@@ -305,31 +327,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
       "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
-    },
-    {
-      "pmid": "41872525",
-      "title": "Comparative evaluation of multimodal large language models for diagnostic accuracy in pediatric electrocardiography: a prospective comparative diagnostic accuracy study.",
-      "journal": "European journal of pediatrics",
-      "abstract": "UNLABELLED: We evaluated three multimodal LLMs, ChatGPT (GPT-5.2), Gemini 3, and Microsoft Copilot, in pediatric ECG interpretation, focusing on clinically significant abnormalities and emergency arrhythmias with likelihood ratios as primary outcome measures. This prospective comparative diagnostic accuracy study (STARD/STARD-AI) included 264 pediatric patients with 12-lead ECGs (November 2024-November 2025). De-identified images were submitted via standardized zero-shot prompt. Three blinded pediatric cardiologists established the reference diagnosis by majority-vote consensus. Cases were classified as Tier 1 (normal), Tier 2 (abnormal, non-urgent), or Tier 3 (urgent). Two binary endpoints were assessed: clinically significant abnormality (Tier 2 + 3 vs Tier 1) and emergency abnormality (Tier 3 vs Tier 1 + 2). Clinically significant abnormalities were present in 54.5% of patients. AUC values ranged from 0.550 to 0.623, reflecting modest discrimination. For the clinically significant endpoint, + LR values were 2.05 (ChatGPT), 1.26 (Gemini), and 1.21 (Copilot); - LR values were 0.68, 0.55, and 0.81, indicating limited rule-in and insufficient rule-out utility. For the emergency endpoint, Gemini achieved 100% sensitivity (95% CI = 85.1-100.0) with - LR 0.07 (95% CI = 0.00-1.12) in a small subgroup (n = 22); however, specificity of 30.2% and + LR of 1.40 indicate overcalling rather than diagnostic precision. No model achieved clinically meaningful rule-in utility for either endpoint.\n\nCONCLUSIONS: Current multimodal LLMs showed limited diagnostic utility in pediatric ECG interpretation, with + LR values near 1.0 across both endpoints. Standalone deployment is not supported; these tools may at most serve as adjunctive screening aids under clinician oversight.\n\nWHAT IS KNOWN: • Deep learning algorithms trained on large ECG datasets perform well in adult populations, but evidence in pediatric ECG interpretation is limited. • General-purpose LLMs show variable accuracy in medical examinations; reliability in subspecialty domains such as pediatric cardiology remains unproven.\n\nWHAT IS NEW: • This is the[FCA1] first head-to-head comparative diagnostic accuracy study of multimodal LLMs in pediatric ECG evaluation, using likelihood ratios as primary outcome measures. • All three LLMs showed limited rule-in utility (+LR near 1.0); Gemini achieved potentially meaningful rule-out performance for emergency arrhythmias (-LR = 0.07), but with wide confidence intervals reflecting the small emergency subgroup (n = 22). • Gemini's 100% sensitivity in the emergency subgroup reflects overcalling (specificity 30.2%) consistent with a triage/screening behavior rather than diagnostic precision.",
-      "authors": [
-        "Uğur Saraç",
-        "Ayşe Büşra Paydaş",
-        "Mustafa Gençeli",
-        "Talha Üstüntaş",
-        "Mehtap Yücel",
-        "Abdülkerim Çokbiçer",
-        "Fatih Şap",
-        "Tamer Baysal",
-        "Mehmet Burhan Oflaz"
-      ],
-      "published_on": "2026-03-24",
-      "doi": "10.1007/s00431-026-06874-x",
-      "publication_types": [
-        "Journal Article",
-        "Comparative Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41872525/",
-      "doi_url": "https://doi.org/10.1007/s00431-026-06874-x"
     }
   ],
   "error": null,
