@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-11T14:40:13.735612+00:00",
-    "last_success_at": "2026-04-11T14:40:14.120512+00:00",
+    "last_attempt_at": "2026-04-12T14:45:07.239037+00:00",
+    "last_success_at": "2026-04-12T14:45:07.593342+00:00",
     "count": 15,
     "papers": [
       {
@@ -186,6 +186,27 @@
         "doi_url": "https://doi.org/10.1093/ehjdh/ztag038"
       },
       {
+        "pmid": "41588600",
+        "title": "Role of a Deep-Learning Based Convolutional Neural Network Model for Real-Time Ventricular Tachycardia Alarm Classification.",
+        "journal": "Journal of cardiovascular electrophysiology",
+        "abstract": "BACKGROUND: Ventricular tachycardia (VT) is a life-threatening arrhythmia that requires both relatively rapid and accurate detection in intensive care units (ICUs). Continuous monitoring systems play a crucial role in detecting them. However, previous studies have reported that nearly 9 out of 10 arrhythmia alarms in ICUs tend to be false positives, which usually transpire to a well-documented phenomenon called \"alarm fatigue\" that leads to desensitization, delayed responses, and increased cognitive burden on healthcare providers.\n\nMETHODS: We developed a deep learning based, one-dimensional convolutional neural network (1D-CNN) to classify VT alarms using multiple raw waveform inputs, including two electrocardiogram (ECG) leads, photoplethysmogram (PPG) and arterial blood pressure (ABP) signals. The model was trained using the publicly available VTaC Arrhythmia Benchmark Dataset. We used the 10-second waveform segments that preceded each VT alarm, pre-processed and then used them to train the machine learning model to correctly classify the VT alarm.\n\nRESULTS: On the test set, the model achieved an area under the receiver operating characteristic curve of 0.901, overall accuracy of 83.22%, F1-score of 73.3%, sensitivity of 77.53%, specificity of 85.63%, and positive predictive value of 69.57%. The model successfully detected over three-quarters of them while significantly reducing false positive rates for the detection of VT.\n\nCONCLUSIONS: This study demonstrates that a deep learning based 1D-CNN model using short segments of raw waveform data can achieve robust performance in distinguishing true and false VT alarms.",
+        "authors": [
+          "Unmesh Khanolkar",
+          "Ashish Yadav",
+          "Avdhesh Mann",
+          "Scott Pappada",
+          "Abhishek Deshmukh",
+          "Abhishek Maan"
+        ],
+        "published_on": "2026-01-27",
+        "doi": "10.1111/jce.70271",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41588600/",
+        "doi_url": "https://doi.org/10.1111/jce.70271"
+      },
+      {
         "pmid": "41534155",
         "title": "Multi-scale heart simulation augments the explainability of artificial intelligence-enabled electrocardiogram through provision of an electrocardiogram database labelled with cellular pathologies.",
         "journal": "Computer methods and programs in biomedicine",
@@ -323,26 +344,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41882308/",
         "doi_url": "https://doi.org/10.3758/s13415-026-01418-0"
-      },
-      {
-        "pmid": "41876433",
-        "title": "Fatigue Identification Models for Firefighters Based on Electrocardiogram Signals.",
-        "journal": "Journal of occupational and environmental medicine",
-        "abstract": "OBJECTIVE: To identify physiological indicators and develop effective models for recognizing training-induced physical fatigue in firefighters.\n\nMETHODS: Heart rate variability was analyzed in eighteen firefighters before and after physical training. Electrocardiogram signals were processed using linear and nonlinear methods. Feature dimensionality was reduced using two selection approaches, and fatigue recognition models were developed using multiple machine learning and deep learning algorithms.\n\nRESULTS: Physical fatigue increased mean heart rate and the low frequency to high frequency ratio, while eight indicators, including mean R-R interval, short and long term variability, and sample entropy showed significant decreases. The least absolute shrinkage and selection operator based one-dimensional convolutional neural network achieved the highest classification accuracy of 94.64%.\n\nCONCLUSIONS: Electrocardiogram-derived indicators provide a feasible and objective approach for identifying physical fatigue in firefighters, supporting occupational fatigue monitoring and safety management.",
-        "authors": [
-          "Xin Zheng",
-          "Rui Hao",
-          "Huan Wang",
-          "Tengteng Hao",
-          "Wenzhuo Fu"
-        ],
-        "published_on": "2026-03-25",
-        "doi": "10.1097/JOM.0000000000003718",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
-        "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
       }
     ],
     "error": null,
@@ -355,6 +356,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-12T14:40:14.120512+00:00",
+  "next_refresh_at": "2026-04-13T14:45:07.593342+00:00",
   "next_push_at": null
 }
