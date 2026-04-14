@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-13T14:52:59.428828+00:00",
-  "last_success_at": "2026-04-13T14:53:00.685295+00:00",
+  "last_attempt_at": "2026-04-14T15:17:50.592312+00:00",
+  "last_success_at": "2026-04-14T15:17:51.950742+00:00",
   "count": 15,
   "papers": [
     {
@@ -93,6 +93,30 @@
       "doi_url": "https://doi.org/10.1002/mrm.70299"
     },
     {
+      "pmid": "41975401",
+      "title": "Multimodal deep learning with missing data robustness for enhanced early diagnosis of coronary artery disease using CCTA, clinical, and ECG data.",
+      "journal": "BMC medical informatics and decision making",
+      "abstract": "",
+      "authors": [
+        "YongBo Tu",
+        "XiaoRong Yang",
+        "Fang Liu",
+        "RuYue Ai",
+        "Yu Luo",
+        "Ran ChunYan",
+        "GuangXu Yang",
+        "TiJiang Zhang",
+        "Lin Jiang"
+      ],
+      "published_on": "2026-04-14",
+      "doi": "10.1186/s12911-026-03466-5",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41975401/",
+      "doi_url": "https://doi.org/10.1186/s12911-026-03466-5"
+    },
+    {
       "pmid": "41942649",
       "title": "AI based ECG data recovery and cardiovascular diseases classification (CEDRC-network).",
       "journal": "Scientific reports",
@@ -111,6 +135,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41942649/",
       "doi_url": "https://doi.org/10.1038/s41598-026-46232-3"
+    },
+    {
+      "pmid": "41978030",
+      "title": "An Intelligent Evaluation Algorithm for Pilot Flight Training Ability Based on Multimodal Information Fusion.",
+      "journal": "Sensors (Basel, Switzerland)",
+      "abstract": "Intelligent-assisted assessment of pilot flight training ability is a method of automating the evaluation of pilots' flight skills using artificial intelligence. Currently, using AI to assist or replace human instructors in flight skill assessment has become a mainstream research direction in the field of intelligent aviation. Existing flight skill assessment methods suffer from limitations in data types and insufficient assessment accuracy. To address these issues, we evaluate and predict pilot performance in simulated flight missions based on physiological signals. Following the \"OODA loop\" theory, we established a multimodal dataset including pilot eye movement, electroencephalogram (EEG), electrocardiogram (ECG), electrodermal signaling (EDS), heart rate, respiration, and flight attitude data. This dataset records changes in physiological rhythms and flight behaviors during pilots' flight training at different difficulty levels. To enhance the signal-to-noise ratio, we propose an enhanced wavelet fuzzy thresholding denoising algorithm utilizing LSTM optimization. We address the problem of isolated features across different time frames in multimodal data modeling by introducing a multi-feature fusion algorithm based on STFT. Furthermore, by combining a high-efficiency sub-attention mechanism with a Transformer network, we construct a multi-classification network for intelligent-assisted assessment of pilot flight training ability, further improving the output accuracy of each category. Experiments show that our designed algorithm can achieve a classification accuracy of up to 85% on the dataset (5-fold cross-validation), which meets the requirements for auxiliary assessment of flight capabilities.",
+      "authors": [
+        "Heming Zhang",
+        "Changyuan Wang",
+        "Pengbo Wang"
+      ],
+      "published_on": "2026-04-14",
+      "doi": "10.3390/s26072245",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41978030/",
+      "doi_url": "https://doi.org/10.3390/s26072245"
     },
     {
       "pmid": "41922385",
@@ -274,60 +316,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
-    },
-    {
-      "pmid": "41933633",
-      "title": "Improving Transthyretin cardiac amyloidosis detection from electrocardiograms through Willem AI platform.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Transthyretin cardiac amyloidosis (ATTR-CM ) is a frequently underdiagnosed disease where delay in diagnosis limits the efficacy of treatments. Artificial Intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and can help improve ATTR-CM early recognition.\n\nOBJECTIVE: To extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: Single-center retrospective study of adults evaluated for ATTR-CM . Controls had negative DPD scintigraphy and clinical assessment excluding ATTR-CM . After quality control, 20,754 ECGs from 2,901 individuals (585 ATTR-CM , 2,316 controls) were used. Patients were split into training/validation and test sets with stratification by status, sex, and age. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an AUC of 0.88 (95% CI 0.85-0.91), sensitivity 80.7%, and specificity 78.5%. Performance was similar for ATTRv (AUC 0.91) and ATTRwt (AUC 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; NYHA class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC 0.92), lumbar spinal stenosis (AUC 0.92), polyneuropathy (AUC 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
-      "authors": [
-        "Esther González-López",
-        "Ruben Abbou",
-        "Rafael López-García",
-        "Mariana Brandão",
-        "Lucía Perard",
-        "Nerea Mora-Ayestaran",
-        "Cecilia Niro",
-        "Gabriela Uriarte",
-        "Maria de Miguel",
-        "Ewa Dziewiecka",
-        "Paola Settepassi",
-        "Clara Simón",
-        "Rafael Martín-Portugués",
-        "Ángel de la Linde Valdés",
-        "Víctor Valdés",
-        "Iñigo Sánchez-Rodríguez",
-        "Rubén Ruiz-Zamorano",
-        "François De Guio",
-        "José María Lillo-Castellano",
-        "Manuel Marina-Breysse",
-        "Pablo García-Pavía"
-      ],
-      "published_on": "2026-04-04",
-      "doi": "10.1016/j.hrthm.2026.03.1949",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
-    },
-    {
-      "pmid": "41882308",
-      "title": "Emotion detection unveiled: A cognitive-computational synthesis of physiological models, machine learning, and datasets.",
-      "journal": "Cognitive, affective & behavioral neuroscience",
-      "abstract": "This comprehensive survey synthesizes state-of-the-art advancements in emotion recognition based on physiological signals, specifically focusing on the paradigm shift occurring between 2021 and 2025. Crucially, we move beyond a technical review by establishing a novel Cognitive-Computational Synthesis Framework (CCSF). This framework explicitly maps multimodal physiological manifestations (e.g., electroencephalogram (EEG), electrocardiogram (ECG), and galvanic skin response (GSR)) to underlying cognitive processes, such as attentional allocation, arousal regulation, and perceptual bias, providing a theoretical foundation for explainable AI (XAI) in affective computing. We meticulously examine the transition from traditional machine learning to advanced deep learning architectures, highlighting how recent innovations in Transformers, self-supervised learning, and diffusion models have shattered previous performance plateaus. While earlier dimensional models were often limited to 70-75% accuracy, this survey details how modern architectures now achieve benchmarks exceeding 95% on seminal datasets like SEED and DREAMER. Furthermore, the survey provides a rigorous analysis of 40 key studies (identified via PRISMA protocols), evaluating them based on their validation strategies, cross-subject generalizability, and adversarial robustness. By bridging the gap between raw physiological data and cognitive theory, this work offers a strategic roadmap for the next generation of robust, interpretable, and real-time emotion recognition systems.",
-      "authors": [
-        "Vilas Machhi",
-        "Apurva Shah"
-      ],
-      "published_on": "2026-03-26",
-      "doi": "10.3758/s13415-026-01418-0",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41882308/",
-      "doi_url": "https://doi.org/10.3758/s13415-026-01418-0"
     }
   ],
   "error": null,
