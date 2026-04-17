@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-16T17:20:51.825632+00:00",
-    "last_success_at": "2026-04-16T17:20:52.737881+00:00",
+    "last_attempt_at": "2026-04-17T17:56:50.662745+00:00",
+    "last_success_at": "2026-04-17T17:56:51.183995+00:00",
     "count": 15,
     "papers": [
       {
@@ -152,6 +152,32 @@
         "doi_url": "https://doi.org/10.1186/s12911-026-03466-5"
       },
       {
+        "pmid": "41994175",
+        "title": "An Open-Source, Open Data Approach to Activity Classification from Triaxial Accelerometry in an Ambulatory Setting.",
+        "journal": "ArXiv",
+        "abstract": "UNLABELLED: The accelerometer has become an almost ubiquitous device, providing enormous opportunities in healthcare monitoring beyond step counting or other average energy estimates in 15-60 second epochs.\n\nOBJECTIVE: To develop an open data set with associated open-source code for processing 50 Hz tri-axial accelerometry-based to classify patient activity levels and natural types of movement.\n\nAPPROACH: Data were collected from 23 healthy subjects (16 males and seven females) aged between 23 and 62 years using an ambulatory device, which included a triaxial accelerometer and synchronous lead II equivalent ECG for an average of 26 minutes each. Participants followed a standardized activity routine involving five distinct activities: lying, sitting, standing, walking, and jogging. Two classifiers were constructed: a signal processing technique to distinguish between high and low activity levels and a convolutional neural network (CNN)-based approach to classify each of the five activities.\n\nMAIN RESULTS: The binary (high/low) activity classifier exhibited an F1 score of 0.79. The multi-class CNN-based classifier provided an F1 score of 0.83. The code for this analysis has been made available under an open-source license together with the data on which the classifiers were trained and tested.\n\nSIGNIFICANCE: The classification of behavioral activity, as demonstrated in this study, offers valuable context for interpreting traditional health metrics and may provide contextual information to support the future development of clinical decision-making tools for patient monitoring, predictive analytics, and personalized health interventions.",
+        "authors": [
+          "Sepideh Nikookar",
+          "Edward Tian",
+          "Harrison Hoffman",
+          "Matthew Parks",
+          "J Lucas McKay",
+          "Yashar Kiarashi",
+          "Tommy T Thomas",
+          "Alex Hall",
+          "David W Wright",
+          "Gari D Clifford"
+        ],
+        "published_on": "2026-04-17",
+        "doi": "",
+        "publication_types": [
+          "Journal Article",
+          "Preprint"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41994175/",
+        "doi_url": ""
+      },
+      {
         "pmid": "41942649",
         "title": "AI based ECG data recovery and cardiovascular diseases classification (CEDRC-network).",
         "journal": "Scientific reports",
@@ -247,6 +273,32 @@
         "doi_url": "https://doi.org/10.1093/ehjdh/ztag038"
       },
       {
+        "pmid": "41691494",
+        "title": "Bioinspired Cold-Laminated Ultrathin Hydrogels as a Broadly Adaptive Platform for Physiological Monitoring.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "abstract": "Soft bioelectronics provide a powerful platform for physiological monitoring, yet conventional hydrogel-based devices are constrained by inherent trade-offs between thickness, robustness, and multifunctionality, restricting their adaptability across diverse epidermal and implantable applications. Here, a novel cold-lamination strategy is developed to mechanically interlock a TPU nanomesh within a temperature-responsive hydrogel network, mimicking the structure of the extracellular matrix. This method enables the fabrication of devices with precise control of thickness (17-90 µm), tunable Young's modulus (36.5-761.1 kPa), excellent breathability, and large-area scalability (> 225 cm2). Furthermore, the resulting bioelectronics exhibit reversible, on-demand adhesion enabled by switchable hydrogen-bond interactions. The ultrathin hydrogels exhibit exceptional conformability and durability, with a 17 µm film achieving tensile stress of 835.23 kPa and toughness of 1.57 MJ m-3, thereby overcoming the fragility of conventional ultrathin films. By forming stable tissue interfaces, they enabled reliable epidermal electrocardiogram monitoring under daily and clinical conditions and served as implantable cardiac patches for arrhythmia detection in mice. When integrated with a dual-branch deep learning network, the intelligent platform achieved 99% in vivo classification accuracy of ventricular tachycardia, ventricular fibrillation, and other arrhythmias. Together, these results establish a broadly adaptable hydrogel system, offering a universal and scalable strategy for next-generation bioelectronics tailored to diverse organ-specific demands.",
+        "authors": [
+          "Hui Chen",
+          "Jian Zhou",
+          "Jianfei Xie",
+          "Lin Shi",
+          "Lu Wang",
+          "Yuanfan Yang",
+          "Yihao Guo",
+          "Jianhui Cao",
+          "Qingyun Fu",
+          "Yongqing Fu",
+          "Huigao Duan"
+        ],
+        "published_on": "2026-02-15",
+        "doi": "10.1002/advs.202524317",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41691494/",
+        "doi_url": "https://doi.org/10.1002/advs.202524317"
+      },
+      {
         "pmid": "41588600",
         "title": "Role of a Deep-Learning Based Convolutional Neural Network Model for Real-Time Ventricular Tachycardia Alarm Classification.",
         "journal": "Journal of cardiovascular electrophysiology",
@@ -288,50 +340,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
-      },
-      {
-        "pmid": "41419110",
-        "title": "Diagnostic Accuracy of Machine Learning Algorithms in Electrocardiogram-Based Heart Failure Detection: A Systematic Review and Meta-Analysis.",
-        "journal": "The Canadian journal of cardiology",
-        "abstract": "BACKGROUND: AI applied to the electrocardiogram shows promise for detecting heart failure (HF), but heterogeneous performance is reported. A key ambiguity is the conflation of 2 distinct diagnostic targets: the structural abnormality of left ventricular systolic dysfunction and the clinical syndrome of HF.\n\nMETHODS: Following Preferred Reporting Items for Systematic Reviews and Meta-Analyses of Diagnostic Test Accuracy Studies (PRISMA-DTA) guidelines, in this systematic review and meta-analysis we analyzed 40 unique, nonoverlapping patient cohorts. Diagnostic accuracy was synthesized using a hierarchical bivariate model, which addressed ejection fraction (EF) threshold heterogeneity via stratification and multithreshold analysis. Prespecified bivariate meta-regressions were used to examine covariates including external validation status, lead configuration, and model architecture. In a secondary analysis we evaluated HF classification models.\n\nRESULTS: The primary analysis yielded a pooled sensitivity of 85.9% (95% confidence interval [CI], 82.8%-88.5%) and specificity of 80.9% (95% CI, 75.8%-85.1%), with a hierarchical summary receiver operating characteristic area under the curve of 0.902 (95% CI, 0.885-0.915). Performance varied significantly according to target definition (left ventricular systolic dysfunction vs clinical HF) and EF threshold used. Meta-regression revealed that 12-lead electrocardiograms (P = 0.003) and convolutional neural network architectures (P = 0.024) were associated with higher specificity values. The secondary analysis (7 studies) yielded pooled sensitivity of 96.2% and specificity of 92.1%.\n\nCONCLUSIONS: AI applied to the electrocardiogram shows substantial but variable diagnostic performance that depends critically on target condition definition, EF thresholds, and methodological factors. Implementation must account for these dependencies and use precise, standardized end points.\n\nREGISTRATION: PROSPERO CRD42024624082.",
-        "authors": [
-          "Mustafa Eray Kilic",
-          "Mehmet Emin Arayici",
-          "Oguz Akbilgic",
-          "Mehmet Birhan Yilmaz"
-        ],
-        "published_on": "2025-12-20",
-        "doi": "10.1016/j.cjca.2025.12.022",
-        "publication_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Meta-Analysis",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41419110/",
-        "doi_url": "https://doi.org/10.1016/j.cjca.2025.12.022"
-      },
-      {
-        "pmid": "40966134",
-        "title": "Generation and Selection: A Self-Iterative Two-Stage Data Augmentation Method for Automated ECG Classification.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "Automated electrocardiogram (ECG) classification tasks play a crucial role in clinical but face challenges due to the scarcity of accessible and well-labeled data. ECG data augmentation is an effective way to address these challenges, either by altering the characteristics of real ECG data or using statistical and generative models to generate labeled data. However, the generated data often suffer from noise in both the data and label, which can reduce the performance of classification models. To address this, we propose a novel self-iterative two-stage data augmentation method for automated ECG classification, called SiTs-ECG. In the generation stage, an unconditional diffusion model, guided by a Transformer encoder, is trained to capture the complex characteristics of long-term ECG signals, generating high-quality ECG-like samples. In the selection stage, the generated samples are assigned pseudo-labels by a well-trained base classification model, and those generated samples for which the model can confidently predict the pseudo-labels are selected. We then integrate these stages into a self-iterative training process to continually improve the performance of base classification model. Extensive experiments on three real-world datasets demonstrate the effectiveness of our method. Notably, on the Apnea-ECG dataset, using ECG-Transformer as the downstream classification model, Precision, Recall, F1, and Accuracy are improved by 7.9, 9.1, 9.2, and 7.3 percentage points, respectively. Furthermore, our method is versatile and compatible with various generative and downstream classification models, showing promising applications in automated ECG classification in the clinical field.",
-        "authors": [
-          "Chaoying Jiang",
-          "Yujing Xin",
-          "Ning Liu",
-          "Yonghui Xu",
-          "Lei Liu",
-          "Lizhen Cui",
-          "Jianyong Wang"
-        ],
-        "published_on": "2025-09-18",
-        "doi": "10.1109/JBHI.2025.3611429",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40966134/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2025.3611429"
       }
     ],
     "error": null,
@@ -344,6 +352,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-17T17:20:52.737881+00:00",
+  "next_refresh_at": "2026-04-18T17:56:51.183995+00:00",
   "next_push_at": null
 }
