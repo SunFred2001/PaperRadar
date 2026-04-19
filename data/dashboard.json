@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-18T18:58:50.794479+00:00",
-    "last_success_at": "2026-04-18T18:58:51.543548+00:00",
+    "last_attempt_at": "2026-04-19T18:59:02.821368+00:00",
+    "last_success_at": "2026-04-19T18:59:03.390469+00:00",
     "count": 15,
     "papers": [
       {
@@ -252,6 +252,42 @@
         "doi_url": "https://doi.org/10.1097/MS9.0000000000004812"
       },
       {
+        "pmid": "41933633",
+        "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
+        "journal": "Heart rhythm",
+        "abstract": "BACKGROUND: Transthyretin cardiac amyloidosis (ATTR-CM) is a frequently underdiagnosed disease in which delay in diagnosis limits the efficacy of treatments. Artificial intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and may help improve ATTR-CM early detection.\n\nOBJECTIVES: The goals of this study were to extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: This was a single-center retrospective study of adults evaluated for ATTR-CM. Controls had negative 3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy and clinical assessment, excluding ATTR-CM. After quality control, 20,754 ECGs from 2901 individuals (585 patients with ATTR-CM and 2316 controls) were used. Patients were split into training/validation and test data sets, with stratification by amyloidosis status, sex, and age groups. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an area under the receiver operating characteristic curve (AUC) of 0.88 (95% confidence interval, 0.85-0.91), a sensitivity of 80.7%, and a specificity of 78.5%. Performance was similar for ATTRv (AUC, 0.91) and ATTRwt (AUC, 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; New York Heart Association class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC, 0.92), lumbar spinal stenosis (AUC, 0.92), and polyneuropathy (AUC, 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. The Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
+        "authors": [
+          "Esther González-López",
+          "Ruben Abbou",
+          "Rafael López-García",
+          "Mariana Brandão",
+          "Lucía Perard",
+          "Nerea Mora-Ayestaran",
+          "Cecilia Niro",
+          "Gabriela Uriarte",
+          "Maria de Miguel",
+          "Ewa Dziewiecka",
+          "Paola Settepassi",
+          "Clara Simón",
+          "Rafael Martín-Portugués",
+          "Ángel de la Linde Valdés",
+          "Víctor Valdés",
+          "Iñigo Sánchez-Rodríguez",
+          "Rubén Ruiz-Zamorano",
+          "François De Guio",
+          "José María Lillo-Castellano",
+          "Manuel Marina-Breysse",
+          "Pablo García-Pavía"
+        ],
+        "published_on": "2026-04-04",
+        "doi": "10.1016/j.hrthm.2026.03.1949",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
+        "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
+      },
+      {
         "pmid": "41836589",
         "title": "Signal or noise? Evaluating commonly used attribution methods for explaining deep neural networks in electrocardiogram classification.",
         "journal": "European heart journal. Digital health",
@@ -318,28 +354,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41588600/",
         "doi_url": "https://doi.org/10.1111/jce.70271"
-      },
-      {
-        "pmid": "41534155",
-        "title": "Multi-scale heart simulation augments the explainability of artificial intelligence-enabled electrocardiogram through provision of an electrocardiogram database labelled with cellular pathologies.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVES: Although artificial-intelligence-enhanced electrocardiograms (AI-ECGs) offer prediction and diagnosis capabilities superior to those of humans, they exhibit poor explainability and interpretability because of their complex-neural-network-derived black-box characteristics. To augment the explainability of artificial intelligence-enhanced electrocardiogram (AI-ECG) analysis, we proposed a method combining AI-ECG and synthetic ECG database created by a multi-scale heart simulator.\n\nMETHODS: Using the \"UT-Heart\" multi-scale heart simulator running on the supercomputer Fugaku, we simulated 30,720 12-lead ECG recordings. This dataset comprises an exhaustive combination of 12 cellular and subcellular pathologies reportedly associated with heart failure and was analysed using a previously developed AI-ECG system that accurately classifies ECGs into New York Heart Association (NYHA) functional classes. By analysing the relationship between HF severity and labelled pathology in each simulated ECG recording, we elucidated the origin of abnormalities detected using AI-ECG.\n\nRESULTS: AI-ECG classified 30,618 ECGs (excluding 102 arrhythmia cases) into 2234 control and 28,384 HF cases. A separate three-group classification identified 2234 control, 18,444 NYHA I/II, and 9940 NYHA III/IV cases. In the two-group classification, significant differences (p < 0.01) were observed in sodium (Na) and Na-calcium exchanger currents and the transmural distribution of distinct cell types. Although the three-group classification revealed a severity-dependent progression of the Na current abnormality, the cell distribution in NYHA III/IV was closer to that of normal cases than to that of NYHA I/II. These findings did not explain the changes in the ECG waveform that the AI-ECG identified as notable features of heart failure in the heatmap analysis.\n\nCONCLUSIONS: The ECG dataset generated using the multi-scale heart simulator can enhance the explainability of AI-ECGs by elucidating the mechanisms underlying HF-severity-specific changes in ECGs of heart failure.",
-        "authors": [
-          "Jun-Ichi Okada",
-          "Katsuhito Fujiu",
-          "Eriko Hasumi",
-          "Ying Chen",
-          "Takumi Washio",
-          "Toshiaki Hisada",
-          "Seiryo Sugiura"
-        ],
-        "published_on": "2026-01-15",
-        "doi": "10.1016/j.cmpb.2026.109247",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41534155/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109247"
       }
     ],
     "error": null,
@@ -352,6 +366,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-19T18:58:51.543548+00:00",
+  "next_refresh_at": "2026-04-20T18:59:03.390469+00:00",
   "next_push_at": null
 }
