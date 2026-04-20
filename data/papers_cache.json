@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-19T18:59:02.821368+00:00",
-  "last_success_at": "2026-04-19T18:59:03.390469+00:00",
+  "last_attempt_at": "2026-04-20T19:14:13.480627+00:00",
+  "last_success_at": "2026-04-20T19:14:13.893393+00:00",
   "count": 15,
   "papers": [
     {
@@ -217,6 +217,27 @@
       "doi_url": "https://doi.org/10.1038/s41598-026-35451-3"
     },
     {
+      "pmid": "42005648",
+      "title": "Revolutionizing Heart Failure Management With Artificial Intelligence: A Narrative Review of Diagnostic, Prognostic, and Therapeutic Innovations.",
+      "journal": "Health science reports",
+      "abstract": "BACKGROUND AND AIMS: Heart failure (HF) remains a major global health burden, affecting over 64 million individuals worldwide. Early detection and optimal management are often limited by subjective interpretation of diagnostic tests and variable clinical expertise. Artificial intelligence (AI) has emerged as a transformative technology that can enhance diagnostic precision, risk stratification, and therapeutic decision-making. This review aims to synthesize current evidence on clinically validated AI applications across the HF care continuum.\n\nMETHODS: A narrative review of recent peer-reviewed studies was conducted to evaluate AI-based tools applied in electrocardiography (ECG), echocardiography, cardiac magnetic resonance (CMR), remote monitoring, and smart devices. Emphasis was placed on studies reporting validated performance metrics such as area under the curve (AUC), sensitivity, and specificity, and those integrated into clinical workflows or approved by regulatory bodies.\n\nRESULTS: AI-enhanced ECG models have demonstrated high diagnostic accuracy for left-ventricular systolic dysfunction and diastolic impairment, with AUC values up to 0.92; surpassing traditional risk scores. In cardiac imaging, deep-learning systems now automate ejection-fraction and diastolic-function quantification with precision comparable to expert readers. AI-driven platforms such as EchoGo and PanEcho enable efficient and consistent image interpretation, while wearables and implantable sensors like HeartLogic and CardioMEMS provide real-time hemodynamic monitoring and predict decompensation several days before clinical deterioration (sensitivity 70%-88%). Over 40 AI-based cardiovascular tools have received regulatory clearance, supporting their translational maturity.\n\nCONCLUSION: AI technologies are redefining HF care by enabling earlier diagnosis, individualized therapy, and proactive monitoring. However, challenges persist regarding data diversity, model transparency, and clinical integration.",
+      "authors": [
+        "Farrukh Ansar",
+        "Muhammad Aamir Waheed",
+        "Usman Zafar",
+        "Abdulrahman Kolapo",
+        "Walid Sarfaraz",
+        "Khalid Rashid"
+      ],
+      "published_on": "2026-04-20",
+      "doi": "10.1002/hsr2.71855",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42005648/",
+      "doi_url": "https://doi.org/10.1002/hsr2.71855"
+    },
+    {
       "pmid": "41939092",
       "title": "The role of artificial intelligence in early detection and risk prediction of ischemic heart disease.",
       "journal": "Annals of medicine and surgery (2012)",
@@ -317,27 +338,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41691494/",
       "doi_url": "https://doi.org/10.1002/advs.202524317"
-    },
-    {
-      "pmid": "41588600",
-      "title": "Role of a Deep-Learning Based Convolutional Neural Network Model for Real-Time Ventricular Tachycardia Alarm Classification.",
-      "journal": "Journal of cardiovascular electrophysiology",
-      "abstract": "BACKGROUND: Ventricular tachycardia (VT) is a life-threatening arrhythmia that requires both relatively rapid and accurate detection in intensive care units (ICUs). Continuous monitoring systems play a crucial role in detecting them. However, previous studies have reported that nearly 9 out of 10 arrhythmia alarms in ICUs tend to be false positives, which usually transpire to a well-documented phenomenon called \"alarm fatigue\" that leads to desensitization, delayed responses, and increased cognitive burden on healthcare providers.\n\nMETHODS: We developed a deep learning based, one-dimensional convolutional neural network (1D-CNN) to classify VT alarms using multiple raw waveform inputs, including two electrocardiogram (ECG) leads, photoplethysmogram (PPG) and arterial blood pressure (ABP) signals. The model was trained using the publicly available VTaC Arrhythmia Benchmark Dataset. We used the 10-second waveform segments that preceded each VT alarm, pre-processed and then used them to train the machine learning model to correctly classify the VT alarm.\n\nRESULTS: On the test set, the model achieved an area under the receiver operating characteristic curve of 0.901, overall accuracy of 83.22%, F1-score of 73.3%, sensitivity of 77.53%, specificity of 85.63%, and positive predictive value of 69.57%. The model successfully detected over three-quarters of them while significantly reducing false positive rates for the detection of VT.\n\nCONCLUSIONS: This study demonstrates that a deep learning based 1D-CNN model using short segments of raw waveform data can achieve robust performance in distinguishing true and false VT alarms.",
-      "authors": [
-        "Unmesh Khanolkar",
-        "Ashish Yadav",
-        "Avdhesh Mann",
-        "Scott Pappada",
-        "Abhishek Deshmukh",
-        "Abhishek Maan"
-      ],
-      "published_on": "2026-01-27",
-      "doi": "10.1111/jce.70271",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41588600/",
-      "doi_url": "https://doi.org/10.1111/jce.70271"
     }
   ],
   "error": null,
