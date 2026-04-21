@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-20T19:14:13.480627+00:00",
-    "last_success_at": "2026-04-20T19:14:13.893393+00:00",
+    "last_attempt_at": "2026-04-21T19:20:32.748554+00:00",
+    "last_success_at": "2026-04-21T19:20:33.265477+00:00",
     "count": 15,
     "papers": [
       {
@@ -107,6 +107,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
         "doi_url": "https://doi.org/10.1002/mrm.70299"
+      },
+      {
+        "pmid": "42010029",
+        "title": "Personalized Deep Networks for Enhanced ECG Segmentation.",
+        "journal": "Cardiovascular engineering and technology",
+        "abstract": "Electrocardiography (ECG) plays a vital role in the diagnosis of cardiovascular diseases by analyzing the electrical activity of the heart. ECG semantic segmentation is a subfield focused on sample-wise delineation of ECG waveforms by assigning a physiological label to each time sample, enabling explicit estimation of clinically meaningful onset and offset boundaries. Recent advancements in deep learning have significantly improved ECG classification accuracy; however, the same has not yet been observed in automatic ECG segmentation. Existing models often lack explainability and adaptability to patient-specific variations, thereby reducing their generalizability. This study proposes a personalized deep neural network approach for enhanced ECG processing. This method incorporates convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) networks, incorporating an attention mechanism to refine segmentation accuracy. A novel loss function is introduced to ensure smoother temporal transitions and better classification accuracy. The model was evaluated using the QT Database, demonstrating substantial improvements in P-wave and QRS delineation and in T-wave offset localization segmentation when fine-tuned for individual patients when fine-tuned and evaluated on held-out data from the same patient, demonstrating the benefit of intra-patient adaptation. Our results indicate that personalization improves delineation accuracy for challenging waveforms (notably P and T waves), supporting the potential of deep learning to better capture patient-specific morphology and providing a stronger basis for waveform-level, clinically interpretable ECG analysis.",
+        "authors": [
+          "Maylon Pereira Folli",
+          "Gabriel Tozatto Zago",
+          "Stephanie Rezende Alvarenga Moulin Mares",
+          "Rodrigo Varejão Andreão"
+        ],
+        "published_on": "2026-04-21",
+        "doi": "10.1007/s13239-026-00835-z",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42010029/",
+        "doi_url": "https://doi.org/10.1007/s13239-026-00835-z"
       },
       {
         "pmid": "41849820",
@@ -328,32 +347,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41836589/",
         "doi_url": "https://doi.org/10.1093/ehjdh/ztag038"
-      },
-      {
-        "pmid": "41691494",
-        "title": "Bioinspired Cold-Laminated Ultrathin Hydrogels as a Broadly Adaptive Platform for Physiological Monitoring.",
-        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-        "abstract": "Soft bioelectronics provide a powerful platform for physiological monitoring, yet conventional hydrogel-based devices are constrained by inherent trade-offs between thickness, robustness, and multifunctionality, restricting their adaptability across diverse epidermal and implantable applications. Here, a novel cold-lamination strategy is developed to mechanically interlock a TPU nanomesh within a temperature-responsive hydrogel network, mimicking the structure of the extracellular matrix. This method enables the fabrication of devices with precise control of thickness (17-90 µm), tunable Young's modulus (36.5-761.1 kPa), excellent breathability, and large-area scalability (> 225 cm2). Furthermore, the resulting bioelectronics exhibit reversible, on-demand adhesion enabled by switchable hydrogen-bond interactions. The ultrathin hydrogels exhibit exceptional conformability and durability, with a 17 µm film achieving tensile stress of 835.23 kPa and toughness of 1.57 MJ m-3, thereby overcoming the fragility of conventional ultrathin films. By forming stable tissue interfaces, they enabled reliable epidermal electrocardiogram monitoring under daily and clinical conditions and served as implantable cardiac patches for arrhythmia detection in mice. When integrated with a dual-branch deep learning network, the intelligent platform achieved 99% in vivo classification accuracy of ventricular tachycardia, ventricular fibrillation, and other arrhythmias. Together, these results establish a broadly adaptable hydrogel system, offering a universal and scalable strategy for next-generation bioelectronics tailored to diverse organ-specific demands.",
-        "authors": [
-          "Hui Chen",
-          "Jian Zhou",
-          "Jianfei Xie",
-          "Lin Shi",
-          "Lu Wang",
-          "Yuanfan Yang",
-          "Yihao Guo",
-          "Jianhui Cao",
-          "Qingyun Fu",
-          "Yongqing Fu",
-          "Huigao Duan"
-        ],
-        "published_on": "2026-02-15",
-        "doi": "10.1002/advs.202524317",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41691494/",
-        "doi_url": "https://doi.org/10.1002/advs.202524317"
       }
     ],
     "error": null,
@@ -366,6 +359,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-21T19:14:13.893393+00:00",
+  "next_refresh_at": "2026-04-22T19:20:33.265477+00:00",
   "next_push_at": null
 }
