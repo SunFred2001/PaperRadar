@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-23T20:57:36.899104+00:00",
-  "last_success_at": "2026-04-23T20:57:37.721660+00:00",
+  "last_attempt_at": "2026-04-24T21:52:35.459749+00:00",
+  "last_success_at": "2026-04-24T21:52:35.817450+00:00",
   "count": 15,
   "papers": [
     {
@@ -93,6 +93,34 @@
       "doi_url": "https://doi.org/10.1002/mrm.70299"
     },
     {
+      "pmid": "42024548",
+      "title": "A Deep Neural Network for Interpreting Wearable Electrocardiogram Data in Atrial Fibrillation: Prospective Observational Diagnostic Accuracy Study.",
+      "journal": "JMIR mHealth and uHealth",
+      "abstract": "BACKGROUND: Atrial fibrillation (AF) and atrial flutter (AFL) are common arrhythmias associated with the risk of ischemic stroke, which can be reduced with anticoagulation therapy. Thus, early diagnosis of AF and AFL is essential. However, diagnosis may be challenging due to the paroxysmal and asymptomatic nature of these arrhythmias.\n\nOBJECTIVE: Current diagnostic workflows involve time-consuming and resource-intensive manual review of noisy signals and prolonged recordings. We evaluated a mobile system that combines a wireless wearable single-lead chest strap electrocardiogram (ECG) and a novel deep neural network (DNN)-based artificial intelligence (AI) method for detecting AF/AFL episodes, AF/AFL burden, and rhythm change and estimated the delay in the detection of rhythm change from AF/AFL to sinus rhythm. We also assessed the rhythm classification performance.\n\nMETHODS: A total of 116 patients with recent-onset AF or AFL undergoing cardioversion were monitored using a mobile single-lead chest strap ECG system. Simultaneously, a 3-lead Holter ECG served as the reference. The DNN-based AI analyzed the single-lead chest strap ECG data to detect AF/AFL, non-AF/AFLrhythm, and noninterpretable segments, as well as to estimate AF/AFL burden and detect rhythm change. Performance metrics included sensitivity, specificity, positive predictive value, negative predictive value, and intraclass correlation coefficient for AF and AFL burden estimation.\n\nRESULTS: The sensitivity and specificity for detecting AF/AFL were 91.9% (204.9/223.0 h) and 99.6% (242.4/243.5 h), respectively. The sensitivity for detecting AF was 96.2% (191.5/199.0 h), whereas it was 55.8% (13.4/24.0 h) for detecting AFL. The positive predictive value and negative predictive value for AF/AFL detection were 99.5% (204.9/206.0 h) and 93.1% (242.4/260.5 h), respectively. The intraclass correlation coefficient between the AF/AFL burden estimated by the DNN-based AI method and that derived from the physician-interpreted reference ECG was 0.96 (95% CI: 0.94-0.97; P<.001). Rhythm change detection occurred within 1 minute in most cases.\n\nCONCLUSIONS: The mobile single-lead chest strap ECG system powered by a DNN-based AI algorithm demonstrated strong performance in detecting AF, estimating AF burden, and recognizing rhythm change to sinus rhythm. This AI-driven approach enables automated and accurate rhythm analysis, supporting clinical decision-making. Further validation in real-world ambulatory settings is warranted.",
+      "authors": [
+        "Olli A Rantula",
+        "Jukka A Lipponen",
+        "Jari Halonen",
+        "Helena Jäntti",
+        "Tuomas T Rissanen",
+        "Mika P Tarvainen",
+        "Noora S Naukkarinen",
+        "Eemu-Samuli Seljola",
+        "Onni E Santala",
+        "Jagdeep Sedha",
+        "Tero J Martikainen",
+        "Juha E K Hartikainen"
+      ],
+      "published_on": "2026-04-23",
+      "doi": "10.2196/82475",
+      "publication_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42024548/",
+      "doi_url": "https://doi.org/10.2196/82475"
+    },
+    {
       "pmid": "42010029",
       "title": "Personalized Deep Networks for Enhanced ECG Segmentation.",
       "journal": "Cardiovascular engineering and technology",
@@ -129,6 +157,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41849820/",
       "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
+    },
+    {
+      "pmid": "42029621",
+      "title": "Fusion of RR Interval Dynamics and HRV Multidomain Signatures Using Multimodal Neural Models for Metabolic Syndrome Classification.",
+      "journal": "Medical sciences (Basel, Switzerland)",
+      "abstract": "Background: Metabolic syndrome (MetS) leads to alterations in cardiac autonomic control that can be detected from electrocardiogram (ECG)-derived markers, particularly when the cardiovascular system is challenged during an oral glucose tolerance test (OGTT). Methods: In this paper, we present an automated framework for MetS identification using RR intervals and heart rate variability (HRV) features extracted from 12-lead ECG recordings acquired during the five OGTT stages in 40 male participants (15 with MetS, 10 controls, and 15 endurance-trained marathon runners). RR intervals were first derived using a multilead Pan-Tompkins approach with fusion-based validation. From these RR series, HRV descriptors were computed from time-domain statistics (RR mean, SDNN, rMSSD, pNN50), spectral indices (VLF, LF, HF, LF/HF), and nonlinear measures (SD1, SD2, SampEn, DFA-α1). Conventional HRV analysis revealed pronounced physiological differences between groups: MetS subjects exhibited reduced parasympathetic activity, reflected by lower rMSSD and SD1, lower HF power, and higher LF/HF ratios, whereas marathoners showed greater vagal modulation, higher HF power, and increased signal complexity. Healthy controls showed an intermediate autonomic profile. Using RR sequences and HRV descriptors (256 samples per stage), we trained three multimodal classifiers: a CNN-MLP model with a softmax output, a CNN-MLP model with an SVM head, and a CNN + LSTM-MLP + SVM architecture. Results: All models achieved strong discriminative performance, with accuracies ranging from 0.92 to 0.95, F1-macro values from 0.92 to 0.95, and macro-AUC values from 0.96 to 0.97. The CNN-MLP model achieved the best overall performance, whereas the CNN + LSTM-MLP + SVM model showed strong class discrimination, particularly for endurance athletes, while maintaining competitive recall for MetS. Conclusions: These findings support the feasibility of ECG-based autonomic assessment as a complementary non-invasive approach for early metabolic risk detection in clinical and preventive cardiometabolic screening settings.",
+      "authors": [
+        "Miguel A Mejia",
+        "Oscar J Suarez",
+        "Gilberto Perpiñan",
+        "Leiner Barba Jimenez"
+      ],
+      "published_on": "2026-04-24",
+      "doi": "10.3390/medsci14020197",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42029621/",
+      "doi_url": "https://doi.org/10.3390/medsci14020197"
     },
     {
       "pmid": "41975401",
@@ -274,63 +321,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41939092/",
       "doi_url": "https://doi.org/10.1097/MS9.0000000000004812"
-    },
-    {
-      "pmid": "41933633",
-      "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Transthyretin cardiac amyloidosis (ATTR-CM) is a frequently underdiagnosed disease in which delay in diagnosis limits the efficacy of treatments. Artificial intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and may help improve ATTR-CM early detection.\n\nOBJECTIVES: The goals of this study were to extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: This was a single-center retrospective study of adults evaluated for ATTR-CM. Controls had negative 3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy and clinical assessment, excluding ATTR-CM. After quality control, 20,754 ECGs from 2901 individuals (585 patients with ATTR-CM and 2316 controls) were used. Patients were split into training/validation and test data sets, with stratification by amyloidosis status, sex, and age groups. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an area under the receiver operating characteristic curve (AUC) of 0.88 (95% confidence interval, 0.85-0.91), a sensitivity of 80.7%, and a specificity of 78.5%. Performance was similar for ATTRv (AUC, 0.91) and ATTRwt (AUC, 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; New York Heart Association class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC, 0.92), lumbar spinal stenosis (AUC, 0.92), and polyneuropathy (AUC, 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. The Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
-      "authors": [
-        "Esther González-López",
-        "Ruben Abbou",
-        "Rafael López-García",
-        "Mariana Brandão",
-        "Lucía Perard",
-        "Nerea Mora-Ayestaran",
-        "Cecilia Niro",
-        "Gabriela Uriarte",
-        "Maria de Miguel",
-        "Ewa Dziewiecka",
-        "Paola Settepassi",
-        "Clara Simón",
-        "Rafael Martín-Portugués",
-        "Ángel de la Linde Valdés",
-        "Víctor Valdés",
-        "Iñigo Sánchez-Rodríguez",
-        "Rubén Ruiz-Zamorano",
-        "François De Guio",
-        "José María Lillo-Castellano",
-        "Manuel Marina-Breysse",
-        "Pablo García-Pavía"
-      ],
-      "published_on": "2026-04-04",
-      "doi": "10.1016/j.hrthm.2026.03.1949",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
-    },
-    {
-      "pmid": "41836589",
-      "title": "Signal or noise? Evaluating commonly used attribution methods for explaining deep neural networks in electrocardiogram classification.",
-      "journal": "European heart journal. Digital health",
-      "abstract": "AIMS: Attribution-based explainability methods are widely used in electrocardiogram (ECG) analysis to interpret predictions from 'black-box' deep neural networks (DNNs). To be useful in clinical applications, attribution methods must produce explanations that are both clear and reflective of the model's inner workings. This study evaluates 12 attribution methods in DNN-based ECG classification.\n\nMETHODS AND RESULTS: We analysed 12 attribution methods using a dataset of 873 710 median beat ECGs spanning nine diagnostic classes. Methods were applied to convolutional neural network-based models trained for ECG classification. Performance was evaluated across four experiments: inter-method similarity, self-consistency, dependence on model weights, and ability to identify features important for model inference. All task models achieved an area under the receiver operating curve above 0.95. Attribution methods demonstrated low correlation and high variability across inter-method comparisons. Self-consistency across random model initializations was moderate for most methods (mean correlation 0.41-0.65). Randomizing model weights led to rapid loss of correlation, although some methods did not converge to zero. Perturbation of input data revealed differences in how well attribution methods identified features relevant to model performance.\n\nCONCLUSION: Attribution methods demonstrated limited reliability, instability across model variants and incomplete dependence on learned parameters, constraining their utility in high-stakes settings such as healthcare. These findings suggest that attribution techniques should be used cautiously and supported by task-specific sanity checks. Approaches grounded in rigorous validation, inherently interpretable modelling or counterfactual explanations may better support clinically meaningful insight.",
-      "authors": [
-        "Bauke K O Arends",
-        "Wouter A C van Amsterdam",
-        "Pim van der Harst",
-        "Maarten van Smeden",
-        "René van Es",
-        "Rutger R van de Leur"
-      ],
-      "published_on": "2026-03-16",
-      "doi": "10.1093/ehjdh/ztag038",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41836589/",
-      "doi_url": "https://doi.org/10.1093/ehjdh/ztag038"
     }
   ],
   "error": null,
