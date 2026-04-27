@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-26T22:45:18.825895+00:00",
-  "last_success_at": "2026-04-26T22:45:19.427545+00:00",
+  "last_attempt_at": "2026-04-27T22:57:24.420289+00:00",
+  "last_success_at": "2026-04-27T22:57:25.367695+00:00",
   "count": 15,
   "papers": [
     {
@@ -93,6 +93,24 @@
       "doi_url": "https://doi.org/10.1002/mrm.70299"
     },
     {
+      "pmid": "42034690",
+      "title": "Enhancing biomedical signals through genetic algorithm optimized Exponentiated transmuted weibull denoising techniques.",
+      "journal": "Scientific reports",
+      "abstract": "Biomedical signals are frequently corrupted by physiological and environmental noise, which obscures diagnostically relevant features and complicates clinical interpretation. This study introduces a denoising framework that integrates the Exponentiated Transmuted Weibull Distribution (ETWD) with Independent Component Analysis (ICA) to model complex, non-Gaussian noise patterns. The ETWD’s tri-parametric structure [Formula: see text] generalizes eleven classical distributions, enabling data-driven adaptability beyond conventional heavy-tailed models. A novel score function derived from ETWD is embedded within the FastICA algorithm, with parameters optimized via a Genetic Algorithm (GA). Sparsity constraints in the wavelet domain are applied to preserve transient signal features while suppressing noise. The framework is evaluated on electroencephalogram (EEG), electrocardiogram (ECG), and medical imaging datasets using standardized protocols with 70/30 development/test splits and 10 independent runs. Results demonstrate statistically significant improvements over conventional methods (Gauss, Pow3, Skew, Tanh). For EEG, Sparse ETWD achieved SNR of 7.77 ± 0.07 dB ([Formula: see text]) and improved epileptic spike detection accuracy from 71% to 94%. For ECG, ETWD achieved SNR of 21.34 ± 0.12 dB ([Formula: see text]) and improved R-peak detection F1-score from 0.89 to 0.97. For medical images, after correcting the evaluation protocol for normalized data (PSNR = [Formula: see text]), ETWD achieved 32.01 dB under Gaussian noise, outperforming baselines across speckle (29.84 dB) and Rician noise (30.92 dB). Cross-dataset validation confirmed robustness within each modality, and comparison with a convolutional autoencoder under identical conditions showed competitive or superior performance without requiring training data. The framework offers a training-free, computationally efficient alternative to deep learning methods, and its application led to improved performance in downstream tasks such as R-peak and spike detection.",
+      "authors": [
+        "M A Sayedelahl",
+        "R M Farouk",
+        "A M Adam"
+      ],
+      "published_on": "2026-04-26",
+      "doi": "10.1038/s41598-026-46088-7",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42034690/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-46088-7"
+    },
+    {
       "pmid": "42024548",
       "title": "A Deep Neural Network for Interpreting Wearable Electrocardiogram Data in Atrial Fibrillation: Prospective Observational Diagnostic Accuracy Study.",
       "journal": "JMIR mHealth and uHealth",
@@ -119,6 +137,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42024548/",
       "doi_url": "https://doi.org/10.2196/82475"
+    },
+    {
+      "pmid": "42035615",
+      "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
+      "journal": "Computational biology and chemistry",
+      "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
+      "authors": [
+        "Yusen Wu",
+        "Jinde Zhu",
+        "Junhao Yuan",
+        "Kaiqiang Huang"
+      ],
+      "published_on": "2026-04-27",
+      "doi": "10.1016/j.compbiolchem.2026.108991",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
+      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
     },
     {
       "pmid": "42010029",
@@ -202,6 +239,28 @@
       "doi_url": "https://doi.org/10.1186/s12911-026-03466-5"
     },
     {
+      "pmid": "42044016",
+      "title": "Hybrid Deep Reinforcement Learning for Multimodal Biomedical Signal Fusion.",
+      "journal": "Journal of visualized experiments : JoVE",
+      "abstract": "Improving decision-making and diagnostic accuracy in health care requires combining multimodal biomedical signals such as electrocardiograms (ECG), electroencephalograms (EEG), and medical imaging. Traditional signal fusion techniques face significant challenges due to signal variability and inherent complexity. We propose a Hybrid Deep Reinforcement Learning (HDRL) model that employs Deep Neural Networks (DNNs) for feature extraction and Reinforcement Learning (RL) for dynamic fusion optimization. This hybrid model utilizes real-time feedback to optimize fusion policy learning and adapt to varying data characteristics. To evaluate its performance, the proposed model was compared with conventional fusion techniques, such as Deep Neural Network-based methods and Principal Component Analysis (PCA). The hybrid deep reinforcement learning model was tested on several real-world biomedical datasets. The proposed model is applicable to personalised medicine and disease classification, as experimental evidence demonstrates improved performance in terms of robustness under noisy conditions, classification accuracy, and rare-event detection. The proposed methodology, in addition to addressing concerns with traditional signal fusion techniques, offers promising solutions that advance multimodal biomedical signal processing. The model uses a DNN for feature mining and RL agents (DQN, PPO) for policy optimization.",
+      "authors": [
+        "Bhanu Prakash Reddy Rella",
+        "Rajesh Sura",
+        "Rahul Kumar Konduru",
+        "Bosko Nikolic",
+        "Milos Janjic",
+        "Nebojsa Bacanin"
+      ],
+      "published_on": "2026-04-27",
+      "doi": "10.3791/69929",
+      "publication_types": [
+        "Journal Article",
+        "Video-Audio Media"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42044016/",
+      "doi_url": "https://doi.org/10.3791/69929"
+    },
+    {
       "pmid": "41994175",
       "title": "An Open-Source, Open Data Approach to Activity Classification from Triaxial Accelerometry in an Ambulatory Setting.",
       "journal": "ArXiv",
@@ -228,6 +287,24 @@
       "doi_url": ""
     },
     {
+      "pmid": "42044101",
+      "title": "Computational Modeling of Affective User Experience Using Multimodal Physiological and Behavioral Signals.",
+      "journal": "Journal of visualized experiments : JoVE",
+      "abstract": "This work proposes a reproducible computational protocol for multimodal affective modeling that utilizes physiological signals. The goal of the protocol is to enable offline emotion recognition by integrating multiple bio signals using a unified deep learning framework. The proposed work consists of five steps: data collection, preprocessing, feature alignment, multimodal fusion, and evaluation. EEG, ECG, and GSR signals from publicly accessible AMIGOS data were used as the experimental baseline in this work. Bio signals were pre-processed and normalized to extract modality-specific features. Heterogeneous feature spaces were aligned across modalities using Deep Canonical Correlation Analysis, followed by a multimodal fusion network for classifying an affective state. The protocol has been evaluated with offline experiments and compared to conventional fusion and classification models using standard performance metrics such as accuracy, precision, recall, F1-score, and AUC. This study focuses on the development and validation of a computational framework for multimodal affective user experience modeling rather than the deployment of a real-time interactive system. With 92.1% accuracy for UX-affective state prediction and 94.2% F1-score for valence-arousal classification, the results consistently outperformed baseline models on emotional dimensions. These findings verified the effectiveness of the proposed multimodal fusion workflow for computational affective modeling by benchmarking physiological data.",
+      "authors": [
+        "Xiaohong Zhang",
+        "Ikseo Choi"
+      ],
+      "published_on": "2026-04-27",
+      "doi": "10.3791/69823",
+      "publication_types": [
+        "Journal Article",
+        "Video-Audio Media"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42044101/",
+      "doi_url": "https://doi.org/10.3791/69823"
+    },
+    {
       "pmid": "41942649",
       "title": "AI based ECG data recovery and cardiovascular diseases classification (CEDRC-network).",
       "journal": "Scientific reports",
@@ -246,81 +323,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41942649/",
       "doi_url": "https://doi.org/10.1038/s41598-026-46232-3"
-    },
-    {
-      "pmid": "41978030",
-      "title": "An Intelligent Evaluation Algorithm for Pilot Flight Training Ability Based on Multimodal Information Fusion.",
-      "journal": "Sensors (Basel, Switzerland)",
-      "abstract": "Intelligent-assisted assessment of pilot flight training ability is a method of automating the evaluation of pilots' flight skills using artificial intelligence. Currently, using AI to assist or replace human instructors in flight skill assessment has become a mainstream research direction in the field of intelligent aviation. Existing flight skill assessment methods suffer from limitations in data types and insufficient assessment accuracy. To address these issues, we evaluate and predict pilot performance in simulated flight missions based on physiological signals. Following the \"OODA loop\" theory, we established a multimodal dataset including pilot eye movement, electroencephalogram (EEG), electrocardiogram (ECG), electrodermal signaling (EDS), heart rate, respiration, and flight attitude data. This dataset records changes in physiological rhythms and flight behaviors during pilots' flight training at different difficulty levels. To enhance the signal-to-noise ratio, we propose an enhanced wavelet fuzzy thresholding denoising algorithm utilizing LSTM optimization. We address the problem of isolated features across different time frames in multimodal data modeling by introducing a multi-feature fusion algorithm based on STFT. Furthermore, by combining a high-efficiency sub-attention mechanism with a Transformer network, we construct a multi-classification network for intelligent-assisted assessment of pilot flight training ability, further improving the output accuracy of each category. Experiments show that our designed algorithm can achieve a classification accuracy of up to 85% on the dataset (5-fold cross-validation), which meets the requirements for auxiliary assessment of flight capabilities.",
-      "authors": [
-        "Heming Zhang",
-        "Changyuan Wang",
-        "Pengbo Wang"
-      ],
-      "published_on": "2026-04-14",
-      "doi": "10.3390/s26072245",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41978030/",
-      "doi_url": "https://doi.org/10.3390/s26072245"
-    },
-    {
-      "pmid": "41922385",
-      "title": "Advancing cardiovascular disease diagnosis with an interpretable and responsible AI framework.",
-      "journal": "Scientific reports",
-      "abstract": "Cardiovascular disease (CVD) remains a leading global health threat, responsible for one in five deaths worldwide. Early detection is critical to mitigate morbidity and mortality, yet traditional diagnostic methods often rely on reactive clinical assessments, missing opportunities for preventive intervention. In this study, a machine learning (ML) ecosystem is developed to enhance CVD diagnosis through two key approaches: (1) an early warning system using non-clinical, self-reported features for accessible risk stratification, and (2) specialized diagnostic models integrating clinical and non-clinical data. The framework leverages advanced ML techniques, including tabular neural networks (TabNet, TabPFN) and ensemble methods (XGBoost, Random Forest), validated on multi-regional datasets. Shapley Additive Explanations (SHAP) analysis identified ECG-related features as dominant predictors of CVD risk, with ST-segment slope (+0.93) and ST depression (+0.63) exhibiting the strongest effects. Counterfactual explanations from the non-clinical model further revealed actionable preventive measures: reducing exercise-induced angina and chest pain severity, alongside increasing exercise heart rate, could shift predictions from diseased to healthy, highlighting the model's utility for lifestyle interventions. To address ethical and clinical trustworthiness, interpretability tools (SHAP, counterfactuals), fairness mitigation (FairLearn), and uncertainty quantification (Bayesian Neural Networks) are incorporated. Causal inference identified key predictors and their Average Treatment Effects (ATEs) such as exercise-induced angina (ATE: 0.36) and ST slope (ATE: 0.33), informing a hybrid ensemble model that achieved 89% accuracy while reducing dimensionality. The system aligns with FDA Good ML Practices and EU Trustworthy AI guidelines, offering a scalable solution for early detection and equitable diagnosis.",
-      "authors": [
-        "Kazi Sakib Hasan",
-        "Irfan Sadi Dhrubo"
-      ],
-      "published_on": "2026-04-02",
-      "doi": "10.1038/s41598-026-35451-3",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41922385/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-35451-3"
-    },
-    {
-      "pmid": "42005648",
-      "title": "Revolutionizing Heart Failure Management With Artificial Intelligence: A Narrative Review of Diagnostic, Prognostic, and Therapeutic Innovations.",
-      "journal": "Health science reports",
-      "abstract": "BACKGROUND AND AIMS: Heart failure (HF) remains a major global health burden, affecting over 64 million individuals worldwide. Early detection and optimal management are often limited by subjective interpretation of diagnostic tests and variable clinical expertise. Artificial intelligence (AI) has emerged as a transformative technology that can enhance diagnostic precision, risk stratification, and therapeutic decision-making. This review aims to synthesize current evidence on clinically validated AI applications across the HF care continuum.\n\nMETHODS: A narrative review of recent peer-reviewed studies was conducted to evaluate AI-based tools applied in electrocardiography (ECG), echocardiography, cardiac magnetic resonance (CMR), remote monitoring, and smart devices. Emphasis was placed on studies reporting validated performance metrics such as area under the curve (AUC), sensitivity, and specificity, and those integrated into clinical workflows or approved by regulatory bodies.\n\nRESULTS: AI-enhanced ECG models have demonstrated high diagnostic accuracy for left-ventricular systolic dysfunction and diastolic impairment, with AUC values up to 0.92; surpassing traditional risk scores. In cardiac imaging, deep-learning systems now automate ejection-fraction and diastolic-function quantification with precision comparable to expert readers. AI-driven platforms such as EchoGo and PanEcho enable efficient and consistent image interpretation, while wearables and implantable sensors like HeartLogic and CardioMEMS provide real-time hemodynamic monitoring and predict decompensation several days before clinical deterioration (sensitivity 70%-88%). Over 40 AI-based cardiovascular tools have received regulatory clearance, supporting their translational maturity.\n\nCONCLUSION: AI technologies are redefining HF care by enabling earlier diagnosis, individualized therapy, and proactive monitoring. However, challenges persist regarding data diversity, model transparency, and clinical integration.",
-      "authors": [
-        "Farrukh Ansar",
-        "Muhammad Aamir Waheed",
-        "Usman Zafar",
-        "Abdulrahman Kolapo",
-        "Walid Sarfaraz",
-        "Khalid Rashid"
-      ],
-      "published_on": "2026-04-20",
-      "doi": "10.1002/hsr2.71855",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42005648/",
-      "doi_url": "https://doi.org/10.1002/hsr2.71855"
-    },
-    {
-      "pmid": "41939092",
-      "title": "The role of artificial intelligence in early detection and risk prediction of ischemic heart disease.",
-      "journal": "Annals of medicine and surgery (2012)",
-      "abstract": "Ischemic heart disease (IHD) remains a leading cause of global morbidity and mortality, underscoring the need for rapid and accurate diagnostic strategies. Conventional methods, including electrocardiography (ECG), imaging, and biomarkers, are effective but limited by factors such as delayed biomarker elevation, reliance on expert interpretation, and variability across settings. Artificial intelligence (AI) offers new opportunities to enhance early detection and risk prediction by applying machine learning and deep learning to large, complex datasets. In ECG analysis, AI models consistently identify subtle ischemic patterns, including occlusive myocardial infarction, with accuracy that often rivals or exceeds clinicians. In imaging, AI enhances echocardiography, CT, MRI, and nuclear modalities by automating segmentation, strain analysis, and plaque quantification while reducing interpretation time. In biomarkers, AI augments traditional tools like troponins and enables the discovery of novel predictors through multi-omics and wearable data integration, supporting dynamic and individualized risk assessment. Despite promising results, most studies remain retrospective or single-center, with limited validation across diverse populations and healthcare environments. Key barriers include algorithm bias, generalizability, regulatory uncertainty, and limited clinician familiarity. Future progress will depend on multicenter trials, federated learning, explainable AI, and integration into existing workflows. In conclusion, AI has the potential to transform cardiovascular care by enabling earlier and more precise diagnosis of IHD and more personalized risk prediction. However, realizing this potential will require careful validation, equitable implementation, and collaboration across disciplines to ensure safe and effective adoption in clinical practice.",
-      "authors": [
-        "Pouria Azami",
-        "Javad Kojuri",
-        "Iman Razeghian-Jahromi"
-      ],
-      "published_on": "2026-04-06",
-      "doi": "10.1097/MS9.0000000000004812",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41939092/",
-      "doi_url": "https://doi.org/10.1097/MS9.0000000000004812"
     }
   ],
   "error": null,
