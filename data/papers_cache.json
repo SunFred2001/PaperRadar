@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-27T22:57:24.420289+00:00",
-  "last_success_at": "2026-04-27T22:57:25.367695+00:00",
+  "last_attempt_at": "2026-04-28T23:03:44.778779+00:00",
+  "last_success_at": "2026-04-28T23:03:45.707310+00:00",
   "count": 15,
   "papers": [
     {
@@ -91,6 +91,27 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
       "doi_url": "https://doi.org/10.1002/mrm.70299"
+    },
+    {
+      "pmid": "42045241",
+      "title": "A self-supervised electrocardiogram foundation model for empowering cardiovascular disease prediction and genetic factor discovery.",
+      "journal": "Nature communications",
+      "abstract": "Electrocardiogram (ECG) has been widely used in the diagnosis of cardiovascular disease (CVD). Current deep learning methods for CVD prediction using ECG often lack generalizability and interpretability, resulting in limited performance. Here, we have developed a self-supervised Electrocardiogram Large-scale Foundation Model (ECG-LFM) through pre-training over ten million 12-lead ECGs from multiple ECG datasets. To enhance ECG representation, ECG-LFM integrates contrastive learning with masked language modeling in a self-supervised manner, enabling the model to capture both global contextual information and fine-grained patterns within ECG signals. It was fine-tuned to predict eight types of CVDs and achieved an average area under the receiver operating characteristic curve (AUROC) of 0.930 from multiple datasets, which demonstrates improved performance compared to existing methods. The important ECG-LFM derived features (EDFs) are able to represent known CVD biomarkers, indicating the high interpretability of ECG-LFM. Applications of the EDFs in genome-wide association study identified 24 significant single nucleotide polymorphisms (SNPs) (P-value < 5×10-8, LD r2 < 0.01) associated with ECG, including 8 novel findings. The genetic causal effects of EDFs on the CVDs were evaluated by Mendelian randomization, indicating 2 CVDs and 4 EDFs having causal relationships. Overall, ECG-LFM provides accurate prediction for CVDs and novel genetic insights for ECG.",
+      "authors": [
+        "Siying Lin",
+        "Zhaoqi Li",
+        "Qifan Wu",
+        "Yifeng Chen",
+        "Yuedong Yang",
+        "Huiying Zhao"
+      ],
+      "published_on": "2026-04-28",
+      "doi": "10.1038/s41467-026-72436-2",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42045241/",
+      "doi_url": "https://doi.org/10.1038/s41467-026-72436-2"
     },
     {
       "pmid": "42034690",
@@ -303,26 +324,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42044101/",
       "doi_url": "https://doi.org/10.3791/69823"
-    },
-    {
-      "pmid": "41942649",
-      "title": "AI based ECG data recovery and cardiovascular diseases classification (CEDRC-network).",
-      "journal": "Scientific reports",
-      "abstract": "Cardiovascular diseases (CVDs) are a significant and widespread cause of death in the world, continuing to increase mortality rates. Therefore, timely identification and diagnosis are essential for a patient's optimized recovery and longevity. In this regard, ECG is an effective tool for detecting anomalous heart conditions. However, interfering factors like noise, transient changes, and missing data could affect the accurate diagnosis of CVDs. The Cardiovascular ECG Data Recovery and Classification Network (CEDRC-Net) sorts and collates noisy data while also recovering missing data caused by equipment malfunction or human error, using a multistage machine-learning and deep-learning model. Moreover, CEDRC-Net is incorporated into the Transformer-based Convolutional Denoising Autoencoder (TCDAE) model to methodically mitigate noise, subsequently the Variational Autoencoder (VAE) or Temporal Fusion Transformer (TFT) are systematically employed as an alternative to accurately reconstruct and forecast ECG signals. Following this, the system classified heart diseases, including atrial fibrillation, sinus bradycardia, and tachycardia, using several machine-learning algorithms, based on data from a dataset comprising 2426 patients.TFT showcased better performance than VAE in ECG signal reconstruction, achieving up to 98% accuracy with Gradient Boosting, compared to 96% by VAE. Furthermore, in downstream classification, signals enhanced by TFT led to superior model results, with SVM and XGBoost both reaching 98.4% accuracy and F1-scores. The TFT achieved substantially lower reconstruction errors (MAE = 0.015, MSE = 0.00045, RMSE = 0.0132) compared to the VAE (MAE = 0.075, MSE = 0.011, RMSE = 0.107). These results highlight TFT's strong denoising capability for improving ECG diagnostic accuracy, while the suggested system ensures reliable measurements under noisy and non-ideal conditions. It is highly conducive for early and accurate diagnosis, better clinical decisions, and decreased patient load on the cardiologists. The research is performed on the MIMIC-IV-ECG 12-lead real-time dataset.",
-      "authors": [
-        "Muhammad Raheel Khan",
-        "Zunaib Maqsood Haider",
-        "Jawad Hussain",
-        "Masood Ahmad Khan",
-        "Saad Abdullah"
-      ],
-      "published_on": "2026-04-07",
-      "doi": "10.1038/s41598-026-46232-3",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41942649/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-46232-3"
     }
   ],
   "error": null,
