@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-04-29T23:04:27.605309+00:00",
-    "last_success_at": "2026-04-29T23:04:28.618333+00:00",
+    "last_attempt_at": "2026-04-30T23:55:37.983458+00:00",
+    "last_success_at": "2026-04-30T23:55:38.422030+00:00",
     "count": 15,
     "papers": [
       {
@@ -70,24 +70,6 @@
         "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
       },
       {
-        "pmid": "41690150",
-        "title": "A meta-heuristic aided arrhythmia classification model using advanced deep learning technique with multiple feature extraction mechanisms.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Cardiac arrhythmia poses an important threat to human life; hence it is an urge to diagnose properly. There are numerous mechanisms deployed for the identification of arrhythmias; yet, most of the techniques have been utilized sources such as Electrocardiogram (ECG). The ECG-based manual evaluation by the medical analysts is inaccurate. Some experiments have been concentrated on the accuracy and the speed of the learning method by utilizing Artificial Intelligence (AI), and pattern detection in the classification model. However, there are two primary limitations in the conventional mechanisms; the models demand large training time and demand feature selection on a manual basis. Hence, an intellectual arrhythmia classification model using deep learning is introduced to identify the irregular heartbeat. In the beginning, the required signals are accumulated from standard sources. Further, three different kinds of features are extracted for an efficient automatic classification process of arrhythmia. At first, the deep features are extracted by applying the Conditional Autoencoder, and these features are considered as feature set 1. Further, wave features and spectral features are retrieved from the input signal and these features are considered as feature set 2. Subsequently, the signals are converted into spectrogram images and the Graph Convolutional Neural Network (GCNN) technique is employed to retrieve the feature set 3 from those images. Further, the ensemble feature fusion process takes place to combine all three sets of features. Ensemble features are provided as input for the Optimal Dense Recurrent neural network with Attention Mechanism (ODR-AM) for classifying the arrhythmia. The classifier's performance is boosted by optimizing the parameters using the Augmented Random value of Giant Armadillo Optimization (ARGAO). This model is useful to know about the specific type of arrhythmia. Finally, the simulation findings of the presented model are analyzed with other conventional models.",
-        "authors": [
-          "Jay Raval",
-          "Kamalesh V N",
-          "Dr Raj Kumar Patra"
-        ],
-        "published_on": "2026-02-15",
-        "doi": "10.1016/j.compbiolchem.2026.108917",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41690150/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
-      },
-      {
         "pmid": "41664247",
         "title": "Rosette Cardiac MR Fingerprinting for Simultaneous T1, T2, T 2 * , and Fat Fraction Mapping Using a Multi-Echo Deep Image Prior Reconstruction.",
         "journal": "Magnetic resonance in medicine",
@@ -107,6 +89,70 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
         "doi_url": "https://doi.org/10.1002/mrm.70299"
+      },
+      {
+        "pmid": "41404494",
+        "title": "Sleep stage classification from ECG using machine learning: Evaluating the impact of signal duration.",
+        "journal": "Neurobiology of sleep and circadian rhythms",
+        "abstract": "Sleep stage flagging is critical for diagnosing conditions like insomnia, sleep apnea, and narcolepsy. Traditional methods rely on time-intensive manual scoring by experts, limiting scalability and accessibility, especially in resource-limited settings. Automating sleep stage classification through signal processing and machine learning could improve diagnostic efficiency and reduce healthcare burdens. While prior studies have utilized multiple signals such as electroencephalogram (EEG), electromyogram (EMG), and electrocardiogram (ECG), this study focuses solely on ECG to provide a simpler, more accessible solution. By simplifying signal input, the approach enhances feasibility in resource-constrained environments. Features based on heart rate variability (HRV) and Poincaré plot descriptors were extracted and used to train machine learning models for five-stage sleep classification. The approach was evaluated using two publicly available datasets, the Haaglanden Medisch Centrum Sleep Staging Database and the MIT-BIH Polysomnographic Database, which were chosen for their varied recording environments and subject diversity. Neural Networks, K-Nearest Neighbors (KNN), XGBoost, and Random Forest were employed to assess performance. The highest classification accuracy of 67 % was achieved with long-duration ECG recordings, outperforming models trained on shorter segments by 12 %. These findings emphasize the impact of signal duration on classification performance and suggest opportunities to refine sleep stage prediction. The study demonstrates the feasibility of ECG-only systems for portable, low-cost, and scalable sleep monitoring. The insights gained may facilitate the development of more accessible and efficient sleep disorder detection, particularly in low-resource settings.",
+        "authors": [
+          "Mohammadreza Iravani",
+          "Sadaf Moharreri"
+        ],
+        "published_on": "2025-12-17",
+        "doi": "10.1016/j.nbscr.2025.100140",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41404494/",
+        "doi_url": "https://doi.org/10.1016/j.nbscr.2025.100140"
+      },
+      {
+        "pmid": "42060654",
+        "title": "Exploratory association between multimodal AI-derived digital biomarkers and in-hospital mortality in adult patients with pneumonia: A proof-of-concept study.",
+        "journal": "PLOS digital health",
+        "abstract": "Pneumonia remains a leading cause of in-hospital mortality worldwide. Current prognostic tools such as the IDSA/ATS severity score have meaningful limitations, particularly in capturing dynamic disease progression or integrating heterogeneous biological signals. Artificial intelligence (AI) offers the opportunity to derive complementary prognostic information from routinely collected electronic health record data. This exploratory, proof-of-concept retrospective study enrolled adults (≥18 years) admitted with a primary diagnosis of acute pneumonia at Hospital Alma Máter de Antioquia (Medellín, Colombia) between January 1 and June 30, 2024. After applying pre-defined exclusion criteria, 121 patients (19 non-survivors, 15.7%) comprised the final analytic cohort. Three independent AI modules were applied: (i) a ResNet-18 deep learning model quantified lung consolidation from chest radiographs (CXRs) using Class Activation Mapping; (ii) a Spanish regular-expression natural language processing (NLP) pipeline extracted modified IDSA/ATS severity scores from clinical notes; and (iii) NeuroKit2-based quantitative heart rate variability (HRV) analysis processed electrocardiogram (ECG) signals digitised from PDF archives. Bivariate associations with all-cause in-hospital mortality were examined using logistic regression. Several features exhibited statistically significant associations with mortality under conventional thresholds: AI-quantified total lung compromise ratio (OR 8.32, 95% CI 1.23-56.29), NLP-derived IDSA/ATS severity score (OR 1.78, 95% CI 1.09-2.88), and a coherent ECG/HRV profile characterised by higher heart rate (120.1 vs. 84.4 bpm, p = 0.023), reduced RMSSD (4.1 vs. 23.5 ms, p = 0.041), reduced Poincaré SD1 (3.0 vs. 17.6 ms, p = 0.041), and T-wave amplitude reductions surviving FDR correction in multiple leads. Given the small sample size and low event count (n = 19; events-per-variable ≈ 4), all associations are preliminary and hypothesis-generating only. These proof-of-concept findings suggest that integrated multimodal AI biomarkers automatically derived from low-resource clinical data can capture a cardiopulmonary stress profile associated with pneumonia mortality, and support the design of larger prospective validation studies.",
+        "authors": [
+          "Alejandro Hernández-Arango",
+          "Daniel Mejía Arrieta",
+          "Christian Andrés Díaz León",
+          "Juan G Paniagua Castrillon",
+          "Julián Rondón-Carvajal",
+          "Melissa Alejandra Acosta",
+          "David Restrepo",
+          "Wayner Barrios",
+          "Santiago Álvarez-López",
+          "Jesús Francisco Vargas-Bonilla",
+          "Hernán Felipe García Arias",
+          "José Julián Garcés Echeverri",
+          "Carlos Salazar-Martínez",
+          "Olga Lucia Quintero Montoya"
+        ],
+        "published_on": "2026-04-30",
+        "doi": "10.1371/journal.pdig.0000960",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060654/",
+        "doi_url": "https://doi.org/10.1371/journal.pdig.0000960"
+      },
+      {
+        "pmid": "42060434",
+        "title": "EMBC Special Issue: Neural Style Transfer-Based Denoising of Seismocardiogram Signals Under Dynamic Conditions.",
+        "journal": "IEEE transactions on bio-medical engineering",
+        "abstract": "Seismocardiogram (SCG) signals capture the mechanical dynamics of cardiac activity, but their clinical utility is severely limited by motion artifacts during ambulatory monitoring. To overcome this challenge, we propose a neural style transfer (NST)-based denoising framework that converts motion-contaminated SCG recordings into morphology-preserving, rest-like representations. Our method leverages time-frequency spectrograms obtained from continuous wavelet transforms and a pre-trained convolutional neural network (VGG19) to suppress exercise-induced distortions while maintaining physiologically relevant timing and morphology. Across 20 participants, the proposed approach substantially enhanced signal fidelity, improving signal-to-noise ratio and peak signal-to-noise ratio by 176.7% and 152.1%, respectively, and reducing mean squared error and mean absolute error by 95.1% and 83.6%. Structural similarity increased by 70.3%, and correlation with the resting reference more than doubled. Heart rate estimated from denoised signals showed excellent agreement with electrocardiogram measurements, yielding an average error of only 0.89 beats per minute (0.73%). Furthermore, comparative evaluation demonstrated that the proposed restyling and denoising approach consistently outperformed state-of-the-art denoising techniques-including empirical mode decomposition variants, variational mode decomposition, Savitzky-Golay filtering, moving-average filtering, and wavelet-based reconstruction-achieving the lowest heart rate estimation error (0.89 bpm RMSE). Additionally, a controlled simulation confirmed the framework's restyling capability under known ground-truth conditions, yielding a heart rate estimation error of only 0.15 bpm relative to the true reference. These results demonstrate that neural style transfer enables physiology-consistent reconstruction of cardiac mechanical signals in dynamic conditions and represents a highly promising direction toward motion-resilient wearable cardiac monitoring.",
+        "authors": [
+          "Dunya Moradi",
+          "Berke Kizir",
+          "Beren Semiz"
+        ],
+        "published_on": "2026-04-30",
+        "doi": "10.1109/TBME.2026.3688416",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060434/",
+        "doi_url": "https://doi.org/10.1109/TBME.2026.3688416"
       },
       {
         "pmid": "42045241",
@@ -233,6 +279,29 @@
         "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
       },
       {
+        "pmid": "42058490",
+        "title": "Performance of image-based deep learning models for aortic dissection segmentation and diagnosis: a systematic review and meta-analysis.",
+        "journal": "Frontiers in cardiovascular medicine",
+        "abstract": "OBJECTIVE: This meta-analysis was conducted to systematically evaluate the accuracy of image-based deep learning models for aortic dissection segmentation and diagnosis, aiming to provide an evidence base for developing intelligent detection tools.\n\nMETHODS: A comprehensive search was performed across the Cochrane Library, PubMed, Embase, and Web of Science to identify studies on the effectiveness of deep learning in aortic dissection segmentation or diagnosis up to November 3, 2024. Risk evaluation was carried out with the Quality Assessment of Diagnostic Accuracy Studies-2 (QUADAS-2).\n\nRESULTS: A total of 48 studies on deep learning models for aortic dissection segmentation or diagnostic tasks were included, with 28 on segmentation tasks and 20 on diagnostic tasks. For segmentation tasks, the mean Dice coefficient was 89.2% ± 4.4% for false lumen segmentation, 90.8% ± 3.4% for true lumen segmentation, and 91.7% ± 6.1% for entire aorta segmentation. For diagnostic tasks, computed tomography (CT) based deep learning showed pooled sensitivity and specificity of 0.94 [95% confidence interval (CI): 0.89-0.96] and 0.92 (95% CI: 0.88-0.95), respectively. In terms of electrocardiogram-based deep learning, the pooled sensitivity and specificity were 0.85 (95% CI: 0.79-0.89) and 0.90 (95% CI: 0.87-0.92), respectively. Regarding the computed tomography angiography (CTA) based deep learning, the pooled sensitivity and specificity were 0.94 (95% CI: 0.90-0.96) and 0.95 (95% CI: 0.91-0.98), respectively. Additionally, some studies compared the diagnostic performance of deep learning with that of clinicians. The pooled sensitivity and specificity were 0.79 (95% CI: 0.65-0.89) and 0.95 (95% CI: 0.88-0.94), respectively.\n\nCONCLUSIONS: Image-based deep learning models demonstrated high accuracy for aortic dissection segmentation and diagnosis. They performed comparably to or better than clinicians. These findings support their potential as clinical assistive tools. Future work should prioritize multicenter validation, seamless integration of these models into clinical workflows, and enhancement of model generalizability to facilitate broader clinical adoption.\n\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/PROSPERO/view/CRD42024619403, identifier CRD42024619403.",
+        "authors": [
+          "Yichen Zhao",
+          "Yuhan Zhang",
+          "Jingyi Zhang",
+          "Caiying Chen",
+          "Ping Li",
+          "Ji Li",
+          "Qiang Fu"
+        ],
+        "published_on": "2026-04-30",
+        "doi": "10.3389/fcvm.2026.1734208",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42058490/",
+        "doi_url": "https://doi.org/10.3389/fcvm.2026.1734208"
+      },
+      {
         "pmid": "42029621",
         "title": "Fusion of RR Interval Dynamics and HRV Multidomain Signatures Using Multimodal Neural Models for Metabolic Syndrome Classification.",
         "journal": "Medical sciences (Basel, Switzerland)",
@@ -274,72 +343,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41975401/",
         "doi_url": "https://doi.org/10.1186/s12911-026-03466-5"
-      },
-      {
-        "pmid": "42044016",
-        "title": "Hybrid Deep Reinforcement Learning for Multimodal Biomedical Signal Fusion.",
-        "journal": "Journal of visualized experiments : JoVE",
-        "abstract": "Improving decision-making and diagnostic accuracy in health care requires combining multimodal biomedical signals such as electrocardiograms (ECG), electroencephalograms (EEG), and medical imaging. Traditional signal fusion techniques face significant challenges due to signal variability and inherent complexity. We propose a Hybrid Deep Reinforcement Learning (HDRL) model that employs Deep Neural Networks (DNNs) for feature extraction and Reinforcement Learning (RL) for dynamic fusion optimization. This hybrid model utilizes real-time feedback to optimize fusion policy learning and adapt to varying data characteristics. To evaluate its performance, the proposed model was compared with conventional fusion techniques, such as Deep Neural Network-based methods and Principal Component Analysis (PCA). The hybrid deep reinforcement learning model was tested on several real-world biomedical datasets. The proposed model is applicable to personalised medicine and disease classification, as experimental evidence demonstrates improved performance in terms of robustness under noisy conditions, classification accuracy, and rare-event detection. The proposed methodology, in addition to addressing concerns with traditional signal fusion techniques, offers promising solutions that advance multimodal biomedical signal processing. The model uses a DNN for feature mining and RL agents (DQN, PPO) for policy optimization.",
-        "authors": [
-          "Bhanu Prakash Reddy Rella",
-          "Rajesh Sura",
-          "Rahul Kumar Konduru",
-          "Bosko Nikolic",
-          "Milos Janjic",
-          "Nebojsa Bacanin"
-        ],
-        "published_on": "2026-04-27",
-        "doi": "10.3791/69929",
-        "publication_types": [
-          "Journal Article",
-          "Video-Audio Media"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42044016/",
-        "doi_url": "https://doi.org/10.3791/69929"
-      },
-      {
-        "pmid": "41994175",
-        "title": "An Open-Source, Open Data Approach to Activity Classification from Triaxial Accelerometry in an Ambulatory Setting.",
-        "journal": "ArXiv",
-        "abstract": "UNLABELLED: The accelerometer has become an almost ubiquitous device, providing enormous opportunities in healthcare monitoring beyond step counting or other average energy estimates in 15-60 second epochs.\n\nOBJECTIVE: To develop an open data set with associated open-source code for processing 50 Hz tri-axial accelerometry-based to classify patient activity levels and natural types of movement.\n\nAPPROACH: Data were collected from 23 healthy subjects (16 males and seven females) aged between 23 and 62 years using an ambulatory device, which included a triaxial accelerometer and synchronous lead II equivalent ECG for an average of 26 minutes each. Participants followed a standardized activity routine involving five distinct activities: lying, sitting, standing, walking, and jogging. Two classifiers were constructed: a signal processing technique to distinguish between high and low activity levels and a convolutional neural network (CNN)-based approach to classify each of the five activities.\n\nMAIN RESULTS: The binary (high/low) activity classifier exhibited an F1 score of 0.79. The multi-class CNN-based classifier provided an F1 score of 0.83. The code for this analysis has been made available under an open-source license together with the data on which the classifiers were trained and tested.\n\nSIGNIFICANCE: The classification of behavioral activity, as demonstrated in this study, offers valuable context for interpreting traditional health metrics and may provide contextual information to support the future development of clinical decision-making tools for patient monitoring, predictive analytics, and personalized health interventions.",
-        "authors": [
-          "Sepideh Nikookar",
-          "Edward Tian",
-          "Harrison Hoffman",
-          "Matthew Parks",
-          "J Lucas McKay",
-          "Yashar Kiarashi",
-          "Tommy T Thomas",
-          "Alex Hall",
-          "David W Wright",
-          "Gari D Clifford"
-        ],
-        "published_on": "2026-04-17",
-        "doi": "",
-        "publication_types": [
-          "Journal Article",
-          "Preprint"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41994175/",
-        "doi_url": ""
-      },
-      {
-        "pmid": "42044101",
-        "title": "Computational Modeling of Affective User Experience Using Multimodal Physiological and Behavioral Signals.",
-        "journal": "Journal of visualized experiments : JoVE",
-        "abstract": "This work proposes a reproducible computational protocol for multimodal affective modeling that utilizes physiological signals. The goal of the protocol is to enable offline emotion recognition by integrating multiple bio signals using a unified deep learning framework. The proposed work consists of five steps: data collection, preprocessing, feature alignment, multimodal fusion, and evaluation. EEG, ECG, and GSR signals from publicly accessible AMIGOS data were used as the experimental baseline in this work. Bio signals were pre-processed and normalized to extract modality-specific features. Heterogeneous feature spaces were aligned across modalities using Deep Canonical Correlation Analysis, followed by a multimodal fusion network for classifying an affective state. The protocol has been evaluated with offline experiments and compared to conventional fusion and classification models using standard performance metrics such as accuracy, precision, recall, F1-score, and AUC. This study focuses on the development and validation of a computational framework for multimodal affective user experience modeling rather than the deployment of a real-time interactive system. With 92.1% accuracy for UX-affective state prediction and 94.2% F1-score for valence-arousal classification, the results consistently outperformed baseline models on emotional dimensions. These findings verified the effectiveness of the proposed multimodal fusion workflow for computational affective modeling by benchmarking physiological data.",
-        "authors": [
-          "Xiaohong Zhang",
-          "Ikseo Choi"
-        ],
-        "published_on": "2026-04-27",
-        "doi": "10.3791/69823",
-        "publication_types": [
-          "Journal Article",
-          "Video-Audio Media"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42044101/",
-        "doi_url": "https://doi.org/10.3791/69823"
       }
     ],
     "error": null,
@@ -352,6 +355,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-04-30T23:04:28.618333+00:00",
+  "next_refresh_at": "2026-05-01T23:55:38.422030+00:00",
   "next_push_at": null
 }
