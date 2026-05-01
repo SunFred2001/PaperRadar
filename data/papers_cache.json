@@ -2,30 +2,10 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-04-30T23:55:37.983458+00:00",
-  "last_success_at": "2026-04-30T23:55:38.422030+00:00",
+  "last_attempt_at": "2026-05-01T23:55:48.440799+00:00",
+  "last_success_at": "2026-05-01T23:55:48.865456+00:00",
   "count": 15,
   "papers": [
-    {
-      "pmid": "41631200",
-      "title": "Exploring the potential of large language models in healthcare: a focus on cardiovascular disease analysis.",
-      "journal": "Health information science and systems",
-      "abstract": "OBJECTIVE: With the rapid development of big data and artificial intelligence technologies, large language models (LLMs) are increasingly being applied across multiple fields. In the healthcare domain, efficient utilization of extensive patient data and medical records considerably enhances diagnostic accuracy and enables disease-risk prediction. This study aims to establish a research framework for evaluating the application of assessment models in structured and unstructured data, exploring the potential applications of LLMs in healthcare.\n\nMETHODS: This study proposes the HLLM-Potential Framework (Healthcare Large Language Model Potential Evaluation Framework), a comprehensive evaluation framework designed to assess the applicability and performance of LLMs in medical data analysis through comparative experiments with traditional models. Publicly available and standardized cardiovascular datasets were adopted, covering both structured and unstructured data. Existing LLMs were utilized through training and task-specific configuration on medical data to perform disease prediction and health-risk assessment. In addition, various LLMs were systematically compared with traditional machine-learning and deep-learning models to quantify the differences in their predictive performance.\n\nRESULTS: Existing LLMs can process structured and unstructured medical data and use them to predict diseases and evaluate health risks. For structured cardiovascular disease prediction tasks focusing on heart failure, all considered LLMs achieved accuracy and recall rates above 80%. Meanwhile, in unstructured cardiovascular data analysis for ECG image classification, the multimodal LLM Janus Pro 7B attained an overall accuracy rate of 85%.\n\nCONCLUSION: Compared with traditional machine learning and deep learning models, the considered LLMs exhibit stronger interactivity and generalization capabilities as well as less dependence on data quality and feature engineering. Overall, LLMs offer notable advantages, namely, high efficiency, high flexibility, and multimodal integration, for use in the healthcare field; thus, LLMs are expected to be widely applied in the medical and healthcare domains.\n\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1007/s13755-026-00432-3.",
-      "authors": [
-        "Aihua Li",
-        "Xinran Bi",
-        "Sifan Chen",
-        "Juxiang Hu",
-        "Yong Shi"
-      ],
-      "published_on": "2026-02-03",
-      "doi": "10.1007/s13755-026-00432-3",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41631200/",
-      "doi_url": "https://doi.org/10.1007/s13755-026-00432-3"
-    },
     {
       "pmid": "41884351",
       "title": "Machine learning models enhance detection of arrhythmogenic right ventricular cardiomyopathy.",
@@ -90,6 +70,28 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41404494/",
       "doi_url": "https://doi.org/10.1016/j.nbscr.2025.100140"
+    },
+    {
+      "pmid": "42062911",
+      "title": "Empowering atrial fibrillation detection with TabPFN and SHAP interpretation based on ECG-derived features: a dual-center temporal validation study.",
+      "journal": "BMC cardiovascular disorders",
+      "abstract": "Atrial fibrillation (AF) remains a leading driver of stroke and heart failure, yet timely diagnosis is frequently hindered by its asymptomatic nature and the limitations of current screening methods. This study aimed to develop and validate a highly accurate, interpretable, and scalable machine learning (ML) framework-TabPFN-for AF detection using standard 12-lead electrocardiogram (ECG)-derived features. To this end, we conducted a dual-center temporal validation study utilizing 248,324 ECG records across three distinct datasets: an internal cohort (n = 220,327), an external validation cohort (n = 6,181), and a temporal validation cohort (n = 21,816). The TabPFN model was trained on 12 clinical ECG features, such as PR interval, Paxis, and QTc, and compared against eight other ML architectures, including ensemble learning and neural networks. Model interpretability was established using SHAP (SHapley Additive exPlanations) to quantify feature contributions, and the framework was deployed via a web-based clinical interface. Results indicated that the TabPFN model demonstrated superior diagnostic efficacy, achieving an area under the receiver operating characteristic curve (AUROC) of 0.9711 in the internal cohort, 0.9797 in the external cohort, and 0.9766 in the temporal validation cohort. It outperformed traditional logistic regression (AUC 0.8687) and maintained a remarkably low Brier score (0.0474), indicating excellent calibration. Furthermore, SHAP analysis identified the PR interval and Paxis as the primary diagnostic drivers, revealing non-linear associations and physiological \"inflection points\" for AF presence, while decision curve analysis confirmed a high net benefit for clinical screening across all cohorts. In conclusion, by leveraging a Prior-Data Fitted approach (TabPFN) on standardized ECG features, we established a robust framework that matches the performance of complex deep-learning models while maintaining high interpretability and computational efficiency. This scalable tool, accessible via a web-based platform, bridges the gap between \"black-box\" AI and clinical practice, offering a practical solution for population-wide AF screening and the reduction of cardiovascular morbidity.",
+      "authors": [
+        "Mingming Chen",
+        "Tenglong Li",
+        "Zihan Wang",
+        "Xiaojue Fan",
+        "Haoming Xu",
+        "Yafeng Zhou",
+        "Min Hu"
+      ],
+      "published_on": "2026-05-01",
+      "doi": "10.1186/s12872-026-05936-0",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42062911/",
+      "doi_url": "https://doi.org/10.1186/s12872-026-05936-0"
     },
     {
       "pmid": "42060654",
