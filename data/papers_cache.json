@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-03T03:44:39.890475+00:00",
-  "last_success_at": "2026-05-03T03:44:40.256380+00:00",
+  "last_attempt_at": "2026-05-04T06:43:52.706815+00:00",
+  "last_success_at": "2026-05-04T06:43:53.547180+00:00",
   "count": 15,
   "papers": [
     {
@@ -53,6 +53,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
       "doi_url": "https://doi.org/10.1002/mrm.70299"
+    },
+    {
+      "pmid": "42069762",
+      "title": "Federated learning-enabled privacy-preserving framework for seizure forecasting and affective state analysis using multi-modal EEG-ECG data.",
+      "journal": "Scientific reports",
+      "abstract": "Seizure forecasting and affective state analysis using EEG-ECG data play a pivotal role in advancing neurological and mental health monitoring. However, existing methods such as Fed-Transformer, Res-1D CNN, and Fed-ESD suffer from privacy risks, inefficient feature extraction, and high computational overhead, limiting their effectiveness in real-world applications. To overcome these challenges, this study proposes NeuroFedSense, a novel Federated Learning-enabled Privacy-Preserving Framework that integrates a Temporal Convolutional Network (TCN) with an Attention Mechanism for accurate seizure forecasting and affective state analysis using EEG-ECG data, ensuring enhanced feature selection, interpretability and efficient decentralized training. The model leverages adaptive attention-based optimization and weighted feature selection to improve classification performance while ensuring data privacy. Implemented using TensorFlow, NeuroFedSense achieves 99.54% accuracy, 99.62% precision, 99.34% recall, and a 99.46% F1-score, outperforming Fed-Transformer (97.10% accuracy), Res-1D CNN (81.62% accuracy), and FML (99.10% accuracy). The ROC-AUC score of 0.99 further establishes its superiority over competing models. Additionally, the federated approach reduces energy consumption per node by 30% and optimizes communication efficiency by minimizing data transmission by 15% over 100 rounds. By ensuring high accuracy, improved privacy, reduced computational overhead, and enhanced energy efficiency, NeuroFedSense sets a new benchmark for decentralized, real-time seizure prediction and affective state monitoring. These findings underscore its potential for deployment in intelligent, privacy-preserving healthcare applications, addressing critical challenges in remote neurological monitoring.",
+      "authors": [
+        "V S Arulmurugan",
+        "R Aarthy",
+        "S Sesha Vidhya",
+        "Saranya K"
+      ],
+      "published_on": "2026-05-03",
+      "doi": "10.1038/s41598-026-50003-5",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42069762/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-50003-5"
     },
     {
       "pmid": "41404494",
@@ -305,30 +324,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42029621/",
       "doi_url": "https://doi.org/10.3390/medsci14020197"
-    },
-    {
-      "pmid": "41975401",
-      "title": "Multimodal deep learning with missing data robustness for enhanced early diagnosis of coronary artery disease using CCTA, clinical, and ECG data.",
-      "journal": "BMC medical informatics and decision making",
-      "abstract": "",
-      "authors": [
-        "YongBo Tu",
-        "XiaoRong Yang",
-        "Fang Liu",
-        "RuYue Ai",
-        "Yu Luo",
-        "Ran ChunYan",
-        "GuangXu Yang",
-        "TiJiang Zhang",
-        "Lin Jiang"
-      ],
-      "published_on": "2026-04-14",
-      "doi": "10.1186/s12911-026-03466-5",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41975401/",
-      "doi_url": "https://doi.org/10.1186/s12911-026-03466-5"
     }
   ],
   "error": null,
