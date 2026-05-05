@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-04T06:43:52.706815+00:00",
-    "last_success_at": "2026-05-04T06:43:53.547180+00:00",
+    "last_attempt_at": "2026-05-05T09:10:09.931974+00:00",
+    "last_success_at": "2026-05-05T09:10:10.390083+00:00",
     "count": 15,
     "papers": [
       {
@@ -88,6 +88,30 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42069762/",
         "doi_url": "https://doi.org/10.1038/s41598-026-50003-5"
+      },
+      {
+        "pmid": "41757537",
+        "title": "Model-Inversion-Resistant Physical Unclonable Neural Network Using Vertical NAND Flash Memory.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "abstract": "The growing use of neural networks in privacy-sensitive applications necessitates architectures that inherently protect both data and model integrity. We present a model-inversion-resistant physical unclonable neural network (PUNN) implemented on commercial vertical NAND (V-NAND) flash memory. A physical unclonable layer generated through weak gate-induced drain-leakage erase exploits intrinsic device-level variations to create chip-unique conductance patterns that are concealable and unreproducible. Training is achieved using the forward-forward (FF) algorithm, which eliminates the need for backward propagation and is fully compatible with the common-source-line structure of V-NAND arrays. The resulting V-NAND FF-PUNN demonstrates hardware-rooted resistance to model-cloning and model-inversion attacks, maintaining high accuracy under forward-only learning. When the trained network weights are transferred to another chip, inference accuracy collapses due to chip-specific randomness, confirming intrinsic non-clonability. Furthermore, when applied to the MIT-BIH electrocardiogram dataset, the system achieves competitive classification accuracy on real health data while entirely blocking data reconstruction by model-inversion. This work establishes a scalable framework for secure, energy-efficient, and privacy-preserving neural computing directly on commercial flash memory.",
+        "authors": [
+          "Sung-Ho Park",
+          "Ryun-Han Koo",
+          "Jonghyun Ko",
+          "Jiseong Im",
+          "Yeongheon Yang",
+          "Mingyun Oh",
+          "Dongbeen Shin",
+          "Gyuweon Jung",
+          "Jong-Ho Lee"
+        ],
+        "published_on": "2026-02-27",
+        "doi": "10.1002/advs.74517",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41757537/",
+        "doi_url": "https://doi.org/10.1002/advs.74517"
       },
       {
         "pmid": "41404494",
@@ -281,6 +305,27 @@
         "doi_url": "https://doi.org/10.1007/s13239-026-00835-z"
       },
       {
+        "pmid": "42078203",
+        "title": "AI-enhanced non-invasive monitoring of critical biochemical analytes in perioperative care: a review of signal processing and clinical applications.",
+        "journal": "Frontiers in physiology",
+        "abstract": "Current perioperative monitoring of critical biochemical analytes predominantly relies on intermittent arterial blood gas analysis, which carries inherent risks of invasiveness and discontinuous data acquisition. Emerging evidence suggests that variations in electrocardiogram and photoplethysmogram waveforms may hold significant predictive value for detecting critical biochemical analytes changes. Advances in artificial intelligence analysis technologies have further accelerated the development of non-invasive monitoring tools, including real-time non-invasive blood glucose monitoring for diabetic patients and blood potassium monitoring for renal dialysis patients. This review highlights the urgent clinical need for non-invasive, continuous monitoring of the critical biochemical analytes during the perioperative period. It provides a comprehensive summary of current monitoring technologies and signals related to critical biochemical analytes, with a focus on their potential application in non-invasive blood gas monitoring. Based on existing evidence, key analytes such as serum potassium, serum calcium, lactate, and blood glucose have demonstrated robust research foundations and are the primary focus of this review. However, further clinical validation is urgently required to confirm their reliability and applicability in clinical settings. Integrating artificial intelligence with traditional monitoring systems has the potential to significantly enhance the precision, timeliness, and effectiveness of perioperative care. These findings suggest that AI-enhanced non-invasive monitoring could reduce unnecessary blood sampling while providing earlier detection of critical biochemical analytes disorder. Successful clinical translation requires standardized validation protocols and hardware-software co-development to address current limitations in measurement consistency and clinical workflow integration.",
+        "authors": [
+          "Xiang Li",
+          "Jizhou Wang",
+          "Xiaoqin Jiang",
+          "Na Hu",
+          "Dongxu Chen"
+        ],
+        "published_on": "2026-05-04",
+        "doi": "10.3389/fphys.2026.1794432",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42078203/",
+        "doi_url": "https://doi.org/10.3389/fphys.2026.1794432"
+      },
+      {
         "pmid": "41849820",
         "title": "Towards real-time sleep stage classification: a deep learning approach leveraging PPG and ECG.",
         "journal": "Physiological measurement",
@@ -298,48 +343,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41849820/",
         "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
-      },
-      {
-        "pmid": "42058490",
-        "title": "Performance of image-based deep learning models for aortic dissection segmentation and diagnosis: a systematic review and meta-analysis.",
-        "journal": "Frontiers in cardiovascular medicine",
-        "abstract": "OBJECTIVE: This meta-analysis was conducted to systematically evaluate the accuracy of image-based deep learning models for aortic dissection segmentation and diagnosis, aiming to provide an evidence base for developing intelligent detection tools.\n\nMETHODS: A comprehensive search was performed across the Cochrane Library, PubMed, Embase, and Web of Science to identify studies on the effectiveness of deep learning in aortic dissection segmentation or diagnosis up to November 3, 2024. Risk evaluation was carried out with the Quality Assessment of Diagnostic Accuracy Studies-2 (QUADAS-2).\n\nRESULTS: A total of 48 studies on deep learning models for aortic dissection segmentation or diagnostic tasks were included, with 28 on segmentation tasks and 20 on diagnostic tasks. For segmentation tasks, the mean Dice coefficient was 89.2% ± 4.4% for false lumen segmentation, 90.8% ± 3.4% for true lumen segmentation, and 91.7% ± 6.1% for entire aorta segmentation. For diagnostic tasks, computed tomography (CT) based deep learning showed pooled sensitivity and specificity of 0.94 [95% confidence interval (CI): 0.89-0.96] and 0.92 (95% CI: 0.88-0.95), respectively. In terms of electrocardiogram-based deep learning, the pooled sensitivity and specificity were 0.85 (95% CI: 0.79-0.89) and 0.90 (95% CI: 0.87-0.92), respectively. Regarding the computed tomography angiography (CTA) based deep learning, the pooled sensitivity and specificity were 0.94 (95% CI: 0.90-0.96) and 0.95 (95% CI: 0.91-0.98), respectively. Additionally, some studies compared the diagnostic performance of deep learning with that of clinicians. The pooled sensitivity and specificity were 0.79 (95% CI: 0.65-0.89) and 0.95 (95% CI: 0.88-0.94), respectively.\n\nCONCLUSIONS: Image-based deep learning models demonstrated high accuracy for aortic dissection segmentation and diagnosis. They performed comparably to or better than clinicians. These findings support their potential as clinical assistive tools. Future work should prioritize multicenter validation, seamless integration of these models into clinical workflows, and enhancement of model generalizability to facilitate broader clinical adoption.\n\nSYSTEMATIC REVIEW REGISTRATION: https://www.crd.york.ac.uk/PROSPERO/view/CRD42024619403, identifier CRD42024619403.",
-        "authors": [
-          "Yichen Zhao",
-          "Yuhan Zhang",
-          "Jingyi Zhang",
-          "Caiying Chen",
-          "Ping Li",
-          "Ji Li",
-          "Qiang Fu"
-        ],
-        "published_on": "2026-04-30",
-        "doi": "10.3389/fcvm.2026.1734208",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42058490/",
-        "doi_url": "https://doi.org/10.3389/fcvm.2026.1734208"
-      },
-      {
-        "pmid": "42029621",
-        "title": "Fusion of RR Interval Dynamics and HRV Multidomain Signatures Using Multimodal Neural Models for Metabolic Syndrome Classification.",
-        "journal": "Medical sciences (Basel, Switzerland)",
-        "abstract": "Background: Metabolic syndrome (MetS) leads to alterations in cardiac autonomic control that can be detected from electrocardiogram (ECG)-derived markers, particularly when the cardiovascular system is challenged during an oral glucose tolerance test (OGTT). Methods: In this paper, we present an automated framework for MetS identification using RR intervals and heart rate variability (HRV) features extracted from 12-lead ECG recordings acquired during the five OGTT stages in 40 male participants (15 with MetS, 10 controls, and 15 endurance-trained marathon runners). RR intervals were first derived using a multilead Pan-Tompkins approach with fusion-based validation. From these RR series, HRV descriptors were computed from time-domain statistics (RR mean, SDNN, rMSSD, pNN50), spectral indices (VLF, LF, HF, LF/HF), and nonlinear measures (SD1, SD2, SampEn, DFA-α1). Conventional HRV analysis revealed pronounced physiological differences between groups: MetS subjects exhibited reduced parasympathetic activity, reflected by lower rMSSD and SD1, lower HF power, and higher LF/HF ratios, whereas marathoners showed greater vagal modulation, higher HF power, and increased signal complexity. Healthy controls showed an intermediate autonomic profile. Using RR sequences and HRV descriptors (256 samples per stage), we trained three multimodal classifiers: a CNN-MLP model with a softmax output, a CNN-MLP model with an SVM head, and a CNN + LSTM-MLP + SVM architecture. Results: All models achieved strong discriminative performance, with accuracies ranging from 0.92 to 0.95, F1-macro values from 0.92 to 0.95, and macro-AUC values from 0.96 to 0.97. The CNN-MLP model achieved the best overall performance, whereas the CNN + LSTM-MLP + SVM model showed strong class discrimination, particularly for endurance athletes, while maintaining competitive recall for MetS. Conclusions: These findings support the feasibility of ECG-based autonomic assessment as a complementary non-invasive approach for early metabolic risk detection in clinical and preventive cardiometabolic screening settings.",
-        "authors": [
-          "Miguel A Mejia",
-          "Oscar J Suarez",
-          "Gilberto Perpiñan",
-          "Leiner Barba Jimenez"
-        ],
-        "published_on": "2026-04-24",
-        "doi": "10.3390/medsci14020197",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42029621/",
-        "doi_url": "https://doi.org/10.3390/medsci14020197"
       }
     ],
     "error": null,
@@ -352,6 +355,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-05T06:43:53.547180+00:00",
+  "next_refresh_at": "2026-05-06T09:10:10.390083+00:00",
   "next_push_at": null
 }
