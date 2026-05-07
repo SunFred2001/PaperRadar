@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-06T09:27:32.508561+00:00",
-  "last_success_at": "2026-05-06T09:27:33.516725+00:00",
+  "last_attempt_at": "2026-05-07T09:38:08.490502+00:00",
+  "last_success_at": "2026-05-07T09:38:09.130447+00:00",
   "count": 15,
   "papers": [
     {
@@ -53,6 +53,45 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
       "doi_url": "https://doi.org/10.1002/mrm.70299"
+    },
+    {
+      "pmid": "42091631",
+      "title": "Adaptive multimodal learning for driver cognitive state monitoring using transformer-based fusion with personalized meta-learning and federated optimization.",
+      "journal": "Scientific reports",
+      "abstract": "Road accidents caused by driver fatigue and cognitive overload remain a significant public safety concern. According to recent traffic safety data, drowsy driving contributes to thousands of fatal accidents each year, emphasizing the urgent need for intelligent driver monitoring systems. To address this, we propose an adaptive multimodal deep learning framework (AML) for real-time cognitive workload assessment and fatigue detection, leveraging the CL-Drive dataset: a multimodal repository of EEG (cognitive load), ECG (cardiac activity), EDA (electrodermal arousal), and gaze tracking (visual attention) captured from 21 participants during simulated driving across nine scenarios of escalating complexity. Our framework integrates a hybrid CNN-BiLSTM architecture to extract spatiotemporal features from raw physiological signals and gaze sequences, capturing localized spatial patterns and long-term temporal dynamics. These features are fused using a transformer-based network with cross-modal attention, which models interactions between modalities (e.g., correlating gaze fixation losses with EEG theta-band surges during distraction) and yields a 3.6 percentage-point absolute accuracy improvement over the strongest conventional fusion baseline under identical evaluation. To address individual variability and privacy, we combine personalized meta-learning-adapting to new drivers with as few as five windowed samples (∼10 s of synchronized multimodal data) via episodic fine-tuning-with federated optimization, enabling decentralized model updates and reducing per-client data transfer by 38% through adaptive gradient compression. Experiments on CL-Drive demonstrate state-of-the-art performance under strictly cross-subject evaluation. Under subject-independent 5-fold cross-validation, AML achieves [Formula: see text] accuracy on binary cognitive load classification without personalization, rising to [Formula: see text] with [Formula: see text] calibration samples (∼40 s). Under the more rigorous leave-one-subject-out (LOSO) protocol, AML reaches [Formula: see text] without personalization and [Formula: see text] with [Formula: see text] personalization, an improvement of 1.6 percentage points over the strongest published LOSO baseline on this dataset with a further 6.2-11.3 percentage points gained from personalization alone across the LOSO and 5-fold protocols. The framework exhibits robustness to real-world sensor noise (e.g., EEG/EDA motion artifacts) and achieves [Formula: see text] LOSO accuracy with only [Formula: see text] samples (∼10 s of calibration per new driver), critical for scalable in-vehicle deployment. By enabling privacy-aware, real-time monitoring of driver states, this work advances intelligent vehicle safety systems and provides a blueprint for adaptive multimodal learning in human-centric AI applications.",
+      "authors": [
+        "G Abinaya",
+        "K Dinakaran"
+      ],
+      "published_on": "2026-05-07",
+      "doi": "10.1038/s41598-026-51635-3",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091631/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-51635-3"
+    },
+    {
+      "pmid": "42091074",
+      "title": "EdgeECG: A lightweight edge-oriented network with dual criterion pruning for real-time ECG arrhythmia classification.",
+      "journal": "Physiological measurement",
+      "abstract": "OBJECTIVE: Miniature electrocardiogram (ECG) devices can rapidly and accurately acquire real-time cardiac signals, enabling timely warnings for patients with heart disease. To achieve accurate arrhythmia classification on resource-constrained ECG edge devices, we propose EdgeECG, an ultra-lightweight neural network designed for deployment on low-power microcontrollers.\n\nAPPROACH: EdgeECG is first designed with a compact convolutional architecture to ensure compatibility with resource-limited embedded platforms. A dual criterion pruning (DCP) strategy is then introduced to evaluate weight importance using both magnitude and median deviation for more precise model compression. In addition, quantization is applied to reduce storage cost and improve deployment efficiency on an STM32F103 microcontroller.\n\nMAIN RESULTS: Experimental results on the benchmark MIT-BIH arrhythmia dataset show that EdgeECG achieves an overall classification accuracy of 98.07%, outperforming several representative methods. In patient-independent record-level evaluation, the accuracy reaches 80.73%. The model contains only 2680 parameters and is successfully deployed on an STM32F103 microcontroller with 64 KB SRAM, achieving an inference latency of 0.025 s and an energy consumption of 0.156 mJ per inference. In addition, DCP reduces the number of non-zero parameters by nearly 50% while maintaining promising classification performance.\n\nSIGNIFICANCE: EdgeECG provides an effective solution for five-class ECG arrhythmia classification on severely resource-constrained edge devices. Its compact architecture, effective pruning strategy, and successful deployment on an STM32F103 demonstrate its potential for low-power edge-based ECG analysis and wearable cardiac monitoring applications. The source code of EdgeECG is publicly available at: https://github.com/jyanhuang/EdgeECG-code.",
+      "authors": [
+        "Jiayan Huang",
+        "Chuansheng Wang",
+        "Antoni Grau",
+        "Yongyi Xiao",
+        "Shaoye Luo",
+        "Yan Che",
+        "Zuoyong Li"
+      ],
+      "published_on": "2026-05-07",
+      "doi": "10.1088/1361-6579/ae696a",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091074/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/ae696a"
     },
     {
       "pmid": "42069762",
@@ -287,46 +326,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42010029/",
       "doi_url": "https://doi.org/10.1007/s13239-026-00835-z"
-    },
-    {
-      "pmid": "42078203",
-      "title": "AI-enhanced non-invasive monitoring of critical biochemical analytes in perioperative care: a review of signal processing and clinical applications.",
-      "journal": "Frontiers in physiology",
-      "abstract": "Current perioperative monitoring of critical biochemical analytes predominantly relies on intermittent arterial blood gas analysis, which carries inherent risks of invasiveness and discontinuous data acquisition. Emerging evidence suggests that variations in electrocardiogram and photoplethysmogram waveforms may hold significant predictive value for detecting critical biochemical analytes changes. Advances in artificial intelligence analysis technologies have further accelerated the development of non-invasive monitoring tools, including real-time non-invasive blood glucose monitoring for diabetic patients and blood potassium monitoring for renal dialysis patients. This review highlights the urgent clinical need for non-invasive, continuous monitoring of the critical biochemical analytes during the perioperative period. It provides a comprehensive summary of current monitoring technologies and signals related to critical biochemical analytes, with a focus on their potential application in non-invasive blood gas monitoring. Based on existing evidence, key analytes such as serum potassium, serum calcium, lactate, and blood glucose have demonstrated robust research foundations and are the primary focus of this review. However, further clinical validation is urgently required to confirm their reliability and applicability in clinical settings. Integrating artificial intelligence with traditional monitoring systems has the potential to significantly enhance the precision, timeliness, and effectiveness of perioperative care. These findings suggest that AI-enhanced non-invasive monitoring could reduce unnecessary blood sampling while providing earlier detection of critical biochemical analytes disorder. Successful clinical translation requires standardized validation protocols and hardware-software co-development to address current limitations in measurement consistency and clinical workflow integration.",
-      "authors": [
-        "Xiang Li",
-        "Jizhou Wang",
-        "Xiaoqin Jiang",
-        "Na Hu",
-        "Dongxu Chen"
-      ],
-      "published_on": "2026-05-04",
-      "doi": "10.3389/fphys.2026.1794432",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42078203/",
-      "doi_url": "https://doi.org/10.3389/fphys.2026.1794432"
-    },
-    {
-      "pmid": "41849820",
-      "title": "Towards real-time sleep stage classification: a deep learning approach leveraging PPG and ECG.",
-      "journal": "Physiological measurement",
-      "abstract": "Objective.This work aims to enable adaptive consumer sleep technologies (CSTs) for sleep intervention by developing a deep learning model for sleep stage classification using wearable sensor data.Approach.We propose an end-to-end deep learning approach leveraging Photoplethysmography (PPG) signals, commonly available in CSTs. Model performance is improved by pretraining with electrocardiography (ECG) from the large-scale multi-ethnic study of atherosclerosis dataset datasets. Training and evaluation are conducted with the Dataset for Real-time sleep stage EstimAtion using Multisensor wearable Technology and an additional dataset comprising of 13 participants (aged 22-71 years) without prior known sleep disorders. The dataset contains combined synchronized polysomnography (PSG) and Empatica E4 wearable data, annotated with American Academy of Sleep Medicine (AASM) sleep stages.Main results.The proposed method demonstrates sleep stage classification from minimally processed PPG signals for real-time intervention. While ECG-trained models are not directly transferable to PPG, fine-tuning significantly improves performance, achieving up to a 29% increase in multi-stage classification accuracy.Conclusion.Pretraining with ECG and fine-tuning with PPG increases sleep stage classification for end-to-end deep learning models, exceeding previous efforts particularly in 3-stage sleep classification.Significance.This work contributes to sleep health by developing a sleep stage classification model for minimally processed PPG sensor data and takes a step further towards making adaptive CSTs feasible for use with wearable sensors.",
-      "authors": [
-        "Shagen Djanian",
-        "Thomas Dyhre Nielsen",
-        "Søren H Nielsen",
-        "Anders Bruun"
-      ],
-      "published_on": "2026-03-19",
-      "doi": "10.1088/1361-6579/ae5458",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41849820/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/ae5458"
     }
   ],
   "error": null,
