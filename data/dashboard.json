@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-07T09:38:08.490502+00:00",
-    "last_success_at": "2026-05-07T09:38:09.130447+00:00",
+    "last_attempt_at": "2026-05-08T09:44:16.978396+00:00",
+    "last_success_at": "2026-05-08T09:44:17.471857+00:00",
     "count": 15,
     "papers": [
       {
@@ -168,6 +168,32 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41404494/",
         "doi_url": "https://doi.org/10.1016/j.nbscr.2025.100140"
+      },
+      {
+        "pmid": "41196785",
+        "title": "PathFusion-Net: A Rough Path Theory-Based Deep Learning Model for ECG Arrhythmia Classification.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "This study introduces a novel electrocardiogram (ECG) arrhythmia classification model, PathFusion-Net, which integrates Rough Path Theory with deep learning technologies. The model combines Convolutional Neural Networks (CNN), Long Short-Term Memory (LSTM), Path Signatures, and Path Development to extract spatial morphological features from ECG images and multi-order temporal representations from ECG signals. By adopting an inter-patient split paradigm, our approach more closely reflects real-world clinical diagnostic settings compared to intra-patient methods. The model demonstrates state-of-the-art overall classification performance on both the MIT-BIH Arrhythmia Database and a private clinical dataset, achieving 94.7% and 95.1% accuracy, respectively, under the AAMI four-class standard with an inter-patient split paradigm. On the MIT-BIH dataset, the proposed method attains competitive precision and recall across multiple arrhythmia types, including 95.2% /87.9% for ventricular ectopic beats (V) and 75.7% /92.3% for supraventricular ectopic beats (S), indicating balanced performance across clinically diverse categories. This research highlights the potential of Rough Path Theory in time-series analysis and offers a novel deep learning framework for automated early detection and monitoring of ECG arrhythmias. The code used in this study is available at: https://github.com/Rand2AI/PathFusion-Net.",
+        "authors": [
+          "Tianlong Feng",
+          "Qingchen Li",
+          "Yuanyuan Zhang",
+          "Yongzhi Liao",
+          "Di Lu",
+          "Liping Wang",
+          "Jianqin Zhao",
+          "Lei Jiang",
+          "Hao Ni",
+          "Hongying Liu",
+          "Jingjing Deng"
+        ],
+        "published_on": "2025-11-06",
+        "doi": "10.1109/JBHI.2025.3629717",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41196785/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2025.3629717"
       },
       {
         "pmid": "42062911",
@@ -323,25 +349,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
         "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
-      },
-      {
-        "pmid": "42010029",
-        "title": "Personalized Deep Networks for Enhanced ECG Segmentation.",
-        "journal": "Cardiovascular engineering and technology",
-        "abstract": "Electrocardiography (ECG) plays a vital role in the diagnosis of cardiovascular diseases by analyzing the electrical activity of the heart. ECG semantic segmentation is a subfield focused on sample-wise delineation of ECG waveforms by assigning a physiological label to each time sample, enabling explicit estimation of clinically meaningful onset and offset boundaries. Recent advancements in deep learning have significantly improved ECG classification accuracy; however, the same has not yet been observed in automatic ECG segmentation. Existing models often lack explainability and adaptability to patient-specific variations, thereby reducing their generalizability. This study proposes a personalized deep neural network approach for enhanced ECG processing. This method incorporates convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) networks, incorporating an attention mechanism to refine segmentation accuracy. A novel loss function is introduced to ensure smoother temporal transitions and better classification accuracy. The model was evaluated using the QT Database, demonstrating substantial improvements in P-wave and QRS delineation and in T-wave offset localization segmentation when fine-tuned for individual patients when fine-tuned and evaluated on held-out data from the same patient, demonstrating the benefit of intra-patient adaptation. Our results indicate that personalization improves delineation accuracy for challenging waveforms (notably P and T waves), supporting the potential of deep learning to better capture patient-specific morphology and providing a stronger basis for waveform-level, clinically interpretable ECG analysis.",
-        "authors": [
-          "Maylon Pereira Folli",
-          "Gabriel Tozatto Zago",
-          "Stephanie Rezende Alvarenga Moulin Mares",
-          "Rodrigo Varejão Andreão"
-        ],
-        "published_on": "2026-04-21",
-        "doi": "10.1007/s13239-026-00835-z",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42010029/",
-        "doi_url": "https://doi.org/10.1007/s13239-026-00835-z"
       }
     ],
     "error": null,
@@ -354,6 +361,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-08T09:38:09.130447+00:00",
+  "next_refresh_at": "2026-05-09T09:44:17.471857+00:00",
   "next_push_at": null
 }
