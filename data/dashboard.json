@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-09T10:10:41.794655+00:00",
-    "last_success_at": "2026-05-09T10:10:42.888878+00:00",
+    "last_attempt_at": "2026-05-10T10:18:40.132986+00:00",
+    "last_success_at": "2026-05-10T10:18:41.095759+00:00",
     "count": 15,
     "papers": [
       {
@@ -196,6 +196,25 @@
         "doi_url": "https://doi.org/10.1109/JBHI.2025.3629717"
       },
       {
+        "pmid": "39883911",
+        "title": "A comparative analysis of CNNs and LSTMs for ECG-based diagnosis of arrythmia and congestive heart failure.",
+        "journal": "Computer methods in biomechanics and biomedical engineering",
+        "abstract": "Cardiac arrhythmias are major global health concern and their early detection is critical for diagnosis. This study comprehensively evaluates the effectiveness of CNNs and LSTMs for the classification of cardiac arrhythmias, considering three PhysioNet datasets. ECG records are segmented to accommodate around ∼10s of ECG data. Followed by transformation to scalograms using DWT for training VGG-16; and WTS for feature extraction and dimensionality reduction for training LSTM network. VGG-16 achieved 96.44% test accuracy while LSTM achieved 92%. Results also highlight the effectiveness of VGG-16 for short-duration ECG analysis, while LSTM excels in long-term monitoring on edge devices for personalized healthcare.",
+        "authors": [
+          "Nitish Katal",
+          "Hitendra Garg",
+          "Bhisham Sharma"
+        ],
+        "published_on": "2025-01-30",
+        "doi": "10.1080/10255842.2025.2456487",
+        "publication_types": [
+          "Journal Article",
+          "Comparative Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39883911/",
+        "doi_url": "https://doi.org/10.1080/10255842.2025.2456487"
+      },
+      {
         "pmid": "42062911",
         "title": "Empowering atrial fibrillation detection with TabPFN and SHAP interpretation based on ECG-derived features: a dual-center temporal validation study.",
         "journal": "BMC cardiovascular disorders",
@@ -330,25 +349,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42024548/",
         "doi_url": "https://doi.org/10.2196/82475"
-      },
-      {
-        "pmid": "42035615",
-        "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
-        "authors": [
-          "Yusen Wu",
-          "Jinde Zhu",
-          "Junhao Yuan",
-          "Kaiqiang Huang"
-        ],
-        "published_on": "2026-04-27",
-        "doi": "10.1016/j.compbiolchem.2026.108991",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
       }
     ],
     "error": null,
@@ -361,6 +361,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-10T10:10:42.888878+00:00",
+  "next_refresh_at": "2026-05-11T10:18:41.095759+00:00",
   "next_push_at": null
 }
