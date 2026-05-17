@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-16T13:42:52.258232+00:00",
-    "last_success_at": "2026-05-16T13:42:52.589124+00:00",
+    "last_attempt_at": "2026-05-17T15:00:43.727223+00:00",
+    "last_success_at": "2026-05-17T15:00:44.186623+00:00",
     "count": 15,
     "papers": [
       {
@@ -68,6 +68,44 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41884351/",
         "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
+      },
+      {
+        "pmid": "42143257",
+        "title": "A multitask Transformer-VAE framework for robust PPG denoising and atrial fibrillation screening.",
+        "journal": "BMC medical imaging",
+        "abstract": "BACKGROUND: Photoplethysmography (PPG) is a noninvasive biosignal widely used for atrial fibrillation (AF) screening via wearable devices. However, reliable PPG-based detection remains challenging because motion artifacts, noise contamination, and intersubject variability distort waveform morphology and compromise diagnostic consistency.\n\nMETHODS: We propose an end-to-end dual-task model that denoises PPG signals and detects AF simultaneously. The model uses a transformer-based encoder with two task branches and an additional lightweight alignment constraint to encourage the two tasks to learn consistent representations under motion artifacts. We trained and evaluated the framework on public PPG datasets, including an internal cohort of 30,773 segments from 91 patients and an external dataset derived from the MIMIC-III waveform database. Performance was evaluated via the AUC and accuracy, together with robustness tests across different noise conditions. We also applied an A-Test procedure that repeats balanced k-fold validation with different k values to assess error stability across data splits.\n\nRESULTS: The proposed model achieved an AUC of 0.9097 and an accuracy of 88.4%, outperforming conventional convolutional and single-task baselines. Robustness experiments demonstrated stable performance across varying signal‒to‒noise ratios. The dual-task architecture preserved physiologically relevant rhythm features, including heart rate variability. A-Test evaluation indicated stable error behavior across data splits, suggesting reduced partition sensitivity and improved learning consistency.\n\nCONCLUSIONS: This Transformer-VAE framework integrates signal reconstruction and diagnostic learning to enable accurate and noise-resilient AF detection from PPG signals. Within a healthcare workflow, the model supports wearable screening by generating AF risk indicators and signal-quality cues that can trigger confirmatory single-lead ECG assessment and appropriate clinical follow-up.\n\nTRIAL REGISTRATION: Not applicable.",
+        "authors": [
+          "Lingyu Zhang",
+          "Lin Yuan"
+        ],
+        "published_on": "2026-05-17",
+        "doi": "10.1186/s12880-026-02399-9",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42143257/",
+        "doi_url": "https://doi.org/10.1186/s12880-026-02399-9"
+      },
+      {
+        "pmid": "42142808",
+        "title": "Artificial intelligence in the differential diagnosis of hypertrophic cardiomyopathy and physiological hypertrophy: a scoping review.",
+        "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologike epitheorese",
+        "abstract": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is the most common inherited myocardial disorder and a major cause of sudden cardiac death in young adults and competitive athletes. Distinguishing HCM from exercise-induced physiological hypertrophy is clinically critical, particularly within the diagnostic \"grey zone\" where morphological and functional parameters overlap. Artificial intelligence (AI), including machine learning (ML) and deep learning (DL), has emerged as a methodological framework for extracting latent diagnostic information from complex cardiovascular datasets. However, the extent of its validated application in differentiating HCM from athlete's heart remains unclear.\n\nMETHODS: A scoping review was conducted according to the Arksey and O'Malley methodology and PRISMA-ScR guidelines. Four electronic databases (PubMed, Scopus, Web of Science, IEEE Xplore) were searched (up to October 2025) for primary studies employing AI/ML to discriminate HCM from physiological or other etiologies of left ventricular hypertrophy. Inclusion criteria required confirmed HCM populations, use of AI analytical methods, and reporting of diagnostic performance metrics. Data extraction focused on population source, data modality, model architecture, performance indices, and presence of athlete-specific cohorts.\n\nRESULTS: Eight studies met the inclusion criteria. Only one directly compared HCM with athlete's heart, employing deformation-derived echocardiographic parameters and Support Vector Machine classification (AUC 0.93). The remaining studies examined HCM versus hypertensive or non-pathological hypertrophy using ECG-, echocardiography-, radiomics-, or video-based AI analysis, demonstrating AUC values between 0.89 and 0.96. No recent athlete-specific datasets were identified.\n\nCONCLUSIONS: AI shows strong potential to enhance the differential diagnosis of HCM through advanced imaging and ECG pattern analysis. However, the paucity of athlete-derived datasets and limited external validation significantly constrain clinical applicability in sports cardiology. Future research should prioritise explainable, multimodal models and dedicated athlete cohorts.",
+        "authors": [
+          "Asterios Deligiannis",
+          "Georgios Bobotis",
+          "Pantazis Deligiannis",
+          "Maria Anifanti",
+          "Evangelia Kouidi"
+        ],
+        "published_on": "2026-05-17",
+        "doi": "10.1016/j.hjc.2026.05.001",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42142808/",
+        "doi_url": "https://doi.org/10.1016/j.hjc.2026.05.001"
       },
       {
         "pmid": "42113654",
@@ -301,45 +339,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060434/",
         "doi_url": "https://doi.org/10.1109/TBME.2026.3688416"
-      },
-      {
-        "pmid": "42045241",
-        "title": "A self-supervised electrocardiogram foundation model for empowering cardiovascular disease prediction and genetic factor discovery.",
-        "journal": "Nature communications",
-        "abstract": "Electrocardiogram (ECG) has been widely used in the diagnosis of cardiovascular disease (CVD). Current deep learning methods for CVD prediction using ECG often lack generalizability and interpretability, resulting in limited performance. Here, we have developed a self-supervised Electrocardiogram Large-scale Foundation Model (ECG-LFM) through pre-training over ten million 12-lead ECGs from multiple ECG datasets. To enhance ECG representation, ECG-LFM integrates contrastive learning with masked language modeling in a self-supervised manner, enabling the model to capture both global contextual information and fine-grained patterns within ECG signals. It was fine-tuned to predict eight types of CVDs and achieved an average area under the receiver operating characteristic curve (AUROC) of 0.930 from multiple datasets, which demonstrates improved performance compared to existing methods. The important ECG-LFM derived features (EDFs) are able to represent known CVD biomarkers, indicating the high interpretability of ECG-LFM. Applications of the EDFs in genome-wide association study identified 24 significant single nucleotide polymorphisms (SNPs) (P-value < 5×10-8, LD r2 < 0.01) associated with ECG, including 8 novel findings. The genetic causal effects of EDFs on the CVDs were evaluated by Mendelian randomization, indicating 2 CVDs and 4 EDFs having causal relationships. Overall, ECG-LFM provides accurate prediction for CVDs and novel genetic insights for ECG.",
-        "authors": [
-          "Siying Lin",
-          "Zhaoqi Li",
-          "Qifan Wu",
-          "Yifeng Chen",
-          "Yuedong Yang",
-          "Huiying Zhao"
-        ],
-        "published_on": "2026-04-28",
-        "doi": "10.1038/s41467-026-72436-2",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42045241/",
-        "doi_url": "https://doi.org/10.1038/s41467-026-72436-2"
-      },
-      {
-        "pmid": "42034690",
-        "title": "Enhancing biomedical signals through genetic algorithm optimized Exponentiated transmuted weibull denoising techniques.",
-        "journal": "Scientific reports",
-        "abstract": "Biomedical signals are frequently corrupted by physiological and environmental noise, which obscures diagnostically relevant features and complicates clinical interpretation. This study introduces a denoising framework that integrates the Exponentiated Transmuted Weibull Distribution (ETWD) with Independent Component Analysis (ICA) to model complex, non-Gaussian noise patterns. The ETWD’s tri-parametric structure [Formula: see text] generalizes eleven classical distributions, enabling data-driven adaptability beyond conventional heavy-tailed models. A novel score function derived from ETWD is embedded within the FastICA algorithm, with parameters optimized via a Genetic Algorithm (GA). Sparsity constraints in the wavelet domain are applied to preserve transient signal features while suppressing noise. The framework is evaluated on electroencephalogram (EEG), electrocardiogram (ECG), and medical imaging datasets using standardized protocols with 70/30 development/test splits and 10 independent runs. Results demonstrate statistically significant improvements over conventional methods (Gauss, Pow3, Skew, Tanh). For EEG, Sparse ETWD achieved SNR of 7.77 ± 0.07 dB ([Formula: see text]) and improved epileptic spike detection accuracy from 71% to 94%. For ECG, ETWD achieved SNR of 21.34 ± 0.12 dB ([Formula: see text]) and improved R-peak detection F1-score from 0.89 to 0.97. For medical images, after correcting the evaluation protocol for normalized data (PSNR = [Formula: see text]), ETWD achieved 32.01 dB under Gaussian noise, outperforming baselines across speckle (29.84 dB) and Rician noise (30.92 dB). Cross-dataset validation confirmed robustness within each modality, and comparison with a convolutional autoencoder under identical conditions showed competitive or superior performance without requiring training data. The framework offers a training-free, computationally efficient alternative to deep learning methods, and its application led to improved performance in downstream tasks such as R-peak and spike detection.",
-        "authors": [
-          "M A Sayedelahl",
-          "R M Farouk",
-          "A M Adam"
-        ],
-        "published_on": "2026-04-26",
-        "doi": "10.1038/s41598-026-46088-7",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42034690/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-46088-7"
       }
     ],
     "error": null,
@@ -352,6 +351,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-17T13:42:52.589124+00:00",
+  "next_refresh_at": "2026-05-18T15:00:44.186623+00:00",
   "next_push_at": null
 }
