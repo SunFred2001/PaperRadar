@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-18T16:28:39.503194+00:00",
-    "last_success_at": "2026-05-18T16:28:40.361953+00:00",
+    "last_attempt_at": "2026-05-19T19:04:46.118710+00:00",
+    "last_success_at": "2026-05-19T19:04:46.770279+00:00",
     "count": 15,
     "papers": [
       {
@@ -70,6 +70,47 @@
         "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
       },
       {
+        "pmid": "42152834",
+        "title": "Towards seamless myocardial infarction and cardiac rhythm detection: a deep learning approach with automated paper-electrocardiogram digitisation.",
+        "journal": "Indian journal of thoracic and cardiovascular surgery",
+        "abstract": "PURPOSE: In India, myocardial infarction (MI) is a significant cause of mortality related to cardiovascular diseases. Timely diagnosis is critical for addressing this issue. While prior studies have concentrated on digital electrocardiogram (ECG) data, the presence of noise and artifacts in paper electrocardiogram is not well addressed in the literature. So, it is important to incorporate a more diverse range of data to understand the intricacies involved in MI diagnosis comprehensively.\n\nMETHODS: This paper proposes an approach for MI and non-MI classification and cardiac rhythm classification using ECG. Modified versions of GoogleNet-Gated Recurrent Unit (GRU) and ResNet50- Bidirectional Long Short-Term Memory (BiLSTM) models were utilized for MI/non-MI and cardiac rhythm classification, respectively. Three different datasets (PTB-XL (dataset 1), ECG images of cardiac patients' data samples (dataset 2), and hospital paper ECG (dataset 3) were used for training the datasets, and final testing was done on digitized hospital paper ECG.\n\nRESULTS: The proposed model achieved 88.8% accuracy on the PTB-XL dataset for MI/non-MI classification but showed performance disparity on dataset 3 test data. After a training-retraining process on datasets 2 and 3 and testing on dataset 3 test data, the model showed an accuracy of 92.50% with a balanced performance. For five-class cardiac rhythm classification, the proposed model attained 93.50% accuracy.\n\nCONCLUSION: Retraining models on diverse datasets enhances generalization to real-world scenarios. The study's findings emphasize the importance of incorporating various data sources to improve model robustness and reliability in clinical applications. The developed application facilitates the seamless integration of digitization and classification processes for enhanced diagnostic accuracy.",
+        "authors": [
+          "Ravina Pramod Rai",
+          "Praveen Ashok Kumar",
+          "Mullasari Ajit Sankaradas",
+          "Ramarathnam Krishna Kumar"
+        ],
+        "published_on": "2026-05-19",
+        "doi": "10.1007/s12055-025-02140-1",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
+        "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+      },
+      {
+        "pmid": "42091074",
+        "title": "EdgeECG: a lightweight edge-oriented network with dual criterion pruning for real-time ECG arrhythmia classification.",
+        "journal": "Physiological measurement",
+        "abstract": "Objective.Miniature electrocardiogram (ECG) devices can rapidly and accurately acquire real-time cardiac signals, enabling timely warnings for patients with heart disease. To achieve accurate arrhythmia classification on resource-constrained ECG edge devices, we propose EdgeECG, an ultra-lightweight neural network designed for deployment on low-power microcontrollers.Approach.EdgeECG is first designed with a compact convolutional architecture to ensure compatibility with resource-limited embedded platforms. A dual criterion pruning (DCP) strategy is then introduced to evaluate weight importance using both magnitude and median deviation for more precise model compression. In addition, quantization is applied to reduce storage cost and improve deployment efficiency on an STM32F103 microcontroller.Main results.Experimental results on the benchmark MIT-BIH arrhythmia dataset show that EdgeECG achieves an overall classification accuracy of 98.07%, outperforming several representative methods. In patient-independent record-level evaluation, the accuracy reaches 80.73%. The model contains only 2680 parameters and is successfully deployed on an STM32F103 microcontroller with 64 KB SRAM, achieving an inference latency of 0.025 s and an energy consumption of 0.156 mJ per inference. In addition, DCP reduces the number of non-zero parameters by nearly 50% while maintaining promising classification performance.Significance.EdgeECG provides an effective solution for five-class ECG arrhythmia classification on severely resource-constrained edge devices. Its compact architecture, effective pruning strategy, and successful deployment on an STM32F103 demonstrate its potential for low-power edge-based ECG analysis and wearable cardiac monitoring applications. The source code of EdgeECG is publicly available at:https://github.com/jyanhuang/EdgeECG-code.",
+        "authors": [
+          "Jiayan Huang",
+          "Chuansheng Wang",
+          "Antoni Grau",
+          "Yongyi Xiao",
+          "Shaoye Luo",
+          "Yan Che",
+          "Zuoyong Li"
+        ],
+        "published_on": "2026-05-07",
+        "doi": "10.1088/1361-6579/ae696a",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091074/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/ae696a"
+      },
+      {
         "pmid": "42143257",
         "title": "A multitask Transformer-VAE framework for robust PPG denoising and atrial fibrillation screening.",
         "journal": "BMC medical imaging",
@@ -108,6 +149,25 @@
         "doi_url": "https://doi.org/10.1016/j.hjc.2026.05.001"
       },
       {
+        "pmid": "42150097",
+        "title": "Machine Learning in Nonischemic Cardiomyopathy: Phenotyping, Mechanism Discovery, and Clinical Applications.",
+        "journal": "Cardiology in review",
+        "abstract": "Nonischemic cardiomyopathy (NICM) refers to a heterogeneous group of myocardial disorders whose shared phenotypes complicate diagnosis and risk stratification. This complexity has driven growing interest in computational approaches that can integrate high-dimensional data and capture patterns not evident through conventional analyses. In this review, we synthesize studies, published between 2020 and 2026, that apply machine learning and deep learning models to NICMs across 3 interconnected domains: phenotype classification, mechanism discovery, and clinical decision support. We find that imaging and electrocardiography-based models help improve subtype discrimination, arrhythmia detection, and early disease identification; genomic and multiomics approaches advance variant interpretation and biomarker discovery; and emerging multimodal frameworks extend these efforts toward outcome prediction and individualized management. Challenges remain in generalizability, interpretability, and prospective validation, as well as in integrating modalities into patient-level risk models. Continued development of multimodal and longitudinal approaches will be essential for translating these advances into precision care for NICM.",
+        "authors": [
+          "Kwaku Quansah",
+          "Emma Anderson",
+          "Esther Kwon",
+          "Chulan Kwon"
+        ],
+        "published_on": "2026-05-18",
+        "doi": "10.1097/CRD.0000000000001281",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42150097/",
+        "doi_url": "https://doi.org/10.1097/CRD.0000000000001281"
+      },
+      {
         "pmid": "42113654",
         "title": "Stacking Deep Neural Networks to Detect Multiple Types of Cardiac Arrhythmias.",
         "journal": "IEEE journal of biomedical and health informatics",
@@ -143,28 +203,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091631/",
         "doi_url": "https://doi.org/10.1038/s41598-026-51635-3"
-      },
-      {
-        "pmid": "42091074",
-        "title": "EdgeECG: A lightweight edge-oriented network with dual criterion pruning for real-time ECG arrhythmia classification.",
-        "journal": "Physiological measurement",
-        "abstract": "OBJECTIVE: Miniature electrocardiogram (ECG) devices can rapidly and accurately acquire real-time cardiac signals, enabling timely warnings for patients with heart disease. To achieve accurate arrhythmia classification on resource-constrained ECG edge devices, we propose EdgeECG, an ultra-lightweight neural network designed for deployment on low-power microcontrollers.\n\nAPPROACH: EdgeECG is first designed with a compact convolutional architecture to ensure compatibility with resource-limited embedded platforms. A dual criterion pruning (DCP) strategy is then introduced to evaluate weight importance using both magnitude and median deviation for more precise model compression. In addition, quantization is applied to reduce storage cost and improve deployment efficiency on an STM32F103 microcontroller.\n\nMAIN RESULTS: Experimental results on the benchmark MIT-BIH arrhythmia dataset show that EdgeECG achieves an overall classification accuracy of 98.07%, outperforming several representative methods. In patient-independent record-level evaluation, the accuracy reaches 80.73%. The model contains only 2680 parameters and is successfully deployed on an STM32F103 microcontroller with 64 KB SRAM, achieving an inference latency of 0.025 s and an energy consumption of 0.156 mJ per inference. In addition, DCP reduces the number of non-zero parameters by nearly 50% while maintaining promising classification performance.\n\nSIGNIFICANCE: EdgeECG provides an effective solution for five-class ECG arrhythmia classification on severely resource-constrained edge devices. Its compact architecture, effective pruning strategy, and successful deployment on an STM32F103 demonstrate its potential for low-power edge-based ECG analysis and wearable cardiac monitoring applications. The source code of EdgeECG is publicly available at: https://github.com/jyanhuang/EdgeECG-code.",
-        "authors": [
-          "Jiayan Huang",
-          "Chuansheng Wang",
-          "Antoni Grau",
-          "Yongyi Xiao",
-          "Shaoye Luo",
-          "Yan Che",
-          "Zuoyong Li"
-        ],
-        "published_on": "2026-05-07",
-        "doi": "10.1088/1361-6579/ae696a",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091074/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/ae696a"
       },
       {
         "pmid": "42069762",
@@ -292,53 +330,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42062911/",
         "doi_url": "https://doi.org/10.1186/s12872-026-05936-0"
-      },
-      {
-        "pmid": "42060654",
-        "title": "Exploratory association between multimodal AI-derived digital biomarkers and in-hospital mortality in adult patients with pneumonia: A proof-of-concept study.",
-        "journal": "PLOS digital health",
-        "abstract": "Pneumonia remains a leading cause of in-hospital mortality worldwide. Current prognostic tools such as the IDSA/ATS severity score have meaningful limitations, particularly in capturing dynamic disease progression or integrating heterogeneous biological signals. Artificial intelligence (AI) offers the opportunity to derive complementary prognostic information from routinely collected electronic health record data. This exploratory, proof-of-concept retrospective study enrolled adults (≥18 years) admitted with a primary diagnosis of acute pneumonia at Hospital Alma Máter de Antioquia (Medellín, Colombia) between January 1 and June 30, 2024. After applying pre-defined exclusion criteria, 121 patients (19 non-survivors, 15.7%) comprised the final analytic cohort. Three independent AI modules were applied: (i) a ResNet-18 deep learning model quantified lung consolidation from chest radiographs (CXRs) using Class Activation Mapping; (ii) a Spanish regular-expression natural language processing (NLP) pipeline extracted modified IDSA/ATS severity scores from clinical notes; and (iii) NeuroKit2-based quantitative heart rate variability (HRV) analysis processed electrocardiogram (ECG) signals digitised from PDF archives. Bivariate associations with all-cause in-hospital mortality were examined using logistic regression. Several features exhibited statistically significant associations with mortality under conventional thresholds: AI-quantified total lung compromise ratio (OR 8.32, 95% CI 1.23-56.29), NLP-derived IDSA/ATS severity score (OR 1.78, 95% CI 1.09-2.88), and a coherent ECG/HRV profile characterised by higher heart rate (120.1 vs. 84.4 bpm, p = 0.023), reduced RMSSD (4.1 vs. 23.5 ms, p = 0.041), reduced Poincaré SD1 (3.0 vs. 17.6 ms, p = 0.041), and T-wave amplitude reductions surviving FDR correction in multiple leads. Given the small sample size and low event count (n = 19; events-per-variable ≈ 4), all associations are preliminary and hypothesis-generating only. These proof-of-concept findings suggest that integrated multimodal AI biomarkers automatically derived from low-resource clinical data can capture a cardiopulmonary stress profile associated with pneumonia mortality, and support the design of larger prospective validation studies.",
-        "authors": [
-          "Alejandro Hernández-Arango",
-          "Daniel Mejía Arrieta",
-          "Christian Andrés Díaz León",
-          "Juan G Paniagua Castrillon",
-          "Julián Rondón-Carvajal",
-          "Melissa Alejandra Acosta",
-          "David Restrepo",
-          "Wayner Barrios",
-          "Santiago Álvarez-López",
-          "Jesús Francisco Vargas-Bonilla",
-          "Hernán Felipe García Arias",
-          "José Julián Garcés Echeverri",
-          "Carlos Salazar-Martínez",
-          "Olga Lucia Quintero Montoya"
-        ],
-        "published_on": "2026-04-30",
-        "doi": "10.1371/journal.pdig.0000960",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060654/",
-        "doi_url": "https://doi.org/10.1371/journal.pdig.0000960"
-      },
-      {
-        "pmid": "42060434",
-        "title": "EMBC Special Issue: Neural Style Transfer-Based Denoising of Seismocardiogram Signals Under Dynamic Conditions.",
-        "journal": "IEEE transactions on bio-medical engineering",
-        "abstract": "Seismocardiogram (SCG) signals capture the mechanical dynamics of cardiac activity, but their clinical utility is severely limited by motion artifacts during ambulatory monitoring. To overcome this challenge, we propose a neural style transfer (NST)-based denoising framework that converts motion-contaminated SCG recordings into morphology-preserving, rest-like representations. Our method leverages time-frequency spectrograms obtained from continuous wavelet transforms and a pre-trained convolutional neural network (VGG19) to suppress exercise-induced distortions while maintaining physiologically relevant timing and morphology. Across 20 participants, the proposed approach substantially enhanced signal fidelity, improving signal-to-noise ratio and peak signal-to-noise ratio by 176.7% and 152.1%, respectively, and reducing mean squared error and mean absolute error by 95.1% and 83.6%. Structural similarity increased by 70.3%, and correlation with the resting reference more than doubled. Heart rate estimated from denoised signals showed excellent agreement with electrocardiogram measurements, yielding an average error of only 0.89 beats per minute (0.73%). Furthermore, comparative evaluation demonstrated that the proposed restyling and denoising approach consistently outperformed state-of-the-art denoising techniques-including empirical mode decomposition variants, variational mode decomposition, Savitzky-Golay filtering, moving-average filtering, and wavelet-based reconstruction-achieving the lowest heart rate estimation error (0.89 bpm RMSE). Additionally, a controlled simulation confirmed the framework's restyling capability under known ground-truth conditions, yielding a heart rate estimation error of only 0.15 bpm relative to the true reference. These results demonstrate that neural style transfer enables physiology-consistent reconstruction of cardiac mechanical signals in dynamic conditions and represents a highly promising direction toward motion-resilient wearable cardiac monitoring.",
-        "authors": [
-          "Dunya Moradi",
-          "Berke Kizir",
-          "Beren Semiz"
-        ],
-        "published_on": "2026-04-30",
-        "doi": "10.1109/TBME.2026.3688416",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060434/",
-        "doi_url": "https://doi.org/10.1109/TBME.2026.3688416"
       }
     ],
     "error": null,
@@ -351,6 +342,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-19T16:28:40.361953+00:00",
+  "next_refresh_at": "2026-05-20T19:04:46.770279+00:00",
   "next_push_at": null
 }
