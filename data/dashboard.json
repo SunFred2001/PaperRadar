@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-19T19:04:46.118710+00:00",
-    "last_success_at": "2026-05-19T19:04:46.770279+00:00",
+    "last_attempt_at": "2026-05-20T19:29:13.798867+00:00",
+    "last_success_at": "2026-05-20T19:29:14.421278+00:00",
     "count": 15,
     "papers": [
       {
@@ -168,6 +168,28 @@
         "doi_url": "https://doi.org/10.1097/CRD.0000000000001281"
       },
       {
+        "pmid": "42155349",
+        "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
+        "journal": "Computer methods and programs in biomedicine",
+        "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
+        "authors": [
+          "Arkadiusz Czerwinski",
+          "Damian Kucharski",
+          "Jacek Kawa",
+          "Yalin Zheng",
+          "Gregory Y H Lip",
+          "Jakub Nalepa",
+          "Agata M Wijata"
+        ],
+        "published_on": "2026-05-20",
+        "doi": "10.1016/j.cmpb.2026.109428",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
+        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
         "pmid": "42113654",
         "title": "Stacking Deep Neural Networks to Detect Multiple Types of Cardiac Arrhythmias.",
         "journal": "IEEE journal of biomedical and health informatics",
@@ -308,28 +330,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39883911/",
         "doi_url": "https://doi.org/10.1080/10255842.2025.2456487"
-      },
-      {
-        "pmid": "42062911",
-        "title": "Empowering atrial fibrillation detection with TabPFN and SHAP interpretation based on ECG-derived features: a dual-center temporal validation study.",
-        "journal": "BMC cardiovascular disorders",
-        "abstract": "Atrial fibrillation (AF) remains a leading driver of stroke and heart failure, yet timely diagnosis is frequently hindered by its asymptomatic nature and the limitations of current screening methods. This study aimed to develop and validate a highly accurate, interpretable, and scalable machine learning (ML) framework-TabPFN-for AF detection using standard 12-lead electrocardiogram (ECG)-derived features. To this end, we conducted a dual-center temporal validation study utilizing 248,324 ECG records across three distinct datasets: an internal cohort (n = 220,327), an external validation cohort (n = 6,181), and a temporal validation cohort (n = 21,816). The TabPFN model was trained on 12 clinical ECG features, such as PR interval, Paxis, and QTc, and compared against eight other ML architectures, including ensemble learning and neural networks. Model interpretability was established using SHAP (SHapley Additive exPlanations) to quantify feature contributions, and the framework was deployed via a web-based clinical interface. Results indicated that the TabPFN model demonstrated superior diagnostic efficacy, achieving an area under the receiver operating characteristic curve (AUROC) of 0.9711 in the internal cohort, 0.9797 in the external cohort, and 0.9766 in the temporal validation cohort. It outperformed traditional logistic regression (AUC 0.8687) and maintained a remarkably low Brier score (0.0474), indicating excellent calibration. Furthermore, SHAP analysis identified the PR interval and Paxis as the primary diagnostic drivers, revealing non-linear associations and physiological \"inflection points\" for AF presence, while decision curve analysis confirmed a high net benefit for clinical screening across all cohorts. In conclusion, by leveraging a Prior-Data Fitted approach (TabPFN) on standardized ECG features, we established a robust framework that matches the performance of complex deep-learning models while maintaining high interpretability and computational efficiency. This scalable tool, accessible via a web-based platform, bridges the gap between \"black-box\" AI and clinical practice, offering a practical solution for population-wide AF screening and the reduction of cardiovascular morbidity.",
-        "authors": [
-          "Mingming Chen",
-          "Tenglong Li",
-          "Zihan Wang",
-          "Xiaojue Fan",
-          "Haoming Xu",
-          "Yafeng Zhou",
-          "Min Hu"
-        ],
-        "published_on": "2026-05-01",
-        "doi": "10.1186/s12872-026-05936-0",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42062911/",
-        "doi_url": "https://doi.org/10.1186/s12872-026-05936-0"
       }
     ],
     "error": null,
@@ -342,6 +342,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-20T19:04:46.770279+00:00",
+  "next_refresh_at": "2026-05-21T19:29:14.421278+00:00",
   "next_push_at": null
 }
