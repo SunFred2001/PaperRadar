@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-20T19:29:13.798867+00:00",
-  "last_success_at": "2026-05-20T19:29:14.421278+00:00",
+  "last_attempt_at": "2026-05-21T20:52:14.856979+00:00",
+  "last_success_at": "2026-05-21T20:52:15.229511+00:00",
   "count": 15,
   "papers": [
     {
@@ -54,6 +54,29 @@
       "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
     },
     {
+      "pmid": "42164459",
+      "title": "The Rlign algorithm for enhanced electrocardiogram analysis through heart rate-corrected ECG alignment for explainable classification and clustering.",
+      "journal": "European heart journal. Digital health",
+      "abstract": "AIMS: Electrocardiogram (ECG) recordings are fundamental for diagnosing cardiac conditions. Recent advances in automatic ECG analysis have been dominated by deep learning, particularly convolutional neural networks (CNNs). CNNs excel in processing high-dimensional signal data, where their ability to automatically extract complex features has enabled significant progress. However, while CNNs are powerful for biomedical signal analysis, their application to ECG data also carries disadvantages, such as the requirement for large annotated datasets and limited explainability. To address these challenges, we aim to reintroduce shallow learning methods, such as linear classifiers, by leveraging the cyclic nature of ECG signals.\n\nMETHODS AND RESULTS: We developed an adaptive transformation that restructures ECG signals into a fully structured format suitable for shallow learning algorithms. This method aligns R-peaks across all signals in a dataset and resamples the inter-QRS segments to match a predefined reference heart rate. The approach was systematically evaluated across tasks including classification, clustering, and explainability. Our transformation substantially improved the performance of shallow learning techniques. Compared with CNN approaches, shallow models trained on transformed ECGs achieved superior accuracy and interpretability in data-limited scenarios.\n\nCONCLUSION: We demonstrate that shallow machine learning methods, when combined with our alignment-based transformation, can reach CNN level performance in ECG analysis, especially under conditions of limited training data. This approach offers clear advantages in classification, clustering, and explainability and provides an accessible alternative to deep learning. To facilitate adoption and further research, we release a publicly available framework for ECG signal alignment at https://github.com/imi-ms/rlign.",
+      "authors": [
+        "Lucas Plagwitz",
+        "Lucas Bickmann",
+        "Michael Fujarski",
+        "Alexander Brenner",
+        "Warnes Gobalakrishnan",
+        "Lars Eckardt",
+        "Antonius Büscher",
+        "Julian Varghese"
+      ],
+      "published_on": "2026-05-21",
+      "doi": "10.1093/ehjdh/ztag067",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42164459/",
+      "doi_url": "https://doi.org/10.1093/ehjdh/ztag067"
+    },
+    {
       "pmid": "42152834",
       "title": "Towards seamless myocardial infarction and cardiac rhythm detection: a deep learning approach with automated paper-electrocardiogram digitisation.",
       "journal": "Indian journal of thoracic and cardiovascular surgery",
@@ -71,6 +94,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
       "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+    },
+    {
+      "pmid": "42162090",
+      "title": "A reproducible benchmark of QRS detection algorithms across diverse ECG datasets and noise conditions.",
+      "journal": "Scientific reports",
+      "abstract": "Accurate R-peak detection in electrocardiograms is critical for heart rate monitoring, heart rate variability analysis, and cardiac condition diagnosis. However, reliable detection remains challenging in real-world scenarios due to noise, artifacts, and signal variability. A key limitation in current research is the lack of reproducibility and comparability, as algorithms are often tested on varying datasets, hindering direct performance comparisons. To address this, we benchmark 17 R-peak detection algorithms, encompassing traditional signal processing, machine learning, and deep learning approaches, within a unified evaluation framework using five open-access ECG datasets from the PhysioNet platform. These databases represent diverse conditions, including long-term monitoring, arrhythmias, and noisy environments, enabling a standardized evaluation. Our results reveal that under a strict cross-dataset generalization setting, in which ML and DL models were trained on a single dataset without any target-domain adaptation, traditional signal processing methods provided more consistent overall performance. This highlights a trade-off between peak performance on familiar data and generalizable performance under distribution shift, whose extent for data-driven methods may depend substantially on training diversity. To support reproducibility and future benchmarking, we provide a fully open evaluation framework including all implementations, dataset references, and evaluation pipelines. These findings offer guidance for researchers and clinicians selecting R-peak detection algorithms for diverse clinical and practical scenarios.",
+      "authors": [
+        "Simon Maximilian Wolf",
+        "Tim Rahlmeier",
+        "Stefan Lustfeld",
+        "Detlef Schoder"
+      ],
+      "published_on": "2026-05-21",
+      "doi": "10.1038/s41598-026-53724-9",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42162090/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-53724-9"
     },
     {
       "pmid": "42091074",
@@ -269,51 +311,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41404494/",
       "doi_url": "https://doi.org/10.1016/j.nbscr.2025.100140"
-    },
-    {
-      "pmid": "41196785",
-      "title": "PathFusion-Net: A Rough Path Theory-Based Deep Learning Model for ECG Arrhythmia Classification.",
-      "journal": "IEEE journal of biomedical and health informatics",
-      "abstract": "This study introduces a novel electrocardiogram (ECG) arrhythmia classification model, PathFusion-Net, which integrates Rough Path Theory with deep learning technologies. The model combines Convolutional Neural Networks (CNN), Long Short-Term Memory (LSTM), Path Signatures, and Path Development to extract spatial morphological features from ECG images and multi-order temporal representations from ECG signals. By adopting an inter-patient split paradigm, our approach more closely reflects real-world clinical diagnostic settings compared to intra-patient methods. The model demonstrates state-of-the-art overall classification performance on both the MIT-BIH Arrhythmia Database and a private clinical dataset, achieving 94.7% and 95.1% accuracy, respectively, under the AAMI four-class standard with an inter-patient split paradigm. On the MIT-BIH dataset, the proposed method attains competitive precision and recall across multiple arrhythmia types, including 95.2% /87.9% for ventricular ectopic beats (V) and 75.7% /92.3% for supraventricular ectopic beats (S), indicating balanced performance across clinically diverse categories. This research highlights the potential of Rough Path Theory in time-series analysis and offers a novel deep learning framework for automated early detection and monitoring of ECG arrhythmias. The code used in this study is available at: https://github.com/Rand2AI/PathFusion-Net.",
-      "authors": [
-        "Tianlong Feng",
-        "Qingchen Li",
-        "Yuanyuan Zhang",
-        "Yongzhi Liao",
-        "Di Lu",
-        "Liping Wang",
-        "Jianqin Zhao",
-        "Lei Jiang",
-        "Hao Ni",
-        "Hongying Liu",
-        "Jingjing Deng"
-      ],
-      "published_on": "2025-11-06",
-      "doi": "10.1109/JBHI.2025.3629717",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41196785/",
-      "doi_url": "https://doi.org/10.1109/JBHI.2025.3629717"
-    },
-    {
-      "pmid": "39883911",
-      "title": "A comparative analysis of CNNs and LSTMs for ECG-based diagnosis of arrythmia and congestive heart failure.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "Cardiac arrhythmias are major global health concern and their early detection is critical for diagnosis. This study comprehensively evaluates the effectiveness of CNNs and LSTMs for the classification of cardiac arrhythmias, considering three PhysioNet datasets. ECG records are segmented to accommodate around ∼10s of ECG data. Followed by transformation to scalograms using DWT for training VGG-16; and WTS for feature extraction and dimensionality reduction for training LSTM network. VGG-16 achieved 96.44% test accuracy while LSTM achieved 92%. Results also highlight the effectiveness of VGG-16 for short-duration ECG analysis, while LSTM excels in long-term monitoring on edge devices for personalized healthcare.",
-      "authors": [
-        "Nitish Katal",
-        "Hitendra Garg",
-        "Bhisham Sharma"
-      ],
-      "published_on": "2025-01-30",
-      "doi": "10.1080/10255842.2025.2456487",
-      "publication_types": [
-        "Journal Article",
-        "Comparative Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39883911/",
-      "doi_url": "https://doi.org/10.1080/10255842.2025.2456487"
     }
   ],
   "error": null,
