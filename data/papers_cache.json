@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-21T20:52:14.856979+00:00",
-  "last_success_at": "2026-05-21T20:52:15.229511+00:00",
+  "last_attempt_at": "2026-05-22T21:15:54.403990+00:00",
+  "last_success_at": "2026-05-22T21:15:55.421644+00:00",
   "count": 15,
   "papers": [
     {
@@ -54,6 +54,33 @@
       "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
     },
     {
+      "pmid": "42169732",
+      "title": "Novel machine learning fusion architectures integrating electrocardiogram representations: applications to acute coronary event detection.",
+      "journal": "European heart journal. Digital health",
+      "abstract": "AIMS: AI in electrocardiography (ECG) has diverged into two paths: traditional signal processing with machine learning, and deep learning of raw waveforms. The former preserves physiological interpretability but may miss novel patterns, while the latter overlooks a century of ECG science. No framework yet integrates both. This study introduces a fusion model combining handcrafted feature-based random forest and waveform-based convolutional neural network to improve the diagnosis of acute coronary events.\n\nMETHODS AND RESULTS: This prospective, multicentre cohort study included pre-hospital ECGs recorded on emergency medical services from patients with a chief complaint of chest pain. Using this dataset, we developed four fusion frameworks that integrate ECG features with waveform information: (1) decision-level fusion combining predictions from random forest and convolutional neural network (CNN); (2) decision-level fusion with retraining; (3) feature-level fusion by concatenating CNN embeddings with ECG features; and (4) feature-level fusion combining CNN embeddings with tree-level outputs from the random forest. This study comprised of 10 393 ECGs from 7397 patients. On both outcomes, acute coronary syndrome and occlusion myocardial infarction, the proposed decision fusion with retraining (Approach 2) achieved an AUROC of 0.878 (95% CI, 0.837-0.915) and 0.961 (95% CI, 0.934-0.983) on the test set and an average precision score of 0.749 (95% CI, 0.681-0.810) and 0.850 (95% CI, 0.763-0.918), respectively, outperforming all other proposed fusion and individual models.\n\nCONCLUSION: This study demonstrates the significance of fusion models that integrate complementary ECG representations to improve diagnostic accuracy in acute coronary events, highlighting a promising approach for real-time AI-augmented cardiovascular disease detection across diverse use cases.",
+      "authors": [
+        "Rui Qi Ji",
+        "Nathan T Riek",
+        "Tanmay Gokhale",
+        "Zeineb Bouzid",
+        "Karina Kraevsky",
+        "Jessica K Zègre-Hemsey",
+        "Samir Saba",
+        "Christian Martin-Gill",
+        "Clifton W Callaway",
+        "Murat Akcakaya",
+        "Ervin Sejdić",
+        "Salah S Al-Zaiti"
+      ],
+      "published_on": "2026-05-22",
+      "doi": "10.1093/ehjdh/ztag062",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42169732/",
+      "doi_url": "https://doi.org/10.1093/ehjdh/ztag062"
+    },
+    {
       "pmid": "42164459",
       "title": "The Rlign algorithm for enhanced electrocardiogram analysis through heart rate-corrected ECG alignment for explainable classification and clustering.",
       "journal": "European heart journal. Digital health",
@@ -94,6 +121,23 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
       "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+    },
+    {
+      "pmid": "42167275",
+      "title": "Stabilizing neuromorphic ECG processors via adaptive fractional fatigue.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Spiking Neural Networks (SNNs) deployed on wearable devices can exhibit runaway firing when processing noisy electrocardiogram (ECG) signals, increasing switching activity and dynamic power and destabilising power regulation. To suppress redundant firing while preserving ECG classification performance, we introduce the Adaptive Fractional Fatigue (AFF) SNN, which equips each hidden neuron with a power-law weighted memory buffer of its past membrane states, thereby forming a fractionally-inspired activity trace that drives an adaptive threshold: as the accumulated trace rises with sustained firing, the effective threshold increases and suppresses further spikes, implementing an intrinsic negative feedback loop. Ten independent seeds were evaluated with a fixed random train/test split of 2969/743 heartbeat windows (length T =180; 3712 balanced windows total; 1856 normal, 1856 arrhythmia) drawn from three publicly available MIT-BIH records, with spikes per sample as the primary energy proxy and test accuracy and the area under the receiver operating characteristic curve (AUROC) as secondary endpoints. Spikes/sample decreased from 2384.990 ± 537.719 (integer-order) to 891.481 ± 227.654 (AFF), a 62.62% reduction (bootstrap 95% confidence interval [54.00%, 69.35%]), which was statistically significant (paired t-test p=0.000015 two-sided; Wilcoxon signed-rank p=0.001953 two-sided; paired effect size dz =-2.662). Accuracy was preserved (78.923 ± 1.725% vs. 79.206 ± 1.541%; paired t-test p=0.227761), and cross-seed spike variance decreased by a factor of 5.58×. AFF suppresses noise-driven hyperactivity and stabilises event traffic, delivering a statistically significant reduction in spikes/sample without accuracy loss and improving predictability for low-power neuromorphic ECG deployment.",
+      "authors": [
+        "Yiğit Aydoğan",
+        "Richard Yang"
+      ],
+      "published_on": "2026-05-22",
+      "doi": "10.1088/2057-1976/ae7119",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42167275/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/ae7119"
     },
     {
       "pmid": "42162090",
@@ -152,6 +196,27 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42143257/",
       "doi_url": "https://doi.org/10.1186/s12880-026-02399-9"
+    },
+    {
+      "pmid": "42170106",
+      "title": "FPECGNET: A deep learning framework based on federated learning and prototype learning for interpretable ECG classification with privacy.",
+      "journal": "iScience",
+      "abstract": "Under everyday operational conditions, data privacy regulations prohibit sharing information between hospitals or institutions, contributing to the emergence of data silos. This scarcity of data hinders improvements in model performance. Another major obstacle to AI applications in medicine is the lack of interpretability, where the decision-making process of models cannot be reflected. We propose a deep learning framework based on federated learning and prototype learning that simulates the reality of hospital data silos while endowing the model with interpretability. Using the publicly available PTB-XL dataset, we divided it into three subsets by category and trained the model using the federated learning framework, achieving superior performance on these subsets. When tested on the aggregated model using the PTB-XL dataset, it demonstrated performance comparable to the current state-of-the-art model.",
+      "authors": [
+        "Jiang He",
+        "Jie He",
+        "Jin Xiong",
+        "Song He",
+        "Yu Chen",
+        "XinWei Li"
+      ],
+      "published_on": "2026-05-22",
+      "doi": "10.1016/j.isci.2026.115729",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42170106/",
+      "doi_url": "https://doi.org/10.1016/j.isci.2026.115729"
     },
     {
       "pmid": "42142808",
@@ -251,66 +316,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091631/",
       "doi_url": "https://doi.org/10.1038/s41598-026-51635-3"
-    },
-    {
-      "pmid": "42069762",
-      "title": "Federated learning-enabled privacy-preserving framework for seizure forecasting and affective state analysis using multi-modal EEG-ECG data.",
-      "journal": "Scientific reports",
-      "abstract": "Seizure forecasting and affective state analysis using EEG-ECG data play a pivotal role in advancing neurological and mental health monitoring. However, existing methods such as Fed-Transformer, Res-1D CNN, and Fed-ESD suffer from privacy risks, inefficient feature extraction, and high computational overhead, limiting their effectiveness in real-world applications. To overcome these challenges, this study proposes NeuroFedSense, a novel Federated Learning-enabled Privacy-Preserving Framework that integrates a Temporal Convolutional Network (TCN) with an Attention Mechanism for accurate seizure forecasting and affective state analysis using EEG-ECG data, ensuring enhanced feature selection, interpretability and efficient decentralized training. The model leverages adaptive attention-based optimization and weighted feature selection to improve classification performance while ensuring data privacy. Implemented using TensorFlow, NeuroFedSense achieves 99.54% accuracy, 99.62% precision, 99.34% recall, and a 99.46% F1-score, outperforming Fed-Transformer (97.10% accuracy), Res-1D CNN (81.62% accuracy), and FML (99.10% accuracy). The ROC-AUC score of 0.99 further establishes its superiority over competing models. Additionally, the federated approach reduces energy consumption per node by 30% and optimizes communication efficiency by minimizing data transmission by 15% over 100 rounds. By ensuring high accuracy, improved privacy, reduced computational overhead, and enhanced energy efficiency, NeuroFedSense sets a new benchmark for decentralized, real-time seizure prediction and affective state monitoring. These findings underscore its potential for deployment in intelligent, privacy-preserving healthcare applications, addressing critical challenges in remote neurological monitoring.",
-      "authors": [
-        "V S Arulmurugan",
-        "R Aarthy",
-        "S Sesha Vidhya",
-        "Saranya K"
-      ],
-      "published_on": "2026-05-03",
-      "doi": "10.1038/s41598-026-50003-5",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42069762/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-50003-5"
-    },
-    {
-      "pmid": "41757537",
-      "title": "Model-Inversion-Resistant Physical Unclonable Neural Network Using Vertical NAND Flash Memory.",
-      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-      "abstract": "The growing use of neural networks in privacy-sensitive applications necessitates architectures that inherently protect both data and model integrity. We present a model-inversion-resistant physical unclonable neural network (PUNN) implemented on commercial vertical NAND (V-NAND) flash memory. A physical unclonable layer generated through weak gate-induced drain-leakage erase exploits intrinsic device-level variations to create chip-unique conductance patterns that are concealable and unreproducible. Training is achieved using the forward-forward (FF) algorithm, which eliminates the need for backward propagation and is fully compatible with the common-source-line structure of V-NAND arrays. The resulting V-NAND FF-PUNN demonstrates hardware-rooted resistance to model-cloning and model-inversion attacks, maintaining high accuracy under forward-only learning. When the trained network weights are transferred to another chip, inference accuracy collapses due to chip-specific randomness, confirming intrinsic non-clonability. Furthermore, when applied to the MIT-BIH electrocardiogram dataset, the system achieves competitive classification accuracy on real health data while entirely blocking data reconstruction by model-inversion. This work establishes a scalable framework for secure, energy-efficient, and privacy-preserving neural computing directly on commercial flash memory.",
-      "authors": [
-        "Sung-Ho Park",
-        "Ryun-Han Koo",
-        "Jonghyun Ko",
-        "Jiseong Im",
-        "Yeongheon Yang",
-        "Mingyun Oh",
-        "Dongbeen Shin",
-        "Gyuweon Jung",
-        "Jong-Ho Lee"
-      ],
-      "published_on": "2026-02-27",
-      "doi": "10.1002/advs.74517",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41757537/",
-      "doi_url": "https://doi.org/10.1002/advs.74517"
-    },
-    {
-      "pmid": "41404494",
-      "title": "Sleep stage classification from ECG using machine learning: Evaluating the impact of signal duration.",
-      "journal": "Neurobiology of sleep and circadian rhythms",
-      "abstract": "Sleep stage flagging is critical for diagnosing conditions like insomnia, sleep apnea, and narcolepsy. Traditional methods rely on time-intensive manual scoring by experts, limiting scalability and accessibility, especially in resource-limited settings. Automating sleep stage classification through signal processing and machine learning could improve diagnostic efficiency and reduce healthcare burdens. While prior studies have utilized multiple signals such as electroencephalogram (EEG), electromyogram (EMG), and electrocardiogram (ECG), this study focuses solely on ECG to provide a simpler, more accessible solution. By simplifying signal input, the approach enhances feasibility in resource-constrained environments. Features based on heart rate variability (HRV) and Poincaré plot descriptors were extracted and used to train machine learning models for five-stage sleep classification. The approach was evaluated using two publicly available datasets, the Haaglanden Medisch Centrum Sleep Staging Database and the MIT-BIH Polysomnographic Database, which were chosen for their varied recording environments and subject diversity. Neural Networks, K-Nearest Neighbors (KNN), XGBoost, and Random Forest were employed to assess performance. The highest classification accuracy of 67 % was achieved with long-duration ECG recordings, outperforming models trained on shorter segments by 12 %. These findings emphasize the impact of signal duration on classification performance and suggest opportunities to refine sleep stage prediction. The study demonstrates the feasibility of ECG-only systems for portable, low-cost, and scalable sleep monitoring. The insights gained may facilitate the development of more accessible and efficient sleep disorder detection, particularly in low-resource settings.",
-      "authors": [
-        "Mohammadreza Iravani",
-        "Sadaf Moharreri"
-      ],
-      "published_on": "2025-12-17",
-      "doi": "10.1016/j.nbscr.2025.100140",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41404494/",
-      "doi_url": "https://doi.org/10.1016/j.nbscr.2025.100140"
     }
   ],
   "error": null,
