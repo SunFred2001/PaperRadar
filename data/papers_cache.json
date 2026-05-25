@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-24T22:02:59.922885+00:00",
-  "last_success_at": "2026-05-24T22:03:00.820836+00:00",
+  "last_attempt_at": "2026-05-25T23:10:51.550684+00:00",
+  "last_success_at": "2026-05-25T23:10:51.918082+00:00",
   "count": 15,
   "papers": [
     {
@@ -25,6 +25,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+    },
+    {
+      "pmid": "42182049",
+      "title": "Developing and validating an artificial intelligence-based electronic triage model for predicting clinical outcomes among cardiac-suspected patients in the emergency department.",
+      "journal": "European heart journal. Digital health",
+      "abstract": "AIMS: Emergency department overcrowding, especially in cardiac units, delays care and raises mortality. Conventional triage is error-prone. We developed an AI-based model integrating routine data and automated ECGs to improve early risk classification.\n\nMETHODS AND RESULTS: This retrospective cross-sectional study involved 600 medical records of patients presenting with suspected cardiac symptoms. Model development was conducted in three phases: Designing a triage model using routine triage data, designing a triage model based on ECG images, and combining the ECG-based model and triage data. Model performance was evaluated regarding standard clinical outcomes within the first 24 h and compared against the Emergency Severity Index. The best-performing model based on triage data alone (i.e. multilayer perceptron neural network) yielded an accuracy of 89.42%, F-score of 84.51, and area under the curve between 0.815 and 0.858. The best-performing model based on ECG interpretation alone (i.e. convolutional neural network) yielded an accuracy of 93.83%, F-score of 91.08, and area under the curve ranging from 0.852 to 0.914. The fusion model demonstrated superior performance, with an accuracy of 97.22%, F-score of 94.60, and area under the curve between 0.881 and 0.938-significantly outperforming the conventional Emergency Severity Index. In the fusion model, the key predictive variables included ECG interpretation, heart rate, and mode of entry to emergency department.\n\nCONCLUSION: Given its advantages over models using only routine data, ECG, or conventional triage, the fused AI-based triage model may effectively prioritize and predict cardiac emergency outcomes, providing a foundation for developing reliable, intelligent support systems in acute care.",
+      "authors": [
+        "Ahmad Bavali-Gazik",
+        "Elahe Allahyari",
+        "Amir Sezavar",
+        "Seyed Ali Moezi-Bady",
+        "Seyyed Abolfazl Vagharseyyedin"
+      ],
+      "published_on": "2026-05-25",
+      "doi": "10.1093/ehjdh/ztag023",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42182049/",
+      "doi_url": "https://doi.org/10.1093/ehjdh/ztag023"
     },
     {
       "pmid": "42169732",
@@ -292,23 +312,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42113654/",
       "doi_url": "https://doi.org/10.1109/JBHI.2026.3691946"
-    },
-    {
-      "pmid": "42091631",
-      "title": "Adaptive multimodal learning for driver cognitive state monitoring using transformer-based fusion with personalized meta-learning and federated optimization.",
-      "journal": "Scientific reports",
-      "abstract": "Road accidents caused by driver fatigue and cognitive overload remain a significant public safety concern. According to recent traffic safety data, drowsy driving contributes to thousands of fatal accidents each year, emphasizing the urgent need for intelligent driver monitoring systems. To address this, we propose an adaptive multimodal deep learning framework (AML) for real-time cognitive workload assessment and fatigue detection, leveraging the CL-Drive dataset: a multimodal repository of EEG (cognitive load), ECG (cardiac activity), EDA (electrodermal arousal), and gaze tracking (visual attention) captured from 21 participants during simulated driving across nine scenarios of escalating complexity. Our framework integrates a hybrid CNN-BiLSTM architecture to extract spatiotemporal features from raw physiological signals and gaze sequences, capturing localized spatial patterns and long-term temporal dynamics. These features are fused using a transformer-based network with cross-modal attention, which models interactions between modalities (e.g., correlating gaze fixation losses with EEG theta-band surges during distraction) and yields a 3.6 percentage-point absolute accuracy improvement over the strongest conventional fusion baseline under identical evaluation. To address individual variability and privacy, we combine personalized meta-learning-adapting to new drivers with as few as five windowed samples (∼10 s of synchronized multimodal data) via episodic fine-tuning-with federated optimization, enabling decentralized model updates and reducing per-client data transfer by 38% through adaptive gradient compression. Experiments on CL-Drive demonstrate state-of-the-art performance under strictly cross-subject evaluation. Under subject-independent 5-fold cross-validation, AML achieves [Formula: see text] accuracy on binary cognitive load classification without personalization, rising to [Formula: see text] with [Formula: see text] calibration samples (∼40 s). Under the more rigorous leave-one-subject-out (LOSO) protocol, AML reaches [Formula: see text] without personalization and [Formula: see text] with [Formula: see text] personalization, an improvement of 1.6 percentage points over the strongest published LOSO baseline on this dataset with a further 6.2-11.3 percentage points gained from personalization alone across the LOSO and 5-fold protocols. The framework exhibits robustness to real-world sensor noise (e.g., EEG/EDA motion artifacts) and achieves [Formula: see text] LOSO accuracy with only [Formula: see text] samples (∼10 s of calibration per new driver), critical for scalable in-vehicle deployment. By enabling privacy-aware, real-time monitoring of driver states, this work advances intelligent vehicle safety systems and provides a blueprint for adaptive multimodal learning in human-centric AI applications.",
-      "authors": [
-        "G Abinaya",
-        "K Dinakaran"
-      ],
-      "published_on": "2026-05-07",
-      "doi": "10.1038/s41598-026-51635-3",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091631/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-51635-3"
     }
   ],
   "error": null,
