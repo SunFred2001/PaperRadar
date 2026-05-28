@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-27T00:12:11.556411+00:00",
-    "last_success_at": "2026-05-27T00:12:12.272334+00:00",
+    "last_attempt_at": "2026-05-28T04:23:28.549254+00:00",
+    "last_success_at": "2026-05-28T04:23:28.882157+00:00",
     "count": 15,
     "papers": [
       {
@@ -132,6 +132,71 @@
         "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
       },
       {
+        "pmid": "42200397",
+        "title": "Fully Biobased, Robust, and High-Conductivity Hydrogel for High-Fidelity Electrophysiological Monitoring and Deep Learning-Assisted Stroke Rehabilitation.",
+        "journal": "ACS applied materials & interfaces",
+        "abstract": "Developing sustainable bioelectronics that simultaneously integrate mechanical robustness, high conductivity, biocompatibility, and system-level functionality remains a fundamental challenge. Here, we report a Hofmeister-engineered, fully biobased hydrogel platform (GT2C20) that addresses these limitations through a synergistic dual physical cross-linking network. By combining citrate-induced chain compaction and continuous ionic transport pathways, this hydrogel achieves high tensile strength (0.73 MPa), large extensibility (272.5%), and high electrical conductivity (1.8 S m-1), overcoming intrinsic trade-offs in conventional gelatin-based systems. Building on these properties, GT2C20 enables an integrated multifunctional bioelectronic system. As a skin-conformal bioelectrode, it provides high-fidelity acquisition of electrophysiological signals (ECG, EEG, and EMG), achieving a high signal-to-noise ratio (24.3 dB for ECG) compared to commercial Ag/AgCl electrodes. When integrated with deep learning algorithms, the platform enables autonomous assessment of Brunnstrom stages for stroke rehabilitation with an accuracy of 97.31%, while a wireless telemedicine system supports remote diagnosis and personalized healthcare management. In parallel, the hydrogel functions as a highly stable strain sensor for real-time motion monitoring and precise gesture recognition, enabling intuitive control of prosthetic devices. Additionally, the hydrogel acts as a triboelectric nanogenerator electrode, yielding an open-circuit voltage of 72.1 V to power its own functions, while a microcontroller system supports wireless telemedicine and remote rehabilitation monitoring. This work presents an eco-friendly strategy for fabricating high-performance, biobased flexible electronics suited for health monitoring, telemedicine, and soft robotics.",
+        "authors": [
+          "Zhoujing Chen",
+          "Didi Wen",
+          "Xiaoli Liang",
+          "Yuqi Li",
+          "Yongkang Bai"
+        ],
+        "published_on": "2026-05-27",
+        "doi": "10.1021/acsami.6c03687",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200397/",
+        "doi_url": "https://doi.org/10.1021/acsami.6c03687"
+      },
+      {
+        "pmid": "42200278",
+        "title": "Multimodal Artificial Intelligence for Cardiac Amyloidosis Diagnosis: Integrating Echocardiography With Clinical and Laboratory Data for Improved Detection.",
+        "journal": "Circulation. Cardiovascular imaging",
+        "abstract": "BACKGROUND: Cardiac amyloidosis (CA) is an underdiagnosed yet treatable cause of heart failure in which timely diagnosis is essential to initiate life-prolonging therapies. While artificial intelligence (AI)-based tools using transthoracic echocardiography (TTE), electrocardiography, or electronic health records have demonstrated promise for CA detection, most rely on single data sources. We aimed to evaluate whether integrating clinical, laboratory, and TTE biomarkers improves the performance of an existing TTE-based AI model for CA detection.\n\nMETHODS: We developed and tested a combined AI echo-clinical model (AI-ECM) incorporating demographics, laboratory biomarkers, and TTE parameters into a previously validated TTE-only AI model (Us2.Ca). Model training and internal validation were performed using the Amyloidosis Imaging International Consortium, a global multiethnic registry comprised of 727 patients with CA and 316 controls, including 202 with suspected transthyretin-CA with negative diagnostic evaluation and 114 patients with biopsy-proven extracardiac light chain amyloidosis without cardiac involvement. Ground truth CA diagnosis was adjudicated per consensus criteria. AI-ECM and Us2.Ca performance was assessed using area under the curve, accuracy, sensitivity, and specificity.\n\nRESULTS: In building the AI-ECM, feature importance analysis showed that having the Us2.Ca prediction scores, relative wall thickness, gender, and estimated glomerular filtration rate contributed most to performance. The AI-ECM demonstrated superior performance (area under the curve, 0.94; accuracy, 90%; sensitivity, 93%; specificity, 85%) compared with the Us2.Ca (area under the curve, 0.89; accuracy, 80%; sensitivity, 76%; specificity, 91%; P=0.006). While the Us2.Ca model classification was indeterminate in 9% of the cases, the AI-ECM allowed classification of all cases. The AI-ECM improved sensitivity for light chain-CA detection and maintained high accuracy across subtypes and control groups.\n\nCONCLUSIONS: A multiparametric AI model integrating basic clinical, laboratory, and TTE data with the deep learning Us2.Ca improved performance for CA detection over Us2.Ca alone. This approach represents a step toward scalable, AI-guided precision diagnostics for CA in diverse populations.",
+        "authors": [
+          "Jeremy A Slivnick",
+          "Sze Chi Lim",
+          "Michael Randazzo",
+          "Mathew S Maurer",
+          "Stephen Helmke",
+          "Marielle Scherrer-Crosbie",
+          "Azin Vakilpour",
+          "Karolina M Zareba",
+          "Akash Goyal",
+          "Richard Cheng",
+          "Nicole Wakamatsu",
+          "Tetsuji Kitano",
+          "Masaaki Takeuchi",
+          "Viviane Tiemi Hotta",
+          "Marcelo Luiz Campos Vieira",
+          "Pablo Elissamburu",
+          "Ricardo E Ronderos",
+          "Aldo Prado",
+          "Efstratios Koutroumpakis",
+          "Anita Deswal",
+          "Amit Pursnani",
+          "Nitasha Sarswat",
+          "Karima Addetia",
+          "Juan Cotella",
+          "Frederick L Ruberg",
+          "Matthew Frost",
+          "Marianna Fontana",
+          "Carolyn Lam Su Ping",
+          "Roberto M Lang",
+          "Federico M Asch"
+        ],
+        "published_on": "2026-05-27",
+        "doi": "10.1161/CIRCIMAGING.126.019610",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200278/",
+        "doi_url": "https://doi.org/10.1161/CIRCIMAGING.126.019610"
+      },
+      {
         "pmid": "42186368",
         "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
         "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
@@ -147,6 +212,27 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
         "doi_url": "https://doi.org/10.1177/09287329261446510"
+      },
+      {
+        "pmid": "42196938",
+        "title": "Enhanced Prediction of Cardiovascular Disease Through Integrated Machine Learning Models Combining Clinical and Demographic Characteristics.",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "abstract": "Background/Objectives: Heart failure (HF) remains a major cause of global mortality and morbidity; it is, therefore, of paramount importance that diagnosis and prognostication are made timely in order to better improve outcomes and reduce healthcare expenditure. This research presents a novel predictive model of heart failure that combines clinical criteria with demographic factors in order to maximize predictive performance and act as a reliable tool for individualized healthcare intervention. Methods: Complex machine learning techniques, including decision trees, random forest, and deep learning, are applied in analyzing a large dataset of subjects with heart failure. We collected a diverse dataset comprising clinical indicators such as echocardiographic data, biomarkers, electrocardiogram (ECG) features, and demographic information. Data preprocessing techniques, such as feature normalization and handling of missing values, were applied to ensure the integrity and reliability of the dataset. Results: The results indicate that integrating both clinical indicators and demographic characteristics significantly improves the predictive power of the model, compared to models based on clinical indicators alone. Specifically, the hybrid model demonstrated a superior ability to predict short- and long-term outcomes in heart failure patients, offering enhanced accuracy in risk stratification and prognosis prediction. Conclusions: This research highlights the potential of artificial intelligence (AI) and machine learning in revolutionizing heart failure care by providing healthcare professionals with more accurate, data-driven decision support tools. The proposed model not only holds promise for clinical applications but also offers insights for future research into personalized medicine.",
+        "authors": [
+          "Zhe Zhang",
+          "Dengao Li",
+          "Jumin Zhao",
+          "Huiting Ma",
+          "Fei Wang",
+          "Qinglian Hao"
+        ],
+        "published_on": "2026-05-27",
+        "doi": "10.3390/diagnostics16101572",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42196938/",
+        "doi_url": "https://doi.org/10.3390/diagnostics16101572"
       },
       {
         "pmid": "42174902",
@@ -263,68 +349,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42170106/",
         "doi_url": "https://doi.org/10.1016/j.isci.2026.115729"
-      },
-      {
-        "pmid": "42142808",
-        "title": "Artificial intelligence in the differential diagnosis of hypertrophic cardiomyopathy and physiological hypertrophy: a scoping review.",
-        "journal": "Hellenic journal of cardiology : HJC = Hellenike kardiologike epitheorese",
-        "abstract": "BACKGROUND: Hypertrophic cardiomyopathy (HCM) is the most common inherited myocardial disorder and a major cause of sudden cardiac death in young adults and competitive athletes. Distinguishing HCM from exercise-induced physiological hypertrophy is clinically critical, particularly within the diagnostic \"grey zone\" where morphological and functional parameters overlap. Artificial intelligence (AI), including machine learning (ML) and deep learning (DL), has emerged as a methodological framework for extracting latent diagnostic information from complex cardiovascular datasets. However, the extent of its validated application in differentiating HCM from athlete's heart remains unclear.\n\nMETHODS: A scoping review was conducted according to the Arksey and O'Malley methodology and PRISMA-ScR guidelines. Four electronic databases (PubMed, Scopus, Web of Science, IEEE Xplore) were searched (up to October 2025) for primary studies employing AI/ML to discriminate HCM from physiological or other etiologies of left ventricular hypertrophy. Inclusion criteria required confirmed HCM populations, use of AI analytical methods, and reporting of diagnostic performance metrics. Data extraction focused on population source, data modality, model architecture, performance indices, and presence of athlete-specific cohorts.\n\nRESULTS: Eight studies met the inclusion criteria. Only one directly compared HCM with athlete's heart, employing deformation-derived echocardiographic parameters and Support Vector Machine classification (AUC 0.93). The remaining studies examined HCM versus hypertensive or non-pathological hypertrophy using ECG-, echocardiography-, radiomics-, or video-based AI analysis, demonstrating AUC values between 0.89 and 0.96. No recent athlete-specific datasets were identified.\n\nCONCLUSIONS: AI shows strong potential to enhance the differential diagnosis of HCM through advanced imaging and ECG pattern analysis. However, the paucity of athlete-derived datasets and limited external validation significantly constrain clinical applicability in sports cardiology. Future research should prioritise explainable, multimodal models and dedicated athlete cohorts.",
-        "authors": [
-          "Asterios Deligiannis",
-          "Georgios Bobotis",
-          "Pantazis Deligiannis",
-          "Maria Anifanti",
-          "Evangelia Kouidi"
-        ],
-        "published_on": "2026-05-17",
-        "doi": "10.1016/j.hjc.2026.05.001",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42142808/",
-        "doi_url": "https://doi.org/10.1016/j.hjc.2026.05.001"
-      },
-      {
-        "pmid": "42150097",
-        "title": "Machine Learning in Nonischemic Cardiomyopathy: Phenotyping, Mechanism Discovery, and Clinical Applications.",
-        "journal": "Cardiology in review",
-        "abstract": "Nonischemic cardiomyopathy (NICM) refers to a heterogeneous group of myocardial disorders whose shared phenotypes complicate diagnosis and risk stratification. This complexity has driven growing interest in computational approaches that can integrate high-dimensional data and capture patterns not evident through conventional analyses. In this review, we synthesize studies, published between 2020 and 2026, that apply machine learning and deep learning models to NICMs across 3 interconnected domains: phenotype classification, mechanism discovery, and clinical decision support. We find that imaging and electrocardiography-based models help improve subtype discrimination, arrhythmia detection, and early disease identification; genomic and multiomics approaches advance variant interpretation and biomarker discovery; and emerging multimodal frameworks extend these efforts toward outcome prediction and individualized management. Challenges remain in generalizability, interpretability, and prospective validation, as well as in integrating modalities into patient-level risk models. Continued development of multimodal and longitudinal approaches will be essential for translating these advances into precision care for NICM.",
-        "authors": [
-          "Kwaku Quansah",
-          "Emma Anderson",
-          "Esther Kwon",
-          "Chulan Kwon"
-        ],
-        "published_on": "2026-05-18",
-        "doi": "10.1097/CRD.0000000000001281",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42150097/",
-        "doi_url": "https://doi.org/10.1097/CRD.0000000000001281"
-      },
-      {
-        "pmid": "42155349",
-        "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
-        "authors": [
-          "Arkadiusz Czerwinski",
-          "Damian Kucharski",
-          "Jacek Kawa",
-          "Yalin Zheng",
-          "Gregory Y H Lip",
-          "Jakub Nalepa",
-          "Agata M Wijata"
-        ],
-        "published_on": "2026-05-20",
-        "doi": "10.1016/j.cmpb.2026.109428",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       }
     ],
     "error": null,
@@ -337,6 +361,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-28T00:12:12.272334+00:00",
+  "next_refresh_at": "2026-05-29T04:23:28.882157+00:00",
   "next_push_at": null
 }
