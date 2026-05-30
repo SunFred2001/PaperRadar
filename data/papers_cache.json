@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-05-29T08:44:16.479284+00:00",
-  "last_success_at": "2026-05-29T08:44:17.564827+00:00",
+  "last_attempt_at": "2026-05-30T09:22:16.233763+00:00",
+  "last_success_at": "2026-05-30T09:22:16.758430+00:00",
   "count": 15,
   "papers": [
     {
@@ -114,6 +114,23 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
       "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+    },
+    {
+      "pmid": "42167275",
+      "title": "Stabilizing neuromorphic ECG processors via adaptive fractional fatigue.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Spiking neural networks (SNNs) deployed on wearable devices can exhibit runaway firing when processing noisy electrocardiogram (ECG) signals, increasing switching activity and dynamic power and destabilising power regulation. To suppress redundant firing while preserving ECG classification performance, we introduce the adaptive fractional fatigue (AFF) SNN, which equips each hidden neuron with a power-law weighted memory buffer of its past membrane states, thereby forming a fractionally-inspired activity trace that drives an adaptive threshold: as the accumulated trace rises with sustained firing, the effective threshold increases and suppresses further spikes, implementing an intrinsic negative feedback loop. Ten independent seeds were evaluated with a fixed random train/test split of2969/743heartbeat windows (lengthT=180;3712balanced windows total;1856normal,1856arrhythmia) drawn from three publicly available Massachusetts Institute of Technology-Beth Israel Hospital records, with spikes per sample as the primary energy proxy and test accuracy and the area under the receiver operating characteristic curve as secondary endpoints. Spikes/sample decreased from2384.990±537.719(integer-order) to891.481±227.654(AFF), a62.62%reduction (bootstrap 95% confidence interval[54.00%,69.35%]), which was statistically significant (pairedt-testp=0.000015two-sided; Wilcoxon signed-rankp=0.001953two-sided; paired effect sizedz=-2.662). Accuracy was preserved (78.923±1.725%vs79.206±1.541%; pairedt-testp=0.227761), and cross-seed spike variance decreased by a factor of5.58×. AFF suppresses noise-driven hyperactivity and stabilises event traffic, delivering a statistically significant reduction in spikes/sample without accuracy loss and improving predictability for low-power neuromorphic ECG deployment.",
+      "authors": [
+        "Yiğit Aydoğan",
+        "Richard Yang"
+      ],
+      "published_on": "2026-05-22",
+      "doi": "10.1088/2057-1976/ae7119",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42167275/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/ae7119"
     },
     {
       "pmid": "42203798",
@@ -254,23 +271,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42174902/",
       "doi_url": "https://doi.org/10.3233/SHTI260227"
-    },
-    {
-      "pmid": "42167275",
-      "title": "Stabilizing neuromorphic ECG processors via adaptive fractional fatigue.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "Spiking Neural Networks (SNNs) deployed on wearable devices can exhibit runaway firing when processing noisy electrocardiogram (ECG) signals, increasing switching activity and dynamic power and destabilising power regulation. To suppress redundant firing while preserving ECG classification performance, we introduce the Adaptive Fractional Fatigue (AFF) SNN, which equips each hidden neuron with a power-law weighted memory buffer of its past membrane states, thereby forming a fractionally-inspired activity trace that drives an adaptive threshold: as the accumulated trace rises with sustained firing, the effective threshold increases and suppresses further spikes, implementing an intrinsic negative feedback loop. Ten independent seeds were evaluated with a fixed random train/test split of 2969/743 heartbeat windows (length T =180; 3712 balanced windows total; 1856 normal, 1856 arrhythmia) drawn from three publicly available MIT-BIH records, with spikes per sample as the primary energy proxy and test accuracy and the area under the receiver operating characteristic curve (AUROC) as secondary endpoints. Spikes/sample decreased from 2384.990 ± 537.719 (integer-order) to 891.481 ± 227.654 (AFF), a 62.62% reduction (bootstrap 95% confidence interval [54.00%, 69.35%]), which was statistically significant (paired t-test p=0.000015 two-sided; Wilcoxon signed-rank p=0.001953 two-sided; paired effect size dz =-2.662). Accuracy was preserved (78.923 ± 1.725% vs. 79.206 ± 1.541%; paired t-test p=0.227761), and cross-seed spike variance decreased by a factor of 5.58×. AFF suppresses noise-driven hyperactivity and stabilises event traffic, delivering a statistically significant reduction in spikes/sample without accuracy loss and improving predictability for low-power neuromorphic ECG deployment.",
-      "authors": [
-        "Yiğit Aydoğan",
-        "Richard Yang"
-      ],
-      "published_on": "2026-05-22",
-      "doi": "10.1088/2057-1976/ae7119",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42167275/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/ae7119"
     },
     {
       "pmid": "42162090",
