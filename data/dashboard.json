@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-30T09:22:16.233763+00:00",
-    "last_success_at": "2026-05-30T09:22:16.758430+00:00",
+    "last_attempt_at": "2026-05-31T11:02:07.287680+00:00",
+    "last_success_at": "2026-05-31T11:02:08.172382+00:00",
     "count": 15,
     "papers": [
       {
@@ -130,6 +130,32 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
         "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+      },
+      {
+        "pmid": "42218208",
+        "title": "Long-term continuous monitoring of wearable ECG signals for atrial fibrillation detection.",
+        "journal": "Scientific reports",
+        "abstract": "Atrial Fibrillation (AFib) is the most common sustained cardiac arrhythmia and is associated with substantial morbidity and mortality, including increased risk of stroke and heart failure. Accurate detection of AFib in long-term electrocardiographic (ECG) monitoring is essential for timely diagnosis and early clinical intervention, particularly in ambulatory settings using wearable devices. In this study, we evaluate the performance of a lightweight convolutional neural network (CNN) for automated AFib detection, initially trained on the CinC2021 dataset and subsequently fine-tuned with real-world wearable ECG data. The model was validated across three independent datasets: InCorDB, CODE15, and the TRAdA cohort, with the latter representing long-term ECG monitoring from wearable devices. The TRAdA cohort comprised 173 subjects (87 with AFib and 86 healthy subjects) with continuous ECG recordings obtained over 24 h in Phase 1 (56 subjects) and 7 days in Phase 2 (117 subjects). In total, the dataset included 165,175 annotated ECG segments, including 24,252 AFib episodes. The fine-tuned model demonstrated superior performance compared to the original model on the TRAdA cohort, indicating improved adaptation to wearable ECG signals. On the Phase 2 dataset, the fine-tuned model achieved higher specificity (0.971 vs. 0.914), F1-score (0.891 vs. 0.777), area under the receiver operating characteristic curve (AUC; 0.992 vs. 0.988), and accuracy (0.969 vs. 0.924), highlighting its enhanced ability to detect AFib in extended real-world monitoring scenarios. These findings demonstrate that the domain adaptive fine-tuning significantly enhances AFib detection in long-term wearable ECG monitoring. Our findings support the feasibility of lightweight deep learning models for reliable AFib screening in real-world ambulatory settings.",
+        "authors": [
+          "Estela Ribeiro",
+          "Quenaz B Soares",
+          "Douglas A Almeida",
+          "Jaqueline J Pereira",
+          "Renata G S Verardino",
+          "Tallita C Reis",
+          "Denival N Vieira-Junior",
+          "Nelson Samesima",
+          "Rosangela Monteiro",
+          "Fábio B Jatene",
+          "Marco A Gutierrez"
+        ],
+        "published_on": "2026-05-31",
+        "doi": "10.1038/s41598-026-54532-x",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42218208/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-54532-x"
       },
       {
         "pmid": "42167275",
@@ -329,23 +355,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091074/",
         "doi_url": "https://doi.org/10.1088/1361-6579/ae696a"
-      },
-      {
-        "pmid": "42143257",
-        "title": "A multitask Transformer-VAE framework for robust PPG denoising and atrial fibrillation screening.",
-        "journal": "BMC medical imaging",
-        "abstract": "BACKGROUND: Photoplethysmography (PPG) is a noninvasive biosignal widely used for atrial fibrillation (AF) screening via wearable devices. However, reliable PPG-based detection remains challenging because motion artifacts, noise contamination, and intersubject variability distort waveform morphology and compromise diagnostic consistency.\n\nMETHODS: We propose an end-to-end dual-task model that denoises PPG signals and detects AF simultaneously. The model uses a transformer-based encoder with two task branches and an additional lightweight alignment constraint to encourage the two tasks to learn consistent representations under motion artifacts. We trained and evaluated the framework on public PPG datasets, including an internal cohort of 30,773 segments from 91 patients and an external dataset derived from the MIMIC-III waveform database. Performance was evaluated via the AUC and accuracy, together with robustness tests across different noise conditions. We also applied an A-Test procedure that repeats balanced k-fold validation with different k values to assess error stability across data splits.\n\nRESULTS: The proposed model achieved an AUC of 0.9097 and an accuracy of 88.4%, outperforming conventional convolutional and single-task baselines. Robustness experiments demonstrated stable performance across varying signal‒to‒noise ratios. The dual-task architecture preserved physiologically relevant rhythm features, including heart rate variability. A-Test evaluation indicated stable error behavior across data splits, suggesting reduced partition sensitivity and improved learning consistency.\n\nCONCLUSIONS: This Transformer-VAE framework integrates signal reconstruction and diagnostic learning to enable accurate and noise-resilient AF detection from PPG signals. Within a healthcare workflow, the model supports wearable screening by generating AF risk indicators and signal-quality cues that can trigger confirmatory single-lead ECG assessment and appropriate clinical follow-up.\n\nTRIAL REGISTRATION: Not applicable.",
-        "authors": [
-          "Lingyu Zhang",
-          "Lin Yuan"
-        ],
-        "published_on": "2026-05-17",
-        "doi": "10.1186/s12880-026-02399-9",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42143257/",
-        "doi_url": "https://doi.org/10.1186/s12880-026-02399-9"
       }
     ],
     "error": null,
@@ -358,6 +367,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-05-31T09:22:16.758430+00:00",
+  "next_refresh_at": "2026-06-01T11:02:08.172382+00:00",
   "next_push_at": null
 }
