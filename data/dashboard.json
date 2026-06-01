@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-05-31T11:02:07.287680+00:00",
-    "last_success_at": "2026-05-31T11:02:08.172382+00:00",
+    "last_attempt_at": "2026-06-01T16:41:44.128951+00:00",
+    "last_success_at": "2026-06-01T16:41:45.141162+00:00",
     "count": 15,
     "papers": [
       {
@@ -130,6 +130,70 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
         "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
+      },
+      {
+        "pmid": "41690150",
+        "title": "A meta-heuristic aided arrhythmia classification model using advanced deep learning technique with multiple feature extraction mechanisms.",
+        "journal": "Computational biology and chemistry",
+        "abstract": "Cardiac arrhythmia poses an important threat to human life; hence it is an urge to diagnose properly. There are numerous mechanisms deployed for the identification of arrhythmias; yet, most of the techniques have been utilized sources such as Electrocardiogram (ECG). The ECG-based manual evaluation by the medical analysts is inaccurate. Some experiments have been concentrated on the accuracy and the speed of the learning method by utilizing Artificial Intelligence (AI), and pattern detection in the classification model. However, there are two primary limitations in the conventional mechanisms; the models demand large training time and demand feature selection on a manual basis. Hence, an intellectual arrhythmia classification model using deep learning is introduced to identify the irregular heartbeat. In the beginning, the required signals are accumulated from standard sources. Further, three different kinds of features are extracted for an efficient automatic classification process of arrhythmia. At first, the deep features are extracted by applying the Conditional Autoencoder, and these features are considered as feature set 1. Further, wave features and spectral features are retrieved from the input signal and these features are considered as feature set 2. Subsequently, the signals are converted into spectrogram images and the Graph Convolutional Neural Network (GCNN) technique is employed to retrieve the feature set 3 from those images. Further, the ensemble feature fusion process takes place to combine all three sets of features. Ensemble features are provided as input for the Optimal Dense Recurrent neural network with Attention Mechanism (ODR-AM) for classifying the arrhythmia. The classifier's performance is boosted by optimizing the parameters using the Augmented Random value of Giant Armadillo Optimization (ARGAO). This model is useful to know about the specific type of arrhythmia. Finally, the simulation findings of the presented model are analyzed with other conventional models.",
+        "authors": [
+          "Jay Raval",
+          "Kamalesh V N",
+          "Dr Raj Kumar Patra"
+        ],
+        "published_on": "2026-02-15",
+        "doi": "10.1016/j.compbiolchem.2026.108917",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41690150/",
+        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
+      },
+      {
+        "pmid": "41664247",
+        "title": "Rosette Cardiac MR Fingerprinting for Simultaneous T1, T2, T 2 * , and Fat Fraction Mapping Using a Multi-Echo Deep Image Prior Reconstruction.",
+        "journal": "Magnetic resonance in medicine",
+        "abstract": "PURPOSE: Quantitative mapping of cardiac tissue properties is used clinically in diagnosis and monitoring of a wide variety of cardiac pathologies. Cardiac Magnetic Resonance Fingerprinting (cMRF) enables rapid and simultaneous quantification of multiple parameters in the myocardium from a single scan. In this work, a multi-echo cMRF acquisition is combined with a deep image prior framework to reconstruct cardiac T1, T2, T 2 * , and fat fraction maps.\n\nMETHODS: A 2D, single-breathhold, ECG-gated rosette trajectory cMRF sequence was deployed to sensitize the signal to T1, T2, T 2 * , and fat off-resonance effects. Data were processed using a deep image prior reconstruction trained with the cMRF encoding model to generate images consistent with the acquired k-space data. These images were used in curve fitting and pattern matching algorithms to generate T1, T2, T 2 * and fat fraction maps. The technique was validated using numerical simulations, standard phantoms, and 28 healthy subjects.\n\nRESULTS: In phantoms, good agreement was observed between the proposed technique and gold-standard reference measurements. In healthy subjects, measurements made with the deep image prior (DIP) reconstruction agreed with clinical cardiac measurements and demonstrated smaller voxel-level variance in a healthy population compared to iterative low-rank and direct matching reconstructions.\n\nCONCLUSION: The multi-echo cMRF acquisition coupled with a DIP reconstruction enables the simultaneous quantification of T1, T2, T 2 * , and fat in the heart and demonstrates good agreement with conventional mapping approaches in phantom and in vivo experiments. Additionally, the DIP reconstruction provides accurate measurements with a lower voxel-level variance compared with direct gridding and iterative low-rank reconstruction methods.",
+        "authors": [
+          "Evan Cummings",
+          "Gastao Cruz",
+          "Jacob Richardson",
+          "Sydney Kaplan",
+          "Jesse Hamilton",
+          "Nicole Seiberlich"
+        ],
+        "published_on": "2026-02-10",
+        "doi": "10.1002/mrm.70299",
+        "publication_types": [
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
+        "doi_url": "https://doi.org/10.1002/mrm.70299"
+      },
+      {
+        "pmid": "41570107",
+        "title": "A 1.69$\\mu$J Highly Robust Cardiac Arrhythmia Monitoring Processor With Triple-Adaptive QRS Detector and Medically Driven Feature-Fusion Hybrid Neural Networks.",
+        "journal": "IEEE transactions on biomedical circuits and systems",
+        "abstract": "The detection of arrhythmias is crucial in monitoring cardiac health. However, electrocardiogram (ECG) signals obtained from wearable devices are often compromised by noise, including electrode motion artifacts, baseline wander, and muscle artifacts. This paper addresses these challenges by proposing a highly robust cardiac health monitoring processor featuring a cascaded triple-adaptive QRS detector and medically driven feature-fusion hybrid neural networks (HNN) for arrhythmia classification. The QRS detector uses a self-adaptive triple-threshold mechanism that dynamically correlates duration, RR interval, and error correction thresholds, allowing it to accurately identify QRS complex features in noisy signals, facilitated by event-driven sampling. The HNN arrhythmia classifier combines long short-term memory (LSTM) and artificial neural network architectures with three medically driven pathological feature fusion, achieving improved computational efficiency. The prototype is fabricated using the 65-nm CMOS process. The results reveal three findings. First, the total and dynamic power are 2.53 $\\mu$W and 0.072 $\\mu$W, respectively, and the all-digital implementation achieves the 0.99 mm${}^{2}$ area. Second, the average R-peak detection sensitivity/precision rates exceed 97.38%/97.08% on the MIT-BIH Noise Stress Test Database, and inter-patient classification accuracy exceeds 90.1% on the MIT-BIH Arrhythmia Database under a 6 dB signal-to-noise ratio (SNR). Third, the system achieves low computational complexity with only 2063 parameters and 5.5 KB of SRAM.",
+        "authors": [
+          "Weihao Wang",
+          "Xuecong Lu",
+          "Guangshun Wei",
+          "Gexuan Wu",
+          "Guanglin Deng",
+          "Wenliang Chen",
+          "Yunfeng Huang",
+          "Kong-Pang Pun",
+          "Bing Li"
+        ],
+        "published_on": "2026-01-22",
+        "doi": "10.1109/TBCAS.2026.3653683",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41570107/",
+        "doi_url": "https://doi.org/10.1109/TBCAS.2026.3653683"
       },
       {
         "pmid": "42218208",
@@ -294,67 +358,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42196938/",
         "doi_url": "https://doi.org/10.3390/diagnostics16101572"
-      },
-      {
-        "pmid": "42174902",
-        "title": "Architecture-Specific Impact of Preprocessing on Machine Learning Models for ECG Classification.",
-        "journal": "Studies in health technology and informatics",
-        "abstract": "Automated analysis of electrocardiograms relies increasingly on deep learning models. In these models, preprocessing steps may often be applied under the assumption that they inherently improve performance. This study investigates the effects of signal cleaning, trend removal, and normalization on six leading deep learning architectures for electrocardiogram classification, based on the well-established PTB-XL dataset, a widely used reference standard in electrocardiogram (ECG) data analysis. By exhaustively evaluating 24 combinations of preprocessing techniques with each model, and repeating each trial ten times for robustness, we find a surprising degree of architecture-dependent sensitivity. Notably, convolutional neural networks performed best when raw, unnormalized electrocardiograms are used, in direct contradiction to prevailing assumptions. In contrast, wavelet-based models benefited substantially from trend removal, while transformer-based models demonstrated robustness across a broad range of preprocessing options. These findings suggest that preprocessing pipelines should be designed with specific model architectures in mind, challenging the conventional wisdom of applying normalization in preprocessing for bounded signal data.",
-        "authors": [
-          "Lucas Bickmann",
-          "Lucas Plagwitz",
-          "Antonius Büscher",
-          "Julian Varghese"
-        ],
-        "published_on": "2026-05-23",
-        "doi": "10.3233/SHTI260227",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42174902/",
-        "doi_url": "https://doi.org/10.3233/SHTI260227"
-      },
-      {
-        "pmid": "42162090",
-        "title": "A reproducible benchmark of QRS detection algorithms across diverse ECG datasets and noise conditions.",
-        "journal": "Scientific reports",
-        "abstract": "Accurate R-peak detection in electrocardiograms is critical for heart rate monitoring, heart rate variability analysis, and cardiac condition diagnosis. However, reliable detection remains challenging in real-world scenarios due to noise, artifacts, and signal variability. A key limitation in current research is the lack of reproducibility and comparability, as algorithms are often tested on varying datasets, hindering direct performance comparisons. To address this, we benchmark 17 R-peak detection algorithms, encompassing traditional signal processing, machine learning, and deep learning approaches, within a unified evaluation framework using five open-access ECG datasets from the PhysioNet platform. These databases represent diverse conditions, including long-term monitoring, arrhythmias, and noisy environments, enabling a standardized evaluation. Our results reveal that under a strict cross-dataset generalization setting, in which ML and DL models were trained on a single dataset without any target-domain adaptation, traditional signal processing methods provided more consistent overall performance. This highlights a trade-off between peak performance on familiar data and generalizable performance under distribution shift, whose extent for data-driven methods may depend substantially on training diversity. To support reproducibility and future benchmarking, we provide a fully open evaluation framework including all implementations, dataset references, and evaluation pipelines. These findings offer guidance for researchers and clinicians selecting R-peak detection algorithms for diverse clinical and practical scenarios.",
-        "authors": [
-          "Simon Maximilian Wolf",
-          "Tim Rahlmeier",
-          "Stefan Lustfeld",
-          "Detlef Schoder"
-        ],
-        "published_on": "2026-05-21",
-        "doi": "10.1038/s41598-026-53724-9",
-        "publication_types": [
-          "Journal Article",
-          "Research Support, Non-U.S. Gov't"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42162090/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-53724-9"
-      },
-      {
-        "pmid": "42091074",
-        "title": "EdgeECG: a lightweight edge-oriented network with dual criterion pruning for real-time ECG arrhythmia classification.",
-        "journal": "Physiological measurement",
-        "abstract": "Objective.Miniature electrocardiogram (ECG) devices can rapidly and accurately acquire real-time cardiac signals, enabling timely warnings for patients with heart disease. To achieve accurate arrhythmia classification on resource-constrained ECG edge devices, we propose EdgeECG, an ultra-lightweight neural network designed for deployment on low-power microcontrollers.Approach.EdgeECG is first designed with a compact convolutional architecture to ensure compatibility with resource-limited embedded platforms. A dual criterion pruning (DCP) strategy is then introduced to evaluate weight importance using both magnitude and median deviation for more precise model compression. In addition, quantization is applied to reduce storage cost and improve deployment efficiency on an STM32F103 microcontroller.Main results.Experimental results on the benchmark MIT-BIH arrhythmia dataset show that EdgeECG achieves an overall classification accuracy of 98.07%, outperforming several representative methods. In patient-independent record-level evaluation, the accuracy reaches 80.73%. The model contains only 2680 parameters and is successfully deployed on an STM32F103 microcontroller with 64 KB SRAM, achieving an inference latency of 0.025 s and an energy consumption of 0.156 mJ per inference. In addition, DCP reduces the number of non-zero parameters by nearly 50% while maintaining promising classification performance.Significance.EdgeECG provides an effective solution for five-class ECG arrhythmia classification on severely resource-constrained edge devices. Its compact architecture, effective pruning strategy, and successful deployment on an STM32F103 demonstrate its potential for low-power edge-based ECG analysis and wearable cardiac monitoring applications. The source code of EdgeECG is publicly available at:https://github.com/jyanhuang/EdgeECG-code.",
-        "authors": [
-          "Jiayan Huang",
-          "Chuansheng Wang",
-          "Antoni Grau",
-          "Yongyi Xiao",
-          "Shaoye Luo",
-          "Yan Che",
-          "Zuoyong Li"
-        ],
-        "published_on": "2026-05-07",
-        "doi": "10.1088/1361-6579/ae696a",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42091074/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/ae696a"
       }
     ],
     "error": null,
@@ -367,6 +370,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-01T11:02:08.172382+00:00",
+  "next_refresh_at": "2026-06-02T16:41:45.141162+00:00",
   "next_push_at": null
 }
