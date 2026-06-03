@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-02T18:43:49.583418+00:00",
-    "last_success_at": "2026-06-02T18:43:49.994848+00:00",
+    "last_attempt_at": "2026-06-03T18:49:32.604987+00:00",
+    "last_success_at": "2026-06-03T18:49:33.446205+00:00",
     "count": 15,
     "papers": [
       {
@@ -41,6 +41,29 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
         "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
+        "pmid": "42234295",
+        "title": "pedQTNet: A Deep Learning Approach to Estimate Corrected QT Intervals from Multi-Lead Conventional ECG Waveforms in Pediatric Patients.",
+        "journal": "Journal of medical systems",
+        "abstract": "Long QT syndrome (LQTS) is a primary risk factor for ventricular arrhythmias and sudden cardiac death in children. Accurate corrected QT intervals (QTc) measurement is imperative but challenging for non-heart-rhythm specialists, especially in children. We developed and evaluated pedQTNet, a deep neural network model for estimating QTc and detecting LQTS in pediatric patients. We analyzed a cohort of 37,992 patients aged 0-18 years with 65,370 ECGs annotated by pediatric electrophysiologists (PEPs) between 2010 and 2020. Using PEP-annotated QTc measurements as ground truth, pedQTNet was trained and calibrated on raw ECG waveforms to optimize QTc estimation and LQTS classification. Performance was compared to GE Healthcare's Marquette 12SL algorithm, and to PEPs in cross-validation, as well as an additional prospective set of 200 ECGs. In 10-fold cross-validation, pedQTNet estimated QTc's with a mean absolute error (MAE) of 18.8 ms (95% CI: 18.4-19.2) and predicted LQTS at 470 ms with 85% sensitivity (83%-87%), 87% specificity (87%-88%), positive likelihood ratio (PLR) of 6.7 (6.5-7.0), and negative likelihood ratio (NLR) of 0.17 (0.15-0.19), outperforming Marquette 12SL. In the prospective set, pedQTNet had higher sensitivity than PEPs (100% [69%-100%] vs. 71% [53%-85%], P < 0.05), and a lower but not statistically significant NLR (0.00 [0.00-0.70] vs. 0.30 [0.18-0.50], P = 0.2). PedQTNet demonstrated high QTc estimation accuracy and reliable LQTS detection, outperforming a commercial tool and on par with expert interpretation. Its strong performance supports its clinical use for scalable, automated pediatric ECG screening and LQTS risk assessment, offering a practical tool for enhancing pediatric cardiac care.",
+        "authors": [
+          "Victor M Ruiz",
+          "Ivor B Asztalos",
+          "Luiz E V Silva",
+          "Lingyun Shi",
+          "V Ramesh Iyer",
+          "Dustin Nash",
+          "Victoria L Vetter",
+          "Fuchiang Rich Tsui"
+        ],
+        "published_on": "2026-06-03",
+        "doi": "10.1007/s10916-026-02386-1",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42234295/",
+        "doi_url": "https://doi.org/10.1007/s10916-026-02386-1"
       },
       {
         "pmid": "42182049",
@@ -339,23 +362,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200278/",
         "doi_url": "https://doi.org/10.1161/CIRCIMAGING.126.019610"
-      },
-      {
-        "pmid": "42186368",
-        "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
-        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
-        "abstract": "Background The classification of electrocardiogram (ECG) signals is a critical task in detecting cardiac arrhythmias. However, challenges such as class imbalance and the need to capture both local and global temporal patterns make this problem complex.ObjectiveIn this study, a hybrid deep learning model, called MBViT-FocalGA, is proposed for the classification of electrocardiogram ECG signals.MethodsThe proposed model combines a Multi-branch Vision Transformer (MBViT) architecture with a Focal Loss function optimized via a Genetic Algorithm (GA) called as MBViT-FocalGA. Thanks to three independent ViT branches operating at different patch sizes, the model can effectively learn both local and global timing patterns from ECG signals. Furthermore, the class imbalance problem frequently encountered in arrhythmia data is mitigated by optimizing the hyperparameters of the Focal Loss function with GA, improving the recognition of minority classes. The model's performance was evaluated on the MIT-BIH Arrhythmia Database in two different scenarios: (i) a two-class scenario combined into normal (N) and others (O), and (ii) a five-class scenario consisting of N, L, R, A, and V.ResultsExperimental results demonstrate that the MBViT-FocalGA model achieves superior classification performance with 98% overall accuracy and a high F1 score, outperforming classical deep learning models for both scenarios.ConclusionThese findings demonstrate the strong potential of transformer-based architectures and adaptive loss function optimizations in ECG classification.",
-        "authors": [
-          "Zeynep Garip",
-          "Ekin Ekinci"
-        ],
-        "published_on": "2026-05-26",
-        "doi": "10.1177/09287329261446510",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
-        "doi_url": "https://doi.org/10.1177/09287329261446510"
       }
     ],
     "error": null,
@@ -368,6 +374,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-03T18:43:49.994848+00:00",
+  "next_refresh_at": "2026-06-04T18:49:33.446205+00:00",
   "next_push_at": null
 }
