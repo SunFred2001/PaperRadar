@@ -18,10 +18,32 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-03T18:49:32.604987+00:00",
-    "last_success_at": "2026-06-03T18:49:33.446205+00:00",
+    "last_attempt_at": "2026-06-04T21:00:05.577701+00:00",
+    "last_success_at": "2026-06-04T21:00:06.029108+00:00",
     "count": 15,
     "papers": [
+      {
+        "pmid": "42155349",
+        "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
+        "journal": "Computer methods and programs in biomedicine",
+        "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
+        "authors": [
+          "Arkadiusz Czerwinski",
+          "Damian Kucharski",
+          "Jacek Kawa",
+          "Yalin Zheng",
+          "Gregory Y H Lip",
+          "Jakub Nalepa",
+          "Agata M Wijata"
+        ],
+        "published_on": "2026-05-20",
+        "doi": "10.1016/j.cmpb.2026.109428",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
+        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
       {
         "pmid": "41933676",
         "title": "Anxiety detection using neural and physiological signals and artificial intelligence: A comprehensive review.",
@@ -41,6 +63,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
         "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
+        "pmid": "42236839",
+        "title": "ScaHybNet: a scalogram-based hybrid ensemble network for ECG arrhythmia classification.",
+        "journal": "Scientific reports",
+        "abstract": "Cardiovascular diseases are the leading cause of death in the world, requiring the accurate and timely detection of arrhythmias to prevent sudden cardiac death. In this work, ScaHybNet, a deep learning ensemble model is proposed for multi-class arrhythmia classification using the widely adopted ECG Heartbeat Categorization Dataset. The dataset comprises 109,446 samples across five heartbeat classes (N, S, V, F, Q), enabling comprehensive arrhythmia analysis. The proposed method first transforms the ECG signals to 224 × 224 RGB-scalogram images using CWT with the Morlet wavelet. Then, a hybrid model is developed, which is composed of (1) a residual block-based CNN with skip connections to learn spatial features, (2) a BiLSTM layer for learning temporal features from the CNN feature maps and (3) a Transformer encoder layer with a custom-built multi-head self-attention mechanism to capture long-term dependencies. Thus, to address the extreme class imbalance within the data, stratified balancing of the data among normal beat, supraventricular ectopic beat, ventricular ectopic beat, fusion beat, and unknown beat, and inverse-frequency class weighting were performed. They assessed model robustness using fivefold cross-validation. Hyperparameters set to final values included a batch size of 2, 150 epochs, and an Adam optimizer. Ensemble train accuracy 99.81% and the mean accuracy on the fivefold cross validation set was 90.42% ± 1.26 (std) for ScaHybNet. On the test set (unseen data), it showed a total ensemble test accuracy of 94.73%, precision of 76.51%, recall of 82.93%, and F1-score of 77.40%. The ablation test proved the joint efficacy of each part of the model, and state-of-the-art analysis revealed better or equal results on current standards regarding ECG data with noise and imbalance. ScaHybNet appears to offer the potential to act as a more patient-centric tool that could offer considerable benefits to the medical field.",
+        "authors": [
+          "Sonam Nagar",
+          "Karan Verma",
+          "Sachin Singh",
+          "Kumar Shashvat"
+        ],
+        "published_on": "2026-06-04",
+        "doi": "10.1038/s41598-026-53755-2",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42236839/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-53755-2"
       },
       {
         "pmid": "42234295",
@@ -188,8 +229,7 @@
         "published_on": "2026-02-10",
         "doi": "10.1002/mrm.70299",
         "publication_types": [
-          "Journal Article",
-          "Research Support, N.I.H., Extramural"
+          "Journal Article"
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
         "doi_url": "https://doi.org/10.1002/mrm.70299"
@@ -297,71 +337,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42203798/",
         "doi_url": "https://doi.org/10.1038/s41598-026-45518-w"
-      },
-      {
-        "pmid": "42200397",
-        "title": "Fully Biobased, Robust, and High-Conductivity Hydrogel for High-Fidelity Electrophysiological Monitoring and Deep Learning-Assisted Stroke Rehabilitation.",
-        "journal": "ACS applied materials & interfaces",
-        "abstract": "Developing sustainable bioelectronics that simultaneously integrate mechanical robustness, high conductivity, biocompatibility, and system-level functionality remains a fundamental challenge. Here, we report a Hofmeister-engineered, fully biobased hydrogel platform (GT2C20) that addresses these limitations through a synergistic dual physical cross-linking network. By combining citrate-induced chain compaction and continuous ionic transport pathways, this hydrogel achieves high tensile strength (0.73 MPa), large extensibility (272.5%), and high electrical conductivity (1.8 S m-1), overcoming intrinsic trade-offs in conventional gelatin-based systems. Building on these properties, GT2C20 enables an integrated multifunctional bioelectronic system. As a skin-conformal bioelectrode, it provides high-fidelity acquisition of electrophysiological signals (ECG, EEG, and EMG), achieving a high signal-to-noise ratio (24.3 dB for ECG) compared to commercial Ag/AgCl electrodes. When integrated with deep learning algorithms, the platform enables autonomous assessment of Brunnstrom stages for stroke rehabilitation with an accuracy of 97.31%, while a wireless telemedicine system supports remote diagnosis and personalized healthcare management. In parallel, the hydrogel functions as a highly stable strain sensor for real-time motion monitoring and precise gesture recognition, enabling intuitive control of prosthetic devices. Additionally, the hydrogel acts as a triboelectric nanogenerator electrode, yielding an open-circuit voltage of 72.1 V to power its own functions, while a microcontroller system supports wireless telemedicine and remote rehabilitation monitoring. This work presents an eco-friendly strategy for fabricating high-performance, biobased flexible electronics suited for health monitoring, telemedicine, and soft robotics.",
-        "authors": [
-          "Zhoujing Chen",
-          "Didi Wen",
-          "Xiaoli Liang",
-          "Yuqi Li",
-          "Yongkang Bai"
-        ],
-        "published_on": "2026-05-27",
-        "doi": "10.1021/acsami.6c03687",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200397/",
-        "doi_url": "https://doi.org/10.1021/acsami.6c03687"
-      },
-      {
-        "pmid": "42200278",
-        "title": "Multimodal Artificial Intelligence for Cardiac Amyloidosis Diagnosis: Integrating Echocardiography With Clinical and Laboratory Data for Improved Detection.",
-        "journal": "Circulation. Cardiovascular imaging",
-        "abstract": "BACKGROUND: Cardiac amyloidosis (CA) is an underdiagnosed yet treatable cause of heart failure in which timely diagnosis is essential to initiate life-prolonging therapies. While artificial intelligence (AI)-based tools using transthoracic echocardiography (TTE), electrocardiography, or electronic health records have demonstrated promise for CA detection, most rely on single data sources. We aimed to evaluate whether integrating clinical, laboratory, and TTE biomarkers improves the performance of an existing TTE-based AI model for CA detection.\n\nMETHODS: We developed and tested a combined AI echo-clinical model (AI-ECM) incorporating demographics, laboratory biomarkers, and TTE parameters into a previously validated TTE-only AI model (Us2.Ca). Model training and internal validation were performed using the Amyloidosis Imaging International Consortium, a global multiethnic registry comprised of 727 patients with CA and 316 controls, including 202 with suspected transthyretin-CA with negative diagnostic evaluation and 114 patients with biopsy-proven extracardiac light chain amyloidosis without cardiac involvement. Ground truth CA diagnosis was adjudicated per consensus criteria. AI-ECM and Us2.Ca performance was assessed using area under the curve, accuracy, sensitivity, and specificity.\n\nRESULTS: In building the AI-ECM, feature importance analysis showed that having the Us2.Ca prediction scores, relative wall thickness, gender, and estimated glomerular filtration rate contributed most to performance. The AI-ECM demonstrated superior performance (area under the curve, 0.94; accuracy, 90%; sensitivity, 93%; specificity, 85%) compared with the Us2.Ca (area under the curve, 0.89; accuracy, 80%; sensitivity, 76%; specificity, 91%; P=0.006). While the Us2.Ca model classification was indeterminate in 9% of the cases, the AI-ECM allowed classification of all cases. The AI-ECM improved sensitivity for light chain-CA detection and maintained high accuracy across subtypes and control groups.\n\nCONCLUSIONS: A multiparametric AI model integrating basic clinical, laboratory, and TTE data with the deep learning Us2.Ca improved performance for CA detection over Us2.Ca alone. This approach represents a step toward scalable, AI-guided precision diagnostics for CA in diverse populations.",
-        "authors": [
-          "Jeremy A Slivnick",
-          "Sze Chi Lim",
-          "Michael Randazzo",
-          "Mathew S Maurer",
-          "Stephen Helmke",
-          "Marielle Scherrer-Crosbie",
-          "Azin Vakilpour",
-          "Karolina M Zareba",
-          "Akash Goyal",
-          "Richard Cheng",
-          "Nicole Wakamatsu",
-          "Tetsuji Kitano",
-          "Masaaki Takeuchi",
-          "Viviane Tiemi Hotta",
-          "Marcelo Luiz Campos Vieira",
-          "Pablo Elissamburu",
-          "Ricardo E Ronderos",
-          "Aldo Prado",
-          "Efstratios Koutroumpakis",
-          "Anita Deswal",
-          "Amit Pursnani",
-          "Nitasha Sarswat",
-          "Karima Addetia",
-          "Juan Cotella",
-          "Frederick L Ruberg",
-          "Matthew Frost",
-          "Marianna Fontana",
-          "Carolyn Lam Su Ping",
-          "Roberto M Lang",
-          "Federico M Asch"
-        ],
-        "published_on": "2026-05-27",
-        "doi": "10.1161/CIRCIMAGING.126.019610",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200278/",
-        "doi_url": "https://doi.org/10.1161/CIRCIMAGING.126.019610"
       }
     ],
     "error": null,
@@ -374,6 +349,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-04T18:49:33.446205+00:00",
+  "next_refresh_at": "2026-06-05T21:00:06.029108+00:00",
   "next_push_at": null
 }
