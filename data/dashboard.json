@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-04T21:00:05.577701+00:00",
-    "last_success_at": "2026-06-04T21:00:06.029108+00:00",
+    "last_attempt_at": "2026-06-05T21:38:42.974568+00:00",
+    "last_success_at": "2026-06-05T21:38:43.303526+00:00",
     "count": 15,
     "papers": [
       {
@@ -63,6 +63,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
         "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
+        "pmid": "42242104",
+        "title": "Electrocardiogram-based short-term risk stratification for acute kidney injury using time-frequency deep learning analysis.",
+        "journal": "Computers in biology and medicine",
+        "abstract": "BACKGROUND AND OBJECTIVES: Acute kidney injury (AKI) is a common and clinically important complication in critically ill and perioperative patients. Conventional AKI diagnosis relies primarily on serum creatinine and urine output, which may reflect renal injury only after physiological deterioration has already occurred. Therefore, non-invasive physiological signals may provide complementary information for earlier AKI risk assessment. This study aimed to develop and preliminarily validate an electrocardiogram-based time-frequency deep learning framework, termed FFT-ECG, for short-term risk stratification of any-stage AKI within a 24-h prediction window.\n\nMETHODS: The FFT-ECG model was developed using 5673 standard 12-lead ECG segments from 4236 patients in MIMIC-IV-ECG. All ECG leads underwent the same preprocessing pipeline, including 0.5-100 Hz band-pass filtering, 60 Hz notch filtering, extraction of the central 8-s segment, robust normalization, and padding to 4096 samples. The model used a dual-path convolutional architecture to process time-domain signals and frequency-domain representations in parallel, followed by BiGRU and attention modules. A binary classifier was trained for any-AKI prediction within 24 h after ECG acquisition, and a discrete-time survival model was used to estimate interval-specific AKI risk across four 6-h intervals. In addition to internal validation of the 12-lead model, a single-lead II model was evaluated internally and externally in VitalDB for binary any-AKI prediction only. Model evaluation included ablation analysis, decision curve analysis, survival-based risk stratification, baseline characteristic comparisons with multiple-comparison correction, and attention-based waveform localization analysis.\n\nRESULTS: In the internal MIMIC-IV 12-lead test set, FFT-ECG achieved an AUROC of 0.736 (95% CI, 0.689-0.779), an AUPRC of 0.694 (95% CI, 0.627-0.749), an accuracy of 0.692, a sensitivity of 0.609, and a specificity of 0.755 for binary any-AKI prediction. The discrete-time survival model achieved a C-index of 0.647. Decision curve analysis suggested a higher net benefit than treat-all and treat-none strategies across selected threshold probabilities. The single-lead II model showed comparable internal discrimination in MIMIC-IV, with an AUROC of 0.757 (95% CI, 0.714-0.799), but showed attenuated performance in VitalDB external validation, with an AUROC of 0.550 (95% CI, 0.512-0.587) and an AUPRC of 0.088 (95% CI, 0.074-0.107). Attention localization analysis showed that the highest attention mass was concentrated around the R-wave upslope and downslope regions, followed by the Q wave, ST segment, and PR segment. These attention findings were interpreted as hypothesis-generating saliency patterns rather than direct mechanistic evidence.\n\nCONCLUSION: FFT-ECG demonstrated promising preliminary internal performance for ECG-based short-term any-AKI risk stratification. However, the reduced performance in VitalDB external validation indicates that model transportability remains limited across ECG acquisition settings, patient populations, and outcome definitions. These findings support the feasibility of ECG-based AKI risk assessment as an adjunctive early-warning approach, while emphasizing the need for model recalibration, domain adaptation, and prospective multicenter validation before clinical implementation.",
+        "authors": [
+          "Weiqiao Wang",
+          "Yiyang Cen",
+          "Yuanzhao Li",
+          "Yi Xin"
+        ],
+        "published_on": "2026-06-05",
+        "doi": "10.1016/j.compbiomed.2026.111778",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42242104/",
+        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111778"
       },
       {
         "pmid": "42236839",
@@ -319,24 +338,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42167275/",
         "doi_url": "https://doi.org/10.1088/2057-1976/ae7119"
-      },
-      {
-        "pmid": "42203798",
-        "title": "An enhanced hypergraph CNN with adaptive focal loss for automated ECG heartbeat classification.",
-        "journal": "Scientific reports",
-        "abstract": "Deep learning techniques have shown significant promise for the automated diagnosis of CVD using ECG analysis. Nevertheless, several critical challenges persist with current approaches: severe class imbalance, intricate temporal dependencies, and poor modeling of inter-beat relationships ultimately limit clinical applicability. This work presents a novel hybrid deep learning framework that combines a CNN for time-domain feature extraction, k-nearest neighbor-based hypergraph construction with cosine similarity to model inter-beat dependencies, and a residual-connection-enhanced hypergraph neural network (EHGNN) for robust classification. To address class imbalance, focal loss is implemented with adaptive class weighting. For evaluation, our model was tested on two benchmark datasets: the MIT-BIH Arrhythmia Database and the St. Petersburg Institute of Cardiological Technics (INCART) 12-lead Arrhythmia Database. In the case of the MITBIH dataset, a classification accuracy of 98.66% was achieved using the AAMI five-class classification system, whereas the results indicated a three-class arrhythmia detection accuracy of 95.46% for the INCART database. The model demonstrated consistent performance on two separate data sets, thus emphasizing its ability to generalize well. These results confirm that the proposed framework effectively addresses class imbalance through focal loss and SMOTE, temporal dependencies through CNN-based feature extraction, and inter-beat relationships through EHGNN, demonstrating great potential for clinical diagnostic systems by capturing complex heartbeat patterns that are otherwise overlooked by standard models.",
-        "authors": [
-          "Akash Vijayan",
-          "Suchetha Manikandan",
-          "Deepak Joshi"
-        ],
-        "published_on": "2026-05-28",
-        "doi": "10.1038/s41598-026-45518-w",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42203798/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-45518-w"
       }
     ],
     "error": null,
@@ -349,6 +350,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-05T21:00:06.029108+00:00",
+  "next_refresh_at": "2026-06-06T21:38:43.303526+00:00",
   "next_push_at": null
 }
