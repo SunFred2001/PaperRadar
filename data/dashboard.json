@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-05T21:38:42.974568+00:00",
-    "last_success_at": "2026-06-05T21:38:43.303526+00:00",
+    "last_attempt_at": "2026-06-06T23:07:48.566943+00:00",
+    "last_success_at": "2026-06-06T23:07:48.961982+00:00",
     "count": 15,
     "papers": [
       {
@@ -254,6 +254,24 @@
         "doi_url": "https://doi.org/10.1002/mrm.70299"
       },
       {
+        "pmid": "41591858",
+        "title": "MD-ViSCo: A Unified Model for Multi-Directional Vital Sign Waveform Conversion.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Despite the remarkable progress of deep-learning methods generating a target vital sign waveform from a source vital sign waveform, most existing models are designed exclusively for a specific source-to-target pair. This requires distinct model architectures, and optimization procedures, hindering usability in clinical settings. To address this limitation, we propose the Multi-Directional Vital-Sign Converter (MD-ViSCo), a unified framework capable of generating any target waveform such as electrocardiogram (ECG), photoplethysmogram (PPG), or arterial blood pressure (ABP) from any single input waveform with a single model. MD-ViSCo employs a 1-Dimensional U-Net integrated with a Swin Transformer that leverages Adaptive Instance Normalization (AdaIN) to capture distinct waveform styles. To evaluate the efficacy of MD-ViSCo, we conduct multi-directional waveform generation on publicly available datasets. Our framework surpasses state-of-the-art baselines (NabNet & PPG2ABP) on average across all waveform types, lowering Mean absolute error (MAE) by 8.8% and improving Pearson correlation (PC) by 4.9% over two datasets. In addition, the generated ABP waveforms satisfy the Association for the Advancement of Medical Instrumentation (AAMI) criterion and achieve Grade B on the British Hypertension Society (BHS) standard. Additionally, for the downstream Atrial Fibrillation (AF) classification task, our generated ECG demonstrates superior performance over baselines, highlighting its clinical utility. By eliminating the need for developing a distinct model for each task, we believe that this work offers a unified framework that can deal with any kind of vital sign waveforms with a single model.",
+        "authors": [
+          "Franck Meyer",
+          "Kyunghoon Hur",
+          "Edward Choi"
+        ],
+        "published_on": "2026-01-27",
+        "doi": "10.1109/JBHI.2025.3639315",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41591858/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2025.3639315"
+      },
+      {
         "pmid": "41570107",
         "title": "A 1.69$\\mu$J Highly Robust Cardiac Arrhythmia Monitoring Processor With Triple-Adaptive QRS Detector and Medically Driven Feature-Fusion Hybrid Neural Networks.",
         "journal": "IEEE transactions on biomedical circuits and systems",
@@ -278,6 +296,25 @@
         "doi_url": "https://doi.org/10.1109/TBCAS.2026.3653683"
       },
       {
+        "pmid": "41259171",
+        "title": "Cardiac Arrhythmia Classification From Lead I ECG Recorded in a Free-Living Environment.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "OBJECTIVE: Cardiac diseases are a leading cause of global mortality. Electrocardiograms (ECGs) are essential for detecting abnormal cardiac rhythms. Smartwatches can record ECGs, similar to lead I ECGs recorded by a patient vitals monitor in a hospital, potentially helping clinicians in early diagnosis and improved management of cardiovascular diseases. While AI models have classified arrhythmias with human-level accuracy, their potential for broad screening remains underutilized.\n\nMETHODS: We propose a deep learning based framework for diagnosing various cardiac arrhythmias using 10-second lead I ECG recordings, demonstrating lead I's utility in remote monitoring. Robustness was tested by introducing noise to simulate real-world conditions. Additionally, a novel data similarity assessment metric was developed to enhance transfer learning and external dataset validation.\n\nRESULTS: Using over 60,000 ECGs from the PhysioNet Challenge 2021, the trained model classified clean lead I ECGs in one dataset with a test-fold area under receiver operating characteristic curve (AUC), sensitivity, and specificity of 0.915, 0.867 and 0.858 respectively. For signals with 0 dB signal-to-noise ratio from the same dataset, the respective performance metrics dropped slightly to 0.899, 0.862 and 0.818. External validation across three separate datasets showed a minimum AUC of 0.807. The data similarity metric outperformed an existing method in improving classification, particularly with limited target dataset samples, i.e. 50.\n\nCONCLUSION: The proposed Cardiac Arrhythmia Risk Evaluation from Lead-I ECG (CARE-I) framework enables accurate arrhythmia detection across diverse populations in real-world noisy environments, thus enhancing model generalisation and early diagnosis.",
+        "authors": [
+          "Ismail Sadiq",
+          "Haneya N Qureshi",
+          "Ali Rizwan",
+          "Ali Imran"
+        ],
+        "published_on": "2025-11-19",
+        "doi": "10.1109/JBHI.2025.3634307",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41259171/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2025.3634307"
+      },
+      {
         "pmid": "39956971",
         "title": "Sleep-wake stages classification based on single channel ECG signals by using a dynamic connection convolutional neural network.",
         "journal": "Computer methods in biomechanics and biomedical engineering",
@@ -295,49 +332,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39956971/",
         "doi_url": "https://doi.org/10.1080/10255842.2025.2465358"
-      },
-      {
-        "pmid": "42218208",
-        "title": "Long-term continuous monitoring of wearable ECG signals for atrial fibrillation detection.",
-        "journal": "Scientific reports",
-        "abstract": "Atrial Fibrillation (AFib) is the most common sustained cardiac arrhythmia and is associated with substantial morbidity and mortality, including increased risk of stroke and heart failure. Accurate detection of AFib in long-term electrocardiographic (ECG) monitoring is essential for timely diagnosis and early clinical intervention, particularly in ambulatory settings using wearable devices. In this study, we evaluate the performance of a lightweight convolutional neural network (CNN) for automated AFib detection, initially trained on the CinC2021 dataset and subsequently fine-tuned with real-world wearable ECG data. The model was validated across three independent datasets: InCorDB, CODE15, and the TRAdA cohort, with the latter representing long-term ECG monitoring from wearable devices. The TRAdA cohort comprised 173 subjects (87 with AFib and 86 healthy subjects) with continuous ECG recordings obtained over 24 h in Phase 1 (56 subjects) and 7 days in Phase 2 (117 subjects). In total, the dataset included 165,175 annotated ECG segments, including 24,252 AFib episodes. The fine-tuned model demonstrated superior performance compared to the original model on the TRAdA cohort, indicating improved adaptation to wearable ECG signals. On the Phase 2 dataset, the fine-tuned model achieved higher specificity (0.971 vs. 0.914), F1-score (0.891 vs. 0.777), area under the receiver operating characteristic curve (AUC; 0.992 vs. 0.988), and accuracy (0.969 vs. 0.924), highlighting its enhanced ability to detect AFib in extended real-world monitoring scenarios. These findings demonstrate that the domain adaptive fine-tuning significantly enhances AFib detection in long-term wearable ECG monitoring. Our findings support the feasibility of lightweight deep learning models for reliable AFib screening in real-world ambulatory settings.",
-        "authors": [
-          "Estela Ribeiro",
-          "Quenaz B Soares",
-          "Douglas A Almeida",
-          "Jaqueline J Pereira",
-          "Renata G S Verardino",
-          "Tallita C Reis",
-          "Denival N Vieira-Junior",
-          "Nelson Samesima",
-          "Rosangela Monteiro",
-          "Fábio B Jatene",
-          "Marco A Gutierrez"
-        ],
-        "published_on": "2026-05-31",
-        "doi": "10.1038/s41598-026-54532-x",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42218208/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-54532-x"
-      },
-      {
-        "pmid": "42167275",
-        "title": "Stabilizing neuromorphic ECG processors via adaptive fractional fatigue.",
-        "journal": "Biomedical physics & engineering express",
-        "abstract": "Spiking neural networks (SNNs) deployed on wearable devices can exhibit runaway firing when processing noisy electrocardiogram (ECG) signals, increasing switching activity and dynamic power and destabilising power regulation. To suppress redundant firing while preserving ECG classification performance, we introduce the adaptive fractional fatigue (AFF) SNN, which equips each hidden neuron with a power-law weighted memory buffer of its past membrane states, thereby forming a fractionally-inspired activity trace that drives an adaptive threshold: as the accumulated trace rises with sustained firing, the effective threshold increases and suppresses further spikes, implementing an intrinsic negative feedback loop. Ten independent seeds were evaluated with a fixed random train/test split of2969/743heartbeat windows (lengthT=180;3712balanced windows total;1856normal,1856arrhythmia) drawn from three publicly available Massachusetts Institute of Technology-Beth Israel Hospital records, with spikes per sample as the primary energy proxy and test accuracy and the area under the receiver operating characteristic curve as secondary endpoints. Spikes/sample decreased from2384.990±537.719(integer-order) to891.481±227.654(AFF), a62.62%reduction (bootstrap 95% confidence interval[54.00%,69.35%]), which was statistically significant (pairedt-testp=0.000015two-sided; Wilcoxon signed-rankp=0.001953two-sided; paired effect sizedz=-2.662). Accuracy was preserved (78.923±1.725%vs79.206±1.541%; pairedt-testp=0.227761), and cross-seed spike variance decreased by a factor of5.58×. AFF suppresses noise-driven hyperactivity and stabilises event traffic, delivering a statistically significant reduction in spikes/sample without accuracy loss and improving predictability for low-power neuromorphic ECG deployment.",
-        "authors": [
-          "Yiğit Aydoğan",
-          "Richard Yang"
-        ],
-        "published_on": "2026-05-22",
-        "doi": "10.1088/2057-1976/ae7119",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42167275/",
-        "doi_url": "https://doi.org/10.1088/2057-1976/ae7119"
       }
     ],
     "error": null,
@@ -350,6 +344,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-06T21:38:43.303526+00:00",
+  "next_refresh_at": "2026-06-07T23:07:48.961982+00:00",
   "next_push_at": null
 }
