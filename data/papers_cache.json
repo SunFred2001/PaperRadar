@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-06-06T23:07:48.566943+00:00",
-  "last_success_at": "2026-06-06T23:07:48.961982+00:00",
+  "last_attempt_at": "2026-06-07T23:10:37.705961+00:00",
+  "last_success_at": "2026-06-07T23:10:38.043761+00:00",
   "count": 15,
   "papers": [
     {
@@ -47,6 +47,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+    },
+    {
+      "pmid": "42251301",
+      "title": "Artificial intelligence in prehospital assessment of acute coronary syndrome: a scoping review.",
+      "journal": "BMC emergency medicine",
+      "abstract": "BACKGROUND: Acute coronary syndrome (ACS) remains a leading cause of morbidity and mortality worldwide, where timely diagnosis is critical. Prehospital assessment is challenging due to limited diagnostic resources and high clinical uncertainty. Artificial intelligence (AI) has emerged as a potential tool to support early diagnosis, risk stratification, and triage. This scoping review aimed to map the current evidence on AI applications in the prehospital assessment of suspected ACS and to identify existing knowledge gaps.\n\nMETHODS: A scoping review was conducted in accordance with PRISMA-ScR guidelines. A comprehensive search of PubMed, Scopus, Web of Science, and Embase was performed up to May 2026. Studies evaluating AI-based models using prehospital data for ACS diagnosis, prediction, or triage were included.\n\nRESULTS: 19 studies involving 319,709 patients were included. AI-based models, particularly ECG-based deep learning and multimodal approaches, demonstrated promising diagnostic performance, with AUC values generally ranging from approximately 0.81 to 0.99, sensitivity from 73% to 94%, and specificity from 56% to 99%. These models improved sensitivity, reduced diagnostic variability, and enhanced triage efficiency in some settings. Risk prediction models showed moderate to good performance (AUC ~ 0.71-0.95) but were more variable. Emerging applications extended beyond diagnosis to risk stratification and decision support, including prediction of cardiogenic shock and need for revascularization.\n\nCONCLUSIONS: AI shows considerable potential to improve prehospital assessment of suspected ACS, particularly through enhanced ECG interpretation and multimodal data integration. However, current evidence remains limited by methodological constraints. Future prospective, multicenter studies with standardized approaches are essential to support clinical implementation.",
+      "authors": [
+        "Kimia Khonakdar",
+        "Reyhaneh Sadat Faghani",
+        "Fatemeh Keyhanian",
+        "Sogand Ramezanian",
+        "Hosna Ziabakhsh Ganji"
+      ],
+      "published_on": "2026-06-07",
+      "doi": "10.1186/s12873-026-01636-2",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42251301/",
+      "doi_url": "https://doi.org/10.1186/s12873-026-01636-2"
     },
     {
       "pmid": "42242104",
@@ -297,25 +317,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41259171/",
       "doi_url": "https://doi.org/10.1109/JBHI.2025.3634307"
-    },
-    {
-      "pmid": "39956971",
-      "title": "Sleep-wake stages classification based on single channel ECG signals by using a dynamic connection convolutional neural network.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "In the field of sleep medicine, identifying sleep-wake stages is crucial for evaluate of sleep quality. Until now, numerous methods have been proposed for sleep-wake classification. These methods predominantly utilize electroencephalogram (EEG) signals, achieving competitive performance in sleep-wake stage classification. However, acquiring EEG signals is both cumbersome and inconvenient. At the same time, EEG signals are very weak and are easily disturbed. In contrast EEG signal, collecting electrocardiogram (ECG) signals is relatively simple and convenient. Therefore, based on the ECG signals, we propose a simple and effective sleep-wake stages model that can be used for wearable devices. In order to extract multi-scale features of ECG signals, convolutional kernels of different sizes are designed. Then, a novel dynamic connection convolutional neural network (DCCNN) is proposed to classify sleep-wake stages. First, the DCCNN calculates the goodness of feature maps from each layer. Second, according to the goodness of different layers, select the optimal layer to form a residual module with the current layer. The proposed method was tested on sleep data from a publicly accessible databases, namely the MIT-BIH Polysomnographic Database, resulting in an best accuracy of 92.21%. The findings are similar and higher performance to those models trained with EEG signals. Moreover, when compared to state-of-the-art methods, the proposed approach's effectiveness is further demonstrated. In conclusion, this research offers a novel approach for sleep monitoring.",
-      "authors": [
-        "Junming Zhang",
-        "Hao Dong",
-        "Yipei Li",
-        "Haitao Wu"
-      ],
-      "published_on": "2025-02-17",
-      "doi": "10.1080/10255842.2025.2465358",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39956971/",
-      "doi_url": "https://doi.org/10.1080/10255842.2025.2465358"
     }
   ],
   "error": null,
