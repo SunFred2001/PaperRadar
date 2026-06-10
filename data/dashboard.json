@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-09T00:09:45.965079+00:00",
-    "last_success_at": "2026-06-09T00:09:46.392727+00:00",
+    "last_attempt_at": "2026-06-10T04:11:02.923031+00:00",
+    "last_success_at": "2026-06-10T04:11:03.292460+00:00",
     "count": 15,
     "papers": [
       {
@@ -63,6 +63,29 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
         "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
+        "pmid": "42262942",
+        "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations between Children with ADHD and Comorbid ADHD-ASD.",
+        "journal": "IEEE transactions on bio-medical engineering",
+        "abstract": "OBJECTIVE: The comorbidity between Attention Deficit/Hyperactivity Disorder (ADHD) and Autism Spectrum Disorder (ASD) is a complex, poorly understood phenomenon. This study investigates the neural mechanisms underlying this comorbidity through the lens of brain-heart interactions, integrating distinct physiological systems to elucidate potential pathophysiological differences.\n\nMETHODS: Resting-state EEG and ECG were recorded from 63 children with ADHD, 44 with comorbid ADHD-ASD, and an exploratory cohort of 23 with pure ASD. Heartbeat-Evoked Potentials (HEP) and Heartbeat-Induced Networks (HINs) were computed. Mediation analysis explored whether brain connectivity features mediate the observed HEP waveforms differences.\n\nRESULTS: Compared to the comorbid group, the ADHD group exhibited attenuated negative HEP amplitudes (150-200 ms post-R-peak). The comorbid group also demonstrated distinct characteristic path lengths in theta and alpha bands (eyes-open) and higher theta global efficiency (eyes-closed). Importantly, theta global efficiency mediated the group differences in HEP amplitudes (p=0.016). Exploratory analyses with the pure ASD cohort confirmed these alterations were comorbidity-specific and not strictly driven by ASD traits.\n\nCONCLUSION: This study reveals distinct resting-state brain-heart interaction patterns in children with pure ADHD compared to comorbid ADHD-ASD. The enhanced brain network efficiency observed in the comorbid group suggests the presence of distinct neural network reorganizations arising from the complex interaction of dual traits, providing neurophysiological evidence that challenges the simple additive model.\n\nSIGNIFICANCE: By characterizing these divergent neural signatures, this work contributes to unraveling the complex mechanisms of comorbidity and highlights potential biomarkers for more precise clinical diagnosis and intervention.",
+        "authors": [
+          "Jiajing Zhao",
+          "Chenyu Yan",
+          "Mengyi Bao",
+          "Qing Zhou",
+          "Haifeng Li",
+          "Gang Pan",
+          "Lin Yao",
+          "Yueming Wang"
+        ],
+        "published_on": "2026-06-09",
+        "doi": "10.1109/TBME.2026.3701831",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
+        "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
       },
       {
         "pmid": "42251301",
@@ -314,25 +337,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41570107/",
         "doi_url": "https://doi.org/10.1109/TBCAS.2026.3653683"
-      },
-      {
-        "pmid": "41259171",
-        "title": "Cardiac Arrhythmia Classification From Lead I ECG Recorded in a Free-Living Environment.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "OBJECTIVE: Cardiac diseases are a leading cause of global mortality. Electrocardiograms (ECGs) are essential for detecting abnormal cardiac rhythms. Smartwatches can record ECGs, similar to lead I ECGs recorded by a patient vitals monitor in a hospital, potentially helping clinicians in early diagnosis and improved management of cardiovascular diseases. While AI models have classified arrhythmias with human-level accuracy, their potential for broad screening remains underutilized.\n\nMETHODS: We propose a deep learning based framework for diagnosing various cardiac arrhythmias using 10-second lead I ECG recordings, demonstrating lead I's utility in remote monitoring. Robustness was tested by introducing noise to simulate real-world conditions. Additionally, a novel data similarity assessment metric was developed to enhance transfer learning and external dataset validation.\n\nRESULTS: Using over 60,000 ECGs from the PhysioNet Challenge 2021, the trained model classified clean lead I ECGs in one dataset with a test-fold area under receiver operating characteristic curve (AUC), sensitivity, and specificity of 0.915, 0.867 and 0.858 respectively. For signals with 0 dB signal-to-noise ratio from the same dataset, the respective performance metrics dropped slightly to 0.899, 0.862 and 0.818. External validation across three separate datasets showed a minimum AUC of 0.807. The data similarity metric outperformed an existing method in improving classification, particularly with limited target dataset samples, i.e. 50.\n\nCONCLUSION: The proposed Cardiac Arrhythmia Risk Evaluation from Lead-I ECG (CARE-I) framework enables accurate arrhythmia detection across diverse populations in real-world noisy environments, thus enhancing model generalisation and early diagnosis.",
-        "authors": [
-          "Ismail Sadiq",
-          "Haneya N Qureshi",
-          "Ali Rizwan",
-          "Ali Imran"
-        ],
-        "published_on": "2025-11-19",
-        "doi": "10.1109/JBHI.2025.3634307",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41259171/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2025.3634307"
       }
     ],
     "error": null,
@@ -345,6 +349,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-10T00:09:46.392727+00:00",
+  "next_refresh_at": "2026-06-11T04:11:03.292460+00:00",
   "next_push_at": null
 }
