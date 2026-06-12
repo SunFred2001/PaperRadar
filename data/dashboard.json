@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-11T05:54:08.547920+00:00",
-    "last_success_at": "2026-06-11T05:54:09.084610+00:00",
+    "last_attempt_at": "2026-06-12T09:02:01.968216+00:00",
+    "last_success_at": "2026-06-12T09:02:02.761921+00:00",
     "count": 15,
     "papers": [
       {
@@ -65,6 +65,131 @@
         "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
       },
       {
+        "pmid": "42277292",
+        "title": "IoMT-Blockchain framework for secure and real-time heart disease monitoring using hybrid black-winged optimized spherical structural graph convolutional neural networks.",
+        "journal": "Scientific reports",
+        "abstract": "Cardiovascular diseases are a primary global health concern, requiring continuous monitoring and accurate diagnostic mechanisms for early detection and prevention. The integration of the Internet of Medical Things (IoMT), deep learning, and blockchain technologies has enabled intelligent healthcare systems capable of real-time cardiac assessment and enhanced security in the management of medical information. However, existing heart disease monitoring systems are affected by noisy physiological signals, inefficient feature extraction, limited classification accuracy, and insufficient security in distributed environments, motivating the development of a robust and reliable diagnostic framework with improved security. To address these challenges, this research proposes an IoMT and Blockchain-Based Heart Disease Monitoring System Using Hybrid Black-Winged Spherical Structural Graph Convolution Neural Network (HBW-SSG-CNN). The proposed workflow begins with IoMT-based acquisition of ECG and PCG signals, followed by preprocessing using quasi-cross bilateral filtering (QCBF) to suppress noise while preserving critical cardiac structures. Signal decomposition is performed using Spectral Envelope-Based Adaptive Empirical Fourier Decomposition (SE-AEFD), followed by feature extraction using the Short-Time Quaternion Quadratic Phase Fourier Transform (ST-QQPFT). Feature dimensionality is optimized using the Success-Based Optimization Algorithm (SBOA), and heart disease classification is performed using a Hybrid Structural Graph Attention Network with Spherical Convolutional Neural Network (HS-GAT-SCNN), further enhanced by the Black-Winged Kite Algorithm (BWKA). To enhance data integrity and improve security, an Adaptive Hash Algorithm with Weighted Probability Model (AHA-WPM) is integrated with a Fair Consensus Blockchain for Heterogeneous Miners (FCB-HM). The proposed model is evaluated using publicly available benchmark datasets, including PhysioNet cardiac signal datasets and the Cleveland heart disease dataset. Experimental evaluation demonstrates superior performance with an accuracy of 99.21%, sensitivity of 98.94%, specificity of 99.08%, and F1-score of 99.02%. The results confirm that the proposed framework provides a highly accurate, scalable, and security-enhanced solution for near real-time heart disease monitoring in IoMT-enabled healthcare systems.",
+        "authors": [
+          "P Bhuvaneshwari",
+          "Mohammad Zubair Khan",
+          "Cyril Prasanna Raj",
+          "M S Shreya Yadav",
+          "S Muthuvel"
+        ],
+        "published_on": "2026-06-12",
+        "doi": "10.1038/s41598-026-57620-0",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42277292/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-57620-0"
+      },
+      {
+        "pmid": "42274990",
+        "title": "Compact neural network algorithm for electrocardiogram classification.",
+        "journal": "Physical and engineering sciences in medicine",
+        "abstract": "In this paper, we present a powerful, compact electrocardiogram (ECG) classification algorithm for cardiac arrhythmia diagnosis that addresses the current reliance on deep learning and convolutional neural networks (CNNs) in ECG analysis. This work aims to reduce the demand for deep learning, which often requires extensive computational resources and large labeled datasets. Our approach introduces an artificial neural network (ANN) with a simple architecture combined with a compact, interpretable feature-engineering pipeline. A key contribution of this work is the incorporation of 17 engineered features that enable the extraction of critical patterns from raw ECG signals. By integrating mathematical transformations, signal processing methods, and data extraction algorithms, our model captures the morphological and physiological characteristics of ECG signals with high efficiency, without requiring deep learning. Our method demonstrates a similar performance to other state-of-the-art models in classifying five rhythm classes-normal sinus rhythm, sinus bradycardia, sinus tachycardia, ventricular flutter, and atrial fibrillation. Our algorithm achieved an accuracy of [Formula: see text] on the MIT-BIH and St. Petersburg INCART arrhythmia databases, with a Cohen's kappa of [Formula: see text] and a Matthews correlation coefficient of [Formula: see text]. The compactness of the model and its low inference latency on a standard CPU suggest that the approach is a promising candidate for deployment on resource-constrained platforms.",
+        "authors": [
+          "Christian M Frausto-Avila",
+          "Juan P Manriquez-Amavizca",
+          "Ana K S Rocha-Robledo",
+          "Mario A Quiroz-Juarez",
+          "Alfred B U'Ren"
+        ],
+        "published_on": "2026-06-11",
+        "doi": "10.1007/s13246-026-01751-1",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42274990/",
+        "doi_url": "https://doi.org/10.1007/s13246-026-01751-1"
+      },
+      {
+        "pmid": "42274935",
+        "title": "Artificial intelligence in the clinical management and prognostication of mitral regurgitation: a systematic review.",
+        "journal": "The Egyptian heart journal : (EHJ) : official bulletin of the Egyptian Society of Cardiology",
+        "abstract": "BACKGROUND: Mitral regurgitation (MR), one of the most common valvular heart diseases, poses ongoing challenges in risk stratification and timely intervention. Traditional diagnostic approaches, suffer from interobserver variability. Artificial intelligence (AI) has recently gained traction in cardiology to augment clinical precision. This article reviews the use of AI in the diagnosis, severity assessment, and prognostication of MR, with a focus on performance metrics.\n\nMETHODS: The search was conducted in PubMed, Embase, and MEDLINE on May 9, 2025. Studies were eligible if they applied AI to MR-related tasks using imaging, ECG, or clinical data. Data extraction focused on dataset characteristics, model architectures, and performance.\n\nRESULTS: A total of eleven studies, comprising 80,915 patients, were included. Among the included studies, six utilized echocardiographic data, two electrocardiography, two clinical biomarkers or structured datasets, and one chest radiography. Algorithms included convolutional neural networks, support vector machines, and ensemble models. Reported AUCs ranged from 0.74 to 0.94. Models based on color Doppler or 3D geometrical mitral features achieved the highest discriminatory performance. Only a minority of studies incorporated external validation or reported clinically actionable thresholds such as PPV. ECG-based models demonstrated high scalability but lower sensitivity. Studies integrating multimodal data yielded promising results.\n\nCONCLUSION: AI models, especially those trained on echocardiographic imaging, demonstrate strong potential for improving MR evaluation. However, widespread clinical adoption is limited by lack of external validation, and inconsistent outcome reporting. Future work should emphasize model interpretability, multicenter validation, and head-to-head comparisons with expert assessment to bridge the translational gap.",
+        "authors": [
+          "Armia Ahmadi-Hadad",
+          "Michela Belotti",
+          "Assil Zennoud",
+          "Boshra Moghimi",
+          "Caterina Autuori",
+          "Divinie Sumanasekara",
+          "Hashini Maneesha Fernando Udiriappuwaduge",
+          "Giuseppe Comentale",
+          "Emanuele Pilato"
+        ],
+        "published_on": "2026-06-11",
+        "doi": "10.1186/s43044-026-00756-1",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42274935/",
+        "doi_url": "https://doi.org/10.1186/s43044-026-00756-1"
+      },
+      {
+        "pmid": "42270808",
+        "title": "Machine learning-enabled ECG arrhythmia classification: a systematic and educational study from signal processing to decision support.",
+        "journal": "Scientific reports",
+        "abstract": "Electrocardiogram (ECG) signals play a critical role in the early detection of cardiac arrhythmias, which remain a major cause of morbidity and mortality worldwide. While deep learning approaches have achieved high classification accuracy, their increasing complexity often limits interpretability and practical applicability. This study presents a systematic and interpretable framework for multi-class ECG arrhythmia classification, examining the effects of signal processing, feature extraction, feature selection, and evaluation strategies on classification performance. Experiments were conducted on the MIT-BIH Arrhythmia Database using two feature representations: (i) morphological and temporal features, and (ii) a compact wavelet-based representation. Sequential Forward Feature Selection (SFFS) revealed that classification performance saturates at approximately 15 features, indicating that most discriminative information is captured within a compact subset. Using this feature space, the support vector machine (SVM) achieved the best overall performance, reaching 98.54% accuracy with stable results across different configurations. The wavelet-based representation further improved performance balance, yielding lower Golden Distance (GD) values (as low as 0.0249), indicating more consistent behavior across evaluation metrics. Overall, the results demonstrate that carefully designed feature extraction and selection enable classical machine learning methods, particularly SVM, to achieve high and reliable performance, providing an interpretable alternative to more complex black-box models in ECG arrhythmia classification.",
+        "authors": [
+          "Negin Melek"
+        ],
+        "published_on": "2026-06-11",
+        "doi": "10.1038/s41598-026-56828-4",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42270808/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-56828-4"
+      },
+      {
+        "pmid": "42270695",
+        "title": "Hybrid and advanced convolution techniques for highly accurate, reliable and automated ECG classification.",
+        "journal": "Scientific reports",
+        "abstract": "Cardiac arrhythmias are a leading cause of cardiovascular mortality worldwide, and auto- mated analysis of electrocardiogram (ECG) recordings is an unmet clinical need. This paper introduces a hybrid 1D Convolutional Neural Network (CNN) architecture for automated ECG heartbeat classification that captures both multi-scale morphological and long-range temporal dependencies. The architecture combines Dynamic Kernel Switching (DKS) with adaptive gating over kernel sizes {3, 5, 7}, a Self-Attention module, and Dilated Convolutions at dilation rates 2 and 4. For low-power edge deployment on Neural Processing Units (NPUs) and FPGA/ASIC platforms, three quantization paths are evaluated: (1) Dynamic Post-Training Quantization (PTQ) with INT8 weights and FP32 I/O, (2) Full-Integer PTQ with INT8 weights and activations, and (3) Quantization-Aware Training (QAT). With a corrected stratified 72/8/20 train/validation/test protocol, focal loss (γ = 2.0), AdamW optimization and cosine learning rate decay, the proposed model achieves 98.99% test accuracy and a macro F1-score of 0.9484 on the MIT-BIH Arrhythmia Database (16,219 held-out test beats, five AAMI classes). Five-fold stratified cross-validation confirms statistical robustness: 98.93% ± 0.10% accuracy with 95% confidence interval [98.84%, 99.02%]. A comprehensive seven-variant ablation study covering Self-Attention, CBAM, CSA, and SimSA demonstrates that the proposed DKS + Self-Attention combination outperforms all alternatives. Generalization is further validated on five independently withheld MIT-BIH patient recordings (10,444 beats), achieving 92.86% accuracy and macro F1 of 0.8219. The model comprises only 331,733 parameters and reduces to ≈0.32 MB under Dynamic PTQ, enabling direct TFLite/INT8 conversion for RTL-level FPGA deployment.",
+        "authors": [
+          "R Gokul",
+          "Yaswanth Sree Penumalli",
+          "Chalamala Ranjith",
+          "Moilla Namitesh Reddy",
+          "D S Bhargava",
+          "G Seetharaman",
+          "R Dhanalakshmi",
+          "T N Prabakar",
+          "S Devi Poonguzhali"
+        ],
+        "published_on": "2026-06-11",
+        "doi": "10.1038/s41598-026-55382-3",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42270695/",
+        "doi_url": "https://doi.org/10.1038/s41598-026-55382-3"
+      },
+      {
+        "pmid": "42200397",
+        "title": "Fully Biobased, Robust, and High-Conductivity Hydrogel for High-Fidelity Electrophysiological Monitoring and Deep Learning-Assisted Stroke Rehabilitation.",
+        "journal": "ACS applied materials & interfaces",
+        "abstract": "Developing sustainable bioelectronics that simultaneously integrate mechanical robustness, high conductivity, biocompatibility, and system-level functionality remains a fundamental challenge. Here, we report a Hofmeister-engineered, fully biobased hydrogel platform (GT2C20) that addresses these limitations through a synergistic dual physical cross-linking network. By combining citrate-induced chain compaction and continuous ionic transport pathways, this hydrogel achieves high tensile strength (0.73 MPa), large extensibility (272.5%), and high electrical conductivity (1.8 S m-1), overcoming intrinsic trade-offs in conventional gelatin-based systems. Building on these properties, GT2C20 enables an integrated multifunctional bioelectronic system. As a skin-conformal bioelectrode, it provides high-fidelity acquisition of electrophysiological signals (ECG, EEG, and EMG), achieving a high signal-to-noise ratio (24.3 dB for ECG) compared to commercial Ag/AgCl electrodes. When integrated with deep learning algorithms, the platform enables autonomous assessment of Brunnstrom stages for stroke rehabilitation with an accuracy of 97.31%, while a wireless telemedicine system supports remote diagnosis and personalized healthcare management. In parallel, the hydrogel functions as a highly stable strain sensor for real-time motion monitoring and precise gesture recognition, enabling intuitive control of prosthetic devices. Additionally, the hydrogel acts as a triboelectric nanogenerator electrode, yielding an open-circuit voltage of 72.1 V to power its own functions, while a microcontroller system supports wireless telemedicine and remote rehabilitation monitoring. This work presents an eco-friendly strategy for fabricating high-performance, biobased flexible electronics suited for health monitoring, telemedicine, and soft robotics.",
+        "authors": [
+          "Zhoujing Chen",
+          "Didi Wen",
+          "Xiaoli Liang",
+          "Yuqi Li",
+          "Yongkang Bai"
+        ],
+        "published_on": "2026-05-27",
+        "doi": "10.1021/acsami.6c03687",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200397/",
+        "doi_url": "https://doi.org/10.1021/acsami.6c03687"
+      },
+      {
         "pmid": "42262942",
         "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations between Children with ADHD and Comorbid ADHD-ASD.",
         "journal": "IEEE transactions on bio-medical engineering",
@@ -86,6 +211,27 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
         "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
+      },
+      {
+        "pmid": "42272708",
+        "title": "Development of a semi-real-time electrocardiogram monitoring system integrating artificial intelligence and wearable devices for atrial fibrillation screening.",
+        "journal": "Digital health",
+        "abstract": "BACKGROUND: Atrial fibrillation (AF) is a common arrhythmia associated with substantial morbidity, particularly ischemic stroke. Conventional AF screening using rule-based algorithms is limited by suboptimal accuracy and the need for extensive clinician review when processing large volumes of electrocardiogram (ECG) data. Artificial intelligence (AI) has emerged as a promising approach to improve detection efficiency and scalability.\n\nOBJECTIVES: To develop and internally evaluate a deep learning model for AF screening using real-world 24-hour Holter ECG data, and to evaluate a semi-real-time monitoring workflow integrating AI and wearable ECG devices in high-risk patients.\n\nMETHODS: This retrospective study included 1,489 Holter ECG recordings collected at Nguyen Trai Hospital. A Residual Network (ResNet) model was trained on 1,089 recordings and evaluated on an independent dataset of 400 recordings using case-level classification with patient-level data splitting. A semi-real-time screening workflow integrating AI analysis and wearable ECG devices was prospectively implemented in a high-risk cohort.\n\nRESULTS: From the training dataset, a total of 29,765 minutes of cardiologist-annotated AF episodes were identified across 82 AF-positive recordings. These episode-level annotations were subsequently mapped to fixed 60-second segments for model training using a predefined sampling strategy. On the independent evaluation dataset (n = 400; AF prevalence 6.3%), the model achieved 100.0% sensitivity, 88.0% specificity, and 35.7% positive predictive value for case-level AF detection. In the pilot cohort (n = 167), AF was detected in 24 patients (14.4%), including 20 (12.0%) identified after 24 hours of monitoring.\n\nCONCLUSIONS: The proposed framework demonstrated high sensitivity for AF detection in real-world Holter ECG data. Integration with wearable devices in a semi-real-time clinician-in-the-loop workflow was feasible and may support AF screening in high-risk populations.",
+        "authors": [
+          "Si Van Nguyen",
+          "Minh Khac Ho",
+          "Dat Vu Nguyen",
+          "Canh Quang Nguyen",
+          "An Le Pham",
+          "Hung Thanh Quach"
+        ],
+        "published_on": "2026-06-11",
+        "doi": "10.1177/20552076261458176",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42272708/",
+        "doi_url": "https://doi.org/10.1177/20552076261458176"
       },
       {
         "pmid": "42251301",
@@ -187,156 +333,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42182049/",
         "doi_url": "https://doi.org/10.1093/ehjdh/ztag023"
-      },
-      {
-        "pmid": "42169732",
-        "title": "Novel machine learning fusion architectures integrating electrocardiogram representations: applications to acute coronary event detection.",
-        "journal": "European heart journal. Digital health",
-        "abstract": "AIMS: AI in electrocardiography (ECG) has diverged into two paths: traditional signal processing with machine learning, and deep learning of raw waveforms. The former preserves physiological interpretability but may miss novel patterns, while the latter overlooks a century of ECG science. No framework yet integrates both. This study introduces a fusion model combining handcrafted feature-based random forest and waveform-based convolutional neural network to improve the diagnosis of acute coronary events.\n\nMETHODS AND RESULTS: This prospective, multicentre cohort study included pre-hospital ECGs recorded on emergency medical services from patients with a chief complaint of chest pain. Using this dataset, we developed four fusion frameworks that integrate ECG features with waveform information: (1) decision-level fusion combining predictions from random forest and convolutional neural network (CNN); (2) decision-level fusion with retraining; (3) feature-level fusion by concatenating CNN embeddings with ECG features; and (4) feature-level fusion combining CNN embeddings with tree-level outputs from the random forest. This study comprised of 10 393 ECGs from 7397 patients. On both outcomes, acute coronary syndrome and occlusion myocardial infarction, the proposed decision fusion with retraining (Approach 2) achieved an AUROC of 0.878 (95% CI, 0.837-0.915) and 0.961 (95% CI, 0.934-0.983) on the test set and an average precision score of 0.749 (95% CI, 0.681-0.810) and 0.850 (95% CI, 0.763-0.918), respectively, outperforming all other proposed fusion and individual models.\n\nCONCLUSION: This study demonstrates the significance of fusion models that integrate complementary ECG representations to improve diagnostic accuracy in acute coronary events, highlighting a promising approach for real-time AI-augmented cardiovascular disease detection across diverse use cases.",
-        "authors": [
-          "Rui Qi Ji",
-          "Nathan T Riek",
-          "Tanmay Gokhale",
-          "Zeineb Bouzid",
-          "Karina Kraevsky",
-          "Jessica K Zègre-Hemsey",
-          "Samir Saba",
-          "Christian Martin-Gill",
-          "Clifton W Callaway",
-          "Murat Akcakaya",
-          "Ervin Sejdić",
-          "Salah S Al-Zaiti"
-        ],
-        "published_on": "2026-05-22",
-        "doi": "10.1093/ehjdh/ztag062",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42169732/",
-        "doi_url": "https://doi.org/10.1093/ehjdh/ztag062"
-      },
-      {
-        "pmid": "42164459",
-        "title": "The Rlign algorithm for enhanced electrocardiogram analysis through heart rate-corrected ECG alignment for explainable classification and clustering.",
-        "journal": "European heart journal. Digital health",
-        "abstract": "AIMS: Electrocardiogram (ECG) recordings are fundamental for diagnosing cardiac conditions. Recent advances in automatic ECG analysis have been dominated by deep learning, particularly convolutional neural networks (CNNs). CNNs excel in processing high-dimensional signal data, where their ability to automatically extract complex features has enabled significant progress. However, while CNNs are powerful for biomedical signal analysis, their application to ECG data also carries disadvantages, such as the requirement for large annotated datasets and limited explainability. To address these challenges, we aim to reintroduce shallow learning methods, such as linear classifiers, by leveraging the cyclic nature of ECG signals.\n\nMETHODS AND RESULTS: We developed an adaptive transformation that restructures ECG signals into a fully structured format suitable for shallow learning algorithms. This method aligns R-peaks across all signals in a dataset and resamples the inter-QRS segments to match a predefined reference heart rate. The approach was systematically evaluated across tasks including classification, clustering, and explainability. Our transformation substantially improved the performance of shallow learning techniques. Compared with CNN approaches, shallow models trained on transformed ECGs achieved superior accuracy and interpretability in data-limited scenarios.\n\nCONCLUSION: We demonstrate that shallow machine learning methods, when combined with our alignment-based transformation, can reach CNN level performance in ECG analysis, especially under conditions of limited training data. This approach offers clear advantages in classification, clustering, and explainability and provides an accessible alternative to deep learning. To facilitate adoption and further research, we release a publicly available framework for ECG signal alignment at https://github.com/imi-ms/rlign.",
-        "authors": [
-          "Lucas Plagwitz",
-          "Lucas Bickmann",
-          "Michael Fujarski",
-          "Alexander Brenner",
-          "Warnes Gobalakrishnan",
-          "Lars Eckardt",
-          "Antonius Büscher",
-          "Julian Varghese"
-        ],
-        "published_on": "2026-05-21",
-        "doi": "10.1093/ehjdh/ztag067",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42164459/",
-        "doi_url": "https://doi.org/10.1093/ehjdh/ztag067"
-      },
-      {
-        "pmid": "42152834",
-        "title": "Towards seamless myocardial infarction and cardiac rhythm detection: a deep learning approach with automated paper-electrocardiogram digitisation.",
-        "journal": "Indian journal of thoracic and cardiovascular surgery",
-        "abstract": "PURPOSE: In India, myocardial infarction (MI) is a significant cause of mortality related to cardiovascular diseases. Timely diagnosis is critical for addressing this issue. While prior studies have concentrated on digital electrocardiogram (ECG) data, the presence of noise and artifacts in paper electrocardiogram is not well addressed in the literature. So, it is important to incorporate a more diverse range of data to understand the intricacies involved in MI diagnosis comprehensively.\n\nMETHODS: This paper proposes an approach for MI and non-MI classification and cardiac rhythm classification using ECG. Modified versions of GoogleNet-Gated Recurrent Unit (GRU) and ResNet50- Bidirectional Long Short-Term Memory (BiLSTM) models were utilized for MI/non-MI and cardiac rhythm classification, respectively. Three different datasets (PTB-XL (dataset 1), ECG images of cardiac patients' data samples (dataset 2), and hospital paper ECG (dataset 3) were used for training the datasets, and final testing was done on digitized hospital paper ECG.\n\nRESULTS: The proposed model achieved 88.8% accuracy on the PTB-XL dataset for MI/non-MI classification but showed performance disparity on dataset 3 test data. After a training-retraining process on datasets 2 and 3 and testing on dataset 3 test data, the model showed an accuracy of 92.50% with a balanced performance. For five-class cardiac rhythm classification, the proposed model attained 93.50% accuracy.\n\nCONCLUSION: Retraining models on diverse datasets enhances generalization to real-world scenarios. The study's findings emphasize the importance of incorporating various data sources to improve model robustness and reliability in clinical applications. The developed application facilitates the seamless integration of digitization and classification processes for enhanced diagnostic accuracy.",
-        "authors": [
-          "Ravina Pramod Rai",
-          "Praveen Ashok Kumar",
-          "Mullasari Ajit Sankaradas",
-          "Ramarathnam Krishna Kumar"
-        ],
-        "published_on": "2026-05-19",
-        "doi": "10.1007/s12055-025-02140-1",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42152834/",
-        "doi_url": "https://doi.org/10.1007/s12055-025-02140-1"
-      },
-      {
-        "pmid": "41690150",
-        "title": "A meta-heuristic aided arrhythmia classification model using advanced deep learning technique with multiple feature extraction mechanisms.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Cardiac arrhythmia poses an important threat to human life; hence it is an urge to diagnose properly. There are numerous mechanisms deployed for the identification of arrhythmias; yet, most of the techniques have been utilized sources such as Electrocardiogram (ECG). The ECG-based manual evaluation by the medical analysts is inaccurate. Some experiments have been concentrated on the accuracy and the speed of the learning method by utilizing Artificial Intelligence (AI), and pattern detection in the classification model. However, there are two primary limitations in the conventional mechanisms; the models demand large training time and demand feature selection on a manual basis. Hence, an intellectual arrhythmia classification model using deep learning is introduced to identify the irregular heartbeat. In the beginning, the required signals are accumulated from standard sources. Further, three different kinds of features are extracted for an efficient automatic classification process of arrhythmia. At first, the deep features are extracted by applying the Conditional Autoencoder, and these features are considered as feature set 1. Further, wave features and spectral features are retrieved from the input signal and these features are considered as feature set 2. Subsequently, the signals are converted into spectrogram images and the Graph Convolutional Neural Network (GCNN) technique is employed to retrieve the feature set 3 from those images. Further, the ensemble feature fusion process takes place to combine all three sets of features. Ensemble features are provided as input for the Optimal Dense Recurrent neural network with Attention Mechanism (ODR-AM) for classifying the arrhythmia. The classifier's performance is boosted by optimizing the parameters using the Augmented Random value of Giant Armadillo Optimization (ARGAO). This model is useful to know about the specific type of arrhythmia. Finally, the simulation findings of the presented model are analyzed with other conventional models.",
-        "authors": [
-          "Jay Raval",
-          "Kamalesh V N",
-          "Dr Raj Kumar Patra"
-        ],
-        "published_on": "2026-02-15",
-        "doi": "10.1016/j.compbiolchem.2026.108917",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41690150/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108917"
-      },
-      {
-        "pmid": "41664247",
-        "title": "Rosette Cardiac MR Fingerprinting for Simultaneous T1, T2, T 2 * , and Fat Fraction Mapping Using a Multi-Echo Deep Image Prior Reconstruction.",
-        "journal": "Magnetic resonance in medicine",
-        "abstract": "PURPOSE: Quantitative mapping of cardiac tissue properties is used clinically in diagnosis and monitoring of a wide variety of cardiac pathologies. Cardiac Magnetic Resonance Fingerprinting (cMRF) enables rapid and simultaneous quantification of multiple parameters in the myocardium from a single scan. In this work, a multi-echo cMRF acquisition is combined with a deep image prior framework to reconstruct cardiac T1, T2, T 2 * , and fat fraction maps.\n\nMETHODS: A 2D, single-breathhold, ECG-gated rosette trajectory cMRF sequence was deployed to sensitize the signal to T1, T2, T 2 * , and fat off-resonance effects. Data were processed using a deep image prior reconstruction trained with the cMRF encoding model to generate images consistent with the acquired k-space data. These images were used in curve fitting and pattern matching algorithms to generate T1, T2, T 2 * and fat fraction maps. The technique was validated using numerical simulations, standard phantoms, and 28 healthy subjects.\n\nRESULTS: In phantoms, good agreement was observed between the proposed technique and gold-standard reference measurements. In healthy subjects, measurements made with the deep image prior (DIP) reconstruction agreed with clinical cardiac measurements and demonstrated smaller voxel-level variance in a healthy population compared to iterative low-rank and direct matching reconstructions.\n\nCONCLUSION: The multi-echo cMRF acquisition coupled with a DIP reconstruction enables the simultaneous quantification of T1, T2, T 2 * , and fat in the heart and demonstrates good agreement with conventional mapping approaches in phantom and in vivo experiments. Additionally, the DIP reconstruction provides accurate measurements with a lower voxel-level variance compared with direct gridding and iterative low-rank reconstruction methods.",
-        "authors": [
-          "Evan Cummings",
-          "Gastao Cruz",
-          "Jacob Richardson",
-          "Sydney Kaplan",
-          "Jesse Hamilton",
-          "Nicole Seiberlich"
-        ],
-        "published_on": "2026-02-10",
-        "doi": "10.1002/mrm.70299",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41664247/",
-        "doi_url": "https://doi.org/10.1002/mrm.70299"
-      },
-      {
-        "pmid": "41591858",
-        "title": "MD-ViSCo: A Unified Model for Multi-Directional Vital Sign Waveform Conversion.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "Despite the remarkable progress of deep-learning methods generating a target vital sign waveform from a source vital sign waveform, most existing models are designed exclusively for a specific source-to-target pair. This requires distinct model architectures, and optimization procedures, hindering usability in clinical settings. To address this limitation, we propose the Multi-Directional Vital-Sign Converter (MD-ViSCo), a unified framework capable of generating any target waveform such as electrocardiogram (ECG), photoplethysmogram (PPG), or arterial blood pressure (ABP) from any single input waveform with a single model. MD-ViSCo employs a 1-Dimensional U-Net integrated with a Swin Transformer that leverages Adaptive Instance Normalization (AdaIN) to capture distinct waveform styles. To evaluate the efficacy of MD-ViSCo, we conduct multi-directional waveform generation on publicly available datasets. Our framework surpasses state-of-the-art baselines (NabNet & PPG2ABP) on average across all waveform types, lowering Mean absolute error (MAE) by 8.8% and improving Pearson correlation (PC) by 4.9% over two datasets. In addition, the generated ABP waveforms satisfy the Association for the Advancement of Medical Instrumentation (AAMI) criterion and achieve Grade B on the British Hypertension Society (BHS) standard. Additionally, for the downstream Atrial Fibrillation (AF) classification task, our generated ECG demonstrates superior performance over baselines, highlighting its clinical utility. By eliminating the need for developing a distinct model for each task, we believe that this work offers a unified framework that can deal with any kind of vital sign waveforms with a single model.",
-        "authors": [
-          "Franck Meyer",
-          "Kyunghoon Hur",
-          "Edward Choi"
-        ],
-        "published_on": "2026-01-27",
-        "doi": "10.1109/JBHI.2025.3639315",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41591858/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2025.3639315"
-      },
-      {
-        "pmid": "41570107",
-        "title": "A 1.69$\\mu$J Highly Robust Cardiac Arrhythmia Monitoring Processor With Triple-Adaptive QRS Detector and Medically Driven Feature-Fusion Hybrid Neural Networks.",
-        "journal": "IEEE transactions on biomedical circuits and systems",
-        "abstract": "The detection of arrhythmias is crucial in monitoring cardiac health. However, electrocardiogram (ECG) signals obtained from wearable devices are often compromised by noise, including electrode motion artifacts, baseline wander, and muscle artifacts. This paper addresses these challenges by proposing a highly robust cardiac health monitoring processor featuring a cascaded triple-adaptive QRS detector and medically driven feature-fusion hybrid neural networks (HNN) for arrhythmia classification. The QRS detector uses a self-adaptive triple-threshold mechanism that dynamically correlates duration, RR interval, and error correction thresholds, allowing it to accurately identify QRS complex features in noisy signals, facilitated by event-driven sampling. The HNN arrhythmia classifier combines long short-term memory (LSTM) and artificial neural network architectures with three medically driven pathological feature fusion, achieving improved computational efficiency. The prototype is fabricated using the 65-nm CMOS process. The results reveal three findings. First, the total and dynamic power are 2.53 $\\mu$W and 0.072 $\\mu$W, respectively, and the all-digital implementation achieves the 0.99 mm${}^{2}$ area. Second, the average R-peak detection sensitivity/precision rates exceed 97.38%/97.08% on the MIT-BIH Noise Stress Test Database, and inter-patient classification accuracy exceeds 90.1% on the MIT-BIH Arrhythmia Database under a 6 dB signal-to-noise ratio (SNR). Third, the system achieves low computational complexity with only 2063 parameters and 5.5 KB of SRAM.",
-        "authors": [
-          "Weihao Wang",
-          "Xuecong Lu",
-          "Guangshun Wei",
-          "Gexuan Wu",
-          "Guanglin Deng",
-          "Wenliang Chen",
-          "Yunfeng Huang",
-          "Kong-Pang Pun",
-          "Bing Li"
-        ],
-        "published_on": "2026-01-22",
-        "doi": "10.1109/TBCAS.2026.3653683",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41570107/",
-        "doi_url": "https://doi.org/10.1109/TBCAS.2026.3653683"
       }
     ],
     "error": null,
@@ -349,6 +345,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-12T05:54:09.084610+00:00",
+  "next_refresh_at": "2026-06-13T09:02:02.761921+00:00",
   "next_push_at": null
 }
