@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-06-12T09:02:01.968216+00:00",
-  "last_success_at": "2026-06-12T09:02:02.761921+00:00",
+  "last_attempt_at": "2026-06-13T11:19:08.859410+00:00",
+  "last_success_at": "2026-06-13T11:19:09.837305+00:00",
   "count": 15,
   "papers": [
     {
@@ -47,6 +47,27 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+    },
+    {
+      "pmid": "42284164",
+      "title": "Explaining deep learning for ECG using time-localized clusters.",
+      "journal": "IEEE transactions on bio-medical engineering",
+      "abstract": "OBJECTIVE: Deep learning has advanced electrocardiogram (ECG) analysis but remains difficult to interpret, limiting clinical adoption and electrophysiological insight. We propose a post-hoc explainability method for convolutional neural networks (CNNs) applied to ECG.\n\nMETHODS: The method clusters the feature activations of the last three residual blocks of a 1D-ResNet, segmenting each ECG into a sequence of clusters and quantifying assignment entropy as a per-timestamp uncertainty. It is evaluated on PTB-XL super-class classification under 10-fold cross-validation and on CODE-15% age regression.\n\nRESULTS: Cluster proportions correlate with predicted labels and align with P/QRS/T/TP landmarks. A random forest trained on cluster proportions reproduces the CNN's predictions at $94.9 \\pm 0.5\\%$ and matches its accuracy and AUROC on the true labels (88.2 vs. $88.4\\%$; 79.6 vs. $81.4\\%$). Encoder uncertainty surfaces class-dependent representational stability not visible to Grad-CAM.\n\nCONCLUSION: Time-localized clusters recover physiologically aligned structure from CNN activations and faithfully summarize the encoder's discriminative information.\n\nSIGNIFICANCE: The method provides a post-hoc, architecture-light tool to audit CNN-based ECG models and surface label-quality issues.",
+      "authors": [
+        "Ahcene Boubekki",
+        "Konstantinos Patlatzoglou",
+        "Joseph Barker",
+        "Hesham Aggour",
+        "Fu Siong Ng",
+        "Antonio H Ribeiro"
+      ],
+      "published_on": "2026-06-12",
+      "doi": "10.1109/TBME.2026.3702945",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42284164/",
+      "doi_url": "https://doi.org/10.1109/TBME.2026.3702945"
     },
     {
       "pmid": "42277292",
@@ -174,6 +195,31 @@
       "doi_url": "https://doi.org/10.1021/acsami.6c03687"
     },
     {
+      "pmid": "42282244",
+      "title": "A deep learning model based on combining surface and esophageal ECG data for diagnosis of paroxysmal supraventricular tachycardia.",
+      "journal": "Digital health",
+      "abstract": "OBJECTIVE: This study aims to develop a deep learning model utilizing both surface and esophageal electrocardiogram (ECG) data to accurately differentiate types of paroxysmal supraventricular tachycardia (PSVT), including slow-fast atrioventricular nodal re-entrant tachycardia (S-F AVNRT), and orthodromic atrioventricular reentrant tachycardia with left-sided (AVRT-L) and right-sided (AVRT-R) accessory pathways.\n\nMETHODS: We analyzed 921 ECG cases from 775 patients from four hospitals between 2014 and 2022, segmented into 6261 ten-second ECG segments. A Residual Network (ResNet)-based model was developed. For comparison, Random Forest (RF) and eXtreme Gradient Boosting (XGBoost) classifiers were also constructed using handcrafted time-domain and frequency-domain features. It was thoroughly evaluated using a comprehensive set of metrics. These metrics included accuracy (ACC), the area under the receiver operating characteristic curve (AUC); sensitivity (SEN), specificity (SPE), positive predictive value (PPV), negative predictive value (NPV), and F1-Score.\n\nRESULTS: The diagnostic efficacy of ECG lead configurations was robust. Among surface-only leads, the three-lead combination II+V1+aVF achieved the highest AUC (0.989). The single-lead aVF demonstrated remarkable efficiency (AUC 0.961), approaching the performance of the full 12-lead ECG (0.974). The bipolar esophageal lead (EB) alone achieved an AUC of 0.989, comparable to II+V1+aVF (AUC 0.989). The combination aVF+EB yielded the highest overall AUC of 0.996. ResNet significantly outperformed RF and XGBoost across all lead configurations (P < 0.001).\n\nCONCLUSION: This model effectively distinguishes between PSVT types, surpassing traditional diagnostics in accuracy and reliability. Future research should focus on model optimization and dataset expansion to enhance diagnostic capabilities and interpretability.",
+      "authors": [
+        "Shuo Li",
+        "Bin Fu",
+        "Hui Chi",
+        "Liuping He",
+        "Lian Zeng",
+        "Anran Zhu",
+        "Yanqun Hou",
+        "Hongbin Pan",
+        "Tao He",
+        "Guoqiang Zhong"
+      ],
+      "published_on": "2026-06-12",
+      "doi": "10.1177/20552076261458191",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42282244/",
+      "doi_url": "https://doi.org/10.1177/20552076261458191"
+    },
+    {
       "pmid": "42262942",
       "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations between Children with ADHD and Comorbid ADHD-ASD.",
       "journal": "IEEE transactions on bio-medical engineering",
@@ -274,49 +320,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42236839/",
       "doi_url": "https://doi.org/10.1038/s41598-026-53755-2"
-    },
-    {
-      "pmid": "42234295",
-      "title": "pedQTNet: A Deep Learning Approach to Estimate Corrected QT Intervals from Multi-Lead Conventional ECG Waveforms in Pediatric Patients.",
-      "journal": "Journal of medical systems",
-      "abstract": "Long QT syndrome (LQTS) is a primary risk factor for ventricular arrhythmias and sudden cardiac death in children. Accurate corrected QT intervals (QTc) measurement is imperative but challenging for non-heart-rhythm specialists, especially in children. We developed and evaluated pedQTNet, a deep neural network model for estimating QTc and detecting LQTS in pediatric patients. We analyzed a cohort of 37,992 patients aged 0-18 years with 65,370 ECGs annotated by pediatric electrophysiologists (PEPs) between 2010 and 2020. Using PEP-annotated QTc measurements as ground truth, pedQTNet was trained and calibrated on raw ECG waveforms to optimize QTc estimation and LQTS classification. Performance was compared to GE Healthcare's Marquette 12SL algorithm, and to PEPs in cross-validation, as well as an additional prospective set of 200 ECGs. In 10-fold cross-validation, pedQTNet estimated QTc's with a mean absolute error (MAE) of 18.8 ms (95% CI: 18.4-19.2) and predicted LQTS at 470 ms with 85% sensitivity (83%-87%), 87% specificity (87%-88%), positive likelihood ratio (PLR) of 6.7 (6.5-7.0), and negative likelihood ratio (NLR) of 0.17 (0.15-0.19), outperforming Marquette 12SL. In the prospective set, pedQTNet had higher sensitivity than PEPs (100% [69%-100%] vs. 71% [53%-85%], P < 0.05), and a lower but not statistically significant NLR (0.00 [0.00-0.70] vs. 0.30 [0.18-0.50], P = 0.2). PedQTNet demonstrated high QTc estimation accuracy and reliable LQTS detection, outperforming a commercial tool and on par with expert interpretation. Its strong performance supports its clinical use for scalable, automated pediatric ECG screening and LQTS risk assessment, offering a practical tool for enhancing pediatric cardiac care.",
-      "authors": [
-        "Victor M Ruiz",
-        "Ivor B Asztalos",
-        "Luiz E V Silva",
-        "Lingyun Shi",
-        "V Ramesh Iyer",
-        "Dustin Nash",
-        "Victoria L Vetter",
-        "Fuchiang Rich Tsui"
-      ],
-      "published_on": "2026-06-03",
-      "doi": "10.1007/s10916-026-02386-1",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42234295/",
-      "doi_url": "https://doi.org/10.1007/s10916-026-02386-1"
-    },
-    {
-      "pmid": "42182049",
-      "title": "Developing and validating an artificial intelligence-based electronic triage model for predicting clinical outcomes among cardiac-suspected patients in the emergency department.",
-      "journal": "European heart journal. Digital health",
-      "abstract": "AIMS: Emergency department overcrowding, especially in cardiac units, delays care and raises mortality. Conventional triage is error-prone. We developed an AI-based model integrating routine data and automated ECGs to improve early risk classification.\n\nMETHODS AND RESULTS: This retrospective cross-sectional study involved 600 medical records of patients presenting with suspected cardiac symptoms. Model development was conducted in three phases: Designing a triage model using routine triage data, designing a triage model based on ECG images, and combining the ECG-based model and triage data. Model performance was evaluated regarding standard clinical outcomes within the first 24 h and compared against the Emergency Severity Index. The best-performing model based on triage data alone (i.e. multilayer perceptron neural network) yielded an accuracy of 89.42%, F-score of 84.51, and area under the curve between 0.815 and 0.858. The best-performing model based on ECG interpretation alone (i.e. convolutional neural network) yielded an accuracy of 93.83%, F-score of 91.08, and area under the curve ranging from 0.852 to 0.914. The fusion model demonstrated superior performance, with an accuracy of 97.22%, F-score of 94.60, and area under the curve between 0.881 and 0.938-significantly outperforming the conventional Emergency Severity Index. In the fusion model, the key predictive variables included ECG interpretation, heart rate, and mode of entry to emergency department.\n\nCONCLUSION: Given its advantages over models using only routine data, ECG, or conventional triage, the fused AI-based triage model may effectively prioritize and predict cardiac emergency outcomes, providing a foundation for developing reliable, intelligent support systems in acute care.",
-      "authors": [
-        "Ahmad Bavali-Gazik",
-        "Elahe Allahyari",
-        "Amir Sezavar",
-        "Seyed Ali Moezi-Bady",
-        "Seyyed Abolfazl Vagharseyyedin"
-      ],
-      "published_on": "2026-05-25",
-      "doi": "10.1093/ehjdh/ztag023",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42182049/",
-      "doi_url": "https://doi.org/10.1093/ehjdh/ztag023"
     }
   ],
   "error": null,
