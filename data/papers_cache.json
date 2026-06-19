@@ -2,10 +2,29 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-06-18T20:31:22.006426+00:00",
-  "last_success_at": "2026-06-18T20:31:22.796729+00:00",
+  "last_attempt_at": "2026-06-19T22:08:12.524143+00:00",
+  "last_success_at": "2026-06-19T22:08:13.232214+00:00",
   "count": 15,
   "papers": [
+    {
+      "pmid": "42035615",
+      "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
+      "journal": "Computational biology and chemistry",
+      "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
+      "authors": [
+        "Yusen Wu",
+        "Jinde Zhu",
+        "Junhao Yuan",
+        "Kaiqiang Huang"
+      ],
+      "published_on": "2026-04-27",
+      "doi": "10.1016/j.compbiolchem.2026.108991",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
+      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
+    },
     {
       "pmid": "42155349",
       "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
@@ -298,27 +317,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
       "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
-    },
-    {
-      "pmid": "42272708",
-      "title": "Development of a semi-real-time electrocardiogram monitoring system integrating artificial intelligence and wearable devices for atrial fibrillation screening.",
-      "journal": "Digital health",
-      "abstract": "BACKGROUND: Atrial fibrillation (AF) is a common arrhythmia associated with substantial morbidity, particularly ischemic stroke. Conventional AF screening using rule-based algorithms is limited by suboptimal accuracy and the need for extensive clinician review when processing large volumes of electrocardiogram (ECG) data. Artificial intelligence (AI) has emerged as a promising approach to improve detection efficiency and scalability.\n\nOBJECTIVES: To develop and internally evaluate a deep learning model for AF screening using real-world 24-hour Holter ECG data, and to evaluate a semi-real-time monitoring workflow integrating AI and wearable ECG devices in high-risk patients.\n\nMETHODS: This retrospective study included 1,489 Holter ECG recordings collected at Nguyen Trai Hospital. A Residual Network (ResNet) model was trained on 1,089 recordings and evaluated on an independent dataset of 400 recordings using case-level classification with patient-level data splitting. A semi-real-time screening workflow integrating AI analysis and wearable ECG devices was prospectively implemented in a high-risk cohort.\n\nRESULTS: From the training dataset, a total of 29,765 minutes of cardiologist-annotated AF episodes were identified across 82 AF-positive recordings. These episode-level annotations were subsequently mapped to fixed 60-second segments for model training using a predefined sampling strategy. On the independent evaluation dataset (n = 400; AF prevalence 6.3%), the model achieved 100.0% sensitivity, 88.0% specificity, and 35.7% positive predictive value for case-level AF detection. In the pilot cohort (n = 167), AF was detected in 24 patients (14.4%), including 20 (12.0%) identified after 24 hours of monitoring.\n\nCONCLUSIONS: The proposed framework demonstrated high sensitivity for AF detection in real-world Holter ECG data. Integration with wearable devices in a semi-real-time clinician-in-the-loop workflow was feasible and may support AF screening in high-risk populations.",
-      "authors": [
-        "Si Van Nguyen",
-        "Minh Khac Ho",
-        "Dat Vu Nguyen",
-        "Canh Quang Nguyen",
-        "An Le Pham",
-        "Hung Thanh Quach"
-      ],
-      "published_on": "2026-06-11",
-      "doi": "10.1177/20552076261458176",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42272708/",
-      "doi_url": "https://doi.org/10.1177/20552076261458176"
     }
   ],
   "error": null,
