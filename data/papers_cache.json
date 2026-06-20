@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-06-19T22:08:12.524143+00:00",
-  "last_success_at": "2026-06-19T22:08:13.232214+00:00",
+  "last_attempt_at": "2026-06-20T22:13:47.805146+00:00",
+  "last_success_at": "2026-06-20T22:13:48.230925+00:00",
   "count": 15,
   "papers": [
     {
@@ -66,6 +66,49 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+    },
+    {
+      "pmid": "42321363",
+      "title": "MSCA-TNet based deep learning method for ECG arrhythmia classification.",
+      "journal": "Scientific reports",
+      "abstract": "Electrocardiography (ECG) is a widely adopted modality for monitoring cardiac rate and rhythm and identifying various abnormalities of the cardiac electrical system. Research on ECG preprocessing and intelligent classification is vital for the early diagnosis and clinical management of cardiovascular diseases and helps improve the accuracy and efficiency of cardiac diagnosis. Nevertheless, ECG signals captured by wearable acquisition devices frequently suffer from poor signal quality due to subject motion and uncontrolled acquisition environments. Furthermore, native ECG waveforms are faint and susceptible to diverse noise interference. To diagnose noise-corrupted arrhythmia, clinicians need to inspect lengthy ECG recordings relying on professional expertise, which is tedious, labor-intensive and prone to subjective bias. Another critical challenge lies in severe class imbalance within public ECG datasets, resulting in degraded classification performance for minority arrhythmia categories. Accordingly, developing robust automated arrhythmia detection algorithms is essential to ease the diagnostic workload of clinical practitioners. In this work, discrete wavelet transform (DWT) is adopted for noise elimination, and the SMOTE-Tomek hybrid resampling strategy is applied to mitigate class imbalance on the MIT-BIH and INCART datasets. We further propose MSCA-TNet, a hybrid architecture embedding the adaptive channel attention (ACA) module and Transformer to extract both local fine-grained features and global long-range contextual information from ECG sequences. The ACA module dynamically modulates channel-wise feature weights to emphasize clinically discriminative features while suppressing irrelevant components. On the two benchmark datasets, the proposed model yields macro-average accuracies of 93.97% and 98.79%, alongside overall accuracies of 98.88% and 99.47%.",
+      "authors": [
+        "Songjian Huang",
+        "Senpeng Chen",
+        "Zihao Guo",
+        "Kaiming Ji",
+        "Miao Zhang"
+      ],
+      "published_on": "2026-06-20",
+      "doi": "10.1038/s41598-026-58850-y",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42321363/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-58850-y"
+    },
+    {
+      "pmid": "42319812",
+      "title": "Differentiating Ischemic From Nonischemic T-Wave Inversion Using a Multimodal Vision-Language Model With Reinforcement Learning (ECG-R1): Development and Validation Study.",
+      "journal": "JMIR medical informatics",
+      "abstract": "BACKGROUND: The differentiation of primary ischemic from secondary nonischemic T-wave inversion (TWI) on electrocardiograms (ECGs) presents a critical and pervasive diagnostic challenge in emergency cardiology. Historical clinical literature reports that clinician-led visual interpretation of isolated TWI yields a positive predictive value of only approximately 50% due to profound morphological ambiguity. This high degree of uncertainty frequently leads to high false-positive rates, resulting in unnecessary, costly, and potentially risky invasive angiographic procedures for patients. Furthermore, although existing deep learning models have attempted to address this clinical bottleneck, they are frequently limited to single-modality, \"black box\" architectures. Their inability to process complex multimodal data or provide transparent reasoning traces fundamentally limits clinical trust and real-world adoption.\n\nOBJECTIVE: The objective of this study was to develop a novel diagnostic framework designed to address the critical clinical challenge of accurately differentiating ischemic from nonischemic TWI. By using a multimodal vision-language model trained with a reinforcement learning (RL) paradigm, this study aimed to improve diagnostic accuracy and provide interpretable reasoning.\n\nMETHODS: We developed ECG-R1, a multimodal framework using the Qwen2-VL-2B vision-language model, to analyze ECG waveform images and associated clinical text. Instead of supervised fine-tuning (SFT), the model was trained using an RL paradigm with the group relative policy optimization algorithm. The model was trained to generate a structured output containing an explicit reasoning trace and a final \"yes\" or \"no\" answer. A 2-component, rule-based reward function was designed to assess format adherence and diagnostic accuracy. Performance was compared against strong SFT baselines.\n\nRESULTS: Evaluated on a large-scale multimodal dataset of 12,917 TWI cases, our ECG-R1 model achieved a state-of-the-art in-domain accuracy of 75.21%, a sensitivity of 82.55%, and an area under the receiver operating characteristic curve of 84.18%. The model demonstrated robust cross-hospital generalization, maintaining a 72.93% out-of-domain accuracy and an 81.56% area under the receiver operating characteristic curve. When controlling for model scale, the RL paradigm yielded substantial absolute improvements of 6.69% in in-domain performance and a substantial 11.48% improvement in out-of-domain performance over the capacity-matched Qwen2-VL-2B full-FT baseline. These results suggested that the RL approach was superior for learning invariant physiological features rather than overfitting to source-domain artifacts.\n\nCONCLUSIONS: The RL-based ECG-R1 framework significantly outperformed capacity-matched SFT baselines in both diagnostic accuracy and cross-domain robustness. By explicitly modeling interpretable clinical reasoning and using probabilistic diagnostic language to prevent premature cognitive closure, ECG-R1 may serve as a highly transparent clinical decision support system. It was structurally designed to safely assist cardiologists within a strict human-in-the-loop paradigm, establishing a robust foundation for prospective clinical trials.",
+      "authors": [
+        "Yunzhang Cheng",
+        "Zhongkai Wang",
+        "Wen Zhang",
+        "Qin Zhang",
+        "Mingwei Zhang",
+        "Songbin Cai",
+        "Tianyi Zhang"
+      ],
+      "published_on": "2026-06-19",
+      "doi": "10.2196/87227",
+      "publication_types": [
+        "Journal Article",
+        "Validation Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42319812/",
+      "doi_url": "https://doi.org/10.2196/87227"
     },
     {
       "pmid": "42312446",
@@ -269,54 +312,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200397/",
       "doi_url": "https://doi.org/10.1021/acsami.6c03687"
-    },
-    {
-      "pmid": "42282244",
-      "title": "A deep learning model based on combining surface and esophageal ECG data for diagnosis of paroxysmal supraventricular tachycardia.",
-      "journal": "Digital health",
-      "abstract": "OBJECTIVE: This study aims to develop a deep learning model utilizing both surface and esophageal electrocardiogram (ECG) data to accurately differentiate types of paroxysmal supraventricular tachycardia (PSVT), including slow-fast atrioventricular nodal re-entrant tachycardia (S-F AVNRT), and orthodromic atrioventricular reentrant tachycardia with left-sided (AVRT-L) and right-sided (AVRT-R) accessory pathways.\n\nMETHODS: We analyzed 921 ECG cases from 775 patients from four hospitals between 2014 and 2022, segmented into 6261 ten-second ECG segments. A Residual Network (ResNet)-based model was developed. For comparison, Random Forest (RF) and eXtreme Gradient Boosting (XGBoost) classifiers were also constructed using handcrafted time-domain and frequency-domain features. It was thoroughly evaluated using a comprehensive set of metrics. These metrics included accuracy (ACC), the area under the receiver operating characteristic curve (AUC); sensitivity (SEN), specificity (SPE), positive predictive value (PPV), negative predictive value (NPV), and F1-Score.\n\nRESULTS: The diagnostic efficacy of ECG lead configurations was robust. Among surface-only leads, the three-lead combination II+V1+aVF achieved the highest AUC (0.989). The single-lead aVF demonstrated remarkable efficiency (AUC 0.961), approaching the performance of the full 12-lead ECG (0.974). The bipolar esophageal lead (EB) alone achieved an AUC of 0.989, comparable to II+V1+aVF (AUC 0.989). The combination aVF+EB yielded the highest overall AUC of 0.996. ResNet significantly outperformed RF and XGBoost across all lead configurations (P < 0.001).\n\nCONCLUSION: This model effectively distinguishes between PSVT types, surpassing traditional diagnostics in accuracy and reliability. Future research should focus on model optimization and dataset expansion to enhance diagnostic capabilities and interpretability.",
-      "authors": [
-        "Shuo Li",
-        "Bin Fu",
-        "Hui Chi",
-        "Liuping He",
-        "Lian Zeng",
-        "Anran Zhu",
-        "Yanqun Hou",
-        "Hongbin Pan",
-        "Tao He",
-        "Guoqiang Zhong"
-      ],
-      "published_on": "2026-06-12",
-      "doi": "10.1177/20552076261458191",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42282244/",
-      "doi_url": "https://doi.org/10.1177/20552076261458191"
-    },
-    {
-      "pmid": "42262942",
-      "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations between Children with ADHD and Comorbid ADHD-ASD.",
-      "journal": "IEEE transactions on bio-medical engineering",
-      "abstract": "OBJECTIVE: The comorbidity between Attention Deficit/Hyperactivity Disorder (ADHD) and Autism Spectrum Disorder (ASD) is a complex, poorly understood phenomenon. This study investigates the neural mechanisms underlying this comorbidity through the lens of brain-heart interactions, integrating distinct physiological systems to elucidate potential pathophysiological differences.\n\nMETHODS: Resting-state EEG and ECG were recorded from 63 children with ADHD, 44 with comorbid ADHD-ASD, and an exploratory cohort of 23 with pure ASD. Heartbeat-Evoked Potentials (HEP) and Heartbeat-Induced Networks (HINs) were computed. Mediation analysis explored whether brain connectivity features mediate the observed HEP waveforms differences.\n\nRESULTS: Compared to the comorbid group, the ADHD group exhibited attenuated negative HEP amplitudes (150-200 ms post-R-peak). The comorbid group also demonstrated distinct characteristic path lengths in theta and alpha bands (eyes-open) and higher theta global efficiency (eyes-closed). Importantly, theta global efficiency mediated the group differences in HEP amplitudes (p=0.016). Exploratory analyses with the pure ASD cohort confirmed these alterations were comorbidity-specific and not strictly driven by ASD traits.\n\nCONCLUSION: This study reveals distinct resting-state brain-heart interaction patterns in children with pure ADHD compared to comorbid ADHD-ASD. The enhanced brain network efficiency observed in the comorbid group suggests the presence of distinct neural network reorganizations arising from the complex interaction of dual traits, providing neurophysiological evidence that challenges the simple additive model.\n\nSIGNIFICANCE: By characterizing these divergent neural signatures, this work contributes to unraveling the complex mechanisms of comorbidity and highlights potential biomarkers for more precise clinical diagnosis and intervention.",
-      "authors": [
-        "Jiajing Zhao",
-        "Chenyu Yan",
-        "Mengyi Bao",
-        "Qing Zhou",
-        "Haifeng Li",
-        "Gang Pan",
-        "Lin Yao",
-        "Yueming Wang"
-      ],
-      "published_on": "2026-06-09",
-      "doi": "10.1109/TBME.2026.3701831",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
-      "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
     }
   ],
   "error": null,
