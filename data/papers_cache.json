@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-06-24T04:17:56.549006+00:00",
-  "last_success_at": "2026-06-24T04:17:57.137302+00:00",
+  "last_attempt_at": "2026-06-25T07:51:17.088966+00:00",
+  "last_success_at": "2026-06-25T07:51:17.869023+00:00",
   "count": 15,
   "papers": [
     {
@@ -66,6 +66,87 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+    },
+    {
+      "pmid": "41297935",
+      "title": "Deep Learning Model for High-Accuracy Classification of Premature Ventricular Contractions With Precordial Transition Zones in Leads V3 or V4.",
+      "journal": "Circulation journal : official journal of the Japanese Circulation Society",
+      "abstract": "BACKGROUND: Predicting the origin of premature ventricular contractions (PVCs) is challenging when a transition zone (TZ) appears in leads V3 and V4. The aim of this study was to develop a deep-learning model to predict PVC origins and identify electrocardiographic (ECG) features that contribute to the model's decisions.\n\nMETHODS AND RESULTS: ECG data from 314 patients with PVCs showing an inferior axis and TZ in leads V3 or V4 who underwent catheter ablation were analyzed. A convolutional neural network (CNN) was trained to predict an origin in the right or left ventricular outflow tract. Patients were divided into 3 cohorts for training, validation, and holdout (3 : 1 : 1 ratio). The CNN model was trained using paired data consisting of PVC and intrinsic QRS (iQRS). Five datasets per patient were used for training and validation; performance was evaluated using a single holdout dataset per patient. The CNN model achieved 92.1% accuracy, an F1 score of 0.91, and an area under the receiver operating characteristic curve of 0.96 on the holdout. Our model demonstrated superior diagnostic performance compared with conventional ECG indices. Gradient-weighted class activation mapping revealed that model attention was primarily focused on leads V3-V4 in iQRS, but was more diffusely distributed in PVC, notably the inferior limb leads and leads V2-V3.\n\nCONCLUSIONS: The CNN-based prediction of PVC origin demonstrated clinical utility.",
+      "authors": [
+        "Kiichi Miyamae",
+        "Yasuya Inden",
+        "Masafumi Shimojo",
+        "Hiroyuki Miyazawa",
+        "Tomoya Iwawaki",
+        "Masaya Tachi",
+        "Shun Kondo",
+        "Takayuki Goto",
+        "Satoshi Yanagisawa",
+        "Yukiomi Tsuji",
+        "Toyoaki Murohara"
+      ],
+      "published_on": "2025-11-27",
+      "doi": "10.1253/circj.CJ-25-0534",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41297935/",
+      "doi_url": "https://doi.org/10.1253/circj.CJ-25-0534"
+    },
+    {
+      "pmid": "42342760",
+      "title": "Cross-domain transfer learning strategy enhances interpretability of deep learning model explanations.",
+      "journal": "Scientific reports",
+      "abstract": "Clinical decision-making increasingly relies on deep neural networks (DNNs), yet their deployment in practice requires transparent and interpretable predictions. Explainable artificial intelligence (xAI) methods can identify input regions relevant to a model's decision, but their clinical interpretability remains limited. In this study, we investigated whether inductive transfer learning (TL) can reinforce domain-specific feature separation in xECGArch, a two-branch convolutional neural network for atrial fibrillation (AF) detection from electrocardiograms (ECGs). Each branch was pre-trained on a task aligned with its designated feature domain, P wave detection for morphology and RR interval variability prediction for rhythm, then fine-tuned on binary AF classification using an iterative layer freezing schedule. Deep Taylor decomposition (DTD) was applied to analyze explanations across all configurations. Fine-tuning accuracy ranged from 85.70% to 95.23%, remaining comparable to the original xECGArch architecture and previous TL-based approaches. However, DTD analysis demonstrated that morphology pre-training directed relevance toward P waves, whereas rhythm pre-training concentrated explanations on R peaks, with domain specificity increasing as more layers were frozen. These findings suggest that inductive TL can encourage domain-specific feature attribution in DNNs, improving the alignment of post-hoc explanations with clinically meaningful ECG regions.",
+      "authors": [
+        "Matteo Zannini",
+        "Alexander Hammer",
+        "Hagen Malberg",
+        "Martin Schmidt"
+      ],
+      "published_on": "2026-06-25",
+      "doi": "10.1038/s41598-026-59076-8",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42342760/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-59076-8"
+    },
+    {
+      "pmid": "42339746",
+      "title": "Advancing cardiac health assessment using deep convolutional neural networks for ECG image analysis.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "This research introduces a novel technique for early prediction of cardiac affliction in ECG imagery. The initial phase involves pre-processing using an Adaptive Wiener Filter. Subsequently, segmentation is performed utilizing a Modified Fuzzy C-Mean to isolate distinct components of the ECG signal. The next crucial step involves feature extraction deploying Gray Level Co-occurrence Matrix, enabling the capture of texture and spatial dependencies. The classification stage, utilizes Hybrid Sparrow-Chicken Swarm Optimized Deep Convolutional Neural Network, tailored to optimize the deep learning model. The execution with the Python software, achieves 98.5% precision in the detection of cardiac afflictions from ECG imagery.",
+      "authors": [
+        "Shamna B",
+        "Maheswaran C P",
+        "Anitha A"
+      ],
+      "published_on": "2026-06-24",
+      "doi": "10.1080/10255842.2026.2691923",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42339746/",
+      "doi_url": "https://doi.org/10.1080/10255842.2026.2691923"
+    },
+    {
+      "pmid": "42336980",
+      "title": "CaReS-BiNet: A multi-scale deep learning framework for ECG arrhythmia classification.",
+      "journal": "Scientific reports",
+      "abstract": "Automated electrocardiogram (ECG) arrhythmia classification remains challenging due to morphological complexity, severe class imbalance, and poor model generalization across heterogeneous datasets acquired under varying clinical conditions. To address these challenges, this paper proposes CaReS-BiNet, a Convolutional and Residual Squeeze-and-Excitation Bidirectional-LSTM Network that integrates parallel multi-scale one-dimensional convolutional branches, residual connections, lightweight Squeeze-and-Excitation channel attention, and bidirectional LSTM temporal modelling into a unified end-to-end framework. This design enables joint learning of local morphological features and long-range temporal dependencies directly from ECG heartbeat segments, with Gaussian noise injection employed to improve robustness to class imbalance and signal variability. Evaluated on the MIT-BIH Arrhythmia Database under the AAMI EC57 five-class protocol, CaReS-BiNet achieves an accuracy of 98.74%, precision of 98.70%, recall of 98.73%, and F1-score of 98.71%, outperforming the majority of compared state-of-the-art methods on recall and F1-score. Independent evaluation on the PTB Diagnostic ECG Database yields 99.31% accuracy, 99.27% precision, 99.16% F1-score, and an AUC of 0.999, demonstrating superior performance across all reported metrics against a recently proposed hybrid architecture evaluated on the same dataset. This robustness is further supported by consistent performance on an additional heterogeneous ECG dataset, achieving 98.08% accuracy. Binary ventricular ectopic beat (VEB) and supraventricular ectopic beat (SVEB) detection further confirms clinical reliability, with SVEB precision of 97.99% substantially exceeding existing methods. A systematic ablation study validates the individual contribution of each architectural component across both datasets. These results establish CaReS-BiNet as an effective framework for automated arrhythmia classification across diverse ECG datasets.",
+      "authors": [
+        "Manisha",
+        "Karunakar A Kotegar",
+        "Shavantrevva Bilakeri"
+      ],
+      "published_on": "2026-06-24",
+      "doi": "10.1038/s41598-026-58810-6",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42336980/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-58810-6"
     },
     {
       "pmid": "42321363",
@@ -227,91 +308,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42274990/",
       "doi_url": "https://doi.org/10.1007/s13246-026-01751-1"
-    },
-    {
-      "pmid": "42274935",
-      "title": "Artificial intelligence in the clinical management and prognostication of mitral regurgitation: a systematic review.",
-      "journal": "The Egyptian heart journal : (EHJ) : official bulletin of the Egyptian Society of Cardiology",
-      "abstract": "BACKGROUND: Mitral regurgitation (MR), one of the most common valvular heart diseases, poses ongoing challenges in risk stratification and timely intervention. Traditional diagnostic approaches, suffer from interobserver variability. Artificial intelligence (AI) has recently gained traction in cardiology to augment clinical precision. This article reviews the use of AI in the diagnosis, severity assessment, and prognostication of MR, with a focus on performance metrics.\n\nMETHODS: The search was conducted in PubMed, Embase, and MEDLINE on May 9, 2025. Studies were eligible if they applied AI to MR-related tasks using imaging, ECG, or clinical data. Data extraction focused on dataset characteristics, model architectures, and performance.\n\nRESULTS: A total of eleven studies, comprising 80,915 patients, were included. Among the included studies, six utilized echocardiographic data, two electrocardiography, two clinical biomarkers or structured datasets, and one chest radiography. Algorithms included convolutional neural networks, support vector machines, and ensemble models. Reported AUCs ranged from 0.74 to 0.94. Models based on color Doppler or 3D geometrical mitral features achieved the highest discriminatory performance. Only a minority of studies incorporated external validation or reported clinically actionable thresholds such as PPV. ECG-based models demonstrated high scalability but lower sensitivity. Studies integrating multimodal data yielded promising results.\n\nCONCLUSION: AI models, especially those trained on echocardiographic imaging, demonstrate strong potential for improving MR evaluation. However, widespread clinical adoption is limited by lack of external validation, and inconsistent outcome reporting. Future work should emphasize model interpretability, multicenter validation, and head-to-head comparisons with expert assessment to bridge the translational gap.",
-      "authors": [
-        "Armia Ahmadi-Hadad",
-        "Michela Belotti",
-        "Assil Zennoud",
-        "Boshra Moghimi",
-        "Caterina Autuori",
-        "Divinie Sumanasekara",
-        "Hashini Maneesha Fernando Udiriappuwaduge",
-        "Giuseppe Comentale",
-        "Emanuele Pilato"
-      ],
-      "published_on": "2026-06-11",
-      "doi": "10.1186/s43044-026-00756-1",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42274935/",
-      "doi_url": "https://doi.org/10.1186/s43044-026-00756-1"
-    },
-    {
-      "pmid": "42270808",
-      "title": "Machine learning-enabled ECG arrhythmia classification: a systematic and educational study from signal processing to decision support.",
-      "journal": "Scientific reports",
-      "abstract": "Electrocardiogram (ECG) signals play a critical role in the early detection of cardiac arrhythmias, which remain a major cause of morbidity and mortality worldwide. While deep learning approaches have achieved high classification accuracy, their increasing complexity often limits interpretability and practical applicability. This study presents a systematic and interpretable framework for multi-class ECG arrhythmia classification, examining the effects of signal processing, feature extraction, feature selection, and evaluation strategies on classification performance. Experiments were conducted on the MIT-BIH Arrhythmia Database using two feature representations: (i) morphological and temporal features, and (ii) a compact wavelet-based representation. Sequential Forward Feature Selection (SFFS) revealed that classification performance saturates at approximately 15 features, indicating that most discriminative information is captured within a compact subset. Using this feature space, the support vector machine (SVM) achieved the best overall performance, reaching 98.54% accuracy with stable results across different configurations. The wavelet-based representation further improved performance balance, yielding lower Golden Distance (GD) values (as low as 0.0249), indicating more consistent behavior across evaluation metrics. Overall, the results demonstrate that carefully designed feature extraction and selection enable classical machine learning methods, particularly SVM, to achieve high and reliable performance, providing an interpretable alternative to more complex black-box models in ECG arrhythmia classification.",
-      "authors": [
-        "Negin Melek"
-      ],
-      "published_on": "2026-06-11",
-      "doi": "10.1038/s41598-026-56828-4",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42270808/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-56828-4"
-    },
-    {
-      "pmid": "42270695",
-      "title": "Hybrid and advanced convolution techniques for highly accurate, reliable and automated ECG classification.",
-      "journal": "Scientific reports",
-      "abstract": "Cardiac arrhythmias are a leading cause of cardiovascular mortality worldwide, and auto- mated analysis of electrocardiogram (ECG) recordings is an unmet clinical need. This paper introduces a hybrid 1D Convolutional Neural Network (CNN) architecture for automated ECG heartbeat classification that captures both multi-scale morphological and long-range temporal dependencies. The architecture combines Dynamic Kernel Switching (DKS) with adaptive gating over kernel sizes {3, 5, 7}, a Self-Attention module, and Dilated Convolutions at dilation rates 2 and 4. For low-power edge deployment on Neural Processing Units (NPUs) and FPGA/ASIC platforms, three quantization paths are evaluated: (1) Dynamic Post-Training Quantization (PTQ) with INT8 weights and FP32 I/O, (2) Full-Integer PTQ with INT8 weights and activations, and (3) Quantization-Aware Training (QAT). With a corrected stratified 72/8/20 train/validation/test protocol, focal loss (γ = 2.0), AdamW optimization and cosine learning rate decay, the proposed model achieves 98.99% test accuracy and a macro F1-score of 0.9484 on the MIT-BIH Arrhythmia Database (16,219 held-out test beats, five AAMI classes). Five-fold stratified cross-validation confirms statistical robustness: 98.93% ± 0.10% accuracy with 95% confidence interval [98.84%, 99.02%]. A comprehensive seven-variant ablation study covering Self-Attention, CBAM, CSA, and SimSA demonstrates that the proposed DKS + Self-Attention combination outperforms all alternatives. Generalization is further validated on five independently withheld MIT-BIH patient recordings (10,444 beats), achieving 92.86% accuracy and macro F1 of 0.8219. The model comprises only 331,733 parameters and reduces to ≈0.32 MB under Dynamic PTQ, enabling direct TFLite/INT8 conversion for RTL-level FPGA deployment.",
-      "authors": [
-        "R Gokul",
-        "Yaswanth Sree Penumalli",
-        "Chalamala Ranjith",
-        "Moilla Namitesh Reddy",
-        "D S Bhargava",
-        "G Seetharaman",
-        "R Dhanalakshmi",
-        "T N Prabakar",
-        "S Devi Poonguzhali"
-      ],
-      "published_on": "2026-06-11",
-      "doi": "10.1038/s41598-026-55382-3",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42270695/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-55382-3"
-    },
-    {
-      "pmid": "42200397",
-      "title": "Fully Biobased, Robust, and High-Conductivity Hydrogel for High-Fidelity Electrophysiological Monitoring and Deep Learning-Assisted Stroke Rehabilitation.",
-      "journal": "ACS applied materials & interfaces",
-      "abstract": "Developing sustainable bioelectronics that simultaneously integrate mechanical robustness, high conductivity, biocompatibility, and system-level functionality remains a fundamental challenge. Here, we report a Hofmeister-engineered, fully biobased hydrogel platform (GT2C20) that addresses these limitations through a synergistic dual physical cross-linking network. By combining citrate-induced chain compaction and continuous ionic transport pathways, this hydrogel achieves high tensile strength (0.73 MPa), large extensibility (272.5%), and high electrical conductivity (1.8 S m-1), overcoming intrinsic trade-offs in conventional gelatin-based systems. Building on these properties, GT2C20 enables an integrated multifunctional bioelectronic system. As a skin-conformal bioelectrode, it provides high-fidelity acquisition of electrophysiological signals (ECG, EEG, and EMG), achieving a high signal-to-noise ratio (24.3 dB for ECG) compared to commercial Ag/AgCl electrodes. When integrated with deep learning algorithms, the platform enables autonomous assessment of Brunnstrom stages for stroke rehabilitation with an accuracy of 97.31%, while a wireless telemedicine system supports remote diagnosis and personalized healthcare management. In parallel, the hydrogel functions as a highly stable strain sensor for real-time motion monitoring and precise gesture recognition, enabling intuitive control of prosthetic devices. Additionally, the hydrogel acts as a triboelectric nanogenerator electrode, yielding an open-circuit voltage of 72.1 V to power its own functions, while a microcontroller system supports wireless telemedicine and remote rehabilitation monitoring. This work presents an eco-friendly strategy for fabricating high-performance, biobased flexible electronics suited for health monitoring, telemedicine, and soft robotics.",
-      "authors": [
-        "Zhoujing Chen",
-        "Didi Wen",
-        "Xiaoli Liang",
-        "Yuqi Li",
-        "Yongkang Bai"
-      ],
-      "published_on": "2026-05-27",
-      "doi": "10.1021/acsami.6c03687",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42200397/",
-      "doi_url": "https://doi.org/10.1021/acsami.6c03687"
     }
   ],
   "error": null,
