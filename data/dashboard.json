@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-26T08:31:59.482860+00:00",
-    "last_success_at": "2026-06-26T08:32:00.060541+00:00",
+    "last_attempt_at": "2026-06-27T10:13:36.428121+00:00",
+    "last_success_at": "2026-06-27T10:13:36.985682+00:00",
     "count": 15,
     "papers": [
       {
@@ -265,6 +265,25 @@
         "doi_url": "https://doi.org/10.14744/AnatolJCardiol.2026.5642"
       },
       {
+        "pmid": "42356726",
+        "title": "An Edge-Cloud Collaborative ECG-Assisted Diagnostic System Leveraging Cross-Lead Knowledge Distillation and Large Language Models.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "abstract": "Cardiovascular diseases impose a substantial global health burden and often require timely detection, creating strong demand for real-time electrocardiogram (ECG) monitoring on resource-constrained devices. Although portable single-lead wearable ECG devices are valuable for daily monitoring, their diagnostic performance is limited by spatial information loss and hardware constraints. Moreover, conventional lightweight models lack interpretable analysis beyond coarse classification. This study proposes an edge-cloud collaborative ECG-assisted analysis method combining lightweight ECG model distillation with large language models. At the algorithmic level, a cross-lead distillation framework transfers knowledge from a 12-lead InceptionTime-Transformer teacher to an ultra-lightweight single-lead student via a hybrid loss integrating hard-label, temperature-scaled soft-label, and auxiliary multi-label objectives. At the system level, a three-layer architecture integrates edge-side real-time screening with cloud-side report generation through a LoRA-fine-tuned Qwen3-8B model. Experiments on PTB-XL show that, under 123.7× parameter compression and 12-to-1 lead reduction, the student retains 92.8% of the teacher's Macro-F1 and 94.7% of its AUC-ROC. After 8-bit integer (INT8) quantization, the TFLite file is 20.8 KB; QEMU-based Cortex-M4 simulation shows approximately 63.0 KB SRAM usage and 11.6 ms latency, suggesting potential on-device deployment under simulated conditions. Validation on physical hardware-including power consumption, BLE latency, and motion artifacts-remains necessary.",
+        "authors": [
+          "Haohan Su",
+          "Shuai Wang",
+          "Hongxiao Wang",
+          "Keni Qiu"
+        ],
+        "published_on": "2026-06-26",
+        "doi": "10.3390/s26123753",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42356726/",
+        "doi_url": "https://doi.org/10.3390/s26123753"
+      },
+      {
         "pmid": "42284164",
         "title": "Explaining deep learning for ECG using time-localized clusters.",
         "journal": "IEEE transactions on bio-medical engineering",
@@ -286,44 +305,21 @@
         "doi_url": "https://doi.org/10.1109/TBME.2026.3702945"
       },
       {
-        "pmid": "42277292",
-        "title": "IoMT-Blockchain framework for secure and real-time heart disease monitoring using hybrid black-winged optimized spherical structural graph convolutional neural networks.",
-        "journal": "Scientific reports",
-        "abstract": "Cardiovascular diseases are a primary global health concern, requiring continuous monitoring and accurate diagnostic mechanisms for early detection and prevention. The integration of the Internet of Medical Things (IoMT), deep learning, and blockchain technologies has enabled intelligent healthcare systems capable of real-time cardiac assessment and enhanced security in the management of medical information. However, existing heart disease monitoring systems are affected by noisy physiological signals, inefficient feature extraction, limited classification accuracy, and insufficient security in distributed environments, motivating the development of a robust and reliable diagnostic framework with improved security. To address these challenges, this research proposes an IoMT and Blockchain-Based Heart Disease Monitoring System Using Hybrid Black-Winged Spherical Structural Graph Convolution Neural Network (HBW-SSG-CNN). The proposed workflow begins with IoMT-based acquisition of ECG and PCG signals, followed by preprocessing using quasi-cross bilateral filtering (QCBF) to suppress noise while preserving critical cardiac structures. Signal decomposition is performed using Spectral Envelope-Based Adaptive Empirical Fourier Decomposition (SE-AEFD), followed by feature extraction using the Short-Time Quaternion Quadratic Phase Fourier Transform (ST-QQPFT). Feature dimensionality is optimized using the Success-Based Optimization Algorithm (SBOA), and heart disease classification is performed using a Hybrid Structural Graph Attention Network with Spherical Convolutional Neural Network (HS-GAT-SCNN), further enhanced by the Black-Winged Kite Algorithm (BWKA). To enhance data integrity and improve security, an Adaptive Hash Algorithm with Weighted Probability Model (AHA-WPM) is integrated with a Fair Consensus Blockchain for Heterogeneous Miners (FCB-HM). The proposed model is evaluated using publicly available benchmark datasets, including PhysioNet cardiac signal datasets and the Cleveland heart disease dataset. Experimental evaluation demonstrates superior performance with an accuracy of 99.21%, sensitivity of 98.94%, specificity of 99.08%, and F1-score of 99.02%. The results confirm that the proposed framework provides a highly accurate, scalable, and security-enhanced solution for near real-time heart disease monitoring in IoMT-enabled healthcare systems.",
+        "pmid": "42356695",
+        "title": "A Cascaded Quantized Spiking Neural Network for Real-Time ECG Arrhythmia Detection on Edge Hardware.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "abstract": "Wearable ECG monitors enable continuous cardiac surveillance, but most still rely on cloud-based analysis with limited on-device support for multi-class arrhythmia detection. Spiking neural networks (SNNs) are promising for low-power edge inference, yet it remains unclear how class-imbalance loss design interacts with RR-interval features in directly trained quantized SNNs, and FPGA validation in this setting is largely unexplored. We propose a quantized convolutional spiking neural network (QCSNN) for real-time arrhythmia detection on resource-constrained hardware. The model uses a dual-head architecture that jointly trains binary and four-class classifiers, subsequently reorganized into a cascaded pipeline that routes only abnormal beats to the second stage. At inference, beats classified as Normal exit at Stage 1; only beats classified as Abnormal are routed to the four-class head, so the bulk of the inference cost is absorbed by Stage 1. We evaluate two loss functions, Cross-Entropy and Focal Loss, under four RR-feature routing strategies. Without RR features, Focal Loss improves macro F1 by 2.3-2.5% over Cross-Entropy (mean Δ = +0.013 in Stage-2 macro F1; Wilcoxon two-sided p = 0.031). With RR features, this advantage largely disappears (Wilcoxon two-sided p ≥ 0.219 at all RR routings); meanwhile, RR features at the strongest routing improve Stage-2 macro F1 by +0.028 to +0.034 depending on loss function-a gain that exceeds the entire Focal-Loss-over-Cross-Entropy advantage, suggesting that RR features provide discriminative information that compensates for class imbalance at the input level. Based on clinically prioritized sensitivity, the CE:RR→Both configuration was deployed on a PYNQ-Z2 FPGA, achieving 99.02% cascaded accuracy, 11.54 ms per-beat latency, and 0.33 W accelerator power-a 31.66× power reduction and 4.01× energy reduction versus GPU inference, within 1% macro F1. These results demonstrate quantized SNNs as a practical solution for real-time edge arrhythmia monitoring that operates independently of cloud connectivity-removing the network-dependent latency, connectivity-dropout failure modes, and continuous-transmission energy burden that constrain current wearable monitors and, to our knowledge, represent one of the first systematic studies of loss-function/RR-feature interactions in directly trained SNN arrhythmia classification and one of the first FPGA deployments of a fully quantized, directly trained SNN for multi-class ECG arrhythmia detection. All code generated and used in this study has been made publicly available.",
         "authors": [
-          "P Bhuvaneshwari",
-          "Mohammad Zubair Khan",
-          "Cyril Prasanna Raj",
-          "M S Shreya Yadav",
-          "S Muthuvel"
+          "Olamilekan Banjo",
+          "Behnaz Ghoraani"
         ],
-        "published_on": "2026-06-12",
-        "doi": "10.1038/s41598-026-57620-0",
+        "published_on": "2026-06-26",
+        "doi": "10.3390/s26123723",
         "publication_types": [
           "Journal Article"
         ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42277292/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-57620-0"
-      },
-      {
-        "pmid": "42274990",
-        "title": "Compact neural network algorithm for electrocardiogram classification.",
-        "journal": "Physical and engineering sciences in medicine",
-        "abstract": "In this paper, we present a powerful, compact electrocardiogram (ECG) classification algorithm for cardiac arrhythmia diagnosis that addresses the current reliance on deep learning and convolutional neural networks (CNNs) in ECG analysis. This work aims to reduce the demand for deep learning, which often requires extensive computational resources and large labeled datasets. Our approach introduces an artificial neural network (ANN) with a simple architecture combined with a compact, interpretable feature-engineering pipeline. A key contribution of this work is the incorporation of 17 engineered features that enable the extraction of critical patterns from raw ECG signals. By integrating mathematical transformations, signal processing methods, and data extraction algorithms, our model captures the morphological and physiological characteristics of ECG signals with high efficiency, without requiring deep learning. Our method demonstrates a similar performance to other state-of-the-art models in classifying five rhythm classes-normal sinus rhythm, sinus bradycardia, sinus tachycardia, ventricular flutter, and atrial fibrillation. Our algorithm achieved an accuracy of [Formula: see text] on the MIT-BIH and St. Petersburg INCART arrhythmia databases, with a Cohen's kappa of [Formula: see text] and a Matthews correlation coefficient of [Formula: see text]. The compactness of the model and its low inference latency on a standard CPU suggest that the approach is a promising candidate for deployment on resource-constrained platforms.",
-        "authors": [
-          "Christian M Frausto-Avila",
-          "Juan P Manriquez-Amavizca",
-          "Ana K S Rocha-Robledo",
-          "Mario A Quiroz-Juarez",
-          "Alfred B U'Ren"
-        ],
-        "published_on": "2026-06-11",
-        "doi": "10.1007/s13246-026-01751-1",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42274990/",
-        "doi_url": "https://doi.org/10.1007/s13246-026-01751-1"
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42356695/",
+        "doi_url": "https://doi.org/10.3390/s26123723"
       }
     ],
     "error": null,
@@ -336,6 +332,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-27T08:32:00.060541+00:00",
+  "next_refresh_at": "2026-06-28T10:13:36.985682+00:00",
   "next_push_at": null
 }
