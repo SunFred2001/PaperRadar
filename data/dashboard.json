@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-27T10:13:36.428121+00:00",
-    "last_success_at": "2026-06-27T10:13:36.985682+00:00",
+    "last_attempt_at": "2026-06-28T11:48:40.509749+00:00",
+    "last_success_at": "2026-06-28T11:48:40.882397+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,23 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42312446",
+        "title": "Integrative multi-modal feature extraction from ECG signals using FusionHeartNet for robust heart disease prediction.",
+        "journal": "The International journal of artificial organs",
+        "abstract": "Electrocardiogram (ECG)-based diagnostics are pivotal in early cardiac disorder detection, yet existing models often fail to integrate temporal, spectral, and spatial dynamics inherent in complex arrhythmic patterns. Most traditional approaches are unimodal, relying either on time-domain signal processing or spatially limited CNN models, thereby overlooking cross-domain dependencies and subtle morphological cues. Addressing this gap, this research proposes FusionHeartNet, a unified deep learning framework that fuses signal- and image-based representations using a dual-spectrum feature embedding (DSFE) strategy. DSFE synergistically extracts morphological descriptors and spectral signatures via Fourier and wavelet transforms, while spatial morphology is preserved through GAF and CWT scalograms. These dual-domain features are refined by a multi-focus attention module (MFAM) and classified through the heart fusion classifier (HFC), which is optimized using Bayesian optimization with adaptive learning rate scheduling (BO-ALRS). Experimental validation on the MIT-BIH Arrhythmia Database demonstrates an accuracy of 98.47%, F1-score of 91.67%, and kappa of 0.9311, significantly outperforming baseline models. FusionHeartNet sets a new benchmark for robust, multi-dimensional ECG analysis, offering clinically viable precision in early heart disease detection.",
+        "authors": [
+          "Anita Shivaji Gunjal",
+          "Thangavel Judgi"
+        ],
+        "published_on": "2026-06-18",
+        "doi": "10.1177/03913988261448211",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312446/",
+        "doi_url": "https://doi.org/10.1177/03913988261448211"
       },
       {
         "pmid": "41933676",
@@ -208,23 +225,6 @@
         "doi_url": "https://doi.org/10.2196/87227"
       },
       {
-        "pmid": "42312446",
-        "title": "Integrative multi-modal feature extraction from ECG signals using FusionHeartNet for robust heart disease prediction.",
-        "journal": "The International journal of artificial organs",
-        "abstract": "Electrocardiogram (ECG)-based diagnostics are pivotal in early cardiac disorder detection, yet existing models often fail to integrate temporal, spectral, and spatial dynamics inherent in complex arrhythmic patterns. Most traditional approaches are unimodal, relying either on time-domain signal processing or spatially limited CNN models, thereby overlooking cross-domain dependencies and subtle morphological cues. Addressing this gap, this research proposes FusionHeartNet, a unified deep learning framework that fuses signal- and image-based representations using a dual-spectrum feature embedding (DSFE) strategy. DSFE synergistically extracts morphological descriptors and spectral signatures via Fourier and wavelet transforms, while spatial morphology is preserved through GAF and CWT scalograms. These dual-domain features are refined by a multi-focus attention module (MFAM) and classified through the heart fusion classifier (HFC), which is optimized using Bayesian optimization with adaptive learning rate scheduling (BO-ALRS). Experimental validation on the MIT-BIH Arrhythmia Database demonstrates an accuracy of 98.47%, F1-score of 91.67%, and kappa of 0.9311, significantly outperforming baseline models. FusionHeartNet sets a new benchmark for robust, multi-dimensional ECG analysis, offering clinically viable precision in early heart disease detection.",
-        "authors": [
-          "Anita Shivaji Gunjal",
-          "Thangavel Judgi"
-        ],
-        "published_on": "2026-06-18",
-        "doi": "10.1177/03913988261448211",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312446/",
-        "doi_url": "https://doi.org/10.1177/03913988261448211"
-      },
-      {
         "pmid": "42308656",
         "title": "Artificial Intelligence-Enabled Serial Electrocardiograms for Prediction of All-Cause Mortality in Secondary Care Settings.",
         "journal": "JACC. Advances",
@@ -332,6 +332,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-28T10:13:36.985682+00:00",
+  "next_refresh_at": "2026-06-29T11:48:40.882397+00:00",
   "next_push_at": null
 }
