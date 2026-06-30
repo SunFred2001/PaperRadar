@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-29T14:09:04.391471+00:00",
-    "last_success_at": "2026-06-29T14:09:04.813337+00:00",
+    "last_attempt_at": "2026-06-30T15:32:54.987324+00:00",
+    "last_success_at": "2026-06-30T15:32:55.788622+00:00",
     "count": 15,
     "papers": [
       {
@@ -81,24 +81,140 @@
         "doi_url": "https://doi.org/10.1177/03913988261448211"
       },
       {
-        "pmid": "41933676",
-        "title": "Anxiety detection using neural and physiological signals and artificial intelligence: A comprehensive review.",
-        "journal": "Neuroscience and biobehavioral reviews",
-        "abstract": "Anxiety disorders are a significant challenge to global health, yet current diagnostic methods rely mainly on subjective and episodic assessment. The application of artificial intelligence (AI) in combination with neural and physiological signals is a promising pathway toward objective and continuous monitoring. This review provides a comprehensive evaluation of machine learning (ML) and deep learning (DL) techniques applied to electroencephalography (EEG), electrocardiography (ECG), Photoplethysmography (PPG), and electrodermal activity (EDA) for anxiety detection. A systematic review of the literature covering the period 2015-2025 indicates that the field has evolved from traditional ML systems based on hand-crafted features to modern end-to-end deep learning schemes. Our review indicates that while classical models remain effective, hybrid models such as CNN-LSTM and more sophisticated architectures, like Transformers, consistently deliver state-of-the-art results, particularly in multimodal data integration scenarios. Despite the impressive accuracies reported, a critical examination identifies several key challenges including reliance on narrow, laboratory-trained datasets, a lack of standardized validation procedures, and limited transparency in complex models, collectively impeding clinical translation. Progress in this field requires the creation of large-scale, clinically-validated datasets; the development of fault-tolerant, generalizable, and interpretable schemes; and a transition from basic state classification towards longitudinal, personalized monitoring in support of just-in-time intervention. As a comprehensive and up-to-date narrative synthesis of AI-driven anxiety detection using neural and physiological signals, this review consolidates a fragmented literature, articulates the translational gaps limiting real-world deployment, and establishes a clear research agenda for the development of clinically impactful digital mental health technologies.",
+        "pmid": "41933633",
+        "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
+        "journal": "Heart rhythm",
+        "abstract": "BACKGROUND: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a frequently underdiagnosed disease in which delay in diagnosis limits the efficacy of treatments. Artificial intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and may help improve ATTR-CM early detection.\n\nOBJECTIVES: The goals of this study were to extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and to evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: This was a single-center retrospective study of adults evaluated for ATTR-CM. Controls had negative 3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy and clinical assessment to exclude ATTR-CM. After quality control, 20,754 ECGs from 2901 individuals [585 patients with ATTR-CM (20.2%) and 2316 controls (79.8%)] were used. Patients were split into training/validation and test data sets, with stratification by amyloidosis status, sex, and age groups. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an area under the receiver operating characteristic curve (AUC) of 0.88 (95% confidence interval, 0.85-0.91), a sensitivity of 80.7%, and a specificity of 78.5%. Performance was similar for hereditary transthyretin amyloidosis or hereditary ATTR (ATTRv; AUC, 0.91) and wild-type transthyretin amyloidosis or wild type ATTR (ATTRwt; AUC, 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; New York Heart Association class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC, 0.92), lumbar spinal stenosis (AUC, 0.92), and polyneuropathy (AUC, 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. The Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
         "authors": [
-          "Hamidreza Ghonchi",
-          "Tom Foulsham",
-          "Saideh Ferdowsi"
+          "Esther González-López",
+          "Ruben Abbou",
+          "Rafael López-García",
+          "Mariana Brandão",
+          "Lucía Perard",
+          "Nerea Mora-Ayestaran",
+          "Cecilia Niro",
+          "Gabriela Uriarte",
+          "María de Miguel",
+          "Ewa Dziewiecka",
+          "Paola Settepassi",
+          "Clara Simón",
+          "Rafael Martín-Portugués",
+          "Ángel de la Linde Valdés",
+          "Víctor Valdés",
+          "Iñigo Sánchez-Rodríguez",
+          "Rubén Ruiz-Zamorano",
+          "François De Guio",
+          "José María Lillo-Castellano",
+          "Manuel Marina-Breysse",
+          "Pablo García-Pavía"
         ],
         "published_on": "2026-04-04",
-        "doi": "10.1016/j.neubiorev.2026.106669",
+        "doi": "10.1016/j.hrthm.2026.03.1949",
         "publication_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Review"
+          "Journal Article"
         ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
-        "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
+        "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
+      },
+      {
+        "pmid": "41884351",
+        "title": "Machine learning models enhance detection of arrhythmogenic right ventricular cardiomyopathy.",
+        "journal": "Machine learning. Health",
+        "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a heritable cardiac disorder associated with sudden cardiac death, yet its diagnosis remains slow, resource-intensive, and dependent on expert interpretation of multimodal tests. Machine learning approaches may enable earlier and more standardized detection. Here, we sought to identify an optimal machine learning strategy for ARVC detection, and to define its role within the diagnostic pathway. A composite dataset of 688 patients from the Johns Hopkins ARVC Registry was used to train and evaluate eight models based on 31 clinical, electrocardiogram (ECG), imaging, and genetic variables. Following an 80/20 train-test split, models were developed on the train set using five-fold stratified cross-validation and evaluated on the hold-out test cohort. Performance was assessed using area under the curve (AUC), accuracy, sensitivity, specificity, and 95% confidence intervals. Model comparison was performed using the Friedman test with Nemenyi post-hoc analysis. Gradient boosted trees (GBT) achieved the highest overall performance (AUC = 0.943, 95% CI: 0.902-0.99; accuracy = 0.847, 95% CI: 0.786-0.907). Nemenyi testing showed GBT significantly outperformed Decision Tree and TabNet (p < 0.05), while differences vs the remaining five models were not statistically significant. The next-best model (Random Forest) showed a minimal performance gap (ΔAUC = 0.008), whereas low-ranked models showed larger deficits (ΔAUC = 0.040-0.042). An ECG-only version of the GBT model achieved an AUC of 0.884, exceeding the previously reported ECG-deep learning waveform model (AUC = 0.87). GBT performs best among evaluated algorithms and offers clinically interpretable feature relevance consistent with task force criteria for ARVC diagnosis. An ECG-only deployment supports early triage, while the multimodal model functions as confirmatory decision support after advanced testing. These findings support a tiered ML-assisted diagnostic strategy for ARVC and justify prospective external validation in broader clinical settings.",
+        "authors": [
+          "Kwaku K Quansah",
+          "Sean A Murphy",
+          "Esther Kwon",
+          "Emma Anderson",
+          "Crystal Tichnell",
+          "Brittney Murray",
+          "Sean Gaines",
+          "Alessio Gasperetti",
+          "Cynthia A James",
+          "Hugh Calkins",
+          "Richard T Carrick",
+          "Chulan Kwon"
+        ],
+        "published_on": "2026-03-26",
+        "doi": "10.1088/3049-477X/ae451a",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41884351/",
+        "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
+      },
+      {
+        "pmid": "42374510",
+        "title": "Deep learning analysis of ECGs detects Cardiovascular-Kidney-Metabolic syndrome burden in people with diabetes: a report from the Silesia Diabetes-Heart Project.",
+        "journal": "Cardiovascular diabetology",
+        "abstract": "BACKGROUND: Cardiovascular-kidney-metabolic (CKM) syndrome refers to the co-occurrence of obesity, diabetes, chronic kidney disease (CKD), and cardiovascular disease. However, it is underdiagnosed due to silent clinical nature of the early stages of its components and subsequent siloed medical care. Electrocardiography (ECG) is an inexpensive and widely available diagnostic tool but its utility in automated detection of CKM syndrome has not been previously explored.\n\nOBJECTIVE: To develop and evaluate deep learning models for predicting CKM syndrome using scanned limb and augmented limb leads ECGs images in people with diabetes.\n\nMETHODS: Clinical data of adults with type 1 or type 2 diabetes enrolled in the prospective Silesia Diabetes-Heart Project were analyzed. CKM syndrome was defined by the presence of either CKD [estimated glomerular filtration rate (eGFR) < 60 mL/min/1.73 m2 and/or urine albumin to creatinine ratio (UACR) ≥ 30 mg/g) or established CVD. High-resolution scanned ECG tracings were processed into lead-specific inputs to train ResNet-50-based convolutional neural network (CNN) models, including single- and dual-channel variants. Class imbalance was addressed using resampling strategies, and model performance was evaluated using standard classification metrics, including area under the receiver operating characteristic curve (AUROC), with confidence intervals estimated by bootstrap resampling.\n\nRESULTS: Among 2779 participants, 492 (17.7%) met criteria for CKM syndrome. The best-performing individual model was a dual-channel ResNet-50 with soft voting ensemble, achieving an AUROC of 0.8199 (95% CI 0.7549-0.8795), F1-score of 0.7213 (95% CI 0.6404-0.7957), accuracy of 0.7385, and balanced precision and recall. Ensemble models consistently outperformed individual architectures, particularly in handling class imbalance and improving generalization.\n\nCONCLUSION: Deep learning applied to scanned ECG image data predicts CKM syndrome in individuals with diabetes with reasonable accuracy. This approach holds promise as a low-cost, scalable risk stratification tool and which could augment clinical decision-making in settings particularly with limited access to advanced diagnostics. Trial registration The study is registered at ClinicalTrials.gov (NCT05626413).",
+        "authors": [
+          "Oliwia Janota-Sosińska",
+          "Qinkai Yu",
+          "Krzysztof Irlik",
+          "Hanna Kwiendacz",
+          "Aleksandra Włosowicz-Momot",
+          "Patrycja Pabis",
+          "Wiktoria Wójcik",
+          "Anna Olejarz",
+          "Julia Piaśnik",
+          "Uazman Alam",
+          "Yalin Zheng",
+          "Janusz Gumprecht",
+          "Gregory Y H Lip",
+          "Katarzyna Nabrdalik"
+        ],
+        "published_on": "2026-06-30",
+        "doi": "10.1186/s12933-026-03246-5",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42374510/",
+        "doi_url": "https://doi.org/10.1186/s12933-026-03246-5"
+      },
+      {
+        "pmid": "42374403",
+        "title": "Deep learning analysis of 12-lead electrocardiograms for bloodstream infection prediction: a multi-center validation study.",
+        "journal": "BMC medical informatics and decision making",
+        "abstract": "BACKGROUND: Prompt diagnosis of bloodstream infections (BSIs) is critical for antimicrobial stewardship but hindered by blood culture delays of 48 h or more. We developed and validated a deep learning model to predict BSI risk from standard 12-lead electrocardiograms (ECGs).\n\nMETHODS: This study adhered to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) guidelines. In this retrospective, multi-center study, we trained a deep learning model to predict clinically significant BSIs (excluding common contaminants) using ECGs from adult emergency department (ED) patients at an academic medical center in Taiwan (April 2012 to March 2022; total N = 163,826) and validated it in three independent cohorts: internal (n = 22,205), external (n = 22,709), and MIMIC-IV (n = 66,937). For the MIMIC-IV cohort, BSI was identified using the derived suspicion of infection framework with a positive blood culture flag.\n\nRESULTS: The model achieved AUCs of 0.821 (95% CI 0.804-0.838), 0.800 (0.782-0.818), and 0.756 (0.743-0.768) across the three test cohorts, respectively. At a high-sensitivity rule-out threshold the model classified 19-25% of patients as low risk (negative predictive value [NPV] 99.8%); at the Youden point, the sensitivity and specificity were 73.2% and 76.8% in the internal test set, with an NPV of 99.2%. The model showed superior discrimination compared with XGBoost and logistic regression baselines. Decision-curve analysis showed net benefit over heart rate alone and the default treat-all and treat-none strategies across the clinically relevant low-threshold range. Exploratory analyses indicated that the ECG-derived risk signal was elevated across Gram-positive, Gram-negative, and fungal infections; pathogen-specific prediction will require a dedicated model (Supplementary Figure S3). The primary model stratified 90-day mortality risk among infected patients (adjusted HR 3.43 [1.93-6.09] for high- vs. low-risk).\n\nCONCLUSIONS: Deep learning analysis of standard 12-lead ECGs obtained at ED triage can predict clinically significant BSI with discrimination superior to conventional ECG parameters. The model discriminated best (highest AUC) in patients with low clinical suspicion (qSOFA = 0), although its incremental value in this low-prevalence subgroup is modest. Prospective validation is needed before clinical implementation.",
+        "authors": [
+          "Po-Huang Chen",
+          "Shang-Yang Li",
+          "Dung-Jang Tsai",
+          "Yan-Ru Wang",
+          "Shiue-Wei Lai",
+          "Ping-Ying Chang",
+          "Jia-Hong Chen",
+          "Ming-Shen Dai",
+          "Chin-Sheng Lin",
+          "Chin Lin",
+          "Cho-Hao Lee"
+        ],
+        "published_on": "2026-06-30",
+        "doi": "10.1186/s12911-026-03657-0",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42374403/",
+        "doi_url": "https://doi.org/10.1186/s12911-026-03657-0"
+      },
+      {
+        "pmid": "42371348",
+        "title": "Energy-efficient real-time 4-stage sleep classification at 10-second resolution.",
+        "journal": "Medical & biological engineering & computing",
+        "abstract": "Sleep stage classification is critical for diagnosing and managing disorders like sleep apnea and insomnia. However, conventional methods like polysomnography are costly and impractical for long-term, home-based monitoring. This study presents an energy-efficient approach for detecting four sleep stages (wake, rapid eye movement (REM), light sleep, deep sleep) using a single-lead electrocardiogram (ECG) signal. We evaluate various machine learning and deep learning models, introducing two windowing strategies: (1) a 5-minute window with 30-second steps for machine learning and (2) a 30-second window with 10-second steps for deep learning, enabling 10-second temporal resolution for real-time predictions. While deep learning models like MobileNet-v1 achieve high accuracy (92%) and F1-score (91%), their energy demands make them unsuitable for wearables. To address this, we design SleepLiteCNN, optimized for ECG-based sleep staging, achieving 89% accuracy and 89% F1-score while minimizing energy use. Applying 8-bit quantization further reduces energy consumption to 5.48 μJ per inference, with 90% accuracy and F1-score. Additionally, field-programmable gate array (FPGA) deployment shows significant reductions in resource usage. This approach provides a practical, energy-efficient solution for continuous ECG-based sleep monitoring in resource-constrained wearable devices.",
+        "authors": [
+          "Zahra Mohammadi",
+          "Parnian Fazel",
+          "Siamak Mohammadi"
+        ],
+        "published_on": "2026-06-29",
+        "doi": "10.1007/s11517-026-03616-x",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42371348/",
+        "doi_url": "https://doi.org/10.1007/s11517-026-03616-x"
       },
       {
         "pmid": "41297935",
@@ -246,80 +362,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42308656/",
         "doi_url": "https://doi.org/10.1016/j.jacadv.2026.102875"
-      },
-      {
-        "pmid": "42301145",
-        "title": "Integrative Identification of Frailty Status in Elderly Patients with Atrial Fibrillation Using a Noise-Resilient Multimodal Machine Learning Approach.",
-        "journal": "Anatolian journal of cardiology",
-        "abstract": "BACKGROUND: Frailty is common yet underdiagnosed in elderly patients with atrial fibrillation (AF), worsening outcomes and complicating treatment. Traditional assessments are time-consuming and subjective, while physiological monitoring offers potential for automated detection. Combining machine learning (ML) with multimodal data, especially electrocardiogram (ECG) and clinical features, may improve frailty identification, even in noisy real-world conditions. To develop a noise-resilient ML framework for identifying frailty status in elderly patients with AF using multimodal clinical and ECG data and to compare traditional and deep learning models under varying signal conditions.\n\nMETHODS: This retrospective study included 110 patients aged ≥65 with documented AF. Frailty was assessed via a composite of the Fried Phenotype and Clinical Frailty Scale. Electrocardiogram data (resting 12-lead and Holter) were processed through a denoising and segmentation pipeline. Over 180 ECG features and clinical parameters were used as inputs. Five models (Random Forest, Extreme Gradient Boosting, 1-dimensional convolutional neural network, bidirectional long short-term memory-attention, SiamAF) were trained and evaluated using an 80:20 split. Performance metrics included accuracy, F1-score, receiver operating characteristic-area under the curve (ROC-AUC), and Brier score; robustness was tested with synthetic noise.\n\nRESULTS: Frailty and pre-frailty prevalence were 41.82% and 34.55%. The SiamAF achieved the best performance (accuracy 90.00%, F1-score 89.75%, ROC-AUC 93.00%, Brier score 0.084), maintaining robustness under noise. Deep learning models also showed strong performance (ROC-AUC > 90%). Key predictors included standard deviation of normal-to-normal (NN) intervals, corrected QT interval, N-terminal pro-brain natriuretic peptide, and grip strength.\n\nCONCLUSION: Multimodal ML effectively identifies frailty status in elderly patients with AF. The SiamAF model demonstrated strong discriminatory performance and noise robustness in this single-center cohort; however, these findings should be considered hypothesis-generating and require external validation in larger, multicenter AF populations before clinical adoption. Given the limited sample size relative to the high-dimensional feature space, these results should be interpreted as exploratory and hypothesis-generating. The present framework primarily leverages predefined ECG-derived features rather than fully end-to-end raw-signal learning.",
-        "authors": [
-          "Shangying Hu",
-          "Chao Feng"
-        ],
-        "published_on": "2026-06-16",
-        "doi": "10.14744/AnatolJCardiol.2026.5642",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42301145/",
-        "doi_url": "https://doi.org/10.14744/AnatolJCardiol.2026.5642"
-      },
-      {
-        "pmid": "42356726",
-        "title": "An Edge-Cloud Collaborative ECG-Assisted Diagnostic System Leveraging Cross-Lead Knowledge Distillation and Large Language Models.",
-        "journal": "Sensors (Basel, Switzerland)",
-        "abstract": "Cardiovascular diseases impose a substantial global health burden and often require timely detection, creating strong demand for real-time electrocardiogram (ECG) monitoring on resource-constrained devices. Although portable single-lead wearable ECG devices are valuable for daily monitoring, their diagnostic performance is limited by spatial information loss and hardware constraints. Moreover, conventional lightweight models lack interpretable analysis beyond coarse classification. This study proposes an edge-cloud collaborative ECG-assisted analysis method combining lightweight ECG model distillation with large language models. At the algorithmic level, a cross-lead distillation framework transfers knowledge from a 12-lead InceptionTime-Transformer teacher to an ultra-lightweight single-lead student via a hybrid loss integrating hard-label, temperature-scaled soft-label, and auxiliary multi-label objectives. At the system level, a three-layer architecture integrates edge-side real-time screening with cloud-side report generation through a LoRA-fine-tuned Qwen3-8B model. Experiments on PTB-XL show that, under 123.7× parameter compression and 12-to-1 lead reduction, the student retains 92.8% of the teacher's Macro-F1 and 94.7% of its AUC-ROC. After 8-bit integer (INT8) quantization, the TFLite file is 20.8 KB; QEMU-based Cortex-M4 simulation shows approximately 63.0 KB SRAM usage and 11.6 ms latency, suggesting potential on-device deployment under simulated conditions. Validation on physical hardware-including power consumption, BLE latency, and motion artifacts-remains necessary.",
-        "authors": [
-          "Haohan Su",
-          "Shuai Wang",
-          "Hongxiao Wang",
-          "Keni Qiu"
-        ],
-        "published_on": "2026-06-26",
-        "doi": "10.3390/s26123753",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42356726/",
-        "doi_url": "https://doi.org/10.3390/s26123753"
-      },
-      {
-        "pmid": "42284164",
-        "title": "Explaining deep learning for ECG using time-localized clusters.",
-        "journal": "IEEE transactions on bio-medical engineering",
-        "abstract": "OBJECTIVE: Deep learning has advanced electrocardiogram (ECG) analysis but remains difficult to interpret, limiting clinical adoption and electrophysiological insight. We propose a post-hoc explainability method for convolutional neural networks (CNNs) applied to ECG.\n\nMETHODS: The method clusters the feature activations of the last three residual blocks of a 1D-ResNet, segmenting each ECG into a sequence of clusters and quantifying assignment entropy as a per-timestamp uncertainty. It is evaluated on PTB-XL super-class classification under 10-fold cross-validation and on CODE-15% age regression.\n\nRESULTS: Cluster proportions correlate with predicted labels and align with P/QRS/T/TP landmarks. A random forest trained on cluster proportions reproduces the CNN's predictions at $94.9 \\pm 0.5\\%$ and matches its accuracy and AUROC on the true labels (88.2 vs. $88.4\\%$; 79.6 vs. $81.4\\%$). Encoder uncertainty surfaces class-dependent representational stability not visible to Grad-CAM.\n\nCONCLUSION: Time-localized clusters recover physiologically aligned structure from CNN activations and faithfully summarize the encoder's discriminative information.\n\nSIGNIFICANCE: The method provides a post-hoc, architecture-light tool to audit CNN-based ECG models and surface label-quality issues.",
-        "authors": [
-          "Ahcene Boubekki",
-          "Konstantinos Patlatzoglou",
-          "Joseph Barker",
-          "Hesham Aggour",
-          "Fu Siong Ng",
-          "Antonio H Ribeiro"
-        ],
-        "published_on": "2026-06-12",
-        "doi": "10.1109/TBME.2026.3702945",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42284164/",
-        "doi_url": "https://doi.org/10.1109/TBME.2026.3702945"
-      },
-      {
-        "pmid": "42356695",
-        "title": "A Cascaded Quantized Spiking Neural Network for Real-Time ECG Arrhythmia Detection on Edge Hardware.",
-        "journal": "Sensors (Basel, Switzerland)",
-        "abstract": "Wearable ECG monitors enable continuous cardiac surveillance, but most still rely on cloud-based analysis with limited on-device support for multi-class arrhythmia detection. Spiking neural networks (SNNs) are promising for low-power edge inference, yet it remains unclear how class-imbalance loss design interacts with RR-interval features in directly trained quantized SNNs, and FPGA validation in this setting is largely unexplored. We propose a quantized convolutional spiking neural network (QCSNN) for real-time arrhythmia detection on resource-constrained hardware. The model uses a dual-head architecture that jointly trains binary and four-class classifiers, subsequently reorganized into a cascaded pipeline that routes only abnormal beats to the second stage. At inference, beats classified as Normal exit at Stage 1; only beats classified as Abnormal are routed to the four-class head, so the bulk of the inference cost is absorbed by Stage 1. We evaluate two loss functions, Cross-Entropy and Focal Loss, under four RR-feature routing strategies. Without RR features, Focal Loss improves macro F1 by 2.3-2.5% over Cross-Entropy (mean Δ = +0.013 in Stage-2 macro F1; Wilcoxon two-sided p = 0.031). With RR features, this advantage largely disappears (Wilcoxon two-sided p ≥ 0.219 at all RR routings); meanwhile, RR features at the strongest routing improve Stage-2 macro F1 by +0.028 to +0.034 depending on loss function-a gain that exceeds the entire Focal-Loss-over-Cross-Entropy advantage, suggesting that RR features provide discriminative information that compensates for class imbalance at the input level. Based on clinically prioritized sensitivity, the CE:RR→Both configuration was deployed on a PYNQ-Z2 FPGA, achieving 99.02% cascaded accuracy, 11.54 ms per-beat latency, and 0.33 W accelerator power-a 31.66× power reduction and 4.01× energy reduction versus GPU inference, within 1% macro F1. These results demonstrate quantized SNNs as a practical solution for real-time edge arrhythmia monitoring that operates independently of cloud connectivity-removing the network-dependent latency, connectivity-dropout failure modes, and continuous-transmission energy burden that constrain current wearable monitors and, to our knowledge, represent one of the first systematic studies of loss-function/RR-feature interactions in directly trained SNN arrhythmia classification and one of the first FPGA deployments of a fully quantized, directly trained SNN for multi-class ECG arrhythmia detection. All code generated and used in this study has been made publicly available.",
-        "authors": [
-          "Olamilekan Banjo",
-          "Behnaz Ghoraani"
-        ],
-        "published_on": "2026-06-26",
-        "doi": "10.3390/s26123723",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42356695/",
-        "doi_url": "https://doi.org/10.3390/s26123723"
       }
     ],
     "error": null,
@@ -332,6 +374,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-06-30T14:09:04.813337+00:00",
+  "next_refresh_at": "2026-07-01T15:32:55.788622+00:00",
   "next_push_at": null
 }
