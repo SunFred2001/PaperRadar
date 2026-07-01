@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-06-30T15:32:54.987324+00:00",
-    "last_success_at": "2026-06-30T15:32:55.788622+00:00",
+    "last_attempt_at": "2026-07-01T15:45:47.837699+00:00",
+    "last_success_at": "2026-07-01T15:45:48.523570+00:00",
     "count": 15,
     "papers": [
       {
@@ -81,6 +81,26 @@
         "doi_url": "https://doi.org/10.1177/03913988261448211"
       },
       {
+        "pmid": "41933676",
+        "title": "Anxiety detection using neural and physiological signals and artificial intelligence: A comprehensive review.",
+        "journal": "Neuroscience and biobehavioral reviews",
+        "abstract": "Anxiety disorders are a significant challenge to global health, yet current diagnostic methods rely mainly on subjective and episodic assessment. The application of artificial intelligence (AI) in combination with neural and physiological signals is a promising pathway toward objective and continuous monitoring. This review provides a comprehensive evaluation of machine learning (ML) and deep learning (DL) techniques applied to electroencephalography (EEG), electrocardiography (ECG), Photoplethysmography (PPG), and electrodermal activity (EDA) for anxiety detection. A systematic review of the literature covering the period 2015-2025 indicates that the field has evolved from traditional ML systems based on hand-crafted features to modern end-to-end deep learning schemes. Our review indicates that while classical models remain effective, hybrid models such as CNN-LSTM and more sophisticated architectures, like Transformers, consistently deliver state-of-the-art results, particularly in multimodal data integration scenarios. Despite the impressive accuracies reported, a critical examination identifies several key challenges including reliance on narrow, laboratory-trained datasets, a lack of standardized validation procedures, and limited transparency in complex models, collectively impeding clinical translation. Progress in this field requires the creation of large-scale, clinically-validated datasets; the development of fault-tolerant, generalizable, and interpretable schemes; and a transition from basic state classification towards longitudinal, personalized monitoring in support of just-in-time intervention. As a comprehensive and up-to-date narrative synthesis of AI-driven anxiety detection using neural and physiological signals, this review consolidates a fragmented literature, articulates the translational gaps limiting real-world deployment, and establishes a clear research agenda for the development of clinically impactful digital mental health technologies.",
+        "authors": [
+          "Hamidreza Ghonchi",
+          "Tom Foulsham",
+          "Saideh Ferdowsi"
+        ],
+        "published_on": "2026-04-04",
+        "doi": "10.1016/j.neubiorev.2026.106669",
+        "publication_types": [
+          "Journal Article",
+          "Systematic Review",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
+        "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
+      },
+      {
         "pmid": "41933633",
         "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
         "journal": "Heart rhythm",
@@ -115,6 +135,55 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
         "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
+      },
+      {
+        "pmid": "41449873",
+        "title": "Advanced Fetal Cardiac Disease Detection Using Optimized Gegenbauer Graph Neural Networks on Ultrasound Images to Facilitate Early Diagnosis and Clinical Assessment.",
+        "journal": "Ultrasonic imaging",
+        "abstract": "Early detection of fetal cardiac diseases can dramatically improve neonatal outcomes by enabling timely intervention and informed clinical management. However, accurate diagnosis remains challenging due to the complexity of fetal heart structures in ultrasound images and the subtlety of congenital anomalies. To address these challenges, this work introduces Fetal Cardiac Disease Detection Using Ultrasound Imaging with Gegenbauer Graph Neural Networks (FCD-UI-GGNN). Ultrasound images are collected from the Fetal Phantom Ultrasound Dataset 23 (FPUS23) and pre-processed using Broad Collaborative Filtering (BCF) to resize images while preserving critical anatomical details. Fast Continual Multi-View Clustering (FCMVC) segments target vessel structures, and Gegenbauer Graph Neural Networks (GGNN) detects cardiac anomalies by modeling both local and global vessel relationships. The network weights are optimized using the Bitterling Fish Optimization Algorithm (BFOA) to improve accuracy. The framework is evaluated utilizing Accuracy, Precision, F1-Score, Recall, and ROC analysis, achieving 98.78% Accuracy, 99.01% Recall, 98.36% Precision, and 99.12% F1-Score. Validation on additional datasets, including FPUS23 and 4D Fetal Cardiac Ultrasound images, confirms robust generalization. These results demonstrate highly reliable and precise detection, supporting early clinical intervention for fetal cardiac anomalies.",
+        "authors": [
+          "Subasree Santhanaraman",
+          "NalliyaGounder Kuppuswamy Sakthivel",
+          "Amit Kumar Tyagi",
+          "Tharani Balamurugan"
+        ],
+        "published_on": "2025-12-26",
+        "doi": "10.1177/01617346251390849",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41449873/",
+        "doi_url": "https://doi.org/10.1177/01617346251390849"
+      },
+      {
+        "pmid": "42379234",
+        "title": "Deep Neural Networks for Automatic Atrial Fibrillation Detection Using Long-Term Ambulatory Electrocardiography: Retrospective Diagnostic Accuracy Study.",
+        "journal": "JMIR cardio",
+        "abstract": "BACKGROUND: Atrial fibrillation (AF), the most prevalent cardiac arrhythmia, affects 2% to 4% of the global adult population and is associated with an increased risk of stroke. Early diagnosis of AF and atrial flutter (AFL) is crucial due to their association with stroke risk and the challenge posed by their often asymptomatic and episodic nature. Traditional electrocardiogram (ECG) interpretation requires substantial expert input and can be challenging, especially with poor-quality ECGs.\n\nOBJECTIVE: This study aimed to evaluate the performance of a deep neural network (DNN) model in detecting AF/AFL from a large, heterogeneous set of long-term ambulatory ECG recordings, including clinical data collected over 6 months at a university hospital, and assess its effectiveness in a setting reflecting the diversity and complexity of real-world clinical data.\n\nMETHODS: The research combined public datasets totaling 10,248 patients, ECG data from our previous studies (648 patients), and authentic long-term ECG recordings from 4346 patients at Kuopio University Hospital for development of the DNN model. Its clinical accuracy and generalizability were assessed using a separate test dataset consisting of 1039 pseudonymized long-term ECG recordings from 1010 patients, all thoroughly reviewed and annotated by experts.\n\nRESULTS: The DNN model demonstrated high effectiveness, achieving 96.4% sensitivity and more than 99.99% specificity for time-level AF and AFL detection. At the recording level, it identified AF and AFL with 100% sensitivity and 98.77% specificity, producing false positives in only 1.2% (11/897) of recordings, of which 81.8% (9/11) had other non-AF/AFL arrhythmias. The model maintained high performance across diverse patient characteristics, including varying ages, comorbidities, coexisting arrhythmias, and poor-quality ECG recordings.\n\nCONCLUSIONS: The results demonstrate that the proposed DNN model may support automated screening for AF and AFL in long-term ambulatory ECG recordings and may reduce manual review workload in clinical practice.",
+        "authors": [
+          "Jagdeep Sedha",
+          "Jukka A Lipponen",
+          "Antti Aho",
+          "Helena Jäntti",
+          "Onni E Santala",
+          "Tomi P Laitinen",
+          "Tiina M Laitinen",
+          "Jari Halonen",
+          "Mika P Tarvainen",
+          "Eemu-Samuli Seljola",
+          "Noora S Naukkarinen",
+          "Olli Rantula",
+          "Tuomas T Rissanen",
+          "Juha E K Hartikainen",
+          "Tero J Martikainen"
+        ],
+        "published_on": "2026-07-01",
+        "doi": "10.2196/83714",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42379234/",
+        "doi_url": "https://doi.org/10.2196/83714"
       },
       {
         "pmid": "41884351",
@@ -296,72 +365,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42336980/",
         "doi_url": "https://doi.org/10.1038/s41598-026-58810-6"
-      },
-      {
-        "pmid": "42321363",
-        "title": "MSCA-TNet based deep learning method for ECG arrhythmia classification.",
-        "journal": "Scientific reports",
-        "abstract": "Electrocardiography (ECG) is a widely adopted modality for monitoring cardiac rate and rhythm and identifying various abnormalities of the cardiac electrical system. Research on ECG preprocessing and intelligent classification is vital for the early diagnosis and clinical management of cardiovascular diseases and helps improve the accuracy and efficiency of cardiac diagnosis. Nevertheless, ECG signals captured by wearable acquisition devices frequently suffer from poor signal quality due to subject motion and uncontrolled acquisition environments. Furthermore, native ECG waveforms are faint and susceptible to diverse noise interference. To diagnose noise-corrupted arrhythmia, clinicians need to inspect lengthy ECG recordings relying on professional expertise, which is tedious, labor-intensive and prone to subjective bias. Another critical challenge lies in severe class imbalance within public ECG datasets, resulting in degraded classification performance for minority arrhythmia categories. Accordingly, developing robust automated arrhythmia detection algorithms is essential to ease the diagnostic workload of clinical practitioners. In this work, discrete wavelet transform (DWT) is adopted for noise elimination, and the SMOTE-Tomek hybrid resampling strategy is applied to mitigate class imbalance on the MIT-BIH and INCART datasets. We further propose MSCA-TNet, a hybrid architecture embedding the adaptive channel attention (ACA) module and Transformer to extract both local fine-grained features and global long-range contextual information from ECG sequences. The ACA module dynamically modulates channel-wise feature weights to emphasize clinically discriminative features while suppressing irrelevant components. On the two benchmark datasets, the proposed model yields macro-average accuracies of 93.97% and 98.79%, alongside overall accuracies of 98.88% and 99.47%.",
-        "authors": [
-          "Songjian Huang",
-          "Senpeng Chen",
-          "Zihao Guo",
-          "Kaiming Ji",
-          "Miao Zhang"
-        ],
-        "published_on": "2026-06-20",
-        "doi": "10.1038/s41598-026-58850-y",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42321363/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-58850-y"
-      },
-      {
-        "pmid": "42319812",
-        "title": "Differentiating Ischemic From Nonischemic T-Wave Inversion Using a Multimodal Vision-Language Model With Reinforcement Learning (ECG-R1): Development and Validation Study.",
-        "journal": "JMIR medical informatics",
-        "abstract": "BACKGROUND: The differentiation of primary ischemic from secondary nonischemic T-wave inversion (TWI) on electrocardiograms (ECGs) presents a critical and pervasive diagnostic challenge in emergency cardiology. Historical clinical literature reports that clinician-led visual interpretation of isolated TWI yields a positive predictive value of only approximately 50% due to profound morphological ambiguity. This high degree of uncertainty frequently leads to high false-positive rates, resulting in unnecessary, costly, and potentially risky invasive angiographic procedures for patients. Furthermore, although existing deep learning models have attempted to address this clinical bottleneck, they are frequently limited to single-modality, \"black box\" architectures. Their inability to process complex multimodal data or provide transparent reasoning traces fundamentally limits clinical trust and real-world adoption.\n\nOBJECTIVE: The objective of this study was to develop a novel diagnostic framework designed to address the critical clinical challenge of accurately differentiating ischemic from nonischemic TWI. By using a multimodal vision-language model trained with a reinforcement learning (RL) paradigm, this study aimed to improve diagnostic accuracy and provide interpretable reasoning.\n\nMETHODS: We developed ECG-R1, a multimodal framework using the Qwen2-VL-2B vision-language model, to analyze ECG waveform images and associated clinical text. Instead of supervised fine-tuning (SFT), the model was trained using an RL paradigm with the group relative policy optimization algorithm. The model was trained to generate a structured output containing an explicit reasoning trace and a final \"yes\" or \"no\" answer. A 2-component, rule-based reward function was designed to assess format adherence and diagnostic accuracy. Performance was compared against strong SFT baselines.\n\nRESULTS: Evaluated on a large-scale multimodal dataset of 12,917 TWI cases, our ECG-R1 model achieved a state-of-the-art in-domain accuracy of 75.21%, a sensitivity of 82.55%, and an area under the receiver operating characteristic curve of 84.18%. The model demonstrated robust cross-hospital generalization, maintaining a 72.93% out-of-domain accuracy and an 81.56% area under the receiver operating characteristic curve. When controlling for model scale, the RL paradigm yielded substantial absolute improvements of 6.69% in in-domain performance and a substantial 11.48% improvement in out-of-domain performance over the capacity-matched Qwen2-VL-2B full-FT baseline. These results suggested that the RL approach was superior for learning invariant physiological features rather than overfitting to source-domain artifacts.\n\nCONCLUSIONS: The RL-based ECG-R1 framework significantly outperformed capacity-matched SFT baselines in both diagnostic accuracy and cross-domain robustness. By explicitly modeling interpretable clinical reasoning and using probabilistic diagnostic language to prevent premature cognitive closure, ECG-R1 may serve as a highly transparent clinical decision support system. It was structurally designed to safely assist cardiologists within a strict human-in-the-loop paradigm, establishing a robust foundation for prospective clinical trials.",
-        "authors": [
-          "Yunzhang Cheng",
-          "Zhongkai Wang",
-          "Wen Zhang",
-          "Qin Zhang",
-          "Mingwei Zhang",
-          "Songbin Cai",
-          "Tianyi Zhang"
-        ],
-        "published_on": "2026-06-19",
-        "doi": "10.2196/87227",
-        "publication_types": [
-          "Journal Article",
-          "Validation Study"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42319812/",
-        "doi_url": "https://doi.org/10.2196/87227"
-      },
-      {
-        "pmid": "42308656",
-        "title": "Artificial Intelligence-Enabled Serial Electrocardiograms for Prediction of All-Cause Mortality in Secondary Care Settings.",
-        "journal": "JACC. Advances",
-        "abstract": "BACKGROUND: Prognostic assessment in secondary care settings remains challenging and may influence clinical decision-making and follow-up. Artificial intelligence-enabled electrocardiography (AI-ECG) is a promising tool, but the value of incorporating serial ECG data remains unclear.\n\nOBJECTIVES: This study aimed to develop and validate an AI-ECG model for predicting 1-year all-cause mortality and to assess the incremental value of serial ECGs.\n\nMETHODS: We conducted a retrospective cohort study of adults aged over 50 years treated in emergency department or inpatient settings between 2014 and 2019. Models were developed using a deep-learning framework applied to either a single index ECG or serial ECGs, including the index and 2 prior recordings. Data were divided into training, validation, and test sets. Performance was assessed using discrimination, calibration, and decision-curve analysis. A classification threshold was selected on the validation set by maximizing the F1 score and applied to the test set.\n\nRESULTS: A total of 13,417 patients were included (median age 69 years [IQR: 57-80]; 45% women), of whom 4,372 (34%) died within 1 year. The serial AI-ECG model achieved an area under the curve of 0.84 (95% CI: 0.824-0.862). At a threshold of 0.24, sensitivity was 70%, specificity was 80%, and positive predictive value was 49%. Calibration showed good agreement between predicted and observed risks (Brier score: 0.123). Decision-curve analysis demonstrated greater net benefit than treat-all and treat-none strategies. Addition of clinical variables beyond age and sex did not improve performance.\n\nCONCLUSIONS: A serial AI-ECG model provides accurate, clinically interpretable prediction of 1-year mortality and may support risk stratification in secondary care.",
-        "authors": [
-          "Gal Tsaban",
-          "Asaf Harari",
-          "Adi Shiloh",
-          "David Shamia",
-          "Lior Rokach",
-          "Michal Gordon",
-          "Moti Haim",
-          "Gilad Katz"
-        ],
-        "published_on": "2026-06-18",
-        "doi": "10.1016/j.jacadv.2026.102875",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42308656/",
-        "doi_url": "https://doi.org/10.1016/j.jacadv.2026.102875"
       }
     ],
     "error": null,
@@ -374,6 +377,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-01T15:32:55.788622+00:00",
+  "next_refresh_at": "2026-07-02T15:45:48.523570+00:00",
   "next_push_at": null
 }
