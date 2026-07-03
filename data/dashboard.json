@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-02T16:53:34.321894+00:00",
-    "last_success_at": "2026-07-02T16:53:34.719759+00:00",
+    "last_attempt_at": "2026-07-03T18:15:21.495683+00:00",
+    "last_success_at": "2026-07-03T18:15:22.400007+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,24 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42397100",
+        "title": "The role of artificial intelligence in the diagnosis, risk stratification, and treatment of heart failure: A narrative review.",
+        "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
+        "abstract": "Heart failure (HF) is a complex, multifactorial, and difficult-to-treat syndrome. Over the past years, a concerning increase in its global prevalence, mortality, costs, and burden on the healthcare system has been observed. The recent development of machine learning (ML), especially unsupervised and deep learning (DL) algorithms, offers a potential way to facilitate diagnosis, enable more precise treatment, and reduce both mortality and costs of HF patients. Especially unsupervised ML and DL present new opportunities for increased efficiency in clinical practice in cardiology. Unsupervised ML, e.g., enables novel phenogrouping of HF patients into high-risk groups and disease outcome prediction. Deep learning algorithms can enhance echocardiographic analysis by improving image quality and ECG interpretation, and by providing assistance and guidance to inexperienced cardiologists. However, substantial challenges related to generalizability, external validation, overfitting, model explainability, and ethical considerations currently severely limit the implementation of AI-based tools in real-world clinical practice. This review critically evaluates current AI models in HF, focusing on their roles in diagnosis, risk stratification, and treatment personalization, as well as the major challenges that restrict their application in clinical practice.",
+        "authors": [
+          "Julia Resch",
+          "Małgorzata Lelonek"
+        ],
+        "published_on": "2026-07-03",
+        "doi": "10.17219/acem/218578",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42397100/",
+        "doi_url": "https://doi.org/10.17219/acem/218578"
       },
       {
         "pmid": "42312446",
@@ -347,24 +365,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42339746/",
         "doi_url": "https://doi.org/10.1080/10255842.2026.2691923"
-      },
-      {
-        "pmid": "42336980",
-        "title": "CaReS-BiNet: A multi-scale deep learning framework for ECG arrhythmia classification.",
-        "journal": "Scientific reports",
-        "abstract": "Automated electrocardiogram (ECG) arrhythmia classification remains challenging due to morphological complexity, severe class imbalance, and poor model generalization across heterogeneous datasets acquired under varying clinical conditions. To address these challenges, this paper proposes CaReS-BiNet, a Convolutional and Residual Squeeze-and-Excitation Bidirectional-LSTM Network that integrates parallel multi-scale one-dimensional convolutional branches, residual connections, lightweight Squeeze-and-Excitation channel attention, and bidirectional LSTM temporal modelling into a unified end-to-end framework. This design enables joint learning of local morphological features and long-range temporal dependencies directly from ECG heartbeat segments, with Gaussian noise injection employed to improve robustness to class imbalance and signal variability. Evaluated on the MIT-BIH Arrhythmia Database under the AAMI EC57 five-class protocol, CaReS-BiNet achieves an accuracy of 98.74%, precision of 98.70%, recall of 98.73%, and F1-score of 98.71%, outperforming the majority of compared state-of-the-art methods on recall and F1-score. Independent evaluation on the PTB Diagnostic ECG Database yields 99.31% accuracy, 99.27% precision, 99.16% F1-score, and an AUC of 0.999, demonstrating superior performance across all reported metrics against a recently proposed hybrid architecture evaluated on the same dataset. This robustness is further supported by consistent performance on an additional heterogeneous ECG dataset, achieving 98.08% accuracy. Binary ventricular ectopic beat (VEB) and supraventricular ectopic beat (SVEB) detection further confirms clinical reliability, with SVEB precision of 97.99% substantially exceeding existing methods. A systematic ablation study validates the individual contribution of each architectural component across both datasets. These results establish CaReS-BiNet as an effective framework for automated arrhythmia classification across diverse ECG datasets.",
-        "authors": [
-          "Manisha",
-          "Karunakar A Kotegar",
-          "Shavantrevva Bilakeri"
-        ],
-        "published_on": "2026-06-24",
-        "doi": "10.1038/s41598-026-58810-6",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42336980/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-58810-6"
       }
     ],
     "error": null,
@@ -377,6 +377,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-03T16:53:34.719759+00:00",
+  "next_refresh_at": "2026-07-04T18:15:22.400007+00:00",
   "next_push_at": null
 }
