@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-03T18:15:21.495683+00:00",
-  "last_success_at": "2026-07-03T18:15:22.400007+00:00",
+  "last_attempt_at": "2026-07-04T19:33:30.565529+00:00",
+  "last_success_at": "2026-07-04T19:33:31.174324+00:00",
   "count": 15,
   "papers": [
     {
@@ -46,6 +46,23 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42399614",
+      "title": "Scalogram-CNN fusion with interactive 3D parameter exploration for inter-patient ECG classification.",
+      "journal": "Scientific reports",
+      "abstract": "Electrocardiogram (ECG) signals are vital for detecting cardiac anomalies but pose challenges due to their non-stationary nature. This study aims to investigate ECG classification under unseen-patient conditions by converting ECG signals into 2D scalogram images. We developed an interactive 3D visualisation framework using Plotly Dash to evaluate classification performance across multiple wavelet types, feature extraction levels, and scale ranges. Scalogram images were classified using a Convolutional Neural Network (CNN). Additionally, we evaluated handcrafted statistical and wavelet-derived features on test data drawn from unseen patients to support inter-patient generalisation analysis. Wavelet choice and feature extraction strategy significantly affected accuracy. Notably, up to 89.78% accuracy was achieved across two test experiments (Complex Morlet, Experiment II), with Mexican Hat wavelets reaching 83.04% in Experiment I, with independently sampled test beats in each experiment, demonstrating relatively consistent performance across the evaluated unseen-patient test settings within the constraints of the available database. The interactive 3D dashboard not only streamlined parameter selection but also improved result exploration and facilitated parameter analysis. The proposed framework may support more efficient parameter exploration in ECG analysis workflows, with potential utility in telemedicine and remote monitoring contexts. It provides an interactive framework for small-data ECG analysis.",
+      "authors": [
+        "Nurgül Özmen Süzme",
+        "Ömer Nezih Gerek"
+      ],
+      "published_on": "2026-07-04",
+      "doi": "10.1038/s41598-026-56172-7",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42399614/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-56172-7"
     },
     {
       "pmid": "42397100",
@@ -331,24 +348,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42342760/",
       "doi_url": "https://doi.org/10.1038/s41598-026-59076-8"
-    },
-    {
-      "pmid": "42339746",
-      "title": "Advancing cardiac health assessment using deep convolutional neural networks for ECG image analysis.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "This research introduces a novel technique for early prediction of cardiac affliction in ECG imagery. The initial phase involves pre-processing using an Adaptive Wiener Filter. Subsequently, segmentation is performed utilizing a Modified Fuzzy C-Mean to isolate distinct components of the ECG signal. The next crucial step involves feature extraction deploying Gray Level Co-occurrence Matrix, enabling the capture of texture and spatial dependencies. The classification stage, utilizes Hybrid Sparrow-Chicken Swarm Optimized Deep Convolutional Neural Network, tailored to optimize the deep learning model. The execution with the Python software, achieves 98.5% precision in the detection of cardiac afflictions from ECG imagery.",
-      "authors": [
-        "Shamna B",
-        "Maheswaran C P",
-        "Anitha A"
-      ],
-      "published_on": "2026-06-24",
-      "doi": "10.1080/10255842.2026.2691923",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42339746/",
-      "doi_url": "https://doi.org/10.1080/10255842.2026.2691923"
     }
   ],
   "error": null,
