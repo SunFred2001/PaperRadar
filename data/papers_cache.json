@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-04T19:33:30.565529+00:00",
-  "last_success_at": "2026-07-04T19:33:31.174324+00:00",
+  "last_attempt_at": "2026-07-05T20:17:27.156856+00:00",
+  "last_success_at": "2026-07-05T20:17:27.652385+00:00",
   "count": 15,
   "papers": [
     {
@@ -46,6 +46,31 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42401625",
+      "title": "Precise ECG diagnosis and validation of educational utility for acute myocardial infarction using deep learning and explainable artificial intelligence.",
+      "journal": "Scientific reports",
+      "abstract": "Artificial intelligence (AI) holds significant promise for electrocardiogram (ECG) analysis, yet accurately detecting non-ST-segment elevation myocardial infarction (NSTEMI) and overcoming the \"black box\" nature of deep learning models remain persistent challenges. Here, we present a comprehensive deep learning framework capable of classifying STEMI, NSTEMI, and non-acute coronary syndrome (non-ACS) from 12-lead ECG images, while also localizing infarction sites. Utilizing ,2070 validated ECGs, our pipeline integrates ResNet for acute myocardial infarction detection, Faster R-CNN for ST-segment elevation localization, and an ensemble approach for final classification. The model achieved a 98.3% AUROC for detection and an overall three-class accuracy of 93.6%, with high F1 scores for identifying infarction territories. To address interpretability, we developed an explainable AI (XAI) web viewer that visualizes detected regions. Furthermore, we evaluated the model's utility as an educational tool in a prospective pilot study with medical students. AI assistance significantly improved the students' overall diagnostic accuracy from 43% to 82% (p < 0.05), with notable gains in identifying NSTEMI and complex STEMI subtypes. These findings demonstrate that our interpretable AI model not only supports clinical decision-making with high diagnostic precision but also serves as an effective educational aid for enhancing novice clinicians' proficiency.",
+      "authors": [
+        "Jongkwang Kim",
+        "Byungeun Shon",
+        "Yongjin Kim",
+        "Nayeon Kim",
+        "Yejin Jang",
+        "Jeongmin Lee",
+        "Seong-Mi Yoon",
+        "Dong Heon Yang",
+        "Namkyun Kim",
+        "Sungmoon Jeong"
+      ],
+      "published_on": "2026-07-05",
+      "doi": "10.1038/s41598-026-58956-3",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42401625/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-58956-3"
     },
     {
       "pmid": "42399614",
@@ -329,25 +354,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41297935/",
       "doi_url": "https://doi.org/10.1253/circj.CJ-25-0534"
-    },
-    {
-      "pmid": "42342760",
-      "title": "Cross-domain transfer learning strategy enhances interpretability of deep learning model explanations.",
-      "journal": "Scientific reports",
-      "abstract": "Clinical decision-making increasingly relies on deep neural networks (DNNs), yet their deployment in practice requires transparent and interpretable predictions. Explainable artificial intelligence (xAI) methods can identify input regions relevant to a model's decision, but their clinical interpretability remains limited. In this study, we investigated whether inductive transfer learning (TL) can reinforce domain-specific feature separation in xECGArch, a two-branch convolutional neural network for atrial fibrillation (AF) detection from electrocardiograms (ECGs). Each branch was pre-trained on a task aligned with its designated feature domain, P wave detection for morphology and RR interval variability prediction for rhythm, then fine-tuned on binary AF classification using an iterative layer freezing schedule. Deep Taylor decomposition (DTD) was applied to analyze explanations across all configurations. Fine-tuning accuracy ranged from 85.70% to 95.23%, remaining comparable to the original xECGArch architecture and previous TL-based approaches. However, DTD analysis demonstrated that morphology pre-training directed relevance toward P waves, whereas rhythm pre-training concentrated explanations on R peaks, with domain specificity increasing as more layers were frozen. These findings suggest that inductive TL can encourage domain-specific feature attribution in DNNs, improving the alignment of post-hoc explanations with clinically meaningful ECG regions.",
-      "authors": [
-        "Matteo Zannini",
-        "Alexander Hammer",
-        "Hagen Malberg",
-        "Martin Schmidt"
-      ],
-      "published_on": "2026-06-25",
-      "doi": "10.1038/s41598-026-59076-8",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42342760/",
-      "doi_url": "https://doi.org/10.1038/s41598-026-59076-8"
     }
   ],
   "error": null,
