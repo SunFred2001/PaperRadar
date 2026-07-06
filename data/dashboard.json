@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-05T20:17:27.156856+00:00",
-    "last_success_at": "2026-07-05T20:17:27.652385+00:00",
+    "last_attempt_at": "2026-07-06T21:44:12.247763+00:00",
+    "last_success_at": "2026-07-06T21:44:13.042498+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42402238",
+        "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
+        "journal": "Computers in biology and medicine",
+        "abstract": "Cardiovascular diseases have been the primary contributor to deaths worldwide, and hence, the need to detect arrhythmia from Electrocardiogram signals in a precise and efficient manner is a critical problem in the medical community. This work presents a lightweight and computationally efficient framework that integrates Discrete Wavelet Transform (DWT)-based statistical features, ECG morphological descriptors, and Artificial Bee Colony (ABC)-optimized eXtreme Gradient Boosting Machine (XGBM) classification for ECG beat analysis. This work has been implemented using the popular MIT-BIH Arrhythmia Database, which has 100,674 instances of ECG beats, divided into five AAMI classes, with a severe level of class imbalance, where 89.4% instances belong to the Normal class. ECG signals have been pre-processed using a seven-stage algorithm, including Butterworth high-pass filtering, notch filtering, Pan-Tompkins R-peak detection, beat segmentation, and normalisation. Then, a three-level Haar transform is implemented, and 32 statistical features have been extracted from the DWT decomposition, along with 32 morphological features, forming a 64-dimensional vector. The proposed ABC algorithm with 8 bees and 8 iterations optimizes the six XGBM model hyperparameters using a balanced fitness function of accuracy and macro F1-score and converges at the optimal fitness value of 0.8211. The proposed ABC-XGBM model has a classification accuracy of 95.14%, a macro F1-score of 0.948, a macro AUC of 0.983, Matthews Correlation Coefficient of 0.925, and G-Mean of 0.932 with class-wise AUC values > 0.94. An ablation study has shown that the proposed DWT adds +3.7% and the proposed ABC optimization adds +1.14% in accuracy improvement. Five-fold cross-validation has shown a stable performance with a mean accuracy of 0.952 ± 0.001 at a time complexity of 1.0 ms per sample without the dependency of the GPU. The proposed framework is better than the other deep learning models such as CardioAttentionNet with a classification accuracy of 91.20% and the proposed transformer-based classifier with a classification accuracy of 90.50%.",
+        "authors": [
+          "S Umarani",
+          "V Kavitha",
+          "M S S Sasikumar",
+          "S Prabhu"
+        ],
+        "published_on": "2026-07-05",
+        "doi": "10.1016/j.compbiomed.2026.111839",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42402238/",
+        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111839"
       },
       {
         "pmid": "42401625",
@@ -122,6 +141,24 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42397100/",
         "doi_url": "https://doi.org/10.17219/acem/218578"
+      },
+      {
+        "pmid": "42404396",
+        "title": "MnL-TWA: Manifold Learning Approach for T-Wave Alternans Detection in Ambulatory Environments.",
+        "journal": "Biomedical engineering and computational biology",
+        "abstract": "BACKGROUND: T-wave alternans (TWA) refers to variations in the ventricular repolarization pattern observed on the ECG, which has been associated with cardiac instability and an increased risk of sudden cardiac death. Recently, machine learning (ML) methods have been developed for TWA detection, but their black-box nature limits interpretability.\n\nOBJECTIVES: To address this gap, we propose manifold learning (MnL) to enhance the explainability of these learning models while maintaining TWA detection effectiveness.\n\nMETHODS: We fine-tuned nonlinear dimension reduction techniques such as Uniform Manifold Approximation and Projection (UMAP), Isometric Mapping (Isomap), and autoencoders (AE) in combination with ML methods, namely K-nearest neighbors (KNN), random forest (RF), and neural networks (NN). Performance was evaluated using mean and standard deviation across patient-wise permutations.\n\nRESULTS: In the design stage, the AE-based NN effectively retained essential discriminative information (F1-score 92.1 ± 2.4 %). MnL-generated spaces consistently revealed that misclassifications primarily lie close to the decision boundary and are predominantly associated with lower TWA voltages, which are more dispersed within the space. For ambulatory TWA detection, Isomap combined with RF and the AE-based NN achieved performance comparable to using the complete set of features derived from established TWA analysis methods (F1-score 78.5 ± 6.4 % and 77.9 ± 5.4 %, respectively), including spectral, time-domain, and correlation-based descriptors. The latent space visualization shows that predictions that ultimately become detections are located farther away from the decision boundary.\n\nCONCLUSION: MnL-generated spaces provide valuable insights into how classification models differentiate between TWA and non-TWA instances, as well as the patterns in TWA event amplitudes. This approach helps bridge the gap between performance and transparency, supporting more clinically reliable TWA detection.",
+        "authors": [
+          "Lidia Pascual-Sánchez",
+          "Rebeca Goya-Esteban",
+          "Manuel Blanco-Velasco"
+        ],
+        "published_on": "2026-07-06",
+        "doi": "10.1177/11795972261463531",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42404396/",
+        "doi_url": "https://doi.org/10.1177/11795972261463531"
       },
       {
         "pmid": "42312446",
@@ -326,50 +363,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42374403/",
         "doi_url": "https://doi.org/10.1186/s12911-026-03657-0"
-      },
-      {
-        "pmid": "42371348",
-        "title": "Energy-efficient real-time 4-stage sleep classification at 10-second resolution.",
-        "journal": "Medical & biological engineering & computing",
-        "abstract": "Sleep stage classification is critical for diagnosing and managing disorders like sleep apnea and insomnia. However, conventional methods like polysomnography are costly and impractical for long-term, home-based monitoring. This study presents an energy-efficient approach for detecting four sleep stages (wake, rapid eye movement (REM), light sleep, deep sleep) using a single-lead electrocardiogram (ECG) signal. We evaluate various machine learning and deep learning models, introducing two windowing strategies: (1) a 5-minute window with 30-second steps for machine learning and (2) a 30-second window with 10-second steps for deep learning, enabling 10-second temporal resolution for real-time predictions. While deep learning models like MobileNet-v1 achieve high accuracy (92%) and F1-score (91%), their energy demands make them unsuitable for wearables. To address this, we design SleepLiteCNN, optimized for ECG-based sleep staging, achieving 89% accuracy and 89% F1-score while minimizing energy use. Applying 8-bit quantization further reduces energy consumption to 5.48 μJ per inference, with 90% accuracy and F1-score. Additionally, field-programmable gate array (FPGA) deployment shows significant reductions in resource usage. This approach provides a practical, energy-efficient solution for continuous ECG-based sleep monitoring in resource-constrained wearable devices.",
-        "authors": [
-          "Zahra Mohammadi",
-          "Parnian Fazel",
-          "Siamak Mohammadi"
-        ],
-        "published_on": "2026-06-29",
-        "doi": "10.1007/s11517-026-03616-x",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42371348/",
-        "doi_url": "https://doi.org/10.1007/s11517-026-03616-x"
-      },
-      {
-        "pmid": "41297935",
-        "title": "Deep Learning Model for High-Accuracy Classification of Premature Ventricular Contractions With Precordial Transition Zones in Leads V3 or V4.",
-        "journal": "Circulation journal : official journal of the Japanese Circulation Society",
-        "abstract": "BACKGROUND: Predicting the origin of premature ventricular contractions (PVCs) is challenging when a transition zone (TZ) appears in leads V3 and V4. The aim of this study was to develop a deep-learning model to predict PVC origins and identify electrocardiographic (ECG) features that contribute to the model's decisions.\n\nMETHODS AND RESULTS: ECG data from 314 patients with PVCs showing an inferior axis and TZ in leads V3 or V4 who underwent catheter ablation were analyzed. A convolutional neural network (CNN) was trained to predict an origin in the right or left ventricular outflow tract. Patients were divided into 3 cohorts for training, validation, and holdout (3 : 1 : 1 ratio). The CNN model was trained using paired data consisting of PVC and intrinsic QRS (iQRS). Five datasets per patient were used for training and validation; performance was evaluated using a single holdout dataset per patient. The CNN model achieved 92.1% accuracy, an F1 score of 0.91, and an area under the receiver operating characteristic curve of 0.96 on the holdout. Our model demonstrated superior diagnostic performance compared with conventional ECG indices. Gradient-weighted class activation mapping revealed that model attention was primarily focused on leads V3-V4 in iQRS, but was more diffusely distributed in PVC, notably the inferior limb leads and leads V2-V3.\n\nCONCLUSIONS: The CNN-based prediction of PVC origin demonstrated clinical utility.",
-        "authors": [
-          "Kiichi Miyamae",
-          "Yasuya Inden",
-          "Masafumi Shimojo",
-          "Hiroyuki Miyazawa",
-          "Tomoya Iwawaki",
-          "Masaya Tachi",
-          "Shun Kondo",
-          "Takayuki Goto",
-          "Satoshi Yanagisawa",
-          "Yukiomi Tsuji",
-          "Toyoaki Murohara"
-        ],
-        "published_on": "2025-11-27",
-        "doi": "10.1253/circj.CJ-25-0534",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41297935/",
-        "doi_url": "https://doi.org/10.1253/circj.CJ-25-0534"
       }
     ],
     "error": null,
@@ -382,6 +375,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-06T20:17:27.652385+00:00",
+  "next_refresh_at": "2026-07-07T21:44:13.042498+00:00",
   "next_push_at": null
 }
