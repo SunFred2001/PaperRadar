@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-06T21:44:12.247763+00:00",
-    "last_success_at": "2026-07-06T21:44:13.042498+00:00",
+    "last_attempt_at": "2026-07-07T23:06:02.621411+00:00",
+    "last_success_at": "2026-07-07T23:06:03.400137+00:00",
     "count": 15,
     "papers": [
       {
@@ -234,6 +234,50 @@
         "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
       },
       {
+        "pmid": "41671133",
+        "title": "ECG-AuxNet: A Dual-Branch Spatial-Temporal Feature Fusion Framework With Auxiliary Learning for Enhanced Cardiac Disease Diagnosis.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "OBJECTIVE: Multiple limitations exist in current automated ECG analysis, including insufficient feature integration across leads, limited interpretability, poor generalization, and inadequate handling of class imbalance. To address these challenges, we develop a novel dual-branch framework that comprehensively captures spatial-temporal features for cardiac disease diagnosis.\n\nMETHODS: ECG-AuxNet combines a Multi-scale Transformer Attention CNN for spatial feature extraction and a GRU network for temporal dependency modeling. A Dual-stage Cross-Attention Fusion module integrates features from both branches, while a Feature Space Reconstruction (FSR) auxiliary task is introduced as a manifold regularizer to enhance feature discrimination. The framework was evaluated on PTB-XL (15,709 ECGs) and validated in real-world clinical scenarios (SXMU-2k, 1,673 ECGs).\n\nRESULTS: For class-imbalanced disease recognition (NORM, CD, MI, STTC), ECG-AuxNet attained 78.34% F1-score on PTB-XL and 82.63% F1-score on SXMU-2k, outperforming 9 baseline models. FSR significantly improved feature discrimination by 11.7%, enhancing class boundary clarity and classification accuracy. Grad-CAM analysis revealed attention patterns that precisely match cardiologists' diagnostic focus areas.\n\nCONCLUSION: ECG-AuxNet effectively integrates spatial-temporal features through auxiliary learning, achieving robust generalizability in cardiac disease diagnosis with interpretability aligned with clinical expertise.",
+        "authors": [
+          "Ruiqi Shen",
+          "Yanan Wang",
+          "Chunge Cao",
+          "Shuaicong Hu",
+          "Jia Liu",
+          "Hongyu Wang",
+          "Gaoyan Zhong",
+          "Cuiwei Yang"
+        ],
+        "published_on": "2026-02-11",
+        "doi": "10.1109/JBHI.2026.3664231",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41671133/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3664231"
+      },
+      {
+        "pmid": "41525638",
+        "title": "Application of Graph Neural Networks on ECG Data: A Systematic Literature Review.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Geometric Deep Learning is a modern approach to deep learning that focuses on the assessment of the structure and inherent symmetry of the data. How to best represent Electrocardiograms (ECG) data is unclear. The single-lead ECG can be interpreted as a shift-invariant one-dimensional grid as common for time series. However, the leads' spatial relationships in multi-lead ECGs are non-Euclidean due to the spread of electrical activation along the heart tissue. In the domain of Electroencephalograms (EEG), Graph Neural Networkss are being adopted to represent channel interactions. This method is transferred to ECGs as well, calling for a systematic literature review to compare approaches and identify leading directions and research gaps. Consequently, we conducted this review about Geometric Deep Learning-based approaches to ECG data. However, since all but two approaches used Graph Neural Networkss, we focus more heavily on them. Our results suggest missing diversity in applications for 12-lead ECG. It is mainly used for the recognition of arrhythmias, where single- or two-lead approaches already showed superb performance. It is unclear whether multi-lead spatial modeling would significantly improve classification for this use case. While a variety of approaches from EEG analysis have swept over to ECG, there is no consensus on topology, feature set or network architecture. In consequence, we propose two directions of future work. A more application-driven branch to compare existing approaches and expand on their explainability, and a more fundamental branch to focus on theoretical insights and experiment with simulation data to integrate physiological and anatomical information.",
+        "authors": [
+          "Alissa Muller",
+          "Manuel Scheibl",
+          "Tobias Uhe",
+          "Wolf-Rudiger Schabitz",
+          "Britta Wrede"
+        ],
+        "published_on": "2026-01-12",
+        "doi": "10.1109/JBHI.2026.3651842",
+        "publication_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41525638/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3651842"
+      },
+      {
         "pmid": "41449873",
         "title": "Advanced Fetal Cardiac Disease Detection Using Optimized Gegenbauer Graph Neural Networks on Ultrasound Images to Facilitate Early Diagnosis and Clinical Assessment.",
         "journal": "Ultrasonic imaging",
@@ -251,6 +295,27 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41449873/",
         "doi_url": "https://doi.org/10.1177/01617346251390849"
+      },
+      {
+        "pmid": "41433180",
+        "title": "Multi-Task Learning for OSA Detection and Sleep Staging via Multi-Scale Modeling.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Obstructive sleep apnea (OSA) and sleep fragmentation are closely linked physiological phenomena that play crucial roles in the diagnosis and management of sleep disorders. While numerous deep learning models have been developed for either OSA detection or sleep stage classification, few attempts have been made to address both tasks simultaneously. To this end, we propose MT-TASPPNet (Multi-Task Triple Atrous Spatial Pyramid Pooling Network), a unified multi-modal multi-task network that jointly performs automatic OSA event detection and sleep staging. The model integrates modality-specific feature extractors for EEG, ECG, and airflow signals, and employs Atrous Spatial Pyramid Pooling modules in both the modality-specific and shared representation pathways to capture multi-scale temporal-frequency patterns. Additionally, an EOG-guided prior mechanism is incorporated to enhance the discrimination of subtle sleep stages. We use a 3-min input window (1-min target with $\\pm$ 1-min context) and evaluate our method on three large-scale datasets: SHHS1, SHHS2, and Sydney Sleep Biobank. The model achieves OSA detection accuracy between 0.798 and 0.884 (MF1: 0.772 to 0.821), and sleep staging accuracy between 0.776 and 0.834 (MF1: 0.735 to 0.749, $\\mathcal {K}$: 0.697 to 0.77). Notably, the model maintains consistent performance despite data heterogeneity and individual variability. These results validate the stability and adaptability of MT-TASPPNet in clinical settings, paving the way for efficient and scalable multi-task sleep analysis systems.",
+        "authors": [
+          "Zhiya Wang",
+          "Tian Yang",
+          "Yunfeng Zhu",
+          "Jia Liu",
+          "Peter A Cistulli",
+          "Wei Chen"
+        ],
+        "published_on": "2025-12-23",
+        "doi": "10.1109/JBHI.2025.3647317",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41433180/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2025.3647317"
       },
       {
         "pmid": "42379234",
@@ -281,88 +346,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42379234/",
         "doi_url": "https://doi.org/10.2196/83714"
-      },
-      {
-        "pmid": "41884351",
-        "title": "Machine learning models enhance detection of arrhythmogenic right ventricular cardiomyopathy.",
-        "journal": "Machine learning. Health",
-        "abstract": "Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a heritable cardiac disorder associated with sudden cardiac death, yet its diagnosis remains slow, resource-intensive, and dependent on expert interpretation of multimodal tests. Machine learning approaches may enable earlier and more standardized detection. Here, we sought to identify an optimal machine learning strategy for ARVC detection, and to define its role within the diagnostic pathway. A composite dataset of 688 patients from the Johns Hopkins ARVC Registry was used to train and evaluate eight models based on 31 clinical, electrocardiogram (ECG), imaging, and genetic variables. Following an 80/20 train-test split, models were developed on the train set using five-fold stratified cross-validation and evaluated on the hold-out test cohort. Performance was assessed using area under the curve (AUC), accuracy, sensitivity, specificity, and 95% confidence intervals. Model comparison was performed using the Friedman test with Nemenyi post-hoc analysis. Gradient boosted trees (GBT) achieved the highest overall performance (AUC = 0.943, 95% CI: 0.902-0.99; accuracy = 0.847, 95% CI: 0.786-0.907). Nemenyi testing showed GBT significantly outperformed Decision Tree and TabNet (p < 0.05), while differences vs the remaining five models were not statistically significant. The next-best model (Random Forest) showed a minimal performance gap (ΔAUC = 0.008), whereas low-ranked models showed larger deficits (ΔAUC = 0.040-0.042). An ECG-only version of the GBT model achieved an AUC of 0.884, exceeding the previously reported ECG-deep learning waveform model (AUC = 0.87). GBT performs best among evaluated algorithms and offers clinically interpretable feature relevance consistent with task force criteria for ARVC diagnosis. An ECG-only deployment supports early triage, while the multimodal model functions as confirmatory decision support after advanced testing. These findings support a tiered ML-assisted diagnostic strategy for ARVC and justify prospective external validation in broader clinical settings.",
-        "authors": [
-          "Kwaku K Quansah",
-          "Sean A Murphy",
-          "Esther Kwon",
-          "Emma Anderson",
-          "Crystal Tichnell",
-          "Brittney Murray",
-          "Sean Gaines",
-          "Alessio Gasperetti",
-          "Cynthia A James",
-          "Hugh Calkins",
-          "Richard T Carrick",
-          "Chulan Kwon"
-        ],
-        "published_on": "2026-03-26",
-        "doi": "10.1088/3049-477X/ae451a",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41884351/",
-        "doi_url": "https://doi.org/10.1088/3049-477X/ae451a"
-      },
-      {
-        "pmid": "42374510",
-        "title": "Deep learning analysis of ECGs detects Cardiovascular-Kidney-Metabolic syndrome burden in people with diabetes: a report from the Silesia Diabetes-Heart Project.",
-        "journal": "Cardiovascular diabetology",
-        "abstract": "BACKGROUND: Cardiovascular-kidney-metabolic (CKM) syndrome refers to the co-occurrence of obesity, diabetes, chronic kidney disease (CKD), and cardiovascular disease. However, it is underdiagnosed due to silent clinical nature of the early stages of its components and subsequent siloed medical care. Electrocardiography (ECG) is an inexpensive and widely available diagnostic tool but its utility in automated detection of CKM syndrome has not been previously explored.\n\nOBJECTIVE: To develop and evaluate deep learning models for predicting CKM syndrome using scanned limb and augmented limb leads ECGs images in people with diabetes.\n\nMETHODS: Clinical data of adults with type 1 or type 2 diabetes enrolled in the prospective Silesia Diabetes-Heart Project were analyzed. CKM syndrome was defined by the presence of either CKD [estimated glomerular filtration rate (eGFR) < 60 mL/min/1.73 m2 and/or urine albumin to creatinine ratio (UACR) ≥ 30 mg/g) or established CVD. High-resolution scanned ECG tracings were processed into lead-specific inputs to train ResNet-50-based convolutional neural network (CNN) models, including single- and dual-channel variants. Class imbalance was addressed using resampling strategies, and model performance was evaluated using standard classification metrics, including area under the receiver operating characteristic curve (AUROC), with confidence intervals estimated by bootstrap resampling.\n\nRESULTS: Among 2779 participants, 492 (17.7%) met criteria for CKM syndrome. The best-performing individual model was a dual-channel ResNet-50 with soft voting ensemble, achieving an AUROC of 0.8199 (95% CI 0.7549-0.8795), F1-score of 0.7213 (95% CI 0.6404-0.7957), accuracy of 0.7385, and balanced precision and recall. Ensemble models consistently outperformed individual architectures, particularly in handling class imbalance and improving generalization.\n\nCONCLUSION: Deep learning applied to scanned ECG image data predicts CKM syndrome in individuals with diabetes with reasonable accuracy. This approach holds promise as a low-cost, scalable risk stratification tool and which could augment clinical decision-making in settings particularly with limited access to advanced diagnostics. Trial registration The study is registered at ClinicalTrials.gov (NCT05626413).",
-        "authors": [
-          "Oliwia Janota-Sosińska",
-          "Qinkai Yu",
-          "Krzysztof Irlik",
-          "Hanna Kwiendacz",
-          "Aleksandra Włosowicz-Momot",
-          "Patrycja Pabis",
-          "Wiktoria Wójcik",
-          "Anna Olejarz",
-          "Julia Piaśnik",
-          "Uazman Alam",
-          "Yalin Zheng",
-          "Janusz Gumprecht",
-          "Gregory Y H Lip",
-          "Katarzyna Nabrdalik"
-        ],
-        "published_on": "2026-06-30",
-        "doi": "10.1186/s12933-026-03246-5",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42374510/",
-        "doi_url": "https://doi.org/10.1186/s12933-026-03246-5"
-      },
-      {
-        "pmid": "42374403",
-        "title": "Deep learning analysis of 12-lead electrocardiograms for bloodstream infection prediction: a multi-center validation study.",
-        "journal": "BMC medical informatics and decision making",
-        "abstract": "BACKGROUND: Prompt diagnosis of bloodstream infections (BSIs) is critical for antimicrobial stewardship but hindered by blood culture delays of 48 h or more. We developed and validated a deep learning model to predict BSI risk from standard 12-lead electrocardiograms (ECGs).\n\nMETHODS: This study adhered to the Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis (TRIPOD) guidelines. In this retrospective, multi-center study, we trained a deep learning model to predict clinically significant BSIs (excluding common contaminants) using ECGs from adult emergency department (ED) patients at an academic medical center in Taiwan (April 2012 to March 2022; total N = 163,826) and validated it in three independent cohorts: internal (n = 22,205), external (n = 22,709), and MIMIC-IV (n = 66,937). For the MIMIC-IV cohort, BSI was identified using the derived suspicion of infection framework with a positive blood culture flag.\n\nRESULTS: The model achieved AUCs of 0.821 (95% CI 0.804-0.838), 0.800 (0.782-0.818), and 0.756 (0.743-0.768) across the three test cohorts, respectively. At a high-sensitivity rule-out threshold the model classified 19-25% of patients as low risk (negative predictive value [NPV] 99.8%); at the Youden point, the sensitivity and specificity were 73.2% and 76.8% in the internal test set, with an NPV of 99.2%. The model showed superior discrimination compared with XGBoost and logistic regression baselines. Decision-curve analysis showed net benefit over heart rate alone and the default treat-all and treat-none strategies across the clinically relevant low-threshold range. Exploratory analyses indicated that the ECG-derived risk signal was elevated across Gram-positive, Gram-negative, and fungal infections; pathogen-specific prediction will require a dedicated model (Supplementary Figure S3). The primary model stratified 90-day mortality risk among infected patients (adjusted HR 3.43 [1.93-6.09] for high- vs. low-risk).\n\nCONCLUSIONS: Deep learning analysis of standard 12-lead ECGs obtained at ED triage can predict clinically significant BSI with discrimination superior to conventional ECG parameters. The model discriminated best (highest AUC) in patients with low clinical suspicion (qSOFA = 0), although its incremental value in this low-prevalence subgroup is modest. Prospective validation is needed before clinical implementation.",
-        "authors": [
-          "Po-Huang Chen",
-          "Shang-Yang Li",
-          "Dung-Jang Tsai",
-          "Yan-Ru Wang",
-          "Shiue-Wei Lai",
-          "Ping-Ying Chang",
-          "Jia-Hong Chen",
-          "Ming-Shen Dai",
-          "Chin-Sheng Lin",
-          "Chin Lin",
-          "Cho-Hao Lee"
-        ],
-        "published_on": "2026-06-30",
-        "doi": "10.1186/s12911-026-03657-0",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42374403/",
-        "doi_url": "https://doi.org/10.1186/s12911-026-03657-0"
       }
     ],
     "error": null,
@@ -375,6 +358,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-07T21:44:13.042498+00:00",
+  "next_refresh_at": "2026-07-08T23:06:03.400137+00:00",
   "next_push_at": null
 }
