@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-09T00:15:35.067602+00:00",
-    "last_success_at": "2026-07-09T00:15:36.121972+00:00",
+    "last_attempt_at": "2026-07-10T03:47:19.760801+00:00",
+    "last_success_at": "2026-07-10T03:47:20.228050+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,24 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42420590",
+        "title": "An Intelligent IoT-Compatible Arrhythmia Detection System Using a Hybrid Vision Transformer-LSTM Framework.",
+        "journal": "Cardiovascular engineering and technology",
+        "abstract": "BACKGROUND: In electrocardiogram (ECG) signal classification, advanced IoT-compatible systems and medical signal processing solutions have become feasible due to the rapid growth of the Internet of Things (IoT). However, it is challenging to detect and classify arrhythmias because of the complex nature and large volumes of ECG data.\n\nOBJECTIVE: This article proposes a hybrid deep learning (DL) approach by combining long short-term memory (LSTM)and a Vision Transformer (ViT) for the automatic arrhythmia classifi cation from ECG signals.\n\nOBJECTIVE: This article proposes a hybrid deep learning (DL) approach by combining long short-term memory (LSTM)and a Vision Transformer (ViT) for the automatic arrhythmia classifi cation from ECG signals.\n\nMETHODS: Initially, the proposed framework gathers the data from the MIT-BIH database for training. Then, preprocessing strategies such as min-max normalization and signal-to-spectrogram conversion using the Stockwell transform are applied. Then, the imbalance problem in the collected dataset is rectifi ed by applying the K-Mean scentered Adaptive Synthetic Sampling (KMADASYN) technique. Afterward, the proposed framework employs the Hybrid Optimized ViT with Long Short-Term Memory (HOVLSTM) for classification, where spatial and temporal features are extracted to achieve higher classification performance.\n\nRESULTS: The developed model achieved a classification accuracy of 99.17%, out performing several existing ECG classification systems.\n\nCONCLUSION: These outcomes demonstrate that the proposed technique is suitable for IoT-compatible healthcare systems. While the IoT-compatible system does not employ data acquisition, the model is evaluated in a simulated IoT environment, demonstrating its potential for future deployment in IoT-enabled clinical decision-support systems.",
+        "authors": [
+          "S Selva Birunda",
+          "V Vaissnave",
+          "K Abirami"
+        ],
+        "published_on": "2026-07-09",
+        "doi": "10.1007/s13239-026-00849-7",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42420590/",
+        "doi_url": "https://doi.org/10.1007/s13239-026-00849-7"
       },
       {
         "pmid": "42402238",
@@ -316,36 +334,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41433180/",
         "doi_url": "https://doi.org/10.1109/JBHI.2025.3647317"
-      },
-      {
-        "pmid": "42379234",
-        "title": "Deep Neural Networks for Automatic Atrial Fibrillation Detection Using Long-Term Ambulatory Electrocardiography: Retrospective Diagnostic Accuracy Study.",
-        "journal": "JMIR cardio",
-        "abstract": "BACKGROUND: Atrial fibrillation (AF), the most prevalent cardiac arrhythmia, affects 2% to 4% of the global adult population and is associated with an increased risk of stroke. Early diagnosis of AF and atrial flutter (AFL) is crucial due to their association with stroke risk and the challenge posed by their often asymptomatic and episodic nature. Traditional electrocardiogram (ECG) interpretation requires substantial expert input and can be challenging, especially with poor-quality ECGs.\n\nOBJECTIVE: This study aimed to evaluate the performance of a deep neural network (DNN) model in detecting AF/AFL from a large, heterogeneous set of long-term ambulatory ECG recordings, including clinical data collected over 6 months at a university hospital, and assess its effectiveness in a setting reflecting the diversity and complexity of real-world clinical data.\n\nMETHODS: The research combined public datasets totaling 10,248 patients, ECG data from our previous studies (648 patients), and authentic long-term ECG recordings from 4346 patients at Kuopio University Hospital for development of the DNN model. Its clinical accuracy and generalizability were assessed using a separate test dataset consisting of 1039 pseudonymized long-term ECG recordings from 1010 patients, all thoroughly reviewed and annotated by experts.\n\nRESULTS: The DNN model demonstrated high effectiveness, achieving 96.4% sensitivity and more than 99.99% specificity for time-level AF and AFL detection. At the recording level, it identified AF and AFL with 100% sensitivity and 98.77% specificity, producing false positives in only 1.2% (11/897) of recordings, of which 81.8% (9/11) had other non-AF/AFL arrhythmias. The model maintained high performance across diverse patient characteristics, including varying ages, comorbidities, coexisting arrhythmias, and poor-quality ECG recordings.\n\nCONCLUSIONS: The results demonstrate that the proposed DNN model may support automated screening for AF and AFL in long-term ambulatory ECG recordings and may reduce manual review workload in clinical practice.",
-        "authors": [
-          "Jagdeep Sedha",
-          "Jukka A Lipponen",
-          "Antti Aho",
-          "Helena Jäntti",
-          "Onni E Santala",
-          "Tomi P Laitinen",
-          "Tiina M Laitinen",
-          "Jari Halonen",
-          "Mika P Tarvainen",
-          "Eemu-Samuli Seljola",
-          "Noora S Naukkarinen",
-          "Olli Rantula",
-          "Tuomas T Rissanen",
-          "Juha E K Hartikainen",
-          "Tero J Martikainen"
-        ],
-        "published_on": "2026-07-01",
-        "doi": "10.2196/83714",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42379234/",
-        "doi_url": "https://doi.org/10.2196/83714"
       }
     ],
     "error": null,
@@ -358,6 +346,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-10T00:15:36.121972+00:00",
+  "next_refresh_at": "2026-07-11T03:47:20.228050+00:00",
   "next_push_at": null
 }
