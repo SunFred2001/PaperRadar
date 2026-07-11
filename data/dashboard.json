@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-10T03:47:19.760801+00:00",
-    "last_success_at": "2026-07-10T03:47:20.228050+00:00",
+    "last_attempt_at": "2026-07-11T06:17:49.670249+00:00",
+    "last_success_at": "2026-07-11T06:17:50.096708+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42425720",
+        "title": "AI-enhanced electrocardiography as a digital biomarker platform in cardiovascular medicine: clinical applications, validation gaps and future implementation pathways.",
+        "journal": "Open heart",
+        "abstract": "Artificial intelligence applied to the ECG is expanding the clinical role of this widely available diagnostic tool beyond conventional waveform interpretation by enabling identification of electrophysiological patterns associated with cardiovascular structure, function and risk. Within this evolving framework, the artificial intelligence enhanced ECG is emerging as a scalable digital biomarker platform supporting screening, diagnosis and prognostic stratification across the cardiovascular disease continuum.This narrative review synthesises current evidence on the clinical applications of artificial intelligence enhanced ECG, including detection of cardiac rhythm disorders, early identification of structural heart disease, decision support in acute coronary syndromes, prediction of clinical outcomes and population level cardiovascular screening using wearable technologies. Deep learning models applied to standard and simplified electrocardiographic recordings demonstrate strong diagnostic performance in identifying atrial fibrillation, left ventricular dysfunction, hypertrophic cardiomyopathy, cardiac amyloidosis and heart failure with preserved ejection fraction. These approaches also enable estimation of long-term cardiovascular risk from apparently normal tracings and support identification of disease patterns extending beyond overt cardiac conditions.Despite these advances, clinical implementation remains limited by the need for prospective multicentre validation, improved model interpretability, standardised evaluation strategies and integration into routine clinical workflows. This review highlights current validation gaps and outlines key opportunities for translation of artificial intelligence-enhanced ECG into digital cardiology practice.",
+        "authors": [
+          "Damiano Venturiello",
+          "Walter Vignaroli",
+          "Giuseppe Nasso"
+        ],
+        "published_on": "2026-07-10",
+        "doi": "10.1136/openhrt-2026-004211",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42425720/",
+        "doi_url": "https://doi.org/10.1136/openhrt-2026-004211"
       },
       {
         "pmid": "42420590",
@@ -313,27 +332,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41449873/",
         "doi_url": "https://doi.org/10.1177/01617346251390849"
-      },
-      {
-        "pmid": "41433180",
-        "title": "Multi-Task Learning for OSA Detection and Sleep Staging via Multi-Scale Modeling.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "Obstructive sleep apnea (OSA) and sleep fragmentation are closely linked physiological phenomena that play crucial roles in the diagnosis and management of sleep disorders. While numerous deep learning models have been developed for either OSA detection or sleep stage classification, few attempts have been made to address both tasks simultaneously. To this end, we propose MT-TASPPNet (Multi-Task Triple Atrous Spatial Pyramid Pooling Network), a unified multi-modal multi-task network that jointly performs automatic OSA event detection and sleep staging. The model integrates modality-specific feature extractors for EEG, ECG, and airflow signals, and employs Atrous Spatial Pyramid Pooling modules in both the modality-specific and shared representation pathways to capture multi-scale temporal-frequency patterns. Additionally, an EOG-guided prior mechanism is incorporated to enhance the discrimination of subtle sleep stages. We use a 3-min input window (1-min target with $\\pm$ 1-min context) and evaluate our method on three large-scale datasets: SHHS1, SHHS2, and Sydney Sleep Biobank. The model achieves OSA detection accuracy between 0.798 and 0.884 (MF1: 0.772 to 0.821), and sleep staging accuracy between 0.776 and 0.834 (MF1: 0.735 to 0.749, $\\mathcal {K}$: 0.697 to 0.77). Notably, the model maintains consistent performance despite data heterogeneity and individual variability. These results validate the stability and adaptability of MT-TASPPNet in clinical settings, paving the way for efficient and scalable multi-task sleep analysis systems.",
-        "authors": [
-          "Zhiya Wang",
-          "Tian Yang",
-          "Yunfeng Zhu",
-          "Jia Liu",
-          "Peter A Cistulli",
-          "Wei Chen"
-        ],
-        "published_on": "2025-12-23",
-        "doi": "10.1109/JBHI.2025.3647317",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41433180/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2025.3647317"
       }
     ],
     "error": null,
@@ -346,6 +344,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-11T03:47:20.228050+00:00",
+  "next_refresh_at": "2026-07-12T06:17:50.096708+00:00",
   "next_push_at": null
 }
