@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-13T11:17:15.918195+00:00",
-    "last_success_at": "2026-07-13T11:17:16.650095+00:00",
+    "last_attempt_at": "2026-07-14T12:17:12.150426+00:00",
+    "last_success_at": "2026-07-14T12:17:12.701531+00:00",
     "count": 15,
     "papers": [
       {
@@ -64,6 +64,26 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       },
       {
+        "pmid": "42443114",
+        "title": "Deep-learning based electroencephalogram denoising: A literature review.",
+        "journal": "Journal of neural engineering",
+        "abstract": "Electroencephalography (EEG) is a pivotal tool for exploring brain functions. However, the low amplitude of EEG signals renders them inherently susceptible to contamination from diverse physiological and environmental artifacts, including electromyogram artifacts, electrocardiogram interference, and electrical noise from power lines. These contaminants significantly hinder the analysis and interpretation of EEG data, posing substantial challenges for signal processing. Recently, deep learning paradigms have catalyzed significant progress in EEG denoising, with many studies reporting competitive reconstruction fidelity and artifact suppression in benchmarked settings. Despite this progress, there remains a notable gap in the literature regarding comprehensive reviews of deep learning-based EEG denoising strategies. To bridge this gap, we use the end-to-end denoising pipeline as an analytical framework, examining how data/target construction, input representation, modular architecture, objective design, and evaluation strategies influence model assumptions, the interpretation of model performance, and practical utility. We further discuss selective and multi-task denoising strategies, downstream validation, and model deployment as key issues for translating reconstruction performance into usable EEG applications. Finally, we identify future research directions aimed at developing more reliable, interpretable, and practically useful EEG denoising systems, thereby enhancing the utility of EEG technologies in broader applications.",
+        "authors": [
+          "Le Wu",
+          "Aiping Liu",
+          "Jane Wang",
+          "Rabab K Ward",
+          "Xun Chen"
+        ],
+        "published_on": "2026-07-14",
+        "doi": "10.1088/1741-2552/ae89e6",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
+        "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
+      },
+      {
         "pmid": "42425720",
         "title": "AI-enhanced electrocardiography as a digital biomarker platform in cardiovascular medicine: clinical applications, validation gaps and future implementation pathways.",
         "journal": "Open heart",
@@ -99,6 +119,22 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42420590/",
         "doi_url": "https://doi.org/10.1007/s13239-026-00849-7"
+      },
+      {
+        "pmid": "42442245",
+        "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
+        "journal": "Neural networks : the official journal of the International Neural Network Society",
+        "abstract": "Electrocardiogram (ECG) captures the heart's electrical signals, offering valuable information for diagnosing cardiac conditions. However, the scarcity of labeled data makes it challenging to fully leverage supervised learning in the medical domain. Self-supervised learning (SSL) offers a promising solution, enabling models to learn from unlabeled data and uncover meaningful patterns. In this paper, we show that masked modeling in the latent space can be a powerful alternative to existing self-supervised methods in the ECG domain. We introduce ECG-JEPA, an SSL model for 12-lead ECG analysis that learns semantic representations of ECG data by predicting in the hidden latent space, bypassing the need to reconstruct raw signals. This approach offers several advantages in the ECG domain: (1) it avoids producing unnecessary details, such as noise, which is common in ECG; and (2) it addresses the limitations of naïve L2 loss between raw signals. Another key contribution is the introduction of Cross-Pattern Attention (CroPA), a specialized masked attention mechanism tailored for 12-lead ECG data. ECG-JEPA is trained on the union of several open ECG datasets, totaling approximately 180,000 samples, and achieves state-of-the-art performance in various downstream tasks including diagnostic classification, feature extraction, and segmentation.",
+        "authors": [
+          "Sehun Kim"
+        ],
+        "published_on": "2026-07-14",
+        "doi": "10.1016/j.neunet.2026.109334",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42442245/",
+        "doi_url": "https://doi.org/10.1016/j.neunet.2026.109334"
       },
       {
         "pmid": "42402238",
@@ -228,7 +264,6 @@
         "doi": "10.1016/j.neubiorev.2026.106669",
         "publication_types": [
           "Journal Article",
-          "Systematic Review",
           "Review"
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
@@ -292,46 +327,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41671133/",
         "doi_url": "https://doi.org/10.1109/JBHI.2026.3664231"
-      },
-      {
-        "pmid": "41525638",
-        "title": "Application of Graph Neural Networks on ECG Data: A Systematic Literature Review.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "Geometric Deep Learning is a modern approach to deep learning that focuses on the assessment of the structure and inherent symmetry of the data. How to best represent Electrocardiograms (ECG) data is unclear. The single-lead ECG can be interpreted as a shift-invariant one-dimensional grid as common for time series. However, the leads' spatial relationships in multi-lead ECGs are non-Euclidean due to the spread of electrical activation along the heart tissue. In the domain of Electroencephalograms (EEG), Graph Neural Networkss are being adopted to represent channel interactions. This method is transferred to ECGs as well, calling for a systematic literature review to compare approaches and identify leading directions and research gaps. Consequently, we conducted this review about Geometric Deep Learning-based approaches to ECG data. However, since all but two approaches used Graph Neural Networkss, we focus more heavily on them. Our results suggest missing diversity in applications for 12-lead ECG. It is mainly used for the recognition of arrhythmias, where single- or two-lead approaches already showed superb performance. It is unclear whether multi-lead spatial modeling would significantly improve classification for this use case. While a variety of approaches from EEG analysis have swept over to ECG, there is no consensus on topology, feature set or network architecture. In consequence, we propose two directions of future work. A more application-driven branch to compare existing approaches and expand on their explainability, and a more fundamental branch to focus on theoretical insights and experiment with simulation data to integrate physiological and anatomical information.",
-        "authors": [
-          "Alissa Muller",
-          "Manuel Scheibl",
-          "Tobias Uhe",
-          "Wolf-Rudiger Schabitz",
-          "Britta Wrede"
-        ],
-        "published_on": "2026-01-12",
-        "doi": "10.1109/JBHI.2026.3651842",
-        "publication_types": [
-          "Journal Article",
-          "Systematic Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41525638/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2026.3651842"
-      },
-      {
-        "pmid": "41449873",
-        "title": "Advanced Fetal Cardiac Disease Detection Using Optimized Gegenbauer Graph Neural Networks on Ultrasound Images to Facilitate Early Diagnosis and Clinical Assessment.",
-        "journal": "Ultrasonic imaging",
-        "abstract": "Early detection of fetal cardiac diseases can dramatically improve neonatal outcomes by enabling timely intervention and informed clinical management. However, accurate diagnosis remains challenging due to the complexity of fetal heart structures in ultrasound images and the subtlety of congenital anomalies. To address these challenges, this work introduces Fetal Cardiac Disease Detection Using Ultrasound Imaging with Gegenbauer Graph Neural Networks (FCD-UI-GGNN). Ultrasound images are collected from the Fetal Phantom Ultrasound Dataset 23 (FPUS23) and pre-processed using Broad Collaborative Filtering (BCF) to resize images while preserving critical anatomical details. Fast Continual Multi-View Clustering (FCMVC) segments target vessel structures, and Gegenbauer Graph Neural Networks (GGNN) detects cardiac anomalies by modeling both local and global vessel relationships. The network weights are optimized using the Bitterling Fish Optimization Algorithm (BFOA) to improve accuracy. The framework is evaluated utilizing Accuracy, Precision, F1-Score, Recall, and ROC analysis, achieving 98.78% Accuracy, 99.01% Recall, 98.36% Precision, and 99.12% F1-Score. Validation on additional datasets, including FPUS23 and 4D Fetal Cardiac Ultrasound images, confirms robust generalization. These results demonstrate highly reliable and precise detection, supporting early clinical intervention for fetal cardiac anomalies.",
-        "authors": [
-          "Subasree Santhanaraman",
-          "NalliyaGounder Kuppuswamy Sakthivel",
-          "Amit Kumar Tyagi",
-          "Tharani Balamurugan"
-        ],
-        "published_on": "2025-12-26",
-        "doi": "10.1177/01617346251390849",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41449873/",
-        "doi_url": "https://doi.org/10.1177/01617346251390849"
       }
     ],
     "error": null,
@@ -344,6 +339,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-14T11:17:16.650095+00:00",
+  "next_refresh_at": "2026-07-15T12:17:12.701531+00:00",
   "next_push_at": null
 }
