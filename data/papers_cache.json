@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-14T12:17:12.150426+00:00",
-  "last_success_at": "2026-07-14T12:17:12.701531+00:00",
+  "last_attempt_at": "2026-07-15T12:18:55.287976+00:00",
+  "last_success_at": "2026-07-15T12:18:56.247596+00:00",
   "count": 15,
   "papers": [
     {
@@ -200,6 +200,25 @@
       "doi_url": "https://doi.org/10.17219/acem/218578"
     },
     {
+      "pmid": "42451427",
+      "title": "CMEpiNet: Complex-Valued Multimodal Epilepsy Detection Network Model.",
+      "journal": "Sensors (Basel, Switzerland)",
+      "abstract": "Existing seizure detection methods cannot fully exploit the spatiotemporal features of multimodal signals. They also fail to capture deep associations among cross-modal features. This limits their ability to learn unified representations of spatiotemporal dependencies. This work proposes CMEpiNet (Complex-valued Multimodal Epilepsy detection Network model) to address this issue. CMEpiNet first uses complex-valued convolutions for feature extraction. It explicitly models phase synchronization, phase shifts, and cross-frequency coupling. Thus, EEG, ECG, and EMG features are represented in the complex-valued domain. During feature fusion, CMEpiNet uses a two-level semantic alignment-based fusion method. It applies cross-modal consistency constraints in a shared alignment space. It also performs distribution-level alignment in an epilepsy-related semantic latent space. These operations ensure the consistency of multimodal features in the global semantic structure. Finally, CMEpiNet uses a spatial attention-guided 3D convolutional classifier. The classifier jointly models the temporal, feature, and modality dimensions. Experimental results on the SeizeIT2 dataset show that CMEpiNet improves seizure detection sensitivity, reduces the false alarm rate, and maintains stable performance under perturbations.",
+      "authors": [
+        "Tianyi Su",
+        "Haiyan Zhu",
+        "Shuai Chen",
+        "Haifeng Wang"
+      ],
+      "published_on": "2026-07-15",
+      "doi": "10.3390/s26134186",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42451427/",
+      "doi_url": "https://doi.org/10.3390/s26134186"
+    },
+    {
       "pmid": "42404396",
       "title": "MnL-TWA: Manifold Learning Approach for T-Wave Alternans Detection in Ambulatory Environments.",
       "journal": "Biomedical engineering and computational biology",
@@ -248,6 +267,7 @@
       "doi": "10.1016/j.neubiorev.2026.106669",
       "publication_types": [
         "Journal Article",
+        "Systematic Review",
         "Review"
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
@@ -288,29 +308,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
       "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
-    },
-    {
-      "pmid": "41671133",
-      "title": "ECG-AuxNet: A Dual-Branch Spatial-Temporal Feature Fusion Framework With Auxiliary Learning for Enhanced Cardiac Disease Diagnosis.",
-      "journal": "IEEE journal of biomedical and health informatics",
-      "abstract": "OBJECTIVE: Multiple limitations exist in current automated ECG analysis, including insufficient feature integration across leads, limited interpretability, poor generalization, and inadequate handling of class imbalance. To address these challenges, we develop a novel dual-branch framework that comprehensively captures spatial-temporal features for cardiac disease diagnosis.\n\nMETHODS: ECG-AuxNet combines a Multi-scale Transformer Attention CNN for spatial feature extraction and a GRU network for temporal dependency modeling. A Dual-stage Cross-Attention Fusion module integrates features from both branches, while a Feature Space Reconstruction (FSR) auxiliary task is introduced as a manifold regularizer to enhance feature discrimination. The framework was evaluated on PTB-XL (15,709 ECGs) and validated in real-world clinical scenarios (SXMU-2k, 1,673 ECGs).\n\nRESULTS: For class-imbalanced disease recognition (NORM, CD, MI, STTC), ECG-AuxNet attained 78.34% F1-score on PTB-XL and 82.63% F1-score on SXMU-2k, outperforming 9 baseline models. FSR significantly improved feature discrimination by 11.7%, enhancing class boundary clarity and classification accuracy. Grad-CAM analysis revealed attention patterns that precisely match cardiologists' diagnostic focus areas.\n\nCONCLUSION: ECG-AuxNet effectively integrates spatial-temporal features through auxiliary learning, achieving robust generalizability in cardiac disease diagnosis with interpretability aligned with clinical expertise.",
-      "authors": [
-        "Ruiqi Shen",
-        "Yanan Wang",
-        "Chunge Cao",
-        "Shuaicong Hu",
-        "Jia Liu",
-        "Hongyu Wang",
-        "Gaoyan Zhong",
-        "Cuiwei Yang"
-      ],
-      "published_on": "2026-02-11",
-      "doi": "10.1109/JBHI.2026.3664231",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41671133/",
-      "doi_url": "https://doi.org/10.1109/JBHI.2026.3664231"
     }
   ],
   "error": null,
