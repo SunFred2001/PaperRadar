@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-15T12:18:55.287976+00:00",
-  "last_success_at": "2026-07-15T12:18:56.247596+00:00",
+  "last_attempt_at": "2026-07-16T14:03:27.699222+00:00",
+  "last_success_at": "2026-07-16T14:03:28.765974+00:00",
   "count": 15,
   "papers": [
     {
@@ -46,6 +46,22 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42456763",
+      "title": "Automated analysis of wearable ECG: machine learning methods, preprocessing pipelines, and benchmark datasets.",
+      "journal": "Physiological measurement",
+      "abstract": "Wearable and mobile electrocardiography (ECG) has rapidly expanded access to rhythm monitoring outside of clinical settings, but the single-or few-lead nature of these recordings and their susceptibility to motion artefacts complicate clinical-grade interpretation. This review synthesises recent machine learning (ML) approaches for wearable ECG across three problem domains -signal-quality assessment (SQA), single-lead interpretation, and multi-lead interpretation -covering preprocessing pipelines, quality handling strategies, and 18 benchmark datasets. Across studies, no single architectural paradigm consistently outperforms others when evaluated fairly: classical feature-based methods remain competitive for rhythm tasks under resource constraints, while deep discriminative models show stronger cross-database generalisation when training data are sufficient. The most consistent predictor of reported performance is dataset characteristics -particularly scale, demographic composition, and whether signals were acquired from wearable devices in free-living conditions -rather than architectural choice. Three recurring evaluation deficiencies are identified: subject-level data leakage inflating classification metrics, SQA performance reported without acceptance rates, and reconstructed ECG leads validated by waveform similarity alone without downstream diagnostic concordance. A structured comparative summary of all reviewed methods is provided. The analysis clarifies that future progress depends primarily on evaluation rigour, representative datasets, and reproducible preprocessing rather than on architectural novelty alone.",
+      "authors": [
+        "Bartosz Puszkarski"
+      ],
+      "published_on": "2026-07-16",
+      "doi": "10.1088/1361-6579/ae8b71",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42456763/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/ae8b71"
     },
     {
       "pmid": "42443114",
@@ -272,42 +288,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
       "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
-    },
-    {
-      "pmid": "41933633",
-      "title": "Improving transthyretin cardiac amyloidosis detection from electrocardiograms through the Willem artificial intelligence platform.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a frequently underdiagnosed disease in which delay in diagnosis limits the efficacy of treatments. Artificial intelligence (AI) applied to standard 12-lead electrocardiograms (ECGs) is promising and may help improve ATTR-CM early detection.\n\nOBJECTIVES: The goals of this study were to extend the Willem AI cloud platform for ATTR-CM detection from 12-lead ECGs and to evaluate its performance across relevant patient subgroups, including early-stage disease.\n\nMETHODS: This was a single-center retrospective study of adults evaluated for ATTR-CM. Controls had negative 3,3-diphosphono-1,2-propanodicarboxylic acid scintigraphy and clinical assessment to exclude ATTR-CM. After quality control, 20,754 ECGs from 2901 individuals [585 patients with ATTR-CM (20.2%) and 2316 controls (79.8%)] were used. Patients were split into training/validation and test data sets, with stratification by amyloidosis status, sex, and age groups. A time-slicing convolutional neural network generated ECG probabilities aggregated by max-pooling. Threshold selection targeted 90% sensitivity in validation.\n\nRESULTS: In the test cohort, Willem AI achieved an area under the receiver operating characteristic curve (AUC) of 0.88 (95% confidence interval, 0.85-0.91), a sensitivity of 80.7%, and a specificity of 78.5%. Performance was similar for hereditary transthyretin amyloidosis or hereditary ATTR (ATTRv; AUC, 0.91) and wild-type transthyretin amyloidosis or wild type ATTR (ATTRwt; AUC, 0.88) and remained informative in early presentations (asymptomatic sensitivity 68.4%; New York Heart Association class I 73.9%). Willem AI achieved high accuracy in \"red-flag\" scenarios: carpal tunnel syndrome (AUC, 0.92), lumbar spinal stenosis (AUC, 0.92), and polyneuropathy (AUC, 0.91).\n\nCONCLUSION: This work expands Willem AI capabilities, enabling automated ATTR-CM detection from routine 12-lead ECGs in a real-world referral population. The Willem AI model may support informed clinical management and scalable triage to trigger confirmatory testing and accelerate diagnosis.",
-      "authors": [
-        "Esther González-López",
-        "Ruben Abbou",
-        "Rafael López-García",
-        "Mariana Brandão",
-        "Lucía Perard",
-        "Nerea Mora-Ayestaran",
-        "Cecilia Niro",
-        "Gabriela Uriarte",
-        "María de Miguel",
-        "Ewa Dziewiecka",
-        "Paola Settepassi",
-        "Clara Simón",
-        "Rafael Martín-Portugués",
-        "Ángel de la Linde Valdés",
-        "Víctor Valdés",
-        "Iñigo Sánchez-Rodríguez",
-        "Rubén Ruiz-Zamorano",
-        "François De Guio",
-        "José María Lillo-Castellano",
-        "Manuel Marina-Breysse",
-        "Pablo García-Pavía"
-      ],
-      "published_on": "2026-04-04",
-      "doi": "10.1016/j.hrthm.2026.03.1949",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933633/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.03.1949"
     }
   ],
   "error": null,
