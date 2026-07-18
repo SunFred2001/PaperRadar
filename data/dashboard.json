@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-17T15:17:25.711920+00:00",
-    "last_success_at": "2026-07-17T15:17:26.696490+00:00",
+    "last_attempt_at": "2026-07-18T16:00:29.005284+00:00",
+    "last_success_at": "2026-07-18T16:00:29.366010+00:00",
     "count": 15,
     "papers": [
       {
@@ -62,6 +62,25 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42467161",
+        "title": "Multimodal graph learning for chagas disease classification.",
+        "journal": "Medical & biological engineering & computing",
+        "abstract": "The accurate classification of Chagas disease stages based on Trypanosoma cruzi infection in experimental models faces challenges due to the scarcity of data and the high dimensionality of diagnostic sources. This study proposes an architecture based on Graph Attention Networks on fully connected graphs to combine multimodal features (Electrocardiogram, Echocardiogram, Doppler, and ELISA). A Variational Graph Autoencoder was used to implement a data augmentation strategy that reduces overfitting and optimizes generalization, producing synthetic subjects with a biological covariance structure. The results demonstrate that the proposed methodology is effective compared to state-of-the-art classifiers, achieving an AUROC of 100% in the identification of infection stage through multimodal fusion and significantly optimizing performance in complex modalities such as Doppler. The pathophysiological consistency of the model's decisions was also validated using an interpretability scheme (GNNExplainer), which allowed the detection of important clinical features and established GATs as a robust method in the classification of Trypanosoma cruzi infection stages.",
+        "authors": [
+          "Gabriel Carcedo-Rodríguez",
+          "Erik Molino-Minero-Re",
+          "Jorge Perez-Gonzalez",
+          "Nidiyare Hevia-Montiel"
+        ],
+        "published_on": "2026-07-17",
+        "doi": "10.1007/s11517-026-03631-y",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42467161/",
+        "doi_url": "https://doi.org/10.1007/s11517-026-03631-y"
       },
       {
         "pmid": "42456763",
@@ -284,26 +303,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312446/",
         "doi_url": "https://doi.org/10.1177/03913988261448211"
-      },
-      {
-        "pmid": "41933676",
-        "title": "Anxiety detection using neural and physiological signals and artificial intelligence: A comprehensive review.",
-        "journal": "Neuroscience and biobehavioral reviews",
-        "abstract": "Anxiety disorders are a significant challenge to global health, yet current diagnostic methods rely mainly on subjective and episodic assessment. The application of artificial intelligence (AI) in combination with neural and physiological signals is a promising pathway toward objective and continuous monitoring. This review provides a comprehensive evaluation of machine learning (ML) and deep learning (DL) techniques applied to electroencephalography (EEG), electrocardiography (ECG), Photoplethysmography (PPG), and electrodermal activity (EDA) for anxiety detection. A systematic review of the literature covering the period 2015-2025 indicates that the field has evolved from traditional ML systems based on hand-crafted features to modern end-to-end deep learning schemes. Our review indicates that while classical models remain effective, hybrid models such as CNN-LSTM and more sophisticated architectures, like Transformers, consistently deliver state-of-the-art results, particularly in multimodal data integration scenarios. Despite the impressive accuracies reported, a critical examination identifies several key challenges including reliance on narrow, laboratory-trained datasets, a lack of standardized validation procedures, and limited transparency in complex models, collectively impeding clinical translation. Progress in this field requires the creation of large-scale, clinically-validated datasets; the development of fault-tolerant, generalizable, and interpretable schemes; and a transition from basic state classification towards longitudinal, personalized monitoring in support of just-in-time intervention. As a comprehensive and up-to-date narrative synthesis of AI-driven anxiety detection using neural and physiological signals, this review consolidates a fragmented literature, articulates the translational gaps limiting real-world deployment, and establishes a clear research agenda for the development of clinically impactful digital mental health technologies.",
-        "authors": [
-          "Hamidreza Ghonchi",
-          "Tom Foulsham",
-          "Saideh Ferdowsi"
-        ],
-        "published_on": "2026-04-04",
-        "doi": "10.1016/j.neubiorev.2026.106669",
-        "publication_types": [
-          "Journal Article",
-          "Systematic Review",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41933676/",
-        "doi_url": "https://doi.org/10.1016/j.neubiorev.2026.106669"
       }
     ],
     "error": null,
@@ -316,6 +315,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-18T15:17:26.696490+00:00",
+  "next_refresh_at": "2026-07-19T16:00:29.366010+00:00",
   "next_push_at": null
 }
