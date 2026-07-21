@@ -2,29 +2,10 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-20T18:08:13.466636+00:00",
-  "last_success_at": "2026-07-20T18:08:14.090153+00:00",
+  "last_attempt_at": "2026-07-21T19:37:39.334893+00:00",
+  "last_success_at": "2026-07-21T19:37:39.668017+00:00",
   "count": 15,
   "papers": [
-    {
-      "pmid": "42035615",
-      "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
-      "journal": "Computational biology and chemistry",
-      "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
-      "authors": [
-        "Yusen Wu",
-        "Jinde Zhu",
-        "Junhao Yuan",
-        "Kaiqiang Huang"
-      ],
-      "published_on": "2026-04-27",
-      "doi": "10.1016/j.compbiolchem.2026.108991",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
-      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
-    },
     {
       "pmid": "42155349",
       "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
@@ -46,6 +27,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42477001",
+      "title": "Deep learning for multimodal physiological signal based assessment of sleep disordered breathing.",
+      "journal": "Scientific reports",
+      "abstract": "Sleep disordered breathing (SDB) is commonly assessed using polysomnography (PSG), which records multiple physiological signals during sleep. Accurate automated assessment of SDB related breathing abnormalities remains challenging because respiratory events occur within complex and stage dependent sleep dynamics. To address this problem, this study proposes a multimodal physiological signal based deep learning framework for SDB oriented sleep assessment. The proposed framework treats SDB related respiratory event detection as the clinically targeted task and incorporates sleep stage classification as an auxiliary contextual task to enhance temporal interpretation of physiological abnormalities. The framework combines a Sleep Pattern Recognition Network (SPRNet) with an Integrated Diagnostic Strategy for Sleep Assessment (IDSSA). SPRNet integrates electroencephalography (EEG), electrocardiography (ECG), electrooculography (EOG), electromyography (EMG), and respiratory airflow signals through modality specific feature extraction, followed by BiLSTM and attention based temporal modeling. IDSSA further incorporates domain informed sleep transition priors, probabilistic reasoning, and multi objective optimization to improve temporal consistency and robustness under noisy physiological recordings. Sleep stage classification is evaluated on both Sleep EDF and SHHS, while SDB related respiratory event detection is evaluated on SHHS, which provides respiratory event annotations. Experimental results show that the proposed framework achieves competitive performance compared with conventional machine learning and deep learning baselines. These findings indicate that multimodal physiological signal integration and temporally informed joint modeling can provide effective decision support for automated assessment of SDB related respiratory abnormalities. The proposed system is intended for automated screening and assessment support rather than as a replacement for clinical diagnosis by sleep specialists.",
+      "authors": [
+        "Nan Zhang",
+        "Fangqin Wang",
+        "Wenjie Sui",
+        "Miaohong Huang",
+        "Yuening Li"
+      ],
+      "published_on": "2026-07-21",
+      "doi": "10.1038/s41598-026-56111-6",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42477001/",
+      "doi_url": "https://doi.org/10.1038/s41598-026-56111-6"
     },
     {
       "pmid": "42467161",
