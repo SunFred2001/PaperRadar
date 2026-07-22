@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-21T19:37:39.334893+00:00",
-  "last_success_at": "2026-07-21T19:37:39.668017+00:00",
+  "last_attempt_at": "2026-07-22T20:13:18.048472+00:00",
+  "last_success_at": "2026-07-22T20:13:18.855768+00:00",
   "count": 15,
   "papers": [
     {
@@ -27,6 +27,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42480127",
+      "title": "Morphology-preserving transfer-guided GAN with adaptive discriminative loss for robust and imbalanced ECG arrhythmia detection.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "Electrocardiogram (ECG) based arrhythmia detection remains challenging due to severe class imbalance, morphological variability, and noise commonly present in wearable monitoring environments. Traditional augmentation techniques often distort clinically meaningful waveform characteristics, while deep learning classifiers typically underperform on minority arrhythmia categories. This study proposes a unified morphology-preserving framework that integrates a Transfer-Guided Multi-Stage Generative Adversarial Network (TG-MS-GAN), an EfficientNetV2-S classifier, and an adaptive discriminative loss to enhance minority-class representation and improve overall diagnostic robustness. The TG-MS-GAN progressively reconstructs ECG beats across multi-resolution stages, synthesizing high-fidelity minority-class waveforms that preserve P-wave integrity, QRS morphology, and ST-segment structure. A transfer-guidance mechanism introduces physiological priors into early-stage generators, stabilizing convergence under extreme sample scarcity. EfficientNetV2-S serves as a lightweight yet expressive backbone capable of capturing fine-grained temporal features with low computational cost, making the method suitable for real-time wearable deployment. An adaptive hybrid loss combining weighted cross-entropy, center loss, and difficulty-based focusing improves inter-class separability and stabilizes optimization under severe imbalance. Experimental results demonstrate consistent performance across different ECG classification tasks, achieving accuracies of 99.1%, 97.6%, 91.4%, and 99.0% on the MIT-BIH, Chapman-Shaoxing, PTB-XL, and Fetal ECG datasets, respectively. The corresponding Macro-F1 scores reach 0.987, 0.962, 0.839, and 0.989, while the AUPRC values attain 0.989, 0.891, 0.846, and 0.991, respectively. These results indicate that the proposed framework effectively addresses class imbalance while maintaining robust classification performance across heterogeneous ECG datasets. The source code is available at https://github.com/phdmajidsepahvand/TG-MS-GAN-ECG.",
+      "authors": [
+        "Majid Sepahvand",
+        "Beneen Dourgham Karim Al-Harizi",
+        "Maytham N Meqdad"
+      ],
+      "published_on": "2026-07-21",
+      "doi": "10.1016/j.compbiomed.2026.111862",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
     },
     {
       "pmid": "42477001",
@@ -271,23 +289,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42404396/",
       "doi_url": "https://doi.org/10.1177/11795972261463531"
-    },
-    {
-      "pmid": "42312446",
-      "title": "Integrative multi-modal feature extraction from ECG signals using FusionHeartNet for robust heart disease prediction.",
-      "journal": "The International journal of artificial organs",
-      "abstract": "Electrocardiogram (ECG)-based diagnostics are pivotal in early cardiac disorder detection, yet existing models often fail to integrate temporal, spectral, and spatial dynamics inherent in complex arrhythmic patterns. Most traditional approaches are unimodal, relying either on time-domain signal processing or spatially limited CNN models, thereby overlooking cross-domain dependencies and subtle morphological cues. Addressing this gap, this research proposes FusionHeartNet, a unified deep learning framework that fuses signal- and image-based representations using a dual-spectrum feature embedding (DSFE) strategy. DSFE synergistically extracts morphological descriptors and spectral signatures via Fourier and wavelet transforms, while spatial morphology is preserved through GAF and CWT scalograms. These dual-domain features are refined by a multi-focus attention module (MFAM) and classified through the heart fusion classifier (HFC), which is optimized using Bayesian optimization with adaptive learning rate scheduling (BO-ALRS). Experimental validation on the MIT-BIH Arrhythmia Database demonstrates an accuracy of 98.47%, F1-score of 91.67%, and kappa of 0.9311, significantly outperforming baseline models. FusionHeartNet sets a new benchmark for robust, multi-dimensional ECG analysis, offering clinically viable precision in early heart disease detection.",
-      "authors": [
-        "Anita Shivaji Gunjal",
-        "Thangavel Judgi"
-      ],
-      "published_on": "2026-06-18",
-      "doi": "10.1177/03913988261448211",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312446/",
-      "doi_url": "https://doi.org/10.1177/03913988261448211"
     }
   ],
   "error": null,
