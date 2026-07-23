@@ -2,10 +2,48 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-22T20:13:18.048472+00:00",
-  "last_success_at": "2026-07-22T20:13:18.855768+00:00",
+  "last_attempt_at": "2026-07-23T20:16:14.934956+00:00",
+  "last_success_at": "2026-07-23T20:16:15.330508+00:00",
   "count": 15,
   "papers": [
+    {
+      "pmid": "42402238",
+      "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "Cardiovascular diseases have been the primary contributor to deaths worldwide, and hence, the need to detect arrhythmia from Electrocardiogram signals in a precise and efficient manner is a critical problem in the medical community. This work presents a lightweight and computationally efficient framework that integrates Discrete Wavelet Transform (DWT)-based statistical features, ECG morphological descriptors, and Artificial Bee Colony (ABC)-optimized eXtreme Gradient Boosting Machine (XGBM) classification for ECG beat analysis. This work has been implemented using the popular MIT-BIH Arrhythmia Database, which has 100,674 instances of ECG beats, divided into five AAMI classes, with a severe level of class imbalance, where 89.4% instances belong to the Normal class. ECG signals have been pre-processed using a seven-stage algorithm, including Butterworth high-pass filtering, notch filtering, Pan-Tompkins R-peak detection, beat segmentation, and normalisation. Then, a three-level Haar transform is implemented, and 32 statistical features have been extracted from the DWT decomposition, along with 32 morphological features, forming a 64-dimensional vector. The proposed ABC algorithm with 8 bees and 8 iterations optimizes the six XGBM model hyperparameters using a balanced fitness function of accuracy and macro F1-score and converges at the optimal fitness value of 0.8211. The proposed ABC-XGBM model has a classification accuracy of 95.14%, a macro F1-score of 0.948, a macro AUC of 0.983, Matthews Correlation Coefficient of 0.925, and G-Mean of 0.932 with class-wise AUC values > 0.94. An ablation study has shown that the proposed DWT adds +3.7% and the proposed ABC optimization adds +1.14% in accuracy improvement. Five-fold cross-validation has shown a stable performance with a mean accuracy of 0.952 ± 0.001 at a time complexity of 1.0 ms per sample without the dependency of the GPU. The proposed framework is better than the other deep learning models such as CardioAttentionNet with a classification accuracy of 91.20% and the proposed transformer-based classifier with a classification accuracy of 90.50%.",
+      "authors": [
+        "S Umarani",
+        "V Kavitha",
+        "M S S Sasikumar",
+        "S Prabhu"
+      ],
+      "published_on": "2026-07-05",
+      "doi": "10.1016/j.compbiomed.2026.111839",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42402238/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111839"
+    },
+    {
+      "pmid": "42242104",
+      "title": "Electrocardiogram-based short-term risk stratification for acute kidney injury using time-frequency deep learning analysis.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "BACKGROUND AND OBJECTIVES: Acute kidney injury (AKI) is a common and clinically important complication in critically ill and perioperative patients. Conventional AKI diagnosis relies primarily on serum creatinine and urine output, which may reflect renal injury only after physiological deterioration has already occurred. Therefore, non-invasive physiological signals may provide complementary information for earlier AKI risk assessment. This study aimed to develop and preliminarily validate an electrocardiogram-based time-frequency deep learning framework, termed FFT-ECG, for short-term risk stratification of any-stage AKI within a 24-h prediction window.\n\nMETHODS: The FFT-ECG model was developed using 5673 standard 12-lead ECG segments from 4236 patients in MIMIC-IV-ECG. All ECG leads underwent the same preprocessing pipeline, including 0.5-100 Hz band-pass filtering, 60 Hz notch filtering, extraction of the central 8-s segment, robust normalization, and padding to 4096 samples. The model used a dual-path convolutional architecture to process time-domain signals and frequency-domain representations in parallel, followed by BiGRU and attention modules. A binary classifier was trained for any-AKI prediction within 24 h after ECG acquisition, and a discrete-time survival model was used to estimate interval-specific AKI risk across four 6-h intervals. In addition to internal validation of the 12-lead model, a single-lead II model was evaluated internally and externally in VitalDB for binary any-AKI prediction only. Model evaluation included ablation analysis, decision curve analysis, survival-based risk stratification, baseline characteristic comparisons with multiple-comparison correction, and attention-based waveform localization analysis.\n\nRESULTS: In the internal MIMIC-IV 12-lead test set, FFT-ECG achieved an AUROC of 0.736 (95% CI, 0.689-0.779), an AUPRC of 0.694 (95% CI, 0.627-0.749), an accuracy of 0.692, a sensitivity of 0.609, and a specificity of 0.755 for binary any-AKI prediction. The discrete-time survival model achieved a C-index of 0.647. Decision curve analysis suggested a higher net benefit than treat-all and treat-none strategies across selected threshold probabilities. The single-lead II model showed comparable internal discrimination in MIMIC-IV, with an AUROC of 0.757 (95% CI, 0.714-0.799), but showed attenuated performance in VitalDB external validation, with an AUROC of 0.550 (95% CI, 0.512-0.587) and an AUPRC of 0.088 (95% CI, 0.074-0.107). Attention localization analysis showed that the highest attention mass was concentrated around the R-wave upslope and downslope regions, followed by the Q wave, ST segment, and PR segment. These attention findings were interpreted as hypothesis-generating saliency patterns rather than direct mechanistic evidence.\n\nCONCLUSION: FFT-ECG demonstrated promising preliminary internal performance for ECG-based short-term any-AKI risk stratification. However, the reduced performance in VitalDB external validation indicates that model transportability remains limited across ECG acquisition settings, patient populations, and outcome definitions. These findings support the feasibility of ECG-based AKI risk assessment as an adjunctive early-warning approach, while emphasizing the need for model recalibration, domain adaptation, and prospective multicenter validation before clinical implementation.",
+      "authors": [
+        "Weiqiao Wang",
+        "Yiyang Cen",
+        "Yuanzhao Li",
+        "Yi Xin"
+      ],
+      "published_on": "2026-06-05",
+      "doi": "10.1016/j.compbiomed.2026.111778",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42242104/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111778"
+    },
     {
       "pmid": "42155349",
       "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
@@ -141,6 +179,27 @@
       "doi_url": "https://doi.org/10.1136/openhrt-2026-004211"
     },
     {
+      "pmid": "42488541",
+      "title": "Physiology-guided beat-level arrhythmia classification from ECG using a CNN-transformer hybrid neural network.",
+      "journal": "Frontiers in cardiovascular medicine",
+      "abstract": "BACKGROUND: Accurate ECG-based arrhythmia classification is essential for large-scale screening and continuous monitoring, but recognition remains challenging because diagnostic cues are distributed across local waveform morphology and temporal rhythm context.\n\nMETHODS: We developed TransECG-Net, a physiology-guided CNN-Transformer hybrid network for AAMI-aligned five-class heartbeat classification. The CNN branch extracts local P-QRS-T morphology, QRS-width variation, and amplitude-shape features, while the Transformer branch models global temporal dependencies using positional encoding and multi-head self-attention. Both representations are combined through a learnable dimension-wise gated fusion module. Public ECG recordings were segmented into fixed-length heartbeat windows and split into training, validation, and testing subsets using a stratified 70%/15%/15% protocol. Performance was assessed using accuracy, precision, recall, specificity, and F1-score, with additional noise-robustness and edge-device evaluation.\n\nRESULTS: TransECG-Net correctly classified 4,976 of 5,000 testing samples, achieving 99.52% accuracy. Class-wise F1-scores were 99.90% for N, 99.43% for L, 99.56% for R, 99.61% for A, and 99.12% for V, with a macro-averaged F1-score of 99.52%. It outperformed DeepECG-Net (98.30%) and Hybrid CNN-BLSTM (94.20%) while maintaining 35 ms latency and 28 MB memory footprint.\n\nCONCLUSION: TransECG-Net supports accurate, physiology-guided, noise-tolerant, and edge-deployable ECG arrhythmia screening for wearable and clinical monitoring.",
+      "authors": [
+        "Guangfeng Li",
+        "Zhidong Zhang",
+        "Gang Qiao",
+        "Xiaosan Chen",
+        "Gangqiang Zhou",
+        "Kavimbi Chipusu"
+      ],
+      "published_on": "2026-07-23",
+      "doi": "10.3389/fcvm.2026.1802210",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42488541/",
+      "doi_url": "https://doi.org/10.3389/fcvm.2026.1802210"
+    },
+    {
       "pmid": "42420590",
       "title": "An Intelligent IoT-Compatible Arrhythmia Detection System Using a Hybrid Vision Transformer-LSTM Framework.",
       "journal": "Cardiovascular engineering and technology",
@@ -173,25 +232,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42442245/",
       "doi_url": "https://doi.org/10.1016/j.neunet.2026.109334"
-    },
-    {
-      "pmid": "42402238",
-      "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
-      "journal": "Computers in biology and medicine",
-      "abstract": "Cardiovascular diseases have been the primary contributor to deaths worldwide, and hence, the need to detect arrhythmia from Electrocardiogram signals in a precise and efficient manner is a critical problem in the medical community. This work presents a lightweight and computationally efficient framework that integrates Discrete Wavelet Transform (DWT)-based statistical features, ECG morphological descriptors, and Artificial Bee Colony (ABC)-optimized eXtreme Gradient Boosting Machine (XGBM) classification for ECG beat analysis. This work has been implemented using the popular MIT-BIH Arrhythmia Database, which has 100,674 instances of ECG beats, divided into five AAMI classes, with a severe level of class imbalance, where 89.4% instances belong to the Normal class. ECG signals have been pre-processed using a seven-stage algorithm, including Butterworth high-pass filtering, notch filtering, Pan-Tompkins R-peak detection, beat segmentation, and normalisation. Then, a three-level Haar transform is implemented, and 32 statistical features have been extracted from the DWT decomposition, along with 32 morphological features, forming a 64-dimensional vector. The proposed ABC algorithm with 8 bees and 8 iterations optimizes the six XGBM model hyperparameters using a balanced fitness function of accuracy and macro F1-score and converges at the optimal fitness value of 0.8211. The proposed ABC-XGBM model has a classification accuracy of 95.14%, a macro F1-score of 0.948, a macro AUC of 0.983, Matthews Correlation Coefficient of 0.925, and G-Mean of 0.932 with class-wise AUC values > 0.94. An ablation study has shown that the proposed DWT adds +3.7% and the proposed ABC optimization adds +1.14% in accuracy improvement. Five-fold cross-validation has shown a stable performance with a mean accuracy of 0.952 ± 0.001 at a time complexity of 1.0 ms per sample without the dependency of the GPU. The proposed framework is better than the other deep learning models such as CardioAttentionNet with a classification accuracy of 91.20% and the proposed transformer-based classifier with a classification accuracy of 90.50%.",
-      "authors": [
-        "S Umarani",
-        "V Kavitha",
-        "M S S Sasikumar",
-        "S Prabhu"
-      ],
-      "published_on": "2026-07-05",
-      "doi": "10.1016/j.compbiomed.2026.111839",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42402238/",
-      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111839"
     },
     {
       "pmid": "42401625",
@@ -252,43 +292,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42397100/",
       "doi_url": "https://doi.org/10.17219/acem/218578"
-    },
-    {
-      "pmid": "42451427",
-      "title": "CMEpiNet: Complex-Valued Multimodal Epilepsy Detection Network Model.",
-      "journal": "Sensors (Basel, Switzerland)",
-      "abstract": "Existing seizure detection methods cannot fully exploit the spatiotemporal features of multimodal signals. They also fail to capture deep associations among cross-modal features. This limits their ability to learn unified representations of spatiotemporal dependencies. This work proposes CMEpiNet (Complex-valued Multimodal Epilepsy detection Network model) to address this issue. CMEpiNet first uses complex-valued convolutions for feature extraction. It explicitly models phase synchronization, phase shifts, and cross-frequency coupling. Thus, EEG, ECG, and EMG features are represented in the complex-valued domain. During feature fusion, CMEpiNet uses a two-level semantic alignment-based fusion method. It applies cross-modal consistency constraints in a shared alignment space. It also performs distribution-level alignment in an epilepsy-related semantic latent space. These operations ensure the consistency of multimodal features in the global semantic structure. Finally, CMEpiNet uses a spatial attention-guided 3D convolutional classifier. The classifier jointly models the temporal, feature, and modality dimensions. Experimental results on the SeizeIT2 dataset show that CMEpiNet improves seizure detection sensitivity, reduces the false alarm rate, and maintains stable performance under perturbations.",
-      "authors": [
-        "Tianyi Su",
-        "Haiyan Zhu",
-        "Shuai Chen",
-        "Haifeng Wang"
-      ],
-      "published_on": "2026-07-15",
-      "doi": "10.3390/s26134186",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42451427/",
-      "doi_url": "https://doi.org/10.3390/s26134186"
-    },
-    {
-      "pmid": "42404396",
-      "title": "MnL-TWA: Manifold Learning Approach for T-Wave Alternans Detection in Ambulatory Environments.",
-      "journal": "Biomedical engineering and computational biology",
-      "abstract": "BACKGROUND: T-wave alternans (TWA) refers to variations in the ventricular repolarization pattern observed on the ECG, which has been associated with cardiac instability and an increased risk of sudden cardiac death. Recently, machine learning (ML) methods have been developed for TWA detection, but their black-box nature limits interpretability.\n\nOBJECTIVES: To address this gap, we propose manifold learning (MnL) to enhance the explainability of these learning models while maintaining TWA detection effectiveness.\n\nMETHODS: We fine-tuned nonlinear dimension reduction techniques such as Uniform Manifold Approximation and Projection (UMAP), Isometric Mapping (Isomap), and autoencoders (AE) in combination with ML methods, namely K-nearest neighbors (KNN), random forest (RF), and neural networks (NN). Performance was evaluated using mean and standard deviation across patient-wise permutations.\n\nRESULTS: In the design stage, the AE-based NN effectively retained essential discriminative information (F1-score 92.1 ± 2.4 %). MnL-generated spaces consistently revealed that misclassifications primarily lie close to the decision boundary and are predominantly associated with lower TWA voltages, which are more dispersed within the space. For ambulatory TWA detection, Isomap combined with RF and the AE-based NN achieved performance comparable to using the complete set of features derived from established TWA analysis methods (F1-score 78.5 ± 6.4 % and 77.9 ± 5.4 %, respectively), including spectral, time-domain, and correlation-based descriptors. The latent space visualization shows that predictions that ultimately become detections are located farther away from the decision boundary.\n\nCONCLUSION: MnL-generated spaces provide valuable insights into how classification models differentiate between TWA and non-TWA instances, as well as the patterns in TWA event amplitudes. This approach helps bridge the gap between performance and transparency, supporting more clinically reliable TWA detection.",
-      "authors": [
-        "Lidia Pascual-Sánchez",
-        "Rebeca Goya-Esteban",
-        "Manuel Blanco-Velasco"
-      ],
-      "published_on": "2026-07-06",
-      "doi": "10.1177/11795972261463531",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42404396/",
-      "doi_url": "https://doi.org/10.1177/11795972261463531"
     }
   ],
   "error": null,
