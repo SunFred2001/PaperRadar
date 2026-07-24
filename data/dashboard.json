@@ -18,10 +18,30 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-23T20:16:14.934956+00:00",
-    "last_success_at": "2026-07-23T20:16:15.330508+00:00",
+    "last_attempt_at": "2026-07-24T21:07:58.385588+00:00",
+    "last_success_at": "2026-07-24T21:07:59.227073+00:00",
     "count": 15,
     "papers": [
+      {
+        "pmid": "42491352",
+        "title": "Detection of cardiac pathologies in electrocardiogram signals using empirical mode decomposition and neural networks.",
+        "journal": "Health information science and systems",
+        "abstract": "The purpose of this work is to develop an Artificial Intelligence-based system capable of classifying individuals as either healthy or having a cardiac pathology (Myocardial Ischemia, Cardiomyopathy, Bundle Branch Block, Dysrhythmia, or Ventricular Hypertrophy) based on the processing of Electrocardiogram (ECG) signals. This system aims to serve as a non-invasive and efficient diagnostic tool. The ECG signals used in this study were obtained from a publicly available database. Signal processing is performed using Empirical Mode Decomposition (EMD). From the decomposition, statistical features are extracted from the modes obtained and structured into a feature vector that represents the signal. Classification is achieved using an optimized Neural Network (NN) model, which uses 2580 ECG signals to distinguish between healthy individuals and those with cardiac disease, considering cross-validation. After implementing the system, the mean accuracy achieved was 96.03% for training, 92.06% for validation, and 92.20% for testing. The proposed system successfully demonstrated high classification accuracy for cardiac pathologies while being computationally efficient, making it a valuable tool for preliminary diagnosis and further analysis of ECG signal.",
+        "authors": [
+          "Juan Manuel Lopez-Pasten",
+          "Juan Manuel Ramirez-Cortes",
+          "Jose Hugo Barron-Zambrano",
+          "Juan Carlos Bernal-Romero",
+          "Jose de Jesus Rangel-Magdaleno"
+        ],
+        "published_on": "2026-07-23",
+        "doi": "10.1007/s13755-026-00471-w",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42491352/",
+        "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
+      },
       {
         "pmid": "42402238",
         "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
@@ -176,6 +196,27 @@
         "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
       },
       {
+        "pmid": "42495069",
+        "title": "Artificial intelligence technology in aortic valve disease: a decade of scientometric and narrative review.",
+        "journal": "Frontiers in cardiovascular medicine",
+        "abstract": "BACKGROUND: Aortic valve disease, particularly aortic stenosis, poses a growing global health burden with aging populations. Artificial intelligence technology offers promising tools for diagnosis, risk stratification, and prognosis prediction, yet the knowledge structure of this interdisciplinary field remains unsystematically characterized.\n\nOBJECTIVE: This study aims to conduct a scientometric analysis to delineate the research landscape, identify hotspots, and trace evolutionary trends of AI technology applications in aortic valve disease over the past decade.\n\nMETHODS: We retrieved relevant literature published between January 2016 and January 2026 from the Web of Science Core Collection and Scopus databases. After screening, 270 eligible articles were included. CiteSpace and VOSviewer were employed to perform visualization analyses of authors, institutions, countries, journals, keywords, and co-citation networks.\n\nRESULTS: Annual publications increased steadily, with the United States leading in both output and influence. The Mayo Clinic emerged as the most prolific institution. Research hotspots focused on AI-assisted diagnosis, risk stratification, and prognosis prediction for aortic stenosis, primarily using deep learning and machine learning techniques. Keyword clustering revealed themes spanning disease diagnosis, therapeutic technologies, AI-enabled applications, and clinical outcomes. Co-citation analysis highlighted key studies on AI-enhanced electrocardiography and echocardiography for valve disease detection.\n\nCONCLUSIONS: AI technology research in aortic valve disease is advancing rapidly. Based on the keyword clustering and timeline analysis, we propose a conceptual mapping of AI techniques onto clinical phases. Future efforts should prioritize developing multimodal models, facilitating clinical integration, and enhancing patient lifecycle management.",
+        "authors": [
+          "Peng Hei",
+          "He Ren",
+          "Wenshuai Ma",
+          "Wei Fang",
+          "Yan Li"
+        ],
+        "published_on": "2026-07-24",
+        "doi": "10.3389/fcvm.2026.1843658",
+        "publication_types": [
+          "Journal Article",
+          "Systematic Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42495069/",
+        "doi_url": "https://doi.org/10.3389/fcvm.2026.1843658"
+      },
+      {
         "pmid": "42425720",
         "title": "AI-enhanced electrocardiography as a digital biomarker platform in cardiovascular medicine: clinical applications, validation gaps and future implementation pathways.",
         "journal": "Open heart",
@@ -273,41 +314,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42401625/",
         "doi_url": "https://doi.org/10.1038/s41598-026-58956-3"
-      },
-      {
-        "pmid": "42399614",
-        "title": "Scalogram-CNN fusion with interactive 3D parameter exploration for inter-patient ECG classification.",
-        "journal": "Scientific reports",
-        "abstract": "Electrocardiogram (ECG) signals are vital for detecting cardiac anomalies but pose challenges due to their non-stationary nature. This study aims to investigate ECG classification under unseen-patient conditions by converting ECG signals into 2D scalogram images. We developed an interactive 3D visualisation framework using Plotly Dash to evaluate classification performance across multiple wavelet types, feature extraction levels, and scale ranges. Scalogram images were classified using a Convolutional Neural Network (CNN). Additionally, we evaluated handcrafted statistical and wavelet-derived features on test data drawn from unseen patients to support inter-patient generalisation analysis. Wavelet choice and feature extraction strategy significantly affected accuracy. Notably, up to 89.78% accuracy was achieved across two test experiments (Complex Morlet, Experiment II), with Mexican Hat wavelets reaching 83.04% in Experiment I, with independently sampled test beats in each experiment, demonstrating relatively consistent performance across the evaluated unseen-patient test settings within the constraints of the available database. The interactive 3D dashboard not only streamlined parameter selection but also improved result exploration and facilitated parameter analysis. The proposed framework may support more efficient parameter exploration in ECG analysis workflows, with potential utility in telemedicine and remote monitoring contexts. It provides an interactive framework for small-data ECG analysis.",
-        "authors": [
-          "Nurgül Özmen Süzme",
-          "Ömer Nezih Gerek"
-        ],
-        "published_on": "2026-07-04",
-        "doi": "10.1038/s41598-026-56172-7",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42399614/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-56172-7"
-      },
-      {
-        "pmid": "42397100",
-        "title": "The role of artificial intelligence in the diagnosis, risk stratification, and treatment of heart failure: A narrative review.",
-        "journal": "Advances in clinical and experimental medicine : official organ Wroclaw Medical University",
-        "abstract": "Heart failure (HF) is a complex, multifactorial, and difficult-to-treat syndrome. Over the past years, a concerning increase in its global prevalence, mortality, costs, and burden on the healthcare system has been observed. The recent development of machine learning (ML), especially unsupervised and deep learning (DL) algorithms, offers a potential way to facilitate diagnosis, enable more precise treatment, and reduce both mortality and costs of HF patients. Especially unsupervised ML and DL present new opportunities for increased efficiency in clinical practice in cardiology. Unsupervised ML, e.g., enables novel phenogrouping of HF patients into high-risk groups and disease outcome prediction. Deep learning algorithms can enhance echocardiographic analysis by improving image quality and ECG interpretation, and by providing assistance and guidance to inexperienced cardiologists. However, substantial challenges related to generalizability, external validation, overfitting, model explainability, and ethical considerations currently severely limit the implementation of AI-based tools in real-world clinical practice. This review critically evaluates current AI models in HF, focusing on their roles in diagnosis, risk stratification, and treatment personalization, as well as the major challenges that restrict their application in clinical practice.",
-        "authors": [
-          "Julia Resch",
-          "Małgorzata Lelonek"
-        ],
-        "published_on": "2026-07-03",
-        "doi": "10.17219/acem/218578",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42397100/",
-        "doi_url": "https://doi.org/10.17219/acem/218578"
       }
     ],
     "error": null,
@@ -320,6 +326,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-24T20:16:15.330508+00:00",
+  "next_refresh_at": "2026-07-25T21:07:59.227073+00:00",
   "next_push_at": null
 }
