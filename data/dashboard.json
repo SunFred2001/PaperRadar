@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-24T21:07:58.385588+00:00",
-    "last_success_at": "2026-07-24T21:07:59.227073+00:00",
+    "last_attempt_at": "2026-07-25T21:59:34.912798+00:00",
+    "last_success_at": "2026-07-25T21:59:35.775648+00:00",
     "count": 15,
     "papers": [
       {
@@ -103,6 +103,32 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       },
       {
+        "pmid": "42497361",
+        "title": "R-R Interval Histogram-Based Deep Learning for 3-Class Atrial Fibrillation Screening in Garment-Type Wearable Holter Electrocardiogram Monitoring: Algorithm Development and Validation Study.",
+        "journal": "JMIR medical informatics",
+        "abstract": "BACKGROUND: Long-term garment-type wearable Holter electrocardiographic (ECG) monitoring is frequently affected by noise contamination, which complicates automated atrial fibrillation (AF) detection in real-world recordings. Although deep learning has shown high performance for AF detection, relatively few studies have evaluated explicit strategies for handling noise-included wearable ECG data. An alternative representation using the R-R interval (RRI) time series may reduce the dependence on waveform morphology and provide an alternative pathway for AF screening in noisy recordings.\n\nOBJECTIVE: This study aimed to develop and evaluate a 3-class, noise-aware RRI-based AF screening framework that explicitly separated AF, non-AF, and uninterpretable noise windows, and to assess the impact of analysis window length on model performance.\n\nMETHODS: Single-lead garment-type wearable Holter ECG data from 117 patients at the University of Osaka Hospital were analyzed after exclusion of patients with documented atrial tachycardia, flutter, or paced rhythm according to the predefined task definition. R-peaks were automatically detected, and the resulting RRI segments were converted into 2D histogram images, with time on the x-axis and RRI-derived heart rate on the y-axis, for 1.5-, 3-, and 6-minute windows. A ResNet-34-based 2D convolutional neural network was trained for 3-class classification. Model performance was evaluated using 5-fold interpatient cross-validation on the institutional dataset and independent external testing on the MIT-BIH (Massachusetts Institute of Technology-Beth Israel Hospital) AF Database (AFDB). In the external validation, atrial flutter-annotated intervals were excluded to match the training task definition. Patient-level AF burden was evaluated by comparing reference AF burden with model-estimated AF burden using Pearson and Spearman correlation coefficients, and linear regression.\n\nRESULTS: Of 129 monitored patients between March 1, 2023, and November 20, 2025, 117 were analyzed. In the internal validation, the 3-class model (non-AF, AF, and noise) showed similarly high performance for the 1.5- and 3-minute windows, both with an accuracy of 96.6%. In independent external validation, the 3-minute window showed numerically the highest overall performance (accuracy: 97.3%; AF sensitivity: 96.9%; and AF specificity: 97.7%), although the differences across window lengths were modest. At the patient level, AF burden correlation was high across all window lengths, with Pearson r of 0.995, 0.991, and 0.989 and Spearman ρ of 0.988, 0.982, and 0.979 for the 1.5-, 3-, and 6-minute models, respectively.\n\nCONCLUSIONS: The RRI-based 2D convolutional neural network achieved high AF classification accuracy and strong patient-level correlation with reference AF burden. Using RRI features and a 3-class framework, which explicitly separated noise from AF and non-AF rhythms, a 3-minute RRI window provided a favorable balance of performance for AF screening in a garment-type Holter ECG.",
+        "authors": [
+          "Tomoaki Nakano",
+          "Keita Okayama",
+          "Masanao Yasuoka",
+          "Hironori Shigeta",
+          "Akito Kawamura",
+          "Takayuki Sekihara",
+          "Kentaro Ozu",
+          "Takafumi Oka",
+          "Shigeto Seno",
+          "Yasushi Sakata"
+        ],
+        "published_on": "2026-07-24",
+        "doi": "10.2196/91960",
+        "publication_types": [
+          "Journal Article",
+          "Validation Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497361/",
+        "doi_url": "https://doi.org/10.2196/91960"
+      },
+      {
         "pmid": "42480127",
         "title": "Morphology-preserving transfer-guided GAN with adaptive discriminative loss for robust and imbalanced ECG arrhythmia detection.",
         "journal": "Computers in biology and medicine",
@@ -158,6 +184,24 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42467161/",
         "doi_url": "https://doi.org/10.1007/s11517-026-03631-y"
+      },
+      {
+        "pmid": "42497537",
+        "title": "Dendritic functional heterogeneity with feedback control facilitates stable spatiotemporal representation in spiking neural networks.",
+        "journal": "Neural networks : the official journal of the International Neural Network Society",
+        "abstract": "Stable and accurate spatiotemporal representation is crucial for spiking neural networks (SNNs) to perform well in modeling long sequences. Existing single-compartment models struggle to capture long-term dependencies, while multi-compartment models often neglect the functional complementarity and predictive interactions among dendritic subunits. Both models limit the spatiotemporal representation capacity of SNNs. To overcome these limitations, we propose the Dendritic Feedback Adaptive Leaky Integrate-and-Fire (DF-ALIF) neuron model, which combines dendritic functional heterogeneity with feedback control within a predictive coding framework. Basal compartments of DF-ALIF receive feedforward and recurrent inputs, encoding bottom-up prediction errors via a local excitatory and inhibitory balance mechanism that drives feature detection and pattern reconstruction. In contrast, the apical compartment carries top-down feedback predictions and dynamically modulates the somatic firing threshold via a mismatch mechanism to calibrate neural activity. The synergistic interaction between these compartments mitigates the temporal credit assignment problem and enhances the spatiotemporal representation capabilities of SNNs. On benchmarks including electrocardiogram classification, radar and neuromorphic event-based gesture recognition, image classification, and speech recognition, DF-ALIF demonstrates improved classification accuracy, stable convergence, and enhanced robustness to temporal perturbations. Our work demonstrates a feasible approach to embedding dendritic functional heterogeneity in SNNs and offers a fresh perspective on the design of neuromorphic computing systems.",
+        "authors": [
+          "Qiulin Li",
+          "Junsong Wang",
+          "Jianfang Wu"
+        ],
+        "published_on": "2026-07-25",
+        "doi": "10.1016/j.neunet.2026.109395",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497537/",
+        "doi_url": "https://doi.org/10.1016/j.neunet.2026.109395"
       },
       {
         "pmid": "42456763",
@@ -273,47 +317,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42420590/",
         "doi_url": "https://doi.org/10.1007/s13239-026-00849-7"
-      },
-      {
-        "pmid": "42442245",
-        "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
-        "journal": "Neural networks : the official journal of the International Neural Network Society",
-        "abstract": "Electrocardiogram (ECG) captures the heart's electrical signals, offering valuable information for diagnosing cardiac conditions. However, the scarcity of labeled data makes it challenging to fully leverage supervised learning in the medical domain. Self-supervised learning (SSL) offers a promising solution, enabling models to learn from unlabeled data and uncover meaningful patterns. In this paper, we show that masked modeling in the latent space can be a powerful alternative to existing self-supervised methods in the ECG domain. We introduce ECG-JEPA, an SSL model for 12-lead ECG analysis that learns semantic representations of ECG data by predicting in the hidden latent space, bypassing the need to reconstruct raw signals. This approach offers several advantages in the ECG domain: (1) it avoids producing unnecessary details, such as noise, which is common in ECG; and (2) it addresses the limitations of naïve L2 loss between raw signals. Another key contribution is the introduction of Cross-Pattern Attention (CroPA), a specialized masked attention mechanism tailored for 12-lead ECG data. ECG-JEPA is trained on the union of several open ECG datasets, totaling approximately 180,000 samples, and achieves state-of-the-art performance in various downstream tasks including diagnostic classification, feature extraction, and segmentation.",
-        "authors": [
-          "Sehun Kim"
-        ],
-        "published_on": "2026-07-14",
-        "doi": "10.1016/j.neunet.2026.109334",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42442245/",
-        "doi_url": "https://doi.org/10.1016/j.neunet.2026.109334"
-      },
-      {
-        "pmid": "42401625",
-        "title": "Precise ECG diagnosis and validation of educational utility for acute myocardial infarction using deep learning and explainable artificial intelligence.",
-        "journal": "Scientific reports",
-        "abstract": "Artificial intelligence (AI) holds significant promise for electrocardiogram (ECG) analysis, yet accurately detecting non-ST-segment elevation myocardial infarction (NSTEMI) and overcoming the \"black box\" nature of deep learning models remain persistent challenges. Here, we present a comprehensive deep learning framework capable of classifying STEMI, NSTEMI, and non-acute coronary syndrome (non-ACS) from 12-lead ECG images, while also localizing infarction sites. Utilizing ,2070 validated ECGs, our pipeline integrates ResNet for acute myocardial infarction detection, Faster R-CNN for ST-segment elevation localization, and an ensemble approach for final classification. The model achieved a 98.3% AUROC for detection and an overall three-class accuracy of 93.6%, with high F1 scores for identifying infarction territories. To address interpretability, we developed an explainable AI (XAI) web viewer that visualizes detected regions. Furthermore, we evaluated the model's utility as an educational tool in a prospective pilot study with medical students. AI assistance significantly improved the students' overall diagnostic accuracy from 43% to 82% (p < 0.05), with notable gains in identifying NSTEMI and complex STEMI subtypes. These findings demonstrate that our interpretable AI model not only supports clinical decision-making with high diagnostic precision but also serves as an effective educational aid for enhancing novice clinicians' proficiency.",
-        "authors": [
-          "Jongkwang Kim",
-          "Byungeun Shon",
-          "Yongjin Kim",
-          "Nayeon Kim",
-          "Yejin Jang",
-          "Jeongmin Lee",
-          "Seong-Mi Yoon",
-          "Dong Heon Yang",
-          "Namkyun Kim",
-          "Sungmoon Jeong"
-        ],
-        "published_on": "2026-07-05",
-        "doi": "10.1038/s41598-026-58956-3",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42401625/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-58956-3"
       }
     ],
     "error": null,
@@ -326,6 +329,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-25T21:07:59.227073+00:00",
+  "next_refresh_at": "2026-07-26T21:59:35.775648+00:00",
   "next_push_at": null
 }
