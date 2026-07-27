@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-26T22:06:19.726754+00:00",
-    "last_success_at": "2026-07-26T22:06:20.194272+00:00",
+    "last_attempt_at": "2026-07-27T22:10:52.239095+00:00",
+    "last_success_at": "2026-07-27T22:10:53.019610+00:00",
     "count": 15,
     "papers": [
       {
@@ -103,6 +103,28 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       },
       {
+        "pmid": "42504240",
+        "title": "Time Is Aorta: Can Artificial Intelligence Improve Surgical Timelines in Acute Type A Aortic Dissection? A Comprehensive Review.",
+        "journal": "Health science reports",
+        "abstract": "BACKGROUND AND AIMS: Acute Type A aortic dissection (ATAAD) is a surgical emergency in which delays in diagnosis, transfer, and operative activation increase mortality and organ damage. Artificial intelligence (AI) may support earlier recognition, faster imaging interpretation, and more efficient multidisciplinary communication. This narrative review evaluates whether AI could shorten diagnostic and surgical timelines in ATAAD.\n\nLITERATURE SEARCH AND STUDY SELECTION: This narrative review was informed by a structured literature search of PubMed/MEDLINE, PubMed Central, Google Scholar, and professional society websites from database inception to 30 June 2026. Search terms included \"acute type A aortic dissection,\" \"acute aortic syndrome,\" \"artificial intelligence,\" \"machine learning,\" \"deep learning,\" \"computed tomography angiography,\" \"non-contrast CT,\" \"chest radiography,\" \"electrocardiography,\" \"d-dimer,\" \"workflow,\" \"triage,\" \"surgical delay,\" and \"interhospital transfer.\" We included peer-reviewed original studies, systematic reviews, narrative reviews, and guideline documents that addressed AI-enabled diagnosis, imaging interpretation, triage, transfer, multidisciplinary notification, or surgical pathway coordination in ATAAD or AAS. Abstract-only reports, non-clinical technical studies without dissection-specific evaluation, and studies without clear diagnostic or workflow relevance were not used as primary evidence. Reference lists of relevant articles were manually screened. Because many AI studies enroll broader AAS cohorts, evidence was classified as ATAAD-specific, AAS-based with ATAAD applicability, or adult cardiovascular AI workflow extrapolation. AAS-based findings were used only when their mechanism could plausibly affect ATAAD pathways, such as faster CT interpretation or automated urgent notification, and the limitations of applying these findings to ATAAD are stated throughout the manuscript.\n\nMETHODS: A narrative literature review was conducted using PubMed/MEDLINE, PubMed Central, Google Scholar, and professional society sources from database inception to 30 June 2026. We included peer-reviewed studies, guidelines, and workflow evaluations relevant to AI-assisted recognition, imaging, triage, and communication in ATAAD or acute aortic syndrome (AAS). Evidence specific to ATAAD was prioritized. AAS studies were interpreted cautiously when ATAAD-specific data were unavailable.\n\nRESULTS: AI models using clinical variables, biomarkers, electrocardiography, chest radiography, non-contrast CT, and CT angiography report AUC values of approximately 0.86 to 0.99, with many imaging models reporting sensitivities of 91%-97% and specificities near 93%-99%. Automated CT triage can identify suspected dissections within seconds and simulated workflows show 26%-43% reductions in scan-to-report intervals. Real-world non-contrast CT screening reduced diagnostic time in initially missed AAS cases from approximately 220 min to 62 min. However, most evidence derives from retrospective cohorts, simulated workflows, or AAS populations rather than prospective ATAAD surgical pathway studies.\n\nCONCLUSION: AI may reduce key diagnostic and communication delays in ATAAD care, but direct evidence that it reduces door-to-surgery time or mortality remains limited. Prospective implementation studies are needed before AI-enabled ATAAD pathways can be considered evidence-based standards of care.",
+        "authors": [
+          "Ibrahim Antoun",
+          "Georgia R Layton",
+          "Riyaz Somani",
+          "Mokhtar Ibrahim",
+          "G André Ng",
+          "Giovanni Mariscalco",
+          "Mustafa Zakkar"
+        ],
+        "published_on": "2026-07-27",
+        "doi": "10.1002/hsr2.72906",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
+        "doi_url": "https://doi.org/10.1002/hsr2.72906"
+      },
+      {
         "pmid": "42497361",
         "title": "R-R Interval Histogram-Based Deep Learning for 3-Class Atrial Fibrillation Screening in Garment-Type Wearable Holter Electrocardiogram Monitoring: Algorithm Development and Validation Study.",
         "journal": "JMIR medical informatics",
@@ -127,6 +149,31 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497361/",
         "doi_url": "https://doi.org/10.2196/91960"
+      },
+      {
+        "pmid": "42505917",
+        "title": "An Artificial Intelligence Model for ECG-Based Prediction of Heart Failure with Preserved Ejection Fraction Diagnosis.",
+        "journal": "Journal of cardiovascular development and disease",
+        "abstract": "BACKGROUND: Heart failure with preserved ejection fraction (HFpEF) accounts for over half of all heart failure (HF) cases and remains diagnostically challenging due to nonspecific symptoms and a lack of accessible noninvasive screening tools, leading to widespread underdiagnosis and delayed treatment. The electrocardiogram (ECG) is a low-cost, widely available tool that reflects myocardial electrical remodeling. We previously developed and externally validated an ECG-based artificial intelligence (ECG-AI) model capable of classifying ECGs into four categories: reduced ejection fraction (rEF), mid-range ejection fraction (mEF), HFpEF, and controls. In this study, we evaluate the ability of this ECG-AI model to predict future HFpEF diagnosis using real-world data from a large integrated health system.\n\nMETHODS: We applied the validated ECG-AI model to an independent cohort of 7713 patients from Wake Forest Baptist Health (WFBH), using one ECG per patient recorded before the clinical diagnosis of HFpEF. Model discrimination was evaluated across multiple prediction windows from six months up to ten years before diagnosis using the area under the receiver operating characteristic curve (AUC), with comparisons performed using DeLong's test. Performance was also compared head-to-head with the H2FPEF score, a validated clinical score for HFpEF, in the subset of patients with complete data for score calculation. ECG-AI outputs were stratified into quartiles and evaluated using Kaplan-Meier survival analysis and multivariable Cox proportional hazards regression adjusted for demographics and major comorbidities.\n\nRESULTS: Of the 7713 patients, 283 (3.7%) were subsequently diagnosed with HFpEF. The ECG-AI model achieved an AUC of 0.79 (95% CI, 0.72-0.86) using ECGs recorded within six months before diagnosis. Discrimination remained stable across prediction windows extending up to ten years before diagnosis (AUC range, 0.78-0.80; all DeLong p > 0.01 vs. the six-month window). Compared with the H2FPEF score, ECG-AI demonstrated superior discrimination, improving the AUC by 0.06-0.07 across the evaluated prediction windows. Patients in the highest ECG-AI risk quartile had an unadjusted hazard ratio (HR) of 11.18 (95% CI, 7.27-17.21; C-index, 0.75) and an adjusted HR of 6.60 (95% CI, 4.24-10.28; C-index, 0.82). Adding clinical covariates to ECG-AI improved the C-index by 0.07 and 0.09 for the five- and ten-year prediction windows, respectively.\n\nCONCLUSIONS: An independently validated ECG-AI model predicted incident HFpEF up to ten years before clinical diagnosis and outperformed the H2FPEF score using ECG alone, indicating that ECG-derived signatures precede clinical recognition of the syndrome. ECG-AI shows promise as a prognostic, risk-stratification tool to prioritize further evaluation; prospective validation and single-lead assessment are needed before screening or wearable deployment.",
+        "authors": [
+          "Ibrahim Karabayir",
+          "Shekhar Singh",
+          "Tolga Hayit",
+          "Elsayed Z Soliman",
+          "Dalane W Kitzman",
+          "David M Herrington",
+          "Barry A Borlaug",
+          "Robert L Davis",
+          "Sanjiv Shah",
+          "Oguz Akbilgic"
+        ],
+        "published_on": "2026-07-27",
+        "doi": "10.3390/jcdd13070340",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42505917/",
+        "doi_url": "https://doi.org/10.3390/jcdd13070340"
       },
       {
         "pmid": "42480127",
@@ -278,45 +325,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42425720/",
         "doi_url": "https://doi.org/10.1136/openhrt-2026-004211"
-      },
-      {
-        "pmid": "42488541",
-        "title": "Physiology-guided beat-level arrhythmia classification from ECG using a CNN-transformer hybrid neural network.",
-        "journal": "Frontiers in cardiovascular medicine",
-        "abstract": "BACKGROUND: Accurate ECG-based arrhythmia classification is essential for large-scale screening and continuous monitoring, but recognition remains challenging because diagnostic cues are distributed across local waveform morphology and temporal rhythm context.\n\nMETHODS: We developed TransECG-Net, a physiology-guided CNN-Transformer hybrid network for AAMI-aligned five-class heartbeat classification. The CNN branch extracts local P-QRS-T morphology, QRS-width variation, and amplitude-shape features, while the Transformer branch models global temporal dependencies using positional encoding and multi-head self-attention. Both representations are combined through a learnable dimension-wise gated fusion module. Public ECG recordings were segmented into fixed-length heartbeat windows and split into training, validation, and testing subsets using a stratified 70%/15%/15% protocol. Performance was assessed using accuracy, precision, recall, specificity, and F1-score, with additional noise-robustness and edge-device evaluation.\n\nRESULTS: TransECG-Net correctly classified 4,976 of 5,000 testing samples, achieving 99.52% accuracy. Class-wise F1-scores were 99.90% for N, 99.43% for L, 99.56% for R, 99.61% for A, and 99.12% for V, with a macro-averaged F1-score of 99.52%. It outperformed DeepECG-Net (98.30%) and Hybrid CNN-BLSTM (94.20%) while maintaining 35 ms latency and 28 MB memory footprint.\n\nCONCLUSION: TransECG-Net supports accurate, physiology-guided, noise-tolerant, and edge-deployable ECG arrhythmia screening for wearable and clinical monitoring.",
-        "authors": [
-          "Guangfeng Li",
-          "Zhidong Zhang",
-          "Gang Qiao",
-          "Xiaosan Chen",
-          "Gangqiang Zhou",
-          "Kavimbi Chipusu"
-        ],
-        "published_on": "2026-07-23",
-        "doi": "10.3389/fcvm.2026.1802210",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42488541/",
-        "doi_url": "https://doi.org/10.3389/fcvm.2026.1802210"
-      },
-      {
-        "pmid": "42420590",
-        "title": "An Intelligent IoT-Compatible Arrhythmia Detection System Using a Hybrid Vision Transformer-LSTM Framework.",
-        "journal": "Cardiovascular engineering and technology",
-        "abstract": "BACKGROUND: In electrocardiogram (ECG) signal classification, advanced IoT-compatible systems and medical signal processing solutions have become feasible due to the rapid growth of the Internet of Things (IoT). However, it is challenging to detect and classify arrhythmias because of the complex nature and large volumes of ECG data.\n\nOBJECTIVE: This article proposes a hybrid deep learning (DL) approach by combining long short-term memory (LSTM)and a Vision Transformer (ViT) for the automatic arrhythmia classifi cation from ECG signals.\n\nOBJECTIVE: This article proposes a hybrid deep learning (DL) approach by combining long short-term memory (LSTM)and a Vision Transformer (ViT) for the automatic arrhythmia classifi cation from ECG signals.\n\nMETHODS: Initially, the proposed framework gathers the data from the MIT-BIH database for training. Then, preprocessing strategies such as min-max normalization and signal-to-spectrogram conversion using the Stockwell transform are applied. Then, the imbalance problem in the collected dataset is rectifi ed by applying the K-Mean scentered Adaptive Synthetic Sampling (KMADASYN) technique. Afterward, the proposed framework employs the Hybrid Optimized ViT with Long Short-Term Memory (HOVLSTM) for classification, where spatial and temporal features are extracted to achieve higher classification performance.\n\nRESULTS: The developed model achieved a classification accuracy of 99.17%, out performing several existing ECG classification systems.\n\nCONCLUSION: These outcomes demonstrate that the proposed technique is suitable for IoT-compatible healthcare systems. While the IoT-compatible system does not employ data acquisition, the model is evaluated in a simulated IoT environment, demonstrating its potential for future deployment in IoT-enabled clinical decision-support systems.",
-        "authors": [
-          "S Selva Birunda",
-          "V Vaissnave",
-          "K Abirami"
-        ],
-        "published_on": "2026-07-09",
-        "doi": "10.1007/s13239-026-00849-7",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42420590/",
-        "doi_url": "https://doi.org/10.1007/s13239-026-00849-7"
       }
     ],
     "error": null,
@@ -329,6 +337,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-27T22:06:20.194272+00:00",
+  "next_refresh_at": "2026-07-28T22:10:53.019610+00:00",
   "next_push_at": null
 }
