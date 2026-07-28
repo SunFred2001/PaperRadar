@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-27T22:10:52.239095+00:00",
-  "last_success_at": "2026-07-27T22:10:53.019610+00:00",
+  "last_attempt_at": "2026-07-28T23:03:33.283152+00:00",
+  "last_success_at": "2026-07-28T23:03:34.025725+00:00",
   "count": 15,
   "papers": [
     {
@@ -133,6 +133,23 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497361/",
       "doi_url": "https://doi.org/10.2196/91960"
+    },
+    {
+      "pmid": "42510136",
+      "title": "ABMA: An Attention-Based Morphology-Aware Framework for Automated 12-Lead ECG Arrhythmia Classification.",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "abstract": "Background: Cardiovascular diseases (CVDs) are among the leading causes of death globally. In order to treat CVDs successfully in the early stages, it is crucial to diagnose them in time. The ECG is one of the most common and non-invasive methods to detect heart rhythms and to diagnose arrhythmias. However, the analysis of ECG recordings manually requires a lot of time and experience because the morphology of ECG signals and the characteristics of their waveforms are very complex and show large overlaps between different types of arrhythmias. So far, various approaches for automated analysis of ECG signals have been developed, mostly based on deep learning (DL). In general, these methods are able to analyze ECG signals automatically and to detect different types of arrhythmias. Most approaches, however, are based on a purely data-driven feature learning and do not pay attention to the morphology-sensitive temporal structure of ECG signals, which is important for a discriminative diagnosis of arrhythmias. Methods: In this paper, we propose an Attention-Based Morphology-Aware (ABMA) framework to leverage multilead ECG signals in conjunction with automatically computed physiological features using a hybrid deep learning architecture. ABMA leverages multi-scale convolutional neural networks to learn local morphology features, and bidirectional long short-term memory (BiLSTM) networks to model temporal rhythms in ECG signals. We designed an ABMA module that incorporates a morphology scoring network (MSN) in order to (1) estimate the morphology-aware importance of different ECG segments and (2) learn the temporal importance of ECG features. The learned attention weights enable learning to focus on key sections of ECG signals without predefined boundaries or manual annotation of fiducial points. To understand the contribution of each individual component of the framework, we performed an extensive ablation study, where we removed the handcrafted feature branch, the ABMA module, the MSN, and the multi-head attention mechanism, one at a time, and compared the results against a fixed set of experimental configurations. Results: To assess the performance of the proposed framework in three-class classification between sinus rhythm (SA), atrial fibrillation (AFIB), and ventricular tachycardia (VT), we employed a stratified 10-fold cross-validation protocol. Our approach achieved a mean accuracy of 95.18 ± 1.18%, followed by a corresponding weighted F1-score of 95.19 ± 1.18% and a macro F1-score of 94.66 ± 1.35%. Notably, the performance of the proposed complete ABMA framework considerably outperformed the baseline CNN-BiLSTM architecture. Furthermore, in the primary evaluation metrics (i.e., accuracy, F1-score), the complete framework showed statistically significant improvements against the baseline through paired two-sided t-tests (p < 0.001). The ablation study indicated that each architectural component contributed positively to the overall classification performance, with the complete ABMA framework outperforming all reduced variants. Conclusions: The framework was evaluated by stratified cross-validation on a publicly available dataset. Our framework outperformed the baseline CNN-BiLSTM model as well as the respective ablation models in terms of classification performance. The findings from the current study are based on a retrospective analysis and therefore future studies using an independent external dataset, from multiple centers, or as part of a prospective clinical study are necessary in order to establish the generalizability and clinical utility of the proposed framework. The ABMA framework is currently viewed as a very promising research framework for intelligent ECG analysis, but it is not yet a clinically validated diagnostic tool.",
+      "authors": [
+        "Manjur Kolhar",
+        "Raisa Nazir Ahmed Kazi"
+      ],
+      "published_on": "2026-07-28",
+      "doi": "10.3390/diagnostics16142274",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42510136/",
+      "doi_url": "https://doi.org/10.3390/diagnostics16142274"
     },
     {
       "pmid": "42505917",
@@ -271,44 +288,22 @@
       "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
     },
     {
-      "pmid": "42495069",
-      "title": "Artificial intelligence technology in aortic valve disease: a decade of scientometric and narrative review.",
-      "journal": "Frontiers in cardiovascular medicine",
-      "abstract": "BACKGROUND: Aortic valve disease, particularly aortic stenosis, poses a growing global health burden with aging populations. Artificial intelligence technology offers promising tools for diagnosis, risk stratification, and prognosis prediction, yet the knowledge structure of this interdisciplinary field remains unsystematically characterized.\n\nOBJECTIVE: This study aims to conduct a scientometric analysis to delineate the research landscape, identify hotspots, and trace evolutionary trends of AI technology applications in aortic valve disease over the past decade.\n\nMETHODS: We retrieved relevant literature published between January 2016 and January 2026 from the Web of Science Core Collection and Scopus databases. After screening, 270 eligible articles were included. CiteSpace and VOSviewer were employed to perform visualization analyses of authors, institutions, countries, journals, keywords, and co-citation networks.\n\nRESULTS: Annual publications increased steadily, with the United States leading in both output and influence. The Mayo Clinic emerged as the most prolific institution. Research hotspots focused on AI-assisted diagnosis, risk stratification, and prognosis prediction for aortic stenosis, primarily using deep learning and machine learning techniques. Keyword clustering revealed themes spanning disease diagnosis, therapeutic technologies, AI-enabled applications, and clinical outcomes. Co-citation analysis highlighted key studies on AI-enhanced electrocardiography and echocardiography for valve disease detection.\n\nCONCLUSIONS: AI technology research in aortic valve disease is advancing rapidly. Based on the keyword clustering and timeline analysis, we propose a conceptual mapping of AI techniques onto clinical phases. Future efforts should prioritize developing multimodal models, facilitating clinical integration, and enhancing patient lifecycle management.",
+      "pmid": "42510031",
+      "title": "Advances in the Interpretation of the Electrocardiogram by Artificial Intelligence.",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "abstract": "The electrocardiogram (ECG) is essential for cardiovascular diagnosis but limited by inter-observer variability, low sensitivity for subclinical disease, and labor-intensive telemonitoring analysis. Artificial intelligence (AI), particularly deep learning, addresses these constraints by extracting high-dimensional patterns that correlate with arrhythmias, structural abnormalities, and systemic conditions. This integrative review synthesizes recent advances in AI-enabled ECG, covering technical foundations-including foundation models and validation strategies-and clinical applications, such as arrhythmia detection, structural heart disease identification, and digital biomarker derivation. We discuss emerging trends like self-supervised learning, multimodal integration, generative models, and explainability techniques. Furthermore, we tackle critical challenges regarding generalizability, algorithmic bias, privacy, and regulatory systems. Finally, we outline research priorities, including curated open datasets, and deployment in resource-constrained settings. With stringent validation, transparent governance, and human-centered design, AI-ECG has the potential to enhance cardiovascular diagnostics and clinical outcomes across a variety of healthcare settings.",
       "authors": [
-        "Peng Hei",
-        "He Ren",
-        "Wenshuai Ma",
-        "Wei Fang",
-        "Yan Li"
+        "S Suave Lobodzinski",
+        "Ryszard Piotrowicz"
       ],
-      "published_on": "2026-07-24",
-      "doi": "10.3389/fcvm.2026.1843658",
-      "publication_types": [
-        "Journal Article",
-        "Systematic Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42495069/",
-      "doi_url": "https://doi.org/10.3389/fcvm.2026.1843658"
-    },
-    {
-      "pmid": "42425720",
-      "title": "AI-enhanced electrocardiography as a digital biomarker platform in cardiovascular medicine: clinical applications, validation gaps and future implementation pathways.",
-      "journal": "Open heart",
-      "abstract": "Artificial intelligence applied to the ECG is expanding the clinical role of this widely available diagnostic tool beyond conventional waveform interpretation by enabling identification of electrophysiological patterns associated with cardiovascular structure, function and risk. Within this evolving framework, the artificial intelligence enhanced ECG is emerging as a scalable digital biomarker platform supporting screening, diagnosis and prognostic stratification across the cardiovascular disease continuum.This narrative review synthesises current evidence on the clinical applications of artificial intelligence enhanced ECG, including detection of cardiac rhythm disorders, early identification of structural heart disease, decision support in acute coronary syndromes, prediction of clinical outcomes and population level cardiovascular screening using wearable technologies. Deep learning models applied to standard and simplified electrocardiographic recordings demonstrate strong diagnostic performance in identifying atrial fibrillation, left ventricular dysfunction, hypertrophic cardiomyopathy, cardiac amyloidosis and heart failure with preserved ejection fraction. These approaches also enable estimation of long-term cardiovascular risk from apparently normal tracings and support identification of disease patterns extending beyond overt cardiac conditions.Despite these advances, clinical implementation remains limited by the need for prospective multicentre validation, improved model interpretability, standardised evaluation strategies and integration into routine clinical workflows. This review highlights current validation gaps and outlines key opportunities for translation of artificial intelligence-enhanced ECG into digital cardiology practice.",
-      "authors": [
-        "Damiano Venturiello",
-        "Walter Vignaroli",
-        "Giuseppe Nasso"
-      ],
-      "published_on": "2026-07-10",
-      "doi": "10.1136/openhrt-2026-004211",
+      "published_on": "2026-07-28",
+      "doi": "10.3390/diagnostics16142167",
       "publication_types": [
         "Journal Article",
         "Review"
       ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42425720/",
-      "doi_url": "https://doi.org/10.1136/openhrt-2026-004211"
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42510031/",
+      "doi_url": "https://doi.org/10.3390/diagnostics16142167"
     }
   ],
   "error": null,
