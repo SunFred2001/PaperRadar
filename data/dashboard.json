@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-07-28T23:03:33.283152+00:00",
-    "last_success_at": "2026-07-28T23:03:34.025725+00:00",
+    "last_attempt_at": "2026-07-29T23:08:21.917492+00:00",
+    "last_success_at": "2026-07-29T23:08:22.893303+00:00",
     "count": 15,
     "papers": [
       {
@@ -123,6 +123,23 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
         "doi_url": "https://doi.org/10.1002/hsr2.72906"
+      },
+      {
+        "pmid": "42525678",
+        "title": "A lightweight hybrid framework integrating convolutional neural networks and fast Fourier transform for reliable and calibrated ECG-based cardiac abnormality detection.",
+        "journal": "PloS one",
+        "abstract": "The electrocardiogram (ECG) is an essential non-invasive tool for detecting cardiac abnormalities; however, accurate interpretation often requires specialized expertise that may be unavailable in resource-limited clinical settings. While deep learning models have demonstrated high classification performance, many existing architectures remain computationally intensive and lack assessments of predictive reliability, hindering their deployment in clinical decision support systems. In this study, we propose a lightweight hybrid framework integrating Convolutional Neural Networks (CNN) and Fast Fourier Transform (FFT) components. This architecture combines time-domain morphological representations learned from raw ECG signals with physiologically relevant spectral features to enable accurate and efficient classification. Unlike previous approaches, this work emphasizes reliable model evaluation by incorporating probability calibration and a rigorous patient-wise validation protocol. The proposed method was evaluated on the publicly available PTB-XL dataset using the official 10-fold cross-validation protocol for both binary and five-class multi-label classification. In addition to conventional discrimination metrics, model reliability was assessed using Expected Calibration Error (ECE). The model achieved an accuracy of 92.42% and an AUC of 97.8% for binary classification, alongside a macro-AUC of 92.46% for five- class multi-label classification. Calibration analysis demonstrated well-calibrated probability estimates with low ECE values. Despite its competitive performance, the architecture is highly efficient, containing only 87K parameters and 0.26 GFLOPs. These findings highlight the potential of lightweight hybrid architectures combined with calibration-aware evaluation to support reliable AI-assisted ECG diagnostics in resource-constrained healthcare settings.",
+        "authors": [
+          "Abdoul Malik",
+          "Selim Aras"
+        ],
+        "published_on": "2026-07-29",
+        "doi": "10.1371/journal.pone.0354834",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525678/",
+        "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
       },
       {
         "pmid": "42497361",
@@ -302,24 +319,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
         "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
-      },
-      {
-        "pmid": "42510031",
-        "title": "Advances in the Interpretation of the Electrocardiogram by Artificial Intelligence.",
-        "journal": "Diagnostics (Basel, Switzerland)",
-        "abstract": "The electrocardiogram (ECG) is essential for cardiovascular diagnosis but limited by inter-observer variability, low sensitivity for subclinical disease, and labor-intensive telemonitoring analysis. Artificial intelligence (AI), particularly deep learning, addresses these constraints by extracting high-dimensional patterns that correlate with arrhythmias, structural abnormalities, and systemic conditions. This integrative review synthesizes recent advances in AI-enabled ECG, covering technical foundations-including foundation models and validation strategies-and clinical applications, such as arrhythmia detection, structural heart disease identification, and digital biomarker derivation. We discuss emerging trends like self-supervised learning, multimodal integration, generative models, and explainability techniques. Furthermore, we tackle critical challenges regarding generalizability, algorithmic bias, privacy, and regulatory systems. Finally, we outline research priorities, including curated open datasets, and deployment in resource-constrained settings. With stringent validation, transparent governance, and human-centered design, AI-ECG has the potential to enhance cardiovascular diagnostics and clinical outcomes across a variety of healthcare settings.",
-        "authors": [
-          "S Suave Lobodzinski",
-          "Ryszard Piotrowicz"
-        ],
-        "published_on": "2026-07-28",
-        "doi": "10.3390/diagnostics16142167",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42510031/",
-        "doi_url": "https://doi.org/10.3390/diagnostics16142167"
       }
     ],
     "error": null,
@@ -332,6 +331,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-07-29T23:03:34.025725+00:00",
+  "next_refresh_at": "2026-07-30T23:08:22.893303+00:00",
   "next_push_at": null
 }
