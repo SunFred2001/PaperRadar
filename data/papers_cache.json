@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-29T23:08:21.917492+00:00",
-  "last_success_at": "2026-07-29T23:08:22.893303+00:00",
+  "last_attempt_at": "2026-07-31T00:06:00.148245+00:00",
+  "last_success_at": "2026-07-31T00:06:00.874267+00:00",
   "count": 15,
   "papers": [
     {
@@ -107,6 +107,32 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
       "doi_url": "https://doi.org/10.1002/hsr2.72906"
+    },
+    {
+      "pmid": "42531152",
+      "title": "A Novel Convolutional Neural Network-Based Algorithm for Heart Rate Measurement From Ballistocardiography Signals in Diverse Clinical Settings: Observational Study.",
+      "journal": "JMIR cardio",
+      "abstract": "BACKGROUND: Continuous vital sign monitoring ensures early detection, prevents intensive care unit (ICU) admissions, and improves patient outcomes. Continuous heart rate (HR) monitoring methods often require direct skin contact, which can lead to patient discomfort. The rising popularity of ballistocardiography (BCG) offers a promising, noncontact solution for continuous vital sign monitoring with improved patient comfort.\n\nOBJECTIVE: This study aims to develop and validate a novel HR measurement algorithm leveraging convolutional neural networks (CNNs) and BCG signals for accurate, noncontact, and continuous HR monitoring. By integrating time-domain peak detection with short-time Fourier transform and CNN models, the proposed approach seeks to enhance HR measurement accuracy across diverse health care settings. The study follows the Food and Drug Administration (FDA)'s Good Machine Learning Practice guidelines and evaluates the algorithm's robustness, generalizability, and clinical applicability through extensive testing on a diverse dataset, ensuring improved patient comfort and early detection of clinical deterioration.\n\nMETHODS: The proposed algorithm combines time-domain peak detection with short-time Fourier transform and CNNs to enhance HR measurement from BCG signals. The CNN model developed was trained on 129,976 data points from 373 participants (HR range: 36-230 bpm), including ICU patients, and was tuned on 75,970 data points from 192 participants (HR range: 46-169 bpm), with HR obtained from clinical-grade electrocardiography devices to improve generalizability. The algorithm was tested on 70,211 data points from 205 participants, including ICU patients, across 5 independent studies to demonstrate robust performance against diverse settings, demographics, and comorbidities. The methodology is in compliance with the FDA's Good Machine Learning Practice for Medical Device Development: Guiding Principles.\n\nRESULTS: The algorithm achieved a mean absolute error of under 3 bpm and a detection rate exceeding 80%, underscoring its robustness. The Bland-Altman analysis indicates high accuracy with a minimal bias of 0.25 and limits of agreement within 8.59 bpm. Additionally, the Pearson correlation coefficient of 0.97 from the Deming regression further demonstrates strong alignment with reference HR measurements, reinforcing its precision and reliability for clinical applications.\n\nCONCLUSIONS: This CNN-based algorithm presents a robust solution for contactless HR monitoring, addressing the limitations of prior methods in noise management and adaptability. Its demonstrated accuracy, particularly in real-world, noisy clinical environments, highlights its potential for broad application in patient monitoring and improved comfort.",
+      "authors": [
+        "Kumar Chokalingam",
+        "Muthukumarasamy Saravanan",
+        "Ashish Kaushal",
+        "Srishti Rao",
+        "Inam Ur Rahman",
+        "Ashwathi Nambiar",
+        "Mudit Dandwate",
+        "Ravi Mahajan",
+        "Kunal Sarkar",
+        "Gaurav Parchani"
+      ],
+      "published_on": "2026-07-30",
+      "doi": "10.2196/71224",
+      "publication_types": [
+        "Journal Article",
+        "Observational Study"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42531152/",
+      "doi_url": "https://doi.org/10.2196/71224"
     },
     {
       "pmid": "42525678",
@@ -283,26 +309,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42456763/",
       "doi_url": "https://doi.org/10.1088/1361-6579/ae8b71"
-    },
-    {
-      "pmid": "42443114",
-      "title": "Deep-learning based electroencephalogram denoising: A literature review.",
-      "journal": "Journal of neural engineering",
-      "abstract": "Electroencephalography (EEG) is a pivotal tool for exploring brain functions. However, the low amplitude of EEG signals renders them inherently susceptible to contamination from diverse physiological and environmental artifacts, including electromyogram artifacts, electrocardiogram interference, and electrical noise from power lines. These contaminants significantly hinder the analysis and interpretation of EEG data, posing substantial challenges for signal processing. Recently, deep learning paradigms have catalyzed significant progress in EEG denoising, with many studies reporting competitive reconstruction fidelity and artifact suppression in benchmarked settings. Despite this progress, there remains a notable gap in the literature regarding comprehensive reviews of deep learning-based EEG denoising strategies. To bridge this gap, we use the end-to-end denoising pipeline as an analytical framework, examining how data/target construction, input representation, modular architecture, objective design, and evaluation strategies influence model assumptions, the interpretation of model performance, and practical utility. We further discuss selective and multi-task denoising strategies, downstream validation, and model deployment as key issues for translating reconstruction performance into usable EEG applications. Finally, we identify future research directions aimed at developing more reliable, interpretable, and practically useful EEG denoising systems, thereby enhancing the utility of EEG technologies in broader applications.",
-      "authors": [
-        "Le Wu",
-        "Aiping Liu",
-        "Jane Wang",
-        "Rabab K Ward",
-        "Xun Chen"
-      ],
-      "published_on": "2026-07-14",
-      "doi": "10.1088/1741-2552/ae89e6",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
-      "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
     }
   ],
   "error": null,
