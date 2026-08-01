@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-07-31T00:06:00.148245+00:00",
-  "last_success_at": "2026-07-31T00:06:00.874267+00:00",
+  "last_attempt_at": "2026-08-01T03:25:01.404411+00:00",
+  "last_success_at": "2026-08-01T03:25:01.791795+00:00",
   "count": 15,
   "papers": [
     {
@@ -107,6 +107,41 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
       "doi_url": "https://doi.org/10.1002/hsr2.72906"
+    },
+    {
+      "pmid": "41882308",
+      "title": "Emotion detection unveiled: A cognitive-computational synthesis of physiological models, machine learning, and datasets.",
+      "journal": "Cognitive, affective & behavioral neuroscience",
+      "abstract": "This comprehensive survey synthesizes state-of-the-art advancements in emotion recognition based on physiological signals, specifically focusing on the paradigm shift occurring between 2021 and 2025. Crucially, we move beyond a technical review by establishing a novel Cognitive-Computational Synthesis Framework (CCSF). This framework explicitly maps multimodal physiological manifestations (e.g., electroencephalogram (EEG), electrocardiogram (ECG), and galvanic skin response (GSR)) to underlying cognitive processes, such as attentional allocation, arousal regulation, and perceptual bias, providing a theoretical foundation for explainable AI (XAI) in affective computing. We meticulously examine the transition from traditional machine learning to advanced deep learning architectures, highlighting how recent innovations in Transformers, self-supervised learning, and diffusion models have shattered previous performance plateaus. While earlier dimensional models were often limited to 70-75% accuracy, this survey details how modern architectures now achieve benchmarks exceeding 95% on seminal datasets like SEED and DREAMER. Furthermore, the survey provides a rigorous analysis of 40 key studies (identified via PRISMA protocols), evaluating them based on their validation strategies, cross-subject generalizability, and adversarial robustness. By bridging the gap between raw physiological data and cognitive theory, this work offers a strategic roadmap for the next generation of robust, interpretable, and real-time emotion recognition systems.",
+      "authors": [
+        "Vilas Machhi",
+        "Apurva Shah"
+      ],
+      "published_on": "2026-03-26",
+      "doi": "10.3758/s13415-026-01418-0",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41882308/",
+      "doi_url": "https://doi.org/10.3758/s13415-026-01418-0"
+    },
+    {
+      "pmid": "42537049",
+      "title": "A deep learning framework for multi-lead ECG arrhythmia classification with CAM interpretability and LLM-driven clinical guidance.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "Cardiac arrhythmias remain a major cause of morbidity and mortality, requiring accurate and interpretable automated diagnosis. This reserach presents a lightweight deep learning framework for multi-lead ECG arrhythmia classification. A Winograd-scaled 1D MobileNet efficiently extracts discriminative features, while the Lead-aware Skip Weighting Residual ConvNeXt Attention with Builder Optimizer (LSW-RCABO) enhances classification through adaptive residual weighting and lead-aware attention. Grad-CAM provides visual explanations by highlighting waveform regions, and BioGPT generates patient-specific clinical recommendations using classification results and metadata. Experimental evaluation on the MIT-BIH, 12-lead ECG, and PhysioNet 2020 datasets demonstrates superior performance, achieving classification accuracies of 99.98%, 99.98%, and 99.97%, respectively.",
+      "authors": [
+        "P Kavitha",
+        "L Shakkeera"
+      ],
+      "published_on": "2026-07-31",
+      "doi": "10.1080/10255842.2026.2706742",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537049/",
+      "doi_url": "https://doi.org/10.1080/10255842.2026.2706742"
     },
     {
       "pmid": "42531152",
@@ -275,40 +310,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42467161/",
       "doi_url": "https://doi.org/10.1007/s11517-026-03631-y"
-    },
-    {
-      "pmid": "42497537",
-      "title": "Dendritic functional heterogeneity with feedback control facilitates stable spatiotemporal representation in spiking neural networks.",
-      "journal": "Neural networks : the official journal of the International Neural Network Society",
-      "abstract": "Stable and accurate spatiotemporal representation is crucial for spiking neural networks (SNNs) to perform well in modeling long sequences. Existing single-compartment models struggle to capture long-term dependencies, while multi-compartment models often neglect the functional complementarity and predictive interactions among dendritic subunits. Both models limit the spatiotemporal representation capacity of SNNs. To overcome these limitations, we propose the Dendritic Feedback Adaptive Leaky Integrate-and-Fire (DF-ALIF) neuron model, which combines dendritic functional heterogeneity with feedback control within a predictive coding framework. Basal compartments of DF-ALIF receive feedforward and recurrent inputs, encoding bottom-up prediction errors via a local excitatory and inhibitory balance mechanism that drives feature detection and pattern reconstruction. In contrast, the apical compartment carries top-down feedback predictions and dynamically modulates the somatic firing threshold via a mismatch mechanism to calibrate neural activity. The synergistic interaction between these compartments mitigates the temporal credit assignment problem and enhances the spatiotemporal representation capabilities of SNNs. On benchmarks including electrocardiogram classification, radar and neuromorphic event-based gesture recognition, image classification, and speech recognition, DF-ALIF demonstrates improved classification accuracy, stable convergence, and enhanced robustness to temporal perturbations. Our work demonstrates a feasible approach to embedding dendritic functional heterogeneity in SNNs and offers a fresh perspective on the design of neuromorphic computing systems.",
-      "authors": [
-        "Qiulin Li",
-        "Junsong Wang",
-        "Jianfang Wu"
-      ],
-      "published_on": "2026-07-25",
-      "doi": "10.1016/j.neunet.2026.109395",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497537/",
-      "doi_url": "https://doi.org/10.1016/j.neunet.2026.109395"
-    },
-    {
-      "pmid": "42456763",
-      "title": "Automated analysis of wearable ECG: machine learning methods, preprocessing pipelines, and benchmark datasets.",
-      "journal": "Physiological measurement",
-      "abstract": "Wearable and mobile electrocardiography (ECG) has rapidly expanded access to rhythm monitoring outside of clinical settings, but the single-or few-lead nature of these recordings and their susceptibility to motion artefacts complicate clinical-grade interpretation. This review synthesises recent machine learning (ML) approaches for wearable ECG across three problem domains -signal-quality assessment (SQA), single-lead interpretation, and multi-lead interpretation -covering preprocessing pipelines, quality handling strategies, and 18 benchmark datasets. Across studies, no single architectural paradigm consistently outperforms others when evaluated fairly: classical feature-based methods remain competitive for rhythm tasks under resource constraints, while deep discriminative models show stronger cross-database generalisation when training data are sufficient. The most consistent predictor of reported performance is dataset characteristics -particularly scale, demographic composition, and whether signals were acquired from wearable devices in free-living conditions -rather than architectural choice. Three recurring evaluation deficiencies are identified: subject-level data leakage inflating classification metrics, SQA performance reported without acceptance rates, and reconstructed ECG leads validated by waveform similarity alone without downstream diagnostic concordance. A structured comparative summary of all reviewed methods is provided. The analysis clarifies that future progress depends primarily on evaluation rigour, representative datasets, and reproducible preprocessing rather than on architectural novelty alone.",
-      "authors": [
-        "Bartosz Puszkarski"
-      ],
-      "published_on": "2026-07-16",
-      "doi": "10.1088/1361-6579/ae8b71",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42456763/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/ae8b71"
     }
   ],
   "error": null,
