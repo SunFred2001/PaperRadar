@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-01T03:25:01.404411+00:00",
-  "last_success_at": "2026-08-01T03:25:01.791795+00:00",
+  "last_attempt_at": "2026-08-02T06:37:24.650946+00:00",
+  "last_success_at": "2026-08-02T06:37:25.016529+00:00",
   "count": 15,
   "papers": [
     {
@@ -187,6 +187,27 @@
       "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
     },
     {
+      "pmid": "42537358",
+      "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
+      "authors": [
+        "Songping Li",
+        "Gan Luo",
+        "Lixue Zhou",
+        "Yifei Zhang",
+        "Liupeng Ma",
+        "Chuanlai Wang"
+      ],
+      "published_on": "2026-08-01",
+      "doi": "10.1016/j.cmpb.2026.109564",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
+    },
+    {
       "pmid": "42497361",
       "title": "R-R Interval Histogram-Based Deep Learning for 3-Class Atrial Fibrillation Screening in Garment-Type Wearable Holter Electrocardiogram Monitoring: Algorithm Development and Validation Study.",
       "journal": "JMIR medical informatics",
@@ -291,25 +312,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42477001/",
       "doi_url": "https://doi.org/10.1038/s41598-026-56111-6"
-    },
-    {
-      "pmid": "42467161",
-      "title": "Multimodal graph learning for chagas disease classification.",
-      "journal": "Medical & biological engineering & computing",
-      "abstract": "The accurate classification of Chagas disease stages based on Trypanosoma cruzi infection in experimental models faces challenges due to the scarcity of data and the high dimensionality of diagnostic sources. This study proposes an architecture based on Graph Attention Networks on fully connected graphs to combine multimodal features (Electrocardiogram, Echocardiogram, Doppler, and ELISA). A Variational Graph Autoencoder was used to implement a data augmentation strategy that reduces overfitting and optimizes generalization, producing synthetic subjects with a biological covariance structure. The results demonstrate that the proposed methodology is effective compared to state-of-the-art classifiers, achieving an AUROC of 100% in the identification of infection stage through multimodal fusion and significantly optimizing performance in complex modalities such as Doppler. The pathophysiological consistency of the model's decisions was also validated using an interpretability scheme (GNNExplainer), which allowed the detection of important clinical features and established GATs as a robust method in the classification of Trypanosoma cruzi infection stages.",
-      "authors": [
-        "Gabriel Carcedo-Rodríguez",
-        "Erik Molino-Minero-Re",
-        "Jorge Perez-Gonzalez",
-        "Nidiyare Hevia-Montiel"
-      ],
-      "published_on": "2026-07-17",
-      "doi": "10.1007/s11517-026-03631-y",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42467161/",
-      "doi_url": "https://doi.org/10.1007/s11517-026-03631-y"
     }
   ],
   "error": null,
