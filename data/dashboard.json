@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-02T06:37:24.650946+00:00",
-    "last_success_at": "2026-08-02T06:37:25.016529+00:00",
+    "last_attempt_at": "2026-08-03T07:32:36.881426+00:00",
+    "last_success_at": "2026-08-03T07:32:37.811021+00:00",
     "count": 15,
     "papers": [
       {
@@ -250,6 +250,35 @@
         "doi_url": "https://doi.org/10.2196/91960"
       },
       {
+        "pmid": "42542843",
+        "title": "Integrating AI-Driven Diagnostics in Arrhythmia Care to Enhance Patient Outcomes: A Narrative Review.",
+        "journal": "Cureus",
+        "abstract": "International morbidity and mortality are led by cardiovascular disease, specifically arrhythmias. The integration of artificial intelligence (AI) can promote earlier identification and, therefore, provide personalized clinical judgments sooner, which can avert these consequences. AI is mainly used in diagnostics, prognostics, and decision support through test interpretations (electrocardiographs (ECGs) and MRI scans) and computing hidden characteristics to utilize a personalized plan rather than a population-based one. While such technology is available in hospitals, some functions are also being integrated into smart wearable devices. These wearable devices allow for continuous monitoring rather than limiting it to in-hospital settings, thus making it easier to enable an earlier diagnosis. However, certain arrhythmias, such as asymptomatic arrhythmias, can go unnoticed by AI. Additionally, there are questions regarding data transparency, privacy, and the financial burden of utilizing and managing AI in medical settings.",
+        "authors": [
+          "Mustafa Abrar Zaman",
+          "Kuragamage Dona Prabuddhi Thiloka Kuragama",
+          "Aseel Aljeshi",
+          "Mikhail Johnson",
+          "Jyothsnaa Sathish",
+          "Kush J Kanjia",
+          "Adhved Krishnan",
+          "Ronaldo Sabbagh",
+          "Aliea N Ramjag",
+          "Rayan Rezaei",
+          "Sweety Akter",
+          "Fariha Abdullah",
+          "Numan Baydemir"
+        ],
+        "published_on": "2026-08-02",
+        "doi": "10.7759/cureus.113138",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542843/",
+        "doi_url": "https://doi.org/10.7759/cureus.113138"
+      },
+      {
         "pmid": "42510136",
         "title": "ABMA: An Attention-Based Morphology-Aware Framework for Automated 12-Lead ECG Arrhythmia Classification.",
         "journal": "Diagnostics (Basel, Switzerland)",
@@ -308,26 +337,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
         "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
-      },
-      {
-        "pmid": "42477001",
-        "title": "Deep learning for multimodal physiological signal based assessment of sleep disordered breathing.",
-        "journal": "Scientific reports",
-        "abstract": "Sleep disordered breathing (SDB) is commonly assessed using polysomnography (PSG), which records multiple physiological signals during sleep. Accurate automated assessment of SDB related breathing abnormalities remains challenging because respiratory events occur within complex and stage dependent sleep dynamics. To address this problem, this study proposes a multimodal physiological signal based deep learning framework for SDB oriented sleep assessment. The proposed framework treats SDB related respiratory event detection as the clinically targeted task and incorporates sleep stage classification as an auxiliary contextual task to enhance temporal interpretation of physiological abnormalities. The framework combines a Sleep Pattern Recognition Network (SPRNet) with an Integrated Diagnostic Strategy for Sleep Assessment (IDSSA). SPRNet integrates electroencephalography (EEG), electrocardiography (ECG), electrooculography (EOG), electromyography (EMG), and respiratory airflow signals through modality specific feature extraction, followed by BiLSTM and attention based temporal modeling. IDSSA further incorporates domain informed sleep transition priors, probabilistic reasoning, and multi objective optimization to improve temporal consistency and robustness under noisy physiological recordings. Sleep stage classification is evaluated on both Sleep EDF and SHHS, while SDB related respiratory event detection is evaluated on SHHS, which provides respiratory event annotations. Experimental results show that the proposed framework achieves competitive performance compared with conventional machine learning and deep learning baselines. These findings indicate that multimodal physiological signal integration and temporally informed joint modeling can provide effective decision support for automated assessment of SDB related respiratory abnormalities. The proposed system is intended for automated screening and assessment support rather than as a replacement for clinical diagnosis by sleep specialists.",
-        "authors": [
-          "Nan Zhang",
-          "Fangqin Wang",
-          "Wenjie Sui",
-          "Miaohong Huang",
-          "Yuening Li"
-        ],
-        "published_on": "2026-07-21",
-        "doi": "10.1038/s41598-026-56111-6",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42477001/",
-        "doi_url": "https://doi.org/10.1038/s41598-026-56111-6"
       }
     ],
     "error": null,
@@ -340,6 +349,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-03T06:37:25.016529+00:00",
+  "next_refresh_at": "2026-08-04T07:32:37.811021+00:00",
   "next_push_at": null
 }
