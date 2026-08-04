@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-03T07:32:36.881426+00:00",
-    "last_success_at": "2026-08-03T07:32:37.811021+00:00",
+    "last_attempt_at": "2026-08-04T08:45:05.422440+00:00",
+    "last_success_at": "2026-08-04T08:45:06.457201+00:00",
     "count": 15,
     "papers": [
       {
@@ -101,6 +101,24 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42546764",
+        "title": "Efficient ECG Representation Learning via Intervention-Based Attribution Alignment.",
+        "journal": "Physiological measurement",
+        "abstract": "The widespread adoption of wearable ECG devices has driven an explosive growth of long-term, multi-lead ECG data. However, clinical analysis and model development remain constrained by the excessive cost of data annotation, a limitation particularly pronounced in conventional deep learning methods that rely on labeled information. &#xD;Approach. To address the problem of label scarcity in wearable ECG measurement scenarios, this paper proposes a self-supervised learning method for ECG based on intervention-based attribution alignment, aiming to improve the model's analytical performance on sparsely labeled ECG signals using unlabeled data. Our method integrates an intervention-inspired operation into the contrastive learning framework: it extracts compact representations from unlabeled data on one hand, and employs feature intervention to learn view-invariant mechanisms on the other, thereby reducing dependency on labeled data for target tasks. &#xD;Main results. Experimental results on four public ECG datasets demonstrate that the proposed method achieves performance on par with state-of-the-art approaches in typical tasks such as arrhythmia classification, while utilizing only a fraction of the annotated samples. &#xD;Significance. The findings indicate that our method effectively accommodates the multi-scenario monitoring characteristics of wearable devices, offering a practical solution to alleviate ECG data annotation burdens and advance the efficient analysis of long-term ECG signals.",
+        "authors": [
+          "Hongpo Zhang",
+          "Jiaang Li",
+          "Yuheng Li"
+        ],
+        "published_on": "2026-08-04",
+        "doi": "10.1088/1361-6579/ae9450",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546764/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
       },
       {
         "pmid": "42504240",
@@ -224,6 +242,24 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       },
       {
+        "pmid": "42544099",
+        "title": "The role of artificial intelligence in the diagnosis of pericardial constriction.",
+        "journal": "Current opinion in cardiology",
+        "abstract": "PURPOSE OF REVIEW: Constrictive pericarditis is a complex disease whose distinction from clinical mimickers remains challenging yet critically important. Diagnosis frequently requires integration of findings across multiple imaging modalities. Artificial intelligence (AI) applications in cardiac imaging are rapidly evolving and may play an increasingly important role in the diagnosis of constrictive pericarditis.\n\nRECENT FINDINGS: Most established evidence supporting AI in diagnosis of constrictive pericarditis involves machine learning and deep learning applied to echocardiography, particularly for differentiating constrictive pericarditis from restrictive cardiomyopathy. Newer approaches incorporate multiple echocardiographic views and emphasize model generalizability. Emerging applications span cardiac computed tomography (CT)-for automated pericardial thickening and calcification quantification-large language models (LLMs) in cardiac magnetic resonance interpretation, and deep learning electrocardiogram analysis.\n\nSUMMARY: Applications of AI for diagnosis of constrictive pericarditis are being studied across multiple imaging modalities, but remain in early stages of development. Emerging AI concepts, including multimodal LLMs and foundation models leveraging transfer learning, show promise for further advances and eventual meaningful implementation. Cardiac CT, though underrepresented in the current AI literature for constrictive pericarditis, represents an important target for future investigation given its established role in surgical planning.",
+        "authors": [
+          "Kevin Lipat",
+          "Tyler Booth",
+          "Partho P Sengupta"
+        ],
+        "published_on": "2026-08-03",
+        "doi": "10.1097/HCO.0000000000001325",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
+        "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
         "pmid": "42497361",
         "title": "R-R Interval Histogram-Based Deep Learning for 3-Class Atrial Fibrillation Screening in Garment-Type Wearable Holter Electrocardiogram Monitoring: Algorithm Development and Validation Study.",
         "journal": "JMIR medical informatics",
@@ -294,49 +330,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42510136/",
         "doi_url": "https://doi.org/10.3390/diagnostics16142274"
-      },
-      {
-        "pmid": "42505917",
-        "title": "An Artificial Intelligence Model for ECG-Based Prediction of Heart Failure with Preserved Ejection Fraction Diagnosis.",
-        "journal": "Journal of cardiovascular development and disease",
-        "abstract": "BACKGROUND: Heart failure with preserved ejection fraction (HFpEF) accounts for over half of all heart failure (HF) cases and remains diagnostically challenging due to nonspecific symptoms and a lack of accessible noninvasive screening tools, leading to widespread underdiagnosis and delayed treatment. The electrocardiogram (ECG) is a low-cost, widely available tool that reflects myocardial electrical remodeling. We previously developed and externally validated an ECG-based artificial intelligence (ECG-AI) model capable of classifying ECGs into four categories: reduced ejection fraction (rEF), mid-range ejection fraction (mEF), HFpEF, and controls. In this study, we evaluate the ability of this ECG-AI model to predict future HFpEF diagnosis using real-world data from a large integrated health system.\n\nMETHODS: We applied the validated ECG-AI model to an independent cohort of 7713 patients from Wake Forest Baptist Health (WFBH), using one ECG per patient recorded before the clinical diagnosis of HFpEF. Model discrimination was evaluated across multiple prediction windows from six months up to ten years before diagnosis using the area under the receiver operating characteristic curve (AUC), with comparisons performed using DeLong's test. Performance was also compared head-to-head with the H2FPEF score, a validated clinical score for HFpEF, in the subset of patients with complete data for score calculation. ECG-AI outputs were stratified into quartiles and evaluated using Kaplan-Meier survival analysis and multivariable Cox proportional hazards regression adjusted for demographics and major comorbidities.\n\nRESULTS: Of the 7713 patients, 283 (3.7%) were subsequently diagnosed with HFpEF. The ECG-AI model achieved an AUC of 0.79 (95% CI, 0.72-0.86) using ECGs recorded within six months before diagnosis. Discrimination remained stable across prediction windows extending up to ten years before diagnosis (AUC range, 0.78-0.80; all DeLong p > 0.01 vs. the six-month window). Compared with the H2FPEF score, ECG-AI demonstrated superior discrimination, improving the AUC by 0.06-0.07 across the evaluated prediction windows. Patients in the highest ECG-AI risk quartile had an unadjusted hazard ratio (HR) of 11.18 (95% CI, 7.27-17.21; C-index, 0.75) and an adjusted HR of 6.60 (95% CI, 4.24-10.28; C-index, 0.82). Adding clinical covariates to ECG-AI improved the C-index by 0.07 and 0.09 for the five- and ten-year prediction windows, respectively.\n\nCONCLUSIONS: An independently validated ECG-AI model predicted incident HFpEF up to ten years before clinical diagnosis and outperformed the H2FPEF score using ECG alone, indicating that ECG-derived signatures precede clinical recognition of the syndrome. ECG-AI shows promise as a prognostic, risk-stratification tool to prioritize further evaluation; prospective validation and single-lead assessment are needed before screening or wearable deployment.",
-        "authors": [
-          "Ibrahim Karabayir",
-          "Shekhar Singh",
-          "Tolga Hayit",
-          "Elsayed Z Soliman",
-          "Dalane W Kitzman",
-          "David M Herrington",
-          "Barry A Borlaug",
-          "Robert L Davis",
-          "Sanjiv Shah",
-          "Oguz Akbilgic"
-        ],
-        "published_on": "2026-07-27",
-        "doi": "10.3390/jcdd13070340",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42505917/",
-        "doi_url": "https://doi.org/10.3390/jcdd13070340"
-      },
-      {
-        "pmid": "42480127",
-        "title": "Morphology-preserving transfer-guided GAN with adaptive discriminative loss for robust and imbalanced ECG arrhythmia detection.",
-        "journal": "Computers in biology and medicine",
-        "abstract": "Electrocardiogram (ECG) based arrhythmia detection remains challenging due to severe class imbalance, morphological variability, and noise commonly present in wearable monitoring environments. Traditional augmentation techniques often distort clinically meaningful waveform characteristics, while deep learning classifiers typically underperform on minority arrhythmia categories. This study proposes a unified morphology-preserving framework that integrates a Transfer-Guided Multi-Stage Generative Adversarial Network (TG-MS-GAN), an EfficientNetV2-S classifier, and an adaptive discriminative loss to enhance minority-class representation and improve overall diagnostic robustness. The TG-MS-GAN progressively reconstructs ECG beats across multi-resolution stages, synthesizing high-fidelity minority-class waveforms that preserve P-wave integrity, QRS morphology, and ST-segment structure. A transfer-guidance mechanism introduces physiological priors into early-stage generators, stabilizing convergence under extreme sample scarcity. EfficientNetV2-S serves as a lightweight yet expressive backbone capable of capturing fine-grained temporal features with low computational cost, making the method suitable for real-time wearable deployment. An adaptive hybrid loss combining weighted cross-entropy, center loss, and difficulty-based focusing improves inter-class separability and stabilizes optimization under severe imbalance. Experimental results demonstrate consistent performance across different ECG classification tasks, achieving accuracies of 99.1%, 97.6%, 91.4%, and 99.0% on the MIT-BIH, Chapman-Shaoxing, PTB-XL, and Fetal ECG datasets, respectively. The corresponding Macro-F1 scores reach 0.987, 0.962, 0.839, and 0.989, while the AUPRC values attain 0.989, 0.891, 0.846, and 0.991, respectively. These results indicate that the proposed framework effectively addresses class imbalance while maintaining robust classification performance across heterogeneous ECG datasets. The source code is available at https://github.com/phdmajidsepahvand/TG-MS-GAN-ECG.",
-        "authors": [
-          "Majid Sepahvand",
-          "Beneen Dourgham Karim Al-Harizi",
-          "Maytham N Meqdad"
-        ],
-        "published_on": "2026-07-21",
-        "doi": "10.1016/j.compbiomed.2026.111862",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
-        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
       }
     ],
     "error": null,
@@ -349,6 +342,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-04T07:32:37.811021+00:00",
+  "next_refresh_at": "2026-08-05T08:45:06.457201+00:00",
   "next_push_at": null
 }
