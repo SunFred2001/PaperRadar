@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-04T08:45:05.422440+00:00",
-  "last_success_at": "2026-08-04T08:45:06.457201+00:00",
+  "last_attempt_at": "2026-08-05T10:40:46.096274+00:00",
+  "last_success_at": "2026-08-05T10:40:47.110080+00:00",
   "count": 15,
   "papers": [
     {
@@ -85,6 +85,37 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42551688",
+      "title": "Sampling Frequency Has Architecture-Dependent Effects on ECG Deep Learning Classification: CNNs Are Robust, Transformers Benefit Modestly.",
+      "journal": "Heart rhythm",
+      "abstract": "BACKGROUND: Electrocardiograms are deployed across a wide range of environments and frequently operate at varying sampling frequencies, directly influencing bandwidth consumption, storage demands, and battery life.\n\nOBJECTIVE: This study aims to evaluate the impact of ECG sampling frequency on both classification performance and computational cost across convolutional neural network (CNN) and Patch Transformer architectures.\n\nMETHODS: Using the PTB-XL dataset, 15,000 eligible 12-lead ECGs were analyzed at 100, 300, and 500 Hz. A CNN and a Patch Transformer were trained for multilabel classification of five diagnostic superclasses: normal, myocardial infarction, ST/T-wave change, conduction disturbance, and hypertrophy. Performance was assessed along with training time, memory use, and inference latency.\n\nRESULTS: CNN performance was relatively stable across sampling frequencies, with macro ROC-AUC values of 0.895, 0.886, and 0.881 at 100, 300, and 500 Hz, respectively. In contrast, the Patch Transformer showed modest improvement with increasing frequency, with macro ROC-AUC increasing from 0.856 at 100 Hz to 0.864 at 300 Hz and 0.877 at 500 Hz. Higher sampling frequencies increased computational cost for both architectures, with longer training times, greater memory use, and slower inference. Sensitivity and learning-curve analyses supported architecture-dependent trends across the tested configurations.\n\nCONCLUSION: ECG sampling frequency had modest, architecture-dependent effects on deep learning classification performance. CNNs were robust across 100-500 Hz, whereas the Patch Transformer benefited incrementally from higher temporal resolution at greater computational cost. These findings support a task- and architecture-aware approach to ECG acquisition in resource-constrained settings.",
+      "authors": [
+        "Cole Freedman",
+        "Syed Zawahir Hassan",
+        "Maximo Alvarez",
+        "Peter Elhajj",
+        "Paul Kim",
+        "Sun Kyeong Park",
+        "Chanhyun Park",
+        "Sameer Hirji",
+        "Joshua C Grimm",
+        "Saraschandra Vallabhajosyula",
+        "Michael Nanna",
+        "Alexis Okoh",
+        "Ozan Unlu",
+        "Peter Pantlin",
+        "Arnold Fenrich",
+        "Mauricio Hong"
+      ],
+      "published_on": "2026-08-05",
+      "doi": "10.1016/j.hrthm.2026.07.045",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42551688/",
+      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.07.045"
     },
     {
       "pmid": "42546764",
@@ -297,23 +328,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542843/",
       "doi_url": "https://doi.org/10.7759/cureus.113138"
-    },
-    {
-      "pmid": "42510136",
-      "title": "ABMA: An Attention-Based Morphology-Aware Framework for Automated 12-Lead ECG Arrhythmia Classification.",
-      "journal": "Diagnostics (Basel, Switzerland)",
-      "abstract": "Background: Cardiovascular diseases (CVDs) are among the leading causes of death globally. In order to treat CVDs successfully in the early stages, it is crucial to diagnose them in time. The ECG is one of the most common and non-invasive methods to detect heart rhythms and to diagnose arrhythmias. However, the analysis of ECG recordings manually requires a lot of time and experience because the morphology of ECG signals and the characteristics of their waveforms are very complex and show large overlaps between different types of arrhythmias. So far, various approaches for automated analysis of ECG signals have been developed, mostly based on deep learning (DL). In general, these methods are able to analyze ECG signals automatically and to detect different types of arrhythmias. Most approaches, however, are based on a purely data-driven feature learning and do not pay attention to the morphology-sensitive temporal structure of ECG signals, which is important for a discriminative diagnosis of arrhythmias. Methods: In this paper, we propose an Attention-Based Morphology-Aware (ABMA) framework to leverage multilead ECG signals in conjunction with automatically computed physiological features using a hybrid deep learning architecture. ABMA leverages multi-scale convolutional neural networks to learn local morphology features, and bidirectional long short-term memory (BiLSTM) networks to model temporal rhythms in ECG signals. We designed an ABMA module that incorporates a morphology scoring network (MSN) in order to (1) estimate the morphology-aware importance of different ECG segments and (2) learn the temporal importance of ECG features. The learned attention weights enable learning to focus on key sections of ECG signals without predefined boundaries or manual annotation of fiducial points. To understand the contribution of each individual component of the framework, we performed an extensive ablation study, where we removed the handcrafted feature branch, the ABMA module, the MSN, and the multi-head attention mechanism, one at a time, and compared the results against a fixed set of experimental configurations. Results: To assess the performance of the proposed framework in three-class classification between sinus rhythm (SA), atrial fibrillation (AFIB), and ventricular tachycardia (VT), we employed a stratified 10-fold cross-validation protocol. Our approach achieved a mean accuracy of 95.18 ± 1.18%, followed by a corresponding weighted F1-score of 95.19 ± 1.18% and a macro F1-score of 94.66 ± 1.35%. Notably, the performance of the proposed complete ABMA framework considerably outperformed the baseline CNN-BiLSTM architecture. Furthermore, in the primary evaluation metrics (i.e., accuracy, F1-score), the complete framework showed statistically significant improvements against the baseline through paired two-sided t-tests (p < 0.001). The ablation study indicated that each architectural component contributed positively to the overall classification performance, with the complete ABMA framework outperforming all reduced variants. Conclusions: The framework was evaluated by stratified cross-validation on a publicly available dataset. Our framework outperformed the baseline CNN-BiLSTM model as well as the respective ablation models in terms of classification performance. The findings from the current study are based on a retrospective analysis and therefore future studies using an independent external dataset, from multiple centers, or as part of a prospective clinical study are necessary in order to establish the generalizability and clinical utility of the proposed framework. The ABMA framework is currently viewed as a very promising research framework for intelligent ECG analysis, but it is not yet a clinically validated diagnostic tool.",
-      "authors": [
-        "Manjur Kolhar",
-        "Raisa Nazir Ahmed Kazi"
-      ],
-      "published_on": "2026-07-28",
-      "doi": "10.3390/diagnostics16142274",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42510136/",
-      "doi_url": "https://doi.org/10.3390/diagnostics16142274"
     }
   ],
   "error": null,
