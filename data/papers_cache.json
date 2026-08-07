@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-06T10:43:26.240826+00:00",
-  "last_success_at": "2026-08-06T10:43:27.024822+00:00",
+  "last_attempt_at": "2026-08-07T11:49:16.846336+00:00",
+  "last_success_at": "2026-08-07T11:49:17.717790+00:00",
   "count": 15,
   "papers": [
     {
@@ -25,6 +25,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42491352/",
       "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
+    },
+    {
+      "pmid": "42544099",
+      "title": "The role of artificial intelligence in the diagnosis of pericardial constriction.",
+      "journal": "Current opinion in cardiology",
+      "abstract": "PURPOSE OF REVIEW: Constrictive pericarditis is a complex disease whose distinction from clinical mimickers remains challenging yet critically important. Diagnosis frequently requires integration of findings across multiple imaging modalities. Artificial intelligence (AI) applications in cardiac imaging are rapidly evolving and may play an increasingly important role in the diagnosis of constrictive pericarditis.\n\nRECENT FINDINGS: Most established evidence supporting AI in diagnosis of constrictive pericarditis involves machine learning and deep learning applied to echocardiography, particularly for differentiating constrictive pericarditis from restrictive cardiomyopathy. Newer approaches incorporate multiple echocardiographic views and emphasize model generalizability. Emerging applications span cardiac computed tomography (CT)-for automated pericardial thickening and calcification quantification-large language models (LLMs) in cardiac magnetic resonance interpretation, and deep learning electrocardiogram analysis.\n\nSUMMARY: Applications of AI for diagnosis of constrictive pericarditis are being studied across multiple imaging modalities, but remain in early stages of development. Emerging AI concepts, including multimodal LLMs and foundation models leveraging transfer learning, show promise for further advances and eventual meaningful implementation. Cardiac CT, though underrepresented in the current AI literature for constrictive pericarditis, represents an important target for future investigation given its established role in surgical planning.",
+      "authors": [
+        "Kevin Lipat",
+        "Tyler Booth",
+        "Partho P Sengupta"
+      ],
+      "published_on": "2026-08-03",
+      "doi": "10.1097/HCO.0000000000001325",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
+      "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
     },
     {
       "pmid": "42402238",
@@ -85,6 +104,49 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42443114",
+      "title": "Deep-learning based electroencephalogram denoising: a literature review.",
+      "journal": "Journal of neural engineering",
+      "abstract": "Electroencephalography (EEG) is a pivotal tool for exploring brain functions. However, the low amplitude of EEG signals renders them inherently susceptible to contamination from diverse physiological and environmental artifacts, including electromyogram artifacts, electrocardiogram interference, and electrical noise from power lines. These contaminants significantly hinder the analysis and interpretation of EEG data, posing substantial challenges for signal processing. Recently, deep learning paradigms have catalyzed significant progress in EEG denoising, with many studies reporting competitive reconstruction fidelity and artifact suppression in benchmarked settings. Despite this progress, there remains a notable gap in the literature regarding comprehensive reviews of deep learning-based EEG denoising strategies. To bridge this gap, we use the end-to-end denoising pipeline as an analytical framework, examining how data/target construction, input representation, modular architecture, objective design, and evaluation strategies influence model assumptions, the interpretation of model performance, and practical utility. We further discuss selective and multi-task denoising strategies, downstream validation, and model deployment as key issues for translating reconstruction performance into usable EEG applications. Finally, we identify future research directions aimed at developing more reliable, interpretable, and practically useful EEG denoising systems, thereby enhancing the utility of EEG technologies in broader applications.",
+      "authors": [
+        "Le Wu",
+        "Aiping Liu",
+        "Z Jane Wang",
+        "Rabab K Ward",
+        "Xun Chen"
+      ],
+      "published_on": "2026-07-14",
+      "doi": "10.1088/1741-2552/ae89e6",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
+      "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
+    },
+    {
+      "pmid": "42557398",
+      "title": "A multifaceted approach for obstructive sleep apnea classification from ECG signal using deep learning.",
+      "journal": "Npj biological timing and sleep",
+      "abstract": "Obstructive sleep apnea (OSA) is a common sleep disorder associated with increased cardiovascular and neurocognitive risks. While polysomnography remains the clinical gold standard for diagnosis, it is costly and unsuitable for large-scale or real-time screening. Electrocardiogram (ECG) signals offer a non-invasive, low-cost alternative for sleep apnea detection. We present a holistic new framework for OSA detection and forecasting using ECG data on two datasets: PhysioNet Apnea-ECG dataset (healthy patients with apnea) and OSASUD dataset (patients in a stroke unit). Our framework integrates feature engineering methods rooted in dynamical systems theory and statistical analysis. These features are used across a range of models, from conventional machine learning algorithms to novel deep learning architectures. To improve generalization and personalization, we incorporate transfer learning in two ways: across datasets to adapt models trained on large cohorts to smaller clinical datasets, and at the patient level to personalize models using limited individual data, hence demonstrating the use of precision medicine.",
+      "authors": [
+        "Alan John Varghese",
+        "Achilles N Gatsonis",
+        "Melih Agraz",
+        "Vivek Oommen",
+        "Anshul Parulkar",
+        "Antony Chu",
+        "George Em Karniadakis"
+      ],
+      "published_on": "2026-08-06",
+      "doi": "10.1038/s44323-026-00101-4",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42557398/",
+      "doi_url": "https://doi.org/10.1038/s44323-026-00101-4"
     },
     {
       "pmid": "42551688",
@@ -156,6 +218,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
       "doi_url": "https://doi.org/10.1002/hsr2.72906"
+    },
+    {
+      "pmid": "42010029",
+      "title": "Personalized Deep Networks for Enhanced ECG Segmentation.",
+      "journal": "Cardiovascular engineering and technology",
+      "abstract": "Electrocardiography (ECG) plays a vital role in the diagnosis of cardiovascular diseases by analyzing the electrical activity of the heart. ECG semantic segmentation is a subfield focused on sample-wise delineation of ECG waveforms by assigning a physiological label to each time sample, enabling explicit estimation of clinically meaningful onset and offset boundaries. Recent advancements in deep learning have significantly improved ECG classification accuracy; however, the same has not yet been observed in automatic ECG segmentation. Existing models often lack explainability and adaptability to patient-specific variations, thereby reducing their generalizability. This study proposes a personalized deep neural network approach for enhanced ECG processing. This method incorporates convolutional neural networks (CNNs) and bidirectional long short-term memory (BiLSTM) networks, incorporating an attention mechanism to refine segmentation accuracy. A novel loss function is introduced to ensure smoother temporal transitions and better classification accuracy. The model was evaluated using the QT Database, demonstrating substantial improvements in P-wave and QRS delineation and in T-wave offset localization segmentation when fine-tuned for individual patients when fine-tuned and evaluated on held-out data from the same patient, demonstrating the benefit of intra-patient adaptation. Our results indicate that personalization improves delineation accuracy for challenging waveforms (notably P and T waves), supporting the potential of deep learning to better capture patient-specific morphology and providing a stronger basis for waveform-level, clinically interpretable ECG analysis.",
+      "authors": [
+        "Maylon Pereira Folli",
+        "Gabriel Tozatto Zago",
+        "Stephanie Rezende Alvarenga Moulin Mares",
+        "Rodrigo Varejão Andreão"
+      ],
+      "published_on": "2026-04-21",
+      "doi": "10.1007/s13239-026-00835-z",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42010029/",
+      "doi_url": "https://doi.org/10.1007/s13239-026-00835-z"
     },
     {
       "pmid": "41882308",
@@ -234,100 +315,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525678/",
       "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
-    },
-    {
-      "pmid": "42537358",
-      "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
-      "journal": "Computer methods and programs in biomedicine",
-      "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
-      "authors": [
-        "Songping Li",
-        "Gan Luo",
-        "Lixue Zhou",
-        "Yifei Zhang",
-        "Liupeng Ma",
-        "Chuanlai Wang"
-      ],
-      "published_on": "2026-08-01",
-      "doi": "10.1016/j.cmpb.2026.109564",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
-      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
-    },
-    {
-      "pmid": "42544099",
-      "title": "The role of artificial intelligence in the diagnosis of pericardial constriction.",
-      "journal": "Current opinion in cardiology",
-      "abstract": "PURPOSE OF REVIEW: Constrictive pericarditis is a complex disease whose distinction from clinical mimickers remains challenging yet critically important. Diagnosis frequently requires integration of findings across multiple imaging modalities. Artificial intelligence (AI) applications in cardiac imaging are rapidly evolving and may play an increasingly important role in the diagnosis of constrictive pericarditis.\n\nRECENT FINDINGS: Most established evidence supporting AI in diagnosis of constrictive pericarditis involves machine learning and deep learning applied to echocardiography, particularly for differentiating constrictive pericarditis from restrictive cardiomyopathy. Newer approaches incorporate multiple echocardiographic views and emphasize model generalizability. Emerging applications span cardiac computed tomography (CT)-for automated pericardial thickening and calcification quantification-large language models (LLMs) in cardiac magnetic resonance interpretation, and deep learning electrocardiogram analysis.\n\nSUMMARY: Applications of AI for diagnosis of constrictive pericarditis are being studied across multiple imaging modalities, but remain in early stages of development. Emerging AI concepts, including multimodal LLMs and foundation models leveraging transfer learning, show promise for further advances and eventual meaningful implementation. Cardiac CT, though underrepresented in the current AI literature for constrictive pericarditis, represents an important target for future investigation given its established role in surgical planning.",
-      "authors": [
-        "Kevin Lipat",
-        "Tyler Booth",
-        "Partho P Sengupta"
-      ],
-      "published_on": "2026-08-03",
-      "doi": "10.1097/HCO.0000000000001325",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
-      "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
-    },
-    {
-      "pmid": "42497361",
-      "title": "R-R Interval Histogram-Based Deep Learning for 3-Class Atrial Fibrillation Screening in Garment-Type Wearable Holter Electrocardiogram Monitoring: Algorithm Development and Validation Study.",
-      "journal": "JMIR medical informatics",
-      "abstract": "BACKGROUND: Long-term garment-type wearable Holter electrocardiographic (ECG) monitoring is frequently affected by noise contamination, which complicates automated atrial fibrillation (AF) detection in real-world recordings. Although deep learning has shown high performance for AF detection, relatively few studies have evaluated explicit strategies for handling noise-included wearable ECG data. An alternative representation using the R-R interval (RRI) time series may reduce the dependence on waveform morphology and provide an alternative pathway for AF screening in noisy recordings.\n\nOBJECTIVE: This study aimed to develop and evaluate a 3-class, noise-aware RRI-based AF screening framework that explicitly separated AF, non-AF, and uninterpretable noise windows, and to assess the impact of analysis window length on model performance.\n\nMETHODS: Single-lead garment-type wearable Holter ECG data from 117 patients at the University of Osaka Hospital were analyzed after exclusion of patients with documented atrial tachycardia, flutter, or paced rhythm according to the predefined task definition. R-peaks were automatically detected, and the resulting RRI segments were converted into 2D histogram images, with time on the x-axis and RRI-derived heart rate on the y-axis, for 1.5-, 3-, and 6-minute windows. A ResNet-34-based 2D convolutional neural network was trained for 3-class classification. Model performance was evaluated using 5-fold interpatient cross-validation on the institutional dataset and independent external testing on the MIT-BIH (Massachusetts Institute of Technology-Beth Israel Hospital) AF Database (AFDB). In the external validation, atrial flutter-annotated intervals were excluded to match the training task definition. Patient-level AF burden was evaluated by comparing reference AF burden with model-estimated AF burden using Pearson and Spearman correlation coefficients, and linear regression.\n\nRESULTS: Of 129 monitored patients between March 1, 2023, and November 20, 2025, 117 were analyzed. In the internal validation, the 3-class model (non-AF, AF, and noise) showed similarly high performance for the 1.5- and 3-minute windows, both with an accuracy of 96.6%. In independent external validation, the 3-minute window showed numerically the highest overall performance (accuracy: 97.3%; AF sensitivity: 96.9%; and AF specificity: 97.7%), although the differences across window lengths were modest. At the patient level, AF burden correlation was high across all window lengths, with Pearson r of 0.995, 0.991, and 0.989 and Spearman ρ of 0.988, 0.982, and 0.979 for the 1.5-, 3-, and 6-minute models, respectively.\n\nCONCLUSIONS: The RRI-based 2D convolutional neural network achieved high AF classification accuracy and strong patient-level correlation with reference AF burden. Using RRI features and a 3-class framework, which explicitly separated noise from AF and non-AF rhythms, a 3-minute RRI window provided a favorable balance of performance for AF screening in a garment-type Holter ECG.",
-      "authors": [
-        "Tomoaki Nakano",
-        "Keita Okayama",
-        "Masanao Yasuoka",
-        "Hironori Shigeta",
-        "Akito Kawamura",
-        "Takayuki Sekihara",
-        "Kentaro Ozu",
-        "Takafumi Oka",
-        "Shigeto Seno",
-        "Yasushi Sakata"
-      ],
-      "published_on": "2026-07-24",
-      "doi": "10.2196/91960",
-      "publication_types": [
-        "Journal Article",
-        "Validation Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497361/",
-      "doi_url": "https://doi.org/10.2196/91960"
-    },
-    {
-      "pmid": "42542843",
-      "title": "Integrating AI-Driven Diagnostics in Arrhythmia Care to Enhance Patient Outcomes: A Narrative Review.",
-      "journal": "Cureus",
-      "abstract": "International morbidity and mortality are led by cardiovascular disease, specifically arrhythmias. The integration of artificial intelligence (AI) can promote earlier identification and, therefore, provide personalized clinical judgments sooner, which can avert these consequences. AI is mainly used in diagnostics, prognostics, and decision support through test interpretations (electrocardiographs (ECGs) and MRI scans) and computing hidden characteristics to utilize a personalized plan rather than a population-based one. While such technology is available in hospitals, some functions are also being integrated into smart wearable devices. These wearable devices allow for continuous monitoring rather than limiting it to in-hospital settings, thus making it easier to enable an earlier diagnosis. However, certain arrhythmias, such as asymptomatic arrhythmias, can go unnoticed by AI. Additionally, there are questions regarding data transparency, privacy, and the financial burden of utilizing and managing AI in medical settings.",
-      "authors": [
-        "Mustafa Abrar Zaman",
-        "Kuragamage Dona Prabuddhi Thiloka Kuragama",
-        "Aseel Aljeshi",
-        "Mikhail Johnson",
-        "Jyothsnaa Sathish",
-        "Kush J Kanjia",
-        "Adhved Krishnan",
-        "Ronaldo Sabbagh",
-        "Aliea N Ramjag",
-        "Rayan Rezaei",
-        "Sweety Akter",
-        "Fariha Abdullah",
-        "Numan Baydemir"
-      ],
-      "published_on": "2026-08-02",
-      "doi": "10.7759/cureus.113138",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42542843/",
-      "doi_url": "https://doi.org/10.7759/cureus.113138"
     }
   ],
   "error": null,
