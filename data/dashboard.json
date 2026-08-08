@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-07T11:49:16.846336+00:00",
-    "last_success_at": "2026-08-07T11:49:17.717790+00:00",
+    "last_attempt_at": "2026-08-08T12:56:36.776015+00:00",
+    "last_success_at": "2026-08-08T12:56:37.146831+00:00",
     "count": 15,
     "papers": [
       {
@@ -120,6 +120,23 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+      },
+      {
+        "pmid": "42565757",
+        "title": "Enhancing cardiovascular disease diagnosis through knowledge distillation and hybrid Transformer-CNN-SENet architecture.",
+        "journal": "Journal of medical engineering & technology",
+        "abstract": "Worldwide, cardiovascular diseases (CVDs) are the leading cause of mortality, making early detection a critical public health objective. The analysis of electrocardiograms (ECGs) is a fundamental tool for CVD diagnosis, and recent developments in deep learning have greatly enhanced its diagnostic accuracy. A 12-lead ECG dataset provides valuable information for enhancing diagnostic performance, but extracting and revealing these patterns requires complex and hidden models with numerous parameters and high computational demands. In portable and wearable healthcare devices, GPUs with low power are not suitable for deploying these models. The purpose of this study is to address these limitations by presenting a knowledge distillation (KD) framework that transfers knowledge from a high-capacity teacher model (T-CST) to a lightweight student model (S-CS). A forward lead selection strategy is introduced to identify the most informative single lead or optimal small-lead combinations for efficient diagnosis with minimal data input. The teacher model integrates CNN, SENet, and Transformer modules to capture both local and long-range temporal dependencies, enabling it to extract a diverse set of hidden and comprehensive patterns from 12-lead ECG signals, including subtle temporal relationships and intricate local features. The compact student model, consisting of a CNN and SENet, leverages this transferred knowledge to achieve comparable performance with substantially lower computational cost. Experiments on the PTB-XL dataset demonstrate that S-CS attains near-teacher accuracy using only three leads while reducing computation by 63 times, highlighting its promise for efficient, accurate, and accessible CVD detection in portable and wearable healthcare systems.",
+        "authors": [
+          "Nasim Beigzadeh",
+          "Abdolhossein Fathi"
+        ],
+        "published_on": "2026-08-07",
+        "doi": "10.1080/03091902.2026.2713702",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42565757/",
+        "doi_url": "https://doi.org/10.1080/03091902.2026.2713702"
       },
       {
         "pmid": "42443114",
@@ -314,23 +331,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42531152/",
         "doi_url": "https://doi.org/10.2196/71224"
-      },
-      {
-        "pmid": "42525678",
-        "title": "A lightweight hybrid framework integrating convolutional neural networks and fast Fourier transform for reliable and calibrated ECG-based cardiac abnormality detection.",
-        "journal": "PloS one",
-        "abstract": "The electrocardiogram (ECG) is an essential non-invasive tool for detecting cardiac abnormalities; however, accurate interpretation often requires specialized expertise that may be unavailable in resource-limited clinical settings. While deep learning models have demonstrated high classification performance, many existing architectures remain computationally intensive and lack assessments of predictive reliability, hindering their deployment in clinical decision support systems. In this study, we propose a lightweight hybrid framework integrating Convolutional Neural Networks (CNN) and Fast Fourier Transform (FFT) components. This architecture combines time-domain morphological representations learned from raw ECG signals with physiologically relevant spectral features to enable accurate and efficient classification. Unlike previous approaches, this work emphasizes reliable model evaluation by incorporating probability calibration and a rigorous patient-wise validation protocol. The proposed method was evaluated on the publicly available PTB-XL dataset using the official 10-fold cross-validation protocol for both binary and five-class multi-label classification. In addition to conventional discrimination metrics, model reliability was assessed using Expected Calibration Error (ECE). The model achieved an accuracy of 92.42% and an AUC of 97.8% for binary classification, alongside a macro-AUC of 92.46% for five- class multi-label classification. Calibration analysis demonstrated well-calibrated probability estimates with low ECE values. Despite its competitive performance, the architecture is highly efficient, containing only 87K parameters and 0.26 GFLOPs. These findings highlight the potential of lightweight hybrid architectures combined with calibration-aware evaluation to support reliable AI-assisted ECG diagnostics in resource-constrained healthcare settings.",
-        "authors": [
-          "Abdoul Malik",
-          "Selim Aras"
-        ],
-        "published_on": "2026-07-29",
-        "doi": "10.1371/journal.pone.0354834",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525678/",
-        "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
       }
     ],
     "error": null,
@@ -343,6 +343,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-08T11:49:17.717790+00:00",
+  "next_refresh_at": "2026-08-09T12:56:37.146831+00:00",
   "next_push_at": null
 }
