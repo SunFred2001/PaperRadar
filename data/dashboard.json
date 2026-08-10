@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-09T12:59:42.404530+00:00",
-    "last_success_at": "2026-08-09T12:59:43.167419+00:00",
+    "last_attempt_at": "2026-08-10T13:18:06.330968+00:00",
+    "last_success_at": "2026-08-10T13:18:07.300148+00:00",
     "count": 15,
     "papers": [
       {
@@ -98,28 +98,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42242104/",
         "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111778"
-      },
-      {
-        "pmid": "42155349",
-        "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
-        "authors": [
-          "Arkadiusz Czerwinski",
-          "Damian Kucharski",
-          "Jacek Kawa",
-          "Yalin Zheng",
-          "Gregory Y H Lip",
-          "Jakub Nalepa",
-          "Agata M Wijata"
-        ],
-        "published_on": "2026-05-20",
-        "doi": "10.1016/j.cmpb.2026.109428",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       },
       {
         "pmid": "42565757",
@@ -204,7 +182,7 @@
           "Arnold Fenrich",
           "Mauricio Hong"
         ],
-        "published_on": "2026-08-05",
+        "published_on": "2026-08-09",
         "doi": "10.1016/j.hrthm.2026.07.045",
         "publication_types": [
           "Journal Article"
@@ -331,6 +309,23 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42531152/",
         "doi_url": "https://doi.org/10.2196/71224"
+      },
+      {
+        "pmid": "42525678",
+        "title": "A lightweight hybrid framework integrating convolutional neural networks and fast Fourier transform for reliable and calibrated ECG-based cardiac abnormality detection.",
+        "journal": "PloS one",
+        "abstract": "The electrocardiogram (ECG) is an essential non-invasive tool for detecting cardiac abnormalities; however, accurate interpretation often requires specialized expertise that may be unavailable in resource-limited clinical settings. While deep learning models have demonstrated high classification performance, many existing architectures remain computationally intensive and lack assessments of predictive reliability, hindering their deployment in clinical decision support systems. In this study, we propose a lightweight hybrid framework integrating Convolutional Neural Networks (CNN) and Fast Fourier Transform (FFT) components. This architecture combines time-domain morphological representations learned from raw ECG signals with physiologically relevant spectral features to enable accurate and efficient classification. Unlike previous approaches, this work emphasizes reliable model evaluation by incorporating probability calibration and a rigorous patient-wise validation protocol. The proposed method was evaluated on the publicly available PTB-XL dataset using the official 10-fold cross-validation protocol for both binary and five-class multi-label classification. In addition to conventional discrimination metrics, model reliability was assessed using Expected Calibration Error (ECE). The model achieved an accuracy of 92.42% and an AUC of 97.8% for binary classification, alongside a macro-AUC of 92.46% for five- class multi-label classification. Calibration analysis demonstrated well-calibrated probability estimates with low ECE values. Despite its competitive performance, the architecture is highly efficient, containing only 87K parameters and 0.26 GFLOPs. These findings highlight the potential of lightweight hybrid architectures combined with calibration-aware evaluation to support reliable AI-assisted ECG diagnostics in resource-constrained healthcare settings.",
+        "authors": [
+          "Abdoul Malik",
+          "Selim Aras"
+        ],
+        "published_on": "2026-07-29",
+        "doi": "10.1371/journal.pone.0354834",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525678/",
+        "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
       }
     ],
     "error": null,
@@ -343,6 +338,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-10T12:59:43.167419+00:00",
+  "next_refresh_at": "2026-08-11T13:18:07.300148+00:00",
   "next_push_at": null
 }
