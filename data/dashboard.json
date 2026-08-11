@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-10T13:18:06.330968+00:00",
-    "last_success_at": "2026-08-10T13:18:07.300148+00:00",
+    "last_attempt_at": "2026-08-11T15:02:01.886892+00:00",
+    "last_success_at": "2026-08-11T15:02:03.061007+00:00",
     "count": 15,
     "papers": [
       {
@@ -60,6 +60,23 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
         "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
+        "pmid": "42186368",
+        "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
+        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+        "abstract": "Background The classification of electrocardiogram (ECG) signals is a critical task in detecting cardiac arrhythmias. However, challenges such as class imbalance and the need to capture both local and global temporal patterns make this problem complex.ObjectiveIn this study, a hybrid deep learning model, called MBViT-FocalGA, is proposed for the classification of electrocardiogram ECG signals.MethodsThe proposed model combines a Multi-branch Vision Transformer (MBViT) architecture with a Focal Loss function optimized via a Genetic Algorithm (GA) called as MBViT-FocalGA. Thanks to three independent ViT branches operating at different patch sizes, the model can effectively learn both local and global timing patterns from ECG signals. Furthermore, the class imbalance problem frequently encountered in arrhythmia data is mitigated by optimizing the hyperparameters of the Focal Loss function with GA, improving the recognition of minority classes. The model's performance was evaluated on the MIT-BIH Arrhythmia Database in two different scenarios: (i) a two-class scenario combined into normal (N) and others (O), and (ii) a five-class scenario consisting of N, L, R, A, and V.ResultsExperimental results demonstrate that the MBViT-FocalGA model achieves superior classification performance with 98% overall accuracy and a high F1 score, outperforming classical deep learning models for both scenarios.ConclusionThese findings demonstrate the strong potential of transformer-based architectures and adaptive loss function optimizations in ECG classification.",
+        "authors": [
+          "Zeynep Garip",
+          "Ekin Ekinci"
+        ],
+        "published_on": "2026-05-26",
+        "doi": "10.1177/09287329261446510",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
+        "doi_url": "https://doi.org/10.1177/09287329261446510"
       },
       {
         "pmid": "42402238",
@@ -231,6 +248,47 @@
         "doi_url": "https://doi.org/10.1002/hsr2.72906"
       },
       {
+        "pmid": "42262942",
+        "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations Between Children With ADHD and Comorbid ADHD-ASD.",
+        "journal": "IEEE transactions on bio-medical engineering",
+        "abstract": "OBJECTIVE: The comorbidity between Attention Deficit/Hyperactivity Disorder (ADHD) and Autism Spectrum Disorder (ASD) is a complex, poorly understood phenomenon. This study investigates the neural mechanisms underlying this comorbidity through the lens of brain-heart interactions, integrating distinct physiological systems to elucidate potential pathophysiological differences.\n\nMETHODS: Resting-state EEG and ECG were recorded from 63 children with ADHD, 44 with comorbid ADHD-ASD, and an exploratory cohort of 23 with pure ASD. Heartbeat-Evoked Potentials (HEP) and Heartbeat-Induced Networks (HINs) were computed. Mediation analysis explored whether brain connectivity features mediate the observed HEP waveform differences.\n\nRESULTS: Compared to the comorbid group, the ADHD group exhibited attenuated negative HEP amplitudes (150-200 ms post-R-peak). The comorbid group also demonstrated distinct characteristic path lengths in theta and alpha bands (eyes-open) and higher theta global efficiency (eyes-closed). Importantly, theta global efficiency mediated the group differences in HEP amplitudes (p=0.016). Exploratory analyses with the pure ASD cohort confirmed these alterations were comorbidity-specific and not strictly driven by ASD traits.\n\nCONCLUSION: This study reveals distinct resting-state brain-heart interaction patterns in children with pure ADHD compared to comorbid ADHD-ASD. The enhanced brain network efficiency observed in the comorbid group suggests the presence of distinct neural network reorganizations arising from the complex interaction of dual traits, providing neurophysiological evidence that challenges the simple additive model.\n\nSIGNIFICANCE: By characterizing these divergent neural signatures, this work contributes to unraveling the complex mechanisms of comorbidity and highlights potential biomarkers for more precise clinical diagnosis and intervention.",
+        "authors": [
+          "Jiajing Zhao",
+          "Chenyu Yan",
+          "Mengyi Bao",
+          "Qing Zhou",
+          "Haifeng Li",
+          "Gang Pan",
+          "Lin Yao",
+          "Yueming Wang"
+        ],
+        "published_on": "2026-06-09",
+        "doi": "10.1109/TBME.2026.3701831",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
+        "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
+      },
+      {
+        "pmid": "42060434",
+        "title": "Neural Style Transfer-Based Denoising of Seismocardiogram Signals Under Dynamic Conditions.",
+        "journal": "IEEE transactions on bio-medical engineering",
+        "abstract": "Seismocardiogram (SCG) signals capture the mechanical dynamics of cardiac activity, but their clinical utility is severely limited by motion artifacts during ambulatory monitoring. To overcome this challenge, we propose a neural style transfer (NST)-based denoising framework that converts motion-contaminated SCG recordings into morphology-preserving, rest-like representations. Our method leverages time-frequency spectrograms obtained from continuous wavelet transforms and a pre-trained convolutional neural network (VGG19) to suppress exercise-induced distortions while maintaining physiologically relevant timing and morphology. Across 20 participants, the proposed approach substantially enhanced signal fidelity, improving signal-to-noise ratio and peak signal-to-noise ratio by 176.7% and 152.1%, respectively, and reducing mean squared error and mean absolute error by 95.1% and 83.6%. Structural similarity increased by 70.3%, and correlation with the resting reference more than doubled. Heart rate estimated from denoised signals showed excellent agreement with electrocardiogram measurements, yielding an average error of only 0.89 beats per minute (0.73%). Furthermore, comparative evaluation demonstrated that the proposed restyling and denoising approach consistently outperformed state-of-the-art denoising techniques-including empirical mode decomposition variants, variational mode decomposition, Savitzky-Golay filtering, moving-average filtering, and wavelet-based reconstruction-achieving the lowest heart rate estimation error (0.89 bpm RMSE). Additionally, a controlled simulation confirmed the framework's restyling capability under known ground-truth conditions, yielding a heart rate estimation error of only 0.15 bpm relative to the true reference. These results demonstrate that neural style transfer enables physiology-consistent reconstruction of cardiac mechanical signals in dynamic conditions and represents a highly promising direction toward motion-resilient wearable cardiac monitoring.",
+        "authors": [
+          "Dunya Moradi",
+          "Berke Kizir",
+          "Beren Semiz"
+        ],
+        "published_on": "2026-04-30",
+        "doi": "10.1109/TBME.2026.3688416",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060434/",
+        "doi_url": "https://doi.org/10.1109/TBME.2026.3688416"
+      },
+      {
         "pmid": "42010029",
         "title": "Personalized Deep Networks for Enhanced ECG Segmentation.",
         "journal": "Cardiovascular engineering and technology",
@@ -266,66 +324,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41882308/",
         "doi_url": "https://doi.org/10.3758/s13415-026-01418-0"
-      },
-      {
-        "pmid": "42537049",
-        "title": "A deep learning framework for multi-lead ECG arrhythmia classification with CAM interpretability and LLM-driven clinical guidance.",
-        "journal": "Computer methods in biomechanics and biomedical engineering",
-        "abstract": "Cardiac arrhythmias remain a major cause of morbidity and mortality, requiring accurate and interpretable automated diagnosis. This reserach presents a lightweight deep learning framework for multi-lead ECG arrhythmia classification. A Winograd-scaled 1D MobileNet efficiently extracts discriminative features, while the Lead-aware Skip Weighting Residual ConvNeXt Attention with Builder Optimizer (LSW-RCABO) enhances classification through adaptive residual weighting and lead-aware attention. Grad-CAM provides visual explanations by highlighting waveform regions, and BioGPT generates patient-specific clinical recommendations using classification results and metadata. Experimental evaluation on the MIT-BIH, 12-lead ECG, and PhysioNet 2020 datasets demonstrates superior performance, achieving classification accuracies of 99.98%, 99.98%, and 99.97%, respectively.",
-        "authors": [
-          "P Kavitha",
-          "L Shakkeera"
-        ],
-        "published_on": "2026-07-31",
-        "doi": "10.1080/10255842.2026.2706742",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537049/",
-        "doi_url": "https://doi.org/10.1080/10255842.2026.2706742"
-      },
-      {
-        "pmid": "42531152",
-        "title": "A Novel Convolutional Neural Network-Based Algorithm for Heart Rate Measurement From Ballistocardiography Signals in Diverse Clinical Settings: Observational Study.",
-        "journal": "JMIR cardio",
-        "abstract": "BACKGROUND: Continuous vital sign monitoring ensures early detection, prevents intensive care unit (ICU) admissions, and improves patient outcomes. Continuous heart rate (HR) monitoring methods often require direct skin contact, which can lead to patient discomfort. The rising popularity of ballistocardiography (BCG) offers a promising, noncontact solution for continuous vital sign monitoring with improved patient comfort.\n\nOBJECTIVE: This study aims to develop and validate a novel HR measurement algorithm leveraging convolutional neural networks (CNNs) and BCG signals for accurate, noncontact, and continuous HR monitoring. By integrating time-domain peak detection with short-time Fourier transform and CNN models, the proposed approach seeks to enhance HR measurement accuracy across diverse health care settings. The study follows the Food and Drug Administration (FDA)'s Good Machine Learning Practice guidelines and evaluates the algorithm's robustness, generalizability, and clinical applicability through extensive testing on a diverse dataset, ensuring improved patient comfort and early detection of clinical deterioration.\n\nMETHODS: The proposed algorithm combines time-domain peak detection with short-time Fourier transform and CNNs to enhance HR measurement from BCG signals. The CNN model developed was trained on 129,976 data points from 373 participants (HR range: 36-230 bpm), including ICU patients, and was tuned on 75,970 data points from 192 participants (HR range: 46-169 bpm), with HR obtained from clinical-grade electrocardiography devices to improve generalizability. The algorithm was tested on 70,211 data points from 205 participants, including ICU patients, across 5 independent studies to demonstrate robust performance against diverse settings, demographics, and comorbidities. The methodology is in compliance with the FDA's Good Machine Learning Practice for Medical Device Development: Guiding Principles.\n\nRESULTS: The algorithm achieved a mean absolute error of under 3 bpm and a detection rate exceeding 80%, underscoring its robustness. The Bland-Altman analysis indicates high accuracy with a minimal bias of 0.25 and limits of agreement within 8.59 bpm. Additionally, the Pearson correlation coefficient of 0.97 from the Deming regression further demonstrates strong alignment with reference HR measurements, reinforcing its precision and reliability for clinical applications.\n\nCONCLUSIONS: This CNN-based algorithm presents a robust solution for contactless HR monitoring, addressing the limitations of prior methods in noise management and adaptability. Its demonstrated accuracy, particularly in real-world, noisy clinical environments, highlights its potential for broad application in patient monitoring and improved comfort.",
-        "authors": [
-          "Kumar Chokalingam",
-          "Muthukumarasamy Saravanan",
-          "Ashish Kaushal",
-          "Srishti Rao",
-          "Inam Ur Rahman",
-          "Ashwathi Nambiar",
-          "Mudit Dandwate",
-          "Ravi Mahajan",
-          "Kunal Sarkar",
-          "Gaurav Parchani"
-        ],
-        "published_on": "2026-07-30",
-        "doi": "10.2196/71224",
-        "publication_types": [
-          "Journal Article",
-          "Observational Study"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42531152/",
-        "doi_url": "https://doi.org/10.2196/71224"
-      },
-      {
-        "pmid": "42525678",
-        "title": "A lightweight hybrid framework integrating convolutional neural networks and fast Fourier transform for reliable and calibrated ECG-based cardiac abnormality detection.",
-        "journal": "PloS one",
-        "abstract": "The electrocardiogram (ECG) is an essential non-invasive tool for detecting cardiac abnormalities; however, accurate interpretation often requires specialized expertise that may be unavailable in resource-limited clinical settings. While deep learning models have demonstrated high classification performance, many existing architectures remain computationally intensive and lack assessments of predictive reliability, hindering their deployment in clinical decision support systems. In this study, we propose a lightweight hybrid framework integrating Convolutional Neural Networks (CNN) and Fast Fourier Transform (FFT) components. This architecture combines time-domain morphological representations learned from raw ECG signals with physiologically relevant spectral features to enable accurate and efficient classification. Unlike previous approaches, this work emphasizes reliable model evaluation by incorporating probability calibration and a rigorous patient-wise validation protocol. The proposed method was evaluated on the publicly available PTB-XL dataset using the official 10-fold cross-validation protocol for both binary and five-class multi-label classification. In addition to conventional discrimination metrics, model reliability was assessed using Expected Calibration Error (ECE). The model achieved an accuracy of 92.42% and an AUC of 97.8% for binary classification, alongside a macro-AUC of 92.46% for five- class multi-label classification. Calibration analysis demonstrated well-calibrated probability estimates with low ECE values. Despite its competitive performance, the architecture is highly efficient, containing only 87K parameters and 0.26 GFLOPs. These findings highlight the potential of lightweight hybrid architectures combined with calibration-aware evaluation to support reliable AI-assisted ECG diagnostics in resource-constrained healthcare settings.",
-        "authors": [
-          "Abdoul Malik",
-          "Selim Aras"
-        ],
-        "published_on": "2026-07-29",
-        "doi": "10.1371/journal.pone.0354834",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42525678/",
-        "doi_url": "https://doi.org/10.1371/journal.pone.0354834"
       }
     ],
     "error": null,
@@ -338,6 +336,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-11T13:18:07.300148+00:00",
+  "next_refresh_at": "2026-08-12T15:02:03.061007+00:00",
   "next_push_at": null
 }
