@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-13T16:03:08.118873+00:00",
-  "last_success_at": "2026-08-13T16:03:09.086775+00:00",
+  "last_attempt_at": "2026-08-14T16:57:58.345915+00:00",
+  "last_success_at": "2026-08-14T16:57:59.023358+00:00",
   "count": 15,
   "papers": [
     {
@@ -99,6 +99,56 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42242104/",
       "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111778"
+    },
+    {
+      "pmid": "42155349",
+      "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
+      "authors": [
+        "Arkadiusz Czerwinski",
+        "Damian Kucharski",
+        "Jacek Kawa",
+        "Yalin Zheng",
+        "Gregory Y H Lip",
+        "Jakub Nalepa",
+        "Agata M Wijata"
+      ],
+      "published_on": "2026-05-20",
+      "doi": "10.1016/j.cmpb.2026.109428",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42592862",
+      "title": "Development and External Validation of an AI-ECG Algorithm for Estimating Elevated Serum NT-proBNP Levels.",
+      "journal": "European heart journal. Quality of care & clinical outcomes",
+      "abstract": "BACKGROUND: N-terminal pro-B-type natriuretic peptide (NT-proBNP) is a cornerstone biomarker for the diagnosis and management of heart failure, but its use may be limited by the need for blood testing and laboratory infrastructure. Artificial intelligence (AI) applied to electrocardiograms (ECGs) may offer a widely accessible, non-invasive approach to estimate NT-proBNP levels.\n\nMETHODS: We developed a convolutional neural network incorporating residual and attention-based layers to estimate NT-proBNP levels from standard 12-lead ECGs. The model was trained using 84,895 ECG-NT-proBNP pairs from 40,762 adult patients; 8,545 patients were held out for internal validation. The model generated a nine-level ECG-BNP score. External validation was conducted in 679 patients at two tertiary cardiovascular centers. Discrimination for prespecified thresholds (>250, >500, >1,000 pg/mL) was assessed by AUROC with 95% CIs; calibration and threshold-specific sensitivity, specificity, PPV/NPV were evaluated.\n\nRESULTS: In internal validation, the AI-ECG score showed a strong correlation with measured NT-proBNP levels (Spearman ρ=0.85, p<0.001) and high discrimination across thresholds (AUROC >0.92). In external validation, the model achieved AUROCs of 0.866 (95% CI 0.838-0.894) for >250 pg/mL, 0.882 (95% CI 0.857-0.907) for >500 pg/mL, and 0.885 (95% CI 0.859-0.914) for >1,000 pg/mL. Performance was consistent across key clinical subgroups.\n\nCONCLUSIONS: An AI-enabled ECG model can identify patients with elevated NT-proBNP levels with good accuracy in both internal and external validation cohorts. This approach may help identify patients who should undergo confirmatory NT-proBNP testing, particularly when biomarker testing is delayed, unavailable, or not routinely performed. Prospective studies are warranted to define whether this strategy provides incremental clinical value and can be integrated into clinical pathways.",
+      "authors": [
+        "Ciro Indolfi",
+        "Carmen Spaccarotella",
+        "Alberto Polimeni",
+        "Domenico Simone Castiello",
+        "Giovanni Esposito",
+        "Antonio Curcio",
+        "Adriana Gravina",
+        "Nicola Leone",
+        "Joonghee Kim",
+        "Federico Garoia",
+        "Gianfranco Sinagra",
+        "Thomas F Lüscher",
+        "Youngjin Cho"
+      ],
+      "published_on": "2026-08-13",
+      "doi": "10.1093/ehjqcco/qcag128",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42592862/",
+      "doi_url": "https://doi.org/10.1093/ehjqcco/qcag128"
     },
     {
       "pmid": "42456763",
@@ -268,47 +318,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
       "doi_url": "https://doi.org/10.1002/hsr2.72906"
-    },
-    {
-      "pmid": "42262942",
-      "title": "Brain Connectivity Mediates Heartbeat-Evoked Potential Alterations Between Children With ADHD and Comorbid ADHD-ASD.",
-      "journal": "IEEE transactions on bio-medical engineering",
-      "abstract": "OBJECTIVE: The comorbidity between Attention Deficit/Hyperactivity Disorder (ADHD) and Autism Spectrum Disorder (ASD) is a complex, poorly understood phenomenon. This study investigates the neural mechanisms underlying this comorbidity through the lens of brain-heart interactions, integrating distinct physiological systems to elucidate potential pathophysiological differences.\n\nMETHODS: Resting-state EEG and ECG were recorded from 63 children with ADHD, 44 with comorbid ADHD-ASD, and an exploratory cohort of 23 with pure ASD. Heartbeat-Evoked Potentials (HEP) and Heartbeat-Induced Networks (HINs) were computed. Mediation analysis explored whether brain connectivity features mediate the observed HEP waveform differences.\n\nRESULTS: Compared to the comorbid group, the ADHD group exhibited attenuated negative HEP amplitudes (150-200 ms post-R-peak). The comorbid group also demonstrated distinct characteristic path lengths in theta and alpha bands (eyes-open) and higher theta global efficiency (eyes-closed). Importantly, theta global efficiency mediated the group differences in HEP amplitudes (p=0.016). Exploratory analyses with the pure ASD cohort confirmed these alterations were comorbidity-specific and not strictly driven by ASD traits.\n\nCONCLUSION: This study reveals distinct resting-state brain-heart interaction patterns in children with pure ADHD compared to comorbid ADHD-ASD. The enhanced brain network efficiency observed in the comorbid group suggests the presence of distinct neural network reorganizations arising from the complex interaction of dual traits, providing neurophysiological evidence that challenges the simple additive model.\n\nSIGNIFICANCE: By characterizing these divergent neural signatures, this work contributes to unraveling the complex mechanisms of comorbidity and highlights potential biomarkers for more precise clinical diagnosis and intervention.",
-      "authors": [
-        "Jiajing Zhao",
-        "Chenyu Yan",
-        "Mengyi Bao",
-        "Qing Zhou",
-        "Haifeng Li",
-        "Gang Pan",
-        "Lin Yao",
-        "Yueming Wang"
-      ],
-      "published_on": "2026-06-09",
-      "doi": "10.1109/TBME.2026.3701831",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42262942/",
-      "doi_url": "https://doi.org/10.1109/TBME.2026.3701831"
-    },
-    {
-      "pmid": "42060434",
-      "title": "Neural Style Transfer-Based Denoising of Seismocardiogram Signals Under Dynamic Conditions.",
-      "journal": "IEEE transactions on bio-medical engineering",
-      "abstract": "Seismocardiogram (SCG) signals capture the mechanical dynamics of cardiac activity, but their clinical utility is severely limited by motion artifacts during ambulatory monitoring. To overcome this challenge, we propose a neural style transfer (NST)-based denoising framework that converts motion-contaminated SCG recordings into morphology-preserving, rest-like representations. Our method leverages time-frequency spectrograms obtained from continuous wavelet transforms and a pre-trained convolutional neural network (VGG19) to suppress exercise-induced distortions while maintaining physiologically relevant timing and morphology. Across 20 participants, the proposed approach substantially enhanced signal fidelity, improving signal-to-noise ratio and peak signal-to-noise ratio by 176.7% and 152.1%, respectively, and reducing mean squared error and mean absolute error by 95.1% and 83.6%. Structural similarity increased by 70.3%, and correlation with the resting reference more than doubled. Heart rate estimated from denoised signals showed excellent agreement with electrocardiogram measurements, yielding an average error of only 0.89 beats per minute (0.73%). Furthermore, comparative evaluation demonstrated that the proposed restyling and denoising approach consistently outperformed state-of-the-art denoising techniques-including empirical mode decomposition variants, variational mode decomposition, Savitzky-Golay filtering, moving-average filtering, and wavelet-based reconstruction-achieving the lowest heart rate estimation error (0.89 bpm RMSE). Additionally, a controlled simulation confirmed the framework's restyling capability under known ground-truth conditions, yielding a heart rate estimation error of only 0.15 bpm relative to the true reference. These results demonstrate that neural style transfer enables physiology-consistent reconstruction of cardiac mechanical signals in dynamic conditions and represents a highly promising direction toward motion-resilient wearable cardiac monitoring.",
-      "authors": [
-        "Dunya Moradi",
-        "Berke Kizir",
-        "Beren Semiz"
-      ],
-      "published_on": "2026-04-30",
-      "doi": "10.1109/TBME.2026.3688416",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42060434/",
-      "doi_url": "https://doi.org/10.1109/TBME.2026.3688416"
     }
   ],
   "error": null,
