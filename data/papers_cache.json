@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-14T16:57:58.345915+00:00",
-  "last_success_at": "2026-08-14T16:57:59.023358+00:00",
+  "last_attempt_at": "2026-08-15T17:23:53.268489+00:00",
+  "last_success_at": "2026-08-15T17:23:54.197236+00:00",
   "count": 15,
   "papers": [
     {
@@ -121,6 +121,27 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
+    },
+    {
+      "pmid": "42600678",
+      "title": "A Deep Learning Approach for Noise Suppression in Cardiac-gated SPECT Studies.",
+      "journal": "Journal of nuclear cardiology : official publication of the American Society of Nuclear Cardiology",
+      "abstract": "BACKGROUND: Cardiac-gated SPECT images are prone to elevated imaging noise in clinical acquisitions. This study investigates the use of a deep learning (DL) network for noise suppression in electrocardiogram-gated cardiac studies.\n\nMETHODS: We adapted a 3D convolutional autoencoder network, pre-trained on reduced-counts ungated SPECT image data, for processing cardiac-gated images in standard-dose acquisitions. The network was trained on image data from 862 ungated studies (acquired with Philips BrightView SPECT/CT). We tested this approach on a set of 50 cardiac-gated studies (from the same imaging system). We quantified the denoising performance in terms of the noise level in the myocardium and the functional measures (wall thickening and volumes) of the left ventricle (LV). We also tested this approach on a different imaging system (GE StarGuide SPECT/CT) using 20 acquisitions from a second clinical site.\n\nRESULTS: With DL denoising the image uniformity of the LV wall was improved by 20.6% on average over individual gate frames in normal studies, and the temporal image variability of the myocardium was reduced by 47.4%. There was a high degree of agreement in the functional measures of the LV obtained before and after DL denoising, with the Pearson correlation-coefficient r between the two all above 0.94 in the measurements (LV wall thickness, chamber volumes, and EF). Similar performance was also observed for the StarGuide image data.\n\nCONCLUSIONS: The proposed DL approach can effectively suppress the imaging noise in cardiac-gated SPECT images without inducing distortion in LV function measurements, with potential applicability across different imaging platforms.",
+      "authors": [
+        "Xirang Zhang",
+        "Yongyi Yang",
+        "Jovan G Brankov",
+        "Janusz K Kikut",
+        "Piotr J Slomka",
+        "Michael A King"
+      ],
+      "published_on": "2026-08-14",
+      "doi": "10.1016/j.nuclcard.2026.102944",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42600678/",
+      "doi_url": "https://doi.org/10.1016/j.nuclcard.2026.102944"
     },
     {
       "pmid": "42592862",
@@ -296,28 +317,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546764/",
       "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
-    },
-    {
-      "pmid": "42504240",
-      "title": "Time Is Aorta: Can Artificial Intelligence Improve Surgical Timelines in Acute Type A Aortic Dissection? A Comprehensive Review.",
-      "journal": "Health science reports",
-      "abstract": "BACKGROUND AND AIMS: Acute Type A aortic dissection (ATAAD) is a surgical emergency in which delays in diagnosis, transfer, and operative activation increase mortality and organ damage. Artificial intelligence (AI) may support earlier recognition, faster imaging interpretation, and more efficient multidisciplinary communication. This narrative review evaluates whether AI could shorten diagnostic and surgical timelines in ATAAD.\n\nLITERATURE SEARCH AND STUDY SELECTION: This narrative review was informed by a structured literature search of PubMed/MEDLINE, PubMed Central, Google Scholar, and professional society websites from database inception to 30 June 2026. Search terms included \"acute type A aortic dissection,\" \"acute aortic syndrome,\" \"artificial intelligence,\" \"machine learning,\" \"deep learning,\" \"computed tomography angiography,\" \"non-contrast CT,\" \"chest radiography,\" \"electrocardiography,\" \"d-dimer,\" \"workflow,\" \"triage,\" \"surgical delay,\" and \"interhospital transfer.\" We included peer-reviewed original studies, systematic reviews, narrative reviews, and guideline documents that addressed AI-enabled diagnosis, imaging interpretation, triage, transfer, multidisciplinary notification, or surgical pathway coordination in ATAAD or AAS. Abstract-only reports, non-clinical technical studies without dissection-specific evaluation, and studies without clear diagnostic or workflow relevance were not used as primary evidence. Reference lists of relevant articles were manually screened. Because many AI studies enroll broader AAS cohorts, evidence was classified as ATAAD-specific, AAS-based with ATAAD applicability, or adult cardiovascular AI workflow extrapolation. AAS-based findings were used only when their mechanism could plausibly affect ATAAD pathways, such as faster CT interpretation or automated urgent notification, and the limitations of applying these findings to ATAAD are stated throughout the manuscript.\n\nMETHODS: A narrative literature review was conducted using PubMed/MEDLINE, PubMed Central, Google Scholar, and professional society sources from database inception to 30 June 2026. We included peer-reviewed studies, guidelines, and workflow evaluations relevant to AI-assisted recognition, imaging, triage, and communication in ATAAD or acute aortic syndrome (AAS). Evidence specific to ATAAD was prioritized. AAS studies were interpreted cautiously when ATAAD-specific data were unavailable.\n\nRESULTS: AI models using clinical variables, biomarkers, electrocardiography, chest radiography, non-contrast CT, and CT angiography report AUC values of approximately 0.86 to 0.99, with many imaging models reporting sensitivities of 91%-97% and specificities near 93%-99%. Automated CT triage can identify suspected dissections within seconds and simulated workflows show 26%-43% reductions in scan-to-report intervals. Real-world non-contrast CT screening reduced diagnostic time in initially missed AAS cases from approximately 220 min to 62 min. However, most evidence derives from retrospective cohorts, simulated workflows, or AAS populations rather than prospective ATAAD surgical pathway studies.\n\nCONCLUSION: AI may reduce key diagnostic and communication delays in ATAAD care, but direct evidence that it reduces door-to-surgery time or mortality remains limited. Prospective implementation studies are needed before AI-enabled ATAAD pathways can be considered evidence-based standards of care.",
-      "authors": [
-        "Ibrahim Antoun",
-        "Georgia R Layton",
-        "Riyaz Somani",
-        "Mokhtar Ibrahim",
-        "G André Ng",
-        "Giovanni Mariscalco",
-        "Mustafa Zakkar"
-      ],
-      "published_on": "2026-07-27",
-      "doi": "10.1002/hsr2.72906",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42504240/",
-      "doi_url": "https://doi.org/10.1002/hsr2.72906"
     }
   ],
   "error": null,
