@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-17T17:30:32.817448+00:00",
-  "last_success_at": "2026-08-17T17:30:33.294107+00:00",
+  "last_attempt_at": "2026-08-18T18:43:06.951096+00:00",
+  "last_success_at": "2026-08-18T18:43:07.828315+00:00",
   "count": 15,
   "papers": [
     {
@@ -61,6 +61,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
       "doi_url": "https://doi.org/10.1177/09287329261446510"
+    },
+    {
+      "pmid": "42546764",
+      "title": "Efficient ECG representation learning via intervention-based attribution alignment.",
+      "journal": "Physiological measurement",
+      "abstract": "Objective.The widespread adoption of wearable ECG devices has driven an explosive growth of long-term, multi-lead ECG data. However, clinical analysis and model development remain constrained by the excessive cost of data annotation, a limitation particularly pronounced in conventional deep learning methods that rely on labeled information.Approach.To address the problem of label scarcity in wearable ECG measurement scenarios, this paper proposes a self-supervised learning method for ECG based on intervention-based attribution alignment, aiming to improve the model's analytical performance on sparsely labeled ECG signals using unlabeled data. Our method integrates an intervention-inspired operation into the contrastive learning framework: it extracts compact representations from unlabeled data on one hand, and employs feature intervention to learn view-invariant mechanisms on the other, thereby reducing dependency on labeled data for target tasks.Main results.Experimental results on four public ECG datasets demonstrate that the proposed method achieves performance on par with state-of-the-art approaches in typical tasks such as arrhythmia classification, while utilizing only a fraction of the annotated samples.Significance.The findings indicate that our method effectively accommodates the multi-scenario monitoring characteristics of wearable devices, offering a practical solution to alleviate ECG data annotation burdens and advance the efficient analysis of long-term ECG signals.",
+      "authors": [
+        "Hongpo Zhang",
+        "Jiaang Li",
+        "Yuheng Li"
+      ],
+      "published_on": "2026-08-04",
+      "doi": "10.1088/1361-6579/ae9450",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546764/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
     },
     {
       "pmid": "42402238",
@@ -299,24 +317,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42551688/",
       "doi_url": "https://doi.org/10.1016/j.hrthm.2026.07.045"
-    },
-    {
-      "pmid": "42546764",
-      "title": "Efficient ECG Representation Learning via Intervention-Based Attribution Alignment.",
-      "journal": "Physiological measurement",
-      "abstract": "The widespread adoption of wearable ECG devices has driven an explosive growth of long-term, multi-lead ECG data. However, clinical analysis and model development remain constrained by the excessive cost of data annotation, a limitation particularly pronounced in conventional deep learning methods that rely on labeled information. &#xD;Approach. To address the problem of label scarcity in wearable ECG measurement scenarios, this paper proposes a self-supervised learning method for ECG based on intervention-based attribution alignment, aiming to improve the model's analytical performance on sparsely labeled ECG signals using unlabeled data. Our method integrates an intervention-inspired operation into the contrastive learning framework: it extracts compact representations from unlabeled data on one hand, and employs feature intervention to learn view-invariant mechanisms on the other, thereby reducing dependency on labeled data for target tasks. &#xD;Main results. Experimental results on four public ECG datasets demonstrate that the proposed method achieves performance on par with state-of-the-art approaches in typical tasks such as arrhythmia classification, while utilizing only a fraction of the annotated samples. &#xD;Significance. The findings indicate that our method effectively accommodates the multi-scenario monitoring characteristics of wearable devices, offering a practical solution to alleviate ECG data annotation burdens and advance the efficient analysis of long-term ECG signals.",
-      "authors": [
-        "Hongpo Zhang",
-        "Jiaang Li",
-        "Yuheng Li"
-      ],
-      "published_on": "2026-08-04",
-      "doi": "10.1088/1361-6579/ae9450",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546764/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
     }
   ],
   "error": null,
