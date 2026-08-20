@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-19T19:29:17.734376+00:00",
-  "last_success_at": "2026-08-19T19:29:18.132158+00:00",
+  "last_attempt_at": "2026-08-20T19:34:13.672072+00:00",
+  "last_success_at": "2026-08-20T19:34:14.081578+00:00",
   "count": 15,
   "papers": [
     {
@@ -61,6 +61,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
       "doi_url": "https://doi.org/10.1177/09287329261446510"
+    },
+    {
+      "pmid": "42616264",
+      "title": "MDAGCN: A multimodal dynamic adaptive graph convolutional network for sleep staging.",
+      "journal": "Medical & biological engineering & computing",
+      "abstract": "Existing deep-learning-based sleep staging frameworks frequently rely on shared multimodal feature extractors, which may overlook modality-specific discriminative traits and insufficiently capture dynamic cross-modal dependencies. This study aims to improve automated sleep stage classification by proposing the Multimodal Dynamic Adaptive Graph Convolutional Network (MDAGCN) for heterogeneous polysomnography (PSG) analysis. MDAGCN employs specialized branches to capture the spatio-temporal characteristics of EEG, EOG, EMG, and ECG signals, and integrates multi-scale convolutions, lead-wise attention, and adaptive graph learning to model complementary multimodal interactions within a unified framework. Extensive evaluations on ISRUC-S3 and Sleep-EDF-78 demonstrate competitive performance. On ISRUC-S3, MDAGCN achieves an accuracy of 0.841, an F1-score of 0.825, and a Cohen's kappa of 0.795, matching the best reported accuracy and kappa and obtaining the highest F1-scores for the W, N2, and N3 stages. On Sleep-EDF-78, MDAGCN achieves the highest accuracy of 0.828 and Cohen's kappa of 0.766, improving over the strongest baseline by 0.3 and 0.6 percentage points, respectively. These results demonstrate the effectiveness of MDAGCN for multimodal sleep staging and highlight the importance of jointly modeling modality-specific characteristics and cross-modal physiological dependencies.",
+      "authors": [
+        "Dongsheng Fang",
+        "Chu Li",
+        "Haoxuan Li",
+        "Xiaodong Yang"
+      ],
+      "published_on": "2026-08-19",
+      "doi": "10.1007/s11517-026-03639-4",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42616264/",
+      "doi_url": "https://doi.org/10.1007/s11517-026-03639-4"
     },
     {
       "pmid": "42546764",
@@ -208,7 +227,7 @@
     },
     {
       "pmid": "42580373",
-      "title": "Artificial Intelligence in Cardiovascular Imaging and Risk Stratification: From Algorithmic Discovery to Meaningful Clinical Implication.",
+      "title": "Artificial intelligence in cardiovascular imaging and risk stratification: From algorithmic discovery to meaningful clinical implication.",
       "journal": "Trends in cardiovascular medicine",
       "abstract": "Cardiovascular disease (CVD) remains the leading global cause of mortality, with timely diagnosis and precise risk stratification serving as cornerstones of effective management. Traditional cardiovascular imaging and risk assessment have long been constrained by operator-dependent interpretation, time-intensive manual quantification, and a reliance on static, population-derived diagnostic thresholds. The rapid maturation of artificial intelligence (AI), particularly deep learning (DL), foundation models (FMs), and multimodal integration (MI), has catalyzed a paradigm shift toward automated, quantitative, and patient-specific cardiovascular evaluation. Between 2023 and 2026, AI-driven tools have progressed from retrospective proof-of-concept studies to early prospective clinical validations across echocardiography (EchoCG), cardiac magnetic resonance (CMR), coronary computed tomography angiography (CCTA), and nuclear imaging. Concurrently, AI-enhanced electrocardiography (ECG) and polygenic risk integration have enabled dynamic, longitudinal risk prediction models that outperform conventional scores. Despite these advances, clinical adoption faces substantial hurdles including algorithmic bias, limited generalizability across diverse populations, regulatory fragmentation, workflow integration challenges, and unresolved questions regarding clinical utility and cost-effectiveness. This review critically examines the technological evolution of AI in cardiovascular imaging, evaluates modality-specific applications and emerging digital biomarkers, appraises regulatory and implementation landscapes, and outlines priority research directions. We emphasize that successful integration of AI into cardiovascular care requires rigorous prospective validation, transparent algorithmic governance, equitable data representation, and human-AI collaborative frameworks. As cardiovascular medicine enters the era of precision diagnostics, AI will increasingly serve as a powerful augmentative partner in imaging interpretation, risk stratification, and therapeutic decision-making, provided its meaningful clinical implication is demonstrated through improved patient outcomes.",
       "authors": [
@@ -286,37 +305,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42557398/",
       "doi_url": "https://doi.org/10.1038/s44323-026-00101-4"
-    },
-    {
-      "pmid": "42551688",
-      "title": "Sampling Frequency Has Architecture-Dependent Effects on ECG Deep Learning Classification: CNNs Are Robust, Transformers Benefit Modestly.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Electrocardiograms are deployed across a wide range of environments and frequently operate at varying sampling frequencies, directly influencing bandwidth consumption, storage demands, and battery life.\n\nOBJECTIVE: This study aims to evaluate the impact of ECG sampling frequency on both classification performance and computational cost across convolutional neural network (CNN) and Patch Transformer architectures.\n\nMETHODS: Using the PTB-XL dataset, 15,000 eligible 12-lead ECGs were analyzed at 100, 300, and 500 Hz. A CNN and a Patch Transformer were trained for multilabel classification of five diagnostic superclasses: normal, myocardial infarction, ST/T-wave change, conduction disturbance, and hypertrophy. Performance was assessed along with training time, memory use, and inference latency.\n\nRESULTS: CNN performance was relatively stable across sampling frequencies, with macro ROC-AUC values of 0.895, 0.886, and 0.881 at 100, 300, and 500 Hz, respectively. In contrast, the Patch Transformer showed modest improvement with increasing frequency, with macro ROC-AUC increasing from 0.856 at 100 Hz to 0.864 at 300 Hz and 0.877 at 500 Hz. Higher sampling frequencies increased computational cost for both architectures, with longer training times, greater memory use, and slower inference. Sensitivity and learning-curve analyses supported architecture-dependent trends across the tested configurations.\n\nCONCLUSION: ECG sampling frequency had modest, architecture-dependent effects on deep learning classification performance. CNNs were robust across 100-500 Hz, whereas the Patch Transformer benefited incrementally from higher temporal resolution at greater computational cost. These findings support a task- and architecture-aware approach to ECG acquisition in resource-constrained settings.",
-      "authors": [
-        "Cole Freedman",
-        "Syed Zawahir Hassan",
-        "Maximo Alvarez",
-        "Peter Elhajj",
-        "Paul Kim",
-        "Sun Kyeong Park",
-        "Chanhyun Park",
-        "Sameer Hirji",
-        "Joshua C Grimm",
-        "Saraschandra Vallabhajosyula",
-        "Michael Nanna",
-        "Alexis Okoh",
-        "Ozan Unlu",
-        "Peter Pantlin",
-        "Arnold Fenrich",
-        "Mauricio Hong"
-      ],
-      "published_on": "2026-08-09",
-      "doi": "10.1016/j.hrthm.2026.07.045",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42551688/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.07.045"
     }
   ],
   "error": null,
