@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-21T20:30:02.066573+00:00",
-    "last_success_at": "2026-08-21T20:30:02.961024+00:00",
+    "last_attempt_at": "2026-08-22T21:25:33.184671+00:00",
+    "last_success_at": "2026-08-22T21:25:34.028636+00:00",
     "count": 15,
     "papers": [
       {
@@ -225,6 +225,27 @@
         "doi_url": "https://doi.org/10.1093/ehjqcco/qcag128"
       },
       {
+        "pmid": "42628486",
+        "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
+        "journal": "Computational biology and chemistry",
+        "abstract": "Heart disease is one of the most dangerous diseases, and it is getting worse in adults over the age of 40. Cardiac arrhythmia is defined as an irregular heartbeat, and quick diagnosis and treatment are critical for saving the lives of a huge population. Currently, the arrhythmia classification involves diverse challenges that limit the existing methodologies from attaining the desired results. Some of the major challenges involve signal quality issues, including noise and motion artefacts, class imbalance and dataset limitations, generalization issues due to context variability across patients, real-world deployment and clinical trust. Several methodologies have been introduced to date to focus on these critical issues, but most of them are unable to cover and address the issues altogether. This study offers a novel deep learning-based method for identifying and classifying arrhythmias as a remedy. First, the pre-processing step receives the input data, which includes body temperature, heart rate, blood oxygen level, and ECG signal. Pre-processing is done with min-max normalization and an enhanced wavelet Wiener filtering technique (UP_WWF) in this case. After pre-processing, the input is submitted to the feature extraction stage, which extracts significant features. Features are extracted using an adaptive dense convolutional osprey network where the osprey optimization algorithm is used to tune the parameters of the network for better feature discrimination. Finally, with the help of the extracted features, the various arrhythmia classes are classified using an attention-based deep capsule stacked autoencoder (Att_DCSAE). The proposed framework is evaluated using the MIT-BIH dataset for benchmarking, whereas the constructed combined ECG dataset includes ECG, heart rate, blood oxygen level, and body temperature measurements. The proposed approach resulted in an overall accuracy of 99.6% on the combined ECG dataset, signifying that it can be applied in hard real-world conditions. The study also shows significant improvements when evaluated on the MIT-BIH dataset with a total precision, recall, and F1-score values of 99.98%, 99.68% and 99.86%, resulting in the overall improvement of 0.6% precision, 0.08% recall, and 0.7% F1-score when compared with the latest techniques in the literature.",
+        "authors": [
+          "Vijay A Kotkar",
+          "Makarand Shahade",
+          "Dhanraj S Jadhav",
+          "Kirti V Deshpande",
+          "Vinodkumar H Bhutnal",
+          "Avinash L Golande"
+        ],
+        "published_on": "2026-08-21",
+        "doi": "10.1016/j.compbiolchem.2026.109331",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42628486/",
+        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
+      },
+      {
         "pmid": "42456763",
         "title": "Automated analysis of wearable ECG: machine learning methods, preprocessing pipelines, and benchmark datasets.",
         "journal": "Physiological measurement",
@@ -299,28 +320,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
         "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
-      },
-      {
-        "pmid": "42557398",
-        "title": "A multifaceted approach for obstructive sleep apnea classification from ECG signal using deep learning.",
-        "journal": "Npj biological timing and sleep",
-        "abstract": "Obstructive sleep apnea (OSA) is a common sleep disorder associated with increased cardiovascular and neurocognitive risks. While polysomnography remains the clinical gold standard for diagnosis, it is costly and unsuitable for large-scale or real-time screening. Electrocardiogram (ECG) signals offer a non-invasive, low-cost alternative for sleep apnea detection. We present a holistic new framework for OSA detection and forecasting using ECG data on two datasets: PhysioNet Apnea-ECG dataset (healthy patients with apnea) and OSASUD dataset (patients in a stroke unit). Our framework integrates feature engineering methods rooted in dynamical systems theory and statistical analysis. These features are used across a range of models, from conventional machine learning algorithms to novel deep learning architectures. To improve generalization and personalization, we incorporate transfer learning in two ways: across datasets to adapt models trained on large cohorts to smaller clinical datasets, and at the patient level to personalize models using limited individual data, hence demonstrating the use of precision medicine.",
-        "authors": [
-          "Alan John Varghese",
-          "Achilles N Gatsonis",
-          "Melih Agraz",
-          "Vivek Oommen",
-          "Anshul Parulkar",
-          "Antony Chu",
-          "George Em Karniadakis"
-        ],
-        "published_on": "2026-08-06",
-        "doi": "10.1038/s44323-026-00101-4",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42557398/",
-        "doi_url": "https://doi.org/10.1038/s44323-026-00101-4"
       }
     ],
     "error": null,
@@ -333,6 +332,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-22T20:30:02.961024+00:00",
+  "next_refresh_at": "2026-08-23T21:25:34.028636+00:00",
   "next_push_at": null
 }
