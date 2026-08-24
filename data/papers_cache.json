@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-23T22:26:09.230221+00:00",
-  "last_success_at": "2026-08-23T22:26:10.115342+00:00",
+  "last_attempt_at": "2026-08-24T22:30:34.388197+00:00",
+  "last_success_at": "2026-08-24T22:30:34.856401+00:00",
   "count": 15,
   "papers": [
     {
@@ -44,23 +44,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
       "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
-    },
-    {
-      "pmid": "42186368",
-      "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
-      "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
-      "abstract": "Background The classification of electrocardiogram (ECG) signals is a critical task in detecting cardiac arrhythmias. However, challenges such as class imbalance and the need to capture both local and global temporal patterns make this problem complex.ObjectiveIn this study, a hybrid deep learning model, called MBViT-FocalGA, is proposed for the classification of electrocardiogram ECG signals.MethodsThe proposed model combines a Multi-branch Vision Transformer (MBViT) architecture with a Focal Loss function optimized via a Genetic Algorithm (GA) called as MBViT-FocalGA. Thanks to three independent ViT branches operating at different patch sizes, the model can effectively learn both local and global timing patterns from ECG signals. Furthermore, the class imbalance problem frequently encountered in arrhythmia data is mitigated by optimizing the hyperparameters of the Focal Loss function with GA, improving the recognition of minority classes. The model's performance was evaluated on the MIT-BIH Arrhythmia Database in two different scenarios: (i) a two-class scenario combined into normal (N) and others (O), and (ii) a five-class scenario consisting of N, L, R, A, and V.ResultsExperimental results demonstrate that the MBViT-FocalGA model achieves superior classification performance with 98% overall accuracy and a high F1 score, outperforming classical deep learning models for both scenarios.ConclusionThese findings demonstrate the strong potential of transformer-based architectures and adaptive loss function optimizations in ECG classification.",
-      "authors": [
-        "Zeynep Garip",
-        "Ekin Ekinci"
-      ],
-      "published_on": "2026-05-26",
-      "doi": "10.1177/09287329261446510",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
-      "doi_url": "https://doi.org/10.1177/09287329261446510"
     },
     {
       "pmid": "42616264",
@@ -304,6 +287,28 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
       "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
+    },
+    {
+      "pmid": "42557398",
+      "title": "A multifaceted approach for obstructive sleep apnea classification from ECG signal using deep learning.",
+      "journal": "Npj biological timing and sleep",
+      "abstract": "Obstructive sleep apnea (OSA) is a common sleep disorder associated with increased cardiovascular and neurocognitive risks. While polysomnography remains the clinical gold standard for diagnosis, it is costly and unsuitable for large-scale or real-time screening. Electrocardiogram (ECG) signals offer a non-invasive, low-cost alternative for sleep apnea detection. We present a holistic new framework for OSA detection and forecasting using ECG data on two datasets: PhysioNet Apnea-ECG dataset (healthy patients with apnea) and OSASUD dataset (patients in a stroke unit). Our framework integrates feature engineering methods rooted in dynamical systems theory and statistical analysis. These features are used across a range of models, from conventional machine learning algorithms to novel deep learning architectures. To improve generalization and personalization, we incorporate transfer learning in two ways: across datasets to adapt models trained on large cohorts to smaller clinical datasets, and at the patient level to personalize models using limited individual data, hence demonstrating the use of precision medicine.",
+      "authors": [
+        "Alan John Varghese",
+        "Achilles N Gatsonis",
+        "Melih Agraz",
+        "Vivek Oommen",
+        "Anshul Parulkar",
+        "Antony Chu",
+        "George Em Karniadakis"
+      ],
+      "published_on": "2026-08-06",
+      "doi": "10.1038/s44323-026-00101-4",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42557398/",
+      "doi_url": "https://doi.org/10.1038/s44323-026-00101-4"
     }
   ],
   "error": null,
