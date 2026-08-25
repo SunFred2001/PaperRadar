@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-24T22:30:34.388197+00:00",
-    "last_success_at": "2026-08-24T22:30:34.856401+00:00",
+    "last_attempt_at": "2026-08-25T22:31:21.352482+00:00",
+    "last_success_at": "2026-08-25T22:31:21.725128+00:00",
     "count": 15,
     "papers": [
       {
@@ -60,6 +60,67 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
         "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
+        "pmid": "42636122",
+        "title": "ECG-ARD: Autoregressive ECG Denoising With Dual-Domain Fusion and a Vector-Quantized Bottleneck.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Electrocardiogram (ECG) recordings are frequently corrupted by nonstationary artifacts such as baseline wander, muscle activity, and electrode motion, which can distort waveform morphology, reduce signal quality, and compromise downstream analysis. Although recent deep learning approaches have improved signal-level fidelity, practical gaps remain in cross-dataset robustness under realistic noise mixtures, leakage-aware evaluation protocols, and computational efficiency for long-duration monitoring. We propose the ECG Autoregressive Denoiser (ECG-ARD), a patch-level conditional autoregressive framework that reconstructs clean ECG signals sequentially while conditioning on the fully observed noisy segment. ECG-ARD uses a hierarchical bidirectional hybrid Mamba-CNN encoder to aggregate long-range context, a multi-scale fusion module with channel, time-domain, and magnitude-only frequency-domain attention to selectively integrate cross-scale features into the conditioning representation, and a residual vector-quantized bottleneck to regularize the conditioning latent while preserving a continuous information pathway. A causal hybrid Mamba-CNN decoder then generates clean patches autoregressively from the clean-patch history. We evaluate ECG-ARD under a leakage-aware, deployment-oriented protocol that includes record-wise splits, NSTDB channel separation to reduce reuse of noise realizations between model development and testing, and noisy-only normalization to avoid oracle statistics. Across in-distribution benchmarks (MITDB and QTDB) and out-of-distribution testing on SimEMG, ECG-ARD reduces distortion metrics while maintaining high waveform similarity, with moderate inference latency per 10-second segment relative to diffusion-based baselines.",
+        "authors": [
+          "Thanaporn Viriyasaranon",
+          "Jang-Hwan Choi"
+        ],
+        "published_on": "2026-08-24",
+        "doi": "10.1109/JBHI.2026.3727288",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636122/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3727288"
+      },
+      {
+        "pmid": "42638076",
+        "title": "Artificial intelligence based multimodal fusion of electronic medical record data and ECG signals for pericarditis prediction: pericarditis calculator (p-Cal) as a screening aid.",
+        "journal": "Heart (British Cardiac Society)",
+        "abstract": "BACKGROUND: Pericarditis may be associated with significant morbidity and mortality and can be a clinically challenging entity to diagnose. There is a clinical need for automated artificial intelligence (AI) algorithms to act as a screening aid to assist with the early and accurate detection of pericarditis.\n\nMETHODS: We developed p-Cal, a browser-based pericarditis risk calculator that fuses the patient clinical data and 12-lead ECG image to estimate risk for pericarditis. The ECG encoder was designed based on a pretrained MedCLIP Vision Transformer and random forest classifier was used for the clinical tabular data. These two modalities were fused at the decision-level using a meta classifier. Model reasoning for both modalities was assessed using advanced explainable AI techniques-attention maps from the transformer model were used to interpret ECG images, while SHapley Additive exPlanations (SHAP) force plots were applied to analyse the tabular data.\n\nRESULTS: A total of 6508 patients (mean age 54.8±16.1 years, 50.9% female) were used for training and internal validation of the AI model, of whom 902 patients had a confirmed diagnosis of pericarditis (13.8%) and the remainder were normal controls. On 1302 hold-out test patients, the Fusion Model demonstrated the best discriminatory performance, achieving an area under the curve (AUC) of 0.89, which surpassed the ECG (AUC = 0.85) and the clinical data only models (AUC = 0.74) performance. On external validation in the Medical Information Mart for Intensive Care (MIMIC) Database, the fusion model achieved an AUC of 0.81.\n\nCONCLUSION: A late fusion AI model integrating tabular clinical electronic medical record data and ECG signal has robust predictive capability for pericarditis as a screening tool.",
+        "authors": [
+          "Chadi Ayoub",
+          "Jialu Pi",
+          "Milagros Pereyra",
+          "Juan M Farina",
+          "Sherif Ahmed",
+          "Owen Crystal",
+          "Sushil Allen Luis",
+          "Jae K Oh",
+          "Reza Arsanjani",
+          "Imon Banerjee"
+        ],
+        "published_on": "2026-08-25",
+        "doi": "10.1136/heartjnl-2025-327090",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42638076/",
+        "doi_url": "https://doi.org/10.1136/heartjnl-2025-327090"
+      },
+      {
+        "pmid": "42636694",
+        "title": "A novel method for analysis of transient morphological changes in quasiperiodic physiological signals and their neurogenic correlates.",
+        "journal": "Computer methods and programs in biomedicine",
+        "abstract": "BACKGROUND AND OBJECTIVE: Transient changes in electrocardiographic (ECG) morphology often accompany fluctuations in heart rhythm and may provide clinically relevant information about cardiac function. However, conventional ECG visualization and analysis methods typically emphasize either waveform morphology or rhythm variability, making it difficult to assess their temporal interplay in long-term recordings and, consequently, to identify rhythm-related morphological changes and exploit their potential diagnostic value. This work presents a visualization framework for quasiperiodic physiological signals that enables simultaneous assessment of beat-to-beat morphological changes and rhythm dynamics in a single representation.\n\nMETHODS: The proposed method converts quasiperiodic signals into two-dimensional carpet plots. Characteristic events (e.g., ECG R peaks) are used to align consecutive signal segments, which are transformed into color-coded rows and stacked in chronological order. The resulting image preserves both the temporal evolution of signal morphology and variations in cycle duration. The method was evaluated using ECG recordings from multiple publicly available databases containing healthy subjects and patients with diverse cardiac abnormalities, as well as synchronized multimodal physiological recordings.\n\nRESULTS: Carpet plots enabled rapid visualization of transient morphological changes alongside heart rate dynamics across recordings ranging from several minutes to hours. The representation highlighted clinically relevant phenomena, including ST segment alterations, QT interval variability, changes in T wave morphology, atrial fibrillation episodes, premature ventricular complexes, Wenckebach periodicity, and stress-test phase transitions. The image-based representation was also shown to be suitable for automated analysis using convolutional neural network feature extraction.\n\nCONCLUSIONS: Carpet plots provide a compact representation of quasiperiodic physiological signals, jointly visualizing rhythm and morphology across long-term recordings. The proposed framework facilitates both expert interpretation and image-based computational analysis, offering a general approach for investigating transient physiological phenomena in ECG and other synchronized quasiperiodic signals.",
+        "authors": [
+          "Tomasz Gradowski",
+          "Damian Waląg",
+          "Tomir Domański",
+          "Teodor Buchner"
+        ],
+        "published_on": "2026-08-24",
+        "doi": "10.1016/j.cmpb.2026.109611",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
+        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
       },
       {
         "pmid": "42616264",
@@ -265,66 +326,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42580373/",
         "doi_url": "https://doi.org/10.1016/j.tcm.2026.08.005"
-      },
-      {
-        "pmid": "42565757",
-        "title": "Enhancing cardiovascular disease diagnosis through knowledge distillation and hybrid Transformer-CNN-SENet architecture.",
-        "journal": "Journal of medical engineering & technology",
-        "abstract": "Worldwide, cardiovascular diseases (CVDs) are the leading cause of mortality, making early detection a critical public health objective. The analysis of electrocardiograms (ECGs) is a fundamental tool for CVD diagnosis, and recent developments in deep learning have greatly enhanced its diagnostic accuracy. A 12-lead ECG dataset provides valuable information for enhancing diagnostic performance, but extracting and revealing these patterns requires complex and hidden models with numerous parameters and high computational demands. In portable and wearable healthcare devices, GPUs with low power are not suitable for deploying these models. The purpose of this study is to address these limitations by presenting a knowledge distillation (KD) framework that transfers knowledge from a high-capacity teacher model (T-CST) to a lightweight student model (S-CS). A forward lead selection strategy is introduced to identify the most informative single lead or optimal small-lead combinations for efficient diagnosis with minimal data input. The teacher model integrates CNN, SENet, and Transformer modules to capture both local and long-range temporal dependencies, enabling it to extract a diverse set of hidden and comprehensive patterns from 12-lead ECG signals, including subtle temporal relationships and intricate local features. The compact student model, consisting of a CNN and SENet, leverages this transferred knowledge to achieve comparable performance with substantially lower computational cost. Experiments on the PTB-XL dataset demonstrate that S-CS attains near-teacher accuracy using only three leads while reducing computation by 63 times, highlighting its promise for efficient, accurate, and accessible CVD detection in portable and wearable healthcare systems.",
-        "authors": [
-          "Nasim Beigzadeh",
-          "Abdolhossein Fathi"
-        ],
-        "published_on": "2026-08-07",
-        "doi": "10.1080/03091902.2026.2713702",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42565757/",
-        "doi_url": "https://doi.org/10.1080/03091902.2026.2713702"
-      },
-      {
-        "pmid": "42443114",
-        "title": "Deep-learning based electroencephalogram denoising: a literature review.",
-        "journal": "Journal of neural engineering",
-        "abstract": "Electroencephalography (EEG) is a pivotal tool for exploring brain functions. However, the low amplitude of EEG signals renders them inherently susceptible to contamination from diverse physiological and environmental artifacts, including electromyogram artifacts, electrocardiogram interference, and electrical noise from power lines. These contaminants significantly hinder the analysis and interpretation of EEG data, posing substantial challenges for signal processing. Recently, deep learning paradigms have catalyzed significant progress in EEG denoising, with many studies reporting competitive reconstruction fidelity and artifact suppression in benchmarked settings. Despite this progress, there remains a notable gap in the literature regarding comprehensive reviews of deep learning-based EEG denoising strategies. To bridge this gap, we use the end-to-end denoising pipeline as an analytical framework, examining how data/target construction, input representation, modular architecture, objective design, and evaluation strategies influence model assumptions, the interpretation of model performance, and practical utility. We further discuss selective and multi-task denoising strategies, downstream validation, and model deployment as key issues for translating reconstruction performance into usable EEG applications. Finally, we identify future research directions aimed at developing more reliable, interpretable, and practically useful EEG denoising systems, thereby enhancing the utility of EEG technologies in broader applications.",
-        "authors": [
-          "Le Wu",
-          "Aiping Liu",
-          "Z Jane Wang",
-          "Rabab K Ward",
-          "Xun Chen"
-        ],
-        "published_on": "2026-07-14",
-        "doi": "10.1088/1741-2552/ae89e6",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42443114/",
-        "doi_url": "https://doi.org/10.1088/1741-2552/ae89e6"
-      },
-      {
-        "pmid": "42557398",
-        "title": "A multifaceted approach for obstructive sleep apnea classification from ECG signal using deep learning.",
-        "journal": "Npj biological timing and sleep",
-        "abstract": "Obstructive sleep apnea (OSA) is a common sleep disorder associated with increased cardiovascular and neurocognitive risks. While polysomnography remains the clinical gold standard for diagnosis, it is costly and unsuitable for large-scale or real-time screening. Electrocardiogram (ECG) signals offer a non-invasive, low-cost alternative for sleep apnea detection. We present a holistic new framework for OSA detection and forecasting using ECG data on two datasets: PhysioNet Apnea-ECG dataset (healthy patients with apnea) and OSASUD dataset (patients in a stroke unit). Our framework integrates feature engineering methods rooted in dynamical systems theory and statistical analysis. These features are used across a range of models, from conventional machine learning algorithms to novel deep learning architectures. To improve generalization and personalization, we incorporate transfer learning in two ways: across datasets to adapt models trained on large cohorts to smaller clinical datasets, and at the patient level to personalize models using limited individual data, hence demonstrating the use of precision medicine.",
-        "authors": [
-          "Alan John Varghese",
-          "Achilles N Gatsonis",
-          "Melih Agraz",
-          "Vivek Oommen",
-          "Anshul Parulkar",
-          "Antony Chu",
-          "George Em Karniadakis"
-        ],
-        "published_on": "2026-08-06",
-        "doi": "10.1038/s44323-026-00101-4",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42557398/",
-        "doi_url": "https://doi.org/10.1038/s44323-026-00101-4"
       }
     ],
     "error": null,
@@ -337,6 +338,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-25T22:30:34.856401+00:00",
+  "next_refresh_at": "2026-08-26T22:31:21.725128+00:00",
   "next_push_at": null
 }
