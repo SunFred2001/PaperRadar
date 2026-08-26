@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-25T22:31:21.352482+00:00",
-    "last_success_at": "2026-08-25T22:31:21.725128+00:00",
+    "last_attempt_at": "2026-08-26T22:56:26.839954+00:00",
+    "last_success_at": "2026-08-26T22:56:27.215253+00:00",
     "count": 15,
     "papers": [
       {
@@ -60,6 +60,47 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
         "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
+        "pmid": "42645736",
+        "title": "Leveraging ECG foundation models in critical care for sinus rhythm and atrial fibrillation classification.",
+        "journal": "Intensive care medicine experimental",
+        "abstract": "BACKGROUND: Recent advances in deep learning have led to the development of ECG foundation models (ECG-FMs) trained with self-supervised learning, which can extract generalizable representations from large-scale data. In this study, we evaluated the performance of these ECG-FMs in detecting atrial fibrillation and sinus rhythm during continuous monitoring of intensive care unit (ICU) patients, using data from Amsterdam University Medical Center (Amsterdam UMC). Our three-stage study: (i) used within-dataset classification performance on public PhysioNet datasets as an indirect proxy for label consistency, (ii) tested off-the-shelf fine-tuned ECG-FMs on ICU data, and (iii) fine-tuned ECG-FM on curated public datasets, with and without weakly labelled in-house ICU data.\n\nRESULTS: Off-the-shelf model showed limited transferability (F1 = 0.68 for sinus rhythm (SR), 0.52 for atrial fibrillation (AF)). Fine-tuning on consistent public datasets achieved robust performance (F1 = 0.91 for SR, 0.82 for AF), while adding weakly labelled ICU data further improved recall at some cost to precision. Performance remained stable across varying ECG lead configurations, supporting adaptability to heterogeneous inputs.\n\nCONCLUSIONS: These findings indicate that off-the-shelf pre-trained ECG-FMs do not generalise well to continuous monitoring in ICU populations; however, after targeted fine-tuning, they can achieve strong performance even in unseen cohorts, underscoring the importance of high-quality fine-tuning data and rigorous local validation.",
+        "authors": [
+          "Maria Galanty",
+          "Michiel Hulleman",
+          "Merijn C Reuland",
+          "Björn van der Ster",
+          "Alexander P J Vlaar",
+          "Clara I Sánchez",
+          "AF Expert Panel"
+        ],
+        "published_on": "2026-08-26",
+        "doi": "10.1186/s40635-026-00949-7",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42645736/",
+        "doi_url": "https://doi.org/10.1186/s40635-026-00949-7"
+      },
+      {
+        "pmid": "42641629",
+        "title": "A Deformable Lead-Attention Fusion Network for Multi-Label ECG Classification Integrating Clinical Metadata.",
+        "journal": "Biomedical physics & engineering express",
+        "abstract": "Cardiovascular diseases remain a major global health burden, making accurate elec-trocardiogram (ECG) analysis essential for timely diagnosis. While deep learning-based methods have made significant progress in automating ECG classification, they are often limited by the variability of ECG signals, the frequent presence of multiple cardiac abnor-malities, and the inadequate integration of diverse clinical data. This study proposes DLM-Net: a robust deep learning framework for multi-label ECG classification, designed to address these challenges. DLM-Net in-corporates several key innovations. First, the Lead-Specific Deformable Path applies de-formable convolutions independently to each lead. This enables adaptive modelling of non-rigid and complex waveform variations. It is also enhanced by a High-Frequency Module, which captures fine-grained tem-poral details. Secondly, a spatial path based on a ResNet-like backbone and feature pyr-amid network (FPN) fuses multi-scale repre-sentations in order to effectively capture both global and local ECG patterns. In parallel, the Lead Path uses a Lead Attention Trans-former to explicitly model inter-lead de-pendencies. Finally, ECG features from the spatial and lead paths are integrated with clinical tabular data through a multimodal fusion module, in which compact pa-tient-level tabular embeddings provide com-plementary contextual information for ECG representation. Extensive experiments on three public multi-label ECG datasets PTB-XL, CPSC2018 and Chapman demonstrate that DLM-Net achieves compet-itive and stable performance across datasets, with label-wise accuracies of 89.11%, 96.05% and 97.82%, respectively. Overall, DLM-Net provides an effective and flexible framework for multi-label ECG classification, offering improved accuracy and robustness across diverse datasets and demonstrating the effec-tiveness of the proposed architecture in han-dling complex multi-label diagnostic tasks in retrospective settings.",
+        "authors": [
+          "Enjun Zhou",
+          "Xiangyong Kong",
+          "Hao Wang",
+          "Chenrui Bai"
+        ],
+        "published_on": "2026-08-25",
+        "doi": "10.1088/2057-1976/ae9e39",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
+        "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
       },
       {
         "pmid": "42636122",
@@ -288,44 +329,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42628486/",
         "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
-      },
-      {
-        "pmid": "42456763",
-        "title": "Automated analysis of wearable ECG: machine learning methods, preprocessing pipelines, and benchmark datasets.",
-        "journal": "Physiological measurement",
-        "abstract": "Wearable and mobile electrocardiography (ECG) has rapidly expanded access to rhythm monitoring outside of clinical settings, but the single- or few-lead nature of these recordings and their susceptibility to motion artefacts complicate clinical-grade interpretation. This review synthesises recent machine learning approaches for wearable ECG across three problem domains-signal-quality assessment (SQA), single-lead interpretation, and multi-lead interpretation-and covers preprocessing pipelines, quality-handling strategies, and 18 benchmark datasets. Across studies, no single architectural paradigm consistently outperforms others when evaluated fairly: classical feature-based methods remain competitive for rhythm tasks under resource constraints, while deep discriminative models show stronger cross-database generalisation when training data are sufficient. The most consistent predictor of reported performance is dataset characteristics-particularly scale, demographic composition, and whether signals were acquired from wearable devices in free-living conditions-rather than architectural choice. Three recurring evaluation deficiencies are identified: subject-level data leakage inflating classification metrics, SQA performance reported without acceptance rates, and reconstructed ECG leads validated solely by waveform similarity, without downstream diagnostic concordance. A structured comparative summary of all the methods reviewed is provided. The analysis clarifies that future progress depends primarily on evaluation rigour, representative datasets, and reproducible preprocessing rather than on architectural novelty alone.",
-        "authors": [
-          "Bartosz Puszkarski"
-        ],
-        "published_on": "2026-07-16",
-        "doi": "10.1088/1361-6579/ae8b71",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42456763/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/ae8b71"
-      },
-      {
-        "pmid": "42580373",
-        "title": "Artificial intelligence in cardiovascular imaging and risk stratification: From algorithmic discovery to meaningful clinical implication.",
-        "journal": "Trends in cardiovascular medicine",
-        "abstract": "Cardiovascular disease (CVD) remains the leading global cause of mortality, with timely diagnosis and precise risk stratification serving as cornerstones of effective management. Traditional cardiovascular imaging and risk assessment have long been constrained by operator-dependent interpretation, time-intensive manual quantification, and a reliance on static, population-derived diagnostic thresholds. The rapid maturation of artificial intelligence (AI), particularly deep learning (DL), foundation models (FMs), and multimodal integration (MI), has catalyzed a paradigm shift toward automated, quantitative, and patient-specific cardiovascular evaluation. Between 2023 and 2026, AI-driven tools have progressed from retrospective proof-of-concept studies to early prospective clinical validations across echocardiography (EchoCG), cardiac magnetic resonance (CMR), coronary computed tomography angiography (CCTA), and nuclear imaging. Concurrently, AI-enhanced electrocardiography (ECG) and polygenic risk integration have enabled dynamic, longitudinal risk prediction models that outperform conventional scores. Despite these advances, clinical adoption faces substantial hurdles including algorithmic bias, limited generalizability across diverse populations, regulatory fragmentation, workflow integration challenges, and unresolved questions regarding clinical utility and cost-effectiveness. This review critically examines the technological evolution of AI in cardiovascular imaging, evaluates modality-specific applications and emerging digital biomarkers, appraises regulatory and implementation landscapes, and outlines priority research directions. We emphasize that successful integration of AI into cardiovascular care requires rigorous prospective validation, transparent algorithmic governance, equitable data representation, and human-AI collaborative frameworks. As cardiovascular medicine enters the era of precision diagnostics, AI will increasingly serve as a powerful augmentative partner in imaging interpretation, risk stratification, and therapeutic decision-making, provided its meaningful clinical implication is demonstrated through improved patient outcomes.",
-        "authors": [
-          "Xu Xia",
-          "Wasim Ullah Khan",
-          "Qaisar Khan",
-          "Chen Zhong",
-          "Muhammad Shehzad Khan"
-        ],
-        "published_on": "2026-08-11",
-        "doi": "10.1016/j.tcm.2026.08.005",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42580373/",
-        "doi_url": "https://doi.org/10.1016/j.tcm.2026.08.005"
       }
     ],
     "error": null,
@@ -338,6 +341,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-26T22:31:21.725128+00:00",
+  "next_refresh_at": "2026-08-27T22:56:27.215253+00:00",
   "next_push_at": null
 }
