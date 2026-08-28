@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-26T22:56:26.839954+00:00",
-    "last_success_at": "2026-08-26T22:56:27.215253+00:00",
+    "last_attempt_at": "2026-08-28T01:23:14.816406+00:00",
+    "last_success_at": "2026-08-28T01:23:15.164198+00:00",
     "count": 15,
     "papers": [
       {
@@ -201,6 +201,24 @@
         "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
       },
       {
+        "pmid": "42655490",
+        "title": "A Deep Learning Framework Based on Denoising and 2D Image Encoding for Arrhythmia Classification.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "abstract": "Electrocardiogram (ECG) signals are essential for arrhythmia detection; however, they are frequently degraded by noise during acquisition, and their evaluation is vulnerable to data-leakage and patient-overlap issues that can compromise model assessment. Therefore, in this study, we propose an image-encoding-based arrhythmia classifier combined with a morphology-aware denoising autoencoder. We evaluate signals under a corrected, patient-independent protocol in which every model-selection decision was made on a separate validation partition. On a leakage-free test partition, the autoencoder achieved an SNR improvement of 5.63 dB and a correlation coefficient of 0.801, improving R-peak amplitude preservation and redetection accuracy under moderate-to-severe noise while introducing measurable morphology degradation when the input was already lightly contaminated. The proposed model encodes the denoised, beat-centered signal into images through an interleaved-grouping outer product with sorting and flipping, and classifies them with a multi-scale three-dimensional convolutional network. Under this protocol, the proposed model obtained the highest macro-F1 among five image-encoding architectures, but did not outperform four models operating directly on the denoised signal (macro-F1 32.5% versus 37.3-40.0%), indicating that the proposed encoding does not improve overall five-class classification under rigorous inter-patient evaluation. A controlled test showed that the encoding is exactly invariant to global signal-polarity inversion, unlike the sequential models. This targeted invariance, rather than a general accuracy advantage, is the contribution reported here.",
+        "authors": [
+          "Ji-Yun Seo",
+          "Byeong Ho Park",
+          "Chang Min Kim"
+        ],
+        "published_on": "2026-08-27",
+        "doi": "10.3390/s26165183",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42655490/",
+        "doi_url": "https://doi.org/10.3390/s26165183"
+      },
+      {
         "pmid": "42402238",
         "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
         "journal": "Computers in biology and medicine",
@@ -308,27 +326,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42592862/",
         "doi_url": "https://doi.org/10.1093/ehjqcco/qcag128"
-      },
-      {
-        "pmid": "42628486",
-        "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Heart disease is one of the most dangerous diseases, and it is getting worse in adults over the age of 40. Cardiac arrhythmia is defined as an irregular heartbeat, and quick diagnosis and treatment are critical for saving the lives of a huge population. Currently, the arrhythmia classification involves diverse challenges that limit the existing methodologies from attaining the desired results. Some of the major challenges involve signal quality issues, including noise and motion artefacts, class imbalance and dataset limitations, generalization issues due to context variability across patients, real-world deployment and clinical trust. Several methodologies have been introduced to date to focus on these critical issues, but most of them are unable to cover and address the issues altogether. This study offers a novel deep learning-based method for identifying and classifying arrhythmias as a remedy. First, the pre-processing step receives the input data, which includes body temperature, heart rate, blood oxygen level, and ECG signal. Pre-processing is done with min-max normalization and an enhanced wavelet Wiener filtering technique (UP_WWF) in this case. After pre-processing, the input is submitted to the feature extraction stage, which extracts significant features. Features are extracted using an adaptive dense convolutional osprey network where the osprey optimization algorithm is used to tune the parameters of the network for better feature discrimination. Finally, with the help of the extracted features, the various arrhythmia classes are classified using an attention-based deep capsule stacked autoencoder (Att_DCSAE). The proposed framework is evaluated using the MIT-BIH dataset for benchmarking, whereas the constructed combined ECG dataset includes ECG, heart rate, blood oxygen level, and body temperature measurements. The proposed approach resulted in an overall accuracy of 99.6% on the combined ECG dataset, signifying that it can be applied in hard real-world conditions. The study also shows significant improvements when evaluated on the MIT-BIH dataset with a total precision, recall, and F1-score values of 99.98%, 99.68% and 99.86%, resulting in the overall improvement of 0.6% precision, 0.08% recall, and 0.7% F1-score when compared with the latest techniques in the literature.",
-        "authors": [
-          "Vijay A Kotkar",
-          "Makarand Shahade",
-          "Dhanraj S Jadhav",
-          "Kirti V Deshpande",
-          "Vinodkumar H Bhutnal",
-          "Avinash L Golande"
-        ],
-        "published_on": "2026-08-21",
-        "doi": "10.1016/j.compbiolchem.2026.109331",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42628486/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
       }
     ],
     "error": null,
@@ -341,6 +338,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-27T22:56:27.215253+00:00",
+  "next_refresh_at": "2026-08-29T01:23:15.164198+00:00",
   "next_push_at": null
 }
