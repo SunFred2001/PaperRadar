@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-08-28T01:23:14.816406+00:00",
-  "last_success_at": "2026-08-28T01:23:15.164198+00:00",
+  "last_attempt_at": "2026-08-29T06:31:16.620811+00:00",
+  "last_success_at": "2026-08-29T06:31:17.287683+00:00",
   "count": 15,
   "papers": [
     {
@@ -44,6 +44,68 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
       "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+    },
+    {
+      "pmid": "42664624",
+      "title": "When multimodal fusion helps: An ablation study of EEG-ECG fusion strategies for emotion recognition.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "Multimodal physiological signal fusion-particularly electroencephalography (EEG) and electrocardiography (ECG)-is widely assumed to improve emotion recognition over unimodal approaches. Yet the conditions under which fusion genuinely helps, and which fusion architecture is most robust, remain poorly characterised. We present a large-scale ablation study comparing five fusion strategies (EEG-only, ECG-only, concatenation, bidirectional cross-attention, and adaptive gated fusion) on the emotion datasets DREAMER and AMIGOS, and validate ECG signal-quality effects on the stress dataset WESAD. Using a lightweight deep learning architecture (PMMR-DL v3, ∼1.3M parameters) and leave-one-subject-out cross-validation (LOSO-CV) repeated over three random seeds, we evaluate macro F1-score and accuracy for binary emotion classification. Our results reveal pronounced dataset-dependent modality dominance: ECG dominates on DREAMER (F1 = 42.1% vs. EEG 28.6%), whereas EEG dominates on AMIGOS (F1 = 63.8% vs. ECG 13.8%). Critically, multimodal fusion does not consistently outperform the best unimodal baseline. On DREAMER, the strongest fusion strategy (adaptive gated, F1 = 37.1%) still underperforms ECG-only. On AMIGOS, all fusion conditions collapse toward the poor ECG performance (F1 17-21%) because the ECG recordings are noise-dominated. The adaptive gated strategy achieves the lowest inter-seed variance (std = 0.5 on DREAMER), making it the most reliable fusion mechanism when signal quality is adequate. These findings caution against blanket assumptions that multimodal fusion is universally beneficial, and provide practical guidance for modality selection in affective computing pipelines.",
+      "authors": [
+        "Milembolo Miantezila Junior",
+        "Mavoungou Bayone Don-Faustin U-Vangsy",
+        "Guo Bin"
+      ],
+      "published_on": "2026-08-28",
+      "doi": "10.1016/j.compbiomed.2026.111895",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
+    },
+    {
+      "pmid": "42663420",
+      "title": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
+      "journal": "JAMA",
+      "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a treatable cause of heart failure, but diagnosis is often delayed. Accessible tools to prioritize confirmatory evaluation could reduce missed diagnoses when cardiac imaging is limited.\n\nOBJECTIVE: To develop and validate a locally deployable artificial intelligence (AI)-enabled system that identifies patients for further ATTR-CM evaluation from routine electrocardiography (ECG) images.\n\nDESIGN, SETTING, AND PARTICIPANTS: This diagnostic test study used an AI-ECG model developed within Yale New Haven Health (using ECGs from August 2015-June 2023) and temporally validated (July 2023-July 2025). External validation included 5 multinational cohorts and 3 screening cohorts (older Black and Hispanic adults with heart failure; adults with prior carpal tunnel surgery; 99-3902 individuals per cohort).\n\nEXPOSURE: Use of AI-ECG for detecting ATTR-CM from routine ECG images or raw 12-lead signals.\n\nMAIN OUTCOMES AND MEASURES: Area under the receiver operating characteristic curve (AUROC), sensitivity, specificity, and positive and negative predictive values for ATTR-CM confirmed by cardiac amyloid radionuclide imaging (CARI) or biopsy. An exploratory analysis evaluated sequential screening with AI-ECG followed by AI-enabled echocardiography.\n\nRESULTS: Development used 28 174 ECGs from 11 291 patients (293 with ATTR-CM). In internal validation (44 123 patients; mean age, 68.5 years; 49.7% female), AUROC was 0.84 (95% CI, 0.79-0.89), with sensitivity of 0.72 and specificity of 0.86 at the prespecified threshold, and was maintained in a specificity stress test among patients with features that mimic ATTR-CM (left ventricular hypertrophy or severe aortic stenosis without amyloid; AUROC, 0.81 [95% CI, 0.75-0.86]) and those referred for CARI (AUROC, 0.78 [95% CI, 0.73-0.84]). Across 5 external cohorts, AUROCs ranged from 0.78 to 0.89. In 3 screening cohorts, AUROCs were 0.76 (95% CI, 0.68-0.83) in the SCAN-MP study (n = 645) and 0.79 (95% CI, 0.65-0.93) and 0.91 (95% CI, 0.82-0.97) in 2 CACTUS study cohorts (n = 251, n = 121). Sequential AI-ECG and AI-enabled echocardiography increased the positive predictive value from 0.24 to 0.66 and reduced sensitivity from 0.84 to 0.68.\n\nCONCLUSIONS AND RELEVANCE: Locally deployable AI applied to ECG images discriminated ATTR-CM across multinational retrospective and screening cohorts. This approach may provide an accessible first step to prioritize selected patients for echocardiography and confirmatory imaging, although intended use and calibration require prospective evaluation.",
+      "authors": [
+        "Philip M Croon",
+        "Bruno Batinica",
+        "Lovedeep S Dhingra",
+        "Ryan B Choi",
+        "Evangelos K Oikonomou",
+        "Sumukh V Shankar",
+        "Veer Sangha",
+        "Robert M A van der Boon",
+        "Michelle Michels",
+        "Maarten van Ettinger",
+        "Peter-Paul Zwetsloot",
+        "Sergio Teruya",
+        "Cesia Gallegos Kattan",
+        "Edward J Miller",
+        "Navid Noory",
+        "Oscar M Westin",
+        "Sie K Fensman",
+        "Steen Hvitfeldt Poulsen",
+        "Avneet Singh",
+        "Sudarshan Balla",
+        "Anouk Achten",
+        "Charalambos Vlachopoulos",
+        "Alexios S Antonopoulos",
+        "Nico Bruining",
+        "Julian D Gillmore",
+        "Mathew S Maurer",
+        "Frederick L Ruberg",
+        "Marianna Fontana",
+        "Rohan Khera"
+      ],
+      "published_on": "2026-08-28",
+      "doi": "10.1001/jama.2026.16785",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42663420/",
+      "doi_url": "https://doi.org/10.1001/jama.2026.16785"
     },
     {
       "pmid": "42645736",
@@ -261,55 +323,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
-    },
-    {
-      "pmid": "42600678",
-      "title": "A Deep Learning Approach for Noise Suppression in Cardiac-gated SPECT Studies.",
-      "journal": "Journal of nuclear cardiology : official publication of the American Society of Nuclear Cardiology",
-      "abstract": "BACKGROUND: Cardiac-gated SPECT images are prone to elevated imaging noise in clinical acquisitions. This study investigates the use of a deep learning (DL) network for noise suppression in electrocardiogram-gated cardiac studies.\n\nMETHODS: We adapted a 3D convolutional autoencoder network, pre-trained on reduced-counts ungated SPECT image data, for processing cardiac-gated images in standard-dose acquisitions. The network was trained on image data from 862 ungated studies (acquired with Philips BrightView SPECT/CT). We tested this approach on a set of 50 cardiac-gated studies (from the same imaging system). We quantified the denoising performance in terms of the noise level in the myocardium and the functional measures (wall thickening and volumes) of the left ventricle (LV). We also tested this approach on a different imaging system (GE StarGuide SPECT/CT) using 20 acquisitions from a second clinical site.\n\nRESULTS: With DL denoising the image uniformity of the LV wall was improved by 20.6% on average over individual gate frames in normal studies, and the temporal image variability of the myocardium was reduced by 47.4%. There was a high degree of agreement in the functional measures of the LV obtained before and after DL denoising, with the Pearson correlation-coefficient r between the two all above 0.94 in the measurements (LV wall thickness, chamber volumes, and EF). Similar performance was also observed for the StarGuide image data.\n\nCONCLUSIONS: The proposed DL approach can effectively suppress the imaging noise in cardiac-gated SPECT images without inducing distortion in LV function measurements, with potential applicability across different imaging platforms.",
-      "authors": [
-        "Xirang Zhang",
-        "Yongyi Yang",
-        "Jovan G Brankov",
-        "Janusz K Kikut",
-        "Piotr J Slomka",
-        "Michael A King"
-      ],
-      "published_on": "2026-08-14",
-      "doi": "10.1016/j.nuclcard.2026.102944",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42600678/",
-      "doi_url": "https://doi.org/10.1016/j.nuclcard.2026.102944"
-    },
-    {
-      "pmid": "42592862",
-      "title": "Development and External Validation of an AI-ECG Algorithm for Estimating Elevated Serum NT-proBNP Levels.",
-      "journal": "European heart journal. Quality of care & clinical outcomes",
-      "abstract": "BACKGROUND: N-terminal pro-B-type natriuretic peptide (NT-proBNP) is a cornerstone biomarker for the diagnosis and management of heart failure, but its use may be limited by the need for blood testing and laboratory infrastructure. Artificial intelligence (AI) applied to electrocardiograms (ECGs) may offer a widely accessible, non-invasive approach to estimate NT-proBNP levels.\n\nMETHODS: We developed a convolutional neural network incorporating residual and attention-based layers to estimate NT-proBNP levels from standard 12-lead ECGs. The model was trained using 84,895 ECG-NT-proBNP pairs from 40,762 adult patients; 8,545 patients were held out for internal validation. The model generated a nine-level ECG-BNP score. External validation was conducted in 679 patients at two tertiary cardiovascular centers. Discrimination for prespecified thresholds (>250, >500, >1,000 pg/mL) was assessed by AUROC with 95% CIs; calibration and threshold-specific sensitivity, specificity, PPV/NPV were evaluated.\n\nRESULTS: In internal validation, the AI-ECG score showed a strong correlation with measured NT-proBNP levels (Spearman ρ=0.85, p<0.001) and high discrimination across thresholds (AUROC >0.92). In external validation, the model achieved AUROCs of 0.866 (95% CI 0.838-0.894) for >250 pg/mL, 0.882 (95% CI 0.857-0.907) for >500 pg/mL, and 0.885 (95% CI 0.859-0.914) for >1,000 pg/mL. Performance was consistent across key clinical subgroups.\n\nCONCLUSIONS: An AI-enabled ECG model can identify patients with elevated NT-proBNP levels with good accuracy in both internal and external validation cohorts. This approach may help identify patients who should undergo confirmatory NT-proBNP testing, particularly when biomarker testing is delayed, unavailable, or not routinely performed. Prospective studies are warranted to define whether this strategy provides incremental clinical value and can be integrated into clinical pathways.",
-      "authors": [
-        "Ciro Indolfi",
-        "Carmen Spaccarotella",
-        "Alberto Polimeni",
-        "Domenico Simone Castiello",
-        "Giovanni Esposito",
-        "Antonio Curcio",
-        "Adriana Gravina",
-        "Nicola Leone",
-        "Joonghee Kim",
-        "Federico Garoia",
-        "Gianfranco Sinagra",
-        "Thomas F Lüscher",
-        "Youngjin Cho"
-      ],
-      "published_on": "2026-08-13",
-      "doi": "10.1093/ehjqcco/qcag128",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42592862/",
-      "doi_url": "https://doi.org/10.1093/ehjqcco/qcag128"
     }
   ],
   "error": null,
