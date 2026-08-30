@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-29T06:31:16.620811+00:00",
-    "last_success_at": "2026-08-29T06:31:17.287683+00:00",
+    "last_attempt_at": "2026-08-30T08:06:27.101412+00:00",
+    "last_success_at": "2026-08-30T08:06:27.462313+00:00",
     "count": 15,
     "papers": [
       {
@@ -60,6 +60,36 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
         "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
+        "pmid": "42668095",
+        "title": "Ai-based multimodal analysis of ECG and clinical data for evaluation for competitive sports participation: The VALETUDO trial.",
+        "journal": "International journal of cardiology",
+        "abstract": "AIMS: Pre-participation cardiovascular screening (PPS) is essential for preventing SCD in athletes, yet ECG interpretation requires expertise and remains resource-intensive. We aimed to evaluate the feasibility and diagnostic performance of a deep learning (DL) model for analysis of clinical data and resting 12‑lead ECG obtained during routine PPS in competitive athletes.\n\nMETHODS: In this prospective single center observational study, competitive athletes aged 18 to 60 years and undergoing routine PPS were enrolled. PPS included medical history, physical examination, resting and exercise ECG. Athletes were classified as fit or not fit for competitive sports according to clinical evaluation. Resting ECG and clinical variables were analyzed using a multimodal DL architecture. Model performance was assessed using stratified 10-fold cross-validation against PPS clinical classification.\n\nRESULTS: A total of 526 athletes were enrolled (72% male, median age of 27 years (IQR: 20-41); 166 (32%) had a negative PPS result. The test setting (10-fold cross-validation), the model achieved moderate discrimination with an accuracy of 0.64 ± 0.08, SE 0.68 ± 0.15, SP 0.61 ± 0.17, F1-score 0.72 ± 0.1, PPV 0.80 ± 0.07, NPV 0.48 ± 0.12, AUC 0.72(0.66-0.78). Training performances reached accuracy of 0.70 ± 0.06, SE 0.73 ± 0.12, SP 0.67 ± 0.14, F1-score 0.77 ± 0.07, AUC 0.79 (0.74-0.83.\n\nCONCLUSION: Automated DL-based analysis of 12‑lead ECG during PPS is feasible and showed encouraging diagnostic performance in competitive athletes. Although wider experience and external validation is required, AI-assisted multimodal ECG interpretation may represent a useful adjunct to physician assessment for cardiovascular risk stratification in sport screening programs.",
+        "authors": [
+          "Marchetti Davide",
+          "Taconné Marion",
+          "Conte Edoardo",
+          "Quaglia Francesca",
+          "Provera Andrea",
+          "Gallazzi Michele",
+          "Paolisso Pasquale",
+          "Melotti Eleonora",
+          "Schillaci Matteo",
+          "Bartorelli Antonio",
+          "Corino Valentina",
+          "Cerveri Pietro",
+          "Zeppilli Paolo",
+          "Mainardi Luca",
+          "Andreini Daniele"
+        ],
+        "published_on": "2026-08-29",
+        "doi": "10.1016/j.ijcard.2026.134744",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
+        "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
       },
       {
         "pmid": "42664624",
@@ -245,6 +275,22 @@
         "doi_url": "https://doi.org/10.1007/s11517-026-03639-4"
       },
       {
+        "pmid": "42667695",
+        "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
+        "journal": "Computer methods and programs in biomedicine",
+        "abstract": "BACKGROUND: Automated electrocardiogram (ECG) interpretation is essential for clinical efficiency, yet many existing deep learning (DL) models are perceived as \"black boxes\" and lack direct benchmarking against established commercial standards. To foster clinician trust and support reimbursement justification, AI systems must demonstrate not only superior accuracy but also alignment with established clinical criteria.\n\nMETHODS: We proposed a Dual-Stream Signal Fusion Architecture that integrates latent spatio-temporal features from 21,799 raw 12-lead ECG waveforms (PTB-XL) with 148 expert-engineered clinical metrics extracted via commercial algorithms (PTB-XL+). The system was evaluated against the Marquette 12SL™ (12SL) commercial standard using the independent PTB-XL test set (Fold 10).\n\nRESULTS: The proposed Hybrid Model achieved a Macro F1-Score of 0.851, significantly outperforming the commercial 12SL standard (0.812) and the waveform-only baseline (0.821). Notably, sensitivity for Myocardial Infarction (MI) improved by 10.8% relative to 12SL (0.72 vs. 0.65). Feature importance analysis confirmed that the model's decisions are clinically traceable, attributing 45% importance to QRS amplitude for Hypertrophy diagnosis, which aligns with Sokolow-Lyon criteria.\n\nCONCLUSIONS: Our hybrid framework offers a superior, transparent, and robust standard for automated ECG interpretation. By outperforming clinical gold standards and providing physiologically sound reasoning, this work represents a step toward building the clinical evidence base for AI-based diagnostic support across diverse global populations; prospective, multi-site validation remains necessary before clinical deployment can be considered. The proposed framework is further distinguished by its modular design, which ensures adaptability across both resource-rich and resource-limited clinical environments.",
+        "authors": [
+          "Chuelwon Lee"
+        ],
+        "published_on": "2026-08-29",
+        "doi": "10.1016/j.cmpb.2026.109613",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42667695/",
+        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109613"
+      },
+      {
         "pmid": "42546764",
         "title": "Efficient ECG representation learning via intervention-based attribution alignment.",
         "journal": "Physiological measurement",
@@ -298,47 +344,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42402238/",
         "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111839"
-      },
-      {
-        "pmid": "42242104",
-        "title": "Electrocardiogram-based short-term risk stratification for acute kidney injury using time-frequency deep learning analysis.",
-        "journal": "Computers in biology and medicine",
-        "abstract": "BACKGROUND AND OBJECTIVES: Acute kidney injury (AKI) is a common and clinically important complication in critically ill and perioperative patients. Conventional AKI diagnosis relies primarily on serum creatinine and urine output, which may reflect renal injury only after physiological deterioration has already occurred. Therefore, non-invasive physiological signals may provide complementary information for earlier AKI risk assessment. This study aimed to develop and preliminarily validate an electrocardiogram-based time-frequency deep learning framework, termed FFT-ECG, for short-term risk stratification of any-stage AKI within a 24-h prediction window.\n\nMETHODS: The FFT-ECG model was developed using 5673 standard 12-lead ECG segments from 4236 patients in MIMIC-IV-ECG. All ECG leads underwent the same preprocessing pipeline, including 0.5-100 Hz band-pass filtering, 60 Hz notch filtering, extraction of the central 8-s segment, robust normalization, and padding to 4096 samples. The model used a dual-path convolutional architecture to process time-domain signals and frequency-domain representations in parallel, followed by BiGRU and attention modules. A binary classifier was trained for any-AKI prediction within 24 h after ECG acquisition, and a discrete-time survival model was used to estimate interval-specific AKI risk across four 6-h intervals. In addition to internal validation of the 12-lead model, a single-lead II model was evaluated internally and externally in VitalDB for binary any-AKI prediction only. Model evaluation included ablation analysis, decision curve analysis, survival-based risk stratification, baseline characteristic comparisons with multiple-comparison correction, and attention-based waveform localization analysis.\n\nRESULTS: In the internal MIMIC-IV 12-lead test set, FFT-ECG achieved an AUROC of 0.736 (95% CI, 0.689-0.779), an AUPRC of 0.694 (95% CI, 0.627-0.749), an accuracy of 0.692, a sensitivity of 0.609, and a specificity of 0.755 for binary any-AKI prediction. The discrete-time survival model achieved a C-index of 0.647. Decision curve analysis suggested a higher net benefit than treat-all and treat-none strategies across selected threshold probabilities. The single-lead II model showed comparable internal discrimination in MIMIC-IV, with an AUROC of 0.757 (95% CI, 0.714-0.799), but showed attenuated performance in VitalDB external validation, with an AUROC of 0.550 (95% CI, 0.512-0.587) and an AUPRC of 0.088 (95% CI, 0.074-0.107). Attention localization analysis showed that the highest attention mass was concentrated around the R-wave upslope and downslope regions, followed by the Q wave, ST segment, and PR segment. These attention findings were interpreted as hypothesis-generating saliency patterns rather than direct mechanistic evidence.\n\nCONCLUSION: FFT-ECG demonstrated promising preliminary internal performance for ECG-based short-term any-AKI risk stratification. However, the reduced performance in VitalDB external validation indicates that model transportability remains limited across ECG acquisition settings, patient populations, and outcome definitions. These findings support the feasibility of ECG-based AKI risk assessment as an adjunctive early-warning approach, while emphasizing the need for model recalibration, domain adaptation, and prospective multicenter validation before clinical implementation.",
-        "authors": [
-          "Weiqiao Wang",
-          "Yiyang Cen",
-          "Yuanzhao Li",
-          "Yi Xin"
-        ],
-        "published_on": "2026-06-05",
-        "doi": "10.1016/j.compbiomed.2026.111778",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42242104/",
-        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111778"
-      },
-      {
-        "pmid": "42155349",
-        "title": "Detecting cardiovascular diseases using ECG scans and explainable artificial intelligence.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: Cardiovascular diseases are the leading cause of mortality globally, requiring early and accurate detection through tools like electrocardiography. While artificial intelligence models have emerged to provide reproducible analysis of electrocardiogram printouts, their clinical deployment is hindered by a lack of transparency and sensitivity to real-world image variations such as discolorations, handwriting, or paper wrinkles. This study introduces an explainable artificial intelligence framework designed to quantify the stability of deep learning models and identify vulnerabilities in their behavior under controlled image perturbations.\n\nMETHODS: We utilized a large-scale dataset of electrocardiogram printouts synthesized from the PTB-XL benchmark, creating both clean and contaminated versions featuring various image-level manipulations. Four deep learning architectures, including EfficientNet and InceptionNet, were trained and evaluated using different activation functions. The stability of these models was assessed using local interpretable model-agnostic explanations. We employed intersection over union metrics to measure the consistency of explanations across perturbations and extracted radiomic-like image features to quantitatively analyze the characteristics of the generated explanations.\n\nRESULTS: Our experiments demonstrate that models trained on augmented datasets generalize better to perturbed data, with the best-performing model achieving an area under the receiver operating characteristic curve of 0.894 on the contaminated test set. Stability analysis showed that models trained on data containing perturbations achieved the highest average intersection over union of 0.399, indicating a more consistent focus on diagnostic features. Furthermore, radiomic-like features enabled the precise identification of the underlying deep learning model with an accuracy of up to 98%.\n\nCONCLUSIONS: The proposed framework enables a comprehensive visual and quantitative evaluation of artificial intelligence stability in cardiovascular disease detection. By identifying how specific image manipulations affect model reliability, this approach can guide the development of more robust algorithms and targeted data augmentation strategies. To ensure full reproducibility and foster cross-domain collaboration, our tools and datasets are available at https://github.com/smile-research/xai-ecg.",
-        "authors": [
-          "Arkadiusz Czerwinski",
-          "Damian Kucharski",
-          "Jacek Kawa",
-          "Yalin Zheng",
-          "Gregory Y H Lip",
-          "Jakub Nalepa",
-          "Agata M Wijata"
-        ],
-        "published_on": "2026-05-20",
-        "doi": "10.1016/j.cmpb.2026.109428",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42155349/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109428"
       }
     ],
     "error": null,
@@ -351,6 +356,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-08-30T06:31:17.287683+00:00",
+  "next_refresh_at": "2026-08-31T08:06:27.462313+00:00",
   "next_push_at": null
 }
