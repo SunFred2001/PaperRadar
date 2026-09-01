@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-08-31T14:57:15.483175+00:00",
-    "last_success_at": "2026-08-31T14:57:16.237598+00:00",
+    "last_attempt_at": "2026-09-01T17:14:29.631171+00:00",
+    "last_success_at": "2026-09-01T17:14:30.328748+00:00",
     "count": 15,
     "papers": [
       {
@@ -43,6 +43,26 @@
         "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
       },
       {
+        "pmid": "42643135",
+        "title": "[Artificial intelligence in cardiovascular prevention: a strategic opportunity for risk prediction and early diagnosis].",
+        "journal": "Giornale italiano di cardiologia (2006)",
+        "abstract": "Cardiovascular diseases remain the leading cause of mortality and morbidity worldwide, with substantial impact in Italy. Cardiovascular prevention is a strategic priority, yet a significant gap persists between evidence-based guideline recommendations and their actual implementation in clinical practice. Artificial intelligence (AI), through machine learning and deep learning models, is emerging as a potentially transformative technology to bridge this gap, enabling more precise, dynamic, and personalized cardiovascular risk stratification compared with traditional risk scores. This review examines the most recent evidence on the application of AI in cardiovascular prevention, with a specific focus on risk stratification, early detection of subclinical disease, and identification of patients most likely to benefit from targeted interventions. It addresses the limitations of conventional risk scores and the contribution of emerging risk determinants, including digital biomarkers, genetic data, and wearable devices. It discusses the role of AI-enabled electrocardiography in the early detection of subclinical atrial fibrillation, left ventricular dysfunction, and coronary artery disease; the potential of opportunistic imaging (chest radiography, chest and coronary computed tomography, mammography) for subclinical atherosclerosis; and the integration of AI into clinical care pathways, electronic health records, clinical decision support systems, and telemonitoring networks. Overall, AI outlines the transition from a reactive cardiology model toward a predictive, proactive, and precision-based approach. Translation into routine clinical practice requires robust prospective evidence, randomized controlled trials, validation in heterogeneous populations, improved model interpretability, and adequate digital and regulatory infrastructures.",
+        "authors": [
+          "Simona Giubilato",
+          "Lucio Giuseppe Granata",
+          "Salvatore Massimo Petrina"
+        ],
+        "published_on": "2026-08-26",
+        "doi": "10.1714/4755.47724",
+        "publication_types": [
+          "Journal Article",
+          "Review",
+          "English Abstract"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42643135/",
+        "doi_url": "https://doi.org/10.1714/4755.47724"
+      },
+      {
         "pmid": "42544099",
         "title": "The role of artificial intelligence in the diagnosis of pericardial constriction.",
         "journal": "Current opinion in cardiology",
@@ -60,6 +80,62 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
         "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
+      },
+      {
+        "pmid": "42186368",
+        "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
+        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+        "abstract": "Background The classification of electrocardiogram (ECG) signals is a critical task in detecting cardiac arrhythmias. However, challenges such as class imbalance and the need to capture both local and global temporal patterns make this problem complex.ObjectiveIn this study, a hybrid deep learning model, called MBViT-FocalGA, is proposed for the classification of electrocardiogram ECG signals.MethodsThe proposed model combines a Multi-branch Vision Transformer (MBViT) architecture with a Focal Loss function optimized via a Genetic Algorithm (GA) called as MBViT-FocalGA. Thanks to three independent ViT branches operating at different patch sizes, the model can effectively learn both local and global timing patterns from ECG signals. Furthermore, the class imbalance problem frequently encountered in arrhythmia data is mitigated by optimizing the hyperparameters of the Focal Loss function with GA, improving the recognition of minority classes. The model's performance was evaluated on the MIT-BIH Arrhythmia Database in two different scenarios: (i) a two-class scenario combined into normal (N) and others (O), and (ii) a five-class scenario consisting of N, L, R, A, and V.ResultsExperimental results demonstrate that the MBViT-FocalGA model achieves superior classification performance with 98% overall accuracy and a high F1 score, outperforming classical deep learning models for both scenarios.ConclusionThese findings demonstrate the strong potential of transformer-based architectures and adaptive loss function optimizations in ECG classification.",
+        "authors": [
+          "Zeynep Garip",
+          "Ekin Ekinci"
+        ],
+        "published_on": "2026-05-26",
+        "doi": "10.1177/09287329261446510",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
+        "doi_url": "https://doi.org/10.1177/09287329261446510"
+      },
+      {
+        "pmid": "41791632",
+        "title": "EFFNet: Efficient feature fusion network for left ventricular hypertrophy identification based on 12-lead electrocardiogram signals.",
+        "journal": "Heart rhythm",
+        "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is a common cardiovascular disorder, yet its detection from electrocardiogram (ECG) signals remains challenging because of the low sensitivity of conventional criteria.\n\nOBJECTIVE: We aimed to explore a new deep learning method for effective LVH identification based on 12-lead ECG signals.\n\nMETHODS: We proposed a novel ECG-based efficient feature fusion network (EFFNet) for LVH classification, incorporating a novel feature fusion module that fuses morphological features extracted by a convolutional neural network with algorithm-derived amplitude features and a mixture of experts module. Experiments with 5-fold cross-validation were performed on the 12-lead ECG signals in the UK Biobank data set (n = 38,289), with cardiovascular magnetic resonance measurement serving as the reference standard. We also tested the model on an external cohort, the Qinghai data set, using echocardiography as the standard (n = 142,777). Using the UK Biobank and Qinghai cohorts, we assessed associations between EFFNet-predicted LVH and cardiovascular rhythm abnormalities.\n\nRESULTS: Experimental results with cross-validation on the UK Biobank data set showed that, on average, EFFNet achieved an area under the receiver operating characteristic curve of 0.933, which outperformed conventional ECG-based diagnostic methods and comparative deep learning methods. On the external Qinghai validation set, EFFNet achieved an area under the receiver operating characteristic curve of 0.654. EFFNet-predicted LVH was associated with atrial fibrillation, ventricular premature beats, and atrial premature beats.\n\nCONCLUSION: EFFNet significantly improves ECG-based LVH detection and introduces a novel deep learning framework for LVH risk prediction, advancing intelligent ECG-based screening and early identification of LVH.",
+        "authors": [
+          "Rui Yu",
+          "Lei Jia",
+          "Yu Pu",
+          "Zhuhuang Zhou",
+          "Lan Lin",
+          "Xiaofeng Gao",
+          "Guangyu Bin"
+        ],
+        "published_on": "2026-03-07",
+        "doi": "10.1016/j.hrthm.2026.02.046",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41791632/",
+        "doi_url": "https://doi.org/10.1016/j.hrthm.2026.02.046"
+      },
+      {
+        "pmid": "42674067",
+        "title": "Advanced detection of fetal arrhythmia utilizing spatial deep convolutional neural network with GHA-DenseNet for enhanced electrocardiographic signal processing.",
+        "journal": "Computer methods in biomechanics and biomedical engineering",
+        "abstract": "Fetal arrhythmia is a critical medical condition associated with perinatal morbidity and cardiac complications. This paper proposes an Advanced Detection of Fetal Arrhythmia utilizing Spatial Deep Convolutional Neural Network with GHA-DenseNet (DFA-SDCNN-GHANet). Initially, fetal ECG signals are preprocessed using Adaptive Fast Desensitized Kalman Filter (AFDKF) to remove artefacts, followed by Synthetic Minority Over-sampling Technique (SMOTE) for class balancing. Iterative Local Maximum Synchrosqueezing-Extracting Transform (ILMSET) extracts informative features, which are classified using SDCNN-GHANet optimized by the Black-Winged Kite Algorithm (BWKA). The proposed framework achieved 6.62%, 7.94%, and 9.75% higher F1-score than existing methods.",
+        "authors": [
+          "Joel T",
+          "Sethukarasi T"
+        ],
+        "published_on": "2026-08-31",
+        "doi": "10.1080/10255842.2026.2706094",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42674067/",
+        "doi_url": "https://doi.org/10.1080/10255842.2026.2706094"
       },
       {
         "pmid": "42668095",
@@ -152,6 +228,30 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42663420/",
         "doi_url": "https://doi.org/10.1001/jama.2026.16785"
+      },
+      {
+        "pmid": "42675827",
+        "title": "CuAlO2-Based Memristor with Device-Aware Temporal Learning for Neuromorphic Applications.",
+        "journal": "ACS applied materials & interfaces",
+        "abstract": "Memristive devices have emerged as promising candidates for neuromorphic computing because of their ability to emulate analog synaptic functionalities via electrical tuning of conductance states. However, achieving stable and reliable switching remains challenging in copper oxide systems due to multiple intrinsic defect-mediated transport processes existing simultaneously. In this work, we demonstrate CuAlO2-based memristors exhibiting stable bipolar resistive switching, analog conductance modulation, and synaptic plasticity suitable for neuromorphic applications. The structurally ordered delafossite CuAlO2 switching layer reduces competing intrinsic defect migration and promotes controlled Ag-mediated electrochemical metallization dynamics. Furthermore, the incorporation of an ultrathin SnO2 interlayer introduces a p-n heterojunction that modifies the local electric-field distribution and improves conductive filament confinement, resulting in improved switching properties. The memristor further exhibits key synaptic functionalities, including paired-pulse facilitation, potentiation-depression behavior, and synaptic plasticity. To evaluate its neuromorphic capability, a device-aware spiking neural network incorporating experimentally measured memristor dynamics was implemented for neuromorphic learning tasks like MNIST handwritten digit classification and physiological signal classification using ECG arrhythmia data. These results establish CuAlO2-based memristors as a promising platform for physically realistic neuromorphic computing and demonstrate the importance of integrating device-level switching dynamics into neural network design.",
+        "authors": [
+          "Ayan Chatterjee",
+          "Mubashir Mushtaq Ganaie",
+          "Swaraj Mukherjee",
+          "Jonathan Adamu",
+          "Chaitanya B Auti",
+          "Chittaranjan Das",
+          "Pradeep Kumar",
+          "Michael Saliba",
+          "Mahesh Kumar"
+        ],
+        "published_on": "2026-09-01",
+        "doi": "10.1021/acsami.6c12115",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42675827/",
+        "doi_url": "https://doi.org/10.1021/acsami.6c12115"
       },
       {
         "pmid": "42645736",
@@ -254,96 +354,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
-      },
-      {
-        "pmid": "42616264",
-        "title": "MDAGCN: A multimodal dynamic adaptive graph convolutional network for sleep staging.",
-        "journal": "Medical & biological engineering & computing",
-        "abstract": "Existing deep-learning-based sleep staging frameworks frequently rely on shared multimodal feature extractors, which may overlook modality-specific discriminative traits and insufficiently capture dynamic cross-modal dependencies. This study aims to improve automated sleep stage classification by proposing the Multimodal Dynamic Adaptive Graph Convolutional Network (MDAGCN) for heterogeneous polysomnography (PSG) analysis. MDAGCN employs specialized branches to capture the spatio-temporal characteristics of EEG, EOG, EMG, and ECG signals, and integrates multi-scale convolutions, lead-wise attention, and adaptive graph learning to model complementary multimodal interactions within a unified framework. Extensive evaluations on ISRUC-S3 and Sleep-EDF-78 demonstrate competitive performance. On ISRUC-S3, MDAGCN achieves an accuracy of 0.841, an F1-score of 0.825, and a Cohen's kappa of 0.795, matching the best reported accuracy and kappa and obtaining the highest F1-scores for the W, N2, and N3 stages. On Sleep-EDF-78, MDAGCN achieves the highest accuracy of 0.828 and Cohen's kappa of 0.766, improving over the strongest baseline by 0.3 and 0.6 percentage points, respectively. These results demonstrate the effectiveness of MDAGCN for multimodal sleep staging and highlight the importance of jointly modeling modality-specific characteristics and cross-modal physiological dependencies.",
-        "authors": [
-          "Dongsheng Fang",
-          "Chu Li",
-          "Haoxuan Li",
-          "Xiaodong Yang"
-        ],
-        "published_on": "2026-08-19",
-        "doi": "10.1007/s11517-026-03639-4",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42616264/",
-        "doi_url": "https://doi.org/10.1007/s11517-026-03639-4"
-      },
-      {
-        "pmid": "42667695",
-        "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND: Automated electrocardiogram (ECG) interpretation is essential for clinical efficiency, yet many existing deep learning (DL) models are perceived as \"black boxes\" and lack direct benchmarking against established commercial standards. To foster clinician trust and support reimbursement justification, AI systems must demonstrate not only superior accuracy but also alignment with established clinical criteria.\n\nMETHODS: We proposed a Dual-Stream Signal Fusion Architecture that integrates latent spatio-temporal features from 21,799 raw 12-lead ECG waveforms (PTB-XL) with 148 expert-engineered clinical metrics extracted via commercial algorithms (PTB-XL+). The system was evaluated against the Marquette 12SL™ (12SL) commercial standard using the independent PTB-XL test set (Fold 10).\n\nRESULTS: The proposed Hybrid Model achieved a Macro F1-Score of 0.851, significantly outperforming the commercial 12SL standard (0.812) and the waveform-only baseline (0.821). Notably, sensitivity for Myocardial Infarction (MI) improved by 10.8% relative to 12SL (0.72 vs. 0.65). Feature importance analysis confirmed that the model's decisions are clinically traceable, attributing 45% importance to QRS amplitude for Hypertrophy diagnosis, which aligns with Sokolow-Lyon criteria.\n\nCONCLUSIONS: Our hybrid framework offers a superior, transparent, and robust standard for automated ECG interpretation. By outperforming clinical gold standards and providing physiologically sound reasoning, this work represents a step toward building the clinical evidence base for AI-based diagnostic support across diverse global populations; prospective, multi-site validation remains necessary before clinical deployment can be considered. The proposed framework is further distinguished by its modular design, which ensures adaptability across both resource-rich and resource-limited clinical environments.",
-        "authors": [
-          "Chuelwon Lee"
-        ],
-        "published_on": "2026-08-29",
-        "doi": "10.1016/j.cmpb.2026.109613",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42667695/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109613"
-      },
-      {
-        "pmid": "42546764",
-        "title": "Efficient ECG representation learning via intervention-based attribution alignment.",
-        "journal": "Physiological measurement",
-        "abstract": "Objective.The widespread adoption of wearable ECG devices has driven an explosive growth of long-term, multi-lead ECG data. However, clinical analysis and model development remain constrained by the excessive cost of data annotation, a limitation particularly pronounced in conventional deep learning methods that rely on labeled information.Approach.To address the problem of label scarcity in wearable ECG measurement scenarios, this paper proposes a self-supervised learning method for ECG based on intervention-based attribution alignment, aiming to improve the model's analytical performance on sparsely labeled ECG signals using unlabeled data. Our method integrates an intervention-inspired operation into the contrastive learning framework: it extracts compact representations from unlabeled data on one hand, and employs feature intervention to learn view-invariant mechanisms on the other, thereby reducing dependency on labeled data for target tasks.Main results.Experimental results on four public ECG datasets demonstrate that the proposed method achieves performance on par with state-of-the-art approaches in typical tasks such as arrhythmia classification, while utilizing only a fraction of the annotated samples.Significance.The findings indicate that our method effectively accommodates the multi-scenario monitoring characteristics of wearable devices, offering a practical solution to alleviate ECG data annotation burdens and advance the efficient analysis of long-term ECG signals.",
-        "authors": [
-          "Hongpo Zhang",
-          "Jiaang Li",
-          "Yuheng Li"
-        ],
-        "published_on": "2026-08-04",
-        "doi": "10.1088/1361-6579/ae9450",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42546764/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/ae9450"
-      },
-      {
-        "pmid": "42655490",
-        "title": "A Deep Learning Framework Based on Denoising and 2D Image Encoding for Arrhythmia Classification.",
-        "journal": "Sensors (Basel, Switzerland)",
-        "abstract": "Electrocardiogram (ECG) signals are essential for arrhythmia detection; however, they are frequently degraded by noise during acquisition, and their evaluation is vulnerable to data-leakage and patient-overlap issues that can compromise model assessment. Therefore, in this study, we propose an image-encoding-based arrhythmia classifier combined with a morphology-aware denoising autoencoder. We evaluate signals under a corrected, patient-independent protocol in which every model-selection decision was made on a separate validation partition. On a leakage-free test partition, the autoencoder achieved an SNR improvement of 5.63 dB and a correlation coefficient of 0.801, improving R-peak amplitude preservation and redetection accuracy under moderate-to-severe noise while introducing measurable morphology degradation when the input was already lightly contaminated. The proposed model encodes the denoised, beat-centered signal into images through an interleaved-grouping outer product with sorting and flipping, and classifies them with a multi-scale three-dimensional convolutional network. Under this protocol, the proposed model obtained the highest macro-F1 among five image-encoding architectures, but did not outperform four models operating directly on the denoised signal (macro-F1 32.5% versus 37.3-40.0%), indicating that the proposed encoding does not improve overall five-class classification under rigorous inter-patient evaluation. A controlled test showed that the encoding is exactly invariant to global signal-polarity inversion, unlike the sequential models. This targeted invariance, rather than a general accuracy advantage, is the contribution reported here.",
-        "authors": [
-          "Ji-Yun Seo",
-          "Byeong Ho Park",
-          "Chang Min Kim"
-        ],
-        "published_on": "2026-08-27",
-        "doi": "10.3390/s26165183",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42655490/",
-        "doi_url": "https://doi.org/10.3390/s26165183"
-      },
-      {
-        "pmid": "42402238",
-        "title": "ECG arrhythmia classification via wavelet-driven feature extraction and swarm-optimised gradient boosting.",
-        "journal": "Computers in biology and medicine",
-        "abstract": "Cardiovascular diseases have been the primary contributor to deaths worldwide, and hence, the need to detect arrhythmia from Electrocardiogram signals in a precise and efficient manner is a critical problem in the medical community. This work presents a lightweight and computationally efficient framework that integrates Discrete Wavelet Transform (DWT)-based statistical features, ECG morphological descriptors, and Artificial Bee Colony (ABC)-optimized eXtreme Gradient Boosting Machine (XGBM) classification for ECG beat analysis. This work has been implemented using the popular MIT-BIH Arrhythmia Database, which has 100,674 instances of ECG beats, divided into five AAMI classes, with a severe level of class imbalance, where 89.4% instances belong to the Normal class. ECG signals have been pre-processed using a seven-stage algorithm, including Butterworth high-pass filtering, notch filtering, Pan-Tompkins R-peak detection, beat segmentation, and normalisation. Then, a three-level Haar transform is implemented, and 32 statistical features have been extracted from the DWT decomposition, along with 32 morphological features, forming a 64-dimensional vector. The proposed ABC algorithm with 8 bees and 8 iterations optimizes the six XGBM model hyperparameters using a balanced fitness function of accuracy and macro F1-score and converges at the optimal fitness value of 0.8211. The proposed ABC-XGBM model has a classification accuracy of 95.14%, a macro F1-score of 0.948, a macro AUC of 0.983, Matthews Correlation Coefficient of 0.925, and G-Mean of 0.932 with class-wise AUC values > 0.94. An ablation study has shown that the proposed DWT adds +3.7% and the proposed ABC optimization adds +1.14% in accuracy improvement. Five-fold cross-validation has shown a stable performance with a mean accuracy of 0.952 ± 0.001 at a time complexity of 1.0 ms per sample without the dependency of the GPU. The proposed framework is better than the other deep learning models such as CardioAttentionNet with a classification accuracy of 91.20% and the proposed transformer-based classifier with a classification accuracy of 90.50%.",
-        "authors": [
-          "S Umarani",
-          "V Kavitha",
-          "M S S Sasikumar",
-          "S Prabhu"
-        ],
-        "published_on": "2026-07-05",
-        "doi": "10.1016/j.compbiomed.2026.111839",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42402238/",
-        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111839"
       }
     ],
     "error": null,
@@ -356,6 +366,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-09-01T14:57:16.237598+00:00",
+  "next_refresh_at": "2026-09-02T17:14:30.328748+00:00",
   "next_push_at": null
 }
