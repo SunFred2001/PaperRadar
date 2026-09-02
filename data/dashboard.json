@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-09-01T17:14:29.631171+00:00",
-    "last_success_at": "2026-09-01T17:14:30.328748+00:00",
+    "last_attempt_at": "2026-09-02T17:46:13.967777+00:00",
+    "last_success_at": "2026-09-02T17:46:14.381723+00:00",
     "count": 15,
     "papers": [
       {
@@ -43,6 +43,48 @@
         "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
       },
       {
+        "pmid": "42683521",
+        "title": "Damage-Free Passivation of Ambipolar OECTs with Fluoropolymer Film for Enhanced Performance and Stability Toward Reliable Biosignal Processing.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "abstract": "Organic electrochemical transistor (OECT) is a promising building block for bioelectronic and neuromorphic applications due to its high transconductance and low-voltage operation. However, microstructural instability and irreversible electrochemical degradation of the organic mixed ionic-electronic conductors (OMIECs) are still challenging to achieve high performance of OECTs. Here, we present an ambipolar vertical OECT in which a fluorinated passivation layer is deposited on the OMIEC surface directly by solvent-free initiated chemical vapor deposition (iCVD) method without damaging the channel layer. Vapor-phase infiltration of the fluoropolymer layer followed by thermal annealing induces controlled nanoscale phase separation in the OMIEC layer, enabling efficient ion doping in both p-type and n-type modes. Consequently, fluoropolymer-passivated ambipolar vertical OECTs (FPA-vOECTs) exhibit higher transconductance, far enhanced transient response, and longer operational stability. In particular, the transconductance-a key figure of merit-increased from 12.7 to 73.7 mS in p-type and from 4.1 to 21.4 mS in n-type operation. Leveraging the enhanced performance of the ambipolar vertical OECTs, we also demonstrate, for the first time, a single-channel bipolar event-driven spiking encoder for neuromorphic bioelectronics, enabling electrocardiogram signal encoding and spiking neural network-based arrhythmia classification with 90.5% accuracy.",
+        "authors": [
+          "Junyeong Yang",
+          "Bohyun Lee",
+          "Hanna Lee",
+          "Mingyu Kim",
+          "Changsoon Choi",
+          "Jung Ah Lim",
+          "Youson Kim",
+          "Sung Gap Im"
+        ],
+        "published_on": "2026-09-02",
+        "doi": "10.1002/advs.77167",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42683521/",
+        "doi_url": "https://doi.org/10.1002/advs.77167"
+      },
+      {
+        "pmid": "42641629",
+        "title": "A deformable lead-attention fusion network for multi-label ECG classification integrating clinical metadata.",
+        "journal": "Biomedical physics & engineering express",
+        "abstract": "Cardiovascular diseases remain a major global health burden, making accurate electrocardiogram (ECG) analysis essential for timely diagnosis. While deep learning-based methods have made significant progress in automating ECG classification, they are often limitedbythe variability of ECG signals, the frequent presence of multiple cardiac abnormalities, and the inadequate integration of diverse clinical data. This study proposes Deformable Lead-Path and Multi-Modal Fusion Network (DLM-Net): a robust deep learning framework for multi-label ECG classification, designed to address these challenges. DLM-Net incorporates several key innovations. First, the Lead-Specific Deformable Path applies deformable convolutions independently to each lead. This enables adaptive modeling of non-rigid and complex waveform variations. It is also enhanced by a high-frequency module, which captures fine-grained temporal details. Secondly, a spatial path based on a ResNet-like backbone and feature pyramid network fuses multi-scale representations in order to effectively capture both global and local ECG patterns. In parallel, the lead path uses a lead attention Transformer to explicitly model inter-lead dependencies. Finally, ECG features from the spatial and lead paths are integrated with clinical tabular data through a multimodal fusion module, in which compact patient-level tabular embeddings provide complementary contextual information for ECG representation. Extensive experiments on three public multi-label ECG datasets- Physikalisch-Technische Bundesanstalt-XL, CPSC2018 and Chapman-demonstrate that DLM-Net achieves competitive and stable performance across datasets, with label-wise accuracies of 89.11%, 96.05% and 97.82%, respectively. Overall, DLM-Net provides an effective and flexible framework for multi-label ECG classification, offering improved accuracy and robustness across diverse datasets and demonstrating the effectiveness of the proposed architecture in handling complex multi-label diagnostic tasks in retrospective settings.",
+        "authors": [
+          "Enjun Zhou",
+          "Xiangyong Kong",
+          "Hao Wang",
+          "Chenrui Bai"
+        ],
+        "published_on": "2026-08-25",
+        "doi": "10.1088/2057-1976/ae9e39",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
+        "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
+      },
+      {
         "pmid": "42643135",
         "title": "[Artificial intelligence in cardiovascular prevention: a strategic opportunity for risk prediction and early diagnosis].",
         "journal": "Giornale italiano di cardiologia (2006)",
@@ -61,6 +103,27 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42643135/",
         "doi_url": "https://doi.org/10.1714/4755.47724"
+      },
+      {
+        "pmid": "42607398",
+        "title": "Deep learning electrocardiogram analysis for rapid rule-out of acute coronary syndrome in the emergency department: a multicenter diagnostic accuracy study.",
+        "journal": "Journal of electrocardiology",
+        "abstract": "BACKGROUND: Rapid and accurate exclusion of acute coronary syndrome (ACS) in patients presenting with chest pain remains a major clinical challenge. Deep learning models applied to the 12‑lead electrocardiogram (ECG) may improve diagnostic efficiency, yet multicenter validation data remain limited.\n\nMETHODS: We conducted a prospective, multicenter diagnostic accuracy study enrolling 6743 consecutive adults presenting to five emergency departments with suspected ACS between January 2020 and December 2023. Patients with ST-elevation myocardial infarction were excluded. A deep learning ECG (DL-ECG) model based on a residual convolutional neural network was developed using nested five-fold stratified cross-validation. Model performance was compared against emergency physician clinical assessment (Standard Care) and the HEART score using the 30-day adjudicated ACS diagnosis as the reference standard.\n\nRESULTS: Among 6743 patients (mean age 61.9 years; 59.8% male), 1099 (16.3%) received an ACS diagnosis within 30 days. The DL-ECG model achieved an area under the receiver operating characteristic curve (AUC) of 0.954 (95% CI, 0.948-0.960), significantly exceeding Standard Care (0.921; P < 0.001) and the HEART score (0.876; P < 0.001). At matched sensitivity of 97.5%, the DL-ECG model demonstrated superior specificity (0.746 vs. 0.568 and 0.354) and negative predictive value (0.994 vs. 0.992 and 0.987). Performance was consistent across demographic subgroups and study centers.\n\nCONCLUSIONS: A deep learning model analyzing the standard 12‑lead ECG significantly outperformed both clinical assessment and the HEART score for ruling out ACS. If validated prospectively, this approach could facilitate earlier discharge of low-risk patients.",
+        "authors": [
+          "Yousong Li",
+          "Delong Huang",
+          "Zhiqiang Pu",
+          "Jing Lian",
+          "Bingmei Huang"
+        ],
+        "published_on": "2026-08-17",
+        "doi": "10.1016/j.jelectrocard.2026.154420",
+        "publication_types": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42607398/",
+        "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154420"
       },
       {
         "pmid": "42544099",
@@ -276,25 +339,6 @@
         "doi_url": "https://doi.org/10.1186/s40635-026-00949-7"
       },
       {
-        "pmid": "42641629",
-        "title": "A Deformable Lead-Attention Fusion Network for Multi-Label ECG Classification Integrating Clinical Metadata.",
-        "journal": "Biomedical physics & engineering express",
-        "abstract": "Cardiovascular diseases remain a major global health burden, making accurate elec-trocardiogram (ECG) analysis essential for timely diagnosis. While deep learning-based methods have made significant progress in automating ECG classification, they are often limited by the variability of ECG signals, the frequent presence of multiple cardiac abnor-malities, and the inadequate integration of diverse clinical data. This study proposes DLM-Net: a robust deep learning framework for multi-label ECG classification, designed to address these challenges. DLM-Net in-corporates several key innovations. First, the Lead-Specific Deformable Path applies de-formable convolutions independently to each lead. This enables adaptive modelling of non-rigid and complex waveform variations. It is also enhanced by a High-Frequency Module, which captures fine-grained tem-poral details. Secondly, a spatial path based on a ResNet-like backbone and feature pyr-amid network (FPN) fuses multi-scale repre-sentations in order to effectively capture both global and local ECG patterns. In parallel, the Lead Path uses a Lead Attention Trans-former to explicitly model inter-lead de-pendencies. Finally, ECG features from the spatial and lead paths are integrated with clinical tabular data through a multimodal fusion module, in which compact pa-tient-level tabular embeddings provide com-plementary contextual information for ECG representation. Extensive experiments on three public multi-label ECG datasets PTB-XL, CPSC2018 and Chapman demonstrate that DLM-Net achieves compet-itive and stable performance across datasets, with label-wise accuracies of 89.11%, 96.05% and 97.82%, respectively. Overall, DLM-Net provides an effective and flexible framework for multi-label ECG classification, offering improved accuracy and robustness across diverse datasets and demonstrating the effec-tiveness of the proposed architecture in han-dling complex multi-label diagnostic tasks in retrospective settings.",
-        "authors": [
-          "Enjun Zhou",
-          "Xiangyong Kong",
-          "Hao Wang",
-          "Chenrui Bai"
-        ],
-        "published_on": "2026-08-25",
-        "doi": "10.1088/2057-1976/ae9e39",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
-        "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
-      },
-      {
         "pmid": "42636122",
         "title": "ECG-ARD: Autoregressive ECG Denoising With Dual-Domain Fusion and a Vector-Quantized Bottleneck.",
         "journal": "IEEE journal of biomedical and health informatics",
@@ -310,50 +354,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636122/",
         "doi_url": "https://doi.org/10.1109/JBHI.2026.3727288"
-      },
-      {
-        "pmid": "42638076",
-        "title": "Artificial intelligence based multimodal fusion of electronic medical record data and ECG signals for pericarditis prediction: pericarditis calculator (p-Cal) as a screening aid.",
-        "journal": "Heart (British Cardiac Society)",
-        "abstract": "BACKGROUND: Pericarditis may be associated with significant morbidity and mortality and can be a clinically challenging entity to diagnose. There is a clinical need for automated artificial intelligence (AI) algorithms to act as a screening aid to assist with the early and accurate detection of pericarditis.\n\nMETHODS: We developed p-Cal, a browser-based pericarditis risk calculator that fuses the patient clinical data and 12-lead ECG image to estimate risk for pericarditis. The ECG encoder was designed based on a pretrained MedCLIP Vision Transformer and random forest classifier was used for the clinical tabular data. These two modalities were fused at the decision-level using a meta classifier. Model reasoning for both modalities was assessed using advanced explainable AI techniques-attention maps from the transformer model were used to interpret ECG images, while SHapley Additive exPlanations (SHAP) force plots were applied to analyse the tabular data.\n\nRESULTS: A total of 6508 patients (mean age 54.8±16.1 years, 50.9% female) were used for training and internal validation of the AI model, of whom 902 patients had a confirmed diagnosis of pericarditis (13.8%) and the remainder were normal controls. On 1302 hold-out test patients, the Fusion Model demonstrated the best discriminatory performance, achieving an area under the curve (AUC) of 0.89, which surpassed the ECG (AUC = 0.85) and the clinical data only models (AUC = 0.74) performance. On external validation in the Medical Information Mart for Intensive Care (MIMIC) Database, the fusion model achieved an AUC of 0.81.\n\nCONCLUSION: A late fusion AI model integrating tabular clinical electronic medical record data and ECG signal has robust predictive capability for pericarditis as a screening tool.",
-        "authors": [
-          "Chadi Ayoub",
-          "Jialu Pi",
-          "Milagros Pereyra",
-          "Juan M Farina",
-          "Sherif Ahmed",
-          "Owen Crystal",
-          "Sushil Allen Luis",
-          "Jae K Oh",
-          "Reza Arsanjani",
-          "Imon Banerjee"
-        ],
-        "published_on": "2026-08-25",
-        "doi": "10.1136/heartjnl-2025-327090",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42638076/",
-        "doi_url": "https://doi.org/10.1136/heartjnl-2025-327090"
-      },
-      {
-        "pmid": "42636694",
-        "title": "A novel method for analysis of transient morphological changes in quasiperiodic physiological signals and their neurogenic correlates.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: Transient changes in electrocardiographic (ECG) morphology often accompany fluctuations in heart rhythm and may provide clinically relevant information about cardiac function. However, conventional ECG visualization and analysis methods typically emphasize either waveform morphology or rhythm variability, making it difficult to assess their temporal interplay in long-term recordings and, consequently, to identify rhythm-related morphological changes and exploit their potential diagnostic value. This work presents a visualization framework for quasiperiodic physiological signals that enables simultaneous assessment of beat-to-beat morphological changes and rhythm dynamics in a single representation.\n\nMETHODS: The proposed method converts quasiperiodic signals into two-dimensional carpet plots. Characteristic events (e.g., ECG R peaks) are used to align consecutive signal segments, which are transformed into color-coded rows and stacked in chronological order. The resulting image preserves both the temporal evolution of signal morphology and variations in cycle duration. The method was evaluated using ECG recordings from multiple publicly available databases containing healthy subjects and patients with diverse cardiac abnormalities, as well as synchronized multimodal physiological recordings.\n\nRESULTS: Carpet plots enabled rapid visualization of transient morphological changes alongside heart rate dynamics across recordings ranging from several minutes to hours. The representation highlighted clinically relevant phenomena, including ST segment alterations, QT interval variability, changes in T wave morphology, atrial fibrillation episodes, premature ventricular complexes, Wenckebach periodicity, and stress-test phase transitions. The image-based representation was also shown to be suitable for automated analysis using convolutional neural network feature extraction.\n\nCONCLUSIONS: Carpet plots provide a compact representation of quasiperiodic physiological signals, jointly visualizing rhythm and morphology across long-term recordings. The proposed framework facilitates both expert interpretation and image-based computational analysis, offering a general approach for investigating transient physiological phenomena in ECG and other synchronized quasiperiodic signals.",
-        "authors": [
-          "Tomasz Gradowski",
-          "Damian Waląg",
-          "Tomir Domański",
-          "Teodor Buchner"
-        ],
-        "published_on": "2026-08-24",
-        "doi": "10.1016/j.cmpb.2026.109611",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
       }
     ],
     "error": null,
@@ -366,6 +366,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-09-02T17:14:30.328748+00:00",
+  "next_refresh_at": "2026-09-03T17:46:14.381723+00:00",
   "next_push_at": null
 }
