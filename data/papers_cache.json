@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-02T17:46:13.967777+00:00",
-  "last_success_at": "2026-09-02T17:46:14.381723+00:00",
+  "last_attempt_at": "2026-09-03T20:46:20.889023+00:00",
+  "last_success_at": "2026-09-03T20:46:21.981382+00:00",
   "count": 15,
   "papers": [
     {
@@ -25,6 +25,62 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42491352/",
       "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
+    },
+    {
+      "pmid": "42667695",
+      "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND: Automated electrocardiogram (ECG) interpretation is essential for clinical efficiency, yet many existing deep learning (DL) models are perceived as \"black boxes\" and lack direct benchmarking against established commercial standards. To foster clinician trust and support reimbursement justification, AI systems must demonstrate not only superior accuracy but also alignment with established clinical criteria.\n\nMETHODS: We proposed a Dual-Stream Signal Fusion Architecture that integrates latent spatio-temporal features from 21,799 raw 12-lead ECG waveforms (PTB-XL) with 148 expert-engineered clinical metrics extracted via commercial algorithms (PTB-XL+). The system was evaluated against the Marquette 12SL™ (12SL) commercial standard using the independent PTB-XL test set (Fold 10).\n\nRESULTS: The proposed Hybrid Model achieved a Macro F1-Score of 0.851, significantly outperforming the commercial 12SL standard (0.812) and the waveform-only baseline (0.821). Notably, sensitivity for Myocardial Infarction (MI) improved by 10.8% relative to 12SL (0.72 vs. 0.65). Feature importance analysis confirmed that the model's decisions are clinically traceable, attributing 45% importance to QRS amplitude for Hypertrophy diagnosis, which aligns with Sokolow-Lyon criteria.\n\nCONCLUSIONS: Our hybrid framework offers a superior, transparent, and robust standard for automated ECG interpretation. By outperforming clinical gold standards and providing physiologically sound reasoning, this work represents a step toward building the clinical evidence base for AI-based diagnostic support across diverse global populations; prospective, multi-site validation remains necessary before clinical deployment can be considered. The proposed framework is further distinguished by its modular design, which ensures adaptability across both resource-rich and resource-limited clinical environments.",
+      "authors": [
+        "Chuelwon Lee"
+      ],
+      "published_on": "2026-08-29",
+      "doi": "10.1016/j.cmpb.2026.109613",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42667695/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109613"
+    },
+    {
+      "pmid": "42636694",
+      "title": "A novel method for analysis of transient morphological changes in quasiperiodic physiological signals and their neurogenic correlates.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND AND OBJECTIVE: Transient changes in electrocardiographic (ECG) morphology often accompany fluctuations in heart rhythm and may provide clinically relevant information about cardiac function. However, conventional ECG visualization and analysis methods typically emphasize either waveform morphology or rhythm variability, making it difficult to assess their temporal interplay in long-term recordings and, consequently, to identify rhythm-related morphological changes and exploit their potential diagnostic value. This work presents a visualization framework for quasiperiodic physiological signals that enables simultaneous assessment of beat-to-beat morphological changes and rhythm dynamics in a single representation.\n\nMETHODS: The proposed method converts quasiperiodic signals into two-dimensional carpet plots. Characteristic events (e.g., ECG R peaks) are used to align consecutive signal segments, which are transformed into color-coded rows and stacked in chronological order. The resulting image preserves both the temporal evolution of signal morphology and variations in cycle duration. The method was evaluated using ECG recordings from multiple publicly available databases containing healthy subjects and patients with diverse cardiac abnormalities, as well as synchronized multimodal physiological recordings.\n\nRESULTS: Carpet plots enabled rapid visualization of transient morphological changes alongside heart rate dynamics across recordings ranging from several minutes to hours. The representation highlighted clinically relevant phenomena, including ST segment alterations, QT interval variability, changes in T wave morphology, atrial fibrillation episodes, premature ventricular complexes, Wenckebach periodicity, and stress-test phase transitions. The image-based representation was also shown to be suitable for automated analysis using convolutional neural network feature extraction.\n\nCONCLUSIONS: Carpet plots provide a compact representation of quasiperiodic physiological signals, jointly visualizing rhythm and morphology across long-term recordings. The proposed framework facilitates both expert interpretation and image-based computational analysis, offering a general approach for investigating transient physiological phenomena in ECG and other synchronized quasiperiodic signals.",
+      "authors": [
+        "Tomasz Gradowski",
+        "Damian Waląg",
+        "Tomir Domański",
+        "Teodor Buchner"
+      ],
+      "published_on": "2026-08-24",
+      "doi": "10.1016/j.cmpb.2026.109611",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
+    },
+    {
+      "pmid": "42537358",
+      "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
+      "authors": [
+        "Songping Li",
+        "Gan Luo",
+        "Lixue Zhou",
+        "Yifei Zhang",
+        "Liupeng Ma",
+        "Chuanlai Wang"
+      ],
+      "published_on": "2026-08-01",
+      "doi": "10.1016/j.cmpb.2026.109564",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
       "pmid": "42683521",
@@ -215,6 +271,33 @@
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
     },
     {
+      "pmid": "42687308",
+      "title": "Breathable, Biocompatible, Ultrathin Bilayer Epidermal Electrodes for Long-Term and Motion-Artifact-Resistant Monitoring ofHigh-Fidelity Electrophysiological Signals.",
+      "journal": "ACS sensors",
+      "abstract": "Long-term monitoring of electrophysiological signals is of great importance for continuous health monitoring, disease diagnosis, and intelligent human-machine interaction. However, developing a breathable and biocompatible skin-electrode interface with low interfacial impedance for long-term and motion-artifact-resistant epidermal monitoring remains a major challenge. To address this issue, we propose a bilayer design that enables functional decoupling via synergistic structural integration. An ultrathin bilayer epidermal electrode integrating an ultrathin poly(α-lipoic acid) (PLA) adhesive layer with a porous thermoplastic polyurethane (TPU)/AgNWs conductive fibrous network (T-AgNWs film) is fabricated via coelectrospinning and subsequent concentration-induced interfacial polymerization. The ultrathin biocompatible adhesive layer ensures stable interfacial adhesion and mechanical compliance without sacrificing the breathability and conductivity of the porous network. As a result, high-fidelity electrophysiological signals including electromyography, electrooculography, electroencephalography, and electrocardiography are acquired under dynamic conditions. Reliable muscle fatigue assessment and accurate gesture recognition are further achieved, demonstrating its potential for physiological monitoring. This work provides a new strategy for designing electrophysiological electrodes with stable, breathable, biocompatible, and low-impedance interfaces.",
+      "authors": [
+        "Cuiyu Liu",
+        "Bo Xue",
+        "Shengjie Liu",
+        "Weiyan Li",
+        "Huijun Kong",
+        "Xiaowen Huang",
+        "Zhaofu Zhang",
+        "Taixin Zhang",
+        "Jiaxin Yang",
+        "Xue Li",
+        "Li Niu",
+        "Zhongqian Song"
+      ],
+      "published_on": "2026-09-03",
+      "doi": "10.1021/acssensors.6c02206",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42687308/",
+      "doi_url": "https://doi.org/10.1021/acssensors.6c02206"
+    },
+    {
       "pmid": "42664624",
       "title": "When multimodal fusion helps: An ablation study of EEG-ECG fusion strategies for emotion recognition.",
       "journal": "Computers in biology and medicine",
@@ -231,113 +314,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
       "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
-    },
-    {
-      "pmid": "42663420",
-      "title": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
-      "journal": "JAMA",
-      "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a treatable cause of heart failure, but diagnosis is often delayed. Accessible tools to prioritize confirmatory evaluation could reduce missed diagnoses when cardiac imaging is limited.\n\nOBJECTIVE: To develop and validate a locally deployable artificial intelligence (AI)-enabled system that identifies patients for further ATTR-CM evaluation from routine electrocardiography (ECG) images.\n\nDESIGN, SETTING, AND PARTICIPANTS: This diagnostic test study used an AI-ECG model developed within Yale New Haven Health (using ECGs from August 2015-June 2023) and temporally validated (July 2023-July 2025). External validation included 5 multinational cohorts and 3 screening cohorts (older Black and Hispanic adults with heart failure; adults with prior carpal tunnel surgery; 99-3902 individuals per cohort).\n\nEXPOSURE: Use of AI-ECG for detecting ATTR-CM from routine ECG images or raw 12-lead signals.\n\nMAIN OUTCOMES AND MEASURES: Area under the receiver operating characteristic curve (AUROC), sensitivity, specificity, and positive and negative predictive values for ATTR-CM confirmed by cardiac amyloid radionuclide imaging (CARI) or biopsy. An exploratory analysis evaluated sequential screening with AI-ECG followed by AI-enabled echocardiography.\n\nRESULTS: Development used 28 174 ECGs from 11 291 patients (293 with ATTR-CM). In internal validation (44 123 patients; mean age, 68.5 years; 49.7% female), AUROC was 0.84 (95% CI, 0.79-0.89), with sensitivity of 0.72 and specificity of 0.86 at the prespecified threshold, and was maintained in a specificity stress test among patients with features that mimic ATTR-CM (left ventricular hypertrophy or severe aortic stenosis without amyloid; AUROC, 0.81 [95% CI, 0.75-0.86]) and those referred for CARI (AUROC, 0.78 [95% CI, 0.73-0.84]). Across 5 external cohorts, AUROCs ranged from 0.78 to 0.89. In 3 screening cohorts, AUROCs were 0.76 (95% CI, 0.68-0.83) in the SCAN-MP study (n = 645) and 0.79 (95% CI, 0.65-0.93) and 0.91 (95% CI, 0.82-0.97) in 2 CACTUS study cohorts (n = 251, n = 121). Sequential AI-ECG and AI-enabled echocardiography increased the positive predictive value from 0.24 to 0.66 and reduced sensitivity from 0.84 to 0.68.\n\nCONCLUSIONS AND RELEVANCE: Locally deployable AI applied to ECG images discriminated ATTR-CM across multinational retrospective and screening cohorts. This approach may provide an accessible first step to prioritize selected patients for echocardiography and confirmatory imaging, although intended use and calibration require prospective evaluation.",
-      "authors": [
-        "Philip M Croon",
-        "Bruno Batinica",
-        "Lovedeep S Dhingra",
-        "Ryan B Choi",
-        "Evangelos K Oikonomou",
-        "Sumukh V Shankar",
-        "Veer Sangha",
-        "Robert M A van der Boon",
-        "Michelle Michels",
-        "Maarten van Ettinger",
-        "Peter-Paul Zwetsloot",
-        "Sergio Teruya",
-        "Cesia Gallegos Kattan",
-        "Edward J Miller",
-        "Navid Noory",
-        "Oscar M Westin",
-        "Sie K Fensman",
-        "Steen Hvitfeldt Poulsen",
-        "Avneet Singh",
-        "Sudarshan Balla",
-        "Anouk Achten",
-        "Charalambos Vlachopoulos",
-        "Alexios S Antonopoulos",
-        "Nico Bruining",
-        "Julian D Gillmore",
-        "Mathew S Maurer",
-        "Frederick L Ruberg",
-        "Marianna Fontana",
-        "Rohan Khera"
-      ],
-      "published_on": "2026-08-28",
-      "doi": "10.1001/jama.2026.16785",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42663420/",
-      "doi_url": "https://doi.org/10.1001/jama.2026.16785"
-    },
-    {
-      "pmid": "42675827",
-      "title": "CuAlO2-Based Memristor with Device-Aware Temporal Learning for Neuromorphic Applications.",
-      "journal": "ACS applied materials & interfaces",
-      "abstract": "Memristive devices have emerged as promising candidates for neuromorphic computing because of their ability to emulate analog synaptic functionalities via electrical tuning of conductance states. However, achieving stable and reliable switching remains challenging in copper oxide systems due to multiple intrinsic defect-mediated transport processes existing simultaneously. In this work, we demonstrate CuAlO2-based memristors exhibiting stable bipolar resistive switching, analog conductance modulation, and synaptic plasticity suitable for neuromorphic applications. The structurally ordered delafossite CuAlO2 switching layer reduces competing intrinsic defect migration and promotes controlled Ag-mediated electrochemical metallization dynamics. Furthermore, the incorporation of an ultrathin SnO2 interlayer introduces a p-n heterojunction that modifies the local electric-field distribution and improves conductive filament confinement, resulting in improved switching properties. The memristor further exhibits key synaptic functionalities, including paired-pulse facilitation, potentiation-depression behavior, and synaptic plasticity. To evaluate its neuromorphic capability, a device-aware spiking neural network incorporating experimentally measured memristor dynamics was implemented for neuromorphic learning tasks like MNIST handwritten digit classification and physiological signal classification using ECG arrhythmia data. These results establish CuAlO2-based memristors as a promising platform for physically realistic neuromorphic computing and demonstrate the importance of integrating device-level switching dynamics into neural network design.",
-      "authors": [
-        "Ayan Chatterjee",
-        "Mubashir Mushtaq Ganaie",
-        "Swaraj Mukherjee",
-        "Jonathan Adamu",
-        "Chaitanya B Auti",
-        "Chittaranjan Das",
-        "Pradeep Kumar",
-        "Michael Saliba",
-        "Mahesh Kumar"
-      ],
-      "published_on": "2026-09-01",
-      "doi": "10.1021/acsami.6c12115",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42675827/",
-      "doi_url": "https://doi.org/10.1021/acsami.6c12115"
-    },
-    {
-      "pmid": "42645736",
-      "title": "Leveraging ECG foundation models in critical care for sinus rhythm and atrial fibrillation classification.",
-      "journal": "Intensive care medicine experimental",
-      "abstract": "BACKGROUND: Recent advances in deep learning have led to the development of ECG foundation models (ECG-FMs) trained with self-supervised learning, which can extract generalizable representations from large-scale data. In this study, we evaluated the performance of these ECG-FMs in detecting atrial fibrillation and sinus rhythm during continuous monitoring of intensive care unit (ICU) patients, using data from Amsterdam University Medical Center (Amsterdam UMC). Our three-stage study: (i) used within-dataset classification performance on public PhysioNet datasets as an indirect proxy for label consistency, (ii) tested off-the-shelf fine-tuned ECG-FMs on ICU data, and (iii) fine-tuned ECG-FM on curated public datasets, with and without weakly labelled in-house ICU data.\n\nRESULTS: Off-the-shelf model showed limited transferability (F1 = 0.68 for sinus rhythm (SR), 0.52 for atrial fibrillation (AF)). Fine-tuning on consistent public datasets achieved robust performance (F1 = 0.91 for SR, 0.82 for AF), while adding weakly labelled ICU data further improved recall at some cost to precision. Performance remained stable across varying ECG lead configurations, supporting adaptability to heterogeneous inputs.\n\nCONCLUSIONS: These findings indicate that off-the-shelf pre-trained ECG-FMs do not generalise well to continuous monitoring in ICU populations; however, after targeted fine-tuning, they can achieve strong performance even in unseen cohorts, underscoring the importance of high-quality fine-tuning data and rigorous local validation.",
-      "authors": [
-        "Maria Galanty",
-        "Michiel Hulleman",
-        "Merijn C Reuland",
-        "Björn van der Ster",
-        "Alexander P J Vlaar",
-        "Clara I Sánchez",
-        "AF Expert Panel"
-      ],
-      "published_on": "2026-08-26",
-      "doi": "10.1186/s40635-026-00949-7",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42645736/",
-      "doi_url": "https://doi.org/10.1186/s40635-026-00949-7"
-    },
-    {
-      "pmid": "42636122",
-      "title": "ECG-ARD: Autoregressive ECG Denoising With Dual-Domain Fusion and a Vector-Quantized Bottleneck.",
-      "journal": "IEEE journal of biomedical and health informatics",
-      "abstract": "Electrocardiogram (ECG) recordings are frequently corrupted by nonstationary artifacts such as baseline wander, muscle activity, and electrode motion, which can distort waveform morphology, reduce signal quality, and compromise downstream analysis. Although recent deep learning approaches have improved signal-level fidelity, practical gaps remain in cross-dataset robustness under realistic noise mixtures, leakage-aware evaluation protocols, and computational efficiency for long-duration monitoring. We propose the ECG Autoregressive Denoiser (ECG-ARD), a patch-level conditional autoregressive framework that reconstructs clean ECG signals sequentially while conditioning on the fully observed noisy segment. ECG-ARD uses a hierarchical bidirectional hybrid Mamba-CNN encoder to aggregate long-range context, a multi-scale fusion module with channel, time-domain, and magnitude-only frequency-domain attention to selectively integrate cross-scale features into the conditioning representation, and a residual vector-quantized bottleneck to regularize the conditioning latent while preserving a continuous information pathway. A causal hybrid Mamba-CNN decoder then generates clean patches autoregressively from the clean-patch history. We evaluate ECG-ARD under a leakage-aware, deployment-oriented protocol that includes record-wise splits, NSTDB channel separation to reduce reuse of noise realizations between model development and testing, and noisy-only normalization to avoid oracle statistics. Across in-distribution benchmarks (MITDB and QTDB) and out-of-distribution testing on SimEMG, ECG-ARD reduces distortion metrics while maintaining high waveform similarity, with moderate inference latency per 10-second segment relative to diffusion-based baselines.",
-      "authors": [
-        "Thanaporn Viriyasaranon",
-        "Jang-Hwan Choi"
-      ],
-      "published_on": "2026-08-24",
-      "doi": "10.1109/JBHI.2026.3727288",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636122/",
-      "doi_url": "https://doi.org/10.1109/JBHI.2026.3727288"
     }
   ],
   "error": null,
