@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-09-03T20:46:20.889023+00:00",
-    "last_success_at": "2026-09-03T20:46:21.981382+00:00",
+    "last_attempt_at": "2026-09-04T22:53:57.698765+00:00",
+    "last_success_at": "2026-09-04T22:53:58.497174+00:00",
     "count": 15,
     "papers": [
       {
@@ -240,6 +240,26 @@
         "doi_url": "https://doi.org/10.1016/j.hrthm.2026.02.046"
       },
       {
+        "pmid": "41774631",
+        "title": "Graph-Informed and FiLM-Enhanced Multimodal Fusion for Myocardial Infarction Prediction.",
+        "journal": "IEEE journal of biomedical and health informatics",
+        "abstract": "Accurate and timely diagnosis of cardiovascular diseases, particularly myocardial infarction (MI), remains a critical clinical challenge. Existing electrocardiogram (ECG) analysis methods often rely solely on asingle data modality, such as raw signals or waveform images, which limits their ability to capture thebroader physiological context. To address this limitation, we propose GFM-MIP, a Graph-informed and FiLM-enhanced Multimodal Fusion framework for myocardial infarction prediction. GFM-MIP integrates 12-lead ECG time-series signals, ECG images, and laboratory test results through a unified architecture. Specifically, it employs a Graphormer encoder to model inter-lead dependencies in ECG signals and a Vision Transformer to extract morphological patterns from ECG images, both modulated by patient-specific laboratory features using Feature-wise Linear Modulation (FiLM). A Transformer-based fusion module captures cross-modal interactions, while a contrastive learning objective encourages alignment between signal and image modalities. Experimental results on a real-world clinical dataset and three public benchmarks demonstrate that GFM-MIP consistently outperforms state-of-the-art baselines across multiple evaluation metrics. Ablation studies further validate the contribution of each modality and architectural component. The proposed framework offers a clinically meaningful and scalable solution for robust, multimodal cardiovascular diagnosis.",
+        "authors": [
+          "Xiantong Xiang",
+          "Longxiao Gao",
+          "Yuansheng Liu",
+          "Ningji Gong",
+          "Yongshun Gong"
+        ],
+        "published_on": "2026-03-03",
+        "doi": "10.1109/JBHI.2026.3669222",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41774631/",
+        "doi_url": "https://doi.org/10.1109/JBHI.2026.3669222"
+      },
+      {
         "pmid": "42674067",
         "title": "Advanced detection of fetal arrhythmia utilizing spatial deep convolutional neural network with GHA-DenseNet for enhanced electrocardiographic signal processing.",
         "journal": "Computer methods in biomechanics and biomedical engineering",
@@ -312,24 +332,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42687308/",
         "doi_url": "https://doi.org/10.1021/acssensors.6c02206"
-      },
-      {
-        "pmid": "42664624",
-        "title": "When multimodal fusion helps: An ablation study of EEG-ECG fusion strategies for emotion recognition.",
-        "journal": "Computers in biology and medicine",
-        "abstract": "Multimodal physiological signal fusion-particularly electroencephalography (EEG) and electrocardiography (ECG)-is widely assumed to improve emotion recognition over unimodal approaches. Yet the conditions under which fusion genuinely helps, and which fusion architecture is most robust, remain poorly characterised. We present a large-scale ablation study comparing five fusion strategies (EEG-only, ECG-only, concatenation, bidirectional cross-attention, and adaptive gated fusion) on the emotion datasets DREAMER and AMIGOS, and validate ECG signal-quality effects on the stress dataset WESAD. Using a lightweight deep learning architecture (PMMR-DL v3, ∼1.3M parameters) and leave-one-subject-out cross-validation (LOSO-CV) repeated over three random seeds, we evaluate macro F1-score and accuracy for binary emotion classification. Our results reveal pronounced dataset-dependent modality dominance: ECG dominates on DREAMER (F1 = 42.1% vs. EEG 28.6%), whereas EEG dominates on AMIGOS (F1 = 63.8% vs. ECG 13.8%). Critically, multimodal fusion does not consistently outperform the best unimodal baseline. On DREAMER, the strongest fusion strategy (adaptive gated, F1 = 37.1%) still underperforms ECG-only. On AMIGOS, all fusion conditions collapse toward the poor ECG performance (F1 17-21%) because the ECG recordings are noise-dominated. The adaptive gated strategy achieves the lowest inter-seed variance (std = 0.5 on DREAMER), making it the most reliable fusion mechanism when signal quality is adequate. These findings caution against blanket assumptions that multimodal fusion is universally beneficial, and provide practical guidance for modality selection in affective computing pipelines.",
-        "authors": [
-          "Milembolo Miantezila Junior",
-          "Mavoungou Bayone Don-Faustin U-Vangsy",
-          "Guo Bin"
-        ],
-        "published_on": "2026-08-28",
-        "doi": "10.1016/j.compbiomed.2026.111895",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
-        "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
       }
     ],
     "error": null,
@@ -342,6 +344,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-09-04T20:46:21.981382+00:00",
+  "next_refresh_at": "2026-09-05T22:53:58.497174+00:00",
   "next_push_at": null
 }
