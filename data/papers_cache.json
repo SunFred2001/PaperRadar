@@ -2,10 +2,29 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-07T03:52:01.762482+00:00",
-  "last_success_at": "2026-09-07T03:52:02.137979+00:00",
+  "last_attempt_at": "2026-09-08T05:49:18.065908+00:00",
+  "last_success_at": "2026-09-08T05:49:18.983309+00:00",
   "count": 15,
   "papers": [
+    {
+      "pmid": "42703253",
+      "title": "Memristor-based echo state network for ECG classification: optimizing accuracy and efficiency with different architectures.",
+      "journal": "Cognitive neurodynamics",
+      "abstract": "Electrocardiogram (ECG) signal classification is a crucial task in automated cardiac monitoring and early disease detection. Conventional machine learning and deep learning methods often face challenges related to high computational costs, large data requirements and difficulty in handling real-time ECG analysis. In this work, we have proposed three memristor-based echo state network (MESN) models for ECG classification: (1) MESN, (2) Parallel MESNs (PMESN) with a classifier and (3) Attention-enhanced MESN (AMESN), where all three models employ artificial neural network (ANN) as a readout layer. These models leverage the property of an ESN to transform ECG signals into high-dimensional representations, thereby enhancing classification performance. The proposed models were evaluated on different benchmark ECG datasets: ECG200, ECG5000, ECGFiveDays, NonInvasiveFetalECGThorax1, NonInvasiveFetalECGThorax2, and TwoLeadECG. The results demonstrate that AMESN achieves the highest precision, recall, F1-score and overall accuracy particularly excelling in datasets with high intra-class variability. Whereas, PMESN improves robustness by leveraging multiple reservoir layers, while MESN provides a strong baseline with computational efficiency. These models are also compared with other state-of-the-art models and the analysis shows that AMESN achieves 1.92-13.39% higher accuracy, demonstrating superior performance. These findings highlight the potential of ESN as a lightweight yet powerful approach for ECG classification, making it suitable for integration into wearable and IoT-based healthcare systems.",
+      "authors": [
+        "Md Shabaz Ansari",
+        "Sandeep Soni",
+        "Hemkant Nehete",
+        "Priyansha Kaurav"
+      ],
+      "published_on": "2026-09-07",
+      "doi": "10.1007/s11571-026-10537-w",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42703253/",
+      "doi_url": "https://doi.org/10.1007/s11571-026-10537-w"
+    },
     {
       "pmid": "42491352",
       "title": "Detection of cardiac pathologies in electrocardiogram signals using empirical mode decomposition and neural networks.",
@@ -289,33 +308,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
-    },
-    {
-      "pmid": "42687308",
-      "title": "Breathable, Biocompatible, Ultrathin Bilayer Epidermal Electrodes for Long-Term and Motion-Artifact-Resistant Monitoring ofHigh-Fidelity Electrophysiological Signals.",
-      "journal": "ACS sensors",
-      "abstract": "Long-term monitoring of electrophysiological signals is of great importance for continuous health monitoring, disease diagnosis, and intelligent human-machine interaction. However, developing a breathable and biocompatible skin-electrode interface with low interfacial impedance for long-term and motion-artifact-resistant epidermal monitoring remains a major challenge. To address this issue, we propose a bilayer design that enables functional decoupling via synergistic structural integration. An ultrathin bilayer epidermal electrode integrating an ultrathin poly(α-lipoic acid) (PLA) adhesive layer with a porous thermoplastic polyurethane (TPU)/AgNWs conductive fibrous network (T-AgNWs film) is fabricated via coelectrospinning and subsequent concentration-induced interfacial polymerization. The ultrathin biocompatible adhesive layer ensures stable interfacial adhesion and mechanical compliance without sacrificing the breathability and conductivity of the porous network. As a result, high-fidelity electrophysiological signals including electromyography, electrooculography, electroencephalography, and electrocardiography are acquired under dynamic conditions. Reliable muscle fatigue assessment and accurate gesture recognition are further achieved, demonstrating its potential for physiological monitoring. This work provides a new strategy for designing electrophysiological electrodes with stable, breathable, biocompatible, and low-impedance interfaces.",
-      "authors": [
-        "Cuiyu Liu",
-        "Bo Xue",
-        "Shengjie Liu",
-        "Weiyan Li",
-        "Huijun Kong",
-        "Xiaowen Huang",
-        "Zhaofu Zhang",
-        "Taixin Zhang",
-        "Jiaxin Yang",
-        "Xue Li",
-        "Li Niu",
-        "Zhongqian Song"
-      ],
-      "published_on": "2026-09-03",
-      "doi": "10.1021/acssensors.6c02206",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42687308/",
-      "doi_url": "https://doi.org/10.1021/acssensors.6c02206"
     }
   ],
   "error": null,
