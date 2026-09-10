@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-09T08:51:10.104283+00:00",
-  "last_success_at": "2026-09-09T08:51:10.541564+00:00",
+  "last_attempt_at": "2026-09-10T10:57:35.413015+00:00",
+  "last_success_at": "2026-09-10T10:57:35.825483+00:00",
   "count": 15,
   "papers": [
     {
@@ -102,6 +102,46 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42715432",
+      "title": "A deep learning framework for arrhythmia classification: mitigating data leakage and class imbalance in ECG analysis.",
+      "journal": "Journal of medical engineering & technology",
+      "abstract": "Accurate and timely identification of cardiac abnormalities remains essential for reducing mortality associated with life-threatening cardiac arrhythmias. However, automated diagnostic systems often struggle with imbalanced clinical data and limited generalizability. In this work, we propose an efficient deep learning framework to classify the various ECG arrhythmias based on time-frequency features generated through Continuous Wavelet Transform (CWT) and efficient VGG16 transfer learning. By avoiding data leakage through a stratified split-then-augment partitioning method, the method achieved a test accuracy of 96.05% and stable performance across five-fold cross-validation (96.0% ± 0.4%). The model achieved a macro-average F1 score of 0.933 despite class imbalance with a sensitivity that supports real-world detection needs, including ventricular fusion beat recognition. CWT improved the multi-resolution representation of non-stationary ECG signals, while architectural changes, including batch normalization, global average pooling and dropout, improved model performance without increasing computational load. The system has only 166K trainable parameters with an inference latency of ∼25-30 ms, suggesting the possible application in emergency triage, bedside monitoring, and telemedicine-assisted decision support. These findings show the feasibility of the proposed method for early cardiac event detection and providing clinical patient assistance in high-risk environments.",
+      "authors": [
+        "Sudeshna Sani",
+        "Dipra Mitra",
+        "Pallab Banerjee",
+        "Durgesh Srivastava"
+      ],
+      "published_on": "2026-09-09",
+      "doi": "10.1080/03091902.2026.2724902",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42715432/",
+      "doi_url": "https://doi.org/10.1080/03091902.2026.2724902"
+    },
+    {
+      "pmid": "42711831",
+      "title": "A Dual Soft Attention Network for Automatic Sleep Staging via Single-Lead Electrocardiogram Signals.",
+      "journal": "International journal of neural systems",
+      "abstract": "Polysomnography (PSG) is the current gold standard for sleep monitoring; however, it is complex, burdensome, and costly. In contrast, commercial health monitoring devices, such as the Apple Watch, offer sleep scoring at a low cost over a few days. This paper proposes a dual-attention mechanism-based sleep staging method using single-lead electrocardiogram (ECG) signals, named SleepECGNet. The method extracts multi-scale features by employing convolutional kernels of different sizes, thereby capturing subtle details in the ECG signals. The model then integrates an SE module and a Luong attention-based encoder-decoder architecture to filter redundant information and dynamically focus on different sleep stages. Experiments were conducted using the HMC, MGH, and SHHS1 datasets for sleep staging tasks and the Apnea-ECG corpus was employed to execute transfer learning strategies directed at sleep apnea recognition. Comprehensive ablation experiments were conducted to verify the effectiveness of each component. Moreover, an analysis of sequence duration demonstrated that expanding the input timeframe directly improves classification outcomes.",
+      "authors": [
+        "Xuanhao Qi",
+        "Qinying Li",
+        "Hongze Liu",
+        "Yinlin Cheng",
+        "Bingo Wing-Kuen Ling",
+        "Zhensheng Hu"
+      ],
+      "published_on": "2026-09-09",
+      "doi": "10.1142/S0129065727500110",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42711831/",
+      "doi_url": "https://doi.org/10.1142/S0129065727500110"
+    },
+    {
       "pmid": "42683521",
       "title": "Damage-Free Passivation of Ambipolar OECTs with Fluoropolymer Film for Enhanced Performance and Stability Toward Reliable Biosignal Processing.",
       "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
@@ -142,6 +182,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
       "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
+    },
+    {
+      "pmid": "42664624",
+      "title": "When multimodal fusion helps: An ablation study of EEG-ECG fusion strategies for emotion recognition.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "Multimodal physiological signal fusion-particularly electroencephalography (EEG) and electrocardiography (ECG)-is widely assumed to improve emotion recognition over unimodal approaches. Yet the conditions under which fusion genuinely helps, and which fusion architecture is most robust, remain poorly characterised. We present a large-scale ablation study comparing five fusion strategies (EEG-only, ECG-only, concatenation, bidirectional cross-attention, and adaptive gated fusion) on the emotion datasets DREAMER and AMIGOS, and validate ECG signal-quality effects on the stress dataset WESAD. Using a lightweight deep learning architecture (PMMR-DL v3, ∼1.3M parameters) and leave-one-subject-out cross-validation (LOSO-CV) repeated over three random seeds, we evaluate macro F1-score and accuracy for binary emotion classification. Our results reveal pronounced dataset-dependent modality dominance: ECG dominates on DREAMER (F1 = 42.1% vs. EEG 28.6%), whereas EEG dominates on AMIGOS (F1 = 63.8% vs. ECG 13.8%). Critically, multimodal fusion does not consistently outperform the best unimodal baseline. On DREAMER, the strongest fusion strategy (adaptive gated, F1 = 37.1%) still underperforms ECG-only. On AMIGOS, all fusion conditions collapse toward the poor ECG performance (F1 17-21%) because the ECG recordings are noise-dominated. The adaptive gated strategy achieves the lowest inter-seed variance (std = 0.5 on DREAMER), making it the most reliable fusion mechanism when signal quality is adequate. These findings caution against blanket assumptions that multimodal fusion is universally beneficial, and provide practical guidance for modality selection in affective computing pipelines.",
+      "authors": [
+        "Milembolo Miantezila Junior",
+        "Mavoungou Bayone Don-Faustin U-Vangsy",
+        "Guo Bin"
+      ],
+      "published_on": "2026-08-28",
+      "doi": "10.1016/j.compbiomed.2026.111895",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
     },
     {
       "pmid": "42643135",
@@ -204,6 +262,24 @@
       "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
     },
     {
+      "pmid": "42480127",
+      "title": "Morphology-preserving transfer-guided GAN with adaptive discriminative loss for robust and imbalanced ECG arrhythmia detection.",
+      "journal": "Computers in biology and medicine",
+      "abstract": "Electrocardiogram (ECG) based arrhythmia detection remains challenging due to severe class imbalance, morphological variability, and noise commonly present in wearable monitoring environments. Traditional augmentation techniques often distort clinically meaningful waveform characteristics, while deep learning classifiers typically underperform on minority arrhythmia categories. This study proposes a unified morphology-preserving framework that integrates a Transfer-Guided Multi-Stage Generative Adversarial Network (TG-MS-GAN), an EfficientNetV2-S classifier, and an adaptive discriminative loss to enhance minority-class representation and improve overall diagnostic robustness. The TG-MS-GAN progressively reconstructs ECG beats across multi-resolution stages, synthesizing high-fidelity minority-class waveforms that preserve P-wave integrity, QRS morphology, and ST-segment structure. A transfer-guidance mechanism introduces physiological priors into early-stage generators, stabilizing convergence under extreme sample scarcity. EfficientNetV2-S serves as a lightweight yet expressive backbone capable of capturing fine-grained temporal features with low computational cost, making the method suitable for real-time wearable deployment. An adaptive hybrid loss combining weighted cross-entropy, center loss, and difficulty-based focusing improves inter-class separability and stabilizes optimization under severe imbalance. Experimental results demonstrate consistent performance across different ECG classification tasks, achieving accuracies of 99.1%, 97.6%, 91.4%, and 99.0% on the MIT-BIH, Chapman-Shaoxing, PTB-XL, and Fetal ECG datasets, respectively. The corresponding Macro-F1 scores reach 0.987, 0.962, 0.839, and 0.989, while the AUPRC values attain 0.989, 0.891, 0.846, and 0.991, respectively. These results indicate that the proposed framework effectively addresses class imbalance while maintaining robust classification performance across heterogeneous ECG datasets. The source code is available at https://github.com/phdmajidsepahvand/TG-MS-GAN-ECG.",
+      "authors": [
+        "Majid Sepahvand",
+        "Beneen Dourgham Karim Al-Harizi",
+        "Maytham N Meqdad"
+      ],
+      "published_on": "2026-07-21",
+      "doi": "10.1016/j.compbiomed.2026.111862",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
+      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
+    },
+    {
       "pmid": "42186368",
       "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
       "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
@@ -219,95 +295,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
       "doi_url": "https://doi.org/10.1177/09287329261446510"
-    },
-    {
-      "pmid": "41791632",
-      "title": "EFFNet: Efficient feature fusion network for left ventricular hypertrophy identification based on 12-lead electrocardiogram signals.",
-      "journal": "Heart rhythm",
-      "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is a common cardiovascular disorder, yet its detection from electrocardiogram (ECG) signals remains challenging because of the low sensitivity of conventional criteria.\n\nOBJECTIVE: We aimed to explore a new deep learning method for effective LVH identification based on 12-lead ECG signals.\n\nMETHODS: We proposed a novel ECG-based efficient feature fusion network (EFFNet) for LVH classification, incorporating a novel feature fusion module that fuses morphological features extracted by a convolutional neural network with algorithm-derived amplitude features and a mixture of experts module. Experiments with 5-fold cross-validation were performed on the 12-lead ECG signals in the UK Biobank data set (n = 38,289), with cardiovascular magnetic resonance measurement serving as the reference standard. We also tested the model on an external cohort, the Qinghai data set, using echocardiography as the standard (n = 142,777). Using the UK Biobank and Qinghai cohorts, we assessed associations between EFFNet-predicted LVH and cardiovascular rhythm abnormalities.\n\nRESULTS: Experimental results with cross-validation on the UK Biobank data set showed that, on average, EFFNet achieved an area under the receiver operating characteristic curve of 0.933, which outperformed conventional ECG-based diagnostic methods and comparative deep learning methods. On the external Qinghai validation set, EFFNet achieved an area under the receiver operating characteristic curve of 0.654. EFFNet-predicted LVH was associated with atrial fibrillation, ventricular premature beats, and atrial premature beats.\n\nCONCLUSION: EFFNet significantly improves ECG-based LVH detection and introduces a novel deep learning framework for LVH risk prediction, advancing intelligent ECG-based screening and early identification of LVH.",
-      "authors": [
-        "Rui Yu",
-        "Lei Jia",
-        "Yu Pu",
-        "Zhuhuang Zhou",
-        "Lan Lin",
-        "Xiaofeng Gao",
-        "Guangyu Bin"
-      ],
-      "published_on": "2026-03-07",
-      "doi": "10.1016/j.hrthm.2026.02.046",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41791632/",
-      "doi_url": "https://doi.org/10.1016/j.hrthm.2026.02.046"
-    },
-    {
-      "pmid": "41774631",
-      "title": "Graph-Informed and FiLM-Enhanced Multimodal Fusion for Myocardial Infarction Prediction.",
-      "journal": "IEEE journal of biomedical and health informatics",
-      "abstract": "Accurate and timely diagnosis of cardiovascular diseases, particularly myocardial infarction (MI), remains a critical clinical challenge. Existing electrocardiogram (ECG) analysis methods often rely solely on asingle data modality, such as raw signals or waveform images, which limits their ability to capture thebroader physiological context. To address this limitation, we propose GFM-MIP, a Graph-informed and FiLM-enhanced Multimodal Fusion framework for myocardial infarction prediction. GFM-MIP integrates 12-lead ECG time-series signals, ECG images, and laboratory test results through a unified architecture. Specifically, it employs a Graphormer encoder to model inter-lead dependencies in ECG signals and a Vision Transformer to extract morphological patterns from ECG images, both modulated by patient-specific laboratory features using Feature-wise Linear Modulation (FiLM). A Transformer-based fusion module captures cross-modal interactions, while a contrastive learning objective encourages alignment between signal and image modalities. Experimental results on a real-world clinical dataset and three public benchmarks demonstrate that GFM-MIP consistently outperforms state-of-the-art baselines across multiple evaluation metrics. Ablation studies further validate the contribution of each modality and architectural component. The proposed framework offers a clinically meaningful and scalable solution for robust, multimodal cardiovascular diagnosis.",
-      "authors": [
-        "Xiantong Xiang",
-        "Longxiao Gao",
-        "Yuansheng Liu",
-        "Ningji Gong",
-        "Yongshun Gong"
-      ],
-      "published_on": "2026-03-03",
-      "doi": "10.1109/JBHI.2026.3669222",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41774631/",
-      "doi_url": "https://doi.org/10.1109/JBHI.2026.3669222"
-    },
-    {
-      "pmid": "42674067",
-      "title": "Advanced detection of fetal arrhythmia utilizing spatial deep convolutional neural network with GHA-DenseNet for enhanced electrocardiographic signal processing.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "Fetal arrhythmia is a critical medical condition associated with perinatal morbidity and cardiac complications. This paper proposes an Advanced Detection of Fetal Arrhythmia utilizing Spatial Deep Convolutional Neural Network with GHA-DenseNet (DFA-SDCNN-GHANet). Initially, fetal ECG signals are preprocessed using Adaptive Fast Desensitized Kalman Filter (AFDKF) to remove artefacts, followed by Synthetic Minority Over-sampling Technique (SMOTE) for class balancing. Iterative Local Maximum Synchrosqueezing-Extracting Transform (ILMSET) extracts informative features, which are classified using SDCNN-GHANet optimized by the Black-Winged Kite Algorithm (BWKA). The proposed framework achieved 6.62%, 7.94%, and 9.75% higher F1-score than existing methods.",
-      "authors": [
-        "Joel T",
-        "Sethukarasi T"
-      ],
-      "published_on": "2026-08-31",
-      "doi": "10.1080/10255842.2026.2706094",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42674067/",
-      "doi_url": "https://doi.org/10.1080/10255842.2026.2706094"
-    },
-    {
-      "pmid": "42668095",
-      "title": "Ai-based multimodal analysis of ECG and clinical data for evaluation for competitive sports participation: The VALETUDO trial.",
-      "journal": "International journal of cardiology",
-      "abstract": "AIMS: Pre-participation cardiovascular screening (PPS) is essential for preventing SCD in athletes, yet ECG interpretation requires expertise and remains resource-intensive. We aimed to evaluate the feasibility and diagnostic performance of a deep learning (DL) model for analysis of clinical data and resting 12‑lead ECG obtained during routine PPS in competitive athletes.\n\nMETHODS: In this prospective single center observational study, competitive athletes aged 18 to 60 years and undergoing routine PPS were enrolled. PPS included medical history, physical examination, resting and exercise ECG. Athletes were classified as fit or not fit for competitive sports according to clinical evaluation. Resting ECG and clinical variables were analyzed using a multimodal DL architecture. Model performance was assessed using stratified 10-fold cross-validation against PPS clinical classification.\n\nRESULTS: A total of 526 athletes were enrolled (72% male, median age of 27 years (IQR: 20-41); 166 (32%) had a negative PPS result. The test setting (10-fold cross-validation), the model achieved moderate discrimination with an accuracy of 0.64 ± 0.08, SE 0.68 ± 0.15, SP 0.61 ± 0.17, F1-score 0.72 ± 0.1, PPV 0.80 ± 0.07, NPV 0.48 ± 0.12, AUC 0.72(0.66-0.78). Training performances reached accuracy of 0.70 ± 0.06, SE 0.73 ± 0.12, SP 0.67 ± 0.14, F1-score 0.77 ± 0.07, AUC 0.79 (0.74-0.83.\n\nCONCLUSION: Automated DL-based analysis of 12‑lead ECG during PPS is feasible and showed encouraging diagnostic performance in competitive athletes. Although wider experience and external validation is required, AI-assisted multimodal ECG interpretation may represent a useful adjunct to physician assessment for cardiovascular risk stratification in sport screening programs.",
-      "authors": [
-        "Marchetti Davide",
-        "Taconné Marion",
-        "Conte Edoardo",
-        "Quaglia Francesca",
-        "Provera Andrea",
-        "Gallazzi Michele",
-        "Paolisso Pasquale",
-        "Melotti Eleonora",
-        "Schillaci Matteo",
-        "Bartorelli Antonio",
-        "Corino Valentina",
-        "Cerveri Pietro",
-        "Zeppilli Paolo",
-        "Mainardi Luca",
-        "Andreini Daniele"
-      ],
-      "published_on": "2026-08-29",
-      "doi": "10.1016/j.ijcard.2026.134744",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
-      "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
     }
   ],
   "error": null,
