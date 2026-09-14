@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-09-13T18:00:23.329762+00:00",
-    "last_success_at": "2026-09-13T18:00:23.725505+00:00",
+    "last_attempt_at": "2026-09-14T18:27:01.472981+00:00",
+    "last_success_at": "2026-09-14T18:27:02.384547+00:00",
     "count": 15,
     "papers": [
       {
@@ -40,6 +40,27 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42703253/",
         "doi_url": "https://doi.org/10.1007/s11571-026-10537-w"
+      },
+      {
+        "pmid": "42628486",
+        "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
+        "journal": "Computational biology and chemistry",
+        "abstract": "Heart disease is one of the most dangerous diseases, and it is getting worse in adults over the age of 40. Cardiac arrhythmia is defined as an irregular heartbeat, and quick diagnosis and treatment are critical for saving the lives of a huge population. Currently, the arrhythmia classification involves diverse challenges that limit the existing methodologies from attaining the desired results. Some of the major challenges involve signal quality issues, including noise and motion artefacts, class imbalance and dataset limitations, generalization issues due to context variability across patients, real-world deployment and clinical trust. Several methodologies have been introduced to date to focus on these critical issues, but most of them are unable to cover and address the issues altogether. This study offers a novel deep learning-based method for identifying and classifying arrhythmias as a remedy. First, the pre-processing step receives the input data, which includes body temperature, heart rate, blood oxygen level, and ECG signal. Pre-processing is done with min-max normalization and an enhanced wavelet Wiener filtering technique (UP_WWF) in this case. After pre-processing, the input is submitted to the feature extraction stage, which extracts significant features. Features are extracted using an adaptive dense convolutional osprey network where the osprey optimization algorithm is used to tune the parameters of the network for better feature discrimination. Finally, with the help of the extracted features, the various arrhythmia classes are classified using an attention-based deep capsule stacked autoencoder (Att_DCSAE). The proposed framework is evaluated using the MIT-BIH dataset for benchmarking, whereas the constructed combined ECG dataset includes ECG, heart rate, blood oxygen level, and body temperature measurements. The proposed approach resulted in an overall accuracy of 99.6% on the combined ECG dataset, signifying that it can be applied in hard real-world conditions. The study also shows significant improvements when evaluated on the MIT-BIH dataset with a total precision, recall, and F1-score values of 99.98%, 99.68% and 99.86%, resulting in the overall improvement of 0.6% precision, 0.08% recall, and 0.7% F1-score when compared with the latest techniques in the literature.",
+        "authors": [
+          "Vijay A Kotkar",
+          "Makarand Shahade",
+          "Dhanraj S Jadhav",
+          "Kirti V Deshpande",
+          "Vinodkumar H Bhutnal",
+          "Avinash L Golande"
+        ],
+        "published_on": "2026-08-21",
+        "doi": "10.1016/j.compbiolchem.2026.109331",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42628486/",
+        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
       },
       {
         "pmid": "42491352",
@@ -294,23 +315,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
         "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
-      },
-      {
-        "pmid": "42186368",
-        "title": "A multi-branch vision transformer with GA-optimized focal loss for ECG signal classification.",
-        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
-        "abstract": "Background The classification of electrocardiogram (ECG) signals is a critical task in detecting cardiac arrhythmias. However, challenges such as class imbalance and the need to capture both local and global temporal patterns make this problem complex.ObjectiveIn this study, a hybrid deep learning model, called MBViT-FocalGA, is proposed for the classification of electrocardiogram ECG signals.MethodsThe proposed model combines a Multi-branch Vision Transformer (MBViT) architecture with a Focal Loss function optimized via a Genetic Algorithm (GA) called as MBViT-FocalGA. Thanks to three independent ViT branches operating at different patch sizes, the model can effectively learn both local and global timing patterns from ECG signals. Furthermore, the class imbalance problem frequently encountered in arrhythmia data is mitigated by optimizing the hyperparameters of the Focal Loss function with GA, improving the recognition of minority classes. The model's performance was evaluated on the MIT-BIH Arrhythmia Database in two different scenarios: (i) a two-class scenario combined into normal (N) and others (O), and (ii) a five-class scenario consisting of N, L, R, A, and V.ResultsExperimental results demonstrate that the MBViT-FocalGA model achieves superior classification performance with 98% overall accuracy and a high F1 score, outperforming classical deep learning models for both scenarios.ConclusionThese findings demonstrate the strong potential of transformer-based architectures and adaptive loss function optimizations in ECG classification.",
-        "authors": [
-          "Zeynep Garip",
-          "Ekin Ekinci"
-        ],
-        "published_on": "2026-05-26",
-        "doi": "10.1177/09287329261446510",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42186368/",
-        "doi_url": "https://doi.org/10.1177/09287329261446510"
       }
     ],
     "error": null,
@@ -323,6 +327,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-09-14T18:00:23.725505+00:00",
+  "next_refresh_at": "2026-09-15T18:27:02.384547+00:00",
   "next_push_at": null
 }
