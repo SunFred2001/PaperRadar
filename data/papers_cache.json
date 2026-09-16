@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-15T21:12:48.157598+00:00",
-  "last_success_at": "2026-09-15T21:12:49.205254+00:00",
+  "last_attempt_at": "2026-09-16T21:58:09.910288+00:00",
+  "last_success_at": "2026-09-16T21:58:10.742903+00:00",
   "count": 15,
   "papers": [
     {
@@ -121,6 +121,25 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
+    },
+    {
+      "pmid": "42743799",
+      "title": "MultiCardioFusionNet: A multimodal fusion model for predicting coronary heart disease integrating time-domain, frequency-domain, and clinical information.",
+      "journal": "Computational biology and chemistry",
+      "abstract": "Coronary heart disease (CHD) remains a leading cause of morbidity and mortality worldwide, highlighting the need for accurate, accessible, and cost-effective diagnostic approaches. This study proposes MultiCardioFusionNet, a multimodal deep learning framework that integrates electrocardiographic (ECG) signals and clinical information (gender, age, and body mass index) for intelligent CHD diagnosis. To capture complementary disease-related characteristics, a three-branch architecture is designed to jointly extract Frequency-Domain features, temporal features, and clinical representations from multimodal data. The resulting multimodal representations are integrated through an attention-guided fusion strategy to exploit complementary information across spectral, temporal, and clinical domains. The framework was developed and evaluated using real-world multicenter clinical data. In the internal validation cohort, MultiCardioFusionNet achieved an AUC of 0.9327, while independent external validation yielded an AUC of 0.9261, demonstrating promising generalizability capability. The proposed model consistently outperformed several representative deep learning methods, including Gated Recurrent Unit, Convolutional Neural Network, Convolutional Neural Network - Long Short-Term Memory, Convolutional Neural Network - Bidirectional Long Short-Term Memory and Convolutional Neural Network - Transformer (GRU, CNN, CNN-LSTM, CNN-BILSTM, and CNN-transformer). These results indicate that integrating electrophysiological and clinical information can substantially enhance CHD diagnosis. The consistent performance across the internal test cohort and the independent multi-center external validation cohort suggests that MultiCardioFusionNet may serve as a non-invasive decision-support approach for assisting CHD identification and risk assessment among clinically suspected patients undergoing further diagnostic evaluation.",
+      "authors": [
+        "Tianbo Xu",
+        "Hechao Zhang",
+        "Hongzeng Xu",
+        "Shanshan Xu"
+      ],
+      "published_on": "2026-09-15",
+      "doi": "10.1016/j.compbiolchem.2026.109398",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42743799/",
+      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109398"
     },
     {
       "pmid": "42715432",
@@ -281,24 +300,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
       "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
-    },
-    {
-      "pmid": "42480127",
-      "title": "Morphology-preserving transfer-guided GAN with adaptive discriminative loss for robust and imbalanced ECG arrhythmia detection.",
-      "journal": "Computers in biology and medicine",
-      "abstract": "Electrocardiogram (ECG) based arrhythmia detection remains challenging due to severe class imbalance, morphological variability, and noise commonly present in wearable monitoring environments. Traditional augmentation techniques often distort clinically meaningful waveform characteristics, while deep learning classifiers typically underperform on minority arrhythmia categories. This study proposes a unified morphology-preserving framework that integrates a Transfer-Guided Multi-Stage Generative Adversarial Network (TG-MS-GAN), an EfficientNetV2-S classifier, and an adaptive discriminative loss to enhance minority-class representation and improve overall diagnostic robustness. The TG-MS-GAN progressively reconstructs ECG beats across multi-resolution stages, synthesizing high-fidelity minority-class waveforms that preserve P-wave integrity, QRS morphology, and ST-segment structure. A transfer-guidance mechanism introduces physiological priors into early-stage generators, stabilizing convergence under extreme sample scarcity. EfficientNetV2-S serves as a lightweight yet expressive backbone capable of capturing fine-grained temporal features with low computational cost, making the method suitable for real-time wearable deployment. An adaptive hybrid loss combining weighted cross-entropy, center loss, and difficulty-based focusing improves inter-class separability and stabilizes optimization under severe imbalance. Experimental results demonstrate consistent performance across different ECG classification tasks, achieving accuracies of 99.1%, 97.6%, 91.4%, and 99.0% on the MIT-BIH, Chapman-Shaoxing, PTB-XL, and Fetal ECG datasets, respectively. The corresponding Macro-F1 scores reach 0.987, 0.962, 0.839, and 0.989, while the AUPRC values attain 0.989, 0.891, 0.846, and 0.991, respectively. These results indicate that the proposed framework effectively addresses class imbalance while maintaining robust classification performance across heterogeneous ECG datasets. The source code is available at https://github.com/phdmajidsepahvand/TG-MS-GAN-ECG.",
-      "authors": [
-        "Majid Sepahvand",
-        "Beneen Dourgham Karim Al-Harizi",
-        "Maytham N Meqdad"
-      ],
-      "published_on": "2026-07-21",
-      "doi": "10.1016/j.compbiomed.2026.111862",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42480127/",
-      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111862"
     }
   ],
   "error": null,
