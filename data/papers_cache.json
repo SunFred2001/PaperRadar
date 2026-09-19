@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-17T22:48:52.174903+00:00",
-  "last_success_at": "2026-09-17T22:48:53.452142+00:00",
+  "last_attempt_at": "2026-09-19T01:02:17.288636+00:00",
+  "last_success_at": "2026-09-19T01:02:17.671037+00:00",
   "count": 15,
   "papers": [
     {
@@ -121,6 +121,28 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
+    },
+    {
+      "pmid": "42753380",
+      "title": "Bridging accuracy and explainability in AI-ECG: A multi-stage hyperparameter tuning framework for reinforcement learning-based random forests.",
+      "journal": "Journal of electrocardiology",
+      "abstract": "BACKGROUND: Deep learning applied to ECG has demonstrated strong diagnostic performance for acute coronary syndrome (ACS), but widespread clinical adoption remains limited by lack of interpretability and model robustness. Classical machine learning approaches, such as random forests (RF), offer greater explainability but often underperform compared with deep learning models.\n\nOBJECTIVE: To develop and evaluate a structured, multi-stage hyperparameter optimization framework for a reinforcement learning-enhanced RF (RL-RF) model to improve the accuracy, stability, and interpretability of ACS classification from 12‑lead ECGs.\n\nMETHODS: We analyzed 10,393 ECGs from 7397 patients (15.6% ACS prevalence), partitioned into training (80%), validation (10%), and test (10%) sets using stratified sampling. A five-stage optimization pipeline was implemented, including (1) initial hyperparameter exploration, (2) reinforcement learning-based optimization using a Light Double Deep Q-Network, (3) multi-local refinement on the full training set, (4) stability evaluation via multi-seed averaging, and (5) final ensemble construction. Model performance was compared against conventional RF and untuned RL-RF baseline using area under ROC curve, average precision (AP), and F1-score. Performance metrics were computed with a threshold that maximized the F1-score for each model.\n\nRESULTS: The tuned RL-RF model achieved superior performance on the independent test set, with an AUROC of 0.86, AP of 0.69, and F1-score of 0.58. The model demonstrated improved specificity and positive predictive value compared with baseline models, indicating enhanced ability to reduce false-positive classifications, with a modest decrease in sensitivity.\n\nCONCLUSIONS: A multi-stage reinforcement learning-guided optimization framework significantly improves the performance and stability of explainable RF models for ACS classification. This approach bridges the gap between accuracy and interpretability, supporting the development of clinically trustworthy AI-ECG systems.",
+      "authors": [
+        "Karam Daoud",
+        "Rui Qi Ji",
+        "Nathan T Riek",
+        "Murat Akcakaya",
+        "Ervin Sejdic",
+        "Tanmay Gokhale",
+        "Salah Al-Zaiti"
+      ],
+      "published_on": "2026-09-17",
+      "doi": "10.1016/j.jelectrocard.2026.154453",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42753380/",
+      "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154453"
     },
     {
       "pmid": "42743799",
@@ -281,25 +303,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42607398/",
       "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154420"
-    },
-    {
-      "pmid": "42544099",
-      "title": "The role of artificial intelligence in the diagnosis of pericardial constriction.",
-      "journal": "Current opinion in cardiology",
-      "abstract": "PURPOSE OF REVIEW: Constrictive pericarditis is a complex disease whose distinction from clinical mimickers remains challenging yet critically important. Diagnosis frequently requires integration of findings across multiple imaging modalities. Artificial intelligence (AI) applications in cardiac imaging are rapidly evolving and may play an increasingly important role in the diagnosis of constrictive pericarditis.\n\nRECENT FINDINGS: Most established evidence supporting AI in diagnosis of constrictive pericarditis involves machine learning and deep learning applied to echocardiography, particularly for differentiating constrictive pericarditis from restrictive cardiomyopathy. Newer approaches incorporate multiple echocardiographic views and emphasize model generalizability. Emerging applications span cardiac computed tomography (CT)-for automated pericardial thickening and calcification quantification-large language models (LLMs) in cardiac magnetic resonance interpretation, and deep learning electrocardiogram analysis.\n\nSUMMARY: Applications of AI for diagnosis of constrictive pericarditis are being studied across multiple imaging modalities, but remain in early stages of development. Emerging AI concepts, including multimodal LLMs and foundation models leveraging transfer learning, show promise for further advances and eventual meaningful implementation. Cardiac CT, though underrepresented in the current AI literature for constrictive pericarditis, represents an important target for future investigation given its established role in surgical planning.",
-      "authors": [
-        "Kevin Lipat",
-        "Tyler Booth",
-        "Partho P Sengupta"
-      ],
-      "published_on": "2026-08-03",
-      "doi": "10.1097/HCO.0000000000001325",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42544099/",
-      "doi_url": "https://doi.org/10.1097/HCO.0000000000001325"
     }
   ],
   "error": null,
