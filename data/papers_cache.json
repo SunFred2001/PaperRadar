@@ -2,10 +2,44 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-22T14:32:07.398080+00:00",
-  "last_success_at": "2026-09-22T14:32:07.798225+00:00",
+  "last_attempt_at": "2026-09-23T16:30:46.775355+00:00",
+  "last_success_at": "2026-09-23T16:30:47.130363+00:00",
   "count": 15,
   "papers": [
+    {
+      "pmid": "42497537",
+      "title": "Dendritic functional heterogeneity with feedback control facilitates stable spatiotemporal representation in spiking neural networks.",
+      "journal": "Neural networks : the official journal of the International Neural Network Society",
+      "abstract": "Stable and accurate spatiotemporal representation is crucial for spiking neural networks (SNNs) to perform well in modeling long sequences. Existing single-compartment models struggle to capture long-term dependencies, while multi-compartment models often neglect the functional complementarity and predictive interactions among dendritic subunits. Both models limit the spatiotemporal representation capacity of SNNs. To overcome these limitations, we propose the Dendritic Feedback Adaptive Leaky Integrate-and-Fire (DF-ALIF) neuron model, which combines dendritic functional heterogeneity with feedback control within a predictive coding framework. Basal compartments of DF-ALIF receive feedforward and recurrent inputs, encoding bottom-up prediction errors via a local excitatory and inhibitory balance mechanism that drives feature detection and pattern reconstruction. In contrast, the apical compartment carries top-down feedback predictions and dynamically modulates the somatic firing threshold via a mismatch mechanism to calibrate neural activity. The synergistic interaction between these compartments mitigates the temporal credit assignment problem and enhances the spatiotemporal representation capabilities of SNNs. On benchmarks including electrocardiogram classification, radar and neuromorphic event-based gesture recognition, image classification, and speech recognition, DF-ALIF demonstrates improved classification accuracy, stable convergence, and enhanced robustness to temporal perturbations. Our work demonstrates a feasible approach to embedding dendritic functional heterogeneity in SNNs and offers a fresh perspective on the design of neuromorphic computing systems.",
+      "authors": [
+        "Qiulin Li",
+        "Junsong Wang",
+        "Jianfang Wu"
+      ],
+      "published_on": "2026-07-25",
+      "doi": "10.1016/j.neunet.2026.109395",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497537/",
+      "doi_url": "https://doi.org/10.1016/j.neunet.2026.109395"
+    },
+    {
+      "pmid": "42442245",
+      "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
+      "journal": "Neural networks : the official journal of the International Neural Network Society",
+      "abstract": "Electrocardiogram (ECG) captures the heart's electrical signals, offering valuable information for diagnosing cardiac conditions. However, the scarcity of labeled data makes it challenging to fully leverage supervised learning in the medical domain. Self-supervised learning (SSL) offers a promising solution, enabling models to learn from unlabeled data and uncover meaningful patterns. In this paper, we show that masked modeling in the latent space can be a powerful alternative to existing self-supervised methods in the ECG domain. We introduce ECG-JEPA, an SSL model for 12-lead ECG analysis that learns semantic representations of ECG data by predicting in the hidden latent space, bypassing the need to reconstruct raw signals. This approach offers several advantages in the ECG domain: (1) it avoids producing unnecessary details, such as noise, which is common in ECG; and (2) it addresses the limitations of naïve L2 loss between raw signals. Another key contribution is the introduction of Cross-Pattern Attention (CroPA), a specialized masked attention mechanism tailored for 12-lead ECG data. ECG-JEPA is trained on the union of several open ECG datasets, totaling approximately 180,000 samples, and achieves state-of-the-art performance in various downstream tasks including diagnostic classification, feature extraction, and segmentation.",
+      "authors": [
+        "Sehun Kim"
+      ],
+      "published_on": "2026-07-14",
+      "doi": "10.1016/j.neunet.2026.109334",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42442245/",
+      "doi_url": "https://doi.org/10.1016/j.neunet.2026.109334"
+    },
     {
       "pmid": "42703253",
       "title": "Memristor-based echo state network for ECG classification: optimizing accuracy and efficiency with different architectures.",
@@ -262,47 +296,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
       "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
-    },
-    {
-      "pmid": "42643135",
-      "title": "[Artificial intelligence in cardiovascular prevention: a strategic opportunity for risk prediction and early diagnosis].",
-      "journal": "Giornale italiano di cardiologia (2006)",
-      "abstract": "Cardiovascular diseases remain the leading cause of mortality and morbidity worldwide, with substantial impact in Italy. Cardiovascular prevention is a strategic priority, yet a significant gap persists between evidence-based guideline recommendations and their actual implementation in clinical practice. Artificial intelligence (AI), through machine learning and deep learning models, is emerging as a potentially transformative technology to bridge this gap, enabling more precise, dynamic, and personalized cardiovascular risk stratification compared with traditional risk scores. This review examines the most recent evidence on the application of AI in cardiovascular prevention, with a specific focus on risk stratification, early detection of subclinical disease, and identification of patients most likely to benefit from targeted interventions. It addresses the limitations of conventional risk scores and the contribution of emerging risk determinants, including digital biomarkers, genetic data, and wearable devices. It discusses the role of AI-enabled electrocardiography in the early detection of subclinical atrial fibrillation, left ventricular dysfunction, and coronary artery disease; the potential of opportunistic imaging (chest radiography, chest and coronary computed tomography, mammography) for subclinical atherosclerosis; and the integration of AI into clinical care pathways, electronic health records, clinical decision support systems, and telemonitoring networks. Overall, AI outlines the transition from a reactive cardiology model toward a predictive, proactive, and precision-based approach. Translation into routine clinical practice requires robust prospective evidence, randomized controlled trials, validation in heterogeneous populations, improved model interpretability, and adequate digital and regulatory infrastructures.",
-      "authors": [
-        "Simona Giubilato",
-        "Lucio Giuseppe Granata",
-        "Salvatore Massimo Petrina"
-      ],
-      "published_on": "2026-08-26",
-      "doi": "10.1714/4755.47724",
-      "publication_types": [
-        "Journal Article",
-        "Review",
-        "English Abstract"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42643135/",
-      "doi_url": "https://doi.org/10.1714/4755.47724"
-    },
-    {
-      "pmid": "42607398",
-      "title": "Deep learning electrocardiogram analysis for rapid rule-out of acute coronary syndrome in the emergency department: a multicenter diagnostic accuracy study.",
-      "journal": "Journal of electrocardiology",
-      "abstract": "BACKGROUND: Rapid and accurate exclusion of acute coronary syndrome (ACS) in patients presenting with chest pain remains a major clinical challenge. Deep learning models applied to the 12‑lead electrocardiogram (ECG) may improve diagnostic efficiency, yet multicenter validation data remain limited.\n\nMETHODS: We conducted a prospective, multicenter diagnostic accuracy study enrolling 6743 consecutive adults presenting to five emergency departments with suspected ACS between January 2020 and December 2023. Patients with ST-elevation myocardial infarction were excluded. A deep learning ECG (DL-ECG) model based on a residual convolutional neural network was developed using nested five-fold stratified cross-validation. Model performance was compared against emergency physician clinical assessment (Standard Care) and the HEART score using the 30-day adjudicated ACS diagnosis as the reference standard.\n\nRESULTS: Among 6743 patients (mean age 61.9 years; 59.8% male), 1099 (16.3%) received an ACS diagnosis within 30 days. The DL-ECG model achieved an area under the receiver operating characteristic curve (AUC) of 0.954 (95% CI, 0.948-0.960), significantly exceeding Standard Care (0.921; P < 0.001) and the HEART score (0.876; P < 0.001). At matched sensitivity of 97.5%, the DL-ECG model demonstrated superior specificity (0.746 vs. 0.568 and 0.354) and negative predictive value (0.994 vs. 0.992 and 0.987). Performance was consistent across demographic subgroups and study centers.\n\nCONCLUSIONS: A deep learning model analyzing the standard 12‑lead ECG significantly outperformed both clinical assessment and the HEART score for ruling out ACS. If validated prospectively, this approach could facilitate earlier discharge of low-risk patients.",
-      "authors": [
-        "Yousong Li",
-        "Delong Huang",
-        "Zhiqiang Pu",
-        "Jing Lian",
-        "Bingmei Huang"
-      ],
-      "published_on": "2026-08-17",
-      "doi": "10.1016/j.jelectrocard.2026.154420",
-      "publication_types": [
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42607398/",
-      "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154420"
     }
   ],
   "error": null,
