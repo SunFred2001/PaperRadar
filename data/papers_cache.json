@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-23T16:30:46.775355+00:00",
-  "last_success_at": "2026-09-23T16:30:47.130363+00:00",
+  "last_attempt_at": "2026-09-24T18:20:14.434986+00:00",
+  "last_success_at": "2026-09-24T18:20:15.294538+00:00",
   "count": 15,
   "papers": [
     {
@@ -157,6 +157,25 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42777309",
+      "title": "Why blinding sex is not enough: equitable discrimination, unequal operation in machine-learning detection of myocardial infarction from the ECG.",
+      "journal": "Journal of electrocardiology",
+      "abstract": "BACKGROUND AND PURPOSE: Automated electrocardiogram (ECG) interpretation is proposed to standardise myocardial infarction (MI) detection, but whether such models reproduce under-diagnosis of MI in women is unclear.\n\nMETHODS: Sex- and age-related equity in MI-versus-normal detection was audited on PTB-XL as a benchmark classification audit (14,437 ECGs, 12,940 patients; MI-labelled record proportion 0.296 in women, 0.455 in men), across four models sharing a patient-grouped, hash-frozen 70/15/15 split: interpretable gradient-boosted trees with and without sex and age, and a raw-signal convolutional network under two normalisation schemes. Discrimination was separated from the operating point; bootstrap intervals were resampled by patient.\n\nRESULTS: Discrimination by sex and by age showed no statistically detectable between-sex difference in any model (area under the ROC curve, AUC, 0.96 to 0.98; DeLong non-significant), and no male-minus-female contrast in calibration intercept or slope survived correction. At the default 0.5 threshold recall was lower in women, the disparity declined continuously with age in exploratory analysis, reaching 0.176 and 0.240 below 60 years. Female median scores were lower than male ones within both true classes (Holm-adjusted p 0.002 to 0.038), a calibrated shift tracking the smaller female class proportion. Amplitude features predicted sex collectively (AUC 0.845). Sex-specific thresholding narrowed the gap but gave no stable younger-female cut.\n\nCONCLUSIONS: Discrimination and calibration showed no detectable between-sex difference, yet the 0.5 threshold produced lower recall in women, most markedly in younger women, a descriptive and exploratory finding tied to the operating point. Fairness is best verified per subgroup and in external validation.",
+      "authors": [
+        "Guilherme Cesar Fernandes de Oliveira da Costa",
+        "Jose Gregorio Valero Rodriguez",
+        "Giulia Fernandes de Oliveira da Costa",
+        "Erivelton Alessandro do Nascimento"
+      ],
+      "published_on": "2026-09-23",
+      "doi": "10.1016/j.jelectrocard.2026.154458",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42777309/",
+      "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154458"
+    },
+    {
       "pmid": "42753380",
       "title": "Bridging accuracy and explainability in AI-ECG: A multi-stage hyperparameter tuning framework for reinforcement learning-based random forests.",
       "journal": "Journal of electrocardiology",
@@ -278,24 +297,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
       "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
-    },
-    {
-      "pmid": "42664624",
-      "title": "When multimodal fusion helps: An ablation study of EEG-ECG fusion strategies for emotion recognition.",
-      "journal": "Computers in biology and medicine",
-      "abstract": "Multimodal physiological signal fusion-particularly electroencephalography (EEG) and electrocardiography (ECG)-is widely assumed to improve emotion recognition over unimodal approaches. Yet the conditions under which fusion genuinely helps, and which fusion architecture is most robust, remain poorly characterised. We present a large-scale ablation study comparing five fusion strategies (EEG-only, ECG-only, concatenation, bidirectional cross-attention, and adaptive gated fusion) on the emotion datasets DREAMER and AMIGOS, and validate ECG signal-quality effects on the stress dataset WESAD. Using a lightweight deep learning architecture (PMMR-DL v3, ∼1.3M parameters) and leave-one-subject-out cross-validation (LOSO-CV) repeated over three random seeds, we evaluate macro F1-score and accuracy for binary emotion classification. Our results reveal pronounced dataset-dependent modality dominance: ECG dominates on DREAMER (F1 = 42.1% vs. EEG 28.6%), whereas EEG dominates on AMIGOS (F1 = 63.8% vs. ECG 13.8%). Critically, multimodal fusion does not consistently outperform the best unimodal baseline. On DREAMER, the strongest fusion strategy (adaptive gated, F1 = 37.1%) still underperforms ECG-only. On AMIGOS, all fusion conditions collapse toward the poor ECG performance (F1 17-21%) because the ECG recordings are noise-dominated. The adaptive gated strategy achieves the lowest inter-seed variance (std = 0.5 on DREAMER), making it the most reliable fusion mechanism when signal quality is adequate. These findings caution against blanket assumptions that multimodal fusion is universally beneficial, and provide practical guidance for modality selection in affective computing pipelines.",
-      "authors": [
-        "Milembolo Miantezila Junior",
-        "Mavoungou Bayone Don-Faustin U-Vangsy",
-        "Guo Bin"
-      ],
-      "published_on": "2026-08-28",
-      "doi": "10.1016/j.compbiomed.2026.111895",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42664624/",
-      "doi_url": "https://doi.org/10.1016/j.compbiomed.2026.111895"
     }
   ],
   "error": null,
