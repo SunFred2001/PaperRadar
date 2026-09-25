@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-24T18:20:14.434986+00:00",
-  "last_success_at": "2026-09-24T18:20:15.294538+00:00",
+  "last_attempt_at": "2026-09-25T18:22:00.686972+00:00",
+  "last_success_at": "2026-09-25T18:22:01.014548+00:00",
   "count": 15,
   "papers": [
     {
@@ -157,6 +157,24 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42784719",
+      "title": "Artificial intelligence-enabled detection of left ventricular hypertrophy using a single-lead electrocardiogram: a pilot study for wearable-based screening.",
+      "journal": "Proceedings (Baylor University. Medical Center)",
+      "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is an independent predictor of cardiovascular morbidity and mortality. Single-lead electrocardiogram (ECG) tracings from consumer wearable devices may enable scalable screening for LVH where standard 12-lead ECG acquisition is not feasible.\n\nMETHODS: We developed a transformer-based deep learning model to detect LVH using single-lead ECG (lead I) combined with demographic variables and benchmarked performance against a 12-lead ECG model within the same framework. The PTB-XL dataset (21,837 cardiologist-annotated ECGs from 18,885 patients) was used. Models were trained on (a) lead I only, (b) lead I plus demographics (age, sex, body mass index), and (c) 12-lead plus demographics. Classification thresholds were selected to achieve ≥90% specificity consistent with a rule-in screening paradigm.\n\nRESULTS: The lead I-only model achieved an area under the curve (AUC) of 0.874 ± 0.062 (sensitivity 69.1% ± 18.9%, specificity 90.1% ± 0.1%). Incorporation of demographic variables improved performance to AUC 0.928 ± 0.017 (sensitivity 84.7% ± 4.2%, specificity 90.6% ± 0.7%). The 12-lead model with demographics achieved AUC 0.939 ± 0.007 (sensitivity 85.9% ± 2.0%, specificity 90.1% ± 0.1%).\n\nCONCLUSIONS: Single-lead ECG combined with demographic variables enables detection of electrocardiographic LVH with performance approaching that of 12-lead ECG models, supporting the feasibility of wearable-based screening pending validation against imaging-confirmed LVH.",
+      "authors": [
+        "Shahana Nandy",
+        "Sneha Nandy",
+        "Siddhartha Dalal"
+      ],
+      "published_on": "2026-09-24",
+      "doi": "10.1080/08998280.2026.2735142",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42784719/",
+      "doi_url": "https://doi.org/10.1080/08998280.2026.2735142"
+    },
+    {
       "pmid": "42777309",
       "title": "Why blinding sex is not enough: equitable discrimination, unequal operation in machine-learning detection of myocardial infarction from the ECG.",
       "journal": "Journal of electrocardiology",
@@ -196,6 +214,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42753380/",
       "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154453"
+    },
+    {
+      "pmid": "42780366",
+      "title": "Adaptive feature fusion based semi-supervised federated learning system for ECG arrhythmia detection.",
+      "journal": "Frontiers in artificial intelligence",
+      "abstract": "Automatic cardiac arrhythmia detection using electrocardiogram (ECG) signals is essential for early diagnosis of cardiovascular conditions. Most of the previously existing systems for arrhythmia detection depend on fully supervised learning approaches. In addition to that, since the ECG patient data is centrally stored, it can raise concerns like privacy and security in healthcare environments. To address these issues, this work explores a semi-supervised federated learning framework that detects arrhythmia using ECG signals. The MIT-BIH Arrhythmia dataset is used from which the heartbeat segments are extracted and relevant features are obtained. The framework incorporates the use of multi-level feature extraction, adaptive feature fusion and pseudo-labeling to utilize both labeled and unlabeled data efficiently. In order to improve the performance of the model, a weighted federated aggregation approach is used where the contribution of each of the clients is considered during the global model updates. Implementation and evaluation of multiple machine learning and deep learning models including Random Forest, Support Vector Machine, K-Nearest Neighbor, AdaBoost, Gradient Boosting and Multi-Layer Perceptron are performed within the proposed framework. This proposed approach achieves an accuracy of 96.81% in semi-supervised federated settings and has an AUC value of 0.9957 that shows high classification reliability. The system helps improve the model learning with limited number of labeled data at the same time ensuring privacy preserving distributed training. The model maintains a competitive performance under federated settings as compared to the centralized training. Among the evaluated models, ensemble and neural network based approaches show superior performance. The framework demonstrates a stable performance across federated training rounds. Overall, the results obtained show the effectiveness of the proposed framework for arrhythmia detection in a simulated federated setting.",
+      "authors": [
+        "Silla Ann Regi",
+        "Jagadeesan Srinivasan",
+        "Thanapal Pandi"
+      ],
+      "published_on": "2026-09-24",
+      "doi": "10.3389/frai.2026.1913613",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42780366/",
+      "doi_url": "https://doi.org/10.3389/frai.2026.1913613"
     },
     {
       "pmid": "42743799",
@@ -255,48 +291,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42711831/",
       "doi_url": "https://doi.org/10.1142/S0129065727500110"
-    },
-    {
-      "pmid": "42683521",
-      "title": "Damage-Free Passivation of Ambipolar OECTs with Fluoropolymer Film for Enhanced Performance and Stability Toward Reliable Biosignal Processing.",
-      "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
-      "abstract": "Organic electrochemical transistor (OECT) is a promising building block for bioelectronic and neuromorphic applications due to its high transconductance and low-voltage operation. However, microstructural instability and irreversible electrochemical degradation of the organic mixed ionic-electronic conductors (OMIECs) are still challenging to achieve high performance of OECTs. Here, we present an ambipolar vertical OECT in which a fluorinated passivation layer is deposited on the OMIEC surface directly by solvent-free initiated chemical vapor deposition (iCVD) method without damaging the channel layer. Vapor-phase infiltration of the fluoropolymer layer followed by thermal annealing induces controlled nanoscale phase separation in the OMIEC layer, enabling efficient ion doping in both p-type and n-type modes. Consequently, fluoropolymer-passivated ambipolar vertical OECTs (FPA-vOECTs) exhibit higher transconductance, far enhanced transient response, and longer operational stability. In particular, the transconductance-a key figure of merit-increased from 12.7 to 73.7 mS in p-type and from 4.1 to 21.4 mS in n-type operation. Leveraging the enhanced performance of the ambipolar vertical OECTs, we also demonstrate, for the first time, a single-channel bipolar event-driven spiking encoder for neuromorphic bioelectronics, enabling electrocardiogram signal encoding and spiking neural network-based arrhythmia classification with 90.5% accuracy.",
-      "authors": [
-        "Junyeong Yang",
-        "Bohyun Lee",
-        "Hanna Lee",
-        "Mingyu Kim",
-        "Changsoon Choi",
-        "Jung Ah Lim",
-        "Youson Kim",
-        "Sung Gap Im"
-      ],
-      "published_on": "2026-09-02",
-      "doi": "10.1002/advs.77167",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42683521/",
-      "doi_url": "https://doi.org/10.1002/advs.77167"
-    },
-    {
-      "pmid": "42641629",
-      "title": "A deformable lead-attention fusion network for multi-label ECG classification integrating clinical metadata.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "Cardiovascular diseases remain a major global health burden, making accurate electrocardiogram (ECG) analysis essential for timely diagnosis. While deep learning-based methods have made significant progress in automating ECG classification, they are often limitedbythe variability of ECG signals, the frequent presence of multiple cardiac abnormalities, and the inadequate integration of diverse clinical data. This study proposes Deformable Lead-Path and Multi-Modal Fusion Network (DLM-Net): a robust deep learning framework for multi-label ECG classification, designed to address these challenges. DLM-Net incorporates several key innovations. First, the Lead-Specific Deformable Path applies deformable convolutions independently to each lead. This enables adaptive modeling of non-rigid and complex waveform variations. It is also enhanced by a high-frequency module, which captures fine-grained temporal details. Secondly, a spatial path based on a ResNet-like backbone and feature pyramid network fuses multi-scale representations in order to effectively capture both global and local ECG patterns. In parallel, the lead path uses a lead attention Transformer to explicitly model inter-lead dependencies. Finally, ECG features from the spatial and lead paths are integrated with clinical tabular data through a multimodal fusion module, in which compact patient-level tabular embeddings provide complementary contextual information for ECG representation. Extensive experiments on three public multi-label ECG datasets- Physikalisch-Technische Bundesanstalt-XL, CPSC2018 and Chapman-demonstrate that DLM-Net achieves competitive and stable performance across datasets, with label-wise accuracies of 89.11%, 96.05% and 97.82%, respectively. Overall, DLM-Net provides an effective and flexible framework for multi-label ECG classification, offering improved accuracy and robustness across diverse datasets and demonstrating the effectiveness of the proposed architecture in handling complex multi-label diagnostic tasks in retrospective settings.",
-      "authors": [
-        "Enjun Zhou",
-        "Xiangyong Kong",
-        "Hao Wang",
-        "Chenrui Bai"
-      ],
-      "published_on": "2026-08-25",
-      "doi": "10.1088/2057-1976/ae9e39",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42641629/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/ae9e39"
     }
   ],
   "error": null,
