@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-25T18:22:00.686972+00:00",
-  "last_success_at": "2026-09-25T18:22:01.014548+00:00",
+  "last_attempt_at": "2026-09-26T19:37:12.575965+00:00",
+  "last_success_at": "2026-09-26T19:37:13.411022+00:00",
   "count": 15,
   "papers": [
     {
@@ -175,6 +175,28 @@
       "doi_url": "https://doi.org/10.1080/08998280.2026.2735142"
     },
     {
+      "pmid": "42791954",
+      "title": "Hybrid Multi-Domain ECG Feature Learning with mRMR and CNN-Transformer for Cardiac Disease Classification.",
+      "journal": "Bioengineering (Basel, Switzerland)",
+      "abstract": "Cardiovascular disease diagnosis requires accurate and timely analysis of electrocardiogram (ECG) signals to support reliable clinical decision-making. However, ECG signals are inherently non-stationary, exhibit substantial inter-patient variability, and may share similar morphological patterns across different cardiac disorders, making automated multi-class diagnosis challenging. This study proposes a multi-domain machine learning framework for automated ECG-based cardiac disease classification, integrating signal preprocessing, heartbeat segmentation, Variational Mode Decomposition (VMD), multi-domain feature extraction, minimum Redundancy Maximum Relevance (mRMR) feature selection, and hybrid CNN-Transformer learning. Experiments are conducted on the PTB-XL database using five diagnostic superclasses: NORM, MI, STTC, CD, and HYP. First, a fourth-order Butterworth band-pass filter (0.5-40 Hz) is applied to remove baseline wander and high-frequency noise, followed by adaptive Symlet-8 wavelet denoising with soft thresholding to suppress residual high-frequency fluctuations while preserving the P-wave, QRS complex, and T-wave morphology, after which the signal is z-score normalized. R-peaks are subsequently detected to segment standardized cardiac cycles. VMD is then employed to decompose the heartbeat signals into intrinsic modes, from which the most informative modes are retained using correlation-based mode selection. Temporal, statistical, spectral, and nonlinear features are extracted to capture complementary characteristics of cardiac electrical activity, while mRMR selects the eight most informative features by maximizing feature relevance and minimizing redundancy. The resulting representation is processed through a hybrid CNN-Transformer architecture, in which convolutional layers learn local morphological patterns and Transformer-based attention captures long-range dependencies within the cardiac feature representation. The proposed framework achieves 93.60% accuracy, 93.61% macro precision, 93.60% macro recall, 93.60% macro F1-score, and 98.40% macro specificity across the five diagnostic classes. Confusion-matrix analysis, receiver operating characteristic (ROC) analysis, comparative evaluation, and ablation experiments further demonstrate the discriminative capability and robustness of the proposed approach. These findings indicate that multi-domain biomedical feature learning combined with attention-based deep learning can provide an effective and robust strategy for automated ECG-based cardiac disease classification, highlighting the potential of machine learning for intelligent biomedical signal analysis and computer-aided clinical diagnosis.",
+      "authors": [
+        "Mohammed Alnusayri",
+        "Sara Mumtaz",
+        "Bader Aldughayfiq",
+        "Hisham Allahem",
+        "Nabil Almashfi",
+        "Dina Abdulaziz AlHammadi",
+        "Ahmad Jalal"
+      ],
+      "published_on": "2026-09-26",
+      "doi": "10.3390/bioengineering13091082",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791954/",
+      "doi_url": "https://doi.org/10.3390/bioengineering13091082"
+    },
+    {
       "pmid": "42777309",
       "title": "Why blinding sex is not enough: equitable discrimination, unequal operation in machine-learning detection of myocardial infarction from the ECG.",
       "journal": "Journal of electrocardiology",
@@ -192,6 +214,24 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42777309/",
       "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154458"
+    },
+    {
+      "pmid": "42791937",
+      "title": "Intelligent Real-Time Healthcare and Biomedical Monitoring Systems: A Narrative Review of AI, IoT, and Emerging Technologies.",
+      "journal": "Bioengineering (Basel, Switzerland)",
+      "abstract": "BACKGROUND: Chronic disease management, an ageing global population, and the aftermath of the COVID-19 pandemic have pushed real-time, continuous health monitoring from a research curiosity toward routine clinical practice. Artificial intelligence (AI), the Internet of Medical Things (IoMT), edge computing, and next-generation wireless networks are converging to enable systems that sense, interpret, and act on physiological data outside the traditional hospital setting.\n\nMETHODS: This is a narrative review, not a PRISMA-guided systematic or scoping review; it synthesises 75 sources (a mixture of primary studies, systematic/scoping reviews, and meta-analyses), individually verified against their published record. The topics span IoMT system architecture and security, wearable and implantable sensing, deep learning for electrocardiogram (ECG), fall-related and human-activity signal analysis, edge and TinyML deployment, federated learning, blockchain-based health-record security, medical imaging diagnostics, explainable AI (XAI), continuous glucose monitoring, 5G/6G-enabled telemonitoring, digital twins, consumer-grade and contactless cardiac sensing, neurological and mental health monitoring, and the materials, regulatory, and acute care infrastructure surrounding real-time deployment. Studies were organised into a five-layer architectural taxonomy spanning perception, edge, network, cloud, and application layers.\n\nRESULTS: Reported accuracies for deep learning models on ECG arrhythmia classification range from 91% to 99.5% across the reviewed studies, but the figures come from different datasets, class definitions, and validation protocols and are therefore not directly comparable; within this heterogeneous evidence, edge-deployed models report accuracies in the 85-96% range at substantially reduced power budgets. Deep-learning-based fall detection and chest radiograph classification are each reported, in the individual studies reviewed, to outperform threshold-based or classical alternatives, though this has not been established through head-to-head comparison across the full evidence base. Federated learning and blockchain are discussed as technical mechanisms that can contribute to data privacy and record integrity; neither constitutes regulatory compliance with frameworks such as HIPAA or the GDPR on its own. Persistent obstacles identified across the reviewed literature include dataset heterogeneity, limited external clinical validation, energy-constrained edge hardware, low clinician trust in opaque models, and fragmented interoperability standards.\n\nCONCLUSIONS: The evidence reviewed here is consistent with, but does not by itself establish, a layered, privacy-preserving, and explainable architecture that couples lightweight on-device inference with federated or blockchain-secured cloud learning as a design direction for future real-time healthcare monitoring systems. Future work should prioritise standardised benchmarking, prospective clinical validation, and regulatory-aligned data-governance frameworks.",
+      "authors": [
+        "Abdussalam Elhanashi",
+        "Sergio Saponara"
+      ],
+      "published_on": "2026-09-26",
+      "doi": "10.3390/bioengineering13091065",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791937/",
+      "doi_url": "https://doi.org/10.3390/bioengineering13091065"
     },
     {
       "pmid": "42753380",
@@ -251,46 +291,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42743799/",
       "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109398"
-    },
-    {
-      "pmid": "42715432",
-      "title": "A deep learning framework for arrhythmia classification: mitigating data leakage and class imbalance in ECG analysis.",
-      "journal": "Journal of medical engineering & technology",
-      "abstract": "Accurate and timely identification of cardiac abnormalities remains essential for reducing mortality associated with life-threatening cardiac arrhythmias. However, automated diagnostic systems often struggle with imbalanced clinical data and limited generalizability. In this work, we propose an efficient deep learning framework to classify the various ECG arrhythmias based on time-frequency features generated through Continuous Wavelet Transform (CWT) and efficient VGG16 transfer learning. By avoiding data leakage through a stratified split-then-augment partitioning method, the method achieved a test accuracy of 96.05% and stable performance across five-fold cross-validation (96.0% ± 0.4%). The model achieved a macro-average F1 score of 0.933 despite class imbalance with a sensitivity that supports real-world detection needs, including ventricular fusion beat recognition. CWT improved the multi-resolution representation of non-stationary ECG signals, while architectural changes, including batch normalization, global average pooling and dropout, improved model performance without increasing computational load. The system has only 166K trainable parameters with an inference latency of ∼25-30 ms, suggesting the possible application in emergency triage, bedside monitoring, and telemedicine-assisted decision support. These findings show the feasibility of the proposed method for early cardiac event detection and providing clinical patient assistance in high-risk environments.",
-      "authors": [
-        "Sudeshna Sani",
-        "Dipra Mitra",
-        "Pallab Banerjee",
-        "Durgesh Srivastava"
-      ],
-      "published_on": "2026-09-09",
-      "doi": "10.1080/03091902.2026.2724902",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42715432/",
-      "doi_url": "https://doi.org/10.1080/03091902.2026.2724902"
-    },
-    {
-      "pmid": "42711831",
-      "title": "A Dual Soft Attention Network for Automatic Sleep Staging via Single-Lead Electrocardiogram Signals.",
-      "journal": "International journal of neural systems",
-      "abstract": "Polysomnography (PSG) is the current gold standard for sleep monitoring; however, it is complex, burdensome, and costly. In contrast, commercial health monitoring devices, such as the Apple Watch, offer sleep scoring at a low cost over a few days. This paper proposes a dual-attention mechanism-based sleep staging method using single-lead electrocardiogram (ECG) signals, named SleepECGNet. The method extracts multi-scale features by employing convolutional kernels of different sizes, thereby capturing subtle details in the ECG signals. The model then integrates an SE module and a Luong attention-based encoder-decoder architecture to filter redundant information and dynamically focus on different sleep stages. Experiments were conducted using the HMC, MGH, and SHHS1 datasets for sleep staging tasks and the Apnea-ECG corpus was employed to execute transfer learning strategies directed at sleep apnea recognition. Comprehensive ablation experiments were conducted to verify the effectiveness of each component. Moreover, an analysis of sequence duration demonstrated that expanding the input timeframe directly improves classification outcomes.",
-      "authors": [
-        "Xuanhao Qi",
-        "Qinying Li",
-        "Hongze Liu",
-        "Yinlin Cheng",
-        "Bingo Wing-Kuen Ling",
-        "Zhensheng Hu"
-      ],
-      "published_on": "2026-09-09",
-      "doi": "10.1142/S0129065727500110",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42711831/",
-      "doi_url": "https://doi.org/10.1142/S0129065727500110"
     }
   ],
   "error": null,
