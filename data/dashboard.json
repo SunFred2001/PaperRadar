@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-09-29T01:38:39.900088+00:00",
-    "last_success_at": "2026-09-29T01:38:40.488187+00:00",
+    "last_attempt_at": "2026-09-30T06:27:49.958030+00:00",
+    "last_success_at": "2026-09-30T06:27:50.895686+00:00",
     "count": 15,
     "papers": [
       {
@@ -173,6 +173,46 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       },
       {
+        "pmid": "42810386",
+        "title": "A tri-modal, offline, and explainable framework for 12-lead electrocardiogram interpretation: fusing deterministic rules, a local residual network, and an agentic vision-language model.",
+        "journal": "Physiological measurement",
+        "abstract": "Automated electrocardiogram (ECG) interpretation is increasingly delivered as cloud deep-learning services, trading data sovereignty, auditability and robustness for accuracy. This study tests whether an offline, explainable framework can remove that trade-off.&#xD;&#xD;Approach. Three independent interpreters feed a decision-fusion layer: a deterministic engine of 26 executable clinical criteria, each finding linked to a highlighted signal segment and a literature source; a compact one-dimensional residual network trained on PTB-XL and run on-device via the Open Neural Network Exchange runtime; and an optional agentic vision-language model reading a rendered ECG image behind a security screen with human-in-the-loop escalation. Format-agnostic ingestion, lead-aware capability tiering and a three-tier signal-quality gate precede interpretation. Evaluation covers diagnostic accuracy, on-device latency, noise resilience, modality ablation and zero-shot external validation.&#xD;&#xD;Main results. On the PTB-XL test fold (n = 2198) the network reaches a macro-averaged area under the receiver operating characteristic curve (AUROC) of 0.932 (95% confidence interval (CI) 0.918-0.943), matching published GPU baselines, while the complete pipeline runs in 108 ± 25 ms on a CPU with no network access. Performance degrades gracefully to a signal-to-noise ratio of 5 dB (AUROC 0.951) as the quality gate rejects uninterpretable signals, and rules and network agree only weakly (Cohen's kappa 0.26), indicating complementary errors. Applied without retraining to an independent cohort (Chapman-Shaoxing, n = 1599) the model retains a macro-AUROC of 0.898. In a small pilot (25 records; 30 rule/network disagreements) the general-purpose agentic model was the weakest adjudicator (accuracy 0.267, 95% CI 0.142-0.444; exact McNemar test versus rules, p = 0.09).&#xD;&#xD;Significance. Edge inference, intrinsic explainability and governed multi-modal fusion give competitive accuracy with auditable findings. The agentic layer is positioned for governance rather than diagnosis, motivating ECG-specialized models. The open-source system is a research prototype, not a medical device.",
+        "authors": [
+          "Mohammad Mahbubur Rahman Khan Mamun"
+        ],
+        "published_on": "2026-09-29",
+        "doi": "10.1088/1361-6579/aeaded",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42810386/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/aeaded"
+      },
+      {
+        "pmid": "42808453",
+        "title": "Artificial Intelligence-Derived Electrocardiographic Age Enhances Stroke Risk Stratification in Patients With Atrial Fibrillation With a CHA2DS2-VA Score of 1.",
+        "journal": "Journal of the American Heart Association",
+        "abstract": "BACKGROUND: To evaluate whether artificial intelligence-derived electrocardiographic-age enhances the predictive utility of the CHA2DS2-VA (congestive heart failure/left ventricular dysfunction, hypertension, age ≥75 years [doubled], diabetes, stroke/transient ischemic attack [doubled], vascular disease, age 65-74 years) score in patients with atrial fibrillation representing a borderline indication for anticoagulation with a score of 1.\n\nMETHODS: From a multicenter atrial fibrillation and atrial flutter registry, we identified 832 anticoagulation-naïve patients with a CHA2DS2-VA score of 1 and at least one 12-lead ECG within 90 days of diagnosis. ECG-age was estimated using a previously validated deep learning (convolutional neural network) model. Chronological age was replaced with ECG-age (1 point for 65-74 years, 2 points for ≥75 years), leaving all other score components unchanged, to form the EA-CHA2DS2-VA score. Patients were grouped as EA-CHA2DS2-VA ≥2 (n=315) or <2 (n=517).\n\nRESULTS: Compared with patients with an EA-CHA2DS2-VA score <2, those with an EA-CHA2DS2-VA score ≥2 had a significantly higher risk of ischemic stroke or transient ischemic attack (hazard ratio [HR], 1.82 [95% CI, 1.06-3.13]; P=0.028). All-cause mortality was also significantly elevated in the EA-CHA2DS2-VA ≥2 group (HR, 2.22 [95% CI, 1.43-3.45]; P<0.001). Major bleeding did not differ significantly between groups (P=0.386).\n\nCONCLUSIONS: Substituting chronological age with artificial intelligence-derived ECG-age in the CHA2DS2-VA score was associated with improved risk stratification in patients with atrial fibrillation with intermediate stroke risk. This refined risk stratification facilitates timely initiation of anticoagulation therapy, potentially reducing stroke and mortality. Future prospective studies are essential to integrate this artificial intelligence-enhanced strategy into clinical practice.\n\nREGISTRATION: This study was registered on the Open Science Framework (URL: https://doi.org/10.17605/OSF.IO/39BND; unique identifier: 10.17605/OSF.IO/39BND).",
+        "authors": [
+          "Chen-Shu Wu",
+          "Po-Huang Chen",
+          "Wen-Yu Lin",
+          "Wei-Ting Liu",
+          "Po Kai Chan",
+          "Hsuan Yi Wu",
+          "Chin-Sheng Lin",
+          "Chin Lin",
+          "Chiao-Chin Lee"
+        ],
+        "published_on": "2026-09-29",
+        "doi": "10.1161/JAHA.126.050723",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
+        "doi_url": "https://doi.org/10.1161/JAHA.126.050723"
+      },
+      {
         "pmid": "42784719",
         "title": "Artificial intelligence-enabled detection of left ventricular hypertrophy using a single-lead electrocardiogram: a pilot study for wearable-based screening.",
         "journal": "Proceedings (Baylor University. Medical Center)",
@@ -232,6 +272,25 @@
         "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154458"
       },
       {
+        "pmid": "42807521",
+        "title": "An interpretable multi-scale hybrid attention network (MSHAN) for explainable ECG arrhythmia classification.",
+        "journal": "Frontiers in artificial intelligence",
+        "abstract": "Artificial Intelligence (AI) holds the promise of transforming patient care in healthcare, but the general adoption of AI in the healthcare sector is impeded by issues that stem from a lack of transparency and trust in AI models. We noted a lack of faith in artificial intelligence (AI) systems working together with cardiologists, which can be considered \"black-boxes. This observation led to the idea of incorporating interpretability into the architecture itself, which is achieved by the key innovation of multi-scale feature abstraction and hierarchical attention mechanisms. A novel architecture, namely MSHAN (Multi-Scale Hybrid Attention Network), is proposed to address the critical challenge with an overall accuracy of 96.25% for ECG arrhythmia detection. The MIT-BIH Arrhythmia Database was used for experiments. The proposed model exhibited good discrimination and classification performance for the inter-patient DS2 test set with macro-averaged sensitivity more than 95.34%, macro-averaged precision more than 95.01%, and specificity more than 98.36% for all the classes of arrhythmia, and the discriminative capability was also observed by probability-based ROC analysis, with an average AUC of 0.980. The results of the comparative analysis showed the superiority of the MSHAN method in comparison with traditional methods, including the ResNet-1D (92.14%) and 1D CNN (88.73%), and the explanation of the predictions made by the MSHAN for the inter-patient evaluation mode. We performed an informal clinical observation that the visualizations of the model's decision process, based on SHAP, helped the cardiologists in better understanding and checking the correctness of the model's predictions; formal clinical check and validation are topics that will be explored in future. A wide range of experiments with various architectures show that channel and temporal attention modules combined with parallel convolutional pathways yielded the best performance. Beyond its role in learning to interpret ECGs, the findings in this research provide a blueprint for designing interpretable systems in other time-series applications that involve AI.",
+        "authors": [
+          "A Karmel",
+          "Joshita Das",
+          "Kirtan Rajesh",
+          "G Kanimozhi"
+        ],
+        "published_on": "2026-09-29",
+        "doi": "10.3389/frai.2026.1867173",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42807521/",
+        "doi_url": "https://doi.org/10.3389/frai.2026.1867173"
+      },
+      {
         "pmid": "42791937",
         "title": "Intelligent Real-Time Healthcare and Biomedical Monitoring Systems: A Narrative Review of AI, IoT, and Emerging Technologies.",
         "journal": "Bioengineering (Basel, Switzerland)",
@@ -248,65 +307,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791937/",
         "doi_url": "https://doi.org/10.3390/bioengineering13091065"
-      },
-      {
-        "pmid": "42753380",
-        "title": "Bridging accuracy and explainability in AI-ECG: A multi-stage hyperparameter tuning framework for reinforcement learning-based random forests.",
-        "journal": "Journal of electrocardiology",
-        "abstract": "BACKGROUND: Deep learning applied to ECG has demonstrated strong diagnostic performance for acute coronary syndrome (ACS), but widespread clinical adoption remains limited by lack of interpretability and model robustness. Classical machine learning approaches, such as random forests (RF), offer greater explainability but often underperform compared with deep learning models.\n\nOBJECTIVE: To develop and evaluate a structured, multi-stage hyperparameter optimization framework for a reinforcement learning-enhanced RF (RL-RF) model to improve the accuracy, stability, and interpretability of ACS classification from 12‑lead ECGs.\n\nMETHODS: We analyzed 10,393 ECGs from 7397 patients (15.6% ACS prevalence), partitioned into training (80%), validation (10%), and test (10%) sets using stratified sampling. A five-stage optimization pipeline was implemented, including (1) initial hyperparameter exploration, (2) reinforcement learning-based optimization using a Light Double Deep Q-Network, (3) multi-local refinement on the full training set, (4) stability evaluation via multi-seed averaging, and (5) final ensemble construction. Model performance was compared against conventional RF and untuned RL-RF baseline using area under ROC curve, average precision (AP), and F1-score. Performance metrics were computed with a threshold that maximized the F1-score for each model.\n\nRESULTS: The tuned RL-RF model achieved superior performance on the independent test set, with an AUROC of 0.86, AP of 0.69, and F1-score of 0.58. The model demonstrated improved specificity and positive predictive value compared with baseline models, indicating enhanced ability to reduce false-positive classifications, with a modest decrease in sensitivity.\n\nCONCLUSIONS: A multi-stage reinforcement learning-guided optimization framework significantly improves the performance and stability of explainable RF models for ACS classification. This approach bridges the gap between accuracy and interpretability, supporting the development of clinically trustworthy AI-ECG systems.",
-        "authors": [
-          "Karam Daoud",
-          "Rui Qi Ji",
-          "Nathan T Riek",
-          "Murat Akcakaya",
-          "Ervin Sejdic",
-          "Tanmay Gokhale",
-          "Salah Al-Zaiti"
-        ],
-        "published_on": "2026-09-17",
-        "doi": "10.1016/j.jelectrocard.2026.154453",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42753380/",
-        "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154453"
-      },
-      {
-        "pmid": "42780366",
-        "title": "Adaptive feature fusion based semi-supervised federated learning system for ECG arrhythmia detection.",
-        "journal": "Frontiers in artificial intelligence",
-        "abstract": "Automatic cardiac arrhythmia detection using electrocardiogram (ECG) signals is essential for early diagnosis of cardiovascular conditions. Most of the previously existing systems for arrhythmia detection depend on fully supervised learning approaches. In addition to that, since the ECG patient data is centrally stored, it can raise concerns like privacy and security in healthcare environments. To address these issues, this work explores a semi-supervised federated learning framework that detects arrhythmia using ECG signals. The MIT-BIH Arrhythmia dataset is used from which the heartbeat segments are extracted and relevant features are obtained. The framework incorporates the use of multi-level feature extraction, adaptive feature fusion and pseudo-labeling to utilize both labeled and unlabeled data efficiently. In order to improve the performance of the model, a weighted federated aggregation approach is used where the contribution of each of the clients is considered during the global model updates. Implementation and evaluation of multiple machine learning and deep learning models including Random Forest, Support Vector Machine, K-Nearest Neighbor, AdaBoost, Gradient Boosting and Multi-Layer Perceptron are performed within the proposed framework. This proposed approach achieves an accuracy of 96.81% in semi-supervised federated settings and has an AUC value of 0.9957 that shows high classification reliability. The system helps improve the model learning with limited number of labeled data at the same time ensuring privacy preserving distributed training. The model maintains a competitive performance under federated settings as compared to the centralized training. Among the evaluated models, ensemble and neural network based approaches show superior performance. The framework demonstrates a stable performance across federated training rounds. Overall, the results obtained show the effectiveness of the proposed framework for arrhythmia detection in a simulated federated setting.",
-        "authors": [
-          "Silla Ann Regi",
-          "Jagadeesan Srinivasan",
-          "Thanapal Pandi"
-        ],
-        "published_on": "2026-09-24",
-        "doi": "10.3389/frai.2026.1913613",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42780366/",
-        "doi_url": "https://doi.org/10.3389/frai.2026.1913613"
-      },
-      {
-        "pmid": "42743799",
-        "title": "MultiCardioFusionNet: A multimodal fusion model for predicting coronary heart disease integrating time-domain, frequency-domain, and clinical information.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Coronary heart disease (CHD) remains a leading cause of morbidity and mortality worldwide, highlighting the need for accurate, accessible, and cost-effective diagnostic approaches. This study proposes MultiCardioFusionNet, a multimodal deep learning framework that integrates electrocardiographic (ECG) signals and clinical information (gender, age, and body mass index) for intelligent CHD diagnosis. To capture complementary disease-related characteristics, a three-branch architecture is designed to jointly extract Frequency-Domain features, temporal features, and clinical representations from multimodal data. The resulting multimodal representations are integrated through an attention-guided fusion strategy to exploit complementary information across spectral, temporal, and clinical domains. The framework was developed and evaluated using real-world multicenter clinical data. In the internal validation cohort, MultiCardioFusionNet achieved an AUC of 0.9327, while independent external validation yielded an AUC of 0.9261, demonstrating promising generalizability capability. The proposed model consistently outperformed several representative deep learning methods, including Gated Recurrent Unit, Convolutional Neural Network, Convolutional Neural Network - Long Short-Term Memory, Convolutional Neural Network - Bidirectional Long Short-Term Memory and Convolutional Neural Network - Transformer (GRU, CNN, CNN-LSTM, CNN-BILSTM, and CNN-transformer). These results indicate that integrating electrophysiological and clinical information can substantially enhance CHD diagnosis. The consistent performance across the internal test cohort and the independent multi-center external validation cohort suggests that MultiCardioFusionNet may serve as a non-invasive decision-support approach for assisting CHD identification and risk assessment among clinically suspected patients undergoing further diagnostic evaluation.",
-        "authors": [
-          "Tianbo Xu",
-          "Hechao Zhang",
-          "Hongzeng Xu",
-          "Shanshan Xu"
-        ],
-        "published_on": "2026-09-15",
-        "doi": "10.1016/j.compbiolchem.2026.109398",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42743799/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109398"
       }
     ],
     "error": null,
@@ -319,6 +319,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-09-30T01:38:40.488187+00:00",
+  "next_refresh_at": "2026-10-01T06:27:50.895686+00:00",
   "next_push_at": null
 }
