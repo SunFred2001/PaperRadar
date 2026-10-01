@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-09-30T06:27:49.958030+00:00",
-  "last_success_at": "2026-09-30T06:27:50.895686+00:00",
+  "last_attempt_at": "2026-10-01T08:36:14.027278+00:00",
+  "last_success_at": "2026-10-01T08:36:14.840978+00:00",
   "count": 15,
   "papers": [
     {
@@ -157,6 +157,68 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42035615",
+      "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
+      "journal": "Computational biology and chemistry",
+      "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
+      "authors": [
+        "Yusen Wu",
+        "Jinde Zhu",
+        "Junhao Yuan",
+        "Kaiqiang Huang"
+      ],
+      "published_on": "2026-04-27",
+      "doi": "10.1016/j.compbiolchem.2026.108991",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
+      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
+    },
+    {
+      "pmid": "41876433",
+      "title": "Fatigue Identification Models for Firefighters Based on Electrocardiogram Signals.",
+      "journal": "Journal of occupational and environmental medicine",
+      "abstract": "OBJECTIVES: To identify physiological indicators and develop effective models for recognizing training-induced physical fatigue in firefighters.\n\nMETHODS: Heart rate variability was analyzed in 18 firefighters before and after physical training. Electrocardiogram signals were processed using linear and nonlinear methods. Feature dimensionality was reduced using 2 selection approaches, and fatigue recognition models were developed using multiple machine learning and deep learning algorithms.\n\nRESULTS: Physical fatigue increased the mean heart rate and the low-frequency to high-frequency ratio, while 8 indicators, including mean RR interval, short- and long-term variability, and sample entropy, showed significant decreases. The least absolute shrinkage and selection operator-based one-dimensional convolutional neural network achieved the highest classification accuracy of 94.64%.\n\nCONCLUSIONS: Electrocardiogram-derived indicators provide a feasible and objective approach for identifying physical fatigue in firefighters, supporting occupational fatigue monitoring and safety management.",
+      "authors": [
+        "Xin Zheng",
+        "Rui Hao",
+        "Huan Wang",
+        "Tengteng Hao",
+        "Wenzhuo Fu"
+      ],
+      "published_on": "2026-03-25",
+      "doi": "10.1097/JOM.0000000000003718",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
+      "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
+    },
+    {
+      "pmid": "41538333",
+      "title": "A Dual Classifier-Regressor Architecture for Heart Sound Onset/Offset Detection.",
+      "journal": "IEEE transactions on bio-medical engineering",
+      "abstract": "OBJECTIVE: Identifying the first and second heart sounds (S1 and S2) from phonocardiogram (PCG) signals is an essential step in automating the diagnosis of cardiac conditions such as irregular heartbeat, valve misfunctions, and heart failure. Recent research inspired by image segmentation has shown promise in utilising deep neural networks for point-wise PCG segmentation with the support of synchronised electrocardiogram (ECG). This paper shifts the focus from point-wise segmentation to identifying the onset/offset of S1 and S2 heart sounds in the PCG signal.\n\nMETHODS: We incorporate the ECG signal and its keypoints to improve the detection of the heart sounds. Our proposed method employs a joint classifier-regressor architecture for predicting the probability and the location of transitions in the PCG signal.\n\nRESULTS: When evaluated on the largest publicly available PhysioNet/CinC 2016 dataset, the proposed approach outperforms the existing state-of-the-art methods, achieving a sensitivity of 0.98 and a positive predictive value of 0.98 in identifying midpoints of S1 and S2 segments. It also identifies the onset/offset locations with an 11.11 ms error.\n\nCONCLUSION: It is evident that identifying the transitions simplifies, leading to better training and inference.\n\nSIGNIFICANCE: In addition to achieving state-of-the-art results, this proposed approach could also be adapted to other physiological signals, such as respiration, blood pressure, or muscle activity, for locating regions of activity/interest.",
+      "authors": [
+        "Pamuditha Somarathne",
+        "Sandun Herath",
+        "Gaetano Gargiulo",
+        "Paul Breen",
+        "Neil Anderson",
+        "Yu Yao",
+        "Tongliang Liu",
+        "Anusha Withana"
+      ],
+      "published_on": "2026-01-15",
+      "doi": "10.1109/TBME.2026.3654558",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41538333/",
+      "doi_url": "https://doi.org/10.1109/TBME.2026.3654558"
+    },
+    {
       "pmid": "42810386",
       "title": "A tri-modal, offline, and explainable framework for 12-lead electrocardiogram interpretation: fusing deterministic rules, a local residual network, and an agentic vision-language model.",
       "journal": "Physiological measurement",
@@ -235,62 +297,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791954/",
       "doi_url": "https://doi.org/10.3390/bioengineering13091082"
-    },
-    {
-      "pmid": "42777309",
-      "title": "Why blinding sex is not enough: equitable discrimination, unequal operation in machine-learning detection of myocardial infarction from the ECG.",
-      "journal": "Journal of electrocardiology",
-      "abstract": "BACKGROUND AND PURPOSE: Automated electrocardiogram (ECG) interpretation is proposed to standardise myocardial infarction (MI) detection, but whether such models reproduce under-diagnosis of MI in women is unclear.\n\nMETHODS: Sex- and age-related equity in MI-versus-normal detection was audited on PTB-XL as a benchmark classification audit (14,437 ECGs, 12,940 patients; MI-labelled record proportion 0.296 in women, 0.455 in men), across four models sharing a patient-grouped, hash-frozen 70/15/15 split: interpretable gradient-boosted trees with and without sex and age, and a raw-signal convolutional network under two normalisation schemes. Discrimination was separated from the operating point; bootstrap intervals were resampled by patient.\n\nRESULTS: Discrimination by sex and by age showed no statistically detectable between-sex difference in any model (area under the ROC curve, AUC, 0.96 to 0.98; DeLong non-significant), and no male-minus-female contrast in calibration intercept or slope survived correction. At the default 0.5 threshold recall was lower in women, the disparity declined continuously with age in exploratory analysis, reaching 0.176 and 0.240 below 60 years. Female median scores were lower than male ones within both true classes (Holm-adjusted p 0.002 to 0.038), a calibrated shift tracking the smaller female class proportion. Amplitude features predicted sex collectively (AUC 0.845). Sex-specific thresholding narrowed the gap but gave no stable younger-female cut.\n\nCONCLUSIONS: Discrimination and calibration showed no detectable between-sex difference, yet the 0.5 threshold produced lower recall in women, most markedly in younger women, a descriptive and exploratory finding tied to the operating point. Fairness is best verified per subgroup and in external validation.",
-      "authors": [
-        "Guilherme Cesar Fernandes de Oliveira da Costa",
-        "Jose Gregorio Valero Rodriguez",
-        "Giulia Fernandes de Oliveira da Costa",
-        "Erivelton Alessandro do Nascimento"
-      ],
-      "published_on": "2026-09-23",
-      "doi": "10.1016/j.jelectrocard.2026.154458",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42777309/",
-      "doi_url": "https://doi.org/10.1016/j.jelectrocard.2026.154458"
-    },
-    {
-      "pmid": "42807521",
-      "title": "An interpretable multi-scale hybrid attention network (MSHAN) for explainable ECG arrhythmia classification.",
-      "journal": "Frontiers in artificial intelligence",
-      "abstract": "Artificial Intelligence (AI) holds the promise of transforming patient care in healthcare, but the general adoption of AI in the healthcare sector is impeded by issues that stem from a lack of transparency and trust in AI models. We noted a lack of faith in artificial intelligence (AI) systems working together with cardiologists, which can be considered \"black-boxes. This observation led to the idea of incorporating interpretability into the architecture itself, which is achieved by the key innovation of multi-scale feature abstraction and hierarchical attention mechanisms. A novel architecture, namely MSHAN (Multi-Scale Hybrid Attention Network), is proposed to address the critical challenge with an overall accuracy of 96.25% for ECG arrhythmia detection. The MIT-BIH Arrhythmia Database was used for experiments. The proposed model exhibited good discrimination and classification performance for the inter-patient DS2 test set with macro-averaged sensitivity more than 95.34%, macro-averaged precision more than 95.01%, and specificity more than 98.36% for all the classes of arrhythmia, and the discriminative capability was also observed by probability-based ROC analysis, with an average AUC of 0.980. The results of the comparative analysis showed the superiority of the MSHAN method in comparison with traditional methods, including the ResNet-1D (92.14%) and 1D CNN (88.73%), and the explanation of the predictions made by the MSHAN for the inter-patient evaluation mode. We performed an informal clinical observation that the visualizations of the model's decision process, based on SHAP, helped the cardiologists in better understanding and checking the correctness of the model's predictions; formal clinical check and validation are topics that will be explored in future. A wide range of experiments with various architectures show that channel and temporal attention modules combined with parallel convolutional pathways yielded the best performance. Beyond its role in learning to interpret ECGs, the findings in this research provide a blueprint for designing interpretable systems in other time-series applications that involve AI.",
-      "authors": [
-        "A Karmel",
-        "Joshita Das",
-        "Kirtan Rajesh",
-        "G Kanimozhi"
-      ],
-      "published_on": "2026-09-29",
-      "doi": "10.3389/frai.2026.1867173",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42807521/",
-      "doi_url": "https://doi.org/10.3389/frai.2026.1867173"
-    },
-    {
-      "pmid": "42791937",
-      "title": "Intelligent Real-Time Healthcare and Biomedical Monitoring Systems: A Narrative Review of AI, IoT, and Emerging Technologies.",
-      "journal": "Bioengineering (Basel, Switzerland)",
-      "abstract": "BACKGROUND: Chronic disease management, an ageing global population, and the aftermath of the COVID-19 pandemic have pushed real-time, continuous health monitoring from a research curiosity toward routine clinical practice. Artificial intelligence (AI), the Internet of Medical Things (IoMT), edge computing, and next-generation wireless networks are converging to enable systems that sense, interpret, and act on physiological data outside the traditional hospital setting.\n\nMETHODS: This is a narrative review, not a PRISMA-guided systematic or scoping review; it synthesises 75 sources (a mixture of primary studies, systematic/scoping reviews, and meta-analyses), individually verified against their published record. The topics span IoMT system architecture and security, wearable and implantable sensing, deep learning for electrocardiogram (ECG), fall-related and human-activity signal analysis, edge and TinyML deployment, federated learning, blockchain-based health-record security, medical imaging diagnostics, explainable AI (XAI), continuous glucose monitoring, 5G/6G-enabled telemonitoring, digital twins, consumer-grade and contactless cardiac sensing, neurological and mental health monitoring, and the materials, regulatory, and acute care infrastructure surrounding real-time deployment. Studies were organised into a five-layer architectural taxonomy spanning perception, edge, network, cloud, and application layers.\n\nRESULTS: Reported accuracies for deep learning models on ECG arrhythmia classification range from 91% to 99.5% across the reviewed studies, but the figures come from different datasets, class definitions, and validation protocols and are therefore not directly comparable; within this heterogeneous evidence, edge-deployed models report accuracies in the 85-96% range at substantially reduced power budgets. Deep-learning-based fall detection and chest radiograph classification are each reported, in the individual studies reviewed, to outperform threshold-based or classical alternatives, though this has not been established through head-to-head comparison across the full evidence base. Federated learning and blockchain are discussed as technical mechanisms that can contribute to data privacy and record integrity; neither constitutes regulatory compliance with frameworks such as HIPAA or the GDPR on its own. Persistent obstacles identified across the reviewed literature include dataset heterogeneity, limited external clinical validation, energy-constrained edge hardware, low clinician trust in opaque models, and fragmented interoperability standards.\n\nCONCLUSIONS: The evidence reviewed here is consistent with, but does not by itself establish, a layered, privacy-preserving, and explainable architecture that couples lightweight on-device inference with federated or blockchain-secured cloud learning as a design direction for future real-time healthcare monitoring systems. Future work should prioritise standardised benchmarking, prospective clinical validation, and regulatory-aligned data-governance frameworks.",
-      "authors": [
-        "Abdussalam Elhanashi",
-        "Sergio Saponara"
-      ],
-      "published_on": "2026-09-26",
-      "doi": "10.3390/bioengineering13091065",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791937/",
-      "doi_url": "https://doi.org/10.3390/bioengineering13091065"
     }
   ],
   "error": null,
