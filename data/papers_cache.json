@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-01T08:36:14.027278+00:00",
-  "last_success_at": "2026-10-01T08:36:14.840978+00:00",
+  "last_attempt_at": "2026-10-02T15:35:10.066418+00:00",
+  "last_success_at": "2026-10-02T15:35:11.198399+00:00",
   "count": 15,
   "papers": [
     {
@@ -277,26 +277,22 @@
       "doi_url": "https://doi.org/10.1080/08998280.2026.2735142"
     },
     {
-      "pmid": "42791954",
-      "title": "Hybrid Multi-Domain ECG Feature Learning with mRMR and CNN-Transformer for Cardiac Disease Classification.",
-      "journal": "Bioengineering (Basel, Switzerland)",
-      "abstract": "Cardiovascular disease diagnosis requires accurate and timely analysis of electrocardiogram (ECG) signals to support reliable clinical decision-making. However, ECG signals are inherently non-stationary, exhibit substantial inter-patient variability, and may share similar morphological patterns across different cardiac disorders, making automated multi-class diagnosis challenging. This study proposes a multi-domain machine learning framework for automated ECG-based cardiac disease classification, integrating signal preprocessing, heartbeat segmentation, Variational Mode Decomposition (VMD), multi-domain feature extraction, minimum Redundancy Maximum Relevance (mRMR) feature selection, and hybrid CNN-Transformer learning. Experiments are conducted on the PTB-XL database using five diagnostic superclasses: NORM, MI, STTC, CD, and HYP. First, a fourth-order Butterworth band-pass filter (0.5-40 Hz) is applied to remove baseline wander and high-frequency noise, followed by adaptive Symlet-8 wavelet denoising with soft thresholding to suppress residual high-frequency fluctuations while preserving the P-wave, QRS complex, and T-wave morphology, after which the signal is z-score normalized. R-peaks are subsequently detected to segment standardized cardiac cycles. VMD is then employed to decompose the heartbeat signals into intrinsic modes, from which the most informative modes are retained using correlation-based mode selection. Temporal, statistical, spectral, and nonlinear features are extracted to capture complementary characteristics of cardiac electrical activity, while mRMR selects the eight most informative features by maximizing feature relevance and minimizing redundancy. The resulting representation is processed through a hybrid CNN-Transformer architecture, in which convolutional layers learn local morphological patterns and Transformer-based attention captures long-range dependencies within the cardiac feature representation. The proposed framework achieves 93.60% accuracy, 93.61% macro precision, 93.60% macro recall, 93.60% macro F1-score, and 98.40% macro specificity across the five diagnostic classes. Confusion-matrix analysis, receiver operating characteristic (ROC) analysis, comparative evaluation, and ablation experiments further demonstrate the discriminative capability and robustness of the proposed approach. These findings indicate that multi-domain biomedical feature learning combined with attention-based deep learning can provide an effective and robust strategy for automated ECG-based cardiac disease classification, highlighting the potential of machine learning for intelligent biomedical signal analysis and computer-aided clinical diagnosis.",
+      "pmid": "42817552",
+      "title": "SApneaNet: Adaptive Squeeze-and-Excitation-Based CNN-Transformer Network with AGFF for Sleep Apnea Event Detection Using ECG Images Under IoMT.",
+      "journal": "Sensors (Basel, Switzerland)",
+      "abstract": "Background and Objective: Obstructive sleep apnea (OSA) is a fatal widespread sleep-related breathing disorder and a major risk factor for cardiovascular and cerebrovascular diseases, significantly impacting older adults' health worldwide. Due to the risk of such complications, timely and accurate identification of OSA is crucial. Polysomnography is considered the most accurate technique for detecting OSA; however, it is limited by its complexity and multi-channel requirements. A promising alternative is electrocardiogram (ECG)-based diagnosis, which continuously monitors heart rhythm and captures subtle cardiac changes associated with OSA. Nevertheless, existing ECG-based approaches still face challenges related to complex feature engineering, limited capture of complementary temporal-spectral information and global dependencies, along with inadequate feature recalibration and fusion, which can restrict OSA detection. Thus, further improvements are still required to achieve clinically reliable performance. Methods: To address these challenges, this study proposes SApneaNet, a novel advanced deep learning method for detecting OSA events using ECG signals. The proposed approach employs the continuous wavelet transform (CWT) to convert ECG signals into RGB log-scalograms, enabling the simultaneous analysis of temporal and frequency-domain features. The generated RGB log-scalograms are then fed into a deep CNN encoder with adaptive squeeze-and-excitation (ASE), followed by a transformer and an adaptive gated feature fusion (AGFF) architecture. In this framework, to improve OSA detection performance, the CNN extracts rich local features, the ASE module performs channel-wise recalibration to enhance feature representations, the transformer performs data-parallel processing and captures global contextual dependencies, and the AGFF mechanism adaptively emphasizes informative features while suppressing less relevant ones. Results: The experimental results on the Apnea-ECG dataset showed that the model achieved a sensitivity of 94.7%, specificity of 95.2%, F1-score of 93.5%, accuracy of 95.1%, Cohen's kappa of 89.4%, and an area under the receiver operating characteristic (ROC) curve (AUC) of 0.989 for per-segment classification. Furthermore, for per-recording classification, the model achieved an accuracy of 100.0%, a mean absolute error (MAE) of 2.025, and a Pearson correlation coefficient (PCC) of 0.992. Overall, the experimental results demonstrated that the proposed model achieved excellent and competitive performance compared with other advanced state-of-the-art methods for OSA classification. Conclusions: The proposed model demonstrates strong efficacy in OSA detection, providing a novel and robust alternative to conventional diagnostic methods. The model's reliable and consistent diagnostic performance highlights its potential for integration into practical OSA diagnostic systems, including home-based health monitoring devices and clinical decision-support tools.",
       "authors": [
-        "Mohammed Alnusayri",
-        "Sara Mumtaz",
-        "Bader Aldughayfiq",
-        "Hisham Allahem",
-        "Nabil Almashfi",
-        "Dina Abdulaziz AlHammadi",
-        "Ahmad Jalal"
+        "Innocent Tujyinama",
+        "Bessam Abdulrazak",
+        "Rachid Hedjam"
       ],
-      "published_on": "2026-09-26",
-      "doi": "10.3390/bioengineering13091082",
+      "published_on": "2026-10-01",
+      "doi": "10.3390/s26185936",
       "publication_types": [
         "Journal Article"
       ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42791954/",
-      "doi_url": "https://doi.org/10.3390/bioengineering13091082"
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42817552/",
+      "doi_url": "https://doi.org/10.3390/s26185936"
     }
   ],
   "error": null,
