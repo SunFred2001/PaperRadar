@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-04T19:57:27.429089+00:00",
-  "last_success_at": "2026-10-04T19:57:27.815018+00:00",
+  "last_attempt_at": "2026-10-06T00:41:04.925887+00:00",
+  "last_success_at": "2026-10-06T00:41:05.576159+00:00",
   "count": 15,
   "papers": [
     {
@@ -23,22 +23,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497537/",
       "doi_url": "https://doi.org/10.1016/j.neunet.2026.109395"
-    },
-    {
-      "pmid": "42442245",
-      "title": "Learning general representation of 12-lead ECG with a joint-embedding predictive architecture.",
-      "journal": "Neural networks : the official journal of the International Neural Network Society",
-      "abstract": "Electrocardiogram (ECG) captures the heart's electrical signals, offering valuable information for diagnosing cardiac conditions. However, the scarcity of labeled data makes it challenging to fully leverage supervised learning in the medical domain. Self-supervised learning (SSL) offers a promising solution, enabling models to learn from unlabeled data and uncover meaningful patterns. In this paper, we show that masked modeling in the latent space can be a powerful alternative to existing self-supervised methods in the ECG domain. We introduce ECG-JEPA, an SSL model for 12-lead ECG analysis that learns semantic representations of ECG data by predicting in the hidden latent space, bypassing the need to reconstruct raw signals. This approach offers several advantages in the ECG domain: (1) it avoids producing unnecessary details, such as noise, which is common in ECG; and (2) it addresses the limitations of naïve L2 loss between raw signals. Another key contribution is the introduction of Cross-Pattern Attention (CroPA), a specialized masked attention mechanism tailored for 12-lead ECG data. ECG-JEPA is trained on the union of several open ECG datasets, totaling approximately 180,000 samples, and achieves state-of-the-art performance in various downstream tasks including diagnostic classification, feature extraction, and segmentation.",
-      "authors": [
-        "Sehun Kim"
-      ],
-      "published_on": "2026-07-14",
-      "doi": "10.1016/j.neunet.2026.109334",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42442245/",
-      "doi_url": "https://doi.org/10.1016/j.neunet.2026.109334"
     },
     {
       "pmid": "42703253",
@@ -157,6 +141,27 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42829895",
+      "title": "A dual-stream multi-scale cross-attention network for pericardial effusion detection.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "Early detection of pericardial effusion (PE) is clinically important because delayed diagnosis may cause severe cardiac complications. We propose a Dual-Stream Multi-Scale Cross-Attention Network (DS-MSCA) for automatic PE detection using simultaneously acquired electrocardiogram (ECG) and phonocardiogram (PCG) signals. Multi-scale Inception-ResNet encoders capture waveform and rhythm variations, while bidirectional cross-attention models cardiac electromechanical coupling. On a clinical dataset of 149 patients, DS-MSCA achieved 93.26% accuracy, 95.28% sensitivity, and a 95.01% F1-score. Attention maps and Grad-CAM++ showed that the model focused on clinically relevant heart-sound abnormalities while integrating complementary ECG information, supporting non-invasive PE screening.",
+      "authors": [
+        "Jie Gao",
+        "Pengliang Ju",
+        "Lixiu Chen",
+        "Yuzan Li",
+        "Jingjuan Huang",
+        "Jie Wu"
+      ],
+      "published_on": "2026-10-04",
+      "doi": "10.1080/10255842.2026.2736736",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42829895/",
+      "doi_url": "https://doi.org/10.1080/10255842.2026.2736736"
+    },
+    {
       "pmid": "42035615",
       "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
       "journal": "Computational biology and chemistry",
@@ -196,6 +201,24 @@
       "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
     },
     {
+      "pmid": "41838498",
+      "title": "Multi-Feature Fusion and Compressed Bi-LSTM for Memory-Efficient Heartbeat Classification on Wearable Devices.",
+      "journal": "IEEE journal of biomedical and health informatics",
+      "abstract": "In this paper, we present a memory-efficient ECG-based heartbeat classification for wearable devices enabled by multi-feature fusion and compressed bidirectional long short-term memory (Bi-LSTM). A multi-feature fusion technique based on time intervals and under-the-curve areas is proposed to extract the main characteristic points of the ECG waveform with high accuracy and robustness against noise and artifacts. A Bi-LSTM network is developed to process the input sequence in both forward and backward directions, resulting in higher accuracy and a 28% smaller network size compared with a conventional LSTM. Multiple neural networks with varying sizes, including tiny (84 k), small (150 k), medium (478 k), and large (1.25 M) models, are developed to achieve high accuracy across all classes. The overall accuracy is 96.4% for the large model and 94.6% for the tiny model, while the F1 score across all classes exceeds 89.1% and 85.1%, respectively. The proposed models, compressed using post-training quantization techniques, achieve state-of-the-art performance. The compressed large model with 8-bit integer quantization (INT8) achieves an accuracy of 88.4% with 1.3 MB of memory, while the compressed tiny model with dynamic range quantization achieves 94.6% accuracy with only 139 kB of memory.",
+      "authors": [
+        "Reza Nikandish",
+        "Jiayu He",
+        "Benyamin Haghi"
+      ],
+      "published_on": "2026-03-16",
+      "doi": "10.1109/JBHI.2026.3669719",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41838498/",
+      "doi_url": "https://doi.org/10.1109/JBHI.2026.3669719"
+    },
+    {
       "pmid": "41538333",
       "title": "A Dual Classifier-Regressor Architecture for Heart Sound Onset/Offset Detection.",
       "journal": "IEEE transactions on bio-medical engineering",
@@ -219,6 +242,43 @@
       "doi_url": "https://doi.org/10.1109/TBME.2026.3654558"
     },
     {
+      "pmid": "40483671",
+      "title": "Multimodal apnea detection: advancements through convolutional neural networks and STFT analysis of EEG, ECG, and nasal signals to tackle key challenges in innovation.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "Sleep apnea is a prevalent chronic disorder posing significant health risks, requiring prompt diagnosis for effective treatment. This study introduces a reliable and efficient method using simultaneous electroencephalography (EEG), electrocardiography (ECG), and nasal airflow signals to distinguish apnea subtypes. The approach involves signal preprocessing with bandpass filtering and applying the short-time Fourier transform (STFT) to create spectrograms for 30-second segments. A convolutional neural network (CNN) classifies normal events, obstructive sleep apnea (OSA), central sleep apnea (CSA), and hypopnea. Results show our method achieved 98.01% accuracy, highlighting its potential to enhance personalized care for sleep apnea patients.",
+      "authors": [
+        "Mandana Sadat Ghafourian",
+        "Amin Noori",
+        "Shaghayegh Taghipour",
+        "Amin Ramezani"
+      ],
+      "published_on": "2025-06-08",
+      "doi": "10.1080/10255842.2025.2510367",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40483671/",
+      "doi_url": "https://doi.org/10.1080/10255842.2025.2510367"
+    },
+    {
+      "pmid": "40338723",
+      "title": "A new particle swarm optimization-enhanced deep neural network for automatic ECG arrhythmias classification.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "This study proposes an ECG classification system using particle swarm optimization (PSO) for automated deep neural network hyperparameter tuning. PSO optimizes five key parameters: neuron counts in two fully connected layers, dropout rate, learning rate, and optimizer selection. ECG signals undergo wavelet decomposition for feature extraction, with classification performed on the MIT-BIH Arrhythmia Database across five heartbeat classes. The PSO-optimized model achieves superior performance with 99.76% accuracy, 99.34% precision, and 99.21% F1 score, demonstrating PSO's effectiveness in improving model reliability while reducing manual effort.",
+      "authors": [
+        "Yaaqoub Kahlessenane",
+        "Fatiha Bouaziz",
+        "Patrick Siarry"
+      ],
+      "published_on": "2025-05-09",
+      "doi": "10.1080/10255842.2025.2501635",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40338723/",
+      "doi_url": "https://doi.org/10.1080/10255842.2025.2501635"
+    },
+    {
       "pmid": "42810386",
       "title": "A tri-modal, offline, and explainable framework for 12-lead electrocardiogram interpretation: fusing deterministic rules, a local residual network, and an agentic vision-language model.",
       "journal": "Physiological measurement",
@@ -233,66 +293,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42810386/",
       "doi_url": "https://doi.org/10.1088/1361-6579/aeaded"
-    },
-    {
-      "pmid": "42808453",
-      "title": "Artificial Intelligence-Derived Electrocardiographic Age Enhances Stroke Risk Stratification in Patients With Atrial Fibrillation With a CHA2DS2-VA Score of 1.",
-      "journal": "Journal of the American Heart Association",
-      "abstract": "BACKGROUND: To evaluate whether artificial intelligence-derived electrocardiographic-age enhances the predictive utility of the CHA2DS2-VA (congestive heart failure/left ventricular dysfunction, hypertension, age ≥75 years [doubled], diabetes, stroke/transient ischemic attack [doubled], vascular disease, age 65-74 years) score in patients with atrial fibrillation representing a borderline indication for anticoagulation with a score of 1.\n\nMETHODS: From a multicenter atrial fibrillation and atrial flutter registry, we identified 832 anticoagulation-naïve patients with a CHA2DS2-VA score of 1 and at least one 12-lead ECG within 90 days of diagnosis. ECG-age was estimated using a previously validated deep learning (convolutional neural network) model. Chronological age was replaced with ECG-age (1 point for 65-74 years, 2 points for ≥75 years), leaving all other score components unchanged, to form the EA-CHA2DS2-VA score. Patients were grouped as EA-CHA2DS2-VA ≥2 (n=315) or <2 (n=517).\n\nRESULTS: Compared with patients with an EA-CHA2DS2-VA score <2, those with an EA-CHA2DS2-VA score ≥2 had a significantly higher risk of ischemic stroke or transient ischemic attack (hazard ratio [HR], 1.82 [95% CI, 1.06-3.13]; P=0.028). All-cause mortality was also significantly elevated in the EA-CHA2DS2-VA ≥2 group (HR, 2.22 [95% CI, 1.43-3.45]; P<0.001). Major bleeding did not differ significantly between groups (P=0.386).\n\nCONCLUSIONS: Substituting chronological age with artificial intelligence-derived ECG-age in the CHA2DS2-VA score was associated with improved risk stratification in patients with atrial fibrillation with intermediate stroke risk. This refined risk stratification facilitates timely initiation of anticoagulation therapy, potentially reducing stroke and mortality. Future prospective studies are essential to integrate this artificial intelligence-enhanced strategy into clinical practice.\n\nREGISTRATION: This study was registered on the Open Science Framework (URL: https://doi.org/10.17605/OSF.IO/39BND; unique identifier: 10.17605/OSF.IO/39BND).",
-      "authors": [
-        "Chen-Shu Wu",
-        "Po-Huang Chen",
-        "Wen-Yu Lin",
-        "Wei-Ting Liu",
-        "Po Kai Chan",
-        "Hsuan Yi Wu",
-        "Chin-Sheng Lin",
-        "Chin Lin",
-        "Chiao-Chin Lee"
-      ],
-      "published_on": "2026-09-29",
-      "doi": "10.1161/JAHA.126.050723",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
-      "doi_url": "https://doi.org/10.1161/JAHA.126.050723"
-    },
-    {
-      "pmid": "42784719",
-      "title": "Artificial intelligence-enabled detection of left ventricular hypertrophy using a single-lead electrocardiogram: a pilot study for wearable-based screening.",
-      "journal": "Proceedings (Baylor University. Medical Center)",
-      "abstract": "BACKGROUND: Left ventricular hypertrophy (LVH) is an independent predictor of cardiovascular morbidity and mortality. Single-lead electrocardiogram (ECG) tracings from consumer wearable devices may enable scalable screening for LVH where standard 12-lead ECG acquisition is not feasible.\n\nMETHODS: We developed a transformer-based deep learning model to detect LVH using single-lead ECG (lead I) combined with demographic variables and benchmarked performance against a 12-lead ECG model within the same framework. The PTB-XL dataset (21,837 cardiologist-annotated ECGs from 18,885 patients) was used. Models were trained on (a) lead I only, (b) lead I plus demographics (age, sex, body mass index), and (c) 12-lead plus demographics. Classification thresholds were selected to achieve ≥90% specificity consistent with a rule-in screening paradigm.\n\nRESULTS: The lead I-only model achieved an area under the curve (AUC) of 0.874 ± 0.062 (sensitivity 69.1% ± 18.9%, specificity 90.1% ± 0.1%). Incorporation of demographic variables improved performance to AUC 0.928 ± 0.017 (sensitivity 84.7% ± 4.2%, specificity 90.6% ± 0.7%). The 12-lead model with demographics achieved AUC 0.939 ± 0.007 (sensitivity 85.9% ± 2.0%, specificity 90.1% ± 0.1%).\n\nCONCLUSIONS: Single-lead ECG combined with demographic variables enables detection of electrocardiographic LVH with performance approaching that of 12-lead ECG models, supporting the feasibility of wearable-based screening pending validation against imaging-confirmed LVH.",
-      "authors": [
-        "Shahana Nandy",
-        "Sneha Nandy",
-        "Siddhartha Dalal"
-      ],
-      "published_on": "2026-09-24",
-      "doi": "10.1080/08998280.2026.2735142",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42784719/",
-      "doi_url": "https://doi.org/10.1080/08998280.2026.2735142"
-    },
-    {
-      "pmid": "42817552",
-      "title": "SApneaNet: Adaptive Squeeze-and-Excitation-Based CNN-Transformer Network with AGFF for Sleep Apnea Event Detection Using ECG Images Under IoMT.",
-      "journal": "Sensors (Basel, Switzerland)",
-      "abstract": "Background and Objective: Obstructive sleep apnea (OSA) is a fatal widespread sleep-related breathing disorder and a major risk factor for cardiovascular and cerebrovascular diseases, significantly impacting older adults' health worldwide. Due to the risk of such complications, timely and accurate identification of OSA is crucial. Polysomnography is considered the most accurate technique for detecting OSA; however, it is limited by its complexity and multi-channel requirements. A promising alternative is electrocardiogram (ECG)-based diagnosis, which continuously monitors heart rhythm and captures subtle cardiac changes associated with OSA. Nevertheless, existing ECG-based approaches still face challenges related to complex feature engineering, limited capture of complementary temporal-spectral information and global dependencies, along with inadequate feature recalibration and fusion, which can restrict OSA detection. Thus, further improvements are still required to achieve clinically reliable performance. Methods: To address these challenges, this study proposes SApneaNet, a novel advanced deep learning method for detecting OSA events using ECG signals. The proposed approach employs the continuous wavelet transform (CWT) to convert ECG signals into RGB log-scalograms, enabling the simultaneous analysis of temporal and frequency-domain features. The generated RGB log-scalograms are then fed into a deep CNN encoder with adaptive squeeze-and-excitation (ASE), followed by a transformer and an adaptive gated feature fusion (AGFF) architecture. In this framework, to improve OSA detection performance, the CNN extracts rich local features, the ASE module performs channel-wise recalibration to enhance feature representations, the transformer performs data-parallel processing and captures global contextual dependencies, and the AGFF mechanism adaptively emphasizes informative features while suppressing less relevant ones. Results: The experimental results on the Apnea-ECG dataset showed that the model achieved a sensitivity of 94.7%, specificity of 95.2%, F1-score of 93.5%, accuracy of 95.1%, Cohen's kappa of 89.4%, and an area under the receiver operating characteristic (ROC) curve (AUC) of 0.989 for per-segment classification. Furthermore, for per-recording classification, the model achieved an accuracy of 100.0%, a mean absolute error (MAE) of 2.025, and a Pearson correlation coefficient (PCC) of 0.992. Overall, the experimental results demonstrated that the proposed model achieved excellent and competitive performance compared with other advanced state-of-the-art methods for OSA classification. Conclusions: The proposed model demonstrates strong efficacy in OSA detection, providing a novel and robust alternative to conventional diagnostic methods. The model's reliable and consistent diagnostic performance highlights its potential for integration into practical OSA diagnostic systems, including home-based health monitoring devices and clinical decision-support tools.",
-      "authors": [
-        "Innocent Tujyinama",
-        "Bessam Abdulrazak",
-        "Rachid Hedjam"
-      ],
-      "published_on": "2026-10-01",
-      "doi": "10.3390/s26185936",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42817552/",
-      "doi_url": "https://doi.org/10.3390/s26185936"
     }
   ],
   "error": null,
