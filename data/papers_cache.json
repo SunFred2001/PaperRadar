@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-06T00:41:04.925887+00:00",
-  "last_success_at": "2026-10-06T00:41:05.576159+00:00",
+  "last_attempt_at": "2026-10-07T07:01:05.321489+00:00",
+  "last_success_at": "2026-10-07T07:01:05.902437+00:00",
   "count": 15,
   "papers": [
     {
@@ -141,6 +141,56 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42838083",
+      "title": "B-spline Kolmogorov-Arnold networks for interpretable semi-supervised ECG classification.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "This study investigates how Kolmogorov-Arnold Networks (KANs) behave when&#xD;combined with semi-supervised learning for single-lead ECG analysis. Three architectures&#xD;are compared: a standard CNN-BiLSTM-Attention model (accurate but uninterpretable),&#xD;a minimal KAN with a simple CNN front-end (ablation), and the proposed&#xD;SE-MSC-KAN-CNN. The proposed model uses multi-scale depthwise convolutions,&#xD;Squeeze-and-Excitation attention, BiLSTM, and a B-spline KAN head. Interpretability is&#xD;evaluated in three ways: visualising learned B-spline functions, applying Grad-CAM to&#xD;highlight important signal regions, and measuring how the splines change when fewer&#xD;labels are used (spline drift). On the PhysioNet 2017 dataset (8,528 recordings, four&#xD;classes), the proposed model reaches 85.2% supervised accuracy (F1=0.851),&#xD;outperforming the CNN baseline (83.1%) and matching much larger black-box models.&#xD;With only 90% of the labels, it still achieves 85.1%. After training, we applied&#xD;post-training TFLite INT8 conversion. Only the CNN-front-end KAN converted&#xD;(measured size 422 KB). The proposed SE-MSC-KAN-CNN did not convert, because&#xD;Bidirectional LSTM and custom attention lack TFLite kernels; its float32 footprint is&#xD;about 9.8 MB (theoretical INT8 size about 806 KB). Classification metrics in this paper&#xD;are float32; INT8 test accuracy was not measured. The spline drift metric summarises&#xD;how KAN coefficients change under semi-supervised training; use as an on-device&#xD;out-of-distribution detector is proposed but not validated here. These results show that&#xD;competitive accuracy and inspectable KAN maps can be obtained in one hybrid&#xD;architecture. Wearable deployment of the proposed SE-MSC-KAN-CNN is not yet&#xD;achieved: TFLite INT8 conversion failed, and the present graph still requires float32&#xD;inference.",
+      "authors": [
+        "Marlin Ramadhan Baidillah",
+        "Mitha Rahmawati",
+        "Sri Oktamuliani",
+        "Rony Febryarto",
+        "Pratondo Busono",
+        "I Made Astawa",
+        "Syaeful Karim",
+        "Riyanto Riyanto",
+        "Chaerul Achmad"
+      ],
+      "published_on": "2026-10-06",
+      "doi": "10.1088/2057-1976/aeb0af",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
+    },
+    {
+      "pmid": "42834294",
+      "title": "An Automated Machine Learning Based Framework for Scan Level Coronary Artery Calcium Risk Stratification.",
+      "journal": "Journal of imaging informatics in medicine",
+      "abstract": "Coronary artery calcium (CAC) scoring plays a crucial role in the early detection and risk stratification of coronary artery disease (CAD). Current techniques for CAC analysis rely on manual annotations by clinicians and large curated training datasets. This study introduces a fully automatic framework for CAC risk stratification that eliminates the need for manual clinical annotations. We introduce a novel pixel-attenuation-based feature extraction pipeline for automatic CAC assessment that leverages pseudo-labelling to identify regions of interest, reducing reliance on expert annotations. We compared our method against two alternative feature extraction strategies: a radiomics-based pipeline and a foundation-model-based pipeline. Our study focuses on non-contrast images from coronary computed tomography angiography (CCTA) scans. Training and testing were conducted on an in-house electrocardiogram (ECG)-gated CCTA dataset comprising 182 patients, categorized into risk groups based on CAC scores. We further investigated the impact of training exclusively on non-contrast data versus a combined dataset of contrast-enhanced and non-contrast scans, while all evaluations performed solely on non-contrast images. To assess generalizability, we applied our pipeline to the publicly available COCA-Coronary Calcium and Chest CTs dataset, demonstrating robust performance even on lower-quality, non-gated scans. The pixel-attenuation feature extraction pipeline outperformed radiomics and deep learning approaches for CAC risk classification, with accuracies of 92%, 93%, and 87%, and F1-scores of 92%, 90%, and 78% across the two-, three-, and five-class classification tasks, respectively. We present a cost-effective and time-efficient framework for early CAD patient stratification that can be implemented in clinical settings while reducing additional diagnostic procedures.",
+      "authors": [
+        "Gianpiero Guidone",
+        "Ayman Abaid",
+        "Sara Alsubai",
+        "Foziyah Alqahtani",
+        "Talha Iqbal",
+        "Ruth Sharif",
+        "Hesham Elzomor",
+        "Emiliano Bianchini",
+        "Michael G Madden",
+        "Faisal Sharif",
+        "Ihsan Ullah"
+      ],
+      "published_on": "2026-10-06",
+      "doi": "10.1007/s10278-026-02325-z",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42834294/",
+      "doi_url": "https://doi.org/10.1007/s10278-026-02325-z"
+    },
+    {
       "pmid": "42829895",
       "title": "A dual-stream multi-scale cross-attention network for pericardial effusion detection.",
       "journal": "Computer methods in biomechanics and biomedical engineering",
@@ -160,6 +210,29 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42829895/",
       "doi_url": "https://doi.org/10.1080/10255842.2026.2736736"
+    },
+    {
+      "pmid": "42835693",
+      "title": "Diagnostic performance of artificial intelligence-enabled electrocardiography for pulmonary hypertension: a systematic review and meta-analysis.",
+      "journal": "European heart journal. Digital health",
+      "abstract": "Pulmonary hypertension (PH) is a progressive, under-recognized condition with substantial morbidity and mortality. Its non-specific presentation and multimodal diagnostic pathway contribute to delayed diagnosis. Artificial intelligence (AI)-enabled electrocardiography (ECG) may offer a scalable approach to case finding. This PRISMA-DTA systematic review and meta-analysis was registered in PROSPERO (CRD420251241142). MEDLINE, Embase, Web of Science, Scopus, and IEEE Xplore were searched through July 2026, with Google Scholar and citation searching used as supplementary sources. Eligible studies evaluated AI-enabled ECG in adults against right-heart catheterization (RHC)-confirmed PH or echocardiographic PH-related phenotypes. Two reviewers independently screened studies, extracted data, and assessed risk of bias using QUADAS-2. One ECG-only area under the receiver operating characteristic curve (AUROC) per study was pooled using a random-effects model. Seven retrospective studies were included; six contributed to meta-analysis. The pooled AUROC was 0.885 (95% CI 0.855-0.915), with very high heterogeneity (I² = 98.68%; P < 0.0001). The estimate combined heterogeneous RHC, echocardiographic, and clinical-echocardiographic definitions and therefore did not represent accuracy for uniformly RHC-confirmed PH. Four studies performed external validation. Multimodal models outperformed ECG alone in two studies but were excluded from pooling. AI-enabled ECG shows promising discrimination for PH-related targets, but current evidence is retrospective and heterogeneous. It should be considered an investigational case-finding or triage aid rather than a definitive diagnostic stand-alone rule-out test.",
+      "authors": [
+        "Karan Raj Nazareth",
+        "Eyad Jamileh",
+        "Fahad Muhammad",
+        "Omar Farooq",
+        "Anisha Sequeira",
+        "Alishba Awais",
+        "Ibrahim Antoun"
+      ],
+      "published_on": "2026-10-06",
+      "doi": "10.1093/ehjdh/ztag143",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42835693/",
+      "doi_url": "https://doi.org/10.1093/ehjdh/ztag143"
     },
     {
       "pmid": "42035615",
@@ -240,59 +313,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41538333/",
       "doi_url": "https://doi.org/10.1109/TBME.2026.3654558"
-    },
-    {
-      "pmid": "40483671",
-      "title": "Multimodal apnea detection: advancements through convolutional neural networks and STFT analysis of EEG, ECG, and nasal signals to tackle key challenges in innovation.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "Sleep apnea is a prevalent chronic disorder posing significant health risks, requiring prompt diagnosis for effective treatment. This study introduces a reliable and efficient method using simultaneous electroencephalography (EEG), electrocardiography (ECG), and nasal airflow signals to distinguish apnea subtypes. The approach involves signal preprocessing with bandpass filtering and applying the short-time Fourier transform (STFT) to create spectrograms for 30-second segments. A convolutional neural network (CNN) classifies normal events, obstructive sleep apnea (OSA), central sleep apnea (CSA), and hypopnea. Results show our method achieved 98.01% accuracy, highlighting its potential to enhance personalized care for sleep apnea patients.",
-      "authors": [
-        "Mandana Sadat Ghafourian",
-        "Amin Noori",
-        "Shaghayegh Taghipour",
-        "Amin Ramezani"
-      ],
-      "published_on": "2025-06-08",
-      "doi": "10.1080/10255842.2025.2510367",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40483671/",
-      "doi_url": "https://doi.org/10.1080/10255842.2025.2510367"
-    },
-    {
-      "pmid": "40338723",
-      "title": "A new particle swarm optimization-enhanced deep neural network for automatic ECG arrhythmias classification.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "This study proposes an ECG classification system using particle swarm optimization (PSO) for automated deep neural network hyperparameter tuning. PSO optimizes five key parameters: neuron counts in two fully connected layers, dropout rate, learning rate, and optimizer selection. ECG signals undergo wavelet decomposition for feature extraction, with classification performed on the MIT-BIH Arrhythmia Database across five heartbeat classes. The PSO-optimized model achieves superior performance with 99.76% accuracy, 99.34% precision, and 99.21% F1 score, demonstrating PSO's effectiveness in improving model reliability while reducing manual effort.",
-      "authors": [
-        "Yaaqoub Kahlessenane",
-        "Fatiha Bouaziz",
-        "Patrick Siarry"
-      ],
-      "published_on": "2025-05-09",
-      "doi": "10.1080/10255842.2025.2501635",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40338723/",
-      "doi_url": "https://doi.org/10.1080/10255842.2025.2501635"
-    },
-    {
-      "pmid": "42810386",
-      "title": "A tri-modal, offline, and explainable framework for 12-lead electrocardiogram interpretation: fusing deterministic rules, a local residual network, and an agentic vision-language model.",
-      "journal": "Physiological measurement",
-      "abstract": "Automated electrocardiogram (ECG) interpretation is increasingly delivered as cloud deep-learning services, trading data sovereignty, auditability and robustness for accuracy. This study tests whether an offline, explainable framework can remove that trade-off.&#xD;&#xD;Approach. Three independent interpreters feed a decision-fusion layer: a deterministic engine of 26 executable clinical criteria, each finding linked to a highlighted signal segment and a literature source; a compact one-dimensional residual network trained on PTB-XL and run on-device via the Open Neural Network Exchange runtime; and an optional agentic vision-language model reading a rendered ECG image behind a security screen with human-in-the-loop escalation. Format-agnostic ingestion, lead-aware capability tiering and a three-tier signal-quality gate precede interpretation. Evaluation covers diagnostic accuracy, on-device latency, noise resilience, modality ablation and zero-shot external validation.&#xD;&#xD;Main results. On the PTB-XL test fold (n = 2198) the network reaches a macro-averaged area under the receiver operating characteristic curve (AUROC) of 0.932 (95% confidence interval (CI) 0.918-0.943), matching published GPU baselines, while the complete pipeline runs in 108 ± 25 ms on a CPU with no network access. Performance degrades gracefully to a signal-to-noise ratio of 5 dB (AUROC 0.951) as the quality gate rejects uninterpretable signals, and rules and network agree only weakly (Cohen's kappa 0.26), indicating complementary errors. Applied without retraining to an independent cohort (Chapman-Shaoxing, n = 1599) the model retains a macro-AUROC of 0.898. In a small pilot (25 records; 30 rule/network disagreements) the general-purpose agentic model was the weakest adjudicator (accuracy 0.267, 95% CI 0.142-0.444; exact McNemar test versus rules, p = 0.09).&#xD;&#xD;Significance. Edge inference, intrinsic explainability and governed multi-modal fusion give competitive accuracy with auditable findings. The agentic layer is positioned for governance rather than diagnosis, motivating ECG-specialized models. The open-source system is a research prototype, not a medical device.",
-      "authors": [
-        "Mohammad Mahbubur Rahman Khan Mamun"
-      ],
-      "published_on": "2026-09-29",
-      "doi": "10.1088/1361-6579/aeaded",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42810386/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/aeaded"
     }
   ],
   "error": null,
