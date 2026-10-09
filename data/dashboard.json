@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-08T07:09:16.818463+00:00",
-    "last_success_at": "2026-10-08T07:09:17.393640+00:00",
+    "last_attempt_at": "2026-10-09T08:43:25.203503+00:00",
+    "last_success_at": "2026-10-09T08:43:25.630396+00:00",
     "count": 15,
     "papers": [
       {
@@ -157,6 +157,23 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       },
       {
+        "pmid": "42849510",
+        "title": "Multi-scale temporal feature fusion and lead-graph attention for multi-label classification of 12-lead ECGs.",
+        "journal": "Physiological measurement",
+        "abstract": "Automatic multi-label classification of 12-lead electrocardiograms remains challenging because of heterogeneous waveform morphology, long-range temporal dependencies, diagnosis-dependent inter-lead relationships, and severe label imbalance. This study develops an adaptive framework that jointly models temporal features and diagnosis-specific lead interactions.&#xD;&#xD;Approach. We propose a multi-scale residual-temporal network incorporating a diagnosis-conditioned, record-specific sparse lead graph. A shared temporal encoder independently extracts dynamic node features from each lead waveform. Learnable diagnosis prototypes participate in edge-score computation before message passing, generating a distinct graph for every recording and diagnostic category. For each target lead, only the top-k relationships are retained, while established lead connections are incorporated as a physiological soft prior with learnable strength. Prototype-guided graph predictions are integrated with global semantic predictions through class-wise gated fusion. Weighted asymmetric loss and validation-based class-specific thresholds address label imbalance.&#xD;&#xD;Main results. The model was evaluated on CPSC2018, G12EC, and PTB-XL across five multi-label settings. It achieved Macro-F1 scores of 0.8327 on nine-class CPSC2018, 0.5857 ± 0.0142 on 30-class G12EC, and 0.7782, 0.6421, and 0.4910 on the 5-, 12-, and 23-class PTB-XL tasks, respectively. The corresponding absolute gains over the strongest listed Macro-F1 comparators were 0.0147, 0.1428, 0.0226, 0.1335, and 0.0102. Macro-AUPRC was highest in all five settings, although Hamming Loss on the 23-class PTB-XL task was 0.0025 higher than that of ECG-STAR. Ablation and paired-bootstrap analyses supported the contribution of diagnosis-conditioned graph modelling.&#xD;&#xD;Significance. Conditioning sparse lead relationships jointly on each recording and diagnostic category extends fixed or class-agnostic lead graphs and provides an adaptive representation of disease-dependent multi-lead evidence. Clinical generalisability requires validation on independent hospital cohorts.",
+        "authors": [
+          "Feiyan Zhou",
+          "Mingyang Li"
+        ],
+        "published_on": "2026-10-08",
+        "doi": "10.1088/1361-6579/aeb225",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42849510/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/aeb225"
+      },
+      {
         "pmid": "42838083",
         "title": "B-spline Kolmogorov-Arnold networks for interpretable semi-supervised ECG classification.",
         "journal": "Biomedical physics & engineering express",
@@ -179,6 +196,31 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
         "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
+      },
+      {
+        "pmid": "42808453",
+        "title": "Artificial Intelligence-Derived Electrocardiographic Age Enhances Stroke Risk Stratification in Patients With Atrial Fibrillation With a CHA2DS2-VA Score of 1.",
+        "journal": "Journal of the American Heart Association",
+        "abstract": "BACKGROUND: To evaluate whether artificial intelligence-derived electrocardiographic-age enhances the predictive utility of the CHA2DS2-VA (congestive heart failure/left ventricular dysfunction, hypertension, age ≥75 years [doubled], diabetes, stroke/transient ischemic attack [doubled], vascular disease, age 65-74 years) score in patients with atrial fibrillation representing a borderline indication for anticoagulation with a score of 1.\n\nMETHODS: From a multicenter atrial fibrillation and atrial flutter registry, we identified 832 anticoagulation-naïve patients with a CHA2DS2-VA score of 1 and at least one 12-lead ECG within 90 days of diagnosis. ECG-age was estimated using a previously validated deep learning (convolutional neural network) model. Chronological age was replaced with ECG-age (1 point for 65-74 years, 2 points for ≥75 years), leaving all other score components unchanged, to form the EA-CHA2DS2-VA score. Patients were grouped as EA-CHA2DS2-VA ≥2 (n=315) or <2 (n=517).\n\nRESULTS: Compared with patients with an EA-CHA2DS2-VA score <2, those with an EA-CHA2DS2-VA score ≥2 had a significantly higher risk of ischemic stroke or transient ischemic attack (hazard ratio [HR], 1.82 [95% CI, 1.06-3.13]; P=0.028). All-cause mortality was also significantly elevated in the EA-CHA2DS2-VA ≥2 group (HR, 2.22 [95% CI, 1.43-3.45]; P<0.001). Major bleeding did not differ significantly between groups (P=0.386).\n\nCONCLUSIONS: Substituting chronological age with artificial intelligence-derived ECG-age in the CHA2DS2-VA score was associated with improved risk stratification in patients with atrial fibrillation with intermediate stroke risk. This refined risk stratification facilitates timely initiation of anticoagulation therapy, potentially reducing stroke and mortality. Future prospective studies are essential to integrate this artificial intelligence-enhanced strategy into clinical practice.\n\nREGISTRATION: This study was registered on the Open Science Framework (URL: https://doi.org/10.17605/OSF.IO/39BND; unique identifier: 10.17605/OSF.IO/39BND).",
+        "authors": [
+          "Chen-Shu Wu",
+          "Po-Huang Chen",
+          "Wen-Yu Lin",
+          "Wei-Ting Liu",
+          "Po Kai Chan",
+          "Hsuan Yi Wu",
+          "Chin-Sheng Lin",
+          "Chin Lin",
+          "Chiao-Chin Lee"
+        ],
+        "published_on": "2026-09-29",
+        "doi": "10.1161/JAHA.126.050723",
+        "publication_types": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
+        "doi_url": "https://doi.org/10.1161/JAHA.126.050723"
       },
       {
         "pmid": "42834294",
@@ -288,47 +330,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
         "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
-      },
-      {
-        "pmid": "41838498",
-        "title": "Multi-Feature Fusion and Compressed Bi-LSTM for Memory-Efficient Heartbeat Classification on Wearable Devices.",
-        "journal": "IEEE journal of biomedical and health informatics",
-        "abstract": "In this paper, we present a memory-efficient ECG-based heartbeat classification for wearable devices enabled by multi-feature fusion and compressed bidirectional long short-term memory (Bi-LSTM). A multi-feature fusion technique based on time intervals and under-the-curve areas is proposed to extract the main characteristic points of the ECG waveform with high accuracy and robustness against noise and artifacts. A Bi-LSTM network is developed to process the input sequence in both forward and backward directions, resulting in higher accuracy and a 28% smaller network size compared with a conventional LSTM. Multiple neural networks with varying sizes, including tiny (84 k), small (150 k), medium (478 k), and large (1.25 M) models, are developed to achieve high accuracy across all classes. The overall accuracy is 96.4% for the large model and 94.6% for the tiny model, while the F1 score across all classes exceeds 89.1% and 85.1%, respectively. The proposed models, compressed using post-training quantization techniques, achieve state-of-the-art performance. The compressed large model with 8-bit integer quantization (INT8) achieves an accuracy of 88.4% with 1.3 MB of memory, while the compressed tiny model with dynamic range quantization achieves 94.6% accuracy with only 139 kB of memory.",
-        "authors": [
-          "Reza Nikandish",
-          "Jiayu He",
-          "Benyamin Haghi"
-        ],
-        "published_on": "2026-03-16",
-        "doi": "10.1109/JBHI.2026.3669719",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41838498/",
-        "doi_url": "https://doi.org/10.1109/JBHI.2026.3669719"
-      },
-      {
-        "pmid": "41538333",
-        "title": "A Dual Classifier-Regressor Architecture for Heart Sound Onset/Offset Detection.",
-        "journal": "IEEE transactions on bio-medical engineering",
-        "abstract": "OBJECTIVE: Identifying the first and second heart sounds (S1 and S2) from phonocardiogram (PCG) signals is an essential step in automating the diagnosis of cardiac conditions such as irregular heartbeat, valve misfunctions, and heart failure. Recent research inspired by image segmentation has shown promise in utilising deep neural networks for point-wise PCG segmentation with the support of synchronised electrocardiogram (ECG). This paper shifts the focus from point-wise segmentation to identifying the onset/offset of S1 and S2 heart sounds in the PCG signal.\n\nMETHODS: We incorporate the ECG signal and its keypoints to improve the detection of the heart sounds. Our proposed method employs a joint classifier-regressor architecture for predicting the probability and the location of transitions in the PCG signal.\n\nRESULTS: When evaluated on the largest publicly available PhysioNet/CinC 2016 dataset, the proposed approach outperforms the existing state-of-the-art methods, achieving a sensitivity of 0.98 and a positive predictive value of 0.98 in identifying midpoints of S1 and S2 segments. It also identifies the onset/offset locations with an 11.11 ms error.\n\nCONCLUSION: It is evident that identifying the transitions simplifies, leading to better training and inference.\n\nSIGNIFICANCE: In addition to achieving state-of-the-art results, this proposed approach could also be adapted to other physiological signals, such as respiration, blood pressure, or muscle activity, for locating regions of activity/interest.",
-        "authors": [
-          "Pamuditha Somarathne",
-          "Sandun Herath",
-          "Gaetano Gargiulo",
-          "Paul Breen",
-          "Neil Anderson",
-          "Yu Yao",
-          "Tongliang Liu",
-          "Anusha Withana"
-        ],
-        "published_on": "2026-01-15",
-        "doi": "10.1109/TBME.2026.3654558",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41538333/",
-        "doi_url": "https://doi.org/10.1109/TBME.2026.3654558"
       }
     ],
     "error": null,
@@ -341,6 +342,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-09T07:09:17.393640+00:00",
+  "next_refresh_at": "2026-10-10T08:43:25.630396+00:00",
   "next_push_at": null
 }
