@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-10T13:26:42.134952+00:00",
-    "last_success_at": "2026-10-10T13:26:43.022740+00:00",
+    "last_attempt_at": "2026-10-11T15:28:31.060874+00:00",
+    "last_success_at": "2026-10-11T15:28:31.697408+00:00",
     "count": 15,
     "papers": [
       {
@@ -58,6 +58,37 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42703253/",
         "doi_url": "https://doi.org/10.1007/s11571-026-10537-w"
+      },
+      {
+        "pmid": "42668095",
+        "title": "AI-based multimodal analysis of ECG and clinical data for evaluation for competitive sports participation: The VALETUDO trial.",
+        "journal": "International journal of cardiology",
+        "abstract": "AIMS: Pre-participation cardiovascular screening (PPS) is essential for preventing SCD in athletes, yet ECG interpretation requires expertise and remains resource-intensive. We aimed to evaluate the feasibility and diagnostic performance of a deep learning (DL) model for analysis of clinical data and resting 12‑lead ECG obtained during routine PPS in competitive athletes.\n\nMETHODS: In this prospective single center observational study, competitive athletes aged 18 to 60 years and undergoing routine PPS were enrolled. PPS included medical history, physical examination, resting and exercise ECG. Athletes were classified as fit or not fit for competitive sports according to clinical evaluation. Resting ECG and clinical variables were analyzed using a multimodal DL architecture. Model performance was assessed using stratified 10-fold cross-validation against PPS clinical classification.\n\nRESULTS: A total of 526 athletes were enrolled (72% male, median age of 27 years (IQR: 20-41); 166 (32%) had a negative PPS result. The test setting (10-fold cross-validation), the model achieved moderate discrimination with an accuracy of 0.64 ± 0.08, SE 0.68 ± 0.15, SP 0.61 ± 0.17, F1-score 0.72 ± 0.1, PPV 0.80 ± 0.07, NPV 0.48 ± 0.12, AUC 0.72(0.66-0.78). Training performances reached accuracy of 0.70 ± 0.06, SE 0.73 ± 0.12, SP 0.67 ± 0.14, F1-score 0.77 ± 0.07, AUC 0.79 (0.74-0.83).\n\nCONCLUSION: Automated DL-based analysis of 12‑lead ECG during PPS is feasible and showed encouraging diagnostic performance in competitive athletes. Although wider experience and external validation is required, AI-assisted multimodal ECG interpretation may represent a useful adjunct to physician assessment for cardiovascular risk stratification in sport screening programs.",
+        "authors": [
+          "Davide Marchetti",
+          "Marion Taconné",
+          "Edoardo Conte",
+          "Francesca Quaglia",
+          "Andrea Provera",
+          "Michele Gallazzi",
+          "Pasquale Paolisso",
+          "Melotti Eleonora",
+          "Matteo Schillaci",
+          "Antonio Bartorelli",
+          "Valentina Corino",
+          "Pietro Cerveri",
+          "Paolo Zeppilli",
+          "Luca Mainardi",
+          "Daniele Andreini"
+        ],
+        "published_on": "2026-08-29",
+        "doi": "10.1016/j.ijcard.2026.134744",
+        "publication_types": [
+          "Journal Article",
+          "Observational Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
+        "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
       },
       {
         "pmid": "42628486",
@@ -310,26 +341,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
         "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
-      },
-      {
-        "pmid": "41876433",
-        "title": "Fatigue Identification Models for Firefighters Based on Electrocardiogram Signals.",
-        "journal": "Journal of occupational and environmental medicine",
-        "abstract": "OBJECTIVES: To identify physiological indicators and develop effective models for recognizing training-induced physical fatigue in firefighters.\n\nMETHODS: Heart rate variability was analyzed in 18 firefighters before and after physical training. Electrocardiogram signals were processed using linear and nonlinear methods. Feature dimensionality was reduced using 2 selection approaches, and fatigue recognition models were developed using multiple machine learning and deep learning algorithms.\n\nRESULTS: Physical fatigue increased the mean heart rate and the low-frequency to high-frequency ratio, while 8 indicators, including mean RR interval, short- and long-term variability, and sample entropy, showed significant decreases. The least absolute shrinkage and selection operator-based one-dimensional convolutional neural network achieved the highest classification accuracy of 94.64%.\n\nCONCLUSIONS: Electrocardiogram-derived indicators provide a feasible and objective approach for identifying physical fatigue in firefighters, supporting occupational fatigue monitoring and safety management.",
-        "authors": [
-          "Xin Zheng",
-          "Rui Hao",
-          "Huan Wang",
-          "Tengteng Hao",
-          "Wenzhuo Fu"
-        ],
-        "published_on": "2026-03-25",
-        "doi": "10.1097/JOM.0000000000003718",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41876433/",
-        "doi_url": "https://doi.org/10.1097/JOM.0000000000003718"
       }
     ],
     "error": null,
@@ -342,6 +353,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-11T13:26:43.022740+00:00",
+  "next_refresh_at": "2026-10-12T15:28:31.697408+00:00",
   "next_push_at": null
 }
