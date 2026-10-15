@@ -18,27 +18,30 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-13T23:14:50.667062+00:00",
-    "last_success_at": "2026-10-13T23:14:51.325159+00:00",
+    "last_attempt_at": "2026-10-15T01:23:07.121511+00:00",
+    "last_success_at": "2026-10-15T01:23:07.501494+00:00",
     "count": 15,
     "papers": [
       {
-        "pmid": "42497537",
-        "title": "Dendritic functional heterogeneity with feedback control facilitates stable spatiotemporal representation in spiking neural networks.",
-        "journal": "Neural networks : the official journal of the International Neural Network Society",
-        "abstract": "Stable and accurate spatiotemporal representation is crucial for spiking neural networks (SNNs) to perform well in modeling long sequences. Existing single-compartment models struggle to capture long-term dependencies, while multi-compartment models often neglect the functional complementarity and predictive interactions among dendritic subunits. Both models limit the spatiotemporal representation capacity of SNNs. To overcome these limitations, we propose the Dendritic Feedback Adaptive Leaky Integrate-and-Fire (DF-ALIF) neuron model, which combines dendritic functional heterogeneity with feedback control within a predictive coding framework. Basal compartments of DF-ALIF receive feedforward and recurrent inputs, encoding bottom-up prediction errors via a local excitatory and inhibitory balance mechanism that drives feature detection and pattern reconstruction. In contrast, the apical compartment carries top-down feedback predictions and dynamically modulates the somatic firing threshold via a mismatch mechanism to calibrate neural activity. The synergistic interaction between these compartments mitigates the temporal credit assignment problem and enhances the spatiotemporal representation capabilities of SNNs. On benchmarks including electrocardiogram classification, radar and neuromorphic event-based gesture recognition, image classification, and speech recognition, DF-ALIF demonstrates improved classification accuracy, stable convergence, and enhanced robustness to temporal perturbations. Our work demonstrates a feasible approach to embedding dendritic functional heterogeneity in SNNs and offers a fresh perspective on the design of neuromorphic computing systems.",
+        "pmid": "42711831",
+        "title": "A Dual Soft Attention Network for Automatic Sleep Staging via Single-Lead Electrocardiogram Signals.",
+        "journal": "International journal of neural systems",
+        "abstract": "Polysomnography (PSG) is the current gold standard for sleep monitoring; however, it is complex, burdensome, and costly. In contrast, commercial health monitoring devices, such as the Apple Watch, offer sleep scoring at a low cost over a few days. This paper proposes a dual-attention mechanism-based sleep staging method using single-lead electrocardiogram (ECG) signals, named SleepECGNet. The method extracts multi-scale features by employing convolutional kernels of different sizes, thereby capturing subtle details in the ECG signals. The model then integrates an SE module and a Luong attention-based encoder-decoder architecture to filter redundant information and dynamically focus on different sleep stages. Experiments were conducted using the HMC, MGH, and SHHS1 datasets for sleep staging tasks and the Apnea-ECG corpus was employed to execute transfer learning strategies directed at sleep apnea recognition. Comprehensive ablation experiments were conducted to verify the effectiveness of each component. Moreover, an analysis of sequence duration demonstrated that expanding the input timeframe directly improves classification outcomes.",
         "authors": [
-          "Qiulin Li",
-          "Junsong Wang",
-          "Jianfang Wu"
+          "Xuanhao Qi",
+          "Qinying Li",
+          "Hongze Liu",
+          "Yinlin Cheng",
+          "Bingo Wing-Kuen Ling",
+          "Zhensheng Hu"
         ],
-        "published_on": "2026-07-25",
-        "doi": "10.1016/j.neunet.2026.109395",
+        "published_on": "2026-09-09",
+        "doi": "10.1142/S0129065727500110",
         "publication_types": [
           "Journal Article"
         ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42497537/",
-        "doi_url": "https://doi.org/10.1016/j.neunet.2026.109395"
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42711831/",
+        "doi_url": "https://doi.org/10.1142/S0129065727500110"
       },
       {
         "pmid": "42703253",
@@ -112,26 +115,6 @@
         "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
       },
       {
-        "pmid": "42491352",
-        "title": "Detection of cardiac pathologies in electrocardiogram signals using empirical mode decomposition and neural networks.",
-        "journal": "Health information science and systems",
-        "abstract": "The purpose of this work is to develop an Artificial Intelligence-based system capable of classifying individuals as either healthy or having a cardiac pathology (Myocardial Ischemia, Cardiomyopathy, Bundle Branch Block, Dysrhythmia, or Ventricular Hypertrophy) based on the processing of Electrocardiogram (ECG) signals. This system aims to serve as a non-invasive and efficient diagnostic tool. The ECG signals used in this study were obtained from a publicly available database. Signal processing is performed using Empirical Mode Decomposition (EMD). From the decomposition, statistical features are extracted from the modes obtained and structured into a feature vector that represents the signal. Classification is achieved using an optimized Neural Network (NN) model, which uses 2580 ECG signals to distinguish between healthy individuals and those with cardiac disease, considering cross-validation. After implementing the system, the mean accuracy achieved was 96.03% for training, 92.06% for validation, and 92.20% for testing. The proposed system successfully demonstrated high classification accuracy for cardiac pathologies while being computationally efficient, making it a valuable tool for preliminary diagnosis and further analysis of ECG signal.",
-        "authors": [
-          "Juan Manuel Lopez-Pasten",
-          "Juan Manuel Ramirez-Cortes",
-          "Jose Hugo Barron-Zambrano",
-          "Juan Carlos Bernal-Romero",
-          "Jose de Jesus Rangel-Magdaleno"
-        ],
-        "published_on": "2026-07-23",
-        "doi": "10.1007/s13755-026-00471-w",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42491352/",
-        "doi_url": "https://doi.org/10.1007/s13755-026-00471-w"
-      },
-      {
         "pmid": "42667695",
         "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
         "journal": "Computer methods and programs in biomedicine",
@@ -186,6 +169,42 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
+      },
+      {
+        "pmid": "42869077",
+        "title": "Per-Class Conformal Risk Control for Multi-Label ECG Classification: Achieving Clinically-Justified False Negative Rate Guarantees.",
+        "journal": "Physiological measurement",
+        "abstract": "Automated electrocardiogram (ECG) classifiers require uncertainty procedures that address class-specific clinical risk in intrinsically multi-label data.&#xD;Approach: We propose per-class risk-controlling prediction sets for multi-label ECG classification. For each diagnostic class, binary false-negative-rate (FNR) loss is calibrated with a one-sided exact-binomial upper confidence bound. The nine disease-specific targets are controlled simultaneously at 95% family-wise confidence using Bonferroni allocation. The final operating threshold is the more inclusive of the exact-binomial threshold and a conservative reference threshold derived from a concentration bound; this safeguard uses calibration data only and cannot weaken the exact guarantee.&#xD;Main results: We evaluated the method on PTB-XL (21,388 retained recordings) and Chapman-Shaoxing (10,199 retained recordings), using a patient-disjoint PTB-XL split and fitting-partition-only normalisation. The proposed method met all 9/9 prespecified disease-specific FNR targets on held-out test sets and produced non-vacuous simultaneous exact-binomial guarantees for all nine targets; uniform standard conformal prediction met 5/9. Test FNR was 0.0% for myocardial infarction (exact 95% upper bound 0.35%, at 80.3% FPR), 1.0% for ST/T changes, and 0.3% for atrial fibrillation; the high-sensitivity operating point is purchased with substantially reduced specificity. Under PTB-XL-to-Chapman shift, macro class coverage fell from 94.3% to 45.5%, demonstrating that the guarantees do not transport without local recalibration.&#xD;Significance: Exact-binomial per-class risk control provides a transparent high-sensitivity operating point for ECG triage while making its specificity, prediction-set-size, calibration-support, and exchangeability limitations explicit.&#xD.",
+        "authors": [
+          "Oussama El Allam",
+          "Mohamed Hamlich"
+        ],
+        "published_on": "2026-10-13",
+        "doi": "10.1088/1361-6579/aeb3c6",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869077/",
+        "doi_url": "https://doi.org/10.1088/1361-6579/aeb3c6"
+      },
+      {
+        "pmid": "42869034",
+        "title": "Characterizing Altered Cardiac Autonomic Dynamics in Psychotic Disorders Through Multidomain Heart Rate Variability Analysis and Deep Learning.",
+        "journal": "Biomedical physics & engineering express",
+        "abstract": "Recent developments in wearable devices have opened the possibility of heart rate variability (HRV), a quantitative measure of autonomic nervous system (ANS) regulation, as a potential indicator for the early detection of psychiatric disorders. This study explores HRV for the detection of psychotic disorders by integrating multidomain HRV analysis with a hybrid deep learning technique. Polar H10 electrocardiogram (ECG) device was employed to collect RR interval data from 30 patients diagnosed with either schizophrenia (SZ) or bipolar disorder (BD), and 30 similar age healthy controls, with a duration of approximately 1.5-2 hours. HRV features, including time-domain, spectral, and nonlinear features such as the Poincaré plot and Recurrence Quantification Analysis (RQA), were extracted from this publicly available dataset. Group-wise statistical comparisons between the healthy and the psychotic disorders were performed using the Mann-Whitney U test with a significance level of p < 0.01. HRV indices such as Mean NN intervals, SDNN, RMSSD, triangular index, Cardiac Vagal Index, Poincaré plot measures (SD1 and SD2), Sample Entropy, and spectral power components (HF, LF, and Total Power), were significantly lower in the psychotic disorder group (p < 0.01), indicating attenuated autonomic modulation. All machine learning and deep learning models were conducted under a fully nested, subject-independent 5×4 cross-validation protocol in which Minimum Redundancy Maximum Relevance (mRMR) feature selection and hyper-parameter optimisation were performed exclusively inside each outer training fold. Gradient Boosting achieved the highest subject level accuracy of 88.33 ± 4.56, surpassing the best previously reported subject level accuracy of 83.33% on the same dataset. A hybrid CNN-BiLSTM-Attention network, applied to the same mRMR-selected features, achieved a competitive subject-level accuracy of 80.00±11.18%. These results demonstrate that a rigorously nested evaluation combined with multidomain HRV features yields reliable subject-level discrimination and offers both performance and interpretability.",
+        "authors": [
+          "Vivek Ranjan",
+          "Raghuwansh Singh",
+          "Anindita Ganguly",
+          "Suman Halder"
+        ],
+        "published_on": "2026-10-13",
+        "doi": "10.1088/2057-1976/aeb384",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
+        "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
       },
       {
         "pmid": "42849510",
@@ -322,25 +341,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42835693/",
         "doi_url": "https://doi.org/10.1093/ehjdh/ztag143"
-      },
-      {
-        "pmid": "42035615",
-        "title": "A clinically-oriented XAI framework for arrhythmia triage via Hierarchically-Decomposed Neural Attribution: From dual-stream interpretation to risk stratification.",
-        "journal": "Computational biology and chemistry",
-        "abstract": "Deep learning models for biomedical signal analysis achieve high accuracy but suffer from interpretability limitations that hinder their deployment in critical applications. This paper presents the Hierarchically-Decomposed Neural Attribution (HDNA) framework, a novel explainable AI (XAI) methodology for biomedical data analysis with application to electrocardiogram (ECG) signal processing. HDNA employs a dual-stream architecture that decomposes the decision-making process into two sequential, interpretable components: a rhythmicity stream that identifies critical temporal events through contrastive learning-based deviation analysis, and a morphology stream that performs targeted gradient-based feature localization on these events. The framework's \"Where-then-What\" reasoning pipeline incorporates a structural gating mechanism that reduces computational overhead by 90% compared to full-sequence gradient methods, achieving real-time inference (2.4 ms latency) on standard CPU hardware. As a case study in computational biology, we evaluated HDNA on cardiac arrhythmia detection using the PTB-XL (Macro F1: 0.760 ± 0.008) and MIT-BIH (Weighted F1: 0.89 ± 0.01) datasets, demonstrating robust performance with high explanation faithfulness (93.0% pointing accuracy, 0.78 ± 0.04 IoU). The framework's lightweight design (1.4M parameters) and efficient explanation generation make it suitable for resource-constrained systems and real-time biomedical signal monitoring applications. This work contributes to the field of computational biology by providing a transparent, interpretable machine learning methodology that can be applied to diverse biomedical data analysis tasks.",
-        "authors": [
-          "Yusen Wu",
-          "Jinde Zhu",
-          "Junhao Yuan",
-          "Kaiqiang Huang"
-        ],
-        "published_on": "2026-04-27",
-        "doi": "10.1016/j.compbiolchem.2026.108991",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42035615/",
-        "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.108991"
       }
     ],
     "error": null,
@@ -353,6 +353,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-14T23:14:51.325159+00:00",
+  "next_refresh_at": "2026-10-16T01:23:07.501494+00:00",
   "next_push_at": null
 }
