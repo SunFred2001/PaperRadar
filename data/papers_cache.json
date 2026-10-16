@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-15T01:23:07.121511+00:00",
-  "last_success_at": "2026-10-15T01:23:07.501494+00:00",
+  "last_attempt_at": "2026-10-16T05:38:06.814489+00:00",
+  "last_success_at": "2026-10-16T05:38:07.623818+00:00",
   "count": 15,
   "papers": [
     {
@@ -26,6 +26,29 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42711831/",
       "doi_url": "https://doi.org/10.1142/S0129065727500110"
+    },
+    {
+      "pmid": "42876871",
+      "title": "Language-supervised electrocardiogram interpretation with vision transformer.",
+      "journal": "Health information science and systems",
+      "abstract": "PURPOSE: Most artificial intelligence models for electrocardiogram (ECG) interpretation rely on task-specific supervised learning, requiring dedicated labeled datasets for each diagnostic task and limiting scalability across diverse cardiac conditions. This study investigated whether vision-language learning from paired ECG recordings and summary reports could enable transferable ECG representations without task-specific supervised training.\n\nMETHODS: We developed ECG-VLM, a contrastive vision-language model consisting of a Transformer-based image encoder and a text encoder, trained on 800,034 paired 10-s ECG recordings and summary reports from the MIMIC-IV-ECG database. Cardiac condition detection was performed using natural-language prompts without condition-specific retraining or fine-tuning. Performance was evaluated on an internal test set and externally validated using the LSAS-ECG dataset (45,151 recordings) across 14 cardiac conditions, together with retrieval and subgroup analysis.\n\nRESULTS: ECG-VLM achieved diagnostic performance across 14 cardiac conditions, with AUROC ranging from 0.679 to 0.981 on the internal test set and from 0.691 to 0.991 on external validation. Performance was strongest for rhythm abnormalities (mean AUROC 0.948 internally and 0.921 externally) and lower for morphological conditions. Compared with the previously reported signal-based ECG-CLIP framework, ECG-VLM achieved comparable performance for rhythm abnormalities while improving AUPRC for several morphological conditions. Performance remained broadly consistent across external validation and demographic and clinical subgroups.\n\nCONCLUSION: These findings demonstrate the feasibility of vision-language supervision from paired ECG recordings and summary reports for learning transferable ECG representations without task-specific supervised training. This framework provides a basis for future extension of vision-language learning to ECG images encountered in routine clinical practice.\n\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s13755-026-00482-7.",
+      "authors": [
+        "Xue Zhou",
+        "Tianhui Li",
+        "Keijiro Nakamura",
+        "Hiromasa Hayama",
+        "Shing-Hong Liu",
+        "Tetsuo Sasano",
+        "Wenxi Chen",
+        "Xin Zhu"
+      ],
+      "published_on": "2026-10-15",
+      "doi": "10.1007/s13755-026-00482-7",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42876871/",
+      "doi_url": "https://doi.org/10.1007/s13755-026-00482-7"
     },
     {
       "pmid": "42703253",
@@ -155,6 +178,30 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42879462",
+      "title": "STCP-Net: A few-shot learning approach based on spectral-temporal convolution and an improved prototypical network for ECG classification.",
+      "journal": "PloS one",
+      "abstract": "To address the heavy reliance of deep learning models on manually labeled data in ECG classification, we need to tackle two major limitations. First, sample sizes are often limited in clinical settings, making data annotation costly and impractical. Second, existing few-shot learning methods still fall short in two key areas: 1) Existing strategies pay insufficient attention to rare arrhythmia types. This makes it difficult to effectively identify rare clinical cases. 2) Single feature representation fails to fully integrate the global frequency, local time-frequency, and semantic information of ECG signals. This results in incomplete feature representation. To overcome these challenges, we propose a novel few-shot learning method for ECG classification. In terms of feature extraction, a spectral-temporal convolution feature extractor is designed to precisely focus on the key information of ECG by efficiently integrating the global frequency, local time-frequency features and semantic information of the signal. Furthermore, with regard to classification, an improved prototypical network based on cross-class bias diminishing is developed to enhance the recognition performance for rare arrhythmia type samples. The experimental results show that the proposed method achieves significant classification performance across multiple public datasets, especially on Chapman, it attains an average accuracy exceeding 90% in the 2-way 1-shot and 2-way 5-shot tasks.",
+      "authors": [
+        "Jia Li",
+        "Dainan Gan",
+        "Xiaolin Zhan",
+        "Wei Yao",
+        "Bin Zou",
+        "Bin Zhang",
+        "Dong Li",
+        "Dan Li",
+        "Lin Li"
+      ],
+      "published_on": "2026-10-15",
+      "doi": "10.1371/journal.pone.0357954",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42879462/",
+      "doi_url": "https://doi.org/10.1371/journal.pone.0357954"
+    },
+    {
       "pmid": "42869077",
       "title": "Per-Class Conformal Risk Control for Multi-Label ECG Classification: Achieving Clinically-Justified False Negative Rate Guarantees.",
       "journal": "Physiological measurement",
@@ -189,6 +236,30 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
       "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
+    },
+    {
+      "pmid": "42874128",
+      "title": "ReBAN-Net: An interpretable hybrid deep learning framework for ECG-based emotion recognition.",
+      "journal": "Asian journal of psychiatry",
+      "abstract": "Emotional assessment is essential for mental health management, yet questionnaire-based scales are subjective and facial- or voice-based approaches can be influenced by intentional behavior and environmental interference. This study proposes ReBAN-Net, a hybrid architecture integrating a one-dimensional residual convolutional network, a bidirectional long short-term memory network, and a soft attention mechanism for ECG-based emotion recognition. Three classification tasks were defined throughout the study: nine-class valence classification (levels 1-9), nine-class arousal classification (levels 1-9), and four-class affective-state classification (baseline, stress, amusement, and meditation). The model was evaluated on the WESAD dataset using a strict 15-fold leave-one-subject-out protocol. It achieved accuracies of 86.03% for nine-class valence, 86.27% for nine-class arousal, and 87.58% for four-class affective-state classification, with corresponding macro-AUC values of 96.07%, 96.24%, and 95.09%. Temporal class activation and attention-feature analyses show that the model focuses on physiologically meaningful ECG regions. These results demonstrate the feasibility and interpretability of ReBAN-Net and indicate its potential for subject-independent ECG-based emotion recognition.",
+      "authors": [
+        "Ping Li",
+        "Siqi Wang",
+        "Yu Wang",
+        "Danhong Li",
+        "Yiming Li",
+        "Qi Sun",
+        "Chen Peng",
+        "Yiming Wu",
+        "Hui Yang"
+      ],
+      "published_on": "2026-10-14",
+      "doi": "10.1016/j.ajp.2026.105180",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42874128/",
+      "doi_url": "https://doi.org/10.1016/j.ajp.2026.105180"
     },
     {
       "pmid": "42849510",
@@ -255,76 +326,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
       "doi_url": "https://doi.org/10.1161/JAHA.126.050723"
-    },
-    {
-      "pmid": "42834294",
-      "title": "An Automated Machine Learning Based Framework for Scan Level Coronary Artery Calcium Risk Stratification.",
-      "journal": "Journal of imaging informatics in medicine",
-      "abstract": "Coronary artery calcium (CAC) scoring plays a crucial role in the early detection and risk stratification of coronary artery disease (CAD). Current techniques for CAC analysis rely on manual annotations by clinicians and large curated training datasets. This study introduces a fully automatic framework for CAC risk stratification that eliminates the need for manual clinical annotations. We introduce a novel pixel-attenuation-based feature extraction pipeline for automatic CAC assessment that leverages pseudo-labelling to identify regions of interest, reducing reliance on expert annotations. We compared our method against two alternative feature extraction strategies: a radiomics-based pipeline and a foundation-model-based pipeline. Our study focuses on non-contrast images from coronary computed tomography angiography (CCTA) scans. Training and testing were conducted on an in-house electrocardiogram (ECG)-gated CCTA dataset comprising 182 patients, categorized into risk groups based on CAC scores. We further investigated the impact of training exclusively on non-contrast data versus a combined dataset of contrast-enhanced and non-contrast scans, while all evaluations performed solely on non-contrast images. To assess generalizability, we applied our pipeline to the publicly available COCA-Coronary Calcium and Chest CTs dataset, demonstrating robust performance even on lower-quality, non-gated scans. The pixel-attenuation feature extraction pipeline outperformed radiomics and deep learning approaches for CAC risk classification, with accuracies of 92%, 93%, and 87%, and F1-scores of 92%, 90%, and 78% across the two-, three-, and five-class classification tasks, respectively. We present a cost-effective and time-efficient framework for early CAD patient stratification that can be implemented in clinical settings while reducing additional diagnostic procedures.",
-      "authors": [
-        "Gianpiero Guidone",
-        "Ayman Abaid",
-        "Sara Alsubai",
-        "Foziyah Alqahtani",
-        "Talha Iqbal",
-        "Ruth Sharif",
-        "Hesham Elzomor",
-        "Emiliano Bianchini",
-        "Michael G Madden",
-        "Faisal Sharif",
-        "Ihsan Ullah"
-      ],
-      "published_on": "2026-10-06",
-      "doi": "10.1007/s10278-026-02325-z",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42834294/",
-      "doi_url": "https://doi.org/10.1007/s10278-026-02325-z"
-    },
-    {
-      "pmid": "42829895",
-      "title": "A dual-stream multi-scale cross-attention network for pericardial effusion detection.",
-      "journal": "Computer methods in biomechanics and biomedical engineering",
-      "abstract": "Early detection of pericardial effusion (PE) is clinically important because delayed diagnosis may cause severe cardiac complications. We propose a Dual-Stream Multi-Scale Cross-Attention Network (DS-MSCA) for automatic PE detection using simultaneously acquired electrocardiogram (ECG) and phonocardiogram (PCG) signals. Multi-scale Inception-ResNet encoders capture waveform and rhythm variations, while bidirectional cross-attention models cardiac electromechanical coupling. On a clinical dataset of 149 patients, DS-MSCA achieved 93.26% accuracy, 95.28% sensitivity, and a 95.01% F1-score. Attention maps and Grad-CAM++ showed that the model focused on clinically relevant heart-sound abnormalities while integrating complementary ECG information, supporting non-invasive PE screening.",
-      "authors": [
-        "Jie Gao",
-        "Pengliang Ju",
-        "Lixiu Chen",
-        "Yuzan Li",
-        "Jingjuan Huang",
-        "Jie Wu"
-      ],
-      "published_on": "2026-10-04",
-      "doi": "10.1080/10255842.2026.2736736",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42829895/",
-      "doi_url": "https://doi.org/10.1080/10255842.2026.2736736"
-    },
-    {
-      "pmid": "42835693",
-      "title": "Diagnostic performance of artificial intelligence-enabled electrocardiography for pulmonary hypertension: a systematic review and meta-analysis.",
-      "journal": "European heart journal. Digital health",
-      "abstract": "Pulmonary hypertension (PH) is a progressive, under-recognized condition with substantial morbidity and mortality. Its non-specific presentation and multimodal diagnostic pathway contribute to delayed diagnosis. Artificial intelligence (AI)-enabled electrocardiography (ECG) may offer a scalable approach to case finding. This PRISMA-DTA systematic review and meta-analysis was registered in PROSPERO (CRD420251241142). MEDLINE, Embase, Web of Science, Scopus, and IEEE Xplore were searched through July 2026, with Google Scholar and citation searching used as supplementary sources. Eligible studies evaluated AI-enabled ECG in adults against right-heart catheterization (RHC)-confirmed PH or echocardiographic PH-related phenotypes. Two reviewers independently screened studies, extracted data, and assessed risk of bias using QUADAS-2. One ECG-only area under the receiver operating characteristic curve (AUROC) per study was pooled using a random-effects model. Seven retrospective studies were included; six contributed to meta-analysis. The pooled AUROC was 0.885 (95% CI 0.855-0.915), with very high heterogeneity (I² = 98.68%; P < 0.0001). The estimate combined heterogeneous RHC, echocardiographic, and clinical-echocardiographic definitions and therefore did not represent accuracy for uniformly RHC-confirmed PH. Four studies performed external validation. Multimodal models outperformed ECG alone in two studies but were excluded from pooling. AI-enabled ECG shows promising discrimination for PH-related targets, but current evidence is retrospective and heterogeneous. It should be considered an investigational case-finding or triage aid rather than a definitive diagnostic stand-alone rule-out test.",
-      "authors": [
-        "Karan Raj Nazareth",
-        "Eyad Jamileh",
-        "Fahad Muhammad",
-        "Omar Farooq",
-        "Anisha Sequeira",
-        "Alishba Awais",
-        "Ibrahim Antoun"
-      ],
-      "published_on": "2026-10-06",
-      "doi": "10.1093/ehjdh/ztag143",
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42835693/",
-      "doi_url": "https://doi.org/10.1093/ehjdh/ztag143"
     }
   ],
   "error": null,
