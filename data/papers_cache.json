@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-16T05:38:06.814489+00:00",
-  "last_success_at": "2026-10-16T05:38:07.623818+00:00",
+  "last_attempt_at": "2026-10-17T06:45:25.754031+00:00",
+  "last_success_at": "2026-10-17T06:45:26.446883+00:00",
   "count": 15,
   "papers": [
     {
@@ -178,6 +178,51 @@
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     },
     {
+      "pmid": "42887532",
+      "title": "KDM-Net: a large-kernel and bi-mamba integrated network for 12-lead atrial arrhythmia classification.",
+      "journal": "Physiological measurement",
+      "abstract": "OBJECTIVE: Automatic recognition of atrial arrhythmias is important for early clinical screening and computer-aided diagnosis. Distinguishing atrial fibrillation from atrial flutter remains challenging because of their similar electrocardiographic manifestations and&#xD;high risk of misclassification. This study aimed to develop an effective model for atrial arrhythmia classification with improved multi-lead feature utilization, long-range temporal modeling, and cross-patient generalization.\n\nAPPROACH: We propose KDM-Net, which takes&#xD;12-lead electrocardiogram signals as input. The network employs a large-kernel K module to enhance the perception of waveform morphology and rhythm patterns, a D module to recalibrate and fuse multi-lead features, and a bidirectional Mamba-based M module to&#xD;model long-range temporal dependencies. KDM-Net was evaluated on the combined CUSPH and PTB-XL dataset under an inter-patient protocol.\n\nMAIN RESULTS: In five-fold cross-validation, KDM-Net achieved an average accuracy and F1-score of 96.04% and&#xD;89.21%, respectively. On the independent patient-level test set, the accuracy and F1-score were 96.41% and 88.31%, respectively. On the CinC 2020 external test set, the model achieved an accuracy and F1-score of 91.14% and 80.41%, respectively. KDM-Net&#xD;outperformed several representative models in comparative experiments.\n\nSIGNIFICANCE: KDM-Net effectively integrates multi-lead spatial information and long-range temporal dependencies, demonstrating strong recognition performance and promising cross-patient&#xD;generalization. It provides an effective solution for the intelligent diagnosis of atrial arrhythmias.",
+      "authors": [
+        "Yinghao Sun",
+        "Mujun Zang",
+        "Tong Liu",
+        "Shusen Zhou",
+        "Chanjuan Liu",
+        "Qingjun Wang"
+      ],
+      "published_on": "2026-10-16",
+      "doi": "10.1088/1361-6579/aeb59f",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42887532/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/aeb59f"
+    },
+    {
+      "pmid": "42838083",
+      "title": "B-spline Kolmogorov-Arnold networks for interpretable semi-supervised ECG classification.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "This study investigates how Kolmogorov-Arnold Networks (KANs) behave when combined with semi-supervised learning for single-lead ECG analysis. Three architectures are compared: a standard CNN-BiLSTM-Attention model (accurate but uninterpretable), a minimal KAN with a simple CNN front-end (ablation), and the proposed SE-MSC-KAN-CNN. The proposed model uses multi-scale depthwise convolutions, Squeeze-and-Excitation attention, BiLSTM, and a B-spline KAN head. Interpretability is evaluated in three ways: visualising learned B-spline functions, applying Grad-CAM to highlight important signal regions, and measuring how the splines change when fewer labels are used (spline drift). On the PhysioNet 2017 dataset (8528 recordings, four classes), the proposed model reaches 85.2% supervised accuracy (F1 = 0.851), outperforming the CNN baseline (83.1%) and matching much larger black-box models. With only 90% of the labels, it still achieves 85.1%. After training, we applied post-training TFLite INT8 conversion. Only the CNN-front-end KAN converted (measured size 422 KB). The proposed SE-MSC-KAN-CNN did not convert, because Bidirectional LSTM and custom attention lack TFLite kernels; its float32 footprint is about 9.8 MB (theoretical INT8 size about 806 KB). Classification metrics in this paper are float32; INT8 test accuracy was not measured. The spline drift metric summarises how KAN coefficients change under semi-supervised training; use as an on-device out-of-distribution detector is proposed but not validated here. These results show that competitive accuracy and inspectable KAN maps can be obtained in one hybrid architecture. Wearable deployment of the proposed SE-MSC-KAN-CNN is not yet achieved: TFLite INT8 conversion failed, and the present graph still requires float32 inference.",
+      "authors": [
+        "M R Baidillah",
+        "M Rahmawati",
+        "S Oktamuliani",
+        "R Febryarto",
+        "P Busono",
+        "I M Astawa",
+        "S Karim",
+        "R Riyanto",
+        "C Achmad"
+      ],
+      "published_on": "2026-10-06",
+      "doi": "10.1088/2057-1976/aeb0af",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
+    },
+    {
       "pmid": "42879462",
       "title": "STCP-Net: A few-shot learning approach based on spectral-temporal convolution and an improved prototypical network for ECG classification.",
       "journal": "PloS one",
@@ -277,55 +322,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42849510/",
       "doi_url": "https://doi.org/10.1088/1361-6579/aeb225"
-    },
-    {
-      "pmid": "42838083",
-      "title": "B-spline Kolmogorov-Arnold networks for interpretable semi-supervised ECG classification.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "This study investigates how Kolmogorov-Arnold Networks (KANs) behave when&#xD;combined with semi-supervised learning for single-lead ECG analysis. Three architectures&#xD;are compared: a standard CNN-BiLSTM-Attention model (accurate but uninterpretable),&#xD;a minimal KAN with a simple CNN front-end (ablation), and the proposed&#xD;SE-MSC-KAN-CNN. The proposed model uses multi-scale depthwise convolutions,&#xD;Squeeze-and-Excitation attention, BiLSTM, and a B-spline KAN head. Interpretability is&#xD;evaluated in three ways: visualising learned B-spline functions, applying Grad-CAM to&#xD;highlight important signal regions, and measuring how the splines change when fewer&#xD;labels are used (spline drift). On the PhysioNet 2017 dataset (8,528 recordings, four&#xD;classes), the proposed model reaches 85.2% supervised accuracy (F1=0.851),&#xD;outperforming the CNN baseline (83.1%) and matching much larger black-box models.&#xD;With only 90% of the labels, it still achieves 85.1%. After training, we applied&#xD;post-training TFLite INT8 conversion. Only the CNN-front-end KAN converted&#xD;(measured size 422 KB). The proposed SE-MSC-KAN-CNN did not convert, because&#xD;Bidirectional LSTM and custom attention lack TFLite kernels; its float32 footprint is&#xD;about 9.8 MB (theoretical INT8 size about 806 KB). Classification metrics in this paper&#xD;are float32; INT8 test accuracy was not measured. The spline drift metric summarises&#xD;how KAN coefficients change under semi-supervised training; use as an on-device&#xD;out-of-distribution detector is proposed but not validated here. These results show that&#xD;competitive accuracy and inspectable KAN maps can be obtained in one hybrid&#xD;architecture. Wearable deployment of the proposed SE-MSC-KAN-CNN is not yet&#xD;achieved: TFLite INT8 conversion failed, and the present graph still requires float32&#xD;inference.",
-      "authors": [
-        "Marlin Ramadhan Baidillah",
-        "Mitha Rahmawati",
-        "Sri Oktamuliani",
-        "Rony Febryarto",
-        "Pratondo Busono",
-        "I Made Astawa",
-        "Syaeful Karim",
-        "Riyanto Riyanto",
-        "Chaerul Achmad"
-      ],
-      "published_on": "2026-10-06",
-      "doi": "10.1088/2057-1976/aeb0af",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
-    },
-    {
-      "pmid": "42808453",
-      "title": "Artificial Intelligence-Derived Electrocardiographic Age Enhances Stroke Risk Stratification in Patients With Atrial Fibrillation With a CHA2DS2-VA Score of 1.",
-      "journal": "Journal of the American Heart Association",
-      "abstract": "BACKGROUND: To evaluate whether artificial intelligence-derived electrocardiographic-age enhances the predictive utility of the CHA2DS2-VA (congestive heart failure/left ventricular dysfunction, hypertension, age ≥75 years [doubled], diabetes, stroke/transient ischemic attack [doubled], vascular disease, age 65-74 years) score in patients with atrial fibrillation representing a borderline indication for anticoagulation with a score of 1.\n\nMETHODS: From a multicenter atrial fibrillation and atrial flutter registry, we identified 832 anticoagulation-naïve patients with a CHA2DS2-VA score of 1 and at least one 12-lead ECG within 90 days of diagnosis. ECG-age was estimated using a previously validated deep learning (convolutional neural network) model. Chronological age was replaced with ECG-age (1 point for 65-74 years, 2 points for ≥75 years), leaving all other score components unchanged, to form the EA-CHA2DS2-VA score. Patients were grouped as EA-CHA2DS2-VA ≥2 (n=315) or <2 (n=517).\n\nRESULTS: Compared with patients with an EA-CHA2DS2-VA score <2, those with an EA-CHA2DS2-VA score ≥2 had a significantly higher risk of ischemic stroke or transient ischemic attack (hazard ratio [HR], 1.82 [95% CI, 1.06-3.13]; P=0.028). All-cause mortality was also significantly elevated in the EA-CHA2DS2-VA ≥2 group (HR, 2.22 [95% CI, 1.43-3.45]; P<0.001). Major bleeding did not differ significantly between groups (P=0.386).\n\nCONCLUSIONS: Substituting chronological age with artificial intelligence-derived ECG-age in the CHA2DS2-VA score was associated with improved risk stratification in patients with atrial fibrillation with intermediate stroke risk. This refined risk stratification facilitates timely initiation of anticoagulation therapy, potentially reducing stroke and mortality. Future prospective studies are essential to integrate this artificial intelligence-enhanced strategy into clinical practice.\n\nREGISTRATION: This study was registered on the Open Science Framework (URL: https://doi.org/10.17605/OSF.IO/39BND; unique identifier: 10.17605/OSF.IO/39BND).",
-      "authors": [
-        "Chen-Shu Wu",
-        "Po-Huang Chen",
-        "Wen-Yu Lin",
-        "Wei-Ting Liu",
-        "Po Kai Chan",
-        "Hsuan Yi Wu",
-        "Chin-Sheng Lin",
-        "Chin Lin",
-        "Chiao-Chin Lee"
-      ],
-      "published_on": "2026-09-29",
-      "doi": "10.1161/JAHA.126.050723",
-      "publication_types": [
-        "Journal Article",
-        "Multicenter Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42808453/",
-      "doi_url": "https://doi.org/10.1161/JAHA.126.050723"
     }
   ],
   "error": null,
