@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-17T06:45:25.754031+00:00",
-    "last_success_at": "2026-10-17T06:45:26.446883+00:00",
+    "last_attempt_at": "2026-10-18T08:43:25.129768+00:00",
+    "last_success_at": "2026-10-18T08:43:25.531092+00:00",
     "count": 15,
     "papers": [
       {
@@ -350,6 +350,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-18T06:45:26.446883+00:00",
+  "next_refresh_at": "2026-10-19T08:43:25.531092+00:00",
   "next_push_at": null
 }
