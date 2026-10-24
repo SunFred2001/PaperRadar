@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-22T22:12:29.947126+00:00",
-    "last_success_at": "2026-10-22T22:12:31.515512+00:00",
+    "last_attempt_at": "2026-10-24T00:23:26.988169+00:00",
+    "last_success_at": "2026-10-24T00:23:27.845222+00:00",
     "count": 15,
     "papers": [
       {
@@ -194,6 +194,47 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       },
       {
+        "pmid": "42911538",
+        "title": "A lightweight progressive residual convolutional network for interpretable arrhythmia classification.",
+        "journal": "Physical and engineering sciences in medicine",
+        "abstract": "Arrhythmia poses a serious threat to human health, necessitating research into automated diagnostic methods. Although advances have been made in arrhythmia classification using deep learning, existing models often suffer from high computational cost and poor interpretability, limiting their clinical applicability. To this end, this paper proposes a lightweight progressive residual convolutional attention network (DResCA). Through the synergistic design of stage-adaptive downsampling and channel attention, this network reduces parameter redundancy while enhancing deep ECG feature extraction. To enhance clinical interpretability, template matching and attention visualization are employed to reveal the key ECG regions underlying the model's diagnoses. Five-class classification experiments on the MIT-BIH Arrhythmia Database demonstrate that the model achieves 98.35% accuracy and 97.99% macro-F1 score while maintaining fewer parameters than mainstream deep learning models. These characteristics provide a practical technical pathway for real-time arrhythmia detection on wearable edge computing devices.",
+        "authors": [
+          "Xiangkui Wan",
+          "Hongliang Chen",
+          "Da Lei",
+          "Jiabei Tao",
+          "Yuechen Pan",
+          "Jieqiang Luo",
+          "Yunfan Chen"
+        ],
+        "published_on": "2026-10-23",
+        "doi": "10.1007/s13246-026-01821-4",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42911538/",
+        "doi_url": "https://doi.org/10.1007/s13246-026-01821-4"
+      },
+      {
+        "pmid": "42869034",
+        "title": "Characterizing altered cardiac autonomic dynamics in psychotic disorders through multidomain heart rate variability analysis and deep learning.",
+        "journal": "Biomedical physics & engineering express",
+        "abstract": "Recent developments in wearable devices have opened the possibility of heart rate variability (HRV), a quantitative measure of autonomic nervous system regulation, as a potential indicator for the early detection of psychiatric disorders. This study explores HRV for the detection of psychotic disorders by integrating multidomain HRV analysis with a hybrid deep learning technique. Polar H10 electrocardiogram device was employed to collect RR interval data from 30 patients diagnosed with either schizophrenia or bipolar disorder, and 30 similar age healthy controls, with a duration of approximately 1.5-2 h. HRV features, including time-domain, spectral, and nonlinear features such as the Poincaré plot and recurrence quantification analysis, were extracted from this publicly available dataset. Group-wise statistical comparisons between the healthy and the psychotic disorders were performed using the Mann-Whitneytest with a significance level of. HRV indices such as Mean NN intervals, SDNN, RMSSD, triangular index, Cardiac Vagal Index (CVI), Poincaré plot measures (SDand SD), Sample Entropy, and spectral power components (HF, LF, and total power), were significantly lower in the psychotic disorder group (), indicating attenuated autonomic modulation. All machine learning and deep learning models were conducted under a fully nested, subject-independent 54 cross-validation protocol in which minimum redundancy maximum relevance (mRMR) feature selection and hyper-parameter optimization were performed exclusively inside each outer training fold. Gradient Boosting achieved the highest subject level accuracy of, surpassing the best previously reported subject level accuracy ofon the same dataset. A hybrid CNN-BiLSTM-Attention network, applied to the same mRMR-selected features, achieved a competitive subject-level accuracy of. These results demonstrate that a rigorously nested evaluation combined with multidomain HRV features yields reliable subject-level discrimination and offers both performance and interpretability.",
+        "authors": [
+          "Vivek Ranjan",
+          "Raghuwansh Singh",
+          "Anindita Ganguly",
+          "Suman Halder"
+        ],
+        "published_on": "2026-10-13",
+        "doi": "10.1088/2057-1976/aeb384",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
+        "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
+      },
+      {
         "pmid": "42891626",
         "title": "HeartFusion: A Cross-Modality Transformer for Accurate Cardiovascular Disease Diagnosis and Severity Assessment.",
         "journal": "Journal of visualized experiments : JoVE",
@@ -296,49 +337,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869077/",
         "doi_url": "https://doi.org/10.1088/1361-6579/aeb3c6"
-      },
-      {
-        "pmid": "42869034",
-        "title": "Characterizing Altered Cardiac Autonomic Dynamics in Psychotic Disorders Through Multidomain Heart Rate Variability Analysis and Deep Learning.",
-        "journal": "Biomedical physics & engineering express",
-        "abstract": "Recent developments in wearable devices have opened the possibility of heart rate variability (HRV), a quantitative measure of autonomic nervous system (ANS) regulation, as a potential indicator for the early detection of psychiatric disorders. This study explores HRV for the detection of psychotic disorders by integrating multidomain HRV analysis with a hybrid deep learning technique. Polar H10 electrocardiogram (ECG) device was employed to collect RR interval data from 30 patients diagnosed with either schizophrenia (SZ) or bipolar disorder (BD), and 30 similar age healthy controls, with a duration of approximately 1.5-2 hours. HRV features, including time-domain, spectral, and nonlinear features such as the Poincaré plot and Recurrence Quantification Analysis (RQA), were extracted from this publicly available dataset. Group-wise statistical comparisons between the healthy and the psychotic disorders were performed using the Mann-Whitney U test with a significance level of p < 0.01. HRV indices such as Mean NN intervals, SDNN, RMSSD, triangular index, Cardiac Vagal Index, Poincaré plot measures (SD1 and SD2), Sample Entropy, and spectral power components (HF, LF, and Total Power), were significantly lower in the psychotic disorder group (p < 0.01), indicating attenuated autonomic modulation. All machine learning and deep learning models were conducted under a fully nested, subject-independent 5×4 cross-validation protocol in which Minimum Redundancy Maximum Relevance (mRMR) feature selection and hyper-parameter optimisation were performed exclusively inside each outer training fold. Gradient Boosting achieved the highest subject level accuracy of 88.33 ± 4.56, surpassing the best previously reported subject level accuracy of 83.33% on the same dataset. A hybrid CNN-BiLSTM-Attention network, applied to the same mRMR-selected features, achieved a competitive subject-level accuracy of 80.00±11.18%. These results demonstrate that a rigorously nested evaluation combined with multidomain HRV features yields reliable subject-level discrimination and offers both performance and interpretability.",
-        "authors": [
-          "Vivek Ranjan",
-          "Raghuwansh Singh",
-          "Anindita Ganguly",
-          "Suman Halder"
-        ],
-        "published_on": "2026-10-13",
-        "doi": "10.1088/2057-1976/aeb384",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
-        "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
-      },
-      {
-        "pmid": "42874128",
-        "title": "ReBAN-Net: An interpretable hybrid deep learning framework for ECG-based emotion recognition.",
-        "journal": "Asian journal of psychiatry",
-        "abstract": "Emotional assessment is essential for mental health management, yet questionnaire-based scales are subjective and facial- or voice-based approaches can be influenced by intentional behavior and environmental interference. This study proposes ReBAN-Net, a hybrid architecture integrating a one-dimensional residual convolutional network, a bidirectional long short-term memory network, and a soft attention mechanism for ECG-based emotion recognition. Three classification tasks were defined throughout the study: nine-class valence classification (levels 1-9), nine-class arousal classification (levels 1-9), and four-class affective-state classification (baseline, stress, amusement, and meditation). The model was evaluated on the WESAD dataset using a strict 15-fold leave-one-subject-out protocol. It achieved accuracies of 86.03% for nine-class valence, 86.27% for nine-class arousal, and 87.58% for four-class affective-state classification, with corresponding macro-AUC values of 96.07%, 96.24%, and 95.09%. Temporal class activation and attention-feature analyses show that the model focuses on physiologically meaningful ECG regions. These results demonstrate the feasibility and interpretability of ReBAN-Net and indicate its potential for subject-independent ECG-based emotion recognition.",
-        "authors": [
-          "Ping Li",
-          "Siqi Wang",
-          "Yu Wang",
-          "Danhong Li",
-          "Yiming Li",
-          "Qi Sun",
-          "Chen Peng",
-          "Yiming Wu",
-          "Hui Yang"
-        ],
-        "published_on": "2026-10-14",
-        "doi": "10.1016/j.ajp.2026.105180",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42874128/",
-        "doi_url": "https://doi.org/10.1016/j.ajp.2026.105180"
       }
     ],
     "error": null,
@@ -351,6 +349,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-23T22:12:31.515512+00:00",
+  "next_refresh_at": "2026-10-25T00:23:27.845222+00:00",
   "next_push_at": null
 }
