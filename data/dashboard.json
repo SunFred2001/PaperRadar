@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-24T00:23:26.988169+00:00",
-    "last_success_at": "2026-10-24T00:23:27.845222+00:00",
+    "last_attempt_at": "2026-10-25T00:56:43.039637+00:00",
+    "last_success_at": "2026-10-25T00:56:43.564201+00:00",
     "count": 15,
     "papers": [
       {
@@ -194,6 +194,30 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       },
       {
+        "pmid": "42918629",
+        "title": "Electrocardiogram Embeddings Beyond Chronological Age for Prediagnostic Cognitive Impairment and Dementia: Development and External Validation Study.",
+        "journal": "Journal of medical Internet research",
+        "abstract": "BACKGROUND: Dementia is a growing health burden worldwide; however, scalable, low-cost strategies for early risk identification are lacking. Because cardiac and cognitive aging are closely associated, a routinely collected 12-lead electrocardiogram (ECG), interpreted using foundation model embeddings, is a promising and accessible candidate marker. However, it is unclear whether such embeddings carry predictive information independent of chronological age-the dominant risk factor for dementia-and whether the underlying changes follow a detectable prediagnostic trajectory.\n\nOBJECTIVE: This study aimed to investigate whether foundation model embeddings of routine ECGs carry information that distinguishes patients later diagnosed with cognitive impairment or dementia from matched controls, beyond chronological age, and, if so, whether the underlying ECG changes intensify as diagnosis approaches.\n\nMETHODS: In a retrospective two-site Korean cohort (Severance Hospital, development n=52,355; Yongin Severance Hospital, external n=6500), embeddings from the knowledge-enhanced diagnosis foundation model supported an ECG-only classifier that discriminated patients diagnosed with cognitive impairment or dementia within the following 10 years from matched controls, using only ECGs interpreted as normal sinus rhythm. We compared an age-only model with a late fusion of age and ECG-derived probability and tested whether age-residualized embedding is predictive as direct evidence of age-independent information. Discrimination was summarized by the area under the receiver operating characteristic curve (AUROC) with 95% bootstrap CIs, and DeLong tests and net reclassification improvement (NRI) were used for between-model comparisons. To trace the prediagnostic time course, we analyzed ECG phenotype labels across four windows before diagnosis in an exact-age-matched case-control set.\n\nRESULTS: Chronological age strongly discriminated cases from controls in both cohorts (external AUROC 0.809, 95% CI 0.799-0.819). Adding ECG-derived probability improved discrimination, calibration, and net benefit over age alone (external AUROC 0.825, 95% CI 0.816-0.834; DeLong P<.001; positive NRI). Critically, even after removing the age-predictable component, age-residualized embedding retained modest but reproducible discrimination in both internal (AUROC 0.590, 95% CI 0.581-0.599) and external (AUROC 0.579, 95% CI 0.567-0.592) validation (both P<.001), indicating dementia-relevant information that was not explained by chronological age. Of the 105 ECG labels, 19 (18.1%) showed a case-control difference that widened significantly toward diagnosis, dominated by nonspecific ST segment and T wave changes, acute ischemic patterns (acute myocardial infarction), and atrial and junctional arrhythmias (atrial flutter, ectopic atrial, and accelerated junctional rhythms), with divergence emerging mainly in the proximal (1-3-year) and imminent (0-1-year) windows.\n\nCONCLUSIONS: Routine ECG foundation model embeddings encode aging-related electrophysiological information that is complementary to and not fully explained by chronological age and intensifies as diagnosis approaches, with concurrent shifts toward ischemic and arrhythmic ECG patterns whose mechanism cannot be determined from these data. These findings suggest that routine ECG is a low-cost, age-complementary triage signal for cognitive impairment and dementia screening, rather than a stand-alone diagnostic test.",
+        "authors": [
+          "Yujeong Kim",
+          "Dong Won Kim",
+          "Yu Rang Park",
+          "Woo Jung Kim",
+          "Jaewoong Kim",
+          "Yujee Chang",
+          "Heeyeon Kwon",
+          "Dukyong Yoon"
+        ],
+        "published_on": "2026-10-23",
+        "doi": "10.2196/108392",
+        "publication_types": [
+          "Journal Article",
+          "Validation Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42918629/",
+        "doi_url": "https://doi.org/10.2196/108392"
+      },
+      {
         "pmid": "42911538",
         "title": "A lightweight progressive residual convolutional network for interpretable arrhythmia classification.",
         "journal": "Physical and engineering sciences in medicine",
@@ -320,23 +344,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42879462/",
         "doi_url": "https://doi.org/10.1371/journal.pone.0357954"
-      },
-      {
-        "pmid": "42869077",
-        "title": "Per-Class Conformal Risk Control for Multi-Label ECG Classification: Achieving Clinically-Justified False Negative Rate Guarantees.",
-        "journal": "Physiological measurement",
-        "abstract": "Automated electrocardiogram (ECG) classifiers require uncertainty procedures that address class-specific clinical risk in intrinsically multi-label data.&#xD;Approach: We propose per-class risk-controlling prediction sets for multi-label ECG classification. For each diagnostic class, binary false-negative-rate (FNR) loss is calibrated with a one-sided exact-binomial upper confidence bound. The nine disease-specific targets are controlled simultaneously at 95% family-wise confidence using Bonferroni allocation. The final operating threshold is the more inclusive of the exact-binomial threshold and a conservative reference threshold derived from a concentration bound; this safeguard uses calibration data only and cannot weaken the exact guarantee.&#xD;Main results: We evaluated the method on PTB-XL (21,388 retained recordings) and Chapman-Shaoxing (10,199 retained recordings), using a patient-disjoint PTB-XL split and fitting-partition-only normalisation. The proposed method met all 9/9 prespecified disease-specific FNR targets on held-out test sets and produced non-vacuous simultaneous exact-binomial guarantees for all nine targets; uniform standard conformal prediction met 5/9. Test FNR was 0.0% for myocardial infarction (exact 95% upper bound 0.35%, at 80.3% FPR), 1.0% for ST/T changes, and 0.3% for atrial fibrillation; the high-sensitivity operating point is purchased with substantially reduced specificity. Under PTB-XL-to-Chapman shift, macro class coverage fell from 94.3% to 45.5%, demonstrating that the guarantees do not transport without local recalibration.&#xD;Significance: Exact-binomial per-class risk control provides a transparent high-sensitivity operating point for ECG triage while making its specificity, prediction-set-size, calibration-support, and exchangeability limitations explicit.&#xD.",
-        "authors": [
-          "Oussama El Allam",
-          "Mohamed Hamlich"
-        ],
-        "published_on": "2026-10-13",
-        "doi": "10.1088/1361-6579/aeb3c6",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869077/",
-        "doi_url": "https://doi.org/10.1088/1361-6579/aeb3c6"
       }
     ],
     "error": null,
@@ -349,6 +356,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-25T00:23:27.845222+00:00",
+  "next_refresh_at": "2026-10-26T00:56:43.564201+00:00",
   "next_push_at": null
 }
