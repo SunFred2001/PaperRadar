@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-25T00:56:43.039637+00:00",
-    "last_success_at": "2026-10-25T00:56:43.564201+00:00",
+    "last_attempt_at": "2026-10-26T04:05:18.420694+00:00",
+    "last_success_at": "2026-10-26T04:05:19.206750+00:00",
     "count": 15,
     "papers": [
       {
@@ -173,25 +173,70 @@
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
       },
       {
-        "pmid": "42537358",
-        "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
+        "pmid": "42922432",
+        "title": "Diagnostic accuracy of artificial intelligence (AI)-based models for acute myocardial infarction: a systematic review and meta-analysis.",
+        "journal": "Cardiovascular research",
+        "abstract": "AIMS: Despite continuous improvements in diagnostic tools, the diagnosis of acute myocardial infarction (AMI) is still based on electrocardiogram (ECG) and cardiac biomarkers supported by other non-invasive imaging techniques. However, ECG has limited sensitivity, while high-sensitivity troponin assays may show reduced specificity, particularly in older or multimorbid patients. Widely adopted clinical pathways (e.g. ESC 0/1 h algorithm) have reported high diagnostic discrimination in external cohorts (with AUC ranging from 0.93 to 0.96) which provides clinical context for interpreting our findings. These diagnostic tests have limitations that can be addressed through automated computer-based diagnostic systems using Artificial Intelligence (AI). Several studies in the literature have presented machine learning (ML) or deep learning (DL) models to quickly and accurately assess the diagnosis of AMI to optimize treatment.\n\nMETHODS AND RESULTS: The aim of our analysis was to evaluate the performance of AI-based models for the diagnosis of AMI using data from all validation and test cohorts available in literature. Sensitivity and specificity for all MIs, and for STEMI and NSTEMI separately, were analysed for different types of AI approach (non-DL or DL) and for different data sources (ECG or troponin-based). Hierarchical models were used to estimate the summary receiver operating characteristic curve, sensitivity and specificity.A total of 24 studies evaluating 27 AI-based diagnostic algorithms were included encompassing 166.052 patients, of which 18.850 (11.3%) had a final diagnosis of AMI. Patients were predominantly male (61.8%) with a median age of 60.7 (IQR 59.0-64.1) years. Discrimination of AI-based algorithms for the diagnosis of AMI was high with an AUC of 0.97 (sensitivity 0.93, specificity 0.92). This result remained consistent when considering the ability to diagnose STEMI (AUC 0.96, sensitivity 0.91, specificity 0.94) or NSTEMI (AUC 0.97, sensitivity 0.95, specificity 0.90) separately. No significant difference was found regarding type of AI. ECG and troponin-based models were both extremely accurate, with the first ones being less sensitive and the latter less specific.\n\nCONCLUSIONS: AI-based diagnostic algorithms for AMI diagnosis were associated with particularly efficient performance. These results were consistent for both STEMI and NSTEMI considered separately. Rather than replacing conventional diagnostic pathways, AI has the potential to enhance existing tools by identifying subtle ECG features and integrating multiple data streams. While direct head-to-head comparisons with traditional statistical models are currently limited, future prospective studies evaluating AI and conventional approaches within the same clinical populations are warranted.AI did not lose accuracy depending on the data source or the type of AI applied.",
         "authors": [
-          "Songping Li",
-          "Gan Luo",
-          "Lixue Zhou",
-          "Yifei Zhang",
-          "Liupeng Ma",
-          "Chuanlai Wang"
+          "Federico Giacobbe",
+          "Ovidio De Filippo",
+          "Manuel Petracca",
+          "Marco Nebiolo",
+          "Rino Andrea Cimino",
+          "Matteo Michelone",
+          "Sergio Capoccia",
+          "Joonghee Kim",
+          "Chin Lin",
+          "Joon-Myoung Kwon",
+          "Francesco Bruno",
+          "Marco Balducci",
+          "Dukyong Yoon",
+          "Hak Seung Lee",
+          "Dimitrios Doudesis",
+          "Kuan Ken Lee",
+          "Pedro Lopez Ayala",
+          "Nicholas Mills",
+          "Jasper Boeddinghaus",
+          "Marco Grangetto",
+          "Marco Agostino Deriu",
+          "Christian Mueller",
+          "Piero Fariselli",
+          "Thomas Luscher",
+          "Gaetano Maria De Ferrari",
+          "Fabrizio D'Ascenzo"
         ],
-        "published_on": "2026-08-01",
-        "doi": "10.1016/j.cmpb.2026.109564",
+        "published_on": "2026-10-25",
+        "doi": "10.1093/cvr/cvag248",
         "publication_types": [
           "Journal Article"
         ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42922432/",
+        "doi_url": "https://doi.org/10.1093/cvr/cvag248"
+      },
+      {
+        "pmid": "42921967",
+        "title": "Clinical integration of artificial intelligence for diagnosis, risk prediction and management of rare cardiovascular diseases.",
+        "journal": "Journal of basic and clinical physiology and pharmacology",
+        "abstract": "INTRODUCTION: RCDs comprise a diverse group of inherited and acquired disorders characterized by low prevalence, substantial genetic and phenotypic heterogeneity, delayed diagnosis, and limited evidence-based therapeutic options. These challenges contribute to poor clinical outcomes, including progressive heart failure, malignant arrhythmias, and sudden cardiac death.\n\nCONTENT: This review summarizes recent advances in artificial intelligence (AI) for the diagnosis and management of RCDs. AI technologies, including machine learning, deep learning, and multimodal data integration, enable comprehensive analysis of electrocardiography, echocardiography, cardiac magnetic resonance imaging, computed tomography, genomic and multi-omics data, biomarkers, wearable devices, and electronic health records. These approaches improve early disease detection, phenotypic classification, risk stratification, prognostic prediction and personalized treatment planning.\n\nSUMMARY: Current evidence suggests that AI significantly enhances diagnostic accuracy, prognostic assessment, and individualized clinical decision-making in patients with RCDs.\n\nOUTLOOK: Future clinical implementation requires standardized multicenter datasets, prospective validation, transparent and explainable algorithms, robust regulatory and ethical frameworks, and seamless integration into healthcare systems. Continued interdisciplinary collaboration will accelerate AI-driven precision cardiovascular medicine and improve outcomes for patients with rare cardiovascular diseases.",
+        "authors": [
+          "Dharmalingam Kirubakaran",
+          "Meivelu Moovendhan",
+          "J D Preethi",
+          "Renu Vajjiravelu",
+          "Santhoshkumar Jayakodi",
+          "Veeran Sethuraman",
+          "Loganathan Praburaman",
+          "Pachaiyappan Murugan",
+          "Prabhu Kolandhasamy",
+          "Vijayapoopathi Singaravel"
+        ],
+        "published_on": "2026-10-25",
+        "doi": "10.1515/jbcpp-2026-0067",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42921967/",
+        "doi_url": "https://doi.org/10.1515/jbcpp-2026-0067"
       },
       {
         "pmid": "42918629",
@@ -320,30 +365,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
         "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
-      },
-      {
-        "pmid": "42879462",
-        "title": "STCP-Net: A few-shot learning approach based on spectral-temporal convolution and an improved prototypical network for ECG classification.",
-        "journal": "PloS one",
-        "abstract": "To address the heavy reliance of deep learning models on manually labeled data in ECG classification, we need to tackle two major limitations. First, sample sizes are often limited in clinical settings, making data annotation costly and impractical. Second, existing few-shot learning methods still fall short in two key areas: 1) Existing strategies pay insufficient attention to rare arrhythmia types. This makes it difficult to effectively identify rare clinical cases. 2) Single feature representation fails to fully integrate the global frequency, local time-frequency, and semantic information of ECG signals. This results in incomplete feature representation. To overcome these challenges, we propose a novel few-shot learning method for ECG classification. In terms of feature extraction, a spectral-temporal convolution feature extractor is designed to precisely focus on the key information of ECG by efficiently integrating the global frequency, local time-frequency features and semantic information of the signal. Furthermore, with regard to classification, an improved prototypical network based on cross-class bias diminishing is developed to enhance the recognition performance for rare arrhythmia type samples. The experimental results show that the proposed method achieves significant classification performance across multiple public datasets, especially on Chapman, it attains an average accuracy exceeding 90% in the 2-way 1-shot and 2-way 5-shot tasks.",
-        "authors": [
-          "Jia Li",
-          "Dainan Gan",
-          "Xiaolin Zhan",
-          "Wei Yao",
-          "Bin Zou",
-          "Bin Zhang",
-          "Dong Li",
-          "Dan Li",
-          "Lin Li"
-        ],
-        "published_on": "2026-10-15",
-        "doi": "10.1371/journal.pone.0357954",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42879462/",
-        "doi_url": "https://doi.org/10.1371/journal.pone.0357954"
       }
     ],
     "error": null,
@@ -356,6 +377,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-26T00:56:43.564201+00:00",
+  "next_refresh_at": "2026-10-27T04:05:19.206750+00:00",
   "next_push_at": null
 }
