@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-26T04:05:18.420694+00:00",
-  "last_success_at": "2026-10-26T04:05:19.206750+00:00",
+  "last_attempt_at": "2026-10-27T07:33:24.618236+00:00",
+  "last_success_at": "2026-10-27T07:33:25.263265+00:00",
   "count": 15,
   "papers": [
     {
@@ -247,6 +247,32 @@
       "doi_url": "https://doi.org/10.2196/108392"
     },
     {
+      "pmid": "42933187",
+      "title": "Machine learning and evolutionary computation for increased reliability of wearable devices for monitoring cardiac arrhythmias in the wild.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "Continuous analysis of electrocardiogram (ECG) signals is essential for diagnosing cardiovascular diseases, particularly arrhythmias, which contribute significantly to global mortality. With the increasing use of wearable devices for non-clinical cardiac monitoring, real-time ECG processing encounters challenges due to memory constraints, particularly when memory is wasted by recording false positives. Noise in real-life ECG monitoring, such as motion artifacts, complicates automatic arrhythmia detection and recording, and calls for efficient methods to selectively filter out noisy signals that may be falsely classified (and recorded) as arrhythmias in devices with limited storage. This study develops and systematically compares machine learning and deep learning approaches for ECG noise detection using real-world wearable data acquired outside controlled clinical environments. By employing various models for classification, including Random Forest, Support Vector Machine, Multi-Layer Perceptron, Gradient Boosting and Convolutional Neural Networks, we investigated four approaches, using as input features: i) raw signal data, ii) Heart Rate Variability-related time-domain features, iii) a combination of Heart Rate Variability-related time-domain and frequency-domain features, and iv) the parameters of a Genetic Programming-based reconstruction algorithm, analyzing both memory and computational requirements and classification performance of the corresponding architectures. Our findings indicate that the Multilayer Perceptron model, combined with Heart Rate Variability-related time- and frequency-domain features, offers an optimal trade-off between accuracy, specificity, sensitivity, and F1-score. This study presents a scalable classification approach specifically designed for real-life arrhythmia detection in wearable devices, demonstrating the potential to enhance continuous cardiac monitoring and to facilitate the integration of such algorithms into wearable devices suitable for clinical and real-world settings.",
+      "authors": [
+        "Carmen Guzmán-García",
+        "Chiara Martini",
+        "Nicola Gaibazzi",
+        "Marco Quadrelli",
+        "Aldo Morra",
+        "Cosimo Costantino",
+        "Andrea Igoren Guaricci",
+        "Lerina Aversano",
+        "Riccardo Pecori",
+        "Monica Mordonini",
+        "Stefano Cagnoni"
+      ],
+      "published_on": "2026-10-26",
+      "doi": "10.1016/j.cmpb.2026.109688",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42933187/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109688"
+    },
+    {
       "pmid": "42911538",
       "title": "A lightweight progressive residual convolutional network for interpretable arrhythmia classification.",
       "journal": "Physical and engineering sciences in medicine",
@@ -325,30 +351,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42887532/",
       "doi_url": "https://doi.org/10.1088/1361-6579/aeb59f"
-    },
-    {
-      "pmid": "42838083",
-      "title": "B-spline Kolmogorov-Arnold networks for interpretable semi-supervised ECG classification.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "This study investigates how Kolmogorov-Arnold Networks (KANs) behave when combined with semi-supervised learning for single-lead ECG analysis. Three architectures are compared: a standard CNN-BiLSTM-Attention model (accurate but uninterpretable), a minimal KAN with a simple CNN front-end (ablation), and the proposed SE-MSC-KAN-CNN. The proposed model uses multi-scale depthwise convolutions, Squeeze-and-Excitation attention, BiLSTM, and a B-spline KAN head. Interpretability is evaluated in three ways: visualising learned B-spline functions, applying Grad-CAM to highlight important signal regions, and measuring how the splines change when fewer labels are used (spline drift). On the PhysioNet 2017 dataset (8528 recordings, four classes), the proposed model reaches 85.2% supervised accuracy (F1 = 0.851), outperforming the CNN baseline (83.1%) and matching much larger black-box models. With only 90% of the labels, it still achieves 85.1%. After training, we applied post-training TFLite INT8 conversion. Only the CNN-front-end KAN converted (measured size 422 KB). The proposed SE-MSC-KAN-CNN did not convert, because Bidirectional LSTM and custom attention lack TFLite kernels; its float32 footprint is about 9.8 MB (theoretical INT8 size about 806 KB). Classification metrics in this paper are float32; INT8 test accuracy was not measured. The spline drift metric summarises how KAN coefficients change under semi-supervised training; use as an on-device out-of-distribution detector is proposed but not validated here. These results show that competitive accuracy and inspectable KAN maps can be obtained in one hybrid architecture. Wearable deployment of the proposed SE-MSC-KAN-CNN is not yet achieved: TFLite INT8 conversion failed, and the present graph still requires float32 inference.",
-      "authors": [
-        "M R Baidillah",
-        "M Rahmawati",
-        "S Oktamuliani",
-        "R Febryarto",
-        "P Busono",
-        "I M Astawa",
-        "S Karim",
-        "R Riyanto",
-        "C Achmad"
-      ],
-      "published_on": "2026-10-06",
-      "doi": "10.1088/2057-1976/aeb0af",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42838083/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/aeb0af"
     }
   ],
   "error": null,
