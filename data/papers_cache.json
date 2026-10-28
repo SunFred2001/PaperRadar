@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-27T07:33:24.618236+00:00",
-  "last_success_at": "2026-10-27T07:33:25.263265+00:00",
+  "last_attempt_at": "2026-10-28T11:08:47.128588+00:00",
+  "last_success_at": "2026-10-28T11:08:48.201275+00:00",
   "count": 15,
   "papers": [
     {
@@ -314,6 +314,28 @@
       "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
     },
     {
+      "pmid": "42938268",
+      "title": "Artificial Intelligence in Acute Coronary Syndromes: From Early Diagnosis to Culprit Lesion Characterization, Coronary Physiology, and Risk Stratification.",
+      "journal": "Diagnostics (Basel, Switzerland)",
+      "abstract": "Artificial intelligence (AI) is being investigated across the acute coronary syndrome (ACS) care pathway, including early diagnosis, coronary lesion characterization, procedural guidance, and risk prediction. This comprehensive review examines the current evidence across the entire ACS trajectory, with particular emphasis on clinically actionable and interventional applications. AI-enabled electrocardiography (ECG) may improve detection of myocardial infarction, including occlusion myocardial infarction (OMI) that does not meet conventional STEMI criteria. Models combining clinical data and high-sensitivity troponin may improve early rule-out and rule-in. In coronary imaging, AI can quantify plaque characteristics and assist with the interpretation of OCT and IVUS, while image-derived physiology may help assess non-culprit lesions. However, better diagnostic accuracy does not necessarily translate into better revascularization decisions. AI-based models can also estimate post-ACS ischemic, bleeding, and mortality risk, although evidence that their use improves treatment or outcomes remains limited. The next priority is prospective evaluation of whether these tools improve decisions, workflow, and patient outcomes across diverse clinical settings.",
+      "authors": [
+        "Marcello Marchetta",
+        "Lucio Giuseppe Granata",
+        "Branislav Crnomarkovic",
+        "Simona Giubilato",
+        "Giuseppe Andò",
+        "Mila Kovacevic"
+      ],
+      "published_on": "2026-10-27",
+      "doi": "10.3390/diagnostics16203429",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42938268/",
+      "doi_url": "https://doi.org/10.3390/diagnostics16203429"
+    },
+    {
       "pmid": "42891626",
       "title": "HeartFusion: A Cross-Modality Transformer for Accurate Cardiovascular Disease Diagnosis and Severity Assessment.",
       "journal": "Journal of visualized experiments : JoVE",
@@ -330,27 +352,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42891626/",
       "doi_url": "https://doi.org/10.3791/72149"
-    },
-    {
-      "pmid": "42887532",
-      "title": "KDM-Net: a large-kernel and bi-mamba integrated network for 12-lead atrial arrhythmia classification.",
-      "journal": "Physiological measurement",
-      "abstract": "OBJECTIVE: Automatic recognition of atrial arrhythmias is important for early clinical screening and computer-aided diagnosis. Distinguishing atrial fibrillation from atrial flutter remains challenging because of their similar electrocardiographic manifestations and&#xD;high risk of misclassification. This study aimed to develop an effective model for atrial arrhythmia classification with improved multi-lead feature utilization, long-range temporal modeling, and cross-patient generalization.\n\nAPPROACH: We propose KDM-Net, which takes&#xD;12-lead electrocardiogram signals as input. The network employs a large-kernel K module to enhance the perception of waveform morphology and rhythm patterns, a D module to recalibrate and fuse multi-lead features, and a bidirectional Mamba-based M module to&#xD;model long-range temporal dependencies. KDM-Net was evaluated on the combined CUSPH and PTB-XL dataset under an inter-patient protocol.\n\nMAIN RESULTS: In five-fold cross-validation, KDM-Net achieved an average accuracy and F1-score of 96.04% and&#xD;89.21%, respectively. On the independent patient-level test set, the accuracy and F1-score were 96.41% and 88.31%, respectively. On the CinC 2020 external test set, the model achieved an accuracy and F1-score of 91.14% and 80.41%, respectively. KDM-Net&#xD;outperformed several representative models in comparative experiments.\n\nSIGNIFICANCE: KDM-Net effectively integrates multi-lead spatial information and long-range temporal dependencies, demonstrating strong recognition performance and promising cross-patient&#xD;generalization. It provides an effective solution for the intelligent diagnosis of atrial arrhythmias.",
-      "authors": [
-        "Yinghao Sun",
-        "Mujun Zang",
-        "Tong Liu",
-        "Shusen Zhou",
-        "Chanjuan Liu",
-        "Qingjun Wang"
-      ],
-      "published_on": "2026-10-16",
-      "doi": "10.1088/1361-6579/aeb59f",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42887532/",
-      "doi_url": "https://doi.org/10.1088/1361-6579/aeb59f"
     }
   ],
   "error": null,
