@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-28T11:08:47.128588+00:00",
-    "last_success_at": "2026-10-28T11:08:48.201275+00:00",
+    "last_attempt_at": "2026-10-29T16:45:59.355430+00:00",
+    "last_success_at": "2026-10-29T16:46:00.094945+00:00",
     "count": 15,
     "papers": [
       {
@@ -171,6 +171,47 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
+      },
+      {
+        "pmid": "42949499",
+        "title": "Deep learning models to detect neurodegenerative diseases across different modalities, datasets, and stages: A systematic review.",
+        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
+        "abstract": "BackgroundNeurodegenerative diseases like Alzheimer's and Parkinson's pose significant diagnostic challenges because they are incurable. Their symptoms often overlap with those of normal ageing and involve progressive neuronal loss. This makes early prediction, proper diagnosis, and ongoing monitoring crucial at every stage of the disease. Deep learning has become a useful tool for handling different types of data. However, the performance of these models relies heavily on the availability and variety of data, making it important to characterize datasets.ObjectiveThis PRISMA-based systematic review looks at 111 studies from 2019 to April 2026, organized into three clinical stages of neurodegenerative diseases: early prediction, diagnosis, and progression.MethodsEach study is assessed across four dimensions: data type (neuroimaging or non-neuroimaging), datasets (open-access, self-created, or hybrid), deep learning model architecture, and the use of explainable AI.ResultsMRI is the only imaging modality that spans all three stages. Speech is the most common non-neuroimaging method for diagnosis, while gait is used only for diagnosis and progression. The ADNI and PPMI datasets are the most commonly used. Self-created datasets introduce new modalities such as ECG and iPSCs, which are not found in open-access datasets. CNNs are the leading models for neuroimaging tasks, while LSTMs and RNNs capture temporal patterns in longitudinal datasets. Survival models are exclusively used for ALS and LATE. Fewer than 6% of the studies used confirmed XAI. Only 2 of the 111 studies validated their results on an independent external cohort.ConclusionThis review is the only one that covers all three disease stages across multiple neurodegenerative diseases.",
+        "authors": [
+          "Kriti Poddar",
+          "Charu Wahi"
+        ],
+        "published_on": "2026-10-28",
+        "doi": "10.1177/09287329261502060",
+        "publication_types": [
+          "Journal Article",
+          "Review"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42949499/",
+        "doi_url": "https://doi.org/10.1177/09287329261502060"
+      },
+      {
+        "pmid": "42880319",
+        "title": "Patient and database shift in lightweight ECG arrhythmia classification: a controlled evaluation of noise, quantization, and embedded inference.",
+        "journal": "Medical engineering & physics",
+        "abstract": "Efficient microcontroller execution does not ensure reliable electrocardiogram classification across patients and databases. We conducted a controlled benchmark of three convolutional architectures under a corrected subject-disjoint MIT-BIH split, external INCART testing, noise stress test database artifacts, 16-bit floating-point (FP16) and full-integer 8-bit (INT8) conversion, and classifier-only invocation on an ESP32 without external RAM. Five fixed seeds were used. On the MIT-BIH test cohort (DS2), INT8 four-class macro-F1 was 0.474-0.498 and supraventricular (S) recall was 0.150-0.180. Mean S-class area under the receiver operating characteristic curve (AUROC) was below 0.5 in all six architecture-regime groups, although all corresponding record-cluster intervals included 0.5. Within-record ranking could remain high despite poor pooled ranking. On INCART, S-class ranking was stronger, with all six patient-cluster AUROC intervals above 0.5, but the representative mixed-noise depthwise-separable convolutional neural network (DS-CNN) achieved 0.797 recall with 0.074 precision. Including record 201, which shares a subject with test record 202, increased DS2 S-recall point estimates by 2.49-14.68 percentage points. In the primary architecture panel, FP16 and INT8 met the engineering tolerances in all 120 comparisons. DS-CNN required 9.49 ms per classifier invocation on the ESP32 using preprocessed, annotation-centered inputs. Acquisition, QRS detection, preprocessing, current, and energy were not measured. Patient-dependentS-score behavior and external false-positive predictions limited this panel more than numerical precision or microcontroller resources.",
+        "authors": [
+          "Hyun Mok Park",
+          "Woojin Cho",
+          "Seok-Oh Bang",
+          "Hyun-Seok Choi",
+          "Ki-Tae Kwon",
+          "Jin-Sung Roh",
+          "Sang-Wuk Shin",
+          "Jong-Min Lim"
+        ],
+        "published_on": "2026-10-15",
+        "doi": "10.1088/1873-4030/aeb4bc",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42880319/",
+        "doi_url": "https://doi.org/10.1088/1873-4030/aeb4bc"
       },
       {
         "pmid": "42922432",
@@ -328,46 +369,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
         "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
-      },
-      {
-        "pmid": "42938268",
-        "title": "Artificial Intelligence in Acute Coronary Syndromes: From Early Diagnosis to Culprit Lesion Characterization, Coronary Physiology, and Risk Stratification.",
-        "journal": "Diagnostics (Basel, Switzerland)",
-        "abstract": "Artificial intelligence (AI) is being investigated across the acute coronary syndrome (ACS) care pathway, including early diagnosis, coronary lesion characterization, procedural guidance, and risk prediction. This comprehensive review examines the current evidence across the entire ACS trajectory, with particular emphasis on clinically actionable and interventional applications. AI-enabled electrocardiography (ECG) may improve detection of myocardial infarction, including occlusion myocardial infarction (OMI) that does not meet conventional STEMI criteria. Models combining clinical data and high-sensitivity troponin may improve early rule-out and rule-in. In coronary imaging, AI can quantify plaque characteristics and assist with the interpretation of OCT and IVUS, while image-derived physiology may help assess non-culprit lesions. However, better diagnostic accuracy does not necessarily translate into better revascularization decisions. AI-based models can also estimate post-ACS ischemic, bleeding, and mortality risk, although evidence that their use improves treatment or outcomes remains limited. The next priority is prospective evaluation of whether these tools improve decisions, workflow, and patient outcomes across diverse clinical settings.",
-        "authors": [
-          "Marcello Marchetta",
-          "Lucio Giuseppe Granata",
-          "Branislav Crnomarkovic",
-          "Simona Giubilato",
-          "Giuseppe Andò",
-          "Mila Kovacevic"
-        ],
-        "published_on": "2026-10-27",
-        "doi": "10.3390/diagnostics16203429",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42938268/",
-        "doi_url": "https://doi.org/10.3390/diagnostics16203429"
-      },
-      {
-        "pmid": "42891626",
-        "title": "HeartFusion: A Cross-Modality Transformer for Accurate Cardiovascular Disease Diagnosis and Severity Assessment.",
-        "journal": "Journal of visualized experiments : JoVE",
-        "abstract": "Cardiovascular disease (CVD) requires diagnostic models that can integrate complementary electrophysiological and anatomical information while also representing ordered disease severity. HeartFusion was developed as a mathematically informed cross-modality Transformer framework combining electrocardiogram (ECG) and cardiac magnetic resonance imaging (MRI). Wavelet-derived ECG time-frequency representations were encoded with Cardioformer, MRI structure was encoded with TransUNet, and modality-specific embeddings were aligned in a shared latent space using cosine-similarity-based cross-modal attention. A transformer classifier performed diagnostic prediction, while an ordinal regression head modeled four ordered severity stages. Three controlled pseudo-paired benchmark cohorts were constructed from PTB-XL with ACDC (CVD-I), MIMIC-IV-ECG with CMRxRecon (CVD-II), and PTB-XL/MIMIC-IV-ECG with OCMR/Cardiac Atlas Project data (CVD-III). Source observations were partitioned before pseudo-pair construction to prevent cross-partition leakage, and five matched random seeds were used for evaluation. HeartFusion achieved diagnostic accuracies of 97.73%, 98.23%, and 98.02%, with AUC values of 98.12%, 98.76%, and 98.39% on CVD-I, CVD-II, and CVD-III, respectively. Severity staging achieved ordinal accuracies above 90%, with the best Cohen's kappa of 0.839 and MAE of 0.340. These findings support phenotype-level multimodal representation learning, while validation on genuinely patient-matched ECG-MRI cohorts remains necessary before clinical deployment.",
-        "authors": [
-          "Yingying Ji",
-          "Yu Hu"
-        ],
-        "published_on": "2026-10-18",
-        "doi": "10.3791/72149",
-        "publication_types": [
-          "Journal Article",
-          "Video-Audio Media"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42891626/",
-        "doi_url": "https://doi.org/10.3791/72149"
       }
     ],
     "error": null,
@@ -380,6 +381,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-10-29T11:08:48.201275+00:00",
+  "next_refresh_at": "2026-10-30T16:46:00.094945+00:00",
   "next_push_at": null
 }
