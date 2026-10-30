@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-10-29T16:45:59.355430+00:00",
-  "last_success_at": "2026-10-29T16:46:00.094945+00:00",
+  "last_attempt_at": "2026-10-30T20:35:11.501791+00:00",
+  "last_success_at": "2026-10-30T20:35:12.302656+00:00",
   "count": 15,
   "papers": [
     {
@@ -122,6 +122,52 @@
       "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
     },
     {
+      "pmid": "42953053",
+      "title": "Deep learning analysis of sinus-rhythm echocardiography for the identification of patients with atrial fibrillation.",
+      "journal": "European heart journal. Digital health",
+      "abstract": "AIMS: Paroxysmal atrial fibrillation (AF) is underdiagnosed due to its intermittent and asymptomatic nature. We evaluated whether a deep neural network (DNN) applied to transthoracic echocardiograms (TTEs) acquired in sinus rhythm can discriminate between patients with and without documented AF and identify individuals at increased risk for subsequent AF documentation and adverse outcomes.\n\nMETHODS AND RESULTS: We retrospectively analysed 85 686 TTE studies (2009-21). A DNN was applied to apical four-chamber and parasternal long-axis videos without Doppler. AF ground truth was based on International Classification of Diseases (ICD) codes, electrocardiogram, Holter, or prior echocardiographic documentation of AF. The dataset was split into training (60%), validation (20%), and an independent test set (20%). In the test cohort, we assessed discrimination performance. Among patients without prior AF, we evaluated associations between model classification and subsequent AF documentation and a composite outcome of all-cause mortality, heart failure hospitalization, or stroke. The test set included 17 121 patients (median age 66 years [interquartile range, IQR 54-75]; 57.6% male), of whom 3449 (20.1%) had prior AF. The model achieved an area under the receiver operating characteristic curve of 0.85, with sensitivity 0.80 and specificity 0.72. At the selected threshold, 6581 patients (38.4%) were classified as model-positive, including 3832 (58.2%) without prior AF. Among patients without prior AF, model-positive classification was associated with subsequent AF documentation [adjusted hazard ratio (HR) 1.64; 95% confidence interval (CI) 1.33-2.04] and with the composite outcome (adjusted HR 1.24; 95% CI 1.13-1.35).\n\nCONCLUSION: Deep learning applied to sinus-rhythm TTE demonstrates discrimination for AF and identifies an imaging-derived signal associated with subsequent AF documentation and adverse outcomes.",
+      "authors": [
+        "Ido Cohen",
+        "Michael Fiman",
+        "Ranel Loutati",
+        "Ehud Schwammenthal",
+        "Kobi Faierstein",
+        "Lior Fisher",
+        "Elad Maor"
+      ],
+      "published_on": "2026-10-29",
+      "doi": "10.1093/ehjdh/ztag168",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42953053/",
+      "doi_url": "https://doi.org/10.1093/ehjdh/ztag168"
+    },
+    {
+      "pmid": "42874128",
+      "title": "ReBAN-Net: An interpretable hybrid deep learning framework for ECG-based emotion recognition.",
+      "journal": "Asian journal of psychiatry",
+      "abstract": "Emotional assessment is essential for mental health management, yet questionnaire-based scales are subjective and facial- or voice-based approaches can be influenced by intentional behavior and environmental interference. This study proposes ReBAN-Net, a hybrid architecture integrating a one-dimensional residual convolutional network, a bidirectional long short-term memory network, and a soft attention mechanism for ECG-based emotion recognition. Three classification tasks were defined throughout the study: nine-class valence classification (levels 1-9), nine-class arousal classification (levels 1-9), and four-class affective-state classification (baseline, stress, amusement, and meditation). The model was evaluated on the WESAD dataset using a strict 15-fold leave-one-subject-out protocol. It achieved accuracies of 86.03% for nine-class valence, 86.27% for nine-class arousal, and 87.58% for four-class affective-state classification, with corresponding macro-AUC values of 96.07%, 96.24%, and 95.09%. Temporal class activation and attention-feature analyses show that the model focuses on physiologically meaningful ECG regions. These results demonstrate the feasibility and interpretability of ReBAN-Net and indicate its potential for subject-independent ECG-based emotion recognition.",
+      "authors": [
+        "Ping Li",
+        "Siqi Wang",
+        "Yu Wang",
+        "Danhong Li",
+        "Yiming Li",
+        "Qi Sun",
+        "Chen Peng",
+        "Yiming Wu",
+        "Hui Yang"
+      ],
+      "published_on": "2026-10-14",
+      "doi": "10.1016/j.ajp.2026.105180",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42874128/",
+      "doi_url": "https://doi.org/10.1016/j.ajp.2026.105180"
+    },
+    {
       "pmid": "42667695",
       "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
       "journal": "Computer methods and programs in biomedicine",
@@ -155,6 +201,60 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
+    },
+    {
+      "pmid": "42869077",
+      "title": "Per-class conformal risk control for multi-label ECG classification: achieving clinically-justified false negative rate guarantees.",
+      "journal": "Physiological measurement",
+      "abstract": "Objective. Automated electrocardiogram (ECG) classifiers require uncertainty procedures that address class-specific clinical risk in intrinsically multi-label data.Approach. We propose per-class risk-controlling prediction sets for multi-label ECG classification. For each diagnostic class, binary false-negative-rate (FNR) loss is calibrated with a one-sided exact-binomial upper confidence bound. The nine disease-specific targets are controlled simultaneously at 95% family-wise confidence using Bonferroni allocation. The final operating threshold is the more inclusive of the exact-binomial threshold and a conservative reference threshold derived from a concentration bound; this safeguard uses calibration data only and cannot weaken the exact guarantee.Main results. We evaluated the method on PTB-XL (21 388 retained recordings) and Chapman-Shaoxing (10 199 retained recordings), using a patient-disjoint PTB-XL split and fitting-partition-only normalisation. The proposed method met all 9/9 prespecified disease-specific FNR targets on held-out test sets and produced non-vacuous simultaneous exact-binomial guarantees for all nine targets; uniform standard conformal prediction met 5/9. Test FNR was 0.0% for myocardial infarction (exact 95% upper bound 0.35%, at 80.3% FPR), 1.0% for ST/T changes, and 0.3% for atrial fibrillation; the high-sensitivity operating point is purchased with substantially reduced specificity. Under PTB-XL-to-Chapman shift, macro class coverage fell from 94.3% to 45.5%, demonstrating that the guarantees do not transport without local recalibration.Significance. Exact-binomial per-class risk control provides a transparent high-sensitivity operating point for ECG triage while making its specificity, prediction-set-size, calibration-support, and exchangeability limitations explicit.",
+      "authors": [
+        "Oussama El Allam",
+        "Mohamed Hamlich"
+      ],
+      "published_on": "2026-10-13",
+      "doi": "10.1088/1361-6579/aeb3c6",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869077/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/aeb3c6"
+    },
+    {
+      "pmid": "42956413",
+      "title": "Deep Learning and Dual-Domain Fusion of Temporal and Spectrotemporal SCG for Valvular Heart Disease Classification.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Heart valve disease (HVD) is a growing cause of cardiovascular morbidity, yet accessible screening tools remain limited. Tri-axial seismocardiogram (SCG) signals capture mechanical signatures of both stenosis and regurgitation, but their non-stationary nature and subtle inter-lesion morphological differences challenge robust classification from a single representation. This study proposes an electrocardiogram (ECG)-free dual-domain deep learning framework that combines a 1D convolutional-recurrent encoder of raw SCG waveforms with a 2D EfficientNet encoder of continuous wavelet transform scalograms, integrating temporal and spectrotemporal representations through feature-level fusion. The framework was evaluated on primary valve lesion classification in 94 patients, with an additional exploratory analysis of multi-valvular, aortic-stenosis-dominant disease. Under patient-level stratified group cross-validation, the fused model achieved the highest mean accuracy (65.3%; 95% CI, 59.8-70.7%), exceeding both unimodal encoders and the majority-class (35.2%) and covariate-only (39.1%) baselines. The same mean performance ordering was preserved when the image backbone was replaced, although the confidence intervals overlap at this cohort size. Under the segment-level protocol used in prior studies, the framework achieved 99.63% accuracy, with faster training convergence and more compact, separable feature clusters than either unimodal encoder. These findings support the value of combining temporal and spectrotemporal SCG representations and demonstrate its potential for ECG-free HVD classification under patient-independent evaluation.",
+      "authors": [
+        "Junseob Kim",
+        "Tilendra Choudhary",
+        "Md Hassanuzzaman",
+        "Rishikesan Kamaleswaran"
+      ],
+      "published_on": "2026-10-29",
+      "doi": "10.1088/2057-1976/aebb34",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956413/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aebb34"
+    },
+    {
+      "pmid": "42956407",
+      "title": "Subject-independent framework for protocol-defined stress task classification using multimodal physiological signals.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Prolonged stress can cause cardiovascular disease, depression, and anxiety. Reliable detection is therefore important. Existing studies using multimodal physiological methods have already reported accuracy, up to 99.7% however, two important aspects remain underexplored. First, most studies separate stress only from a neutral baseline, amusement, and different workload levels. Second, subject-independent performance remains limited because most studies evaluate their models using subject-dependent data splits that are prone to data leakage. This proposed study tries to address these gaps. Protocol-defined stress tasks are detected from everyday activities, not from any workload levels. The proposed model, a one-dimensional convolutional neural network (1D-CNN), is evaluated subject independently using leave-one-subject-out (LOSO) cross-validation. This proposed study was conducted on the GalaxyPPG dataset. The dataset includes ECG, PPG, and BVP signals. This enables multimodal fusion for stress detection during everyday activities. Single modalities achieve mean test accuracies of 62.19% for PPG, 67.74% for BVP, and 47.81% for ECG on LOSO. Fusion (ECG+PPG+BVP) achieves the mean test accuracy on LOSO evaluation, 76.47% }14.60%. To the best of the author's knowledge, this modality's combination (ECG+PPG+BVP) has not been explored in the literature for GalaxyPPG dataset.",
+      "authors": [
+        "Alok Kumar",
+        "Irshad Ahmad Ansari",
+        "Sri Niwas Singh"
+      ],
+      "published_on": "2026-10-29",
+      "doi": "10.1088/2057-1976/aebb35",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956407/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aebb35"
     },
     {
       "pmid": "42949499",
@@ -237,122 +337,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42922432/",
       "doi_url": "https://doi.org/10.1093/cvr/cvag248"
-    },
-    {
-      "pmid": "42921967",
-      "title": "Clinical integration of artificial intelligence for diagnosis, risk prediction and management of rare cardiovascular diseases.",
-      "journal": "Journal of basic and clinical physiology and pharmacology",
-      "abstract": "INTRODUCTION: RCDs comprise a diverse group of inherited and acquired disorders characterized by low prevalence, substantial genetic and phenotypic heterogeneity, delayed diagnosis, and limited evidence-based therapeutic options. These challenges contribute to poor clinical outcomes, including progressive heart failure, malignant arrhythmias, and sudden cardiac death.\n\nCONTENT: This review summarizes recent advances in artificial intelligence (AI) for the diagnosis and management of RCDs. AI technologies, including machine learning, deep learning, and multimodal data integration, enable comprehensive analysis of electrocardiography, echocardiography, cardiac magnetic resonance imaging, computed tomography, genomic and multi-omics data, biomarkers, wearable devices, and electronic health records. These approaches improve early disease detection, phenotypic classification, risk stratification, prognostic prediction and personalized treatment planning.\n\nSUMMARY: Current evidence suggests that AI significantly enhances diagnostic accuracy, prognostic assessment, and individualized clinical decision-making in patients with RCDs.\n\nOUTLOOK: Future clinical implementation requires standardized multicenter datasets, prospective validation, transparent and explainable algorithms, robust regulatory and ethical frameworks, and seamless integration into healthcare systems. Continued interdisciplinary collaboration will accelerate AI-driven precision cardiovascular medicine and improve outcomes for patients with rare cardiovascular diseases.",
-      "authors": [
-        "Dharmalingam Kirubakaran",
-        "Meivelu Moovendhan",
-        "J D Preethi",
-        "Renu Vajjiravelu",
-        "Santhoshkumar Jayakodi",
-        "Veeran Sethuraman",
-        "Loganathan Praburaman",
-        "Pachaiyappan Murugan",
-        "Prabhu Kolandhasamy",
-        "Vijayapoopathi Singaravel"
-      ],
-      "published_on": "2026-10-25",
-      "doi": "10.1515/jbcpp-2026-0067",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42921967/",
-      "doi_url": "https://doi.org/10.1515/jbcpp-2026-0067"
-    },
-    {
-      "pmid": "42918629",
-      "title": "Electrocardiogram Embeddings Beyond Chronological Age for Prediagnostic Cognitive Impairment and Dementia: Development and External Validation Study.",
-      "journal": "Journal of medical Internet research",
-      "abstract": "BACKGROUND: Dementia is a growing health burden worldwide; however, scalable, low-cost strategies for early risk identification are lacking. Because cardiac and cognitive aging are closely associated, a routinely collected 12-lead electrocardiogram (ECG), interpreted using foundation model embeddings, is a promising and accessible candidate marker. However, it is unclear whether such embeddings carry predictive information independent of chronological age-the dominant risk factor for dementia-and whether the underlying changes follow a detectable prediagnostic trajectory.\n\nOBJECTIVE: This study aimed to investigate whether foundation model embeddings of routine ECGs carry information that distinguishes patients later diagnosed with cognitive impairment or dementia from matched controls, beyond chronological age, and, if so, whether the underlying ECG changes intensify as diagnosis approaches.\n\nMETHODS: In a retrospective two-site Korean cohort (Severance Hospital, development n=52,355; Yongin Severance Hospital, external n=6500), embeddings from the knowledge-enhanced diagnosis foundation model supported an ECG-only classifier that discriminated patients diagnosed with cognitive impairment or dementia within the following 10 years from matched controls, using only ECGs interpreted as normal sinus rhythm. We compared an age-only model with a late fusion of age and ECG-derived probability and tested whether age-residualized embedding is predictive as direct evidence of age-independent information. Discrimination was summarized by the area under the receiver operating characteristic curve (AUROC) with 95% bootstrap CIs, and DeLong tests and net reclassification improvement (NRI) were used for between-model comparisons. To trace the prediagnostic time course, we analyzed ECG phenotype labels across four windows before diagnosis in an exact-age-matched case-control set.\n\nRESULTS: Chronological age strongly discriminated cases from controls in both cohorts (external AUROC 0.809, 95% CI 0.799-0.819). Adding ECG-derived probability improved discrimination, calibration, and net benefit over age alone (external AUROC 0.825, 95% CI 0.816-0.834; DeLong P<.001; positive NRI). Critically, even after removing the age-predictable component, age-residualized embedding retained modest but reproducible discrimination in both internal (AUROC 0.590, 95% CI 0.581-0.599) and external (AUROC 0.579, 95% CI 0.567-0.592) validation (both P<.001), indicating dementia-relevant information that was not explained by chronological age. Of the 105 ECG labels, 19 (18.1%) showed a case-control difference that widened significantly toward diagnosis, dominated by nonspecific ST segment and T wave changes, acute ischemic patterns (acute myocardial infarction), and atrial and junctional arrhythmias (atrial flutter, ectopic atrial, and accelerated junctional rhythms), with divergence emerging mainly in the proximal (1-3-year) and imminent (0-1-year) windows.\n\nCONCLUSIONS: Routine ECG foundation model embeddings encode aging-related electrophysiological information that is complementary to and not fully explained by chronological age and intensifies as diagnosis approaches, with concurrent shifts toward ischemic and arrhythmic ECG patterns whose mechanism cannot be determined from these data. These findings suggest that routine ECG is a low-cost, age-complementary triage signal for cognitive impairment and dementia screening, rather than a stand-alone diagnostic test.",
-      "authors": [
-        "Yujeong Kim",
-        "Dong Won Kim",
-        "Yu Rang Park",
-        "Woo Jung Kim",
-        "Jaewoong Kim",
-        "Yujee Chang",
-        "Heeyeon Kwon",
-        "Dukyong Yoon"
-      ],
-      "published_on": "2026-10-23",
-      "doi": "10.2196/108392",
-      "publication_types": [
-        "Journal Article",
-        "Validation Study"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42918629/",
-      "doi_url": "https://doi.org/10.2196/108392"
-    },
-    {
-      "pmid": "42933187",
-      "title": "Machine learning and evolutionary computation for increased reliability of wearable devices for monitoring cardiac arrhythmias in the wild.",
-      "journal": "Computer methods and programs in biomedicine",
-      "abstract": "Continuous analysis of electrocardiogram (ECG) signals is essential for diagnosing cardiovascular diseases, particularly arrhythmias, which contribute significantly to global mortality. With the increasing use of wearable devices for non-clinical cardiac monitoring, real-time ECG processing encounters challenges due to memory constraints, particularly when memory is wasted by recording false positives. Noise in real-life ECG monitoring, such as motion artifacts, complicates automatic arrhythmia detection and recording, and calls for efficient methods to selectively filter out noisy signals that may be falsely classified (and recorded) as arrhythmias in devices with limited storage. This study develops and systematically compares machine learning and deep learning approaches for ECG noise detection using real-world wearable data acquired outside controlled clinical environments. By employing various models for classification, including Random Forest, Support Vector Machine, Multi-Layer Perceptron, Gradient Boosting and Convolutional Neural Networks, we investigated four approaches, using as input features: i) raw signal data, ii) Heart Rate Variability-related time-domain features, iii) a combination of Heart Rate Variability-related time-domain and frequency-domain features, and iv) the parameters of a Genetic Programming-based reconstruction algorithm, analyzing both memory and computational requirements and classification performance of the corresponding architectures. Our findings indicate that the Multilayer Perceptron model, combined with Heart Rate Variability-related time- and frequency-domain features, offers an optimal trade-off between accuracy, specificity, sensitivity, and F1-score. This study presents a scalable classification approach specifically designed for real-life arrhythmia detection in wearable devices, demonstrating the potential to enhance continuous cardiac monitoring and to facilitate the integration of such algorithms into wearable devices suitable for clinical and real-world settings.",
-      "authors": [
-        "Carmen Guzmán-García",
-        "Chiara Martini",
-        "Nicola Gaibazzi",
-        "Marco Quadrelli",
-        "Aldo Morra",
-        "Cosimo Costantino",
-        "Andrea Igoren Guaricci",
-        "Lerina Aversano",
-        "Riccardo Pecori",
-        "Monica Mordonini",
-        "Stefano Cagnoni"
-      ],
-      "published_on": "2026-10-26",
-      "doi": "10.1016/j.cmpb.2026.109688",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42933187/",
-      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109688"
-    },
-    {
-      "pmid": "42911538",
-      "title": "A lightweight progressive residual convolutional network for interpretable arrhythmia classification.",
-      "journal": "Physical and engineering sciences in medicine",
-      "abstract": "Arrhythmia poses a serious threat to human health, necessitating research into automated diagnostic methods. Although advances have been made in arrhythmia classification using deep learning, existing models often suffer from high computational cost and poor interpretability, limiting their clinical applicability. To this end, this paper proposes a lightweight progressive residual convolutional attention network (DResCA). Through the synergistic design of stage-adaptive downsampling and channel attention, this network reduces parameter redundancy while enhancing deep ECG feature extraction. To enhance clinical interpretability, template matching and attention visualization are employed to reveal the key ECG regions underlying the model's diagnoses. Five-class classification experiments on the MIT-BIH Arrhythmia Database demonstrate that the model achieves 98.35% accuracy and 97.99% macro-F1 score while maintaining fewer parameters than mainstream deep learning models. These characteristics provide a practical technical pathway for real-time arrhythmia detection on wearable edge computing devices.",
-      "authors": [
-        "Xiangkui Wan",
-        "Hongliang Chen",
-        "Da Lei",
-        "Jiabei Tao",
-        "Yuechen Pan",
-        "Jieqiang Luo",
-        "Yunfan Chen"
-      ],
-      "published_on": "2026-10-23",
-      "doi": "10.1007/s13246-026-01821-4",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42911538/",
-      "doi_url": "https://doi.org/10.1007/s13246-026-01821-4"
-    },
-    {
-      "pmid": "42869034",
-      "title": "Characterizing altered cardiac autonomic dynamics in psychotic disorders through multidomain heart rate variability analysis and deep learning.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "Recent developments in wearable devices have opened the possibility of heart rate variability (HRV), a quantitative measure of autonomic nervous system regulation, as a potential indicator for the early detection of psychiatric disorders. This study explores HRV for the detection of psychotic disorders by integrating multidomain HRV analysis with a hybrid deep learning technique. Polar H10 electrocardiogram device was employed to collect RR interval data from 30 patients diagnosed with either schizophrenia or bipolar disorder, and 30 similar age healthy controls, with a duration of approximately 1.5-2 h. HRV features, including time-domain, spectral, and nonlinear features such as the Poincaré plot and recurrence quantification analysis, were extracted from this publicly available dataset. Group-wise statistical comparisons between the healthy and the psychotic disorders were performed using the Mann-Whitneytest with a significance level of. HRV indices such as Mean NN intervals, SDNN, RMSSD, triangular index, Cardiac Vagal Index (CVI), Poincaré plot measures (SDand SD), Sample Entropy, and spectral power components (HF, LF, and total power), were significantly lower in the psychotic disorder group (), indicating attenuated autonomic modulation. All machine learning and deep learning models were conducted under a fully nested, subject-independent 54 cross-validation protocol in which minimum redundancy maximum relevance (mRMR) feature selection and hyper-parameter optimization were performed exclusively inside each outer training fold. Gradient Boosting achieved the highest subject level accuracy of, surpassing the best previously reported subject level accuracy ofon the same dataset. A hybrid CNN-BiLSTM-Attention network, applied to the same mRMR-selected features, achieved a competitive subject-level accuracy of. These results demonstrate that a rigorously nested evaluation combined with multidomain HRV features yields reliable subject-level discrimination and offers both performance and interpretability.",
-      "authors": [
-        "Vivek Ranjan",
-        "Raghuwansh Singh",
-        "Anindita Ganguly",
-        "Suman Halder"
-      ],
-      "published_on": "2026-10-13",
-      "doi": "10.1088/2057-1976/aeb384",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42869034/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/aeb384"
     }
   ],
   "error": null,
