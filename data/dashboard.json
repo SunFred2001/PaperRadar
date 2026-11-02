@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-10-31T22:21:36.007666+00:00",
-    "last_success_at": "2026-10-31T22:21:36.397298+00:00",
+    "last_attempt_at": "2026-11-02T00:25:46.689511+00:00",
+    "last_success_at": "2026-11-02T00:25:47.591671+00:00",
     "count": 15,
     "papers": [
       {
@@ -261,6 +261,25 @@
         "doi_url": "https://doi.org/10.1109/TBME.2026.3658304"
       },
       {
+        "pmid": "42967037",
+        "title": "Masked Generative Distillation for Robust Multi-Lead-to-Single-Lead ECG Classification on IoMT Devices.",
+        "journal": "Healthcare technology letters",
+        "abstract": "Wearable Internet of Medical Things (IoMT) devices typically rely on single-lead electrocardiogram (ECG) acquisition, which supports ambulatory monitoring but provides less spatial information than 12-lead clinical ECG and is more susceptible to signal corruption. Deploying accurate deep learning models on wearable hardware is also constrained by limited memory, computation and energy. This study investigates whether diagnostic knowledge from a multi-lead ECG model can be transferred to a lightweight single-lead model while improving robustness under wearable-relevant noise. A teacher-student framework is proposed in which a 12-lead 1D ResNet-18 teacher transfers knowledge to a compact single-lead convolutional neural network using masked generative distillation (MGD). The framework is evaluated on PTB-XL through a controlled ablation study covering supervised learning, conventional knowledge distillation, MGD and noise augmentation. All student variants achieve comparable macro F1 performance on clean data, indicating that the main benefit lies in robustness rather than clean-condition classification. Combining MGD with noise augmentation provides the strongest robustness under synthetic noise. Simulation-based profiling demonstrates a 45-fold parameter reduction, lower inference latency and minimal performance change after INT8 quantization. On the PTB-XL five-superclass task, the model achieves a macro F1-score of 0.6449 versus 0.626 for MVKT-ECG, although differences in lead selection and evaluation protocols prevent strict comparison.",
+        "authors": [
+          "Anandu Shivakumar",
+          "Obada Al-Khatib",
+          "Ghalia Nassreddine",
+          "Abeer ElKhouly"
+        ],
+        "published_on": "2026-11-01",
+        "doi": "10.1049/htl2.70108",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42967037/",
+        "doi_url": "https://doi.org/10.1049/htl2.70108"
+      },
+      {
         "pmid": "42869077",
         "title": "Per-class conformal risk control for multi-label ECG classification: achieving clinically-justified false negative rate guarantees.",
         "journal": "Physiological measurement",
@@ -313,24 +332,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956407/",
         "doi_url": "https://doi.org/10.1088/2057-1976/aebb35"
-      },
-      {
-        "pmid": "42949499",
-        "title": "Deep learning models to detect neurodegenerative diseases across different modalities, datasets, and stages: A systematic review.",
-        "journal": "Technology and health care : official journal of the European Society for Engineering and Medicine",
-        "abstract": "BackgroundNeurodegenerative diseases like Alzheimer's and Parkinson's pose significant diagnostic challenges because they are incurable. Their symptoms often overlap with those of normal ageing and involve progressive neuronal loss. This makes early prediction, proper diagnosis, and ongoing monitoring crucial at every stage of the disease. Deep learning has become a useful tool for handling different types of data. However, the performance of these models relies heavily on the availability and variety of data, making it important to characterize datasets.ObjectiveThis PRISMA-based systematic review looks at 111 studies from 2019 to April 2026, organized into three clinical stages of neurodegenerative diseases: early prediction, diagnosis, and progression.MethodsEach study is assessed across four dimensions: data type (neuroimaging or non-neuroimaging), datasets (open-access, self-created, or hybrid), deep learning model architecture, and the use of explainable AI.ResultsMRI is the only imaging modality that spans all three stages. Speech is the most common non-neuroimaging method for diagnosis, while gait is used only for diagnosis and progression. The ADNI and PPMI datasets are the most commonly used. Self-created datasets introduce new modalities such as ECG and iPSCs, which are not found in open-access datasets. CNNs are the leading models for neuroimaging tasks, while LSTMs and RNNs capture temporal patterns in longitudinal datasets. Survival models are exclusively used for ALS and LATE. Fewer than 6% of the studies used confirmed XAI. Only 2 of the 111 studies validated their results on an independent external cohort.ConclusionThis review is the only one that covers all three disease stages across multiple neurodegenerative diseases.",
-        "authors": [
-          "Kriti Poddar",
-          "Charu Wahi"
-        ],
-        "published_on": "2026-10-28",
-        "doi": "10.1177/09287329261502060",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42949499/",
-        "doi_url": "https://doi.org/10.1177/09287329261502060"
       }
     ],
     "error": null,
@@ -343,6 +344,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-11-01T22:21:36.397298+00:00",
+  "next_refresh_at": "2026-11-03T00:25:47.591671+00:00",
   "next_push_at": null
 }
