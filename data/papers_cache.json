@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-07T08:32:40.603890+00:00",
-  "last_success_at": "2026-11-07T08:32:41.508338+00:00",
+  "last_attempt_at": "2026-11-08T13:00:43.905855+00:00",
+  "last_success_at": "2026-11-08T13:00:45.511090+00:00",
   "count": 15,
   "papers": [
     {
@@ -203,6 +203,40 @@
       "doi_url": "https://doi.org/10.1088/2057-1976/aebc91"
     },
     {
+      "pmid": "42996791",
+      "title": "Patient-adaptive and clinically interpretable arrhythmia detection from ECG using lightweight hybrid deep learning.",
+      "journal": "Biomedical engineering letters",
+      "abstract": "A precise and reliable identification of cardiac arrhythmias from electrocardiogram (ECG) signals is critical for making informed clinical decisions. In this paper, a patient-adaptive and clinically interpretable a hybrid CNN-LSTM model with an attention mechanism is offered as a framework for ECG arrhythmia identification. The proposed framework combines signal preprocessing techniques with domain knowledge-driven morphological and time-frequency features to jointly analyze the waveform patterns and temporal dependencies in noisy ECG signals. In addition to beat-level classification, a composite arrhythmia burden score is also proposed to offer a patient-level summary of arrhythmic activity, and a lightweight patient-specific adaptation method is used to enhance reliability with limited calibration data. Over 99% accuracy and strong sensitivity to ventricular and supraventricular arrhythmias are demonstrated by experimental results employing a rigorous inter-patient methodology on the MIT-BIH Arrhythmia Database. The suggested framework's capacity to generalize on actual clinical datasets is further validated by external validation on the PTB-XL dataset without retraining. The proposed framework is also scalable for cloud-based deployment to enable continuous ECG monitoring, thus emphasizing its potential for practical and patient-centric cardiac care.",
+      "authors": [
+        "Gauri S Bhagat",
+        "Nitin S More"
+      ],
+      "published_on": "2026-11-08",
+      "doi": "10.1007/s13534-026-00615-7",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996791/",
+      "doi_url": "https://doi.org/10.1007/s13534-026-00615-7"
+    },
+    {
+      "pmid": "42996776",
+      "title": "JEPA-Mamba: a self-supervised joint-embedding architecture with bidirectional Mamba for ECG representation learning.",
+      "journal": "Biomedical engineering letters",
+      "abstract": "UNLABELLED: The electrocardiogram (ECG) is the primary non-invasive tool for early screening and clinical management of cardiovascular disease, but deep learning deployment is limited by scarce labeled data, by architectures that ignore the periodic structure of ECG signals, and by the trade-off between long-sequence efficiency and diagnostic accuracy. We propose JEPA-Mamba, a self-supervised representation learning framework that integrates the Joint-Embedding Predictive Architecture (JEPA) with a bidirectional Mamba encoder and a channel-temporal attention module (CTAM) for multi-adaptive ECG classification on downstream tasks. High-ratio contiguous-block masking trains an exponential moving average (EMA) encoder and a narrow predictor to learn diagnostic features without hand-crafted augmentation, while the bidirectional Mamba (BiM) encoder, augmented by rotary position embedding (RoPE) and a register mechanism, couples convolutional waveform extraction with linear-complexity long-sequence modeling and CTAM recalibrates the 12 leads and focuses temporal attention on clinically salient segments. Under a strict patient-level split on PTB-XL, with an encoder pretrained on MIMIC-IV-ECG for cross-dataset validation on the same tasks, JEPA-Mamba attains macro-averaged AUCs of 0.9296 ± 0.002 and 0.9306 ± 0.002 on the fully annotated task, outperforming self-supervised baselines on most downstream tasks and surpassing the most direct JEPA counterpart in the ECG domain across all tasks. Improvements over external baselines on the all, Sub-diag., and Diag. tasks are statistically significant, and internal ablation differences are confirmed by DeLong tests. Per-class analyses, attention maps, t-SNE embeddings, and robustness experiments under noise and baseline drift support these design choices. These results offer preliminary evidence for the clinical potential of JEPA-Mamba.\n\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s13534-026-00620-w.",
+      "authors": [
+        "Luyang Dai",
+        "Yuwen Li"
+      ],
+      "published_on": "2026-11-08",
+      "doi": "10.1007/s13534-026-00620-w",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996776/",
+      "doi_url": "https://doi.org/10.1007/s13534-026-00620-w"
+    },
+    {
       "pmid": "42953053",
       "title": "Deep learning analysis of sinus-rhythm echocardiography for the identification of patients with atrial fibrillation.",
       "journal": "European heart journal. Digital health",
@@ -282,48 +316,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
-    },
-    {
-      "pmid": "42537358",
-      "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
-      "journal": "Computer methods and programs in biomedicine",
-      "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
-      "authors": [
-        "Songping Li",
-        "Gan Luo",
-        "Lixue Zhou",
-        "Yifei Zhang",
-        "Liupeng Ma",
-        "Chuanlai Wang"
-      ],
-      "published_on": "2026-08-01",
-      "doi": "10.1016/j.cmpb.2026.109564",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
-      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
-    },
-    {
-      "pmid": "41666060",
-      "title": "Stress Detection Using Heart Rate Variability and Respiratory Signals Derived From a Single-Lead ECG.",
-      "journal": "IEEE transactions on bio-medical engineering",
-      "abstract": "Stress detection is a widely studied field due to its significant implications for mental and physical health. While multimodal approaches show promising results, they present challenges related to hardware constraints and computational requirements that limits real-time implementation in wearable devices. We propose a hybrid methodology combining feature extraction with machine learning (ML) for stress detection, using exclusively single-lead electrocardiogram (ECG) signals from which heart rate variability (HRV) and respiratory signals with their derived features are extracted. We evaluated our approach using the ES3 project database, testing various feature combinations with the XGBoost model. Results demonstrate that incorporating ECG-derived respiratory features significantly improves classification accuracy and computational efficiency compared to traditional HRV-based approaches and deep learning models. Feature importance analysis identified a reduced set of key features, resulting in a more efficient model with superior performance and substantially lower inference times than deep learning models. These findings support the feasibility of acute stress detection using a single-lead ECG-based multimodal approach that combines feature extraction with ML techniques, providing insights into stress-induced physiological responses and contributing to more accessible biomedical monitoring strategies.",
-      "authors": [
-        "Alvaro A Jimenez-Ocana",
-        "Andres Pantoja",
-        "Pablo Armanac",
-        "Raquel Bailon",
-        "Pablo Laguna",
-        "Luis Felipe Giraldo"
-      ],
-      "published_on": "2026-02-10",
-      "doi": "10.1109/TBME.2026.3658304",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41666060/",
-      "doi_url": "https://doi.org/10.1109/TBME.2026.3658304"
     }
   ],
   "error": null,
