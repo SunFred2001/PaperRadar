@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-09T22:07:14.638309+00:00",
-  "last_success_at": "2026-11-09T22:07:15.233428+00:00",
+  "last_attempt_at": "2026-11-11T01:06:34.792179+00:00",
+  "last_success_at": "2026-11-11T01:06:35.386587+00:00",
   "count": 15,
   "papers": [
     {
@@ -125,27 +125,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
-    },
-    {
-      "pmid": "42628486",
-      "title": "IoT-based ECG arrhythmia detection and classification model using an optimization based hybrid deep capsule stacked autoencoder.",
-      "journal": "Computational biology and chemistry",
-      "abstract": "Heart disease is one of the most dangerous diseases, and it is getting worse in adults over the age of 40. Cardiac arrhythmia is defined as an irregular heartbeat, and quick diagnosis and treatment are critical for saving the lives of a huge population. Currently, the arrhythmia classification involves diverse challenges that limit the existing methodologies from attaining the desired results. Some of the major challenges involve signal quality issues, including noise and motion artefacts, class imbalance and dataset limitations, generalization issues due to context variability across patients, real-world deployment and clinical trust. Several methodologies have been introduced to date to focus on these critical issues, but most of them are unable to cover and address the issues altogether. This study offers a novel deep learning-based method for identifying and classifying arrhythmias as a remedy. First, the pre-processing step receives the input data, which includes body temperature, heart rate, blood oxygen level, and ECG signal. Pre-processing is done with min-max normalization and an enhanced wavelet Wiener filtering technique (UP_WWF) in this case. After pre-processing, the input is submitted to the feature extraction stage, which extracts significant features. Features are extracted using an adaptive dense convolutional osprey network where the osprey optimization algorithm is used to tune the parameters of the network for better feature discrimination. Finally, with the help of the extracted features, the various arrhythmia classes are classified using an attention-based deep capsule stacked autoencoder (Att_DCSAE). The proposed framework is evaluated using the MIT-BIH dataset for benchmarking, whereas the constructed combined ECG dataset includes ECG, heart rate, blood oxygen level, and body temperature measurements. The proposed approach resulted in an overall accuracy of 99.6% on the combined ECG dataset, signifying that it can be applied in hard real-world conditions. The study also shows significant improvements when evaluated on the MIT-BIH dataset with a total precision, recall, and F1-score values of 99.98%, 99.68% and 99.86%, resulting in the overall improvement of 0.6% precision, 0.08% recall, and 0.7% F1-score when compared with the latest techniques in the literature.",
-      "authors": [
-        "Vijay A Kotkar",
-        "Makarand Shahade",
-        "Dhanraj S Jadhav",
-        "Kirti V Deshpande",
-        "Vinodkumar H Bhutnal",
-        "Avinash L Golande"
-      ],
-      "published_on": "2026-08-21",
-      "doi": "10.1016/j.compbiolchem.2026.109331",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42628486/",
-      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109331"
     },
     {
       "pmid": "42993770",
@@ -316,6 +295,27 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
+    },
+    {
+      "pmid": "42537358",
+      "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
+      "journal": "Computer methods and programs in biomedicine",
+      "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
+      "authors": [
+        "Songping Li",
+        "Gan Luo",
+        "Lixue Zhou",
+        "Yifei Zhang",
+        "Liupeng Ma",
+        "Chuanlai Wang"
+      ],
+      "published_on": "2026-08-01",
+      "doi": "10.1016/j.cmpb.2026.109564",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
+      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
     }
   ],
   "error": null,
