@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-11-11T01:06:34.792179+00:00",
-    "last_success_at": "2026-11-11T01:06:35.386587+00:00",
+    "last_attempt_at": "2026-11-12T06:36:56.689101+00:00",
+    "last_success_at": "2026-11-12T06:36:57.243853+00:00",
     "count": 15,
     "papers": [
       {
@@ -198,6 +198,31 @@
         "doi_url": "https://doi.org/10.1088/2057-1976/aebc91"
       },
       {
+        "pmid": "43009245",
+        "title": "Deep Learning-Based BNP and NT-proBNP Evaluation From Wearable-Compatible Single-Lead ECGs for Heart Failure Assessment.",
+        "journal": "Journal of cardiac failure",
+        "abstract": "BACKGROUND: Brain natriuretic peptide (BNP) and N-terminal pro-BNP (NT-proBNP) are critical biomarkers for diagnosing and managing heart failure. With the growing availability of wearable technologies, single-lead electrocardiogram (ECG) images have emerged as a practical and noninvasive source of clinical information. This study explores the use of a deep learning-based approach to estimate BNP and NT-proBNP levels from single-lead ECG images, aiming to support rapid, noninvasive screening in real-world settings.\n\nMETHODS: We analyzed 528,654 lead I ECGs from 237,686 unique patients within the Houston Methodist Health System, each paired with a corresponding BNP value obtained within 24 hours. A modified VGG16 convolutional neural network (CNN) was trained to classify BNP levels into clinically relevant thresholds: ≥100, ≥400, and ≥900 pg/mL. To prevent data leakage and ensure patient-level independence, the dataset was split by unique patients into training, validation, and testing sets. Additionally, the model's generalizability was evaluated by using an external Medical Information Mart for Intensive Care (MIMIC)-IV-ECG testing cohort comprising 18,549 unique patients and 42,377 electrocardiograms (ECGs) with corresponding NT-proBNP measurements, with predictions assessed against established NT-proBNP thresholds of ≥125, ≥450, and ≥900 pg/mL. We then examined the association between ECG-predicted BNP (ECG-BNP) and incident HF in 706,715 patients at Houston Methodist.\n\nRESULTS: In the testing dataset, the model demonstrated robust performance, with area under the receiver operating characteristic (AUROC) values ranging from 0.84-0.86 and from 0.79-0.85 across the 3 classification thresholds of BNP and NT-proBNP, respectively. For the prediction of severe BNP elevation (≥900 pg/mL), the model achieved a sensitivity of 0.87 and a specificity of 0.70. The overall accuracy for distinguishing normal (<100 pg/mL) from elevated BNP levels (ie, ≥100 pg/mL) was 0.76. For NT-proBNP, the discriminative ability was higher at the lower cutoff (≥125 pg/mL) and declined slightly as thresholds increased, with AUROC values of 0.85, 0.82, and 0.79 for ≥125, ≥450, and ≥900 pg/mL, respectively. Consistent performance was observed across various demographic groups (sex and age categories) for all BNP and NT-proBNP thresholds. Higher baseline ECG-derived BNP levels were retrospectively associated with subsequent HF diagnosis across follow-up intervals extending up to 10 years, with stronger associations observed among patients whose baseline ECGs were temporally closer to HF diagnosis.\n\nCONCLUSION: This study developed and validated a deep-learning model for classifying clinically relevant BNP and NT-proBNP thresholds from single-lead ECG images. The model demonstrated strong discrimination and external validation, supporting further investigation of single-lead ECG-derived natriuretic peptide classification for scalable cardiovascular screening and risk assessment.",
+        "authors": [
+          "Mohammad Alkhaleefah",
+          "Rakesh Gullapelli",
+          "Budhaditya Bose",
+          "Elijah Rockers",
+          "Kershaw Patel",
+          "Bobak J Mortazavi",
+          "Guha Balakrishnan",
+          "Ashrith Guha",
+          "Khurram Nasir",
+          "Sadeer Al-Kindi"
+        ],
+        "published_on": "2026-11-10",
+        "doi": "10.1016/j.cardfail.2026.08.034",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43009245/",
+        "doi_url": "https://doi.org/10.1016/j.cardfail.2026.08.034"
+      },
+      {
         "pmid": "42996791",
         "title": "Patient-adaptive and clinically interpretable arrhythmia detection from ECG using lightweight hybrid deep learning.",
         "journal": "Biomedical engineering letters",
@@ -311,27 +336,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
         "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
-      },
-      {
-        "pmid": "42537358",
-        "title": "Adaptive graph convolutional neural network incorporating ECG for individualized motor imagery EEG classification.",
-        "journal": "Computer methods and programs in biomedicine",
-        "abstract": "BACKGROUND AND OBJECTIVE: The recognition of motor imagery electroencephalogram (EEG) signals, which non-invasively capture the macroscopic electrical activity of the brain, is critical for medical rehabilitation and intelligent control. In these applications, reliable prediction is essential due to the safety risks associated with misclassification. However, existing methods often suffer from limited generalization in cross-subject scenarios caused by substantial inter-subject variability. To address this challenge, this work develops adaptive modeling strategies to improve robust cross-subject recognition performance.\n\nMETHODS: We propose a Hybrid Adaptive Domain Graph Convolutional Network (HAD-GCN) to enhance decoding performance through multi-level adaptability. At the spatial level, an adaptive generator synthesizes electrocardiogram (ECG) signals, which record the electrical activity of the heart, from EEG signals and concatenates them within a connected graph structure, thereby mitigating the limitations of non-invasive data acquisition. At the temporal level, an adaptive splitter selects the most suitable time-frequency domain processing method for each subject's signal and routes the data into the corresponding branches for feature extraction.\n\nRESULTS: Accuracy and the Kappa coefficient, which are widely adopted in motor imagery research, are used as evaluation metrics. Cross-subject experiments conducted on the Mixed dataset and the BCI Competition IV-2a dataset achieve accuracies of 83.10% ± 6.54% and 74.81% ± 8.97%, respectively, with corresponding Kappa values of 0.778 ± 0.06 and 0.655 ± 0.09.\n\nCONCLUSIONS: Experimental results demonstrate that HAD-GCN significantly improves cross-subject classification performance and prediction reliability while maintaining strong generalization capabilities. The proposed multi-level adaptive approach consistently enhances classification accuracy for individual subjects, highlighting its potential for practical applications in EEG-based technologies. Our code is available at https://github.com/chuanlaiair/HAD-GCN.",
-        "authors": [
-          "Songping Li",
-          "Gan Luo",
-          "Lixue Zhou",
-          "Yifei Zhang",
-          "Liupeng Ma",
-          "Chuanlai Wang"
-        ],
-        "published_on": "2026-08-01",
-        "doi": "10.1016/j.cmpb.2026.109564",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42537358/",
-        "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109564"
       }
     ],
     "error": null,
@@ -344,6 +348,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-11-12T01:06:35.386587+00:00",
+  "next_refresh_at": "2026-11-13T06:36:57.243853+00:00",
   "next_push_at": null
 }
