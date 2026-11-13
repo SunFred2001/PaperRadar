@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-12T06:36:56.689101+00:00",
-  "last_success_at": "2026-11-12T06:36:57.243853+00:00",
+  "last_attempt_at": "2026-11-13T11:58:59.474541+00:00",
+  "last_success_at": "2026-11-13T11:59:00.339935+00:00",
   "count": 15,
   "papers": [
     {
@@ -125,6 +125,26 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
+    },
+    {
+      "pmid": "43018264",
+      "title": "An adaptive multi-scale dilated convolutional neural network for arrhythmia detection.",
+      "journal": "Computer methods in biomechanics and biomedical engineering",
+      "abstract": "The rising global incidence of arrhythmia calls for reliable detection methods. Most existing approaches suffer from poor generalization and insufficient feature extraction for long-term electrocardiogram (ECG) signals. This work proposes an adaptive multi-scale dilated convolutional network (AMSDNet). It uses multi-scale dilated convolutions, gated adaptive weight allocation, and spatial attention fusion to capture global ECG features. Validated on Massachusetts Institute of Technology-Beth Israel Hospital Arrhythmia Database (MIT-BIH), the China Physiological Signal Challenge (CPSC) 2018, and the Computing in Cardiology Challenge (CINC) 2017 datasets, our method outperforms state-of-the-art models with average accuracy of 99.7%, 91.8% and 83.7%, respectively.",
+      "authors": [
+        "Yunfan Chen",
+        "Zhiqiang Wu",
+        "Panpan Hu",
+        "Yexin Wan",
+        "Yuting Li"
+      ],
+      "published_on": "2026-11-12",
+      "doi": "10.1080/10255842.2026.2746753",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43018264/",
+      "doi_url": "https://doi.org/10.1080/10255842.2026.2746753"
     },
     {
       "pmid": "42993770",
@@ -301,25 +321,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42667695/",
       "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109613"
-    },
-    {
-      "pmid": "42636694",
-      "title": "A novel method for analysis of transient morphological changes in quasiperiodic physiological signals and their neurogenic correlates.",
-      "journal": "Computer methods and programs in biomedicine",
-      "abstract": "BACKGROUND AND OBJECTIVE: Transient changes in electrocardiographic (ECG) morphology often accompany fluctuations in heart rhythm and may provide clinically relevant information about cardiac function. However, conventional ECG visualization and analysis methods typically emphasize either waveform morphology or rhythm variability, making it difficult to assess their temporal interplay in long-term recordings and, consequently, to identify rhythm-related morphological changes and exploit their potential diagnostic value. This work presents a visualization framework for quasiperiodic physiological signals that enables simultaneous assessment of beat-to-beat morphological changes and rhythm dynamics in a single representation.\n\nMETHODS: The proposed method converts quasiperiodic signals into two-dimensional carpet plots. Characteristic events (e.g., ECG R peaks) are used to align consecutive signal segments, which are transformed into color-coded rows and stacked in chronological order. The resulting image preserves both the temporal evolution of signal morphology and variations in cycle duration. The method was evaluated using ECG recordings from multiple publicly available databases containing healthy subjects and patients with diverse cardiac abnormalities, as well as synchronized multimodal physiological recordings.\n\nRESULTS: Carpet plots enabled rapid visualization of transient morphological changes alongside heart rate dynamics across recordings ranging from several minutes to hours. The representation highlighted clinically relevant phenomena, including ST segment alterations, QT interval variability, changes in T wave morphology, atrial fibrillation episodes, premature ventricular complexes, Wenckebach periodicity, and stress-test phase transitions. The image-based representation was also shown to be suitable for automated analysis using convolutional neural network feature extraction.\n\nCONCLUSIONS: Carpet plots provide a compact representation of quasiperiodic physiological signals, jointly visualizing rhythm and morphology across long-term recordings. The proposed framework facilitates both expert interpretation and image-based computational analysis, offering a general approach for investigating transient physiological phenomena in ECG and other synchronized quasiperiodic signals.",
-      "authors": [
-        "Tomasz Gradowski",
-        "Damian Waląg",
-        "Tomir Domański",
-        "Teodor Buchner"
-      ],
-      "published_on": "2026-08-24",
-      "doi": "10.1016/j.cmpb.2026.109611",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42636694/",
-      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109611"
     }
   ],
   "error": null,
