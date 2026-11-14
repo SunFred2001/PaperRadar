@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-13T11:58:59.474541+00:00",
-  "last_success_at": "2026-11-13T11:59:00.339935+00:00",
+  "last_attempt_at": "2026-11-14T14:53:20.171998+00:00",
+  "last_success_at": "2026-11-14T14:53:20.832816+00:00",
   "count": 15,
   "papers": [
     {
@@ -145,6 +145,32 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43018264/",
       "doi_url": "https://doi.org/10.1080/10255842.2026.2746753"
+    },
+    {
+      "pmid": "43030850",
+      "title": "Artificial Intelligence in Pulmonary Hypertension: Advancements, Opportunities, and Challenges.",
+      "journal": "Journal of clinical medicine",
+      "abstract": "Pulmonary hypertension (PH) is a progressive cardiopulmonary disorder associated with high morbidity and mortality. Delayed diagnosis, heterogeneous disease phenotypes, and variable treatment responses remain major clinical challenges. Artificial intelligence (AI), including machine learning and deep learning, has emerged as a promising tool for improving PH management. AI-based models have demonstrated promising performance in screening, diagnosis, classification, risk stratification, and prognosis prediction using multimodal data such as electrocardiography, chest radiography, computed tomography, cardiac magnetic resonance imaging, echocardiography, and electronic health records. Furthermore, AI may support individualized risk assessment, treatment-response prediction, early identification of right ventricular deterioration, and longitudinal remote monitoring. Emerging technologies, including explainable AI, federated learning, large language models, and digital twins, may further advance precision medicine in PH. Despite these advances, data quality, interpretability, privacy, and clinical implementation of AI remain challenges. This review summarizes current applications, opportunities, and challenges of AI in PH and discusses future directions for AI-assisted precision healthcare.",
+      "authors": [
+        "Xinyi Li",
+        "Linyue Zhang",
+        "Li Zhang",
+        "Yuji Xie",
+        "Mingxing Xie",
+        "Mengmeng Ji",
+        "Qing He",
+        "Zhenni Wu",
+        "Shuxuan Qin",
+        "Yuman Li"
+      ],
+      "published_on": "2026-11-14",
+      "doi": "10.3390/jcm15218707",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43030850/",
+      "doi_url": "https://doi.org/10.3390/jcm15218707"
     },
     {
       "pmid": "42993770",
@@ -305,22 +331,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42874128/",
       "doi_url": "https://doi.org/10.1016/j.ajp.2026.105180"
-    },
-    {
-      "pmid": "42667695",
-      "title": "A clinical decision support system for ECG diagnosis: Surpassing commercial standards through dual-stream feature fusion.",
-      "journal": "Computer methods and programs in biomedicine",
-      "abstract": "BACKGROUND: Automated electrocardiogram (ECG) interpretation is essential for clinical efficiency, yet many existing deep learning (DL) models are perceived as \"black boxes\" and lack direct benchmarking against established commercial standards. To foster clinician trust and support reimbursement justification, AI systems must demonstrate not only superior accuracy but also alignment with established clinical criteria.\n\nMETHODS: We proposed a Dual-Stream Signal Fusion Architecture that integrates latent spatio-temporal features from 21,799 raw 12-lead ECG waveforms (PTB-XL) with 148 expert-engineered clinical metrics extracted via commercial algorithms (PTB-XL+). The system was evaluated against the Marquette 12SL™ (12SL) commercial standard using the independent PTB-XL test set (Fold 10).\n\nRESULTS: The proposed Hybrid Model achieved a Macro F1-Score of 0.851, significantly outperforming the commercial 12SL standard (0.812) and the waveform-only baseline (0.821). Notably, sensitivity for Myocardial Infarction (MI) improved by 10.8% relative to 12SL (0.72 vs. 0.65). Feature importance analysis confirmed that the model's decisions are clinically traceable, attributing 45% importance to QRS amplitude for Hypertrophy diagnosis, which aligns with Sokolow-Lyon criteria.\n\nCONCLUSIONS: Our hybrid framework offers a superior, transparent, and robust standard for automated ECG interpretation. By outperforming clinical gold standards and providing physiologically sound reasoning, this work represents a step toward building the clinical evidence base for AI-based diagnostic support across diverse global populations; prospective, multi-site validation remains necessary before clinical deployment can be considered. The proposed framework is further distinguished by its modular design, which ensures adaptability across both resource-rich and resource-limited clinical environments.",
-      "authors": [
-        "Chuelwon Lee"
-      ],
-      "published_on": "2026-08-29",
-      "doi": "10.1016/j.cmpb.2026.109613",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42667695/",
-      "doi_url": "https://doi.org/10.1016/j.cmpb.2026.109613"
     }
   ],
   "error": null,
