@@ -2,10 +2,29 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-14T14:53:20.171998+00:00",
-  "last_success_at": "2026-11-14T14:53:20.832816+00:00",
+  "last_attempt_at": "2026-11-15T19:38:21.665762+00:00",
+  "last_success_at": "2026-11-15T19:38:22.867338+00:00",
   "count": 15,
   "papers": [
+    {
+      "pmid": "42743799",
+      "title": "MultiCardioFusionNet: A multimodal fusion model for predicting coronary heart disease integrating time-domain, frequency-domain, and clinical information.",
+      "journal": "Computational biology and chemistry",
+      "abstract": "Coronary heart disease (CHD) remains a leading cause of morbidity and mortality worldwide, highlighting the need for accurate, accessible, and cost-effective diagnostic approaches. This study proposes MultiCardioFusionNet, a multimodal deep learning framework that integrates electrocardiographic (ECG) signals and clinical information (gender, age, and body mass index) for intelligent CHD diagnosis. To capture complementary disease-related characteristics, a three-branch architecture is designed to jointly extract Frequency-Domain features, temporal features, and clinical representations from multimodal data. The resulting multimodal representations are integrated through an attention-guided fusion strategy to exploit complementary information across spectral, temporal, and clinical domains. The framework was developed and evaluated using real-world multicenter clinical data. In the internal validation cohort, MultiCardioFusionNet achieved an AUC of 0.9327, while independent external validation yielded an AUC of 0.9261, demonstrating promising generalizability capability. The proposed model consistently outperformed several representative deep learning methods, including Gated Recurrent Unit, Convolutional Neural Network, Convolutional Neural Network - Long Short-Term Memory, Convolutional Neural Network - Bidirectional Long Short-Term Memory and Convolutional Neural Network - Transformer (GRU, CNN, CNN-LSTM, CNN-BILSTM, and CNN-transformer). These results indicate that integrating electrophysiological and clinical information can substantially enhance CHD diagnosis. The consistent performance across the internal test cohort and the independent multi-center external validation cohort suggests that MultiCardioFusionNet may serve as a non-invasive decision-support approach for assisting CHD identification and risk assessment among clinically suspected patients undergoing further diagnostic evaluation.",
+      "authors": [
+        "Tianbo Xu",
+        "Hechao Zhang",
+        "Hongzeng Xu",
+        "Shanshan Xu"
+      ],
+      "published_on": "2026-09-15",
+      "doi": "10.1016/j.compbiolchem.2026.109398",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42743799/",
+      "doi_url": "https://doi.org/10.1016/j.compbiolchem.2026.109398"
+    },
     {
       "pmid": "42711831",
       "title": "A Dual Soft Attention Network for Automatic Sleep Staging via Single-Lead Electrocardiogram Signals.",
@@ -147,6 +166,41 @@
       "doi_url": "https://doi.org/10.1080/10255842.2026.2746753"
     },
     {
+      "pmid": "43032706",
+      "title": "Artificial Intelligence in Coronary Artery Disease: From Detection to Precision Management.",
+      "journal": "Methodist DeBakey cardiovascular journal",
+      "abstract": "Coronary artery disease (CAD) remains the leading cause of death worldwide, yet the landscape is rapidly evolving as artificial intelligence (AI) is increasingly applied to its detection, diagnosis, and management. This review surveys the expanding role of AI across the full spectrum of CAD care. In screening, deep-learning electrocardiography and electronic health record-based digital markers enable earlier identification of clinically significant disease. In noninvasive imaging, AI-driven coronary computed tomography angiography automates calcium scoring, derives fractional flow reserve without invasive wires, and quantifies high-risk plaque features that predict incident adverse events. Within the cardiac catheterization laboratory, angiography-derived physiologic assessment and AI-guided intravascular imaging segmentation support real-time procedural decision-making. Beyond diagnosis, machine-learning models integrating multimodality imaging data improve risk stratification over conventional clinical scores, while pharmacogenomic algorithms and wearable-based digital rehabilitation platforms enable patient-centric secondary prevention. Despite this progress, significant challenges persist, including limited evidence from randomized trials, algorithmic bias in underrepresented populations, regulatory uncertainty surrounding software-as-a-medical-device frameworks, and the risk of clinician de-skilling. AI has the potential to act as a collaborative tool that augments-rather than replaces-physician judgment. Future directions include foundation models, multiomics integration, agentic AI workflows, and equity-centered deployment strategies to ensure that AI-driven advances benefit all individuals with CAD.",
+      "authors": [
+        "Keshav Garg",
+        "Landon Bruich",
+        "Luke J Enemark",
+        "Khalid Sawalha",
+        "Aakash Rana",
+        "Ankit Agrawal",
+        "Robert F Spraggins",
+        "Osama Khalaila",
+        "Mohanad Shehadeh",
+        "Buthainah Alhwarat",
+        "Carsten Johnson",
+        "Avirup Guha",
+        "Yiye Zhang",
+        "Gianluca Pontone",
+        "Sourbha S Dani",
+        "Vignesh Chindambaram",
+        "Lohendran Baskaran",
+        "Bhupendar Tayal",
+        "Subhi J Al'Aref"
+      ],
+      "published_on": "2026-11-15",
+      "doi": "10.14797/mdcvj.1917",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43032706/",
+      "doi_url": "https://doi.org/10.14797/mdcvj.1917"
+    },
+    {
       "pmid": "43030850",
       "title": "Artificial Intelligence in Pulmonary Hypertension: Advancements, Opportunities, and Challenges.",
       "journal": "Journal of clinical medicine",
@@ -285,52 +339,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996776/",
       "doi_url": "https://doi.org/10.1007/s13534-026-00620-w"
-    },
-    {
-      "pmid": "42953053",
-      "title": "Deep learning analysis of sinus-rhythm echocardiography for the identification of patients with atrial fibrillation.",
-      "journal": "European heart journal. Digital health",
-      "abstract": "AIMS: Paroxysmal atrial fibrillation (AF) is underdiagnosed due to its intermittent and asymptomatic nature. We evaluated whether a deep neural network (DNN) applied to transthoracic echocardiograms (TTEs) acquired in sinus rhythm can discriminate between patients with and without documented AF and identify individuals at increased risk for subsequent AF documentation and adverse outcomes.\n\nMETHODS AND RESULTS: We retrospectively analysed 85 686 TTE studies (2009-21). A DNN was applied to apical four-chamber and parasternal long-axis videos without Doppler. AF ground truth was based on International Classification of Diseases (ICD) codes, electrocardiogram, Holter, or prior echocardiographic documentation of AF. The dataset was split into training (60%), validation (20%), and an independent test set (20%). In the test cohort, we assessed discrimination performance. Among patients without prior AF, we evaluated associations between model classification and subsequent AF documentation and a composite outcome of all-cause mortality, heart failure hospitalization, or stroke. The test set included 17 121 patients (median age 66 years [interquartile range, IQR 54-75]; 57.6% male), of whom 3449 (20.1%) had prior AF. The model achieved an area under the receiver operating characteristic curve of 0.85, with sensitivity 0.80 and specificity 0.72. At the selected threshold, 6581 patients (38.4%) were classified as model-positive, including 3832 (58.2%) without prior AF. Among patients without prior AF, model-positive classification was associated with subsequent AF documentation [adjusted hazard ratio (HR) 1.64; 95% confidence interval (CI) 1.33-2.04] and with the composite outcome (adjusted HR 1.24; 95% CI 1.13-1.35).\n\nCONCLUSION: Deep learning applied to sinus-rhythm TTE demonstrates discrimination for AF and identifies an imaging-derived signal associated with subsequent AF documentation and adverse outcomes.",
-      "authors": [
-        "Ido Cohen",
-        "Michael Fiman",
-        "Ranel Loutati",
-        "Ehud Schwammenthal",
-        "Kobi Faierstein",
-        "Lior Fisher",
-        "Elad Maor"
-      ],
-      "published_on": "2026-10-29",
-      "doi": "10.1093/ehjdh/ztag168",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42953053/",
-      "doi_url": "https://doi.org/10.1093/ehjdh/ztag168"
-    },
-    {
-      "pmid": "42874128",
-      "title": "ReBAN-Net: An interpretable hybrid deep learning framework for ECG-based emotion recognition.",
-      "journal": "Asian journal of psychiatry",
-      "abstract": "Emotional assessment is essential for mental health management, yet questionnaire-based scales are subjective and facial- or voice-based approaches can be influenced by intentional behavior and environmental interference. This study proposes ReBAN-Net, a hybrid architecture integrating a one-dimensional residual convolutional network, a bidirectional long short-term memory network, and a soft attention mechanism for ECG-based emotion recognition. Three classification tasks were defined throughout the study: nine-class valence classification (levels 1-9), nine-class arousal classification (levels 1-9), and four-class affective-state classification (baseline, stress, amusement, and meditation). The model was evaluated on the WESAD dataset using a strict 15-fold leave-one-subject-out protocol. It achieved accuracies of 86.03% for nine-class valence, 86.27% for nine-class arousal, and 87.58% for four-class affective-state classification, with corresponding macro-AUC values of 96.07%, 96.24%, and 95.09%. Temporal class activation and attention-feature analyses show that the model focuses on physiologically meaningful ECG regions. These results demonstrate the feasibility and interpretability of ReBAN-Net and indicate its potential for subject-independent ECG-based emotion recognition.",
-      "authors": [
-        "Ping Li",
-        "Siqi Wang",
-        "Yu Wang",
-        "Danhong Li",
-        "Yiming Li",
-        "Qi Sun",
-        "Chen Peng",
-        "Yiming Wu",
-        "Hui Yang"
-      ],
-      "published_on": "2026-10-14",
-      "doi": "10.1016/j.ajp.2026.105180",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42874128/",
-      "doi_url": "https://doi.org/10.1016/j.ajp.2026.105180"
     }
   ],
   "error": null,
