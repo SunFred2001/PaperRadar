@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-15T19:38:21.665762+00:00",
-  "last_success_at": "2026-11-15T19:38:22.867338+00:00",
+  "last_attempt_at": "2026-11-17T00:04:17.325698+00:00",
+  "last_success_at": "2026-11-17T00:04:18.597649+00:00",
   "count": 15,
   "papers": [
     {
@@ -146,6 +146,41 @@
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
     },
     {
+      "pmid": "42970829",
+      "title": "Multiscale temporal deep learning for ECG waveform estimation from contactless radar signals.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Electrocardiography (ECG) is widely used for monitoring cardiac activity and supporting the assessment of cardiovascular conditions. Conventional ECG systems require skin-contact electrodes, which may cause discomfort and limit their suitability for prolonged monitoring. Contactless radar sensing provides a non-contact approach for capturing chest-wall movements associated with cardiac activity. However, ECG waveform estimation from radar signals is challenging because radar measures mechanical chest-wall motion, whereas ECG represents electrical cardiac activity. In addition, respiratory interference, motion artifacts, phase distortion, and inter-subject variability can affect the relationship between radar and ECG signals. This study presents a multiscale temporal deep learning framework for ECG waveform estimation from contactless radar signals. The proposed framework combines radar signal preprocessing, feature extraction, multiscale residual convolutional learning, bidirectional long short-term memory networks, and multi-head attention to learn temporal and local signal representations from radar-derived features. Radar in-phase and quadrature () signals are processed through phase extraction, denoising, and feature extraction to construct the input representation for ECG estimation. The framework was evaluated using a publicly available synchronized radar-ECG dataset containing 30 subjects under the resting scenario. A subject-independent evaluation protocol was used, with separate participants assigned to training, validation, and testing subsets. Across five repeated subject-independent randomized splits, the proposed framework achieved a mean absolute error (MAE) of 0.07584, a root mean square error of 0.14261 and Pearson correlation coefficient (Pearson) of 0.64459. These results demonstrate the feasibility of estimating the overall temporal structure of ECG waveforms from contactless radar measurements under resting conditions.",
+      "authors": [
+        "Gaddala Peda Babu",
+        "Lakhan Dev Sharma"
+      ],
+      "published_on": "2026-11-02",
+      "doi": "10.1088/2057-1976/aebc91",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42970829/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aebc91"
+    },
+    {
+      "pmid": "42956407",
+      "title": "Subject-independent framework for protocol-defined stress task classification using multimodal physiological signals.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Prolonged stress can cause cardiovascular disease, depression, and anxiety. Reliable detection is therefore important. Existing studies using multimodal physiological methods have already reported accuracy, up to 99.7% however, two important aspects remain underexplored. First, most studies separate stress only from a neutral baseline, amusement, and different workload levels. Second, subject-independent performance remains limited because most studies evaluate their models using subject-dependent data splits that are prone to data leakage. This proposed study tries to address these gaps. Protocol-defined stress tasks are detected from everyday activities, not from any workload levels. The proposed model, a one-dimensional convolutional neural network, is evaluated subject-independently using leave-one-subject-out (LOSO) cross-validation. This proposed study was conducted on the GalaxyPPG dataset. The dataset includes ECG, PPG, and BVP signals. This enables multimodal fusion for stress detection during everyday activities. Single modalities achieve mean test accuracies of 62.19% for PPG, 67.74% for BVP, and 47.81% for ECG on LOSO. Fusion (ECG+PPG+BVP) achieves the mean test accuracy on LOSO evaluation,. To the best of the author's knowledge, this modality's combination (ECG+PPG+BVP) has not been explored in the literature for Galaxy PPG dataset.",
+      "authors": [
+        "Alok Kumar",
+        "Irshad Ahmad Ansari",
+        "Sri Niwas Singh"
+      ],
+      "published_on": "2026-10-29",
+      "doi": "10.1088/2057-1976/aebb35",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956407/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aebb35"
+    },
+    {
       "pmid": "43018264",
       "title": "An adaptive multi-scale dilated convolutional neural network for arrhythmia detection.",
       "journal": "Computer methods in biomechanics and biomedical engineering",
@@ -265,23 +300,6 @@
       "doi_url": "https://doi.org/10.1088/2057-1976/aebb34"
     },
     {
-      "pmid": "42970829",
-      "title": "Multiscale temporal deep learning for ECG waveform estimation from contactless radar signals.",
-      "journal": "Biomedical physics & engineering express",
-      "abstract": "Electrocardiography (ECG) is widely used for monitoring cardiac activity and supporting the assessment of cardiovascular&#xD;conditions. Conventional ECG systems require skin-contact electrodes, which may cause discomfort and limit their suitability for&#xD;prolonged monitoring. Contactless radar sensing provides a non-contact approach for capturing chest-wall movements associated&#xD;with cardiac activity. However, ECG waveform estimation from radar signals is challenging because radar measures mechanical&#xD;chest-wall motion, whereas ECG represents electrical cardiac activity. In addition, respiratory interference, motion artifacts, phase&#xD;distortion, and inter-subject variability can affect the relationship between radar and ECG signals. This study presents a multiscale&#xD;temporal deep learning framework for ECG waveform estimation from contactless radar signals. The proposed framework combines&#xD;radar signal preprocessing, feature extraction, multiscale residual convolutional learning, bidirectional long short-term memory&#xD;(BiLSTM) networks, and multi-head attention to learn temporal and local signal representations from radar-derived features. Radar&#xD;in-phase and quadrature (I/Q) signals are processed through phase extraction, denoising, and feature extraction to construct the&#xD;input representation for ECG estimation. The framework was evaluated using a publicly available synchronized radar-ECG dataset&#xD;containing 30 subjects under the resting scenario. A subject-independent evaluation protocol was used, with separate participants&#xD;assigned to training, validation, and testing subsets. Across five repeated subject-independent randomized splits, the proposed&#xD;framework achieved a mean absolute error (MAE) of 0.07584, a root mean square error (RMSE) of 0.14261 and Pearson correlation&#xD;coefficient (Pearson r) of 0.64459. These results demonstrate the feasibility of estimating the overall temporal structure of ECG&#xD;waveforms from contactless radar measurements under resting conditions.",
-      "authors": [
-        "Gaddala Peda Babu",
-        "Lakhan Dev Sharma"
-      ],
-      "published_on": "2026-11-02",
-      "doi": "10.1088/2057-1976/aebc91",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42970829/",
-      "doi_url": "https://doi.org/10.1088/2057-1976/aebc91"
-    },
-    {
       "pmid": "43009245",
       "title": "Deep Learning-Based BNP and NT-proBNP Evaluation From Wearable-Compatible Single-Lead ECGs for Heart Failure Assessment.",
       "journal": "Journal of cardiac failure",
@@ -322,23 +340,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996791/",
       "doi_url": "https://doi.org/10.1007/s13534-026-00615-7"
-    },
-    {
-      "pmid": "42996776",
-      "title": "JEPA-Mamba: a self-supervised joint-embedding architecture with bidirectional Mamba for ECG representation learning.",
-      "journal": "Biomedical engineering letters",
-      "abstract": "UNLABELLED: The electrocardiogram (ECG) is the primary non-invasive tool for early screening and clinical management of cardiovascular disease, but deep learning deployment is limited by scarce labeled data, by architectures that ignore the periodic structure of ECG signals, and by the trade-off between long-sequence efficiency and diagnostic accuracy. We propose JEPA-Mamba, a self-supervised representation learning framework that integrates the Joint-Embedding Predictive Architecture (JEPA) with a bidirectional Mamba encoder and a channel-temporal attention module (CTAM) for multi-adaptive ECG classification on downstream tasks. High-ratio contiguous-block masking trains an exponential moving average (EMA) encoder and a narrow predictor to learn diagnostic features without hand-crafted augmentation, while the bidirectional Mamba (BiM) encoder, augmented by rotary position embedding (RoPE) and a register mechanism, couples convolutional waveform extraction with linear-complexity long-sequence modeling and CTAM recalibrates the 12 leads and focuses temporal attention on clinically salient segments. Under a strict patient-level split on PTB-XL, with an encoder pretrained on MIMIC-IV-ECG for cross-dataset validation on the same tasks, JEPA-Mamba attains macro-averaged AUCs of 0.9296 ± 0.002 and 0.9306 ± 0.002 on the fully annotated task, outperforming self-supervised baselines on most downstream tasks and surpassing the most direct JEPA counterpart in the ECG domain across all tasks. Improvements over external baselines on the all, Sub-diag., and Diag. tasks are statistically significant, and internal ablation differences are confirmed by DeLong tests. Per-class analyses, attention maps, t-SNE embeddings, and robustness experiments under noise and baseline drift support these design choices. These results offer preliminary evidence for the clinical potential of JEPA-Mamba.\n\nSUPPLEMENTARY INFORMATION: The online version contains supplementary material available at https://doi.org/10.1007/s13534-026-00620-w.",
-      "authors": [
-        "Luyang Dai",
-        "Yuwen Li"
-      ],
-      "published_on": "2026-11-08",
-      "doi": "10.1007/s13534-026-00620-w",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996776/",
-      "doi_url": "https://doi.org/10.1007/s13534-026-00620-w"
     }
   ],
   "error": null,
