@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-19T07:11:25.225343+00:00",
-  "last_success_at": "2026-11-19T07:11:25.981336+00:00",
+  "last_attempt_at": "2026-11-20T08:14:01.416685+00:00",
+  "last_success_at": "2026-11-20T08:14:01.861609+00:00",
   "count": 15,
   "papers": [
     {
@@ -144,6 +144,45 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
       "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
+    },
+    {
+      "pmid": "43056751",
+      "title": "MRAST-Net: A Lightweight Multi-Receptive-Field Residual Temporal Network for 12-Lead ECG Classification.",
+      "journal": "Biomedical physics & engineering express",
+      "abstract": "Electrocardiogram (ECG) signals play an important role in cardiovascular disease screening, clinical monitoring, and remote healthcare. However, existing high-performing ECG classification methods usually rely on complex deep learning architectures, which often involve a large number of parameters, high computational cost, and limited deployability in resource-constrained scenarios. To balance classification performance and lightweight deployment, this paper proposes MRAST-Net, a lightweight multi-receptive-field residual temporal network for 12-lead ECG classification. The proposed model first employs a lead mixing layer to enable cross-lead information interaction. It then uses a lightweight multi-scale residual depthwise convolution module to extract local waveform morphology features under different receptive fields, while an efficient channel attention mechanism is introduced to enhance informative channel responses. On this basis, a temporal convolutional network is further incorporated to model long-range dynamic dependencies, and attentive statistics pooling is used to aggregate global statistical features for final multi-label classification. Experiments on two public 12-lead ECG datasets, PTB-XL and CPSC-2018, show that the proposed model achieves AUC scores of 93.12 $\\pm$ 0.16\\%, 92.29 $\\pm$ 0.80\\%, and 92.62 $\\pm$ 0.51\\%, and ACC scores of 89.17 $\\pm$ 0.09\\%, 96.40 $\\pm$ 0.02\\%, and 97.72 $\\pm$ 0.07\\% on the 5-superclass, 23-subclass, and 44-diagnostic-class tasks of PTB-XL, respectively. On CPSC-2018, MRAST-Net achieves an AUC of 96.57 $\\pm$ 0.43\\% and an ACC of 96.59 $\\pm$ 0.26\\% under 5$\\times$3 nested cross-validation. These results demonstrate that MRAST-Net achieves competitive classification performance while maintaining a low parameter scale, indicating its potential for deployment in resource-constrained scenarios such as portable monitoring devices, real-time assisted diagnosis, and primary healthcare.",
+      "authors": [
+        "Mingliang Wang",
+        "Mujun Zang",
+        "Tong Liu",
+        "Shusen Zhou",
+        "Chanjuan Liu",
+        "Qingjun Wang"
+      ],
+      "published_on": "2026-11-19",
+      "doi": "10.1088/2057-1976/aec456",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43056751/",
+      "doi_url": "https://doi.org/10.1088/2057-1976/aec456"
+    },
+    {
+      "pmid": "43056355",
+      "title": "Multimodal deep learning approach for frailty classification using electrocardiogram and chest X-ray imaging.",
+      "journal": "PLOS digital health",
+      "abstract": "Frailty is a critical age-related syndrome associated with increased risks of disability, hospitalization, and mortality. While Comprehensive Geriatric Assessment (CGA) is the standard for evaluation, it is often subjective, time-consuming, and resource-intensive. To address these limitations, this study developed and validated a multimodal deep learning framework that integrates chest X-rays (CXR) and electrocardiograms (ECG) to provide an objective and rapid tool for frailty classification. We retrospectively analyzed data from 2,830 older adults who underwent CGA between 2007 and 2024, partitioned chronologically into training, validation, and test sets. Frailty was defined using a Multidimensional Frailty Score (MFS) > 5. Three deep learning models were trained and evaluated: a CXR-only model (EVA-X vision transformer), an ECG-only model (DenseNet-121), and a multimodal model combining both inputs. The multimodal model outperformed the single-modality models and four non-imaging clinical baseline models incorporating age, sex, comorbidity index, or routine laboratory variables, achieving the highest area under the receiver operating characteristic curve (AUROC) of 0.778 and area under the precision-recall curve (AUPRC) of 0.726. For continuous MFS estimation, the multimodal model achieved the highest Pearson correlation (r = 0.610) and the lowest mean absolute error (MAE = 1.68) among the evaluated models. Gradient-weighted Class Activation Mapping (Grad-CAM) was used to qualitatively explore the image regions that influenced model predictions. This multimodal AI framework demonstrates modest classification performance and feasibility for frailty screening. By leveraging routinely collected clinical images, this framework may serve as a practical screening adjunct to identify older adults who may benefit from formal CGA. Further studies are needed to determine its clinical utility when applied preoperatively for the stratification of postoperative risk.",
+      "authors": [
+        "JinYong Park",
+        "Jung-Yeon Choi",
+        "Kwang-Il Kim"
+      ],
+      "published_on": "2026-11-19",
+      "doi": "10.1371/journal.pdig.0001838",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43056355/",
+      "doi_url": "https://doi.org/10.1371/journal.pdig.0001838"
     },
     {
       "pmid": "42970829",
@@ -298,48 +337,6 @@
       ],
       "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956413/",
       "doi_url": "https://doi.org/10.1088/2057-1976/aebb34"
-    },
-    {
-      "pmid": "43009245",
-      "title": "Deep Learning-Based BNP and NT-proBNP Evaluation From Wearable-Compatible Single-Lead ECGs for Heart Failure Assessment.",
-      "journal": "Journal of cardiac failure",
-      "abstract": "BACKGROUND: Brain natriuretic peptide (BNP) and N-terminal pro-BNP (NT-proBNP) are critical biomarkers for diagnosing and managing heart failure. With the growing availability of wearable technologies, single-lead electrocardiogram (ECG) images have emerged as a practical and noninvasive source of clinical information. This study explores the use of a deep learning-based approach to estimate BNP and NT-proBNP levels from single-lead ECG images, aiming to support rapid, noninvasive screening in real-world settings.\n\nMETHODS: We analyzed 528,654 lead I ECGs from 237,686 unique patients within the Houston Methodist Health System, each paired with a corresponding BNP value obtained within 24 hours. A modified VGG16 convolutional neural network (CNN) was trained to classify BNP levels into clinically relevant thresholds: ≥100, ≥400, and ≥900 pg/mL. To prevent data leakage and ensure patient-level independence, the dataset was split by unique patients into training, validation, and testing sets. Additionally, the model's generalizability was evaluated by using an external Medical Information Mart for Intensive Care (MIMIC)-IV-ECG testing cohort comprising 18,549 unique patients and 42,377 electrocardiograms (ECGs) with corresponding NT-proBNP measurements, with predictions assessed against established NT-proBNP thresholds of ≥125, ≥450, and ≥900 pg/mL. We then examined the association between ECG-predicted BNP (ECG-BNP) and incident HF in 706,715 patients at Houston Methodist.\n\nRESULTS: In the testing dataset, the model demonstrated robust performance, with area under the receiver operating characteristic (AUROC) values ranging from 0.84-0.86 and from 0.79-0.85 across the 3 classification thresholds of BNP and NT-proBNP, respectively. For the prediction of severe BNP elevation (≥900 pg/mL), the model achieved a sensitivity of 0.87 and a specificity of 0.70. The overall accuracy for distinguishing normal (<100 pg/mL) from elevated BNP levels (ie, ≥100 pg/mL) was 0.76. For NT-proBNP, the discriminative ability was higher at the lower cutoff (≥125 pg/mL) and declined slightly as thresholds increased, with AUROC values of 0.85, 0.82, and 0.79 for ≥125, ≥450, and ≥900 pg/mL, respectively. Consistent performance was observed across various demographic groups (sex and age categories) for all BNP and NT-proBNP thresholds. Higher baseline ECG-derived BNP levels were retrospectively associated with subsequent HF diagnosis across follow-up intervals extending up to 10 years, with stronger associations observed among patients whose baseline ECGs were temporally closer to HF diagnosis.\n\nCONCLUSION: This study developed and validated a deep-learning model for classifying clinically relevant BNP and NT-proBNP thresholds from single-lead ECG images. The model demonstrated strong discrimination and external validation, supporting further investigation of single-lead ECG-derived natriuretic peptide classification for scalable cardiovascular screening and risk assessment.",
-      "authors": [
-        "Mohammad Alkhaleefah",
-        "Rakesh Gullapelli",
-        "Budhaditya Bose",
-        "Elijah Rockers",
-        "Kershaw Patel",
-        "Bobak J Mortazavi",
-        "Guha Balakrishnan",
-        "Ashrith Guha",
-        "Khurram Nasir",
-        "Sadeer Al-Kindi"
-      ],
-      "published_on": "2026-11-10",
-      "doi": "10.1016/j.cardfail.2026.08.034",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43009245/",
-      "doi_url": "https://doi.org/10.1016/j.cardfail.2026.08.034"
-    },
-    {
-      "pmid": "42996791",
-      "title": "Patient-adaptive and clinically interpretable arrhythmia detection from ECG using lightweight hybrid deep learning.",
-      "journal": "Biomedical engineering letters",
-      "abstract": "A precise and reliable identification of cardiac arrhythmias from electrocardiogram (ECG) signals is critical for making informed clinical decisions. In this paper, a patient-adaptive and clinically interpretable a hybrid CNN-LSTM model with an attention mechanism is offered as a framework for ECG arrhythmia identification. The proposed framework combines signal preprocessing techniques with domain knowledge-driven morphological and time-frequency features to jointly analyze the waveform patterns and temporal dependencies in noisy ECG signals. In addition to beat-level classification, a composite arrhythmia burden score is also proposed to offer a patient-level summary of arrhythmic activity, and a lightweight patient-specific adaptation method is used to enhance reliability with limited calibration data. Over 99% accuracy and strong sensitivity to ventricular and supraventricular arrhythmias are demonstrated by experimental results employing a rigorous inter-patient methodology on the MIT-BIH Arrhythmia Database. The suggested framework's capacity to generalize on actual clinical datasets is further validated by external validation on the PTB-XL dataset without retraining. The proposed framework is also scalable for cloud-based deployment to enable continuous ECG monitoring, thus emphasizing its potential for practical and patient-centric cardiac care.",
-      "authors": [
-        "Gauri S Bhagat",
-        "Nitin S More"
-      ],
-      "published_on": "2026-11-08",
-      "doi": "10.1007/s13534-026-00615-7",
-      "publication_types": [
-        "Journal Article"
-      ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42996791/",
-      "doi_url": "https://doi.org/10.1007/s13534-026-00615-7"
     }
   ],
   "error": null,
