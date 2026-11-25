@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-11-23T19:04:57.917873+00:00",
-    "last_success_at": "2026-11-23T19:04:58.593272+00:00",
+    "last_attempt_at": "2026-11-25T00:28:01.973410+00:00",
+    "last_success_at": "2026-11-25T00:28:02.744400+00:00",
     "count": 15,
     "papers": [
       {
@@ -160,6 +160,71 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
         "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
+      },
+      {
+        "pmid": "43077017",
+        "title": "MKP-ECG: A Knowledge-Enhanced Dual-Stream Network for Robust Arrhythmia Classification with Medical Prior-Guided Multi-Loss Optimization.",
+        "journal": "Interdisciplinary sciences, computational life sciences",
+        "abstract": "Accurate classification of cardiac arrhythmias from electrocardiogram (ECG) signals is essential for clinical decision-making, yet deep learning models often struggle with minority classes such as Fusion beats (F-type) owing to severe class imbalance and insufficient integration of domain knowledge. In this work, we propose Medical Knowledge Prior Network (MKP-ECG), a knowledge-enhanced dual-stream network for four-class arrhythmia classification (N, S, V, F) following the AAMI standard. The first stream employs a multi-scale CNN with residual connections and squeeze-and-excitation attention to learn data-driven representations from raw waveforms. The second stream, termed the Medical Prior Module, extracts a 34-dimensional clinical feature vector encoding morphology, rhythm, template matching, and rule-based indicators that mirror the reasoning process of cardiologists. The two streams are fused through explicit feature concatenation and a knowledge attention gate that dynamically modulates neural representations based on clinical evidence, and are jointly optimized by a composite loss function comprising two novel medical knowledge prior losses: a knowledge graph KL-divergence loss that aligns predictions with expert-defined electrophysiological priors and a clinical constraint loss that penalizes predictions contradicting established diagnostic criteria. Evaluated on the MIT-BIH Arrhythmia Database under the inter-patient DS1/DS2 paradigm with methodologically corrected data augmentation (waveform-only SMOTE with nearest-neighbor clinical feature copying and purity-weighted contrastive loss), MKP-ECG achieves 99.14% accuracy, 92.77% Macro-F1, and 76.98% F-class F1-score with perfect F-recall, representing a 51.7% relative improvement over the knowledge-free baseline. Independent evaluation on the INCART database, where the model is trained and tested entirely within INCART using the same architecture and hyperparameters without any dataset-specific tuning, provides encouraging evidence of architectural generalizability under a record-split protocol, achieving 99.71% accuracy and 87.43% F-class F1-score.",
+        "authors": [
+          "Tianjun Zhang",
+          "Lisong Diao",
+          "Qian Li",
+          "Hongxia Zhang",
+          "Qi Zhou"
+        ],
+        "published_on": "2026-11-24",
+        "doi": "10.1007/s12539-026-00892-x",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43077017/",
+        "doi_url": "https://doi.org/10.1007/s12539-026-00892-x"
+      },
+      {
+        "pmid": "42663420",
+        "title": "Electrocardiogram-Based Deep Learning to Prioritize Testing for Transthyretin Amyloid Cardiomyopathy.",
+        "journal": "JAMA",
+        "abstract": "IMPORTANCE: Transthyretin amyloid cardiomyopathy (ATTR-CM) is a treatable cause of heart failure, but diagnosis is often delayed. Accessible tools to prioritize confirmatory evaluation could reduce missed diagnoses when cardiac imaging is limited.\n\nOBJECTIVE: To develop and validate a locally deployable artificial intelligence (AI)-enabled system that identifies patients for further ATTR-CM evaluation from routine electrocardiography (ECG) images.\n\nDESIGN, SETTING, AND PARTICIPANTS: This diagnostic test study used an AI-ECG model developed within Yale New Haven Health (using ECGs from August 2015-June 2023) and temporally validated (July 2023-July 2025). External validation included 5 multinational cohorts and 3 screening cohorts (older Black and Hispanic adults with heart failure; adults with prior carpal tunnel surgery; 99-3902 individuals per cohort).\n\nEXPOSURE: Use of AI-ECG for detecting ATTR-CM from routine ECG images or raw 12-lead signals.\n\nMAIN OUTCOMES AND MEASURES: Area under the receiver operating characteristic curve (AUROC), sensitivity, specificity, and positive and negative predictive values for ATTR-CM confirmed by cardiac amyloid radionuclide imaging (CARI) or biopsy. An exploratory analysis evaluated sequential screening with AI-ECG followed by AI-enabled echocardiography.\n\nRESULTS: Development used 28 174 ECGs from 11 291 patients (293 with ATTR-CM). In internal validation (44 123 patients; mean age, 68.5 years; 49.7% female), AUROC was 0.84 (95% CI, 0.79-0.89), with sensitivity of 0.72 and specificity of 0.86 at the prespecified threshold, and was maintained in a specificity stress test among patients with features that mimic ATTR-CM (left ventricular hypertrophy or severe aortic stenosis without amyloid; AUROC, 0.81 [95% CI, 0.75-0.86]) and those referred for CARI (AUROC, 0.78 [95% CI, 0.73-0.84]). Across 5 external cohorts, AUROCs ranged from 0.78 to 0.89. In 3 screening cohorts, AUROCs were 0.76 (95% CI, 0.68-0.83) in the SCAN-MP study (n = 645) and 0.79 (95% CI, 0.65-0.93) and 0.91 (95% CI, 0.82-0.97) in 2 CACTUS study cohorts (n = 251, n = 121). Sequential AI-ECG and AI-enabled echocardiography increased the positive predictive value from 0.24 to 0.66 and reduced sensitivity from 0.84 to 0.68.\n\nCONCLUSIONS AND RELEVANCE: Locally deployable AI applied to ECG images discriminated ATTR-CM across multinational retrospective and screening cohorts. This approach may provide an accessible first step to prioritize selected patients for echocardiography and confirmatory imaging, although intended use and calibration require prospective evaluation.",
+        "authors": [
+          "Philip M Croon",
+          "Bruno Batinica",
+          "Lovedeep S Dhingra",
+          "Ryan B Choi",
+          "Evangelos K Oikonomou",
+          "Sumukh V Shankar",
+          "Veer Sangha",
+          "Robert M A van der Boon",
+          "Michelle Michels",
+          "Maarten van Ettinger",
+          "Peter-Paul Zwetsloot",
+          "Sergio Teruya",
+          "Cesia Gallegos Kattan",
+          "Edward J Miller",
+          "Navid Noory",
+          "Oscar M Westin",
+          "Sie K Fensman",
+          "Steen Hvitfeldt Poulsen",
+          "Avneet Singh",
+          "Sudarshan Balla",
+          "Anouk Achten",
+          "Charalambos Vlachopoulos",
+          "Alexios S Antonopoulos",
+          "Nico Bruining",
+          "Julian D Gillmore",
+          "Mathew S Maurer",
+          "Frederick L Ruberg",
+          "Marianna Fontana",
+          "Rohan Khera"
+        ],
+        "published_on": "2026-08-28",
+        "doi": "10.1001/jama.2026.16785",
+        "publication_types": [
+          "Journal Article",
+          "Validation Study"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42663420/",
+        "doi_url": "https://doi.org/10.1001/jama.2026.16785"
       },
       {
         "pmid": "43056751",
@@ -315,44 +380,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43030850/",
         "doi_url": "https://doi.org/10.3390/jcm15218707"
-      },
-      {
-        "pmid": "42993770",
-        "title": "Deep learning optimisation for cardiology: Neural Architecture Search-driven arrhythmia classification with electrocardiograms.",
-        "journal": "PloS one",
-        "abstract": "Cardiovascular disease is the leading cause of death worldwide. Sudden cardiac death (SCD) accounts for roughly 50% of all cardiac deaths. The electrocardiogram (ECG) is widely used for diagnosing cardiac disease. However, the complexity of interpretation limits the ECG's efficacy. Modern deep learning methods can assist clinicians in diagnosis. We applied Neural Architecture Search (NAS) to identify optimal deep learning architectures for classifying cardiac arrhythmias with ECGs. We applied the Differentiable Architecture Search strategy to an AutoFormer search and trained, validated, and tested the resulting model on the PhysioNet Challenge 2021 (PC21) dataset (n = 88,253 from three continents). We optimised hyperparameters on the NAS output, exploring input patch size, class weighting, and loss function. The PC21 metric and the area under the receiver operating characteristic curve (AUROC) are the performance metrics. The NAS converged towards minimal architectural configurations (embedding dimension: 384, depth: 4, self-attention heads: 4, MLP ratio: 1) with a validation and test PC21 metric of 0.66 (PC21 winner: 0.63). The NAS-created network achieved an AUROC of 0.97 and a PC21 metric of 0.72 during testing (PC21 winner: 0.69). We tested the PC21 winner architecture (1D-convolutional neural network with attention mechanism) without the attention mechanism and with the NAS-suggested architecture of 4 self-attention heads (instead of 8). The architecture without the attention mechanism performed similarly to the one with 8 self-attention heads (AUROC: 0.90, PC21 metric: 0.69). The architecture with 4 self-attention heads scored an AUROC of 0.91 and improved the PC21 metric to 0.71. The attention mechanism visualisation for two SCD-related arrhythmias (premature ventricular contractions and prolonged QT-interval) showed more clinically relevant attention for the 4-self-attention-head architectures. We interpret architectural simplicity as driving performance in arrhythmia classification. The self-attention mechanism can autonomously abstract clinical representations, simplifying clinical deployment by eliminating the need for an explicit feature-extraction pipeline.",
-        "authors": [
-          "Erik Vanegas Müller",
-          "Arese Joe-Oshodi",
-          "Abhirup Banerjee",
-          "Mauricio Villarroel"
-        ],
-        "published_on": "2026-11-06",
-        "doi": "10.1371/journal.pone.0362129",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42993770/",
-        "doi_url": "https://doi.org/10.1371/journal.pone.0362129"
-      },
-      {
-        "pmid": "42956413",
-        "title": "Deep learning and dual-domain fusion of temporal and spectrotemporal SCG for valvular heart disease classification.",
-        "journal": "Biomedical physics & engineering express",
-        "abstract": "Heart valve disease (HVD) is a growing cause of cardiovascular morbidity, yet accessible screening tools remain limited. Tri-axial seismocardiogram (SCG) signals capture mechanical signatures of both stenosis and regurgitation, but their non-stationary nature and subtle inter-lesion morphological differences challenge robust classification from a single representation. This study proposes an electrocardiogram (ECG)-free dual-domain deep learning framework that combines a 1D convolutional-recurrent encoder of raw SCG waveforms with a 2D EfficientNet encoder of continuous wavelet transform scalograms, integrating temporal and spectrotemporal representations through feature-level fusion. The framework was evaluated on primary valve lesion classification in 94 patients, with an additional exploratory analysis of multi-valvular, aortic-stenosis-dominant disease. Under patient-level stratified group cross-validation, the fused model achieved the highest mean accuracy (65.3%; 95% CI, 59.8%-70.7%), exceeding both unimodal encoders and the majority-class (35.2%) and covariate-only (39.1%) baselines. The same mean performance ordering was preserved when the image backbone was replaced, although the confidence intervals overlap at this cohort size. Under the segment-level protocol used in prior studies, the framework achieved 99.63% accuracy, with faster training convergence and more compact, separable feature clusters than either unimodal encoder. These findings support the value of combining temporal and spectrotemporal SCG representations and demonstrate its potential for ECG-free HVD classification under patient-independent evaluation.",
-        "authors": [
-          "Junseob Kim",
-          "Tilendra Choudhary",
-          "Md Hassanuzzaman",
-          "Rishikesan Kamaleswaran"
-        ],
-        "published_on": "2026-10-29",
-        "doi": "10.1088/2057-1976/aebb34",
-        "publication_types": [
-          "Journal Article"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42956413/",
-        "doi_url": "https://doi.org/10.1088/2057-1976/aebb34"
       }
     ],
     "error": null,
@@ -365,6 +392,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-11-24T19:04:58.593272+00:00",
+  "next_refresh_at": "2026-11-26T00:28:02.744400+00:00",
   "next_push_at": null
 }
