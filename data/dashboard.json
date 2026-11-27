@@ -18,8 +18,8 @@
     "source": "PubMed",
     "status": "ready",
     "message": "Refresh complete.",
-    "last_attempt_at": "2026-11-26T02:42:29.162635+00:00",
-    "last_success_at": "2026-11-26T02:42:30.156989+00:00",
+    "last_attempt_at": "2026-11-27T03:59:20.520852+00:00",
+    "last_success_at": "2026-11-27T03:59:21.478570+00:00",
     "count": 15,
     "papers": [
       {
@@ -227,6 +227,24 @@
         "doi_url": "https://doi.org/10.1001/jama.2026.16785"
       },
       {
+        "pmid": "43092832",
+        "title": "Scaling to Multimodal and Multichannel Heart Sound Classification with Synthetic and Augmented Biosignals.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "abstract": "Cardiovascular diseases (CVDs) are the leading cause of death worldwide, accounting for approximately 17.9 million deaths each year. Effective treatment requires early detection, which can be achieved with accurate and inexpensive pre-screening. This study uses a wearable vest which records real-world phonocardiogram (PCG) data from several auscultation sites at once (mPCG), but the cohort is small and the recordings noisy. To improve classification performance despite this limited, noisy dataset, signal processing augmentation and the denoising diffusion models WaveGrad and DiffWave supply additional training data for fine-tuning a pre-trained Wav2Vec 2.0 encoder. This work evaluates augmentation across three settings with increasingly complex inputs and smaller recording datasets: single-channel PCG, synchronised PCG and electrocardiogram (ECG), and six-channel mPCG. Accuracy, unweighted average recall (UAR) and Matthews correlation coefficient (MCC) reach 92.98%, 92.48% and 0.8064 on the Computing in Cardiology (CinC) 2016 single-channel PCG dataset, 93.14%, 92.21% and 0.8380 on its synchronised PCG-ECG training-a subset, and 77.13%, 74.25% and 0.5082 on the vest mPCG dataset. On a separate 40-subject vest hold-out, the SVM achieves mean accuracy, UAR and MCC of 79.17%, 72.22% and 0.574, respectively. Ablations examine pre-training, augmentation, generated data and encoder adaptation. For the primary classification configurations, the combination of original, conventionally augmented and generated data gives the highest mean performance.",
+        "authors": [
+          "Milan Marocchi",
+          "Matthew Fynn",
+          "Yue Rong"
+        ],
+        "published_on": "2026-11-26",
+        "doi": "10.3390/s26227355",
+        "publication_types": [
+          "Journal Article"
+        ],
+        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43092832/",
+        "doi_url": "https://doi.org/10.3390/s26227355"
+      },
+      {
         "pmid": "43056751",
         "title": "MRAST-Net: A Lightweight Multi-Receptive-Field Residual Temporal Network for 12-Lead ECG Classification.",
         "journal": "Biomedical physics & engineering express",
@@ -354,32 +372,6 @@
         ],
         "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43032706/",
         "doi_url": "https://doi.org/10.14797/mdcvj.1917"
-      },
-      {
-        "pmid": "43030850",
-        "title": "Artificial Intelligence in Pulmonary Hypertension: Advancements, Opportunities, and Challenges.",
-        "journal": "Journal of clinical medicine",
-        "abstract": "Pulmonary hypertension (PH) is a progressive cardiopulmonary disorder associated with high morbidity and mortality. Delayed diagnosis, heterogeneous disease phenotypes, and variable treatment responses remain major clinical challenges. Artificial intelligence (AI), including machine learning and deep learning, has emerged as a promising tool for improving PH management. AI-based models have demonstrated promising performance in screening, diagnosis, classification, risk stratification, and prognosis prediction using multimodal data such as electrocardiography, chest radiography, computed tomography, cardiac magnetic resonance imaging, echocardiography, and electronic health records. Furthermore, AI may support individualized risk assessment, treatment-response prediction, early identification of right ventricular deterioration, and longitudinal remote monitoring. Emerging technologies, including explainable AI, federated learning, large language models, and digital twins, may further advance precision medicine in PH. Despite these advances, data quality, interpretability, privacy, and clinical implementation of AI remain challenges. This review summarizes current applications, opportunities, and challenges of AI in PH and discusses future directions for AI-assisted precision healthcare.",
-        "authors": [
-          "Xinyi Li",
-          "Linyue Zhang",
-          "Li Zhang",
-          "Yuji Xie",
-          "Mingxing Xie",
-          "Mengmeng Ji",
-          "Qing He",
-          "Zhenni Wu",
-          "Shuxuan Qin",
-          "Yuman Li"
-        ],
-        "published_on": "2026-11-14",
-        "doi": "10.3390/jcm15218707",
-        "publication_types": [
-          "Journal Article",
-          "Review"
-        ],
-        "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43030850/",
-        "doi_url": "https://doi.org/10.3390/jcm15218707"
       }
     ],
     "error": null,
@@ -392,6 +384,6 @@
     "last_push_count": 0,
     "notified_paper_ids": []
   },
-  "next_refresh_at": "2026-11-27T02:42:30.156989+00:00",
+  "next_refresh_at": "2026-11-28T03:59:21.478570+00:00",
   "next_push_at": null
 }
