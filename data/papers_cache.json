@@ -2,8 +2,8 @@
   "source": "PubMed",
   "status": "ready",
   "message": "Refresh complete.",
-  "last_attempt_at": "2026-11-27T03:59:20.520852+00:00",
-  "last_success_at": "2026-11-27T03:59:21.478570+00:00",
+  "last_attempt_at": "2026-11-28T04:37:03.085981+00:00",
+  "last_success_at": "2026-11-28T04:37:03.785480+00:00",
   "count": 15,
   "papers": [
     {
@@ -115,35 +115,25 @@
       "doi_url": "https://doi.org/10.1007/s11571-026-10537-w"
     },
     {
-      "pmid": "42668095",
-      "title": "AI-based multimodal analysis of ECG and clinical data for evaluation for competitive sports participation: The VALETUDO trial.",
-      "journal": "International journal of cardiology",
-      "abstract": "AIMS: Pre-participation cardiovascular screening (PPS) is essential for preventing SCD in athletes, yet ECG interpretation requires expertise and remains resource-intensive. We aimed to evaluate the feasibility and diagnostic performance of a deep learning (DL) model for analysis of clinical data and resting 12‑lead ECG obtained during routine PPS in competitive athletes.\n\nMETHODS: In this prospective single center observational study, competitive athletes aged 18 to 60 years and undergoing routine PPS were enrolled. PPS included medical history, physical examination, resting and exercise ECG. Athletes were classified as fit or not fit for competitive sports according to clinical evaluation. Resting ECG and clinical variables were analyzed using a multimodal DL architecture. Model performance was assessed using stratified 10-fold cross-validation against PPS clinical classification.\n\nRESULTS: A total of 526 athletes were enrolled (72% male, median age of 27 years (IQR: 20-41); 166 (32%) had a negative PPS result. The test setting (10-fold cross-validation), the model achieved moderate discrimination with an accuracy of 0.64 ± 0.08, SE 0.68 ± 0.15, SP 0.61 ± 0.17, F1-score 0.72 ± 0.1, PPV 0.80 ± 0.07, NPV 0.48 ± 0.12, AUC 0.72(0.66-0.78). Training performances reached accuracy of 0.70 ± 0.06, SE 0.73 ± 0.12, SP 0.67 ± 0.14, F1-score 0.77 ± 0.07, AUC 0.79 (0.74-0.83).\n\nCONCLUSION: Automated DL-based analysis of 12‑lead ECG during PPS is feasible and showed encouraging diagnostic performance in competitive athletes. Although wider experience and external validation is required, AI-assisted multimodal ECG interpretation may represent a useful adjunct to physician assessment for cardiovascular risk stratification in sport screening programs.",
+      "pmid": "42887532",
+      "title": "KDM-Net: a large-kernel and Bi-Mamba integrated network for 12-lead atrial arrhythmia classification.",
+      "journal": "Physiological measurement",
+      "abstract": "Objective.Automatic recognition of atrial arrhythmias is important for early clinical screening and computer-aided diagnosis. Distinguishing atrial fibrillation from atrial flutter remains challenging because of their similar electrocardiographic manifestations and high risk of misclassification. This study aimed to develop an effective model for atrial arrhythmia classification with improved multi-lead feature utilization, long-range temporal modeling, and cross-patient generalization.Approach.We propose KDM-Net, which takes 12-lead electrocardiogram signals as input. The network employs a large-kernel K module to enhance the perception of waveform morphology and rhythm patterns, a D module to recalibrate and fuse multi-lead features, and a bidirectional Mamba-based M module to model long-range temporal dependencies. KDM-Net was evaluated on the combined CUSPH and PTB-XL dataset under an inter-patient protocol.Main results.In five-fold cross-validation, KDM-Net achieved an average accuracy and1-score of 96.04% and 89.21%, respectively. On the independent patient-level test set, the accuracy and1-score were 96.41% and 88.31%, respectively. On the CinC 2020 external test set, the model achieved an accuracy and1-score of 91.14% and 80.41%, respectively. KDM-Net outperformed several representative models in comparative experiments.Significance.KDM-Net effectively integrates multi-lead spatial information and long-range temporal dependencies, demonstrating strong recognition performance and promising cross-patient generalization. It provides an effective solution for the intelligent diagnosis of atrial arrhythmias.",
       "authors": [
-        "Davide Marchetti",
-        "Marion Taconné",
-        "Edoardo Conte",
-        "Francesca Quaglia",
-        "Andrea Provera",
-        "Michele Gallazzi",
-        "Pasquale Paolisso",
-        "Melotti Eleonora",
-        "Matteo Schillaci",
-        "Antonio Bartorelli",
-        "Valentina Corino",
-        "Pietro Cerveri",
-        "Paolo Zeppilli",
-        "Luca Mainardi",
-        "Daniele Andreini"
+        "Yinghao Sun",
+        "Mujun Zang",
+        "Tong Liu",
+        "Shusen Zhou",
+        "Chanjuan Liu",
+        "Qingjun Wang"
       ],
-      "published_on": "2026-08-29",
-      "doi": "10.1016/j.ijcard.2026.134744",
+      "published_on": "2026-10-16",
+      "doi": "10.1088/1361-6579/aeb59f",
       "publication_types": [
-        "Journal Article",
-        "Observational Study"
+        "Journal Article"
       ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42668095/",
-      "doi_url": "https://doi.org/10.1016/j.ijcard.2026.134744"
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42887532/",
+      "doi_url": "https://doi.org/10.1088/1361-6579/aeb59f"
     },
     {
       "pmid": "43077017",
@@ -323,39 +313,24 @@
       "doi_url": "https://doi.org/10.1080/10255842.2026.2746753"
     },
     {
-      "pmid": "43032706",
-      "title": "Artificial Intelligence in Coronary Artery Disease: From Detection to Precision Management.",
-      "journal": "Methodist DeBakey cardiovascular journal",
-      "abstract": "Coronary artery disease (CAD) remains the leading cause of death worldwide, yet the landscape is rapidly evolving as artificial intelligence (AI) is increasingly applied to its detection, diagnosis, and management. This review surveys the expanding role of AI across the full spectrum of CAD care. In screening, deep-learning electrocardiography and electronic health record-based digital markers enable earlier identification of clinically significant disease. In noninvasive imaging, AI-driven coronary computed tomography angiography automates calcium scoring, derives fractional flow reserve without invasive wires, and quantifies high-risk plaque features that predict incident adverse events. Within the cardiac catheterization laboratory, angiography-derived physiologic assessment and AI-guided intravascular imaging segmentation support real-time procedural decision-making. Beyond diagnosis, machine-learning models integrating multimodality imaging data improve risk stratification over conventional clinical scores, while pharmacogenomic algorithms and wearable-based digital rehabilitation platforms enable patient-centric secondary prevention. Despite this progress, significant challenges persist, including limited evidence from randomized trials, algorithmic bias in underrepresented populations, regulatory uncertainty surrounding software-as-a-medical-device frameworks, and the risk of clinician de-skilling. AI has the potential to act as a collaborative tool that augments-rather than replaces-physician judgment. Future directions include foundation models, multiomics integration, agentic AI workflows, and equity-centered deployment strategies to ensure that AI-driven advances benefit all individuals with CAD.",
+      "pmid": "43101211",
+      "title": "Artificial Intelligence in Cardiovascular Disease: Current Applications, Methodological Challenges, and Clinical Translation.",
+      "journal": "Reviews in cardiovascular medicine",
+      "abstract": "Artificial intelligence (AI), including machine learning (ML) and deep learning (DL), is increasingly being investigated for cardiovascular diagnosis, risk stratification, and prognostic assessment, leveraging electrocardiography, cardiovascular imaging, electronic health records, wearable devices, and molecular data. This review summarizes current AI applications in ischemic heart disease, acute coronary syndromes, heart failure, arrhythmias, and structural cardiovascular disease, and critically examines the methodological requirements for clinical translation. Particular attention is given to model taxonomy, data leakage, overfitting, external validation, calibration, dataset shift, explainability, clinical utility, privacy, cybersecurity, and regulatory considerations. Current evidence shows that AI can identify clinically relevant patterns and may complement conventional cardiovascular assessment; however, high performance in retrospective or selected datasets does not necessarily translate into improved patient outcomes. Therefore, robust patient-level data separation, independent external and prospective validation, calibration assessment, workflow evaluation, and post-deployment monitoring are essential. Emerging multimodal, hybrid, and foundation-model approaches may further improve cardiovascular prediction, but their clinical value requires rigorous evaluation. Currently, AI should primarily be regarded as a complementary decision-support tool rather than a replacement for established diagnostic or prognostic standards.",
       "authors": [
-        "Keshav Garg",
-        "Landon Bruich",
-        "Luke J Enemark",
-        "Khalid Sawalha",
-        "Aakash Rana",
-        "Ankit Agrawal",
-        "Robert F Spraggins",
-        "Osama Khalaila",
-        "Mohanad Shehadeh",
-        "Buthainah Alhwarat",
-        "Carsten Johnson",
-        "Avirup Guha",
-        "Yiye Zhang",
-        "Gianluca Pontone",
-        "Sourbha S Dani",
-        "Vignesh Chindambaram",
-        "Lohendran Baskaran",
-        "Bhupendar Tayal",
-        "Subhi J Al'Aref"
+        "Basheer Abdullah Marzoog",
+        "Daria Gognieva",
+        "Peter Chomakhidze",
+        "Philipp Kopylov"
       ],
-      "published_on": "2026-11-15",
-      "doi": "10.14797/mdcvj.1917",
+      "published_on": "2026-11-27",
+      "doi": "10.31083/RCM54303",
       "publication_types": [
         "Journal Article",
         "Review"
       ],
-      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43032706/",
-      "doi_url": "https://doi.org/10.14797/mdcvj.1917"
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/43101211/",
+      "doi_url": "https://doi.org/10.31083/RCM54303"
     }
   ],
   "error": null,
